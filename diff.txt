@@ -1,0 +1,20 @@
+diff --git a/alm/ALMProject.java b/alm/ALMProject.java
+index 55edb5d..6749589 100644
+--- a/alm/ALMProject.java
++++ b/alm/ALMProject.java
+@@ -12,13 +12,9 @@ import javax.xml.bind.annotation.XmlRootElement;
+  */
+ @XmlRootElement(name="project")
+ public class ALMProject {
+-	/**
+-	 * Project ID
+-	 */
++
+ 	private String id;
+-	/**
+-	 * Project Name
+-	 */
++    //Ramesh added this comment
+ 	private String name;
+ 	/**
+ 	 * Project Key

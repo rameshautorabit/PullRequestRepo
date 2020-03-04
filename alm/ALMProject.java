@@ -12,13 +12,9 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement(name="project")
 public class ALMProject {
-	/**
-	 * Project ID
-	 */
+
 	private String id;
-	/**
-	 * Project Name
-	 */
+    //Ramesh added this comment
 	private String name;
 	/**
 	 * Project Key
