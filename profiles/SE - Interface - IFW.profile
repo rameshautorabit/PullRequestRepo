@@ -37,7 +37,7 @@
 <classAccesses><apexClass>AP04_AgreementTrigger_Test</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP05_OpportunityTrigger</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP05_OpportunityTrigger_Test</apexClass><enabled>true</enabled></classAccesses>
-<classAccesses><apexClass>AP08_CaseStatusUpdate</apexClass><enabled>true</enabled></classAccesses>
+<classAccesses><apexClass>AP08_CaseStatusUpdate</apexClass><enabled>false</enabled></classAccesses>
 <classAccesses><apexClass>AP08_CaseStatusUpdate_TEST</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP09_BusinessRiskEscalation</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP09_BusinessRiskEscalation_Test</apexClass><enabled>true</enabled></classAccesses>

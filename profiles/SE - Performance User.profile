@@ -13,7 +13,7 @@
 <applicationVisibilities><application>smagicinteract__SMSMagicInteract</application><default>false</default><visible>true</visible></applicationVisibilities>
 <applicationVisibilities><application>standard__AllTabSet</application><default>false</default><visible>true</visible></applicationVisibilities>
 <applicationVisibilities><application>standard__AppLauncher</application><default>false</default><visible>true</visible></applicationVisibilities>
-<applicationVisibilities><application>standard__Chatter</application><default>false</default><visible>true</visible></applicationVisibilities>
+<applicationVisibilities><application>standard__Chatter</application><default>true</default><visible>true</visible></applicationVisibilities>
 <applicationVisibilities><application>standard__Content</application><default>false</default><visible>true</visible></applicationVisibilities>
 <applicationVisibilities><application>standard__Insights</application><default>false</default><visible>true</visible></applicationVisibilities>
 <applicationVisibilities><application>standard__LightningInstrumentation</application><default>false</default><visible>true</visible></applicationVisibilities>
@@ -27,7 +27,7 @@
 <classAccesses><apexClass>AP04_AgreementTrigger</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP05_OpportunityTrigger</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP05_OpportunityTrigger_Test</apexClass><enabled>true</enabled></classAccesses>
-<classAccesses><apexClass>AP08_CaseStatusUpdate</apexClass><enabled>true</enabled></classAccesses>
+<classAccesses><apexClass>AP08_CaseStatusUpdate</apexClass><enabled>false</enabled></classAccesses>
 <classAccesses><apexClass>AP09_BusinessRiskEscalation</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP10_CaseTrigger</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP11_UpdateQuoteLink</apexClass><enabled>true</enabled></classAccesses>

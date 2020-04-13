@@ -13,7 +13,7 @@
 <applicationVisibilities><application>standard__LightningSales</application><default>false</default><visible>true</visible></applicationVisibilities>
 <applicationVisibilities><application>standard__LightningSalesConsole</application><default>false</default><visible>true</visible></applicationVisibilities>
 <applicationVisibilities><application>standard__LightningService</application><default>false</default><visible>true</visible></applicationVisibilities>
-<classAccesses><apexClass>AP_AURRecordUpdate</apexClass><enabled>true</enabled></classAccesses>
+<classAccesses><apexClass>AP_AURRecordUpdate</apexClass><enabled>false</enabled></classAccesses>
 <classAccesses><apexClass>AP_CONCreateWithSEContactID</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP_ContactPreferredAgent</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP_ContractManagement</apexClass><enabled>true</enabled></classAccesses>
@@ -25,11 +25,11 @@
 <classAccesses><apexClass>AP_RI_FieldUpdate</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP_RPDT_CreateNewRPDT</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP_RR_FieldUpdate</apexClass><enabled>true</enabled></classAccesses>
-<classAccesses><apexClass>AvayaConnector__DataRetrieval</apexClass><enabled>true</enabled></classAccesses>
+<classAccesses><apexClass>AvayaConnector__DataRetrieval</apexClass><enabled>false</enabled></classAccesses>
 <classAccesses><apexClass>AvayaConnector__DataRetrievalUnitTest</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AvayaConnector__ObjectDetailsRetrieval</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AvayaConnector__ObjectDetailsRetrievalUnitTest</apexClass><enabled>true</enabled></classAccesses>
-<classAccesses><apexClass>AvayaConnector__SalesforceDirectory</apexClass><enabled>true</enabled></classAccesses>
+<classAccesses><apexClass>AvayaConnector__SalesforceDirectory</apexClass><enabled>false</enabled></classAccesses>
 <classAccesses><apexClass>AvayaConnector__SalesforceDirectoryUnitTest</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AvayaConnector__UserRetrieval</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AvayaConnector__UserRetrievalUnitTest</apexClass><enabled>true</enabled></classAccesses>
@@ -13015,7 +13015,7 @@
 <recordTypeVisibilities><default>true</default><personAccountDefault>true</personAccountDefault><recordType>SVMXC__Service_Group__c.SVMXC__Equipment</recordType><visible>true</visible></recordTypeVisibilities>
 <recordTypeVisibilities><default>false</default><recordType>SVMXC__Service_Group__c.SVMXC__Technician</recordType><visible>true</visible></recordTypeVisibilities>
 <recordTypeVisibilities><default>false</default><recordType>SVMXC__Service_Order_Line__c.Expense</recordType><visible>true</visible></recordTypeVisibilities>
-<recordTypeVisibilities><default>true</default><recordType>SVMXC__Service_Order_Line__c.Labor</recordType><visible>true</visible></recordTypeVisibilities>
+<recordTypeVisibilities><default>true</default><recordType>SVMXC__Service_Order_Line__c.Labor</recordType><visible>false</visible></recordTypeVisibilities>
 <recordTypeVisibilities><default>false</default><recordType>SVMXC__Service_Order_Line__c.Parts</recordType><visible>true</visible></recordTypeVisibilities>
 <recordTypeVisibilities><default>false</default><recordType>SVMXC__Service_Order_Line__c.SVMXC__Estimate</recordType><visible>true</visible></recordTypeVisibilities>
 <recordTypeVisibilities><default>false</default><recordType>SVMXC__Service_Order_Line__c.SVMXC__Products_Serviced</recordType><visible>true</visible></recordTypeVisibilities>
@@ -13194,7 +13194,7 @@
 <userPermissions><enabled>true</enabled><name>SubmitMacrosAllowed</name></userPermissions>
 <userPermissions><enabled>true</enabled><name>UseWebLink</name></userPermissions>
 <userPermissions><enabled>true</enabled><name>ViewGlobalHeader</name></userPermissions>
-<userPermissions><enabled>true</enabled><name>ViewHelpLink</name></userPermissions>
+<userPermissions><enabled>false</enabled><name>ViewHelpLink</name></userPermissions>
 <userPermissions><enabled>true</enabled><name>ViewRoles</name></userPermissions>
 
 

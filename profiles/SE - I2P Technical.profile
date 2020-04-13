@@ -17,7 +17,7 @@
 <applicationVisibilities><application>standard__LightningService</application><default>false</default><visible>true</visible></applicationVisibilities>
 <applicationVisibilities><application>standard__Service</application><default>false</default><visible>true</visible></applicationVisibilities>
 <classAccesses><apexClass>AP_InvolvedOrganization</apexClass><enabled>true</enabled></classAccesses>
-<classAccesses><apexClass>AP_OPP_ProjectTriggers</apexClass><enabled>true</enabled></classAccesses>
+<classAccesses><apexClass>AP_OPP_ProjectTriggers</apexClass><enabled>false</enabled></classAccesses>
 <classAccesses><apexClass>AP_ProjectTeam_SharingAccessToProject</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP_RIAM_CreateNewRIAM</apexClass><enabled>true</enabled></classAccesses>
 <classAccesses><apexClass>AP_RI_FieldUpdate</apexClass><enabled>true</enabled></classAccesses>
