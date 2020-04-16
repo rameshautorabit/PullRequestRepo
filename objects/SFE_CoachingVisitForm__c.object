@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>SR0 - Sales Force Efficiency Module, Form used by Sales Manager during a coaching visit</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AbilityUnderstandBusNeeds__c</fullName>
+        <description>SR0 - Picklist to define sales rep ability in understanding customer needs</description>
+        <externalId>false</externalId>
+        <label>Ability to Understand Business Needs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>SR0 - Customer with which the visit took place</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If any, please do not change the defaulted value</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Coaching Visit Forms</relationshipLabel>
+        <relationshipName>Coaching_Visit_Forms</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AreasDev__c</fullName>
+        <description>SR0 - Long text to describe sales rep area for development</description>
+        <externalId>false</externalId>
+        <label>Areas for Development</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AssociatedCoachingVisit__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>December &apos;11 Release - Lookup to the associated Coaching Visit object</description>
+        <externalId>false</externalId>
+        <label>Associated Coaching Visit</label>
+        <referenceTo>CoachingVisit__c</referenceTo>
+        <relationshipLabel>Coaching Visit Forms</relationshipLabel>
+        <relationshipName>Coaching_Visit_Forms</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssociatedCustomerVisit__c</fullName>
+        <description>SR0 - This field enables user to go to the coaching visit related to a coaching visit form</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is automatically calculated only if you&apos;re coming from a coaching visit by clicking &quot;Coaching Visit Form&quot; button.</inlineHelpText>
+        <label>Associated Customer Visit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>CapacityUseSPINDISCMethods__c</fullName>
+        <description>SR0
+SR0 - Picklist to define sales rep ability in using specific methods</description>
+        <externalId>false</externalId>
+        <label>Capacity to use SPIRAL &amp; DISC Methods</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ChangePrevCoaching__c</fullName>
+        <description>SR0 - Long text to describe sales rep changes compared to last coaching visit</description>
+        <externalId>false</externalId>
+        <label>Changes vs Previous Coaching</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentPrep1__c</fullName>
+        <description>SR0 - Long text to describe preparation part 1</description>
+        <externalId>false</externalId>
+        <label>Comment Prep1</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentPrep2__c</fullName>
+        <description>SR0 - Long text to describe preparation part 2</description>
+        <externalId>false</externalId>
+        <label>Comment Prep2</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentPrep3__c</fullName>
+        <description>SR0 - Long text to describe preparation part 3</description>
+        <externalId>false</externalId>
+        <label>Comment Prep3</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentPrep4__c</fullName>
+        <description>SR0 - Long text to describe preparation part 4</description>
+        <externalId>false</externalId>
+        <label>Comment Prep4</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentVisit1__c</fullName>
+        <description>SR0 - Long text to describe visit part 1</description>
+        <externalId>false</externalId>
+        <label>Comment Visit1</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentVisit2__c</fullName>
+        <description>SR0 - Long text to describe visit part 2</description>
+        <externalId>false</externalId>
+        <label>Comment Visit2</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentVisit3__c</fullName>
+        <description>SR0 - Long text to describe visit part 3</description>
+        <externalId>false</externalId>
+        <label>Comment Visit3</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentVisit4__c</fullName>
+        <description>SR0 - Long text to describe visit part 4</description>
+        <externalId>false</externalId>
+        <label>Comment Visit4</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentVisit5__c</fullName>
+        <description>SR0 - Long text to describe visit part 5</description>
+        <externalId>false</externalId>
+        <label>Comment Visit5</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentVisit6__c</fullName>
+        <description>SR0 - Long text to describe visit part 6</description>
+        <externalId>false</externalId>
+        <label>Comment Visit6</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentVisit7__c</fullName>
+        <description>SR0 - Long text to describe visit part 7</description>
+        <externalId>false</externalId>
+        <label>Comment Visit7</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentVisit8__c</fullName>
+        <description>SR0 - Long text to describe visit part 8</description>
+        <externalId>false</externalId>
+        <label>Comment Visit8</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentVisit9__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment Visit9</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CrossSelling__c</fullName>
+        <externalId>false</externalId>
+        <label>Cross Selling</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <description>SR0 - Date of the visit</description>
+        <externalId>false</externalId>
+        <label>Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DisCustNeeds__c</fullName>
+        <description>SR0 - Picklist to define sales rep ability in discovering Account needs</description>
+        <externalId>false</externalId>
+        <label>Discover Account Needs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GetSolidCommitfromCust__c</fullName>
+        <description>SR0 - Picklist to define sales rep ability in getting solid commitment from Account</description>
+        <externalId>false</externalId>
+        <label>Getting Solid Commitment from Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GoalSetSMART__c</fullName>
+        <description>SR0 - Picklist to define sales rep ability in setting goals</description>
+        <externalId>false</externalId>
+        <label>Goal Setting (SMART)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>KnowledgeCust__c</fullName>
+        <description>SR0 - Picklist to define sales rep Account knowledge</description>
+        <externalId>false</externalId>
+        <label>Knowledge of the Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MeetingObjSetVisit__c</fullName>
+        <description>SR0 - Picklist to define sales rep ability in meeting visit objectives</description>
+        <externalId>false</externalId>
+        <label>Meeting the Objectives Set for the Visit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Negotiation__c</fullName>
+        <description>SR0 - Picklist to define sales rep ability in negotiating</description>
+        <externalId>false</externalId>
+        <label>Negotiation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ObjectionHandling__c</fullName>
+        <description>SR0 - Picklist to define sales rep ability in handling customer objections</description>
+        <externalId>false</externalId>
+        <label>Objection Handling</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PrepQuestionObj__c</fullName>
+        <description>SR0 - Picklist to define sales rep ability in preparing himself/herself to customer questions/objections</description>
+        <externalId>false</externalId>
+        <label>Preparation for Questions / Objections</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PresTrueTechCompet__c</fullName>
+        <description>SR0 - Picklist to define sales rep ability in presenting technical &amp; competition</description>
+        <externalId>false</externalId>
+        <label>Presenting True Technical &amp; Competition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>REP_CVDateCVFDateDiff__c</fullName>
+        <description>Calculates the difference between the Coaching Visit Date and the date the Coaching Visit form was filled</description>
+        <externalId>false</externalId>
+        <formula>FLOOR(CreatedDate - DATETIMEVALUE(AssociatedCoachingVisit__r.Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Difference between CVF and CV</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFE_AssociatedCoachingVisit__c</fullName>
+        <description>SR0 - This field enables user to go to the coaching visit related to a coaching visit form</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is automatically calculated only if you&apos;re coming from a coaching visit by clicking &quot;Coaching Visit Form&quot; button.</inlineHelpText>
+        <label>Associated Coaching Visit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>SalesRep__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>SR0 - sales rep who has been coached during the visit</description>
+        <externalId>false</externalId>
+        <label>Salesperson</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Coaching_Visit_Forms</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Strengths__c</fullName>
+        <description>SR0 - Sales rep&apos;s strengths</description>
+        <externalId>false</externalId>
+        <label>Strengths</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>VisitwithPlatformIAP__c</fullName>
+        <description>SR0 - Picklist to define sales rep level of alignement with Platforming/IAP</description>
+        <externalId>false</externalId>
+        <label>Visit In Line with the Platforming/IAP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Improved</fullName>
+                    <default>false</default>
+                    <label>To Be Improved</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Excellent</fullName>
+                    <default>false</default>
+                    <label>Excellent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Coaching Visit Form</label>
+    <listViews>
+        <fullName>CZ_FPL_Coaching_Forms</fullName>
+        <columns>NAME</columns>
+        <columns>SalesRep__c</columns>
+        <columns>Date__c</columns>
+        <columns>Account__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Date__c</field>
+            <operation>equals</operation>
+            <value>THIS_YEAR</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>Plojhar</value>
+        </filters>
+        <label>CZ_FPL - Coaching Forms</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>CZGlobalsalesperformance</group>
+            <group>CZ_ALL_USERS</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Coaching_Visit_Forms</fullName>
+        <columns>NAME</columns>
+        <filterScope>Mine</filterScope>
+        <label>Coaching Visit Forms</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Colombia_Coaching_Forms</fullName>
+        <columns>NAME</columns>
+        <columns>SalesRep__c</columns>
+        <columns>Date__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.ALIAS</field>
+            <operation>equals</operation>
+            <value>lahincap,notorres,urgustav,bepaez,pecediel,ropachon,ligomez,nepotes</value>
+        </filters>
+        <filters>
+            <field>Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/1/2014</value>
+        </filters>
+        <label>Colombia Coaching Visit Forms 2014</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Ecuador_Coaching_Forms_2014</fullName>
+        <columns>NAME</columns>
+        <columns>SalesRep__c</columns>
+        <columns>Date__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.ALIAS</field>
+            <operation>equals</operation>
+            <value>alcampoz,macalaho</value>
+        </filters>
+        <filters>
+            <field>Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/1/2014</value>
+        </filters>
+        <label>Ecuador Coaching Visit Forms 2014</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Mis_Coaching_Visit_Forms</fullName>
+        <columns>NAME</columns>
+        <columns>SalesRep__c</columns>
+        <columns>Account__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Mine</filterScope>
+        <label>Mis Coaching Visit Forms</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>ThisYearCoachingForms</fullName>
+        <columns>NAME</columns>
+        <columns>SalesRep__c</columns>
+        <columns>Date__c</columns>
+        <columns>Account__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>AssociatedCoachingVisit__c</columns>
+        <columns>SFE_AssociatedCoachingVisit__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Date__c</field>
+            <operation>equals</operation>
+            <value>THIS_YEAR</value>
+        </filters>
+        <filters>
+            <field>OWNER.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>el-hefnawy</value>
+        </filters>
+        <label>This year Coaching Forms</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>X2016_PH_Coaching_Visits</fullName>
+        <columns>NAME</columns>
+        <columns>Date__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Account__c</columns>
+        <columns>SalesRep__c</columns>
+        <columns>AreasDev__c</columns>
+        <columns>ChangePrevCoaching__c</columns>
+        <columns>Strengths__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/1/2016 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>OWNER.ALIAS</field>
+            <operation>equals</operation>
+            <value>edheripr,lesantos,bamallor,mimondra,jonsm</value>
+        </filters>
+        <label>2016 PH Coaching Visits by BU Heads</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PH_Dashboard_Viewing_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2016_PH_Coaching_Visits_by_Managers</fullName>
+        <columns>NAME</columns>
+        <columns>Date__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Account__c</columns>
+        <columns>SalesRep__c</columns>
+        <columns>AreasDev__c</columns>
+        <columns>ChangePrevCoaching__c</columns>
+        <columns>Strengths__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/1/2016</value>
+        </filters>
+        <filters>
+            <field>OWNER.ALIAS</field>
+            <operation>equals</operation>
+            <value>gabundoc,chmacada,ercreenc,calamera,femagall,jpreyes</value>
+        </filters>
+        <label>2016 PH Coaching Visits by Managers</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PH_Dashboard_Viewing_Group</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>CVF{YYYYMM}-{0}</displayFormat>
+        <label>Coaching Visit Form ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Coaching Visit Forms</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>SalesRep__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.FIRST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.LAST_NAME</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>SalesRep__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.FIRST_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.LAST_NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SalesRep__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OWNER.FIRST_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OWNER.LAST_NAME</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>SalesRep__c</searchFilterFields>
+        <searchFilterFields>Date__c</searchFilterFields>
+        <searchFilterFields>Account__c</searchFilterFields>
+        <searchFilterFields>OWNER.FIRST_NAME</searchFilterFields>
+        <searchFilterFields>OWNER.LAST_NAME</searchFilterFields>
+        <searchResultsAdditionalFields>SalesRep__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.LAST_NAME</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <sharingReasons>
+        <fullName>SalespersonApexShare__c</fullName>
+        <label>Salesperson Apex Share</label>
+    </sharingReasons>
+    <validationRules>
+        <fullName>CVF_VR01_AccountControl</fullName>
+        <active>true</active>
+        <description>July 2011: Ensures that the Account has not been marked for deletion</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; (ISNEW() || ISCHANGED(  Account__c )) &amp;&amp; (  Account__r.ToBeDeleted__c  = TRUE )</errorConditionFormula>
+        <errorDisplayField>Account__c</errorDisplayField>
+        <errorMessage>This Account has been marked for deletion, please choose another one.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

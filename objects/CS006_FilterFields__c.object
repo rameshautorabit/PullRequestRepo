@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>DECEMBER RELEASE – Stores the list of filter fields that will be used in the Apex Classes</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ChildRelationFilters__c</fullName>
+        <description>DECEMBER RELEASE - Stores the API Name of the reference field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Filter condition for query to get the filtered results.</inlineHelpText>
+        <label>Child Relation Filters</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference__c</fullName>
+        <description>DECEMBER RELEASE - Stores the reference where the query is used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Where it is used/ Referenced</inlineHelpText>
+        <label>Reference</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS006_FilterFields</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>ChildRelationFilters__c</columns>
+        <columns>Reference__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

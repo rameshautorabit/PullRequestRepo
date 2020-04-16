@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Batch_Update_Query__c</fullName>
+        <description>This will be used as the SOQL query for  the ed_insights.BatchScoreRecords class to determine which records to mass score for this prediction definition. You may leave this blank If you are not using the ed_insights.BatchScoreRecords class.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This will be used as the SOQL query for  the ed_insights.BatchScoreRecords class to determine which records to mass score for this prediction definition. You may leave this blank If you are not using the ed_insights.BatchScoreRecords class.</inlineHelpText>
+        <label>Batch Update Query</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Disable_Scoring__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this box if you would like to disable scoring records for this prediction definition.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you would like to disable scoring records for this prediction definition. This might be needed when bulk inserting new records.</inlineHelpText>
+        <label>Disable Scoring</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hide_Warnings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The Einstein Discovery Scoring API will include warnings for missing columns or column values that are out of bounds from values from the dataset used to train the model. Check this box if you would like to hide warnings from the Commentary Field Name.</inlineHelpText>
+        <label>Hide Scoring Warnings</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>commentary_field_api_name__c</fullName>
+        <externalId>false</externalId>
+        <label>Commentary Field Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>object_api_name__c</fullName>
+        <externalId>false</externalId>
+        <label>Object</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>outcome_field_api_name__c</fullName>
+        <externalId>false</externalId>
+        <label>Outcome Field Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>prediction_definition_id__c</fullName>
+        <externalId>false</externalId>
+        <label>Prediction Definition Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>prescription_field_api_name__c</fullName>
+        <externalId>false</externalId>
+        <label>Prescription Field Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Einstein Discovery - Write Back</label>
+    <visibility>Public</visibility>
+</CustomObject>

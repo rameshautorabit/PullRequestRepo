@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>2012R04 - Mapping between status and level of support of Customer Care Teams</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>LevelOfSupport__c</fullName>
+        <description>Level of Support associated to the current status.</description>
+        <externalId>false</externalId>
+        <label>Level Of Support</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS010_StatusSupportLevel</label>
+    <visibility>Public</visibility>
+</CustomObject>

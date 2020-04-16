@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>2012R04 - Custom Setting storing a table in order to set the right status when the Customer Care team is changed.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>InitialStatus__c</fullName>
+        <description>2012R04 - Status of the Case before the case team is changed.</description>
+        <externalId>false</externalId>
+        <label>Initial Escalation Level</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LevelOfNewCCTeam__c</fullName>
+        <description>2012R04 - The Support  Level of newly assigned team.</description>
+        <externalId>false</externalId>
+        <label>Support Level of the new Team</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NewStatus__c</fullName>
+        <description>2012R04 - New status to be set given the initial Escalation Status and the Support Level of fhe New Team</description>
+        <externalId>false</externalId>
+        <label>New Escalation Status</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS008_CCTeamStatusMap</label>
+    <visibility>Public</visibility>
+</CustomObject>

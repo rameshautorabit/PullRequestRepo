@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>LCMP_IP_CJMStep__c</fullName>
+        <externalId>false</externalId>
+        <label>CJM Step</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Listen/explore</fullName>
+                    <default>false</default>
+                    <label>Listen/explore</label>
+                </value>
+                <value>
+                    <fullName>Select/Inquire/Consult</fullName>
+                    <default>false</default>
+                    <label>Select/Inquire/Consult</label>
+                </value>
+                <value>
+                    <fullName>Get Quote/Contract</fullName>
+                    <default>false</default>
+                    <label>Get Quote/Contract</label>
+                </value>
+                <value>
+                    <fullName>Get delivered/Installed</fullName>
+                    <default>false</default>
+                    <label>Get delivered/Installed</label>
+                </value>
+                <value>
+                    <fullName>Operate/Mantain</fullName>
+                    <default>false</default>
+                    <label>Operate/Mantain</label>
+                </value>
+                <value>
+                    <fullName>Stay connected/Optimize</fullName>
+                    <default>false</default>
+                    <label>Stay connected/Optimize</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LCMP_IP_CJMTouchPoint__c</fullName>
+        <externalId>false</externalId>
+        <label>CJM Touch Point</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>LCMP_IP_CJMStep__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Learn on Trends</fullName>
+                    <default>false</default>
+                    <label>Learn on Trends</label>
+                </value>
+                <value>
+                    <fullName>Specify Need</fullName>
+                    <default>false</default>
+                    <label>Specify Need</label>
+                </value>
+                <value>
+                    <fullName>Get Quotation</fullName>
+                    <default>false</default>
+                    <label>Get Quotation</label>
+                </value>
+                <value>
+                    <fullName>Execute Project</fullName>
+                    <default>false</default>
+                    <label>Execute Project</label>
+                </value>
+                <value>
+                    <fullName>Use Offer</fullName>
+                    <default>false</default>
+                    <label>Use Offer</label>
+                </value>
+                <value>
+                    <fullName>Share Feedback</fullName>
+                    <default>false</default>
+                    <label>Share Feedback</label>
+                </value>
+                <value>
+                    <fullName>Understand SE business value</fullName>
+                    <default>false</default>
+                    <label>Understand SE business value</label>
+                </value>
+                <value>
+                    <fullName>Learn from use cases</fullName>
+                    <default>false</default>
+                    <label>Learn from use cases</label>
+                </value>
+                <value>
+                    <fullName>Select offer</fullName>
+                    <default>false</default>
+                    <label>Select offer</label>
+                </value>
+                <value>
+                    <fullName>Inquire and consult</fullName>
+                    <default>false</default>
+                    <label>Inquire and consult</label>
+                </value>
+                <value>
+                    <fullName>Place and follow order</fullName>
+                    <default>false</default>
+                    <label>Place and follow order</label>
+                </value>
+                <value>
+                    <fullName>Get factory acceptance</fullName>
+                    <default>false</default>
+                    <label>Get factory acceptance</label>
+                </value>
+                <value>
+                    <fullName>Get delivered</fullName>
+                    <default>false</default>
+                    <label>Get delivered</label>
+                </value>
+                <value>
+                    <fullName>Install and Commission</fullName>
+                    <default>false</default>
+                    <label>Install and Commission</label>
+                </value>
+                <value>
+                    <fullName>Get technical support</fullName>
+                    <default>false</default>
+                    <label>Get technical support</label>
+                </value>
+                <value>
+                    <fullName>Get failure support</fullName>
+                    <default>false</default>
+                    <label>Get failure support</label>
+                </value>
+                <value>
+                    <fullName>Maintain and predict</fullName>
+                    <default>false</default>
+                    <label>Maintain and predict</label>
+                </value>
+                <value>
+                    <fullName>Keep Informed</fullName>
+                    <default>false</default>
+                    <label>Keep Informed</label>
+                </value>
+                <value>
+                    <fullName>Optimize</fullName>
+                    <default>false</default>
+                    <label>Optimize</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Listen/explore</controllingFieldValue>
+                <valueName>Learn on Trends</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Listen/explore</controllingFieldValue>
+                <valueName>Understand SE business value</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Listen/explore</controllingFieldValue>
+                <valueName>Learn from use cases</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Select/Inquire/Consult</controllingFieldValue>
+                <valueName>Specify Need</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Select/Inquire/Consult</controllingFieldValue>
+                <valueName>Select offer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Select/Inquire/Consult</controllingFieldValue>
+                <valueName>Inquire and consult</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Get Quote/Contract</controllingFieldValue>
+                <valueName>Get Quotation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Get Quote/Contract</controllingFieldValue>
+                <valueName>Place and follow order</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Get delivered/Installed</controllingFieldValue>
+                <valueName>Execute Project</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Get delivered/Installed</controllingFieldValue>
+                <valueName>Get factory acceptance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Get delivered/Installed</controllingFieldValue>
+                <valueName>Get delivered</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Get delivered/Installed</controllingFieldValue>
+                <valueName>Install and Commission</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Operate/Mantain</controllingFieldValue>
+                <valueName>Use Offer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Operate/Mantain</controllingFieldValue>
+                <valueName>Get technical support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Operate/Mantain</controllingFieldValue>
+                <valueName>Get failure support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Operate/Mantain</controllingFieldValue>
+                <valueName>Maintain and predict</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Stay connected/Optimize</controllingFieldValue>
+                <valueName>Share Feedback</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Stay connected/Optimize</controllingFieldValue>
+                <valueName>Keep Informed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Stay connected/Optimize</controllingFieldValue>
+                <valueName>Optimize</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LCMP_IP_Evaluation__c</fullName>
+        <externalId>false</externalId>
+        <label>Evaluation</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>true</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Hot point</fullName>
+                    <default>false</default>
+                    <label>Hot point</label>
+                </value>
+                <value>
+                    <fullName>Delight Point</fullName>
+                    <default>false</default>
+                    <label>Delight Point</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LCMP_IP_Improvement_Project__c</fullName>
+        <externalId>false</externalId>
+        <label>Improvement Project</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>CSQ_ImprovementProject__c.RecordType.DeveloperName</field>
+                <operation>equals</operation>
+                <value>Customer_Journey_Mapping</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>CSQ_ImprovementProject__c</referenceTo>
+        <relationshipLabel>Customer Journey Maps</relationshipLabel>
+        <relationshipName>Customer_Journey_Maps</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>LCMP_IP_InsightsComments__c</fullName>
+        <externalId>false</externalId>
+        <label>Insights &amp; Comments</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>LCMP_IP_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Stage</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>true</default>
+                    <label>Internal</label>
+                </value>
+                <value>
+                    <fullName>AsIs</fullName>
+                    <default>false</default>
+                    <label>As-Is</label>
+                </value>
+                <value>
+                    <fullName>Future</fullName>
+                    <default>false</default>
+                    <label>Future</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Customer Journey Map</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>LCMP_IP_CJMStep__c</columns>
+        <columns>LCMP_IP_CJMTouchPoint__c</columns>
+        <columns>LCMP_IP_Evaluation__c</columns>
+        <columns>LCMP_IP_Improvement_Project__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>CJM_AsIs_View</fullName>
+        <columns>NAME</columns>
+        <columns>LCMP_IP_CJMStep__c</columns>
+        <columns>LCMP_IP_CJMTouchPoint__c</columns>
+        <columns>LCMP_IP_Evaluation__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LCMP_IP_Stage__c</field>
+            <operation>equals</operation>
+            <value>AsIs</value>
+        </filters>
+        <label>As-Is View</label>
+        <language>en_GB</language>
+    </listViews>
+    <listViews>
+        <fullName>CJM_Future_View</fullName>
+        <columns>NAME</columns>
+        <columns>LCMP_IP_CJMStep__c</columns>
+        <columns>LCMP_IP_CJMTouchPoint__c</columns>
+        <columns>LCMP_IP_Evaluation__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LCMP_IP_Stage__c</field>
+            <operation>equals</operation>
+            <value>Future</value>
+        </filters>
+        <label>Future View</label>
+        <language>en_GB</language>
+    </listViews>
+    <listViews>
+        <fullName>CJM_Internal</fullName>
+        <columns>NAME</columns>
+        <columns>LCMP_IP_CJMStep__c</columns>
+        <columns>LCMP_IP_CJMTouchPoint__c</columns>
+        <columns>LCMP_IP_Evaluation__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LCMP_IP_Stage__c</field>
+            <operation>equals</operation>
+            <value>Internal</value>
+        </filters>
+        <label>Internal View</label>
+        <language>en_GB</language>
+    </listViews>
+    <nameField>
+        <displayFormat>CJM-{0000}</displayFormat>
+        <label>CJM Point ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Customer Journey Maps</pluralLabel>
+    <recordTypes>
+        <fullName>CSQ_ImprovementProject</fullName>
+        <active>true</active>
+        <label>CSQ_ImprovementProject</label>
+        <picklistValues>
+            <picklist>LCMP_IP_CJMStep__c</picklist>
+            <values>
+                <fullName>Get Quote%2FContract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get delivered%2FInstalled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Listen%2Fexplore</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operate%2FMantain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Select%2FInquire%2FConsult</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stay connected%2FOptimize</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LCMP_IP_CJMTouchPoint__c</picklist>
+            <values>
+                <fullName>Execute Project</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get Quotation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get factory acceptance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get failure support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get technical support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inquire and consult</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install and Commission</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Keep Informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Learn from use cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Learn on Trends</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintain and predict</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optimize</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Place and follow order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Select offer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Share Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specify Need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Understand SE business value</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Use Offer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LCMP_IP_Evaluation__c</picklist>
+            <values>
+                <fullName>Delight Point</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot point</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LCMP_IP_Stage__c</picklist>
+            <values>
+                <fullName>AsIs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Future</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

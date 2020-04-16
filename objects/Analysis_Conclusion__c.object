@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AnalysisCenter__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Analysis Center populated from RFA</description>
+        <externalId>false</externalId>
+        <label>Analysis Center</label>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Analysis Conclusions</relationshipLabel>
+        <relationshipName>Analysis_Conclusions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AnalysisConclusionID__c</fullName>
+        <displayFormat>AC-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Analysis conclusion ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Analysis Conclusions</relationshipLabel>
+        <relationshipName>Analysis_Conclusions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CommercialReference__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Commercial Reference</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Analysis Conclusions</relationshipLabel>
+        <relationshipName>Analysis_Conclusions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ConclusionoftheAnalysis__c</fullName>
+        <externalId>false</externalId>
+        <label>Conclusion of the Analysis</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ANA </fullName>
+                    <default>true</default>
+                    <label>ANA </label>
+                </value>
+                <value>
+                    <fullName>SU1 </fullName>
+                    <default>false</default>
+                    <label>SU1 </label>
+                </value>
+                <value>
+                    <fullName>SU2 </fullName>
+                    <default>false</default>
+                    <label>SU2 </label>
+                </value>
+                <value>
+                    <fullName>SU3 </fullName>
+                    <default>false</default>
+                    <label>SU3 </label>
+                </value>
+                <value>
+                    <fullName>SU4 </fullName>
+                    <default>false</default>
+                    <label>SU4 </label>
+                </value>
+                <value>
+                    <fullName>MA1 </fullName>
+                    <default>false</default>
+                    <label>MA1 </label>
+                </value>
+                <value>
+                    <fullName>MA2 </fullName>
+                    <default>false</default>
+                    <label>MA2 </label>
+                </value>
+                <value>
+                    <fullName>MA3 </fullName>
+                    <default>false</default>
+                    <label>MA3 </label>
+                </value>
+                <value>
+                    <fullName>MA4 </fullName>
+                    <default>false</default>
+                    <label>MA4 </label>
+                </value>
+                <value>
+                    <fullName>LA1 </fullName>
+                    <default>false</default>
+                    <label>LA1 </label>
+                </value>
+                <value>
+                    <fullName>LA2 </fullName>
+                    <default>false</default>
+                    <label>LA2 </label>
+                </value>
+                <value>
+                    <fullName>LA3 </fullName>
+                    <default>false</default>
+                    <label>LA3 </label>
+                </value>
+                <value>
+                    <fullName>LA4 </fullName>
+                    <default>false</default>
+                    <label>LA4 </label>
+                </value>
+                <value>
+                    <fullName>AP2 </fullName>
+                    <default>false</default>
+                    <label>AP2 </label>
+                </value>
+                <value>
+                    <fullName>AP3 </fullName>
+                    <default>false</default>
+                    <label>AP3 </label>
+                </value>
+                <value>
+                    <fullName>LO1 </fullName>
+                    <default>false</default>
+                    <label>LO1 </label>
+                </value>
+                <value>
+                    <fullName>LO2 </fullName>
+                    <default>false</default>
+                    <label>LO2 </label>
+                </value>
+                <value>
+                    <fullName>UN1 </fullName>
+                    <default>false</default>
+                    <label>UN1 </label>
+                </value>
+                <value>
+                    <fullName>UN2 </fullName>
+                    <default>false</default>
+                    <label>UN2 </label>
+                </value>
+                <value>
+                    <fullName>NPF </fullName>
+                    <default>false</default>
+                    <label>NPF </label>
+                </value>
+                <value>
+                    <fullName>PVR </fullName>
+                    <default>false</default>
+                    <label>PVR </label>
+                </value>
+                <value>
+                    <fullName>OM6 </fullName>
+                    <default>false</default>
+                    <label>OM6 </label>
+                </value>
+                <value>
+                    <fullName>OC1 </fullName>
+                    <default>false</default>
+                    <label>OC1 </label>
+                </value>
+                <value>
+                    <fullName>OM1 </fullName>
+                    <default>false</default>
+                    <label>OM1 </label>
+                </value>
+                <value>
+                    <fullName>OM2 </fullName>
+                    <default>false</default>
+                    <label>OM2 </label>
+                </value>
+                <value>
+                    <fullName>OM3 </fullName>
+                    <default>false</default>
+                    <label>OM3 </label>
+                </value>
+                <value>
+                    <fullName>OM4 </fullName>
+                    <default>false</default>
+                    <label>OM4 </label>
+                </value>
+                <value>
+                    <fullName>OM5 </fullName>
+                    <default>false</default>
+                    <label>OM5 </label>
+                </value>
+                <value>
+                    <fullName>OM7 </fullName>
+                    <default>false</default>
+                    <label>OM7 </label>
+                </value>
+                <value>
+                    <fullName>OM8 </fullName>
+                    <default>false</default>
+                    <label>OM8 </label>
+                </value>
+                <value>
+                    <fullName>OP1 </fullName>
+                    <default>false</default>
+                    <label>OP1 </label>
+                </value>
+                <value>
+                    <fullName>OP2 </fullName>
+                    <default>false</default>
+                    <label>OP2 </label>
+                </value>
+                <value>
+                    <fullName>OP3 </fullName>
+                    <default>false</default>
+                    <label>OP3 </label>
+                </value>
+                <value>
+                    <fullName>OP4 </fullName>
+                    <default>false</default>
+                    <label>OP4 </label>
+                </value>
+                <value>
+                    <fullName>OP5 </fullName>
+                    <default>false</default>
+                    <label>OP5 </label>
+                </value>
+                <value>
+                    <fullName>D01 </fullName>
+                    <default>false</default>
+                    <label>D01 </label>
+                </value>
+                <value>
+                    <fullName>D02 </fullName>
+                    <default>false</default>
+                    <label>D02 </label>
+                </value>
+                <value>
+                    <fullName>D03 </fullName>
+                    <default>false</default>
+                    <label>D03 </label>
+                </value>
+                <value>
+                    <fullName>D04 </fullName>
+                    <default>false</default>
+                    <label>D04 </label>
+                </value>
+                <value>
+                    <fullName>D05 </fullName>
+                    <default>false</default>
+                    <label>D05 </label>
+                </value>
+                <value>
+                    <fullName>D06 </fullName>
+                    <default>false</default>
+                    <label>D06 </label>
+                </value>
+                <value>
+                    <fullName>D07 </fullName>
+                    <default>false</default>
+                    <label>D07 </label>
+                </value>
+                <value>
+                    <fullName>D08 </fullName>
+                    <default>false</default>
+                    <label>D08 </label>
+                </value>
+                <value>
+                    <fullName>OI1 </fullName>
+                    <default>false</default>
+                    <label>OI1 </label>
+                </value>
+                <value>
+                    <fullName>PCR </fullName>
+                    <default>false</default>
+                    <label>PCR </label>
+                </value>
+                <value>
+                    <fullName>D09 </fullName>
+                    <default>false</default>
+                    <label>D09 </label>
+                </value>
+                <value>
+                    <fullName>D10 </fullName>
+                    <default>false</default>
+                    <label>D10 </label>
+                </value>
+                <value>
+                    <fullName>D11 </fullName>
+                    <default>false</default>
+                    <label>D11 </label>
+                </value>
+                <value>
+                    <fullName>LA5</fullName>
+                    <default>false</default>
+                    <label>LA5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ConfirmedCommercialReference__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Complete this commercial reference if the one coming from the Technical Return is not valid</inlineHelpText>
+        <label>Confirmed Commercial Reference</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Analysis Conclusions (Confirmed Commercial Reference)</relationshipLabel>
+        <relationshipName>Analysis_Conclusions1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DateCompletionAnalysis__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of completion of the Analysis</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FailingComponent__c</fullName>
+        <externalId>false</externalId>
+        <label>Failing Component</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No failing component</fullName>
+                    <default>false</default>
+                    <label>No failing component</label>
+                </value>
+                <value>
+                    <fullName>Accessory</fullName>
+                    <default>false</default>
+                    <label>Accessory</label>
+                </value>
+                <value>
+                    <fullName>Arc chamber</fullName>
+                    <default>false</default>
+                    <label>Arc chamber</label>
+                </value>
+                <value>
+                    <fullName>Auxiliary board</fullName>
+                    <default>false</default>
+                    <label>Auxiliary board</label>
+                </value>
+                <value>
+                    <fullName>Button / Switch</fullName>
+                    <default>false</default>
+                    <label>Button / Switch</label>
+                </value>
+                <value>
+                    <fullName>Capacitor</fullName>
+                    <default>false</default>
+                    <label>Capacitor</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Chassis</fullName>
+                    <default>false</default>
+                    <label>Chassis</label>
+                </value>
+                <value>
+                    <fullName>Cover</fullName>
+                    <default>false</default>
+                    <label>Cover</label>
+                </value>
+                <value>
+                    <fullName>Circuit breaker / Trip unit / Relay</fullName>
+                    <default>false</default>
+                    <label>Circuit breaker / Trip unit / Relay</label>
+                </value>
+                <value>
+                    <fullName>Connectors / Lugs</fullName>
+                    <default>false</default>
+                    <label>Connectors / Lugs</label>
+                </value>
+                <value>
+                    <fullName>Contact / Coil</fullName>
+                    <default>false</default>
+                    <label>Contact / Coil</label>
+                </value>
+                <value>
+                    <fullName>CPU / Processor</fullName>
+                    <default>false</default>
+                    <label>CPU / Processor</label>
+                </value>
+                <value>
+                    <fullName>Current path / Wiring</fullName>
+                    <default>false</default>
+                    <label>Current path / Wiring</label>
+                </value>
+                <value>
+                    <fullName>Display / Indicator</fullName>
+                    <default>false</default>
+                    <label>Display / Indicator</label>
+                </value>
+                <value>
+                    <fullName>Documentation / Instructions</fullName>
+                    <default>false</default>
+                    <label>Documentation / Instructions</label>
+                </value>
+                <value>
+                    <fullName>Electronic component</fullName>
+                    <default>false</default>
+                    <label>Electronic component</label>
+                </value>
+                <value>
+                    <fullName>Firmware</fullName>
+                    <default>false</default>
+                    <label>Firmware</label>
+                </value>
+                <value>
+                    <fullName>Handle</fullName>
+                    <default>false</default>
+                    <label>Handle</label>
+                </value>
+                <value>
+                    <fullName>Inverter</fullName>
+                    <default>false</default>
+                    <label>Inverter</label>
+                </value>
+                <value>
+                    <fullName>Labels / Name plates</fullName>
+                    <default>false</default>
+                    <label>Labels / Name plates</label>
+                </value>
+                <value>
+                    <fullName>Magnetics</fullName>
+                    <default>false</default>
+                    <label>Magnetics</label>
+                </value>
+                <value>
+                    <fullName>Main board</fullName>
+                    <default>false</default>
+                    <label>Main board</label>
+                </value>
+                <value>
+                    <fullName>Mechanical component</fullName>
+                    <default>false</default>
+                    <label>Mechanical component</label>
+                </value>
+                <value>
+                    <fullName>Memory</fullName>
+                    <default>false</default>
+                    <label>Memory</label>
+                </value>
+                <value>
+                    <fullName>Motor</fullName>
+                    <default>false</default>
+                    <label>Motor</label>
+                </value>
+                <value>
+                    <fullName>Mounting feet / Guides</fullName>
+                    <default>false</default>
+                    <label>Mounting feet / Guides</label>
+                </value>
+                <value>
+                    <fullName>Packaging</fullName>
+                    <default>false</default>
+                    <label>Packaging</label>
+                </value>
+                <value>
+                    <fullName>PLC</fullName>
+                    <default>false</default>
+                    <label>PLC</label>
+                </value>
+                <value>
+                    <fullName>Power supply</fullName>
+                    <default>false</default>
+                    <label>Power supply</label>
+                </value>
+                <value>
+                    <fullName>Power component (IGBT)</fullName>
+                    <default>false</default>
+                    <label>Power component (IGBT)</label>
+                </value>
+                <value>
+                    <fullName>Resin</fullName>
+                    <default>false</default>
+                    <label>Resin</label>
+                </value>
+                <value>
+                    <fullName>Sensor</fullName>
+                    <default>false</default>
+                    <label>Sensor</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Speed drive / Soft starter</fullName>
+                    <default>false</default>
+                    <label>Speed drive / Soft starter</label>
+                </value>
+                <value>
+                    <fullName>Tools</fullName>
+                    <default>false</default>
+                    <label>Tools</label>
+                </value>
+                <value>
+                    <fullName>Transformer</fullName>
+                    <default>false</default>
+                    <label>Transformer</label>
+                </value>
+                <value>
+                    <fullName>User interface</fullName>
+                    <default>false</default>
+                    <label>User interface</label>
+                </value>
+                <value>
+                    <fullName>Ventilation</fullName>
+                    <default>false</default>
+                    <label>Ventilation</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FailureMode__c</fullName>
+        <externalId>false</externalId>
+        <label>Failure Mode</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Order</fullName>
+                    <default>false</default>
+                    <label>Order</label>
+                </value>
+                <value>
+                    <fullName>Aspect</fullName>
+                    <default>false</default>
+                    <label>Aspect</label>
+                </value>
+                <value>
+                    <fullName>Dimension</fullName>
+                    <default>false</default>
+                    <label>Dimension</label>
+                </value>
+                <value>
+                    <fullName>Function</fullName>
+                    <default>false</default>
+                    <label>Function</label>
+                </value>
+                <value>
+                    <fullName>Electrical</fullName>
+                    <default>false</default>
+                    <label>Electrical</label>
+                </value>
+                <value>
+                    <fullName>Electronic</fullName>
+                    <default>false</default>
+                    <label>Electronic</label>
+                </value>
+                <value>
+                    <fullName>Mechanical</fullName>
+                    <default>false</default>
+                    <label>Mechanical</label>
+                </value>
+                <value>
+                    <fullName>Thermal</fullName>
+                    <default>false</default>
+                    <label>Thermal</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>No fault found</fullName>
+                    <default>false</default>
+                    <label>No fault found</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Problem__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Problem</label>
+        <referenceTo>Problem__c</referenceTo>
+        <relationshipLabel>Analysis Conclusions</relationshipLabel>
+        <relationshipName>Analysis_Conclusions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Quantity__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Quantity of analyzed product</inlineHelpText>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SerialNumber__c</fullName>
+        <description>Serial Number of technical return product</description>
+        <externalId>false</externalId>
+        <label>Serial Number</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubfailureMode__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub failure mode</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>FailureMode__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BOM / routing incorrect</fullName>
+                    <default>false</default>
+                    <label>BOM / routing incorrect</label>
+                </value>
+                <value>
+                    <fullName>Custom order processed incorrectly</fullName>
+                    <default>false</default>
+                    <label>Custom order processed incorrectly</label>
+                </value>
+                <value>
+                    <fullName>Delivery done too early</fullName>
+                    <default>false</default>
+                    <label>Delivery done too early</label>
+                </value>
+                <value>
+                    <fullName>Delivery done too late</fullName>
+                    <default>false</default>
+                    <label>Delivery done too late</label>
+                </value>
+                <value>
+                    <fullName>Documentation or labeling incorrect</fullName>
+                    <default>false</default>
+                    <label>Documentation or labeling incorrect</label>
+                </value>
+                <value>
+                    <fullName>Missing / extra parts</fullName>
+                    <default>false</default>
+                    <label>Missing / extra parts</label>
+                </value>
+                <value>
+                    <fullName>Packaging is incorrect</fullName>
+                    <default>false</default>
+                    <label>Packaging is incorrect</label>
+                </value>
+                <value>
+                    <fullName>Part selection incorrect</fullName>
+                    <default>false</default>
+                    <label>Part selection incorrect</label>
+                </value>
+                <value>
+                    <fullName>Adhesion / Blistering</fullName>
+                    <default>false</default>
+                    <label>Adhesion / Blistering</label>
+                </value>
+                <value>
+                    <fullName>Burrs / Flashing</fullName>
+                    <default>false</default>
+                    <label>Burrs / Flashing</label>
+                </value>
+                <value>
+                    <fullName>Color or painting is incorrect</fullName>
+                    <default>false</default>
+                    <label>Color or painting is incorrect</label>
+                </value>
+                <value>
+                    <fullName>Corrosion / Rust / Water damage</fullName>
+                    <default>false</default>
+                    <label>Corrosion / Rust / Water damage</label>
+                </value>
+                <value>
+                    <fullName>Cracked / Broken / Deformed</fullName>
+                    <default>false</default>
+                    <label>Cracked / Broken / Deformed</label>
+                </value>
+                <value>
+                    <fullName>Foreign substance / Contamination</fullName>
+                    <default>false</default>
+                    <label>Foreign substance / Contamination</label>
+                </value>
+                <value>
+                    <fullName>Fretting</fullName>
+                    <default>false</default>
+                    <label>Fretting</label>
+                </value>
+                <value>
+                    <fullName>Insulation breakdown</fullName>
+                    <default>false</default>
+                    <label>Insulation breakdown</label>
+                </value>
+                <value>
+                    <fullName>Other appearance failure mode</fullName>
+                    <default>false</default>
+                    <label>Other appearance failure mode</label>
+                </value>
+                <value>
+                    <fullName>Packaging is damaged</fullName>
+                    <default>false</default>
+                    <label>Packaging is damaged</label>
+                </value>
+                <value>
+                    <fullName>Shape or size is incorrect</fullName>
+                    <default>false</default>
+                    <label>Shape or size is incorrect</label>
+                </value>
+                <value>
+                    <fullName>Surface quality is incorrect</fullName>
+                    <default>false</default>
+                    <label>Surface quality is incorrect</label>
+                </value>
+                <value>
+                    <fullName>Wiring damaged</fullName>
+                    <default>false</default>
+                    <label>Wiring damaged</label>
+                </value>
+                <value>
+                    <fullName>Wiring incorrect</fullName>
+                    <default>false</default>
+                    <label>Wiring incorrect</label>
+                </value>
+                <value>
+                    <fullName>Angle incorrect</fullName>
+                    <default>false</default>
+                    <label>Angle incorrect</label>
+                </value>
+                <value>
+                    <fullName>Camber / Twist / Warp</fullName>
+                    <default>false</default>
+                    <label>Camber / Twist / Warp</label>
+                </value>
+                <value>
+                    <fullName>Geometry defect / Shape / Alignment</fullName>
+                    <default>false</default>
+                    <label>Geometry defect / Shape / Alignment</label>
+                </value>
+                <value>
+                    <fullName>Size / Diameter / Radius</fullName>
+                    <default>false</default>
+                    <label>Size / Diameter / Radius</label>
+                </value>
+                <value>
+                    <fullName>Undesired features</fullName>
+                    <default>false</default>
+                    <label>Undesired features</label>
+                </value>
+                <value>
+                    <fullName>Weld not conforming</fullName>
+                    <default>false</default>
+                    <label>Weld not conforming</label>
+                </value>
+                <value>
+                    <fullName>Calibration not possible</fullName>
+                    <default>false</default>
+                    <label>Calibration not possible</label>
+                </value>
+                <value>
+                    <fullName>Circuit does not close</fullName>
+                    <default>false</default>
+                    <label>Circuit does not close</label>
+                </value>
+                <value>
+                    <fullName>Circuit does not open</fullName>
+                    <default>false</default>
+                    <label>Circuit does not open</label>
+                </value>
+                <value>
+                    <fullName>Communication failure</fullName>
+                    <default>false</default>
+                    <label>Communication failure</label>
+                </value>
+                <value>
+                    <fullName>Compatibility failure</fullName>
+                    <default>false</default>
+                    <label>Compatibility failure</label>
+                </value>
+                <value>
+                    <fullName>Connection failure</fullName>
+                    <default>false</default>
+                    <label>Connection failure</label>
+                </value>
+                <value>
+                    <fullName>Indication is incorrect</fullName>
+                    <default>false</default>
+                    <label>Indication is incorrect</label>
+                </value>
+                <value>
+                    <fullName>Installation failure</fullName>
+                    <default>false</default>
+                    <label>Installation failure</label>
+                </value>
+                <value>
+                    <fullName>Nuisance tripping</fullName>
+                    <default>false</default>
+                    <label>Nuisance tripping</label>
+                </value>
+                <value>
+                    <fullName>Memory fault</fullName>
+                    <default>false</default>
+                    <label>Memory fault</label>
+                </value>
+                <value>
+                    <fullName>Other functional failure mode</fullName>
+                    <default>false</default>
+                    <label>Other functional failure mode</label>
+                </value>
+                <value>
+                    <fullName>Performance not reaching expectations</fullName>
+                    <default>false</default>
+                    <label>Performance not reaching expectations</label>
+                </value>
+                <value>
+                    <fullName>Processor fault</fullName>
+                    <default>false</default>
+                    <label>Processor fault</label>
+                </value>
+                <value>
+                    <fullName>Reset not possible</fullName>
+                    <default>false</default>
+                    <label>Reset not possible</label>
+                </value>
+                <value>
+                    <fullName>Sensing failure</fullName>
+                    <default>false</default>
+                    <label>Sensing failure</label>
+                </value>
+                <value>
+                    <fullName>Software corruption</fullName>
+                    <default>false</default>
+                    <label>Software corruption</label>
+                </value>
+                <value>
+                    <fullName>Software or firmware version incorrect</fullName>
+                    <default>false</default>
+                    <label>Software or firmware version incorrect</label>
+                </value>
+                <value>
+                    <fullName>Start-up failure</fullName>
+                    <default>false</default>
+                    <label>Start-up failure</label>
+                </value>
+                <value>
+                    <fullName>Arcing / Flashover</fullName>
+                    <default>false</default>
+                    <label>Arcing / Flashover</label>
+                </value>
+                <value>
+                    <fullName>Core loss</fullName>
+                    <default>false</default>
+                    <label>Core loss</label>
+                </value>
+                <value>
+                    <fullName>Dielectric failure</fullName>
+                    <default>false</default>
+                    <label>Dielectric failure</label>
+                </value>
+                <value>
+                    <fullName>Electrical component failure</fullName>
+                    <default>false</default>
+                    <label>Electrical component failure</label>
+                </value>
+                <value>
+                    <fullName>Electrical continuity</fullName>
+                    <default>false</default>
+                    <label>Electrical continuity</label>
+                </value>
+                <value>
+                    <fullName>Electrical discontinuity</fullName>
+                    <default>false</default>
+                    <label>Electrical discontinuity</label>
+                </value>
+                <value>
+                    <fullName>Electrical or magnetic noise</fullName>
+                    <default>false</default>
+                    <label>Electrical or magnetic noise</label>
+                </value>
+                <value>
+                    <fullName>Ground fault</fullName>
+                    <default>false</default>
+                    <label>Ground fault</label>
+                </value>
+                <value>
+                    <fullName>Phase lost</fullName>
+                    <default>false</default>
+                    <label>Phase lost</label>
+                </value>
+                <value>
+                    <fullName>Pole resistance</fullName>
+                    <default>false</default>
+                    <label>Pole resistance</label>
+                </value>
+                <value>
+                    <fullName>Short circuit</fullName>
+                    <default>false</default>
+                    <label>Short circuit</label>
+                </value>
+                <value>
+                    <fullName>Voltage incorrect</fullName>
+                    <default>false</default>
+                    <label>Voltage incorrect</label>
+                </value>
+                <value>
+                    <fullName>Communication lost</fullName>
+                    <default>false</default>
+                    <label>Communication lost</label>
+                </value>
+                <value>
+                    <fullName>Double induced</fullName>
+                    <default>false</default>
+                    <label>Double induced</label>
+                </value>
+                <value>
+                    <fullName>Electronic continuity</fullName>
+                    <default>false</default>
+                    <label>Electronic continuity</label>
+                </value>
+                <value>
+                    <fullName>Electronic component failure</fullName>
+                    <default>false</default>
+                    <label>Electronic component failure</label>
+                </value>
+                <value>
+                    <fullName>Electronic component out of spec</fullName>
+                    <default>false</default>
+                    <label>Electronic component out of spec</label>
+                </value>
+                <value>
+                    <fullName>Electronic sensing</fullName>
+                    <default>false</default>
+                    <label>Electronic sensing</label>
+                </value>
+                <value>
+                    <fullName>Component placement incorrect</fullName>
+                    <default>false</default>
+                    <label>Component placement incorrect</label>
+                </value>
+                <value>
+                    <fullName>Container / sealant broken</fullName>
+                    <default>false</default>
+                    <label>Container / sealant broken</label>
+                </value>
+                <value>
+                    <fullName>Force of spring or contact is incorrect</fullName>
+                    <default>false</default>
+                    <label>Force of spring or contact is incorrect</label>
+                </value>
+                <value>
+                    <fullName>Foreign substance on part</fullName>
+                    <default>false</default>
+                    <label>Foreign substance on part</label>
+                </value>
+                <value>
+                    <fullName>Material defect</fullName>
+                    <default>false</default>
+                    <label>Material defect</label>
+                </value>
+                <value>
+                    <fullName>Misalignment</fullName>
+                    <default>false</default>
+                    <label>Misalignment</label>
+                </value>
+                <value>
+                    <fullName>Noise</fullName>
+                    <default>false</default>
+                    <label>Noise</label>
+                </value>
+                <value>
+                    <fullName>Part damage or failure</fullName>
+                    <default>false</default>
+                    <label>Part damage or failure</label>
+                </value>
+                <value>
+                    <fullName>Soldering defect</fullName>
+                    <default>false</default>
+                    <label>Soldering defect</label>
+                </value>
+                <value>
+                    <fullName>Structural composition</fullName>
+                    <default>false</default>
+                    <label>Structural composition</label>
+                </value>
+                <value>
+                    <fullName>Superficial treatment incorrect</fullName>
+                    <default>false</default>
+                    <label>Superficial treatment incorrect</label>
+                </value>
+                <value>
+                    <fullName>Torque incorrect</fullName>
+                    <default>false</default>
+                    <label>Torque incorrect</label>
+                </value>
+                <value>
+                    <fullName>Vibration</fullName>
+                    <default>false</default>
+                    <label>Vibration</label>
+                </value>
+                <value>
+                    <fullName>Welding defect</fullName>
+                    <default>false</default>
+                    <label>Welding defect</label>
+                </value>
+                <value>
+                    <fullName>Frozen</fullName>
+                    <default>false</default>
+                    <label>Frozen</label>
+                </value>
+                <value>
+                    <fullName>Overheating</fullName>
+                    <default>false</default>
+                    <label>Overheating</label>
+                </value>
+                <value>
+                    <fullName>Thermal calibration incorrect</fullName>
+                    <default>false</default>
+                    <label>Thermal calibration incorrect</label>
+                </value>
+                <value>
+                    <fullName>Other failure mode</fullName>
+                    <default>false</default>
+                    <label>Other failure mode</label>
+                </value>
+                <value>
+                    <fullName>Fault not reproducible</fullName>
+                    <default>false</default>
+                    <label>Fault not reproducible</label>
+                </value>
+                <value>
+                    <fullName>Product never unpacked, nor installed</fullName>
+                    <default>false</default>
+                    <label>Product never unpacked, nor installed</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Order</controllingFieldValue>
+                <valueName>BOM / routing incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order</controllingFieldValue>
+                <valueName>Custom order processed incorrectly</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order</controllingFieldValue>
+                <valueName>Delivery done too early</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order</controllingFieldValue>
+                <valueName>Delivery done too late</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order</controllingFieldValue>
+                <valueName>Documentation or labeling incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order</controllingFieldValue>
+                <valueName>Missing / extra parts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order</controllingFieldValue>
+                <valueName>Packaging is incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order</controllingFieldValue>
+                <valueName>Part selection incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Adhesion / Blistering</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Burrs / Flashing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Color or painting is incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Corrosion / Rust / Water damage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Cracked / Broken / Deformed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Foreign substance / Contamination</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Fretting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Insulation breakdown</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Other appearance failure mode</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Packaging is damaged</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Shape or size is incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aspect</controllingFieldValue>
+                <valueName>Surface quality is incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dimension</controllingFieldValue>
+                <valueName>Angle incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dimension</controllingFieldValue>
+                <valueName>Camber / Twist / Warp</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dimension</controllingFieldValue>
+                <valueName>Geometry defect / Shape / Alignment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dimension</controllingFieldValue>
+                <valueName>Size / Diameter / Radius</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dimension</controllingFieldValue>
+                <valueName>Undesired features</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dimension</controllingFieldValue>
+                <valueName>Weld not conforming</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Calibration not possible</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Circuit does not close</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Circuit does not open</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Communication failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Compatibility failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Connection failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Indication is incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Installation failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Nuisance tripping</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Memory fault</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Other functional failure mode</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Performance not reaching expectations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Processor fault</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Reset not possible</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Sensing failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Software corruption</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Software or firmware version incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <valueName>Start-up failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Function</controllingFieldValue>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Voltage incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Arcing / Flashover</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Core loss</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Dielectric failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Electrical component failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Electrical continuity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Electrical discontinuity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Electrical or magnetic noise</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Ground fault</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Phase lost</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Pole resistance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <valueName>Short circuit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <valueName>Communication lost</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <valueName>Double induced</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <valueName>Electronic continuity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <valueName>Electronic component failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <valueName>Electronic component out of spec</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <valueName>Electronic sensing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Component placement incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Container / sealant broken</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Force of spring or contact is incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Foreign substance on part</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Material defect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Misalignment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Noise</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Part damage or failure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Soldering defect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Structural composition</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Superficial treatment incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Torque incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Vibration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <valueName>Welding defect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Thermal</controllingFieldValue>
+                <valueName>Frozen</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Thermal</controllingFieldValue>
+                <valueName>Overheating</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Thermal</controllingFieldValue>
+                <valueName>Thermal calibration incorrect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Other failure mode</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>No fault found</controllingFieldValue>
+                <valueName>Fault not reproducible</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>No fault found</controllingFieldValue>
+                <valueName>Product never unpacked, nor installed</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_AutoIncremental__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_AutoIncremental</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TechnicalReturn__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Technical Return</label>
+        <referenceTo>Technical_Return__c</referenceTo>
+        <relationshipLabel>Analysis Conclusions</relationshipLabel>
+        <relationshipName>Analysis_Conclusions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WorkOrder__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Work Order</label>
+        <referenceTo>SVMXC__Service_Order__c</referenceTo>
+        <relationshipLabel>Analysis Conclusions</relationshipLabel>
+        <relationshipName>Analysis_Conclusions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Analysis Conclusion</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>TechnicalReturn__c</columns>
+        <columns>CommercialReference__c</columns>
+        <columns>ConfirmedCommercialReference__c</columns>
+        <columns>Quantity__c</columns>
+        <columns>SerialNumber__c</columns>
+        <columns>AnalysisCenter__c</columns>
+        <columns>FailingComponent__c</columns>
+        <columns>FailureMode__c</columns>
+        <columns>SubfailureMode__c</columns>
+        <columns>ConclusionoftheAnalysis__c</columns>
+        <columns>DateCompletionAnalysis__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Analysis Conclusion</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Analysis_Conclusion</fullName>
+        <columns>NAME</columns>
+        <columns>TechnicalReturn__c</columns>
+        <columns>CommercialReference__c</columns>
+        <columns>ConfirmedCommercialReference__c</columns>
+        <columns>Quantity__c</columns>
+        <columns>SerialNumber__c</columns>
+        <columns>AnalysisCenter__c</columns>
+        <columns>FailingComponent__c</columns>
+        <columns>FailureMode__c</columns>
+        <columns>SubfailureMode__c</columns>
+        <columns>ConclusionoftheAnalysis__c</columns>
+        <columns>DateCompletionAnalysis__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Analysis Conclusion</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>OFM_Support_Group</group>
+            <group>OFM_Target_Audience_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X01_Analysis_Conclusion_at_My_AC</fullName>
+        <columns>NAME</columns>
+        <columns>TechnicalReturn__c</columns>
+        <columns>CommercialReference__c</columns>
+        <columns>ConfirmedCommercialReference__c</columns>
+        <columns>Quantity__c</columns>
+        <columns>SerialNumber__c</columns>
+        <columns>AnalysisCenter__c</columns>
+        <columns>FailingComponent__c</columns>
+        <columns>FailureMode__c</columns>
+        <columns>SubfailureMode__c</columns>
+        <columns>ConclusionoftheAnalysis__c</columns>
+        <columns>DateCompletionAnalysis__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AnalysisCenter__c</field>
+            <operation>contains</operation>
+            <value>RFA</value>
+        </filters>
+        <label>01.Analysis Conclusion at My AC</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>OFM_Support_Group</group>
+            <group>OFM_Target_Audience_Users</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>AC-{000000}</displayFormat>
+        <label>Analysis Conclusion Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Analysis Conclusions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>VR_AC_CommercialRefrence</fullName>
+        <active>false</active>
+        <description>Make Commercial reference field mandatory</description>
+        <errorConditionFormula>AND( 
+LEN( CommercialReference__c ) = 0
+)</errorConditionFormula>
+        <errorMessage>Commercial reference Field is required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_AC_QuantityValidation</fullName>
+        <active>true</active>
+        <description>The Quantity recorded in the different Analysis Conclusions linked to a Technical return cannot be bigger than the quantity on that Technical Return.</description>
+        <errorConditionFormula>AND(
+NOT($User.BypassVR__c),
+NOT( Quantity__c &lt;= TechnicalReturn__r.Quantity__c )
+)</errorConditionFormula>
+        <errorDisplayField>Quantity__c</errorDisplayField>
+        <errorMessage>Analysis Conclusion Quantity cannot be bigger than the quantity on Technical Return</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_AnalysisCompletionDateValidation</fullName>
+        <active>true</active>
+        <description>Analysis complete date should be less than Received date Reception at Analysis Center Date</description>
+        <errorConditionFormula>AND(
+IF(
+OR(TechnicalReturn__r.DateReceptionAnalysisCenter__c &gt; DateCompletionAnalysis__c,
+ISNULL(TechnicalReturn__r.DateReceptionAnalysisCenter__c)),
+true,false), 
+TechnicalReturn__c!=null)</errorConditionFormula>
+        <errorDisplayField>DateCompletionAnalysis__c</errorDisplayField>
+        <errorMessage>&apos;Date of Completion of the Analysis&apos; should not be less than &apos;Date of Reception to Analysis Center&apos;  AND Date of sent from DC to Analysis of Related Technical Return</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

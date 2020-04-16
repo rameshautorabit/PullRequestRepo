@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Intervention cost lines to be able to track all costs related to the ISR:
+Work, Labour and Travel costs
+within CIS Program</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CIS_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>CIS_CostPerUnit__c * CIS_NumberOfUnits__c</formula>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CIS_AmountwithMarkup__c</fullName>
+        <externalId>false</externalId>
+        <formula>CIS_Amount__c * 1.05</formula>
+        <label>Amount  with Mark-up</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CIS_CostPerUnit__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is manually filled for a spare part and retrieved from Country List price for Labour and Travel</inlineHelpText>
+        <label>Cost per unit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CIS_CostType__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Spare part</fullName>
+                    <default>false</default>
+                    <label>Spare part</label>
+                </value>
+                <value>
+                    <fullName>CIS administrative costs</fullName>
+                    <default>false</default>
+                    <label>CIS administrative costs</label>
+                </value>
+                <value>
+                    <fullName>Delivery costs</fullName>
+                    <default>false</default>
+                    <label>Delivery costs</label>
+                </value>
+                <value>
+                    <fullName>Customs clearance</fullName>
+                    <default>false</default>
+                    <label>Customs clearance</label>
+                </value>
+                <value>
+                    <fullName>Fixed daily fee</fullName>
+                    <default>false</default>
+                    <label>Fixed daily fee</label>
+                </value>
+                <value>
+                    <fullName>Engineer straight time</fullName>
+                    <default>false</default>
+                    <label>Engineer straight time</label>
+                </value>
+                <value>
+                    <fullName>Engineer over time</fullName>
+                    <default>false</default>
+                    <label>Engineer over time</label>
+                </value>
+                <value>
+                    <fullName>Engineer week-end</fullName>
+                    <default>false</default>
+                    <label>Engineer week-end</label>
+                </value>
+                <value>
+                    <fullName>Technician straight time</fullName>
+                    <default>false</default>
+                    <label>Technician straight time</label>
+                </value>
+                <value>
+                    <fullName>Technician over time</fullName>
+                    <default>false</default>
+                    <label>Technician over time</label>
+                </value>
+                <value>
+                    <fullName>Technician week-end</fullName>
+                    <default>false</default>
+                    <label>Technician week-end</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Telephone</fullName>
+                    <default>false</default>
+                    <label>Telephone</label>
+                </value>
+                <value>
+                    <fullName>Telephone support - Expert L2</fullName>
+                    <default>false</default>
+                    <label>Telephone support - Expert L2</label>
+                </value>
+                <value>
+                    <fullName>Air ticket</fullName>
+                    <default>false</default>
+                    <label>Air ticket</label>
+                </value>
+                <value>
+                    <fullName>Train ticket</fullName>
+                    <default>false</default>
+                    <label>Train ticket</label>
+                </value>
+                <value>
+                    <fullName>Car rental</fullName>
+                    <default>false</default>
+                    <label>Car rental</label>
+                </value>
+                <value>
+                    <fullName>Hotel</fullName>
+                    <default>false</default>
+                    <label>Hotel</label>
+                </value>
+                <value>
+                    <fullName>Meal</fullName>
+                    <default>false</default>
+                    <label>Meal</label>
+                </value>
+                <value>
+                    <fullName>Parking</fullName>
+                    <default>false</default>
+                    <label>Parking</label>
+                </value>
+                <value>
+                    <fullName>Toll</fullName>
+                    <default>false</default>
+                    <label>Toll</label>
+                </value>
+                <value>
+                    <fullName>Travel time in day</fullName>
+                    <default>false</default>
+                    <label>Travel time in day</label>
+                </value>
+                <value>
+                    <fullName>Travel time in hour</fullName>
+                    <default>false</default>
+                    <label>Travel time in hour</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CIS_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CIS_ISR__c</fullName>
+        <externalId>false</externalId>
+        <label>ISR</label>
+        <referenceTo>CIS_ISR__c</referenceTo>
+        <relationshipLabel>Intervention costs</relationshipLabel>
+        <relationshipName>Work_and_Labour_entries</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>CIS_ListCost__c</fullName>
+        <externalId>false</externalId>
+        <label>List cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CIS_NumberOfUnits__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Number of units</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CIS_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Work_and_Labour_entries</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CIS_WarrantyCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Warranty code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Intervention costs</label>
+    <nameField>
+        <displayFormat>CST-{0000000000}</displayFormat>
+        <label>Intervention Cost Number</label>
+        <trackHistory>true</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Intervention costs</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Labour_and_travel_cost</fullName>
+        <active>true</active>
+        <label>Labour and travel cost</label>
+        <picklistValues>
+            <picklist>CIS_CostType__c</picklist>
+            <values>
+                <fullName>Air ticket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CIS administrative costs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Car rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customs clearance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivery costs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineer over time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineer straight time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineer week-end</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed daily fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technician over time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technician straight time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technician week-end</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone support - Expert L2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Train ticket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel time in day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel time in hour</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Spare_parts</fullName>
+        <active>true</active>
+        <label>Spare part(s)</label>
+        <picklistValues>
+            <picklist>CIS_CostType__c</picklist>
+            <values>
+                <fullName>Spare part</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Cost_Per_Unit_Can_Not_Be_Blank</fullName>
+        <active>true</active>
+        <description>This validation rule validates cost per unit value can not be blank .</description>
+        <errorConditionFormula>ISNULL( CIS_CostPerUnit__c ) &amp;&amp; NOT($User.BypassVR__c)</errorConditionFormula>
+        <errorDisplayField>CIS_CostPerUnit__c</errorDisplayField>
+        <errorMessage>Please fill Cost per unit.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

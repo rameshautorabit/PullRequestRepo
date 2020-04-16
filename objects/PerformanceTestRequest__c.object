@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <description>Capturing Performance Test Requests for BFO Streams.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ActiveConnectorsRequired__c</fullName>
+        <description>If any active connectors are required to be transacting data with the Sandbox for the duration of the Performance Test.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If any active connectors are required to be transacting data with the Sandbox for the duration of the Performance Test.</inlineHelpText>
+        <label>Active Connectors Required</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>DTN Telvent Opportunity Extractor</fullName>
+                    <default>false</default>
+                    <label>DTN Telvent Opportunity Extractor</label>
+                </value>
+                <value>
+                    <fullName>SpringTool</fullName>
+                    <default>false</default>
+                    <label>SpringTool</label>
+                </value>
+                <value>
+                    <fullName>CTI - SE_INTERFACE_CTI_GLOBAL</fullName>
+                    <default>false</default>
+                    <label>CTI - SE_INTERFACE_CTI_GLOBAL</label>
+                </value>
+                <value>
+                    <fullName>Splunk for security</fullName>
+                    <default>false</default>
+                    <label>Splunk for security</label>
+                </value>
+                <value>
+                    <fullName>Pitcher Zero</fullName>
+                    <default>false</default>
+                    <label>Pitcher Zero</label>
+                </value>
+                <value>
+                    <fullName>wallboard Interface</fullName>
+                    <default>false</default>
+                    <label>wallboard Interface</label>
+                </value>
+                <value>
+                    <fullName>XSL</fullName>
+                    <default>false</default>
+                    <label>XSL</label>
+                </value>
+                <value>
+                    <fullName>German Literature Request</fullName>
+                    <default>false</default>
+                    <label>German Literature Request</label>
+                </value>
+                <value>
+                    <fullName>Quote Connector</fullName>
+                    <default>false</default>
+                    <label>Quote Connector</label>
+                </value>
+                <value>
+                    <fullName>Chorus</fullName>
+                    <default>false</default>
+                    <label>Chorus</label>
+                </value>
+                <value>
+                    <fullName>France Literature Request</fullName>
+                    <default>false</default>
+                    <label>France Literature Request</label>
+                </value>
+                <value>
+                    <fullName>Coveo</fullName>
+                    <default>false</default>
+                    <label>Coveo</label>
+                </value>
+                <value>
+                    <fullName>SE_INTERFACE_OLH_NAM</fullName>
+                    <default>false</default>
+                    <label>SE_INTERFACE_OLH_NAM</label>
+                </value>
+                <value>
+                    <fullName>NAM Quote Link Connector</fullName>
+                    <default>false</default>
+                    <label>NAM Quote Link Connector</label>
+                </value>
+                <value>
+                    <fullName>Salesforce for Outlook</fullName>
+                    <default>false</default>
+                    <label>Salesforce for Outlook</label>
+                </value>
+                <value>
+                    <fullName>JobCode Integration</fullName>
+                    <default>false</default>
+                    <label>JobCode Integration</label>
+                </value>
+                <value>
+                    <fullName>DeviSol Quote Connector Update</fullName>
+                    <default>false</default>
+                    <label>DeviSol Quote Connector Update</label>
+                </value>
+                <value>
+                    <fullName>connect for office excel</fullName>
+                    <default>false</default>
+                    <label>connect for office excel</label>
+                </value>
+                <value>
+                    <fullName>Work Order connector</fullName>
+                    <default>false</default>
+                    <label>Work Order connector</label>
+                </value>
+                <value>
+                    <fullName>Service Contract connector</fullName>
+                    <default>false</default>
+                    <label>Service Contract connector</label>
+                </value>
+                <value>
+                    <fullName>Installed Base connector</fullName>
+                    <default>false</default>
+                    <label>Installed Base connector</label>
+                </value>
+                <value>
+                    <fullName>CTI - SE_INTERFACE_CTI_INVENSYS</fullName>
+                    <default>false</default>
+                    <label>CTI - SE_INTERFACE_CTI_INVENSYS</label>
+                </value>
+                <value>
+                    <fullName>SE QUIC</fullName>
+                    <default>false</default>
+                    <label>SE QUIC</label>
+                </value>
+                <value>
+                    <fullName>BriefingEdge</fullName>
+                    <default>false</default>
+                    <label>BriefingEdge</label>
+                </value>
+                <value>
+                    <fullName>Splunk for CCC</fullName>
+                    <default>false</default>
+                    <label>Splunk for CCC</label>
+                </value>
+                <value>
+                    <fullName>ConnectLeader</fullName>
+                    <default>false</default>
+                    <label>ConnectLeader</label>
+                </value>
+                <value>
+                    <fullName>PES Connector</fullName>
+                    <default>false</default>
+                    <label>PES Connector</label>
+                </value>
+                <value>
+                    <fullName>mySchneider app Connector</fullName>
+                    <default>false</default>
+                    <label>mySchneider app Connector</label>
+                </value>
+                <value>
+                    <fullName>SE CEP Pilot IoT Cloud</fullName>
+                    <default>false</default>
+                    <label>SE CEP Pilot IoT Cloud</label>
+                </value>
+                <value>
+                    <fullName>Invensys BI</fullName>
+                    <default>false</default>
+                    <label>Invensys BI</label>
+                </value>
+                <value>
+                    <fullName>NAM Oppty-Proposal Connector</fullName>
+                    <default>false</default>
+                    <label>NAM Oppty-Proposal Connector</label>
+                </value>
+                <value>
+                    <fullName>admin booster</fullName>
+                    <default>false</default>
+                    <label>admin booster</label>
+                </value>
+                <value>
+                    <fullName>AMC Connected Apps</fullName>
+                    <default>false</default>
+                    <label>AMC Connected Apps</label>
+                </value>
+                <value>
+                    <fullName>ANT Migration toolkit</fullName>
+                    <default>false</default>
+                    <label>ANT Migration toolkit</label>
+                </value>
+                <value>
+                    <fullName>AppExchange</fullName>
+                    <default>false</default>
+                    <label>AppExchange</label>
+                </value>
+                <value>
+                    <fullName>calendar anything</fullName>
+                    <default>false</default>
+                    <label>calendar anything</label>
+                </value>
+                <value>
+                    <fullName>Chatter Desktop</fullName>
+                    <default>false</default>
+                    <label>Chatter Desktop</label>
+                </value>
+                <value>
+                    <fullName>Chatter Mobile for BlackBerry</fullName>
+                    <default>false</default>
+                    <label>Chatter Mobile for BlackBerry</label>
+                </value>
+                <value>
+                    <fullName>ChiTu</fullName>
+                    <default>false</default>
+                    <label>ChiTu</label>
+                </value>
+                <value>
+                    <fullName>VerifInfoTiers - CTI Routing Connector - France (search for contacts &amp; accounts)</fullName>
+                    <default>false</default>
+                    <label>VerifInfoTiers - CTI Routing Connector - France (search for contacts &amp; accounts)</label>
+                </value>
+                <value>
+                    <fullName>Web source CPQ (Configuration Price Quote)</fullName>
+                    <default>false</default>
+                    <label>Web source CPQ (Configuration Price Quote)</label>
+                </value>
+                <value>
+                    <fullName>Workbench</fullName>
+                    <default>false</default>
+                    <label>Workbench</label>
+                </value>
+                <value>
+                    <fullName>Cloud Extend</fullName>
+                    <default>false</default>
+                    <label>Cloud Extend</label>
+                </value>
+                <value>
+                    <fullName>Cloud9 analytics</fullName>
+                    <default>false</default>
+                    <label>Cloud9 analytics</label>
+                </value>
+                <value>
+                    <fullName>Connection Toolkit</fullName>
+                    <default>false</default>
+                    <label>Connection Toolkit</label>
+                </value>
+                <value>
+                    <fullName>CTI Routing Connector NAM(search for contacts &amp; accounts)</fullName>
+                    <default>false</default>
+                    <label>CTI Routing Connector NAM(search for contacts &amp; accounts)</label>
+                </value>
+                <value>
+                    <fullName>CTI_BE_NORDICS</fullName>
+                    <default>false</default>
+                    <label>CTI_BE_NORDICS</label>
+                </value>
+                <value>
+                    <fullName>CTIAdapter with slash</fullName>
+                    <default>false</default>
+                    <label>CTIAdapter with slash</label>
+                </value>
+                <value>
+                    <fullName>Deltaforce</fullName>
+                    <default>false</default>
+                    <label>Deltaforce</label>
+                </value>
+                <value>
+                    <fullName>drawloop</fullName>
+                    <default>false</default>
+                    <label>drawloop</label>
+                </value>
+                <value>
+                    <fullName>DUT</fullName>
+                    <default>false</default>
+                    <label>DUT</label>
+                </value>
+                <value>
+                    <fullName>Energy Solutions</fullName>
+                    <default>false</default>
+                    <label>Energy Solutions</label>
+                </value>
+                <value>
+                    <fullName>Event Connector</fullName>
+                    <default>false</default>
+                    <label>Event Connector</label>
+                </value>
+                <value>
+                    <fullName>Force.com Explorer</fullName>
+                    <default>false</default>
+                    <label>Force.com Explorer</label>
+                </value>
+                <value>
+                    <fullName>Force.com IDEÂ Â</fullName>
+                    <default>false</default>
+                    <label>Force.com IDEÂ Â</label>
+                </value>
+                <value>
+                    <fullName>France Return &amp; repair integration</fullName>
+                    <default>false</default>
+                    <label>France Return &amp; repair integration</label>
+                </value>
+                <value>
+                    <fullName>GREPForce</fullName>
+                    <default>false</default>
+                    <label>GREPForce</label>
+                </value>
+                <value>
+                    <fullName>Integration BEM</fullName>
+                    <default>false</default>
+                    <label>Integration BEM</label>
+                </value>
+                <value>
+                    <fullName>ISI (Integrated Solution Interface)</fullName>
+                    <default>false</default>
+                    <label>ISI (Integrated Solution Interface)</label>
+                </value>
+                <value>
+                    <fullName>ClearSlide</fullName>
+                    <default>false</default>
+                    <label>ClearSlide</label>
+                </value>
+                <value>
+                    <fullName>IWS Multimedia Email - Global</fullName>
+                    <default>false</default>
+                    <label>IWS Multimedia Email - Global</label>
+                </value>
+                <value>
+                    <fullName>LOV Machine</fullName>
+                    <default>false</default>
+                    <label>LOV Machine</label>
+                </value>
+                <value>
+                    <fullName>marketo</fullName>
+                    <default>false</default>
+                    <label>marketo</label>
+                </value>
+                <value>
+                    <fullName>Odaseva Backup</fullName>
+                    <default>false</default>
+                    <label>Odaseva Backup</label>
+                </value>
+                <value>
+                    <fullName>Office connector</fullName>
+                    <default>false</default>
+                    <label>Office connector</label>
+                </value>
+                <value>
+                    <fullName>OFOT (Talend)</fullName>
+                    <default>false</default>
+                    <label>OFOT (Talend)</label>
+                </value>
+                <value>
+                    <fullName>PermissionForce</fullName>
+                    <default>false</default>
+                    <label>PermissionForce</label>
+                </value>
+                <value>
+                    <fullName>Polyspot</fullName>
+                    <default>false</default>
+                    <label>Polyspot</label>
+                </value>
+                <value>
+                    <fullName>Postcode Anywhere</fullName>
+                    <default>false</default>
+                    <label>Postcode Anywhere</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Classic</fullName>
+                    <default>false</default>
+                    <label>Salesforce Classic</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Developers</fullName>
+                    <default>false</default>
+                    <label>Salesforce Developers</label>
+                </value>
+                <value>
+                    <fullName>Salesforce files (Chatterbox)</fullName>
+                    <default>false</default>
+                    <label>Salesforce files (Chatterbox)</label>
+                </value>
+                <value>
+                    <fullName>Salesforce for iPad</fullName>
+                    <default>false</default>
+                    <label>Salesforce for iPad</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Help &amp; Training</fullName>
+                    <default>false</default>
+                    <label>Salesforce Help &amp; Training</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Mobile Dashboards</fullName>
+                    <default>false</default>
+                    <label>Salesforce Mobile Dashboards</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Reports for Excel</fullName>
+                    <default>false</default>
+                    <label>Salesforce Reports for Excel</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Touch</fullName>
+                    <default>false</default>
+                    <label>Salesforce Touch</label>
+                </value>
+                <value>
+                    <fullName>Salesforce1 for iOS</fullName>
+                    <default>false</default>
+                    <label>Salesforce1 for iOS</label>
+                </value>
+                <value>
+                    <fullName>Salesforce1/Chatter for Android</fullName>
+                    <default>false</default>
+                    <label>Salesforce1/Chatter for Android</label>
+                </value>
+                <value>
+                    <fullName>Scripting Toolkit</fullName>
+                    <default>false</default>
+                    <label>Scripting Toolkit</label>
+                </value>
+                <value>
+                    <fullName>SDH Middleware</fullName>
+                    <default>false</default>
+                    <label>SDH Middleware</label>
+                </value>
+                <value>
+                    <fullName>SE Cordys bFO I2P RR Connector</fullName>
+                    <default>false</default>
+                    <label>SE Cordys bFO I2P RR Connector</label>
+                </value>
+                <value>
+                    <fullName>SE Developer tools</fullName>
+                    <default>false</default>
+                    <label>SE Developer tools</label>
+                </value>
+                <value>
+                    <fullName>Service Max connected apps</fullName>
+                    <default>false</default>
+                    <label>Service Max connected apps</label>
+                </value>
+                <value>
+                    <fullName>ServiceMax Laptop</fullName>
+                    <default>false</default>
+                    <label>ServiceMax Laptop</label>
+                </value>
+                <value>
+                    <fullName>SoftPhone</fullName>
+                    <default>false</default>
+                    <label>SoftPhone</label>
+                </value>
+                <value>
+                    <fullName>Eurotherm BlueZebra connector</fullName>
+                    <default>false</default>
+                    <label>Eurotherm BlueZebra connector</label>
+                </value>
+                <value>
+                    <fullName>Domo prod</fullName>
+                    <default>false</default>
+                    <label>Domo prod</label>
+                </value>
+                <value>
+                    <fullName>CTI - SE_INTERFACE_CTI_CHINA</fullName>
+                    <default>false</default>
+                    <label>CTI - SE_INTERFACE_CTI_CHINA</label>
+                </value>
+                <value>
+                    <fullName>CDS FRANCE</fullName>
+                    <default>false</default>
+                    <label>CDS FRANCE</label>
+                </value>
+                <value>
+                    <fullName>PSA Reporting Expansion Pack</fullName>
+                    <default>false</default>
+                    <label>PSA Reporting Expansion Pack</label>
+                </value>
+                <value>
+                    <fullName>SMSMagic</fullName>
+                    <default>false</default>
+                    <label>SMSMagic</label>
+                </value>
+                <value>
+                    <fullName>legacy connected apps</fullName>
+                    <default>false</default>
+                    <label>legacy connected apps</label>
+                </value>
+                <value>
+                    <fullName>Spring 2012 Update Elements for Revenue Storm</fullName>
+                    <default>false</default>
+                    <label>Spring 2012 Update Elements for Revenue Storm</label>
+                </value>
+                <value>
+                    <fullName>SOS Quick Setup &amp; Dashboard</fullName>
+                    <default>false</default>
+                    <label>SOS Quick Setup &amp; Dashboard</label>
+                </value>
+                <value>
+                    <fullName>Salesforce for Google AdWords</fullName>
+                    <default>false</default>
+                    <label>Salesforce for Google AdWords</label>
+                </value>
+                <value>
+                    <fullName>VisualStrap</fullName>
+                    <default>false</default>
+                    <label>VisualStrap</label>
+                </value>
+                <value>
+                    <fullName>C9_Package</fullName>
+                    <default>false</default>
+                    <label>C9_Package</label>
+                </value>
+                <value>
+                    <fullName>Appirio Core</fullName>
+                    <default>false</default>
+                    <label>Appirio Core</label>
+                </value>
+                <value>
+                    <fullName>Data.com Clean Reports</fullName>
+                    <default>false</default>
+                    <label>Data.com Clean Reports</label>
+                </value>
+                <value>
+                    <fullName>SE_ConnectedApps</fullName>
+                    <default>false</default>
+                    <label>SE_ConnectedApps</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Communities Management (for Communities without Chatter)</fullName>
+                    <default>false</default>
+                    <label>Salesforce Communities Management (for Communities without Chatter)</label>
+                </value>
+                <value>
+                    <fullName>Data.com Prospector Reports</fullName>
+                    <default>false</default>
+                    <label>Data.com Prospector Reports</label>
+                </value>
+                <value>
+                    <fullName>SE - ZOOP Connector</fullName>
+                    <default>false</default>
+                    <label>SE - ZOOP Connector</label>
+                </value>
+                <value>
+                    <fullName>Zuora for Salesforce Quotes</fullName>
+                    <default>false</default>
+                    <label>Zuora for Salesforce Quotes</label>
+                </value>
+                <value>
+                    <fullName>Chatter Unfollow - Managed</fullName>
+                    <default>false</default>
+                    <label>Chatter Unfollow - Managed</label>
+                </value>
+                <value>
+                    <fullName>Milestones PM (Unmanaged, EE, UE, DE)</fullName>
+                    <default>false</default>
+                    <label>Milestones PM (Unmanaged, EE, UE, DE)</label>
+                </value>
+                <value>
+                    <fullName>Oracle CPQ Commerce Integration</fullName>
+                    <default>false</default>
+                    <label>Oracle CPQ Commerce Integration</label>
+                </value>
+                <value>
+                    <fullName>Zuora for Salesforce 360</fullName>
+                    <default>false</default>
+                    <label>Zuora for Salesforce 360</label>
+                </value>
+                <value>
+                    <fullName>Role Chart</fullName>
+                    <default>false</default>
+                    <label>Role Chart</label>
+                </value>
+                <value>
+                    <fullName>GridBuddy</fullName>
+                    <default>false</default>
+                    <label>GridBuddy</label>
+                </value>
+                <value>
+                    <fullName>Output Builder</fullName>
+                    <default>false</default>
+                    <label>Output Builder</label>
+                </value>
+                <value>
+                    <fullName>Domo Connected App</fullName>
+                    <default>false</default>
+                    <label>Domo Connected App</label>
+                </value>
+                <value>
+                    <fullName>Declarative Lookup Rollup Summaries Tool</fullName>
+                    <default>false</default>
+                    <label>Declarative Lookup Rollup Summaries Tool</label>
+                </value>
+                <value>
+                    <fullName>OracleLiveHelp</fullName>
+                    <default>false</default>
+                    <label>OracleLiveHelp</label>
+                </value>
+                <value>
+                    <fullName>PS Enterprise</fullName>
+                    <default>false</default>
+                    <label>PS Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Fielo</fullName>
+                    <default>false</default>
+                    <label>Fielo</label>
+                </value>
+                <value>
+                    <fullName>SyncObjects v1.0.1</fullName>
+                    <default>false</default>
+                    <label>SyncObjects v1.0.1</label>
+                </value>
+                <value>
+                    <fullName>ServiceMax</fullName>
+                    <default>false</default>
+                    <label>ServiceMax</label>
+                </value>
+                <value>
+                    <fullName>The Inspector</fullName>
+                    <default>false</default>
+                    <label>The Inspector</label>
+                </value>
+                <value>
+                    <fullName>LOOP Document Services</fullName>
+                    <default>false</default>
+                    <label>LOOP Document Services</label>
+                </value>
+                <value>
+                    <fullName>GridBuddy for Milestones PM</fullName>
+                    <default>false</default>
+                    <label>GridBuddy for Milestones PM</label>
+                </value>
+                <value>
+                    <fullName>PRM Support tool</fullName>
+                    <default>false</default>
+                    <label>PRM Support tool</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DataAppendingRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If addition data injection is required into the Sandbox for Performance Testing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If addition data injection is required into the Sandbox for Performance Testing.</inlineHelpText>
+        <label>Data Appending Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DeliveryLead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Solution Architect for the Project requesting the Performance test.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Solution Architect for the Project requesting the Performance test.</inlineHelpText>
+        <label>Delivery Lead</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Performance_Test_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>EndDate__c</fullName>
+        <description>Planned End date of the Performance Testing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Planned End date of the Performance Testing.</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Environment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Sandbox in which Performance Testing will be performed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sandbox in which Performance Testing will be performed.</inlineHelpText>
+        <label>Environment</label>
+        <referenceTo>Environment__c</referenceTo>
+        <relationshipLabel>Performance Test Requests</relationshipLabel>
+        <relationshipName>Performance_Test_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProcessStream__c</fullName>
+        <description>Process Stream requesting the Performance Testing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Process Stream requesting the Performance Testing.</inlineHelpText>
+        <label>Process Stream</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account&amp;Contact</fullName>
+                    <default>false</default>
+                    <label>Account&amp;Contact</label>
+                </value>
+                <value>
+                    <fullName>CCC</fullName>
+                    <default>false</default>
+                    <label>CCC</label>
+                </value>
+                <value>
+                    <fullName>CIS</fullName>
+                    <default>false</default>
+                    <label>CIS</label>
+                </value>
+                <value>
+                    <fullName>COINBFO</fullName>
+                    <default>false</default>
+                    <label>COINBFO</label>
+                </value>
+                <value>
+                    <fullName>Connect</fullName>
+                    <default>false</default>
+                    <label>Connect</label>
+                </value>
+                <value>
+                    <fullName>CTI</fullName>
+                    <default>false</default>
+                    <label>CTI</label>
+                </value>
+                <value>
+                    <fullName>CustomerCommunity</fullName>
+                    <default>false</default>
+                    <label>CustomerCommunity</label>
+                </value>
+                <value>
+                    <fullName>DMT</fullName>
+                    <default>false</default>
+                    <label>DMT</label>
+                </value>
+                <value>
+                    <fullName>FIO</fullName>
+                    <default>false</default>
+                    <label>FIO</label>
+                </value>
+                <value>
+                    <fullName>I2P</fullName>
+                    <default>false</default>
+                    <label>I2P</label>
+                </value>
+                <value>
+                    <fullName>I2PReturnRepair</fullName>
+                    <default>false</default>
+                    <label>I2PReturnRepair</label>
+                </value>
+                <value>
+                    <fullName>IDMS</fullName>
+                    <default>false</default>
+                    <label>IDMS</label>
+                </value>
+                <value>
+                    <fullName>IPOStrategicProgram</fullName>
+                    <default>false</default>
+                    <label>IPOStrategicProgram</label>
+                </value>
+                <value>
+                    <fullName>ITBRR</fullName>
+                    <default>false</default>
+                    <label>ITBRR</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Non-bFO</fullName>
+                    <default>false</default>
+                    <label>Non-bFO</label>
+                </value>
+                <value>
+                    <fullName>PRM</fullName>
+                    <default>false</default>
+                    <label>PRM</label>
+                </value>
+                <value>
+                    <fullName>Referential</fullName>
+                    <default>false</default>
+                    <label>Referential</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Shared</fullName>
+                    <default>false</default>
+                    <label>Shared</label>
+                </value>
+                <value>
+                    <fullName>UserManagement</fullName>
+                    <default>false</default>
+                    <label>UserManagement</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Purpose__c</fullName>
+        <description>Summary of the Scope/Purpose of the Performance Testing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Summary of the Scope/Purpose of the Performance Testing.</inlineHelpText>
+        <label>Purpose</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SolutionOwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Solution Owner of the Process Stream requesting the Performance Test.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Solution Owner of the Process Stream requesting the Performance Test.</inlineHelpText>
+        <label>Solution Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Performance_Test_Requests1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StartDate__c</fullName>
+        <description>Planned Date for the Performance Testing to begin.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Planned Date for the Performance Testing to begin.</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Status of the Performance Testing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Status of the Performance Testing.</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>false</default>
+                    <label>Requested</label>
+                </value>
+                <value>
+                    <fullName>Planned</fullName>
+                    <default>false</default>
+                    <label>Planned</label>
+                </value>
+                <value>
+                    <fullName>Suspended</fullName>
+                    <default>false</default>
+                    <label>Suspended</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TestUserCreationRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If Test Users need to be created for the Performance Testing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Test Users need to be created for the Performance Testing.</inlineHelpText>
+        <label>Test User Creation Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>Baseline - Peak Volume (not Edge)
+Stress/Limit - Incrementally load the system above baseline until a limiting bottleneck occurs.
+Edge Scenario - Several scenarios will be constructed which simulate edge conditions such as user and volume surges etc.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Baseline - Peak Volume (not Edge)
+Stress/Limit - Incrementally load the system above baseline until a limiting bottleneck occurs.
+Edge Scenario - Several scenarios will be constructed which simulate edge conditions such as user and volume surges etc.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Smoke Test - Moderate Load</fullName>
+                    <default>false</default>
+                    <label>Smoke Test - Moderate Load</label>
+                </value>
+                <value>
+                    <fullName>Baseline - Peak Volume</fullName>
+                    <default>false</default>
+                    <label>Baseline - Peak Volume</label>
+                </value>
+                <value>
+                    <fullName>Reduced Capacity</fullName>
+                    <default>false</default>
+                    <label>Reduced Capacity</label>
+                </value>
+                <value>
+                    <fullName>Stress / Limit</fullName>
+                    <default>false</default>
+                    <label>Stress / Limit</label>
+                </value>
+                <value>
+                    <fullName>Edge Scenario</fullName>
+                    <default>false</default>
+                    <label>Edge Scenario</label>
+                </value>
+                <value>
+                    <fullName>Duration</fullName>
+                    <default>false</default>
+                    <label>Duration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <label>Performance Test Request</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>PTR-{00000}</displayFormat>
+        <label>Performance Test Request</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Performance Test Requests</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>PerformanceTestRequest</fullName>
+        <active>true</active>
+        <label>Performance Test Request</label>
+        <picklistValues>
+            <picklist>ActiveConnectorsRequired__c</picklist>
+            <values>
+                <fullName>AMC Connected Apps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANT Migration toolkit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AppExchange</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appirio Core</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BriefingEdge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C9_Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CDS FRANCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CTI - SE_INTERFACE_CTI_CHINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CTI - SE_INTERFACE_CTI_GLOBAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CTI - SE_INTERFACE_CTI_INVENSYS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CTI Routing Connector NAM%28search for contacts %26 accounts%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CTIAdapter with slash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CTI_BE_NORDICS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chatter Desktop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chatter Mobile for BlackBerry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chatter Unfollow - Managed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ChiTu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chorus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClearSlide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud Extend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cloud9 analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ConnectLeader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connection Toolkit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coveo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DTN Telvent Opportunity Extractor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DUT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data%2Ecom Clean Reports</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data%2Ecom Prospector Reports</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declarative Lookup Rollup Summaries Tool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deltaforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DeviSol Quote Connector Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domo Connected App</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domo prod</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eurotherm BlueZebra connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event Connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fielo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Force%2Ecom Explorer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Force%2Ecom IDEÂ Â</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France Literature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France Return %26 repair integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GREPForce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>German Literature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GridBuddy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GridBuddy for Milestones PM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ISI %28Integrated Solution Interface%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IWS Multimedia Email - Global</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installed Base connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration BEM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invensys BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JobCode Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOOP Document Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOV Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Milestones PM %28Unmanaged%2C EE%2C UE%2C DE%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NAM Oppty-Proposal Connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NAM Quote Link Connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OFOT %28Talend%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Odaseva Backup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle CPQ Commerce Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OracleLiveHelp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Output Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PES Connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRM Support tool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PS Enterprise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSA Reporting Expansion Pack</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PermissionForce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pitcher Zero</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Polyspot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Postcode Anywhere</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Role Chart</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDH Middleware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SE - ZOOP Connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SE CEP Pilot IoT Cloud</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SE Cordys bFO I2P RR Connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SE Developer tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SE QUIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SE_ConnectedApps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SE_INTERFACE_OLH_NAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMSMagic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOS Quick Setup %26 Dashboard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Classic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Communities Management %28for Communities without Chatter%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Developers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Help %26 Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Mobile Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Reports for Excel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Touch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce files %28Chatterbox%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce for Google AdWords</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce for Outlook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce for iPad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce1 for iOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce1%2FChatter for Android</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scripting Toolkit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Contract connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Max connected apps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ServiceMax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ServiceMax Laptop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SoftPhone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Splunk for CCC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Splunk for security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spring 2012 Update Elements for Revenue Storm</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SpringTool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SyncObjects v1%2E0%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The Inspector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VerifInfoTiers - CTI Routing Connector - France %28search for contacts %26 accounts%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VisualStrap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web source CPQ %28Configuration Price Quote%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work Order connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workbench</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XSL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zuora for Salesforce 360</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zuora for Salesforce Quotes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>admin booster</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>calendar anything</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>connect for office excel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>drawloop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>legacy connected apps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>marketo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>mySchneider app Connector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>wallboard Interface</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ProcessStream__c</picklist>
+            <values>
+                <fullName>Account%26Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COINBFO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CTI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CustomerCommunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DMT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I2P</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I2PReturnRepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IDMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IPOStrategicProgram</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITBRR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-bFO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UserManagement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Planned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suspended</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Baseline - Peak Volume</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edge Scenario</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reduced Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Smoke Test - Moderate Load</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stress %2F Limit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>PTR_VR_EndDateGreaterThanStartDate</fullName>
+        <active>true</active>
+        <errorConditionFormula>StartDate__c &gt; EndDate__c</errorConditionFormula>
+        <errorMessage>End Date cannot be before Begin Date.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Type_Description</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Type Description</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/servlet/servlet.FileDownload?file=015c0000000sk1x</url>
+    </webLinks>
+</CustomObject>

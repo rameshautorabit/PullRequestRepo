@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>URL for the PRM Partner community, adjust for each sandbox for redirects to work correctly.  For production, it will be https://partner.schneider-electric.com/partners</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Base_URL__c</fullName>
+        <defaultValue>&quot;https://partner.schneider-electric.com/partners&quot;</defaultValue>
+        <description>Base URL for the PRM Partner Community</description>
+        <externalId>false</externalId>
+        <label>Base URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Get_Param_Name__c</fullName>
+        <description>Name of the GET parameter in the URL</description>
+        <externalId>false</externalId>
+        <label>Get Param Name</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Get_Param_Value__c</fullName>
+        <description>Value for the GET parameter in the URL string</description>
+        <externalId>false</externalId>
+        <label>Get Param Value</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Login_Path__c</fullName>
+        <defaultValue>&apos;/Menu/Login&apos;</defaultValue>
+        <description>Path for login, to be appended to the base URL</description>
+        <externalId>false</externalId>
+        <label>Login Path</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PRM Community Partner URL</label>
+    <visibility>Public</visibility>
+</CustomObject>

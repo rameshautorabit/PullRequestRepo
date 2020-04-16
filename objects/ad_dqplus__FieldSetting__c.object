@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ad_dqplus__Cleanse__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Cleanse</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Input</fullName>
+                    <default>false</default>
+                    <label>Input</label>
+                </value>
+                <value>
+                    <fullName>Output</fullName>
+                    <default>false</default>
+                    <label>Output</label>
+                </value>
+                <value>
+                    <fullName>Both</fullName>
+                    <default>false</default>
+                    <label>Both</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__Correction_Standardization_Subset_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Correction &amp; Standardization Subset Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__DQPlusDataTypeCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DQ*Plus Data Type Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Address</fullName>
+                    <default>true</default>
+                    <label>Address</label>
+                </value>
+                <value>
+                    <fullName>Common</fullName>
+                    <default>false</default>
+                    <label>Common</label>
+                </value>
+                <value>
+                    <fullName>Geographic</fullName>
+                    <default>false</default>
+                    <label>Geographic</label>
+                </value>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>Organization</fullName>
+                    <default>false</default>
+                    <label>Organization</label>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                    <label>Phone</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__DQPlusDatatype__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DQ*Plus Data Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>ad_dqplus__DQPlusDataTypeCategory__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Address Line 1</fullName>
+                    <default>false</default>
+                    <label>Address Line 1</label>
+                </value>
+                <value>
+                    <fullName>City</fullName>
+                    <default>false</default>
+                    <label>City</label>
+                </value>
+                <value>
+                    <fullName>Country</fullName>
+                    <default>false</default>
+                    <label>Country</label>
+                </value>
+                <value>
+                    <fullName>Number</fullName>
+                    <default>false</default>
+                    <label>Number</label>
+                </value>
+                <value>
+                    <fullName>Phone Number</fullName>
+                    <default>false</default>
+                    <label>Phone Number</label>
+                </value>
+                <value>
+                    <fullName>Phone Verification Result Codes</fullName>
+                    <default>false</default>
+                    <label>Phone Verification Result Codes</label>
+                </value>
+                <value>
+                    <fullName>State or Province</fullName>
+                    <default>false</default>
+                    <label>State or Province</label>
+                </value>
+                <value>
+                    <fullName>Text</fullName>
+                    <default>false</default>
+                    <label>Text</label>
+                </value>
+                <value>
+                    <fullName>URL</fullName>
+                    <default>false</default>
+                    <label>URL</label>
+                </value>
+                <value>
+                    <fullName>ZIP or Postal Code</fullName>
+                    <default>false</default>
+                    <label>ZIP or Postal Code</label>
+                </value>
+                <value>
+                    <fullName>Address Line 2</fullName>
+                    <default>false</default>
+                    <label>Address Line 2</label>
+                </value>
+                <value>
+                    <fullName>Address Line 3</fullName>
+                    <default>false</default>
+                    <label>Address Line 3</label>
+                </value>
+                <value>
+                    <fullName>Address</fullName>
+                    <default>false</default>
+                    <label>Address</label>
+                </value>
+                <value>
+                    <fullName>Address Type</fullName>
+                    <default>false</default>
+                    <label>Address Type</label>
+                </value>
+                <value>
+                    <fullName>Carrier Route</fullName>
+                    <default>false</default>
+                    <label>Carrier Route</label>
+                </value>
+                <value>
+                    <fullName>Delivery Point Validation Footnotes</fullName>
+                    <default>false</default>
+                    <label>Delivery Point Validation Footnotes</label>
+                </value>
+                <value>
+                    <fullName>Dependent Locality</fullName>
+                    <default>false</default>
+                    <label>Dependent Locality</label>
+                </value>
+                <value>
+                    <fullName>International Address Status</fullName>
+                    <default>false</default>
+                    <label>International Address Status</label>
+                </value>
+                <value>
+                    <fullName>Residential Business Delivery Indicator (RBDI)</fullName>
+                    <default>false</default>
+                    <label>Residential Business Delivery Indicator (RBDI)</label>
+                </value>
+                <value>
+                    <fullName>ZIP (Plus4 only)</fullName>
+                    <default>false</default>
+                    <label>ZIP (Plus4 only)</label>
+                </value>
+                <value>
+                    <fullName>Postal Automation Code</fullName>
+                    <default>false</default>
+                    <label>Postal Automation Code</label>
+                </value>
+                <value>
+                    <fullName>Postal Facility Code</fullName>
+                    <default>false</default>
+                    <label>Postal Facility Code</label>
+                </value>
+                <value>
+                    <fullName>Zip Code Type</fullName>
+                    <default>false</default>
+                    <label>Zip Code Type</label>
+                </value>
+                <value>
+                    <fullName>Delivery Point Zip Code</fullName>
+                    <default>false</default>
+                    <label>Delivery Point Zip Code</label>
+                </value>
+                <value>
+                    <fullName>eLot Number</fullName>
+                    <default>false</default>
+                    <label>eLot Number</label>
+                </value>
+                <value>
+                    <fullName>eLot Order</fullName>
+                    <default>false</default>
+                    <label>eLot Order</label>
+                </value>
+                <value>
+                    <fullName>Extraneous Address Data</fullName>
+                    <default>false</default>
+                    <label>Extraneous Address Data</label>
+                </value>
+                <value>
+                    <fullName>LACSLink Indicator</fullName>
+                    <default>false</default>
+                    <label>LACSLink Indicator</label>
+                </value>
+                <value>
+                    <fullName>POSTNET Barcode Number</fullName>
+                    <default>false</default>
+                    <label>POSTNET Barcode Number</label>
+                </value>
+                <value>
+                    <fullName>Private Mail Box</fullName>
+                    <default>false</default>
+                    <label>Private Mail Box</label>
+                </value>
+                <value>
+                    <fullName>Urbanization</fullName>
+                    <default>false</default>
+                    <label>Urbanization</label>
+                </value>
+                <value>
+                    <fullName>Address Verification Result Descriptions</fullName>
+                    <default>false</default>
+                    <label>Address Verification Result Descriptions</label>
+                </value>
+                <value>
+                    <fullName>Apartment/Suite/Unit</fullName>
+                    <default>false</default>
+                    <label>Apartment/Suite/Unit</label>
+                </value>
+                <value>
+                    <fullName>Currency</fullName>
+                    <default>false</default>
+                    <label>Currency</label>
+                </value>
+                <value>
+                    <fullName>Date</fullName>
+                    <default>false</default>
+                    <label>Date</label>
+                </value>
+                <value>
+                    <fullName>ID</fullName>
+                    <default>false</default>
+                    <label>ID</label>
+                </value>
+                <value>
+                    <fullName>Last Updated Date</fullName>
+                    <default>false</default>
+                    <label>Last Updated Date</label>
+                </value>
+                <value>
+                    <fullName>County</fullName>
+                    <default>false</default>
+                    <label>County</label>
+                </value>
+                <value>
+                    <fullName>County FIPS</fullName>
+                    <default>false</default>
+                    <label>County FIPS</label>
+                </value>
+                <value>
+                    <fullName>Geocode Result Code</fullName>
+                    <default>false</default>
+                    <label>Geocode Result Code</label>
+                </value>
+                <value>
+                    <fullName>Geocode Result Description</fullName>
+                    <default>false</default>
+                    <label>Geocode Result Description</label>
+                </value>
+                <value>
+                    <fullName>Latitude</fullName>
+                    <default>false</default>
+                    <label>Latitude</label>
+                </value>
+                <value>
+                    <fullName>Longitude</fullName>
+                    <default>false</default>
+                    <label>Longitude</label>
+                </value>
+                <value>
+                    <fullName>Time Zone</fullName>
+                    <default>false</default>
+                    <label>Time Zone</label>
+                </value>
+                <value>
+                    <fullName>US Census Block</fullName>
+                    <default>false</default>
+                    <label>US Census Block</label>
+                </value>
+                <value>
+                    <fullName>US Census CBSA Code</fullName>
+                    <default>false</default>
+                    <label>US Census CBSA Code</label>
+                </value>
+                <value>
+                    <fullName>US Census CBSA Division Code</fullName>
+                    <default>false</default>
+                    <label>US Census CBSA Division Code</label>
+                </value>
+                <value>
+                    <fullName>US Census CBSA Division Level</fullName>
+                    <default>false</default>
+                    <label>US Census CBSA Division Level</label>
+                </value>
+                <value>
+                    <fullName>US Census CBSA Division Title</fullName>
+                    <default>false</default>
+                    <label>US Census CBSA Division Title</label>
+                </value>
+                <value>
+                    <fullName>US Census CBSA Level</fullName>
+                    <default>false</default>
+                    <label>US Census CBSA Level</label>
+                </value>
+                <value>
+                    <fullName>US Census CBSA Title</fullName>
+                    <default>false</default>
+                    <label>US Census CBSA Title</label>
+                </value>
+                <value>
+                    <fullName>US Census Place Code</fullName>
+                    <default>false</default>
+                    <label>US Census Place Code</label>
+                </value>
+                <value>
+                    <fullName>US Census Place Name</fullName>
+                    <default>false</default>
+                    <label>US Census Place Name</label>
+                </value>
+                <value>
+                    <fullName>US Census Tract</fullName>
+                    <default>false</default>
+                    <label>US Census Tract</label>
+                </value>
+                <value>
+                    <fullName>Alias Name</fullName>
+                    <default>false</default>
+                    <label>Alias Name</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Email Verification Result Codes</fullName>
+                    <default>false</default>
+                    <label>Email Verification Result Codes</label>
+                </value>
+                <value>
+                    <fullName>Email Verification Result Descriptions</fullName>
+                    <default>false</default>
+                    <label>Email Verification Result Descriptions</label>
+                </value>
+                <value>
+                    <fullName>First Name</fullName>
+                    <default>false</default>
+                    <label>First Name</label>
+                </value>
+                <value>
+                    <fullName>First Name 2</fullName>
+                    <default>false</default>
+                    <label>First Name 2</label>
+                </value>
+                <value>
+                    <fullName>Full Name</fullName>
+                    <default>false</default>
+                    <label>Full Name</label>
+                </value>
+                <value>
+                    <fullName>Gender 2</fullName>
+                    <default>false</default>
+                    <label>Gender 2</label>
+                </value>
+                <value>
+                    <fullName>Gender</fullName>
+                    <default>false</default>
+                    <label>Gender</label>
+                </value>
+                <value>
+                    <fullName>Job Title</fullName>
+                    <default>false</default>
+                    <label>Job Title</label>
+                </value>
+                <value>
+                    <fullName>Last Name</fullName>
+                    <default>false</default>
+                    <label>Last Name</label>
+                </value>
+                <value>
+                    <fullName>Last Name 2</fullName>
+                    <default>false</default>
+                    <label>Last Name 2</label>
+                </value>
+                <value>
+                    <fullName>Maiden Name</fullName>
+                    <default>false</default>
+                    <label>Maiden Name</label>
+                </value>
+                <value>
+                    <fullName>Marital Status</fullName>
+                    <default>false</default>
+                    <label>Marital Status</label>
+                </value>
+                <value>
+                    <fullName>Middle Name</fullName>
+                    <default>false</default>
+                    <label>Middle Name</label>
+                </value>
+                <value>
+                    <fullName>Middle Name 2</fullName>
+                    <default>false</default>
+                    <label>Middle Name 2</label>
+                </value>
+                <value>
+                    <fullName>Nick Name</fullName>
+                    <default>false</default>
+                    <label>Nick Name</label>
+                </value>
+                <value>
+                    <fullName>Name Prefix</fullName>
+                    <default>false</default>
+                    <label>Name Prefix</label>
+                </value>
+                <value>
+                    <fullName>Name Prefix 2</fullName>
+                    <default>false</default>
+                    <label>Name Prefix 2</label>
+                </value>
+                <value>
+                    <fullName>Salutation</fullName>
+                    <default>false</default>
+                    <label>Salutation</label>
+                </value>
+                <value>
+                    <fullName>Name Standardization Result Codes</fullName>
+                    <default>false</default>
+                    <label>Name Standardization Result Codes</label>
+                </value>
+                <value>
+                    <fullName>Name Standardization Result Descriptions</fullName>
+                    <default>false</default>
+                    <label>Name Standardization Result Descriptions</label>
+                </value>
+                <value>
+                    <fullName>Name Suffix</fullName>
+                    <default>false</default>
+                    <label>Name Suffix</label>
+                </value>
+                <value>
+                    <fullName>Name Suffix 2</fullName>
+                    <default>false</default>
+                    <label>Name Suffix 2</label>
+                </value>
+                <value>
+                    <fullName>Title</fullName>
+                    <default>false</default>
+                    <label>Title</label>
+                </value>
+                <value>
+                    <fullName>Name</fullName>
+                    <default>false</default>
+                    <label>Name</label>
+                </value>
+                <value>
+                    <fullName>Phone Area Code</fullName>
+                    <default>false</default>
+                    <label>Phone Area Code</label>
+                </value>
+                <value>
+                    <fullName>Phone Extension</fullName>
+                    <default>false</default>
+                    <label>Phone Extension</label>
+                </value>
+                <value>
+                    <fullName>Fax</fullName>
+                    <default>false</default>
+                    <label>Fax</label>
+                </value>
+                <value>
+                    <fullName>Phone Distance (Miles between Area Code/Prefix and ZIP Centers)</fullName>
+                    <default>false</default>
+                    <label>Phone Distance (Miles between Area Code/Prefix and ZIP Centers)</label>
+                </value>
+                <value>
+                    <fullName>Phone Verification Result Descriptions</fullName>
+                    <default>false</default>
+                    <label>Phone Verification Result Descriptions</label>
+                </value>
+                <value>
+                    <fullName>State</fullName>
+                    <default>false</default>
+                    <label>State</label>
+                </value>
+                <value>
+                    <fullName>Organization Name</fullName>
+                    <default>false</default>
+                    <label>Organization Name</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Address Line 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>City</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Country</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>State or Province</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>ZIP or Postal Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Address Line 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Address Line 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Address</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Address Type</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Carrier Route</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Delivery Point Validation Footnotes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Dependent Locality</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>International Address Status</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Residential Business Delivery Indicator (RBDI)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>ZIP (Plus4 only)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Postal Automation Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Postal Facility Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Zip Code Type</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Delivery Point Zip Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>eLot Number</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>eLot Order</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Extraneous Address Data</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>LACSLink Indicator</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>POSTNET Barcode Number</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Private Mail Box</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Urbanization</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Address Verification Result Descriptions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>Apartment/Suite/Unit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Address</controllingFieldValue>
+                <valueName>State</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Common</controllingFieldValue>
+                <valueName>Number</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Common</controllingFieldValue>
+                <valueName>Text</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Common</controllingFieldValue>
+                <valueName>Currency</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Common</controllingFieldValue>
+                <valueName>Date</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Common</controllingFieldValue>
+                <valueName>ID</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Common</controllingFieldValue>
+                <valueName>Last Updated Date</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>County</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>County FIPS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>Geocode Result Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>Geocode Result Description</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>Latitude</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>Longitude</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>Time Zone</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census Block</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census CBSA Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census CBSA Division Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census CBSA Division Level</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census CBSA Division Title</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census CBSA Level</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census CBSA Title</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census Place Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census Place Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Geographic</controllingFieldValue>
+                <valueName>US Census Tract</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Alias Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Email</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Email Verification Result Codes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Email Verification Result Descriptions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>First Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>First Name 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Full Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Gender 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Gender</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Job Title</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Last Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Last Name 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Maiden Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Marital Status</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Middle Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Middle Name 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Nick Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Name Prefix</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Name Prefix 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Salutation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Name Standardization Result Codes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Name Standardization Result Descriptions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Name Suffix</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Name Suffix 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Title</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Organization</controllingFieldValue>
+                <valueName>URL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Organization</controllingFieldValue>
+                <valueName>Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Organization</controllingFieldValue>
+                <valueName>Organization Name</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Phone Area Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Phone Extension</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Fax</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Phone Distance (Miles between Area Code/Prefix and ZIP Centers)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Phone Verification Result Descriptions</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__Data_Source_Connector_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Data Source Connector Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__DuplicateIDRuleSubsetName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Duplicate ID Rule Subset Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__FieldAPIName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Field API Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__FormName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Form Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__Rule_Set_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Rule Set Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__SearchAndReplaceRuleSubsetName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Search And Replace Rule Subset Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ad_dqplus__SmartSearchOnTab__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Smart Search on Tab</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>DQ*Plus Field Setting</label>
+    <listViews>
+        <fullName>ad_dqplus__All_DQPlus_Field_Settings</fullName>
+        <columns>NAME</columns>
+        <columns>ad_dqplus__FormName__c</columns>
+        <columns>ad_dqplus__FieldAPIName__c</columns>
+        <columns>ad_dqplus__DQPlusDataTypeCategory__c</columns>
+        <columns>ad_dqplus__DQPlusDatatype__c</columns>
+        <columns>ad_dqplus__Cleanse__c</columns>
+        <columns>ad_dqplus__SmartSearchOnTab__c</columns>
+        <columns>ad_dqplus__Data_Source_Connector_Name__c</columns>
+        <columns>ad_dqplus__Rule_Set_Name__c</columns>
+        <columns>ad_dqplus__Correction_Standardization_Subset_Name__c</columns>
+        <columns>ad_dqplus__SearchAndReplaceRuleSubsetName__c</columns>
+        <columns>ad_dqplus__DuplicateIDRuleSubsetName__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All DQ*Plus Field Settings</label>
+    </listViews>
+    <nameField>
+        <displayFormat>FS{0000}</displayFormat>
+        <label>Field Setting #</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>DQ*Plus Field Settings</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ad_dqplus__FormName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ad_dqplus__FieldAPIName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ad_dqplus__DQPlusDatatype__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ad_dqplus__Cleanse__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ad_dqplus__SmartSearchOnTab__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>ad_dqplus__FormName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ad_dqplus__FieldAPIName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ad_dqplus__DQPlusDatatype__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ad_dqplus__Cleanse__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ad_dqplus__SmartSearchOnTab__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

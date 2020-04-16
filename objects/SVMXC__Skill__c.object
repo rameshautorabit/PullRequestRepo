@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>SVMXC__SVMX_LaunchHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Skill record defines the expertise required during service delivery. For example, a CTI product company may define Network Assessment, CISCO router setup etc. as various skills. Skill definition is used in service group definition and can be used when assigning a service order to a service group or group member considering their skill levels.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>SVMXC__SM_Service_Board_Fields</fullName>
+        <description>The fields listed in this set will be synced to Service Board.</description>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SVMXC__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SVMXC__Skill_Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Service Board Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>Applicable_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Applicable Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Skills</relationshipLabel>
+        <relationshipName>Skills</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Business_Unit__c</fullName>
+        <description>Allows user to choose which Business Units this Skill can be applied to on a Habilitation Requirement record associated with a location.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allows user to choose which Business Units this Skill can be applied to on a Habilitation Requirement record associated with a location.</inlineHelpText>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>BD</fullName>
+                    <default>false</default>
+                    <label>BD</label>
+                </value>
+                <value>
+                    <fullName>BI</fullName>
+                    <default>false</default>
+                    <label>BI</label>
+                </value>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>false</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>GC</fullName>
+                    <default>false</default>
+                    <label>GC</label>
+                </value>
+                <value>
+                    <fullName>GW</fullName>
+                    <default>false</default>
+                    <label>GW</label>
+                </value>
+                <value>
+                    <fullName>IA</fullName>
+                    <default>false</default>
+                    <label>IA</label>
+                </value>
+                <value>
+                    <fullName>IB</fullName>
+                    <default>false</default>
+                    <label>IB</label>
+                </value>
+                <value>
+                    <fullName>ID</fullName>
+                    <default>false</default>
+                    <label>ID</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>PP</fullName>
+                    <default>false</default>
+                    <label>PP</label>
+                </value>
+                <value>
+                    <fullName>PR</fullName>
+                    <default>false</default>
+                    <label>PR</label>
+                </value>
+                <value>
+                    <fullName>PS</fullName>
+                    <default>false</default>
+                    <label>PS</label>
+                </value>
+                <value>
+                    <fullName>SO</fullName>
+                    <default>false</default>
+                    <label>SO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Country_Name__c</fullName>
+        <description>Returns the code of the associated Country</description>
+        <externalId>false</externalId>
+        <formula>Country__r.CountryCode__c</formula>
+        <inlineHelpText>Returns the code of the associated Country</inlineHelpText>
+        <label>Country Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Country in which the certification is applicable (This field is not used for Expertise type skills, only for certifications)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Country in which the certification is applicable (This field is not used for Expertise type skills, only for certifications)</inlineHelpText>
+        <label>Country</label>
+        <referenceTo>Country__c</referenceTo>
+        <relationshipLabel>Skills (Certifications)</relationshipLabel>
+        <relationshipName>Skills</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Manufacturer__c</fullName>
+        <description>Allows tracking of a Skill Category down to the manufacturer level.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allows tracking of a Skill Category down to the manufacturer level.</inlineHelpText>
+        <label>Manufacturer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>ABB</fullName>
+                    <default>false</default>
+                    <label>ABB</label>
+                </value>
+                <value>
+                    <fullName>Allis Chalmers</fullName>
+                    <default>false</default>
+                    <label>Allis Chalmers</label>
+                </value>
+                <value>
+                    <fullName>Eaton</fullName>
+                    <default>false</default>
+                    <label>Eaton</label>
+                </value>
+                <value>
+                    <fullName>General Electric</fullName>
+                    <default>false</default>
+                    <label>General Electric</label>
+                </value>
+                <value>
+                    <fullName>ITE</fullName>
+                    <default>false</default>
+                    <label>ITE</label>
+                </value>
+                <value>
+                    <fullName>Schneider Electric</fullName>
+                    <default>false</default>
+                    <label>Schneider Electric</label>
+                </value>
+                <value>
+                    <fullName>Siemens</fullName>
+                    <default>false</default>
+                    <label>Siemens</label>
+                </value>
+                <value>
+                    <fullName>Westinghouse</fullName>
+                    <default>false</default>
+                    <label>Westinghouse</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates if this skill is currently active and available for use</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if this skill is currently active and available for use</inlineHelpText>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Detailed description of the skill</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Detailed description of the skill</inlineHelpText>
+        <label>Description</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Select__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checkbox used in ServiceMax screens to manage record selection</description>
+        <externalId>false</externalId>
+        <label>Select</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Skill_Area__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates where this skill is applicable, in the field or depot or both</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates where this skill is applicable, in the field or depot or both</inlineHelpText>
+        <label>Skill Area</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Field Service</fullName>
+                    <default>false</default>
+                    <label>Field Service</label>
+                </value>
+                <value>
+                    <fullName>Depot Repair</fullName>
+                    <default>false</default>
+                    <label>Depot Repair</label>
+                </value>
+                <value>
+                    <fullName>Field And Depot</fullName>
+                    <default>false</default>
+                    <label>Field And Depot</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Skill_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the type of skill. This helps in grouping similar types of skills for reporting purposes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the type of skill. This helps in grouping similar types of skills for reporting purposes.</inlineHelpText>
+        <label>Skill Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>(DoNotUse)-E&amp;P-LV Busway</fullName>
+                    <default>false</default>
+                    <label>(DoNotUse)-E&amp;P-LV Busway</label>
+                </value>
+                <value>
+                    <fullName>(DoNotUse)-E&amp;P-MV equipment</fullName>
+                    <default>false</default>
+                    <label>(DoNotUse)-E&amp;P-MV equipment</label>
+                </value>
+                <value>
+                    <fullName>(DoNotUse)-E&amp;P-Transformers (MV/LV Dry)</fullName>
+                    <default>false</default>
+                    <label>(DoNotUse)-E&amp;P-Transformers (MV/LV Dry)</label>
+                </value>
+                <value>
+                    <fullName>(DoNotUse)-E&amp;P-Transformers (MV/LV Oil/Liquid)</fullName>
+                    <default>false</default>
+                    <label>(DoNotUse)-E&amp;P-Transformers (MV/LV Oil/Liquid)</label>
+                </value>
+                <value>
+                    <fullName>COUNTRY-Certification</fullName>
+                    <default>false</default>
+                    <label>COUNTRY-Certification</label>
+                </value>
+                <value>
+                    <fullName>GLOBAL-Certification</fullName>
+                    <default>false</default>
+                    <label>GLOBAL-Certification</label>
+                </value>
+                <value>
+                    <fullName>GLOBAL-Expertise (with level)</fullName>
+                    <default>false</default>
+                    <label>GLOBAL-Expertise (with level)</label>
+                </value>
+                <value>
+                    <fullName>INDUSTRY_Diagnostic &amp; Consulting</fullName>
+                    <default>false</default>
+                    <label>INDUSTRY_Diagnostic &amp; Consulting</label>
+                </value>
+                <value>
+                    <fullName>INDUSTRY-Drives</fullName>
+                    <default>false</default>
+                    <label>INDUSTRY-Drives</label>
+                </value>
+                <value>
+                    <fullName>INDUSTRY-HMI</fullName>
+                    <default>false</default>
+                    <label>INDUSTRY-HMI</label>
+                </value>
+                <value>
+                    <fullName>INDUSTRY-Motion</fullName>
+                    <default>false</default>
+                    <label>INDUSTRY-Motion</label>
+                </value>
+                <value>
+                    <fullName>INDUSTRY-PLC</fullName>
+                    <default>false</default>
+                    <label>INDUSTRY-PLC</label>
+                </value>
+                <value>
+                    <fullName>INDUSTRY-Soft starters</fullName>
+                    <default>false</default>
+                    <label>INDUSTRY-Soft starters</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_Diagnostic &amp; Consulting</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_Diagnostic &amp; Consulting</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_LV Equipment</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_LV Equipment</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_MV Oil Equipment</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_MV Oil Equipment</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_MV Outdoor Equipment</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_MV Outdoor Equipment</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_MV Primary AIS Equipment</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_MV Primary AIS Equipment</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_MV Primary GIS Equipment</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_MV Primary GIS Equipment</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_MV Secondary AIS Equipment</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_MV Secondary AIS Equipment</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_MV Secondary GIS Equipment</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_MV Secondary GIS Equipment</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_MV SSIS Equipment</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_MV SSIS Equipment</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_Relay &amp; Control</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_Relay &amp; Control</label>
+                </value>
+                <value>
+                    <fullName>POWER-FS_Transformers</fullName>
+                    <default>false</default>
+                    <label>POWER-FS_Transformers</label>
+                </value>
+                <value>
+                    <fullName>SECURE-POWER_Diagnostic &amp; Consulting</fullName>
+                    <default>false</default>
+                    <label>SECURE-POWER_Diagnostic &amp; Consulting</label>
+                </value>
+                <value>
+                    <fullName>SECURE-POWER-Cooling</fullName>
+                    <default>false</default>
+                    <label>SECURE-POWER-Cooling</label>
+                </value>
+                <value>
+                    <fullName>SECURE-POWER-Power</fullName>
+                    <default>false</default>
+                    <label>SECURE-POWER-Power</label>
+                </value>
+                <value>
+                    <fullName>SECURE-POWER-Software</fullName>
+                    <default>false</default>
+                    <label>SECURE-POWER-Software</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Skill_Level_High__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Benchmark for the maximum level of proficiency for this skill</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Benchmark for the maximum level of proficiency for this skill</inlineHelpText>
+        <label>Skill Level – High</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Skill_Level_Low__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Benchmark for the minimum level of proficiency for this skill</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Benchmark for the minimum level of proficiency for this skill</inlineHelpText>
+        <label>Skill Level – Low</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Skill_Level_Medium__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Benchmark for the average level of proficiency for this skill</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Benchmark for the average level of proficiency for this skill</inlineHelpText>
+        <label>Skill Level – Medium</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SkillLevel__c</fullName>
+        <description>Level of expertise in the particular skill</description>
+        <externalId>false</externalId>
+        <label>Skill Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1  - Novice</fullName>
+                    <default>false</default>
+                    <label>1  - Novice</label>
+                </value>
+                <value>
+                    <fullName>2 - Basic</fullName>
+                    <default>false</default>
+                    <label>2 - Basic</label>
+                </value>
+                <value>
+                    <fullName>3 - Competent</fullName>
+                    <default>false</default>
+                    <label>3 - Competent</label>
+                </value>
+                <value>
+                    <fullName>4 - Advanced</fullName>
+                    <default>false</default>
+                    <label>4 - Advanced</label>
+                </value>
+                <value>
+                    <fullName>5 - Expert</fullName>
+                    <default>false</default>
+                    <label>5 - Expert</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SkillType2__c</fullName>
+        <externalId>false</externalId>
+        <label>Skill Type 2</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Skills_External__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Skills External</description>
+        <externalId>true</externalId>
+        <label>Skills_External</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Skillsextn__c</fullName>
+        <externalId>true</externalId>
+        <label>Skillsextn</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UniqueName__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Uniquekey_Name_Country</label>
+        <length>225</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>ValidityPeriod__c</fullName>
+        <externalId>false</externalId>
+        <label>Validity Period (days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Skill</label>
+    <listViews>
+        <fullName>All_Skills</fullName>
+        <columns>NAME</columns>
+        <columns>Business_Unit__c</columns>
+        <columns>Country__c</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>SVMXC__Skill_Area__c</columns>
+        <columns>SVMXC__Skill_Category__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Skillsextn__c</columns>
+        <columns>Manufacturer__c</columns>
+        <columns>SVMXC__Active__c</columns>
+        <columns>ValidityPeriod__c</columns>
+        <columns>SVMXC__Skill_Level_High__c</columns>
+        <columns>SVMXC__Skill_Level_Low__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Skills</label>
+    </listViews>
+    <listViews>
+        <fullName>Certifications</fullName>
+        <columns>NAME</columns>
+        <columns>Business_Unit__c</columns>
+        <columns>Country__c</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>SVMXC__Skill_Area__c</columns>
+        <columns>SVMXC__Skill_Category__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>SVMXC__Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>SVMXC__Skill__c.Certification</value>
+        </filters>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>USA</value>
+        </filters>
+        <label>US Certifications</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Certifications2</fullName>
+        <columns>NAME</columns>
+        <columns>Business_Unit__c</columns>
+        <columns>Country__c</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>SVMXC__Skill_Area__c</columns>
+        <columns>SVMXC__Skill_Category__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>SVMXC__Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>SVMXC__Skill__c.Certification</value>
+        </filters>
+        <label>Certifications</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>DE_FS_Skills</fullName>
+        <columns>NAME</columns>
+        <columns>Business_Unit__c</columns>
+        <columns>Country__c</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>SVMXC__Skill_Area__c</columns>
+        <columns>SVMXC__Skill_Category__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Skillsextn__c</columns>
+        <columns>Manufacturer__c</columns>
+        <columns>SVMXC__Active__c</columns>
+        <columns>ValidityPeriod__c</columns>
+        <columns>SVMXC__Skill_Level_High__c</columns>
+        <columns>SVMXC__Skill_Level_Low__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Germany</value>
+        </filters>
+        <label>DE_FS_Skills</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>DE_FS_GRP</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DZ_Certifications</fullName>
+        <columns>NAME</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>Country__c</columns>
+        <columns>RECORDTYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country_Name__c</field>
+            <operation>equals</operation>
+            <value>DZ</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>SVMXC__Skill__c.Certification</value>
+        </filters>
+        <label>DZ Certifications</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>DZ_Expertise</fullName>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>Business_Unit__c</columns>
+        <columns>SkillLevel__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country_Name__c</field>
+            <operation>equals</operation>
+            <value>DZ</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>SVMXC__Skill__c.Expertise</value>
+        </filters>
+        <label>DZ Expertise</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Expertise</fullName>
+        <columns>NAME</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>SVMXC__Skill_Area__c</columns>
+        <columns>SVMXC__Skill_Category__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Skillsextn__c</columns>
+        <columns>Manufacturer__c</columns>
+        <columns>SVMXC__Active__c</columns>
+        <columns>ValidityPeriod__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>SVMXC__Skill__c.Expertise</value>
+        </filters>
+        <label>Expertise</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>SG_Certifications</fullName>
+        <columns>NAME</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>SVMXC__Skill_Category__c</columns>
+        <columns>SkillLevel__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Singapore</value>
+        </filters>
+        <label>SG Certifications</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>TR_Certification1</fullName>
+        <columns>NAME</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>SVMXC__Skill_Category__c</columns>
+        <columns>SkillLevel__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Turkey</value>
+        </filters>
+        <label>TR Certification</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>US_Certifications</fullName>
+        <columns>NAME</columns>
+        <columns>SVMXC__Description__c</columns>
+        <columns>SVMXC__Skill_Category__c</columns>
+        <columns>SkillLevel__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>USA</value>
+        </filters>
+        <label>US Certifications</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Skill Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Skills</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Certification</fullName>
+        <active>true</active>
+        <description>A country or region specific work requirement that is tied to a specific location via the Habilitation Requirement object</description>
+        <label>Certification</label>
+        <picklistValues>
+            <picklist>Business_Unit__c</picklist>
+            <values>
+                <fullName>BD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Manufacturer__c</picklist>
+            <values>
+                <fullName>ABB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Allis Chalmers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eaton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schneider Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Westinghouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SVMXC__Skill_Area__c</picklist>
+            <values>
+                <fullName>Depot Repair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field And Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SVMXC__Skill_Category__c</picklist>
+            <values>
+                <fullName>%28DoNotUse%29-E%26P-LV Busway</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28DoNotUse%29-E%26P-MV equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28DoNotUse%29-E%26P-Transformers %28MV%2FLV Dry%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28DoNotUse%29-E%26P-Transformers %28MV%2FLV Oil%2FLiquid%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COUNTRY-Certification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GLOBAL-Certification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GLOBAL-Expertise %28with level%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-Drives</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-HMI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-Motion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-PLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-Soft starters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY_Diagnostic %26 Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_Diagnostic %26 Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_LV Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Oil Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Outdoor Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Primary AIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Primary GIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV SSIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Secondary AIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Secondary GIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_Relay %26 Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_Transformers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SECURE-POWER-Cooling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SECURE-POWER-Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SECURE-POWER-Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SECURE-POWER_Diagnostic %26 Consulting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SkillLevel__c</picklist>
+            <values>
+                <fullName>1  - Novice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Basic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Competent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Advanced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Expert</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Expertise</fullName>
+        <active>true</active>
+        <description>Any global skill referring to a technician ability instead of a certification</description>
+        <label>Expertise</label>
+        <picklistValues>
+            <picklist>Business_Unit__c</picklist>
+            <values>
+                <fullName>BD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Manufacturer__c</picklist>
+            <values>
+                <fullName>ABB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Allis Chalmers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eaton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schneider Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Westinghouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SVMXC__Skill_Area__c</picklist>
+            <values>
+                <fullName>Depot Repair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field And Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SVMXC__Skill_Category__c</picklist>
+            <values>
+                <fullName>%28DoNotUse%29-E%26P-LV Busway</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28DoNotUse%29-E%26P-MV equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28DoNotUse%29-E%26P-Transformers %28MV%2FLV Dry%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28DoNotUse%29-E%26P-Transformers %28MV%2FLV Oil%2FLiquid%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COUNTRY-Certification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GLOBAL-Certification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GLOBAL-Expertise %28with level%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-Drives</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-HMI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-Motion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-PLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY-Soft starters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDUSTRY_Diagnostic %26 Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_Diagnostic %26 Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_LV Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Oil Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Outdoor Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Primary AIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Primary GIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV SSIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Secondary AIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_MV Secondary GIS Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_Relay %26 Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POWER-FS_Transformers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SECURE-POWER-Cooling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SECURE-POWER-Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SECURE-POWER-Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SECURE-POWER_Diagnostic %26 Consulting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SkillLevel__c</picklist>
+            <values>
+                <fullName>1  - Novice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Basic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Competent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Advanced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Expert</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>Read</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

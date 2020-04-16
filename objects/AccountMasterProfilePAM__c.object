@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccountMasterProfile__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Master Profile</label>
+        <referenceTo>AccountMasterProfile__c</referenceTo>
+        <relationshipLabel>Account Master Profile PAM</relationshipLabel>
+        <relationshipName>Account_Master_Profile_PAM</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>This field will help to rollup SUM of BU on Account Master Profile for Active BU&apos;s. Please ensure to uncheck in referential if any Business Unit&apos;s  are removed.</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DirectSales__c</fullName>
+        <externalId>false</externalId>
+        <label>Direct Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>GMRBusinessUnit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ENM DIGITAL ENERGY</fullName>
+                    <default>false</default>
+                    <label>ENM DIGITAL ENERGY</label>
+                </value>
+                <value>
+                    <fullName>ENM MEDIUM VOLTAGE</fullName>
+                    <default>false</default>
+                    <label>ENM MEDIUM VOLTAGE</label>
+                </value>
+                <value>
+                    <fullName>IND OEM BIC</fullName>
+                    <default>false</default>
+                    <label>IND OEM BIC</label>
+                </value>
+                <value>
+                    <fullName>ENM SECURE POWER</fullName>
+                    <default>false</default>
+                    <label>ENM SECURE POWER</label>
+                </value>
+                <value>
+                    <fullName>ENM LOW VOLTAGE</fullName>
+                    <default>false</default>
+                    <label>ENM LOW VOLTAGE</label>
+                </value>
+                <value>
+                    <fullName>ENM HOME DISTRIBUTION</fullName>
+                    <default>false</default>
+                    <label>ENM HOME DISTRIBUTION</label>
+                </value>
+                <value>
+                    <fullName>SOLAR</fullName>
+                    <default>false</default>
+                    <label>SOLAR</label>
+                </value>
+                <value>
+                    <fullName>CLOUD</fullName>
+                    <default>false</default>
+                    <label>CLOUD</label>
+                </value>
+                <value>
+                    <fullName>ENM SUSTAIN. SERVICES</fullName>
+                    <default>false</default>
+                    <label>ENM SUSTAIN. SERVICES</label>
+                </value>
+                <value>
+                    <fullName>IND PROCESS AUTOMATION</fullName>
+                    <default>false</default>
+                    <label>IND PROCESS AUTOMATION</label>
+                </value>
+                <value>
+                    <fullName>IND SOFTWARE</fullName>
+                    <default>false</default>
+                    <label>IND SOFTWARE</label>
+                </value>
+                <value>
+                    <fullName>ECOBUILDINGS</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ECOBUILDINGS</label>
+                </value>
+                <value>
+                    <fullName>ENERGY</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ENERGY</label>
+                </value>
+                <value>
+                    <fullName>ENERGY SUSTAIN. SERV.</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ENERGY SUSTAIN. SERV.</label>
+                </value>
+                <value>
+                    <fullName>GLOBAL SOLUTIONS</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>GLOBAL SOLUTIONS</label>
+                </value>
+                <value>
+                    <fullName>INDUSTRIAL AUTOMATION</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>INDUSTRIAL AUTOMATION</label>
+                </value>
+                <value>
+                    <fullName>INFOR TECHNO. BUSINESS</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>INFOR TECHNO. BUSINESS</label>
+                </value>
+                <value>
+                    <fullName>PARTNER PROJECT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PARTNER PROJECT</label>
+                </value>
+                <value>
+                    <fullName>RETAIL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>RETAIL</label>
+                </value>
+                <value>
+                    <fullName>SOLAR BUSINESS UNIT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SOLAR BUSINESS UNIT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IndirectSales__c</fullName>
+        <externalId>false</externalId>
+        <label>Indirect Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PAM__c</fullName>
+        <externalId>false</externalId>
+        <label>PAM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Tech_AccountMasterProfilePAM__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>It helps to maintain unique active records. Inactive records can be duplicate.</description>
+        <externalId>false</externalId>
+        <label>Tech_AccountMasterProfilePAM</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Account Master Profile PAM</label>
+    <nameField>
+        <displayFormat>AMP-PAM-{0000}</displayFormat>
+        <label>Account Master Profile PAM Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Account Master Profile PAM</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>AMPPAM_VR_Q316SLS01_ValidateNegValues</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+( PAM__c &lt; 0 ||  DirectSales__c &lt; 0 ||  IndirectSales__c &lt; 0)</errorConditionFormula>
+        <errorMessage>Please enter non-negative number</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AMPPAM_VR_Q316SLS02_SalesValuesValidate</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+PAM__c &lt; (FLOOR(DirectSales__c) + FLOOR(IndirectSales__c) )</errorConditionFormula>
+        <errorMessage>BU PAM should be higher or equal to BU Direct Sales + BU Indirect Sales</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

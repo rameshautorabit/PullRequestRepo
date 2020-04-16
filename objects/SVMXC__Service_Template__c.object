@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Warranty_Terms_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Warranty_Terms_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>SVMXC__Duration_of_Material_Coverage__c</fields>
+        <fields>SVMXC__Unit_of_Time_Material__c</fields>
+        <label>Warranty Terms Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Warranty Template allows organizations to define and standardize their warranty offering and apply it for a range of products automatically. A warranty template can be used to define the type and scope of coverage in a warranty such as parts, labor and expenses, and can then be associated with one or more products. When installed product records are created in ServiceMax, warranty will be calculated automatically based on the pre-defined warranty template associated with the product.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Product_Warranty_Triggering_Date__c</fullName>
+        <description>Product Warranty Triggering Date</description>
+        <externalId>false</externalId>
+        <label>Product Warranty Triggering Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Commissioning Date / Install Date</fullName>
+                    <default>false</default>
+                    <label>Commissioning Date / Install Date</label>
+                </value>
+                <value>
+                    <fullName>Date Shipped</fullName>
+                    <default>false</default>
+                    <label>Date Shipped</label>
+                </value>
+                <value>
+                    <fullName>Purchased Date</fullName>
+                    <default>false</default>
+                    <label>Purchased Date</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__All_Products_Covered__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if all products involved in the repair will be covered by this warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if all products involved in the repair will be covered by this warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only</inlineHelpText>
+        <label>All Products Covered(DO NOT USE)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__All_Services_Covered__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if all services performed will be covered by this warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if all services performed will be covered by this warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only</inlineHelpText>
+        <label>All Services Covered(DO NOT USE)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Coverage_Effective_From2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify the date field name from Installed Product object to be considered in warranty creation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the date field name from Installed Product object to be considered in warranty creation.</inlineHelpText>
+        <label>Coverage Effective From</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Coverage_Effective_From__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify the date field name from Installed Product object to be considered in warranty creation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the date field name from Installed Product object to be considered in warranty creation.</inlineHelpText>
+        <label>Coverage Effective From(DO NOT USE)</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ship Date</fullName>
+                    <default>false</default>
+                    <label>Ship Date</label>
+                </value>
+                <value>
+                    <fullName>Install Date</fullName>
+                    <default>false</default>
+                    <label>Install Date</label>
+                </value>
+                <value>
+                    <fullName>Entry Date</fullName>
+                    <default>false</default>
+                    <label>Entry Date</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Duration_of_Expenses__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A number indicating the duration of coverage for expenses</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A number indicating the duration of coverage for expenses</inlineHelpText>
+        <label>Duration of Expenses Coverage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Duration_of_Material_Coverage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A number indicating the duration of coverage for parts</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A number indicating the duration of coverage for parts</inlineHelpText>
+        <label>Duration of Material Coverage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Duration_of_Time_Coverage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A number indicating the duration of coverage for labor</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A number indicating the duration of coverage for labor.</inlineHelpText>
+        <label>Duration of Labor Coverage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Exchange_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of exchange allowed as per the warranty template</description>
+        <externalId>false</externalId>
+        <label>Exchange Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advance Exchange</fullName>
+                    <default>false</default>
+                    <label>Advance Exchange</label>
+                </value>
+                <value>
+                    <fullName>Return Exchange</fullName>
+                    <default>false</default>
+                    <label>Return Exchange</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Exclusions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A free format text to define any exceptions not covered by the standard coverage of the template</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Define any exceptions not covered by the standard coverage of the template</inlineHelpText>
+        <label>Exclusions</label>
+        <length>32000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Expenses_Covered__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A number between 1 and 100 indicating the percentage of coverage on expenses</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A number between 1 and 100 indicating the percentage of coverage on expenses</inlineHelpText>
+        <label>Expenses % Covered</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Invoice_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if an invoice is always raised at the end of service delivery. This flag does not drive any functionality in ServiceMax and is for informational purposes only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if an invoice is always raised at the end of service delivery. This flag does not drive any functionality in ServiceMax and is for informational purposes only</inlineHelpText>
+        <label>Invoice Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Loaner_Provided__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if customer is given a temporary replacement product when the covered product is under repair. This flag does not drive any functionality in ServiceMax and is for informational purposes only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if customer is given a temporary replacement product when the covered product is under repair. This flag does not drive any functionality in ServiceMax and is for informational purposes only</inlineHelpText>
+        <label>Loaner Provided</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Material_Covered__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A number between 1 and 100 indicating the percentage of coverage on parts</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A number between 1 and 100 indicating the percentage of coverage on parts</inlineHelpText>
+        <label>Material % Covered</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Onsite_Repair__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if customer is eligible for onsite repair when entitled by this warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if customer is eligible for onsite repair when entitled by this warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only</inlineHelpText>
+        <label>Onsite Repair</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__RMA_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if an RMA is always required or an RMA is implied when this warranty is used to entitle a customer. This flag does not drive any functionality in ServiceMax and is for informational purposes only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if an RMA is always required or an RMA is implied when this warranty is used to entitle a customer. This flag does not drive any functionality in ServiceMax and is for informational purposes only</inlineHelpText>
+        <label>RMA Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Shipment_Allowed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if customer shipments are covered by the warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if customer shipments are covered by the warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only</inlineHelpText>
+        <label>Shipment Allowed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Template_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates if this template is used for warranty calculation or referred in service contracts. When creating warranty for installed products, only templates with type Warranty are considered</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if this template is used for warranty calculation or used as a reference in service contracts. When creating warranty for installed products, only templates with type Warranty are considered</inlineHelpText>
+        <label>Template Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Warranty</fullName>
+                    <default>true</default>
+                    <label>Warranty</label>
+                </value>
+                <value>
+                    <fullName>Service Contract</fullName>
+                    <default>false</default>
+                    <label>Service Contract</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Time_Covered__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A number between 1 and 100 indicating the percentage of coverage on labor</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A number between 1 and 100 indicating the percentage of coverage on labor</inlineHelpText>
+        <label>Labor % Covered</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Transferable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if this warranty is transferable to other products under special circumstances. This flag does not drive any functionality in ServiceMax and is for informational purposes only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if this warranty is transferable to other products under special circumstances. This flag does not drive any functionality in ServiceMax and is for informational purposes only</inlineHelpText>
+        <label>Transferable</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Unit_of_Time_Expenses__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Combined with duration of coverage, this qualifies the expenses coverage duration in days, weeks, months or years</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Combined with duration of coverage, this qualifies the expenses coverage duration in days, weeks, months or years</inlineHelpText>
+        <label>Unit of Time for Expenses Coverage</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Days</fullName>
+                    <default>false</default>
+                    <label>Days</label>
+                </value>
+                <value>
+                    <fullName>Weeks</fullName>
+                    <default>false</default>
+                    <label>Weeks</label>
+                </value>
+                <value>
+                    <fullName>Months</fullName>
+                    <default>false</default>
+                    <label>Months</label>
+                </value>
+                <value>
+                    <fullName>Years</fullName>
+                    <default>false</default>
+                    <label>Years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Unit_of_Time_Material__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Combined with duration of coverage, this qualifies the material coverage duration in days, weeks, months or years</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Combined with duration of coverage, this qualifies the material coverage duration in days, weeks, months or years</inlineHelpText>
+        <label>Unit of Time for Material Coverage</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Days</fullName>
+                    <default>false</default>
+                    <label>Days</label>
+                </value>
+                <value>
+                    <fullName>Weeks</fullName>
+                    <default>false</default>
+                    <label>Weeks</label>
+                </value>
+                <value>
+                    <fullName>Months</fullName>
+                    <default>false</default>
+                    <label>Months</label>
+                </value>
+                <value>
+                    <fullName>Years</fullName>
+                    <default>false</default>
+                    <label>Years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Unit_of_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Combined with duration of coverage, this qualifies the labor coverage duration in days, weeks, months or years</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Combined with duration of coverage, this qualifies the labor coverage duration in days, weeks, months or years</inlineHelpText>
+        <label>Unit of Time for Labor Coverage</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Days</fullName>
+                    <default>false</default>
+                    <label>Days</label>
+                </value>
+                <value>
+                    <fullName>Weeks</fullName>
+                    <default>false</default>
+                    <label>Weeks</label>
+                </value>
+                <value>
+                    <fullName>Months</fullName>
+                    <default>false</default>
+                    <label>Months</label>
+                </value>
+                <value>
+                    <fullName>Years</fullName>
+                    <default>false</default>
+                    <label>Years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Walk_in_Allowed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if the customer is authorized to walk into a service center for service. This flag does not drive any functionality in ServiceMax and is for informational purposes only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if the customer is authorized to walk into a service center for service. This flag does not drive any functionality in ServiceMax and is for informational purposes only</inlineHelpText>
+        <label>Walk-in Allowed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tech_DuartionCalculation__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL( SVMXC__Unit_of_Time_Material__c , &apos;Days&apos;),SVMXC__Duration_of_Material_Coverage__c ,  
+IF(ISPICKVAL( SVMXC__Unit_of_Time_Material__c , &apos;Weeks&apos;),SVMXC__Duration_of_Material_Coverage__c*7,  
+IF(ISPICKVAL( SVMXC__Unit_of_Time_Material__c , &apos;Months&apos;),SVMXC__Duration_of_Material_Coverage__c*30, 
+IF(ISPICKVAL( SVMXC__Unit_of_Time_Material__c , &apos;Years&apos;),SVMXC__Duration_of_Material_Coverage__c*365, Null) ) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tech_DuartionCalculation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Warranty_Terms_External__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Warranty Terms External</description>
+        <externalId>true</externalId>
+        <label>Warranty_Terms_External</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Warranty Terms</label>
+    <listViews>
+        <fullName>SVMXC__All_Warranty_Terms</fullName>
+        <columns>NAME</columns>
+        <columns>SVMXC__Duration_of_Material_Coverage__c</columns>
+        <columns>SVMXC__Coverage_Effective_From2__c</columns>
+        <columns>SVMXC__Material_Covered__c</columns>
+        <columns>SVMXC__Time_Covered__c</columns>
+        <columns>SVMXC__Expenses_Covered__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Warranty Terms</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Template Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Warranty Terms</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATEDBY_USER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATEDBY_USER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATED_DATE</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>CREATEDBY_USER</searchFilterFields>
+        <searchFilterFields>CREATED_DATE</searchFilterFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>SVMXC__Expenses_Duration_UoT_Check</fullName>
+        <active>true</active>
+        <description>If Expenses coverage % is specified, duration and unit of time should be specified too.</description>
+        <errorConditionFormula>AND(NOT ISNULL( SVMXC__Expenses_Covered__c ), OR( ISNULL(  SVMXC__Duration_of_Expenses__c ), ISPICKVAL(  SVMXC__Unit_of_Time_Expenses__c , &quot;&quot;)))</errorConditionFormula>
+        <errorDisplayField>SVMXC__Unit_of_Time_Expenses__c</errorDisplayField>
+        <errorMessage>Please specify the duration and unit of time of Expenses coverage.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SVMXC__Labor_Duration_UoT_Check</fullName>
+        <active>true</active>
+        <description>If Labor coverage % is specified, duration and unit of time should be specified too.</description>
+        <errorConditionFormula>AND(NOT ISNULL( SVMXC__Time_Covered__c ), OR( ISNULL(  SVMXC__Duration_of_Time_Coverage__c ), ISPICKVAL(  SVMXC__Unit_of_Time__c, &quot;&quot;)))</errorConditionFormula>
+        <errorDisplayField>SVMXC__Unit_of_Time__c</errorDisplayField>
+        <errorMessage>Please specify the duration and unit of time of Labor coverage.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SVMXC__Material_Duration_UoT_Check</fullName>
+        <active>true</active>
+        <description>If Material coverage % is specified, duration and unit of time should be specified too.</description>
+        <errorConditionFormula>AND(NOT ISNULL(SVMXC__Material_Covered__c), OR( ISNULL( SVMXC__Duration_of_Material_Coverage__c ), ISPICKVAL( SVMXC__Unit_of_Time_Material__c, &quot;&quot;)))</errorConditionFormula>
+        <errorDisplayField>SVMXC__Unit_of_Time_Material__c</errorDisplayField>
+        <errorMessage>Please specify the duration and unit of time of Material coverage.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>SVMXC__Coverage_By_Counters</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Coverage By Counters</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Site.Prefix+&apos;/apex/SVMXC__IPRD_CoverageByCounters_Warranty?PId=&apos;+SVMXC__Service_Template__c.Id)}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SVMXC__Warranty_Definition</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Configure Start Date</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>{!URLFOR($Site.Prefix+&apos;/apex/SVMXC__IPRD_WarrantyDefinition?wid=&apos;+SVMXC__Service_Template__c.Id)}</url>
+    </webLinks>
+</CustomObject>

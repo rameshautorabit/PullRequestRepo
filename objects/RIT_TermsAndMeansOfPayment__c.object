@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Quote Approval - Terms and Means of Payment  for Bid Approval</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>TermsAndMeansOfPaymentFieldSet</fullName>
+        <description>VFP14_PrintPreview</description>
+        <displayedFields>
+            <field>Payment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>NewMilestone__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PaymentPercent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MeanOfPayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TermOfPayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Comment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PaymentTermsTxt__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>TermsAndMeansOfPaymentFieldSet</label>
+    </fieldSets>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <description>Quote Approval - Comment on Terms and Means of Payment for Terms And Means Of Payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. conditions of payment previously negotiated with the Client, etc.</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FinancialEnvironment__c</fullName>
+        <description>Quote Approval - Financial Environment Id for Terms And Means Of Payment.</description>
+        <externalId>false</externalId>
+        <label>Financial Environment</label>
+        <referenceTo>RIT_FinancialEnv__c</referenceTo>
+        <relationshipName>RIT_TermsAndMeansOfPayment</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>MeanOfPaymentPicklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Mean Of Payment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bank Transfer</fullName>
+                    <default>false</default>
+                    <label>Bank Transfer</label>
+                </value>
+                <value>
+                    <fullName>Letter of Credit / Documentary Credit</fullName>
+                    <default>false</default>
+                    <label>Letter of Credit / Documentary Credit</label>
+                </value>
+                <value>
+                    <fullName>Stand-by Letter of Credit</fullName>
+                    <default>false</default>
+                    <label>Stand-by Letter of Credit</label>
+                </value>
+                <value>
+                    <fullName>Revolving Letter of Credit</fullName>
+                    <default>false</default>
+                    <label>Revolving Letter of Credit</label>
+                </value>
+                <value>
+                    <fullName>Cheque</fullName>
+                    <default>false</default>
+                    <label>Cheque</label>
+                </value>
+                <value>
+                    <fullName>Cash</fullName>
+                    <default>false</default>
+                    <label>Cash</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MeanOfPayment__c</fullName>
+        <description>Quote Approval - Mean of Payment for Terms And Means Of Payment.</description>
+        <externalId>false</externalId>
+        <label>Mean Of Payment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>MileStone__c</fullName>
+        <description>Quote Approval - Down Payment for Terms And Means Of Payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Milestone (Down Payment, De-livery, TOC, FAC …) Please Specify</inlineHelpText>
+        <label>Milestone</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NewMilestone__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify the Milestone (Down-payment, delivery, TOC, FAC, ..)</inlineHelpText>
+        <label>Payment Milestone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PaymentPercent__c</fullName>
+        <description>Quote Approval - Down Payment Percentage for Terms And Means Of Payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>in % of contract value</inlineHelpText>
+        <label>Payment  (%)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PaymentTermsTxt__c</fullName>
+        <defaultValue>&apos;The sum of the payment terms must be 100%&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>There should be a Down-Payment, several Progress-Payments and a Final Payment.</inlineHelpText>
+        <label>Payment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Down-Payment</fullName>
+                    <default>false</default>
+                    <label>Down-Payment</label>
+                </value>
+                <value>
+                    <fullName>Progess Payment</fullName>
+                    <default>false</default>
+                    <label>Progess Payment</label>
+                </value>
+                <value>
+                    <fullName>Final Payment</fullName>
+                    <default>false</default>
+                    <label>Final Payment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TermOfPayment__c</fullName>
+        <description>Quote Approval - Term of Payment for Terms And Means Of Payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g 30 days end of month</inlineHelpText>
+        <label>Term Of Payment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Payment Terms &amp; Conditions</label>
+    <nameField>
+        <displayFormat>RIT-TMP-{0000}</displayFormat>
+        <label>Terms And Means Of Payment</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Payment Terms &amp; Conditions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>TMP_VR01_CheckDownPayment</fullName>
+        <active>true</active>
+        <description>Quote Approval – Validation to check the Down Payment</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(AND(AND(contains(Upper(PRIORVALUE(MileStone__c) ),  $Label.CL00207 ),contains(Upper(PRIORVALUE(MileStone__c) ),  $Label.CL00206 )), ISCHANGED(MileStone__c) ))</errorConditionFormula>
+        <errorDisplayField>MileStone__c</errorDisplayField>
+        <errorMessage>You cannot change this value.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TMP_VR02_CheckQuoteStatus</fullName>
+        <active>true</active>
+        <description>Quote Approval - To ensure that information is not edited after Quote Approval</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(Text( FinancialEnvironment__r.QuoteLink__r.QuoteStatus__c ) = &apos;Approved&apos;)</errorConditionFormula>
+        <errorMessage>RITE Information cannot be modified now, as the Quote is Approved</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>New_Payment_Terms_Conditions</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>New Payment Terms &amp; Conditions</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP_NewTermsAndMeans</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

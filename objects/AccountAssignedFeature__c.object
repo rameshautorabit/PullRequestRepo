@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>May 2013 Release. Relates Accounts with Partner Program&apos;s Features</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccountAssignedProgram__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Assigned Program</label>
+        <referenceTo>ACC_PartnerProgram__c</referenceTo>
+        <relationshipLabel>Account Assigned Features</relationshipLabel>
+        <relationshipName>AccountAssignedFeatures</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Assigned Features</relationshipLabel>
+        <relationshipName>AccountAssignedFeatures</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>To specify if the Account feature is enabled or disabled</description>
+        <externalId>false</externalId>
+        <label>Active?</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AssignmentComments__c</fullName>
+        <externalId>false</externalId>
+        <label>Assignment Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(FeatureCatalog__c)
+,ProgramFeature__r.Category__c
+,(
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Collaboration&quot;), &quot;Collaboration;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Content&quot;), &quot;Content;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Demo&quot;), &quot;Demo;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Discounts/Rebates&quot;), &quot;Discounts/Rebates;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Events&quot;), &quot;Events;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Lead Management&quot;), &quot;Lead Management;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Loyalty&quot;), &quot;Loyalty;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Marketing Tools &amp; Materials&quot;), &quot;Marketing Tools &amp; Materials;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;MDF Partner Locator&quot;), &quot;MDF Partner Locator;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Opportunity Registration&quot;), &quot;Opportunity Registration;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Passed to Partner Opportunities&quot;), &quot;Passed to Partner Opportunities;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Pricing&quot;), &quot;Pricing;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Program Eligibility&quot;), &quot;Program Eligibility;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Simple ORF&quot;), &quot;Simple ORF;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Support&quot;), &quot;Support;&quot;, &apos;&apos;)  &amp; 
+IF(INCLUDES( FeatureCatalog__r.Category__c , &quot;Training&quot;), &quot;Training;&quot;, &apos;&apos;)  
+  )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExpirationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FeatureCatalog__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Feature Catalog</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>FeatureCatalog__c.Retired__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>FeatureCatalog__c</referenceTo>
+        <relationshipLabel>Account Assigned Features</relationshipLabel>
+        <relationshipName>AccountAssignedFeatures</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FeatureDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ProgramFeature__c != null ,ProgramFeature__r.Description__c, FeatureCatalog__r.Description__c)</formula>
+        <label>Feature Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FeatureExternalApplicationID__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ProgramFeature__c!=null, ProgramFeature__r.ExternalApplicationId__c , FeatureCatalog__r.ExternalApplicationId__c )</formula>
+        <label>Feature External Application ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FeatureName__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ProgramFeature__c != null , ProgramFeature__r.FeatureCatalog__r.Name , FeatureCatalog__r.Name)</formula>
+        <label>Feature Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PartnerProgram__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Parent Partner Program</description>
+        <externalId>false</externalId>
+        <label>Partner Program</label>
+        <referenceTo>PartnerProgram__c</referenceTo>
+        <relationshipLabel>Account Assigned Features</relationshipLabel>
+        <relationshipName>AccountAssignedFeatures</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProgramFeature__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Program Feature of the related Program Level</description>
+        <externalId>false</externalId>
+        <label>Program Feature</label>
+        <referenceTo>ProgramFeature__c</referenceTo>
+        <relationshipLabel>Account Assigned Features</relationshipLabel>
+        <relationshipName>AccountAssignedFeatures</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProgramLevel__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Program Level to which the Feature is related to</description>
+        <externalId>false</externalId>
+        <label>Program Level</label>
+        <referenceTo>ProgramLevel__c</referenceTo>
+        <relationshipLabel>Account Assigned Features</relationshipLabel>
+        <relationshipName>AccountAssignedFeatures</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TECH_AddtoContact__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR
+(
+ISPICKVAL(FeatureCatalog__r.Visibility__c, &apos;Contact&apos;) ,
+ISPICKVAL( FeatureCatalog__r.Enabled__c , &apos;Contact&apos;)
+)
+,true,false
+)</formula>
+        <label>TECH_Add to Contact?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ProgramFeature__c!=null,ProgramFeature__r.URL__c, FeatureCatalog__r.URL__c )</formula>
+        <label>URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Account Assigned Feature</label>
+    <nameField>
+        <displayFormat>APF-{0000000}</displayFormat>
+        <label>Account Feature ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Account Assigned Features</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>ProgramFeature</fullName>
+        <active>true</active>
+        <description>Feature related to Partner Program</description>
+        <label>Program Feature</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>StandAloneFeature</fullName>
+        <active>true</active>
+        <label>Stand-alone Feature</label>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>AAF_VR_OCT13PRM01_CantUpdateFeatureCatal</fullName>
+        <active>true</active>
+        <description>For October 2013 Release
+Feature Catalog cannot be updated.</description>
+        <errorConditionFormula>AND($User.BypassVR__c=False,(IF(
+AND(
+ RecordTypeId =  $Label.CLOCT13PRM21,
+  ISCHANGED( FeatureCatalog__c ) ,
+  NOT(ISNEW() )
+)
+,true,false)))</errorConditionFormula>
+        <errorMessage>Feature Catalog cannot be updated.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>NewStandaloneFeature</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Stand-alone Feature</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a6f/e?CF00NA0000009yWGP={!Account.Name}&amp;CF00NA0000009yWGP_lkid={!Account.Id}&amp;RecordType=012A0000000nwE1&amp;retURL={!Account.Id}</url>
+    </webLinks>
+</CustomObject>

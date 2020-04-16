@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CompleteReg__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>CompleteReg</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TnC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>TnC</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>PRMTermsAndConditions</label>
+    <pluralLabel>PRMTermsAndConditions</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

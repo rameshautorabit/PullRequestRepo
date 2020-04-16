@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FieloPRM_ApiExtId__c</fullName>
+        <externalId>false</externalId>
+        <label>ApiExtId</label>
+        <length>60</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloPRM_CreateBadgeMember__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check if you want a badge member to be created when a member wins this application access</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if you want a badge member to be created when a member wins this application access</inlineHelpText>
+        <label>Create Badge Member</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloPRM_CreateEvent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check if you want an event to be created for this application access</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if you want an event to be created for this application access</inlineHelpText>
+        <label>Create Event</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloPRM_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <length>30</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>FieloPRM Valid Badge Types</label>
+    <listViews>
+        <fullName>Badge_Types</fullName>
+        <columns>NAME</columns>
+        <columns>FieloPRM_ApiExtId__c</columns>
+        <columns>FieloPRM_Type__c</columns>
+        <columns>FieloPRM_CreateBadgeMember__c</columns>
+        <columns>FieloPRM_CreateEvent__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>Badge Types</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

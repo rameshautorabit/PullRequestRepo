@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>VFP_CorrectionRecordTypeSelection</content>
+        <skipRecordTypeSelect>true</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CA_Lex</fullName>
+        <fields>Name</fields>
+        <fields>Owner__c</fields>
+        <fields>AccountableOrganization__c</fields>
+        <fields>Status__c</fields>
+        <fields>RelatedRootCause__c</fields>
+        <fields>RelatedProblem__c</fields>
+        <fields>CAIcons__c</fields>
+        <label>CA_Lex</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>CA_Supplier</fullName>
+        <fields>Name</fields>
+        <fields>Status__c</fields>
+        <fields>RelatedRootCause__c</fields>
+        <fields>RelatedProblem__c</fields>
+        <fields>CAIcons__c</fields>
+        <label>CA_Supplier</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccountableOrganization__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Select the organization accountable for the implementation of the Corrective Action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the organization accountable for the implementation of the Corrective Action.</inlineHelpText>
+        <label>Accountable Organization</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2 AND 4) OR (1 AND 2 AND 5 AND 7) OR (3 AND 6)</booleanFilter>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Return Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Status__c</field>
+                <operation>equals</operation>
+                <value>Canceled</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>To be deactivated</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Inactive</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Corrective Actions</relationshipLabel>
+        <relationshipName>Corrective_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AdditionalContact__c</fullName>
+        <description>Any additional person to notify</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Any additional person to notify. Please mention the email address of the person.</inlineHelpText>
+        <label>Additional Contact (email)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CAIcons__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tech_SafetyRelated__c&amp;&quot; &quot;&amp;&quot; &quot;&amp;Overdue__c</formula>
+        <label>CA Icons</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CorrectiveActionLegacyID__c</fullName>
+        <description>ONLY for Corrective Action migrated to bFO from other tools. Corrective Action ID in the legacy tool.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ONLY for Corrective Action migrated to bFO from other tools. Corrective Action ID in the legacy tool.</inlineHelpText>
+        <label>Corrective Action Legacy ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CorrectiveActionLegacyTool__c</fullName>
+        <description>ONLY for Corrective Action migrated to bFO from other tools. Name of the legacy tool.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ONLY for Corrective Action migrated to bFO from other tools. Name of the legacy tool.</inlineHelpText>
+        <label>Corrective Action Legacy Tool</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CorrectiveActionType__c</fullName>
+        <description>Corrective Action Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Corrective Action Type</inlineHelpText>
+        <label>Corrective Action Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product Change Request</fullName>
+                    <default>false</default>
+                    <label>Product Change Request</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing Change Request</fullName>
+                    <default>false</default>
+                    <label>Manufacturing Change Request</label>
+                </value>
+                <value>
+                    <fullName>Documentation Change Request</fullName>
+                    <default>false</default>
+                    <label>Documentation Change Request</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CycleTime__c</fullName>
+        <description>I2P Jan 16 Release: This field calculates cycle time in days from start of CA till its closed.</description>
+        <externalId>false</externalId>
+        <formula>IF( OR( ISPICKVAL( Status__c , &apos;Completed&apos;) , ISPICKVAL( Status__c , &apos;Canceled&apos;) ) , IF( DATEVALUE( CreatedDate ) &gt; DateofClosure__c , DateofClosure__c - StartDate__c , DateofClosure__c - DATEVALUE( CreatedDate )) , TODAY() - DATEVALUE( CreatedDate ) )</formula>
+        <label>Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateofClosure__c</fullName>
+        <description>Date when the Corrective Action is closed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when the Corrective Action is closed</inlineHelpText>
+        <label>Date of Closure</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Advanced I2P : Describe the Corrective Action, i.e. what is required from the person you are assigning it to.Identify the date code of the first part/product after the implementation of the corrective actions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the Corrective Action, i.e. what is required from the person you are assigning it to.Identify the date code of the first part/product after the implementation of the corrective actions.</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DueDate__c</fullName>
+        <description>Date by which the action is to be completed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date by which the action is to be completed</inlineHelpText>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IsDescriptionBlank__c</fullName>
+        <externalId>false</externalId>
+        <label>Is Description Blank ?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LastNotificationDay__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Notification Day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastUpdated__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Updated</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastUpdatedby__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Last Updated by</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Corrective_Actions1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Overdue__c</fullName>
+        <description>A red flag displayed here means the Corrective Action is overdue</description>
+        <externalId>false</externalId>
+        <formula>IF ( DueDate__c &lt; TODAY() &amp;&amp;
+NOT (ISPICKVAL(Status__c , &quot;Completed&quot;)) &amp;&amp;
+NOT (ISPICKVAL(Status__c , &quot;Canceled&quot;)),
+IMAGE(&quot;/resource/I2P_red_flag&quot;,&quot;Overdue&quot; ,20,95),
+&quot;&quot;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>A red flag displayed here means the Corrective Action is overdue</inlineHelpText>
+        <label>.</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Person who owns the Corrective Action.Look up to the User object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Person responsible for the Corrective Action</inlineHelpText>
+        <label>Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Corrective_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RelatedProblem__c</fullName>
+        <description>Select the Problem to which the Corrective Action is related</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Problem to which the Corrective Action is related</inlineHelpText>
+        <label>Related Problem</label>
+        <referenceTo>Problem__c</referenceTo>
+        <relationshipLabel>Corrective Actions</relationshipLabel>
+        <relationshipName>Corrective_Actions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>RelatedRootCause__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Select the Root Cause to which the Corrective Action is related.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lists only Root Causes of the Type &quot;Offer&quot; with Status &quot;Confirmed&quot;</inlineHelpText>
+        <label>Related Root Cause</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2 AND 3) OR 4</booleanFilter>
+            <filterItems>
+                <field>RootCause__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Confirmed</value>
+            </filterItems>
+            <filterItems>
+                <field>RootCause__c.RootCauseType__c</field>
+                <operation>startsWith</operation>
+                <value>Operational Root Cause</value>
+            </filterItems>
+            <filterItems>
+                <field>RootCause__c.RelatedProblem__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.RelatedProblem__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$User.BypassVR__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>RootCause__c</referenceTo>
+        <relationshipLabel>Corrective Actions</relationshipLabel>
+        <relationshipName>Corrective_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ResolutionComments__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the actions finally implemented, their results and all relevant information about its effectiveness validation.</inlineHelpText>
+        <label>Resolution Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>StartDate__c</fullName>
+        <description>Date when execution of the action is initiated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when execution of the action is initiated</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Status of the Corrective Action</description>
+        <externalId>false</externalId>
+        <inlineHelpText>• Potential - possible action, still to be confirmed
+• Confirmed, not started - action agreed to be done
+• In progress - action is being implemented
+• Completed - all work done
+• Canceled - action was opened in error, or is no longer applicable</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Potential</fullName>
+                    <default>true</default>
+                    <label>Potential</label>
+                </value>
+                <value>
+                    <fullName>Confirmed, not started</fullName>
+                    <default>false</default>
+                    <label>Confirmed, not started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Canceled</fullName>
+                    <default>false</default>
+                    <label>Canceled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_CAProblemLeaderEmail__c</fullName>
+        <externalId>false</externalId>
+        <formula>RelatedProblem__r.ProblemLeader__r.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH_CAProblemLeaderEmail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ProblemLeaderEmail__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_ProblemLeaderEmail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ProblemLeader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>TECH_ProblemLeader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Corrective_Actions2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tech_SafetyRelated__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( RelatedProblem__r.Severity__c , &apos;Safety related&apos;) ,
+IMAGE(&quot;/resource/I2P_Safety_Alert&quot;, &quot; warning&quot;, 20, 143), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;Tech_SafetyRelated&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TempoPCR__c</fullName>
+        <description>Input the identifier of the related Tempo Product Change Request, if applicable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Input the identifier of the related Tempo Product Change Request, if applicable</inlineHelpText>
+        <label>Product Change Request</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <description>Title of the Corrective Action</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One sentence describing the Corrective Action. Example: &quot;Increase case-to-screw separation&quot;. Avoid using acronyms, code names, or excessively short descriptions. 150 characters maximum.</inlineHelpText>
+        <label>Title</label>
+        <length>150</length>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Corrective Action</label>
+    <listViews>
+        <fullName>Energy_Automation_Open_Correct_Actions</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>RelatedProblem__c</columns>
+        <columns>AccountableOrganization__c</columns>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Owner__c</columns>
+        <columns>Status__c</columns>
+        <columns>DueDate__c</columns>
+        <columns>StartDate__c</columns>
+        <columns>CorrectiveActionType__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>contains</operation>
+            <value>Energy - Automation</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Canceled</value>
+        </filters>
+        <label>Energy Automation Open Correct Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>GSC_LifeSpace_EMEAS_accountable_and_open</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Status__c</columns>
+        <columns>Owner__c</columns>
+        <columns>AccountableOrganization__c</columns>
+        <columns>DueDate__c</columns>
+        <columns>StartDate__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <columns>CorrectiveActionType__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>contains</operation>
+            <value>GSC LifeSpace EMEAS</value>
+        </filters>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>contains</operation>
+            <value>Power EMEAS - LifeSpace</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Canceled</value>
+        </filters>
+        <label>GSC LifeSpace EMEAS accountable and open</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>GSC_PZ_All_Open</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Description__c</columns>
+        <columns>Status__c</columns>
+        <columns>Owner__c</columns>
+        <columns>AccountableOrganization__c</columns>
+        <columns>DueDate__c</columns>
+        <columns>StartDate__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <columns>CorrectiveActionType__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>startsWith</operation>
+            <value>GSC EAJP - Pacific</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Canceled</value>
+        </filters>
+        <label>GSC PZ - All - Open</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>GSC_PZ_ALL</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Overdue_BEE_Corrective_Actions</fullName>
+        <columns>AccountableOrganization__c</columns>
+        <columns>NAME</columns>
+        <columns>DueDate__c</columns>
+        <columns>CycleTime__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>contains</operation>
+            <value>Busway,Enclosure &amp; Equipement</value>
+        </filters>
+        <filters>
+            <field>DueDate__c</field>
+            <operation>lessOrEqual</operation>
+            <value>6/24/2016</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Canceled</value>
+        </filters>
+        <label>Overdue BEE Corrective Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>CA-{000}</displayFormat>
+        <label>Corrective Action ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Corrective Actions</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Schneider</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>CA_Lex</compactLayoutAssignment>
+        <description>Schneider Related Corrective Actions</description>
+        <label>Schneider</label>
+        <picklistValues>
+            <picklist>CorrectiveActionType__c</picklist>
+            <values>
+                <fullName>Documentation Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Change Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IsDescriptionBlank__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirmed%2C not started</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Supplier</fullName>
+        <active>true</active>
+        <description>Supplier Related Corrective Actions</description>
+        <label>Supplier</label>
+        <picklistValues>
+            <picklist>CorrectiveActionType__c</picklist>
+            <values>
+                <fullName>Documentation Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Change Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IsDescriptionBlank__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confirmed%2C not started</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CorrectiveActionType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Overdue__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RelatedProblem__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DateofClosure__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DueDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AccountableOrganization__c</customTabListAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchResultsAdditionalFields>Title__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>CRA_VR01_OwnerFieldMandatory</fullName>
+        <active>true</active>
+        <description>Owner field is mandatory for Corrective Action</description>
+        <errorConditionFormula>AND
+(
+	NOT($User.BypassVR__c),
+	$RecordType.Name !=&apos;Supplier&apos;,
+	ISBLANK( Owner__c)
+)</errorConditionFormula>
+        <errorDisplayField>Owner__c</errorDisplayField>
+        <errorMessage>The corresponding Owner for the Corrective Action is not found. Owner must be associated to a Corrective Action</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CRA_VR02_Prevent_Supplier_CRA</fullName>
+        <active>true</active>
+        <description>OCT 2015 Release : Supplier Corrective Action cannot be created on a Schneider Problem.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),RelatedProblem__r.RecordType.DeveloperName = &apos;Schneider&apos; , RecordType.DeveloperName = &apos;Supplier&apos;)</errorConditionFormula>
+        <errorMessage>Supplier Corrective Action cannot be created on a Schneider Problem.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CRA_VR_JUN16I2P01_CheckSafeDomain</fullName>
+        <active>true</active>
+        <description>Check the safe domain in AdditionalContact__c</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+ VLOOKUP($ObjectType.SafeDomains__c.Fields.Name, $ObjectType.SafeDomains__c.Fields.Name,SUBSTITUTE(AdditionalContact__c,left(AdditionalContact__c,FIND(&quot;@&quot;, AdditionalContact__c)), &quot;&quot;))!=SUBSTITUTE(AdditionalContact__c,left(AdditionalContact__c,FIND(&quot;@&quot;, AdditionalContact__c)), &quot;&quot;) )</errorConditionFormula>
+        <errorDisplayField>AdditionalContact__c</errorDisplayField>
+        <errorMessage>Please enter valid email address within a Schneider safe domain.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CRA_VR_OCT15I2P01_DueDateGtStartDate</fullName>
+        <active>true</active>
+        <description>I2P: OCT15RELEASE. Due date should not be before Creation Date</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), IF(ISNEW(),TODAY() &gt; DueDate__c, DATEVALUE( CreatedDate ) &gt; DueDate__c ))</errorConditionFormula>
+        <errorDisplayField>DueDate__c</errorDisplayField>
+        <errorMessage>Due date should not be before Creation Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CRA_VR_OCT15I2P02_CRACreifPrblmInPrognPr</fullName>
+        <active>true</active>
+        <description>I2P: OCT15 Release.
+Corrective Action can be created only when the Related Problem is In Progress and Problem Leader has been Nominated</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),  ISNEW() , NOT( ISPICKVAL( RelatedProblem__r.Status__c , &quot;In Progress&quot;)), ISBLANK( RelatedProblem__r.ProblemLeader__c ) )</errorConditionFormula>
+        <errorMessage>Corrective Action can only be created when the related Problem Status is In Progress and Schneider Problem Leader is nominated.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Clone</fullName>
+        <availability>online</availability>
+        <description>I2P July 2012:Clone</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Clone</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>window.open(&quot;{!CorrectiveAction__c.Id}&quot;+&quot;/e?clone=1&quot;+&quot;&amp;retURL=%2F&quot;+&quot;{!CorrectiveAction__c.Id}&quot;+&quot;&amp;00NA0000009exT2=Potential&quot;,&quot;_self&quot;);</url>
+    </webLinks>
+</CustomObject>

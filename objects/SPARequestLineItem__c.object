@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <comment>The visualforce page is introduced to entertain the use-case of writing comments when the record is locked.</comment>
+        <content>VFP_SPALineItemEdit</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <comment>The record type selection page</comment>
+        <content>VFP_SPARecordTypeSelection</content>
+        <skipRecordTypeSelect>true</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>Local_Pricing_Group_Field_Set</fullName>
+        <description>For the page layout of local pricing group record type</description>
+        <label>Local Pricing Group Field Set</label>
+    </fieldSets>
+    <fields>
+        <fullName>AdditionalDiscount__c</fullName>
+        <description>This value determine the Final Discount/Multiplier. (Final Discount = Standard Discount x Additional Discount)</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(RequestedType__c,&apos;Multiplier&apos;), 1- (Round(RequestedValue__c,4)/ (1- StandardDiscount__c )) ,
+IF(ISPICKVAL(RequestedType__c,&apos;Discount&apos;),Round(RequestedValue__c,2)/100,
+IF(ISPICKVAL(RequestedType__c,&apos;Price&apos;), 1-(RequestedValue__c/ StandardPrice__c ) ,
+IF(ISPICKVAL(RequestedType__c,&apos;Advised Discount %&apos;),Round(RequestedValue__c,2)/100,
+IF(ISPICKVAL(RequestedType__c,&apos;Standard Discount&apos;),Round(RequestedValue__c,2)/100,
+IF(ISPICKVAL(RequestedType__c,&apos;Free of charge&apos;),1,
+0))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This value determine the Final Discount/Multiplier. (Final Discount = Standard Discount x Additional Discount)</inlineHelpText>
+        <label>Additional Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>AdvisedDiscountPER__c</fullName>
+        <description>The &quot;Advised Discount&quot; is applied to the End User for Indirect Business.</description>
+        <externalId>false</externalId>
+        <formula>(1-FinalMultiplier__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The &quot;Advised Discount&quot; is applied to the End User for Indirect Business.</inlineHelpText>
+        <label>Advised Discount %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ApprovalComments__c</fullName>
+        <description>All Pricing Desk Members of the SPA Request are able to add some Comments</description>
+        <externalId>false</externalId>
+        <inlineHelpText>All Pricing Desk Members of the SPA Request are able to add some Comments</inlineHelpText>
+        <label>Pricing Desk Member Comments</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Business__c</fullName>
+        <description>SE Business Unit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SE Business Unit</inlineHelpText>
+        <label>Business</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>BD</fullName>
+                    <default>false</default>
+                    <label>BD</label>
+                </value>
+                <value>
+                    <fullName>BI</fullName>
+                    <default>false</default>
+                    <label>BI</label>
+                </value>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>false</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>GW</fullName>
+                    <default>false</default>
+                    <label>GW</label>
+                </value>
+                <value>
+                    <fullName>IA</fullName>
+                    <default>false</default>
+                    <label>IA</label>
+                </value>
+                <value>
+                    <fullName>IB</fullName>
+                    <default>false</default>
+                    <label>IB</label>
+                </value>
+                <value>
+                    <fullName>ID</fullName>
+                    <default>false</default>
+                    <label>ID</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>PP</fullName>
+                    <default>false</default>
+                    <label>PP</label>
+                </value>
+                <value>
+                    <fullName>PR</fullName>
+                    <default>false</default>
+                    <label>PR</label>
+                </value>
+                <value>
+                    <fullName>PS</fullName>
+                    <default>false</default>
+                    <label>PS</label>
+                </value>
+                <value>
+                    <fullName>SO</fullName>
+                    <default>false</default>
+                    <label>SO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CheckDoubleDiscount__c</fullName>
+        <externalId>false</externalId>
+        <formula>If($User.UIThemeDisplayed == &apos;Theme4d&apos;,HYPERLINK(&quot;/apex/VFP_SPALineReportReidrect?acctId=&quot;&amp;SPARequest__r.Account__c&amp; 
+&quot;&amp;acctId=&quot;&amp;SPARequest__r.Account__c&amp; 
+&quot;&amp;channelId=&quot;&amp;SPARequest__r.Channel__c&amp; 
+&quot;&amp;endDate=&quot;&amp;TEXT(MONTH(SPARequest__r.EndDate__c)) &amp; &quot;/&quot; &amp; TEXT(DAY(SPARequest__r.EndDate__c)) &amp; &quot;/&quot; &amp; TEXT(YEAR(SPARequest__r.EndDate__c))&amp; 
+&quot;&amp;strtDate=&quot;&amp;TEXT(MONTH(SPARequest__r.StartDate__c)) &amp; &quot;/&quot; &amp; TEXT(DAY(SPARequest__r.StartDate__c)) &amp; &quot;/&quot; &amp; TEXT(YEAR(SPARequest__r.StartDate__c))&amp; 
+&quot;&amp;canceldate=&quot;&amp;TEXT(MONTH(SPARequest__r.StartDate__c)) &amp; &quot;/&quot; &amp; TEXT(DAY(SPARequest__r.StartDate__c)) &amp; &quot;/&quot; &amp; TEXT(YEAR(SPARequest__r.StartDate__c))&amp; 
+&quot;&amp;ultparentacct=&quot;&amp;SPARequest__r.REP_UltimateParentAccount__c&amp; 
+&quot;&amp;ultparentacct1=&quot;&amp;SPARequest__r.REP_UltimateParentAccount__c&amp; 
+&quot;&amp;ultparentChannel=&quot;&amp;SPARequest__r.REP_UltimateParentChannel__c&amp; 
+&quot;&amp;ultparentacct2=&quot;&amp;SPARequest__r.REP_UltimateParentAccount__c&amp; 
+&quot;&amp;ultparentacct3=&quot;&amp;SPARequest__r.REP_UltimateParentAccount__c&amp; 
+&quot;&amp;ultparentChannel1=&quot;&amp;SPARequest__r.REP_UltimateParentChannel__c&amp; 
+&quot;&amp;acct1=&quot;&amp;SPARequest__r.Account__c&amp; 
+&quot;&amp;acct2=&quot;&amp;SPARequest__r.Account__c&amp; 
+&quot;&amp;channel1=&quot;&amp;SPARequest__r.Channel__c&amp; 
+&quot;&amp;localpricinggrp=&quot;&amp;LocalPricingGroup__c 
+,&quot;Click here to display the report&quot;), 
+If($User.UIThemeDisplayed == &apos;Theme3&apos;,HYPERLINK(&quot;/apex/VFP_SPALineReportReidrect?acctId=&quot;&amp;SPARequest__r.Account__c&amp; 
+&quot;&amp;acctId=&quot;&amp;SPARequest__r.Account__c&amp; 
+&quot;&amp;channelId=&quot;&amp;SPARequest__r.Channel__c&amp; 
+&quot;&amp;endDate=&quot;&amp;TEXT(MONTH(SPARequest__r.EndDate__c)) &amp; &quot;/&quot; &amp; TEXT(DAY(SPARequest__r.EndDate__c)) &amp; &quot;/&quot; &amp; TEXT(YEAR(SPARequest__r.EndDate__c))&amp; 
+&quot;&amp;strtDate=&quot;&amp;TEXT(MONTH(SPARequest__r.StartDate__c)) &amp; &quot;/&quot; &amp; TEXT(DAY(SPARequest__r.StartDate__c)) &amp; &quot;/&quot; &amp; TEXT(YEAR(SPARequest__r.StartDate__c))&amp; 
+&quot;&amp;canceldate=&quot;&amp;TEXT(MONTH(SPARequest__r.StartDate__c)) &amp; &quot;/&quot; &amp; TEXT(DAY(SPARequest__r.StartDate__c)) &amp; &quot;/&quot; &amp; TEXT(YEAR(SPARequest__r.StartDate__c))&amp; 
+&quot;&amp;ultparentacct=&quot;&amp;SPARequest__r.REP_UltimateParentAccount__c&amp; 
+&quot;&amp;ultparentacct1=&quot;&amp;SPARequest__r.REP_UltimateParentAccount__c&amp; 
+&quot;&amp;ultparentChannel=&quot;&amp;SPARequest__r.REP_UltimateParentChannel__c&amp; 
+&quot;&amp;ultparentacct2=&quot;&amp;SPARequest__r.REP_UltimateParentAccount__c&amp; 
+&quot;&amp;ultparentacct3=&quot;&amp;SPARequest__r.REP_UltimateParentAccount__c&amp; 
+&quot;&amp;ultparentChannel1=&quot;&amp;SPARequest__r.REP_UltimateParentChannel__c&amp; 
+&quot;&amp;acct1=&quot;&amp;SPARequest__r.Account__c&amp; 
+&quot;&amp;acct2=&quot;&amp;SPARequest__r.Account__c&amp; 
+&quot;&amp;channel1=&quot;&amp;SPARequest__r.Channel__c&amp; 
+&quot;&amp;localpricinggrp=&quot;&amp;LocalPricingGroup__c 
+,&quot;Click here to display the report&quot;),&apos;&apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Check Double Discount</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CommercialReference__c</fullName>
+        <description>Material or Commercial Reference existing in the Legacy System</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Material or Commercial Reference existing in the Legacy System</inlineHelpText>
+        <label>Commercial Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CompensationOverNetSellOut__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(RequestedType__c,&apos;Advised Discount %&apos;),Compensation__c/(1-AdvisedDiscountPER__c),null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Compensation Over Net Sell-Out is the compensation percentage based upon the net price for the account. This is calculated by dividing the compensation over list price by 1-advised discount (represented by the requested value field). (eg 25,5)</inlineHelpText>
+        <label>Compensation Over Net Sell Out</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Compensation__c</fullName>
+        <description>Compensation Over List Price is automatically filled if requested value is within compensation table range. If not, enter the percentage compensation over list price manually (eg 5,5)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Compensation Over List Price is automatically filled if requested value is within compensation table range. If not, enter the percentage compensation over list price manually (eg 5,5)</inlineHelpText>
+        <label>Compensation Over List Price</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FinalDiscount__c</fullName>
+        <description>Discount which determine the Net Price (List Price x Final Discount = Net Price)</description>
+        <externalId>false</externalId>
+        <formula>1- FinalMultiplier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Discount which determine the Net Price (List Price x Final Discount = Net Price)</inlineHelpText>
+        <label>Final Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>FinalMultiplier__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(RequestedType__c,&apos;Multiplier&apos;),Round(RequestedValue__c,4),
+IF(ISPICKVAL(RequestedType__c,&apos;Discount&apos;), ((100- Round(RequestedValue__c,2))/100) * (1- StandardDiscount__c) ,
+IF(ISPICKVAL(RequestedType__c,&apos;Price&apos;), RequestedValue__c/ ListPrice__c ,
+IF(ISPICKVAL(RequestedType__c,&apos;Advised Discount %&apos;),1-(Round(RequestedValue__c,2)/100),
+IF(ISPICKVAL(RequestedType__c,&apos;Standard Discount&apos;), 1-(Round(RequestedValue__c,2)/100) ,
+0)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Final Multiplier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ListPriceLineAmount__c</fullName>
+        <description>List Price for the Targeted Quantity</description>
+        <externalId>false</externalId>
+        <formula>ListPrice__c  *  TargetQuantity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>List Price for the Targeted Quantity</inlineHelpText>
+        <label>Total List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ListPrice__c</fullName>
+        <description>List Price for one piece (coming from the Legacy system)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List Price for one piece (coming from the Legacy system)</inlineHelpText>
+        <label>List Price/Estimated Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>LocalPricingGroup__c</fullName>
+        <description>The Local Offer Structure existing in the Legacy System. Only one level can be used in one SPA Request</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Local Offer Structure existing in the Legacy System. Only one level can be used in one SPA Request</inlineHelpText>
+        <label>Local Pricing Group</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MaterialDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Material Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NetDiscountAmount__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(RequestedType__c,&apos;Advised Discount %&apos;),ListPrice__c*Compensation__c*TargetQuantity__c,
+IF(ISPICKVAL(RequestedType__c,&apos;Standard Discount&apos;),(ListPrice__c * TargetQuantity__c* RequestedValue__c)/100,
+StandardPrice__c * AdditionalDiscount__c * TargetQuantity__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Net Discount Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NetLineAmount__c</fullName>
+        <description>Requested Account Price for the Targeted Quantity (= Total List Price x Final Multiplier/Discount)</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(RequestedType__c,&apos;Price&apos;),Round(RequestedValue__c*TargetQuantity__c,2),Round(ListPrice__c*TargetQuantity__c,2)-Round(Round(ListPrice__c*TargetQuantity__c,2) * Round(FinalDiscount__c,4),2))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Requested Account Price for the Targeted Quantity (= Total List Price x Final Multiplier/Discount)</inlineHelpText>
+        <label>Total Requested Net Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NetPrice__c</fullName>
+        <description>Requested Account Price for one piece (= Unit List Price x Final Multiplier/Discount)</description>
+        <externalId>false</externalId>
+        <formula>Round((Round( NetLineAmount__c,2)/TargetQuantity__c),2)</formula>
+        <inlineHelpText>Requested Account Price for one piece (= Unit List Price x Final Multiplier/Discount)</inlineHelpText>
+        <label>Unit Requested Net Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ProductLineManager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Responsible of the Product Line (eg Product manager) and define from The Pricing Desk Member.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Responsible of the Product Line (eg Product manager) and define from The Pricing Desk Member.</inlineHelpText>
+        <label>Product Line Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>SPARequestLineItems</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecommendationStatus__c</fullName>
+        <description>This Line Item Status is Approved/Rejected Only by the Product Line Manager</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This Line Item Status is Approved/Rejected Only by the Product Line Manager</inlineHelpText>
+        <label>Recommendation Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Approved with change</fullName>
+                    <default>false</default>
+                    <label>Approved with change</label>
+                </value>
+                <value>
+                    <fullName>Not Yet Reviewed</fullName>
+                    <default>true</default>
+                    <label>Not Yet Reviewed</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RequestedType__c</fullName>
+        <description>.The &quot;&quot;Additional Discount&quot;&quot; is applied on the Standard Discount with value in percentage (eg 5,5)
+.The &quot;&quot;Final Multiplier&quot;&quot; is applied on the List Price with a decimal value (eg 0,75)
+.The &quot;&quot;Net Price&quot;&quot; is the Unit Requested Price for the Account (eg 120,50)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>.The &quot;Additional Discount&quot; is applied on the Standard Discount with value in percentage (eg 5,5)
+.The &quot;Final Multiplier&quot; is applied on the List Price with a decimal value (eg 0,75)
+.The &quot;Net Price&quot; is the Unit Requested Price for the Account (eg 120,50)</inlineHelpText>
+        <label>Requested Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discount</fullName>
+                    <default>false</default>
+                    <label>Discount</label>
+                </value>
+                <value>
+                    <fullName>Multiplier</fullName>
+                    <default>false</default>
+                    <label>Multiplier</label>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>Advised Discount %</fullName>
+                    <default>false</default>
+                    <label>Advised Discount %</label>
+                </value>
+                <value>
+                    <fullName>Standard Discount</fullName>
+                    <default>false</default>
+                    <label>Standard Discount</label>
+                </value>
+                <value>
+                    <fullName>Free of charge</fullName>
+                    <default>false</default>
+                    <label>Free of charge</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RequestedValue__c</fullName>
+        <description>For Standard, Additional, Advised discounts and Free of charge it is a percentage (eg 45, 5,5, 50 or 100)
+For Final Multiplier, it is a decimal (eg 0,75)
+For Net Price, it is an amount (eg 120,50)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Standard, Additional, Advised discounts and Free of charge it is a percentage (eg 45, 5,5, 50 or 100)
+For Final Multiplier, it is a decimal (eg 0,75)
+For Net Price, it is an amount (eg 120,50)</inlineHelpText>
+        <label>Requested Value</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RequiredApprovalLevel__c</fullName>
+        <externalId>false</externalId>
+        <label>Required Approval Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SPARequest__c</fullName>
+        <externalId>false</externalId>
+        <label>SPA Request</label>
+        <referenceTo>SPARequest__c</referenceTo>
+        <relationshipLabel>SPA Request Line Items</relationshipLabel>
+        <relationshipName>SPARequestLineItems</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>StandardDiscount__c</fullName>
+        <description>Standard Discount (coming from the Legacy system)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Standard Discount (coming from the Legacy system)</inlineHelpText>
+        <label>Standard Discount</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>StandardMultiplier__c</fullName>
+        <description>Standard Multiplier (coming from the Legacy system)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Standard Multiplier (coming from the Legacy system)</inlineHelpText>
+        <label>Standard Multiplier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StandardPriceLineAmount__c</fullName>
+        <description>Standard Price for the Targeted Quantity (= Total List Price x Standard Multiplier/Discount)</description>
+        <externalId>false</externalId>
+        <formula>StandardPrice__c  *  TargetQuantity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Standard Price for the Targeted Quantity (= Total List Price x Standard Multiplier/Discount)</inlineHelpText>
+        <label>Total Standard Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>StandardPrice__c</fullName>
+        <description>Standard Price for one piece (= Unit List Price x Standard Discount/Multiplier)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Standard Price for one piece (= Unit List Price x Standard Discount/Multiplier)</inlineHelpText>
+        <label>Unit Standard Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TargetQuantity__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>The Quantity requested by the Account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Quantity requested by the Account</inlineHelpText>
+        <label>Target Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_UniqueCommercialReference__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Tech_UniqueCommercialReference</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>SPA Request Line Item</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>StandardPrice__c</columns>
+        <columns>StandardDiscount__c</columns>
+        <columns>StandardMultiplier__c</columns>
+        <columns>RequiredApprovalLevel__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>LIT-{0000}</displayFormat>
+        <label>Line Item ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>SPA Request Line Items</pluralLabel>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>SPA_RequestLineItemWithLocalPricingGroup</fullName>
+        <active>true</active>
+        <description>SPA Request Line Item with Local Pricing Group</description>
+        <label>SPA Request Line Item with Local Pricing Group</label>
+        <picklistValues>
+            <picklist>Business__c</picklist>
+            <values>
+                <fullName>BD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RecommendationStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved with change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestedType__c</picklist>
+            <values>
+                <fullName>Advised Discount %25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Free of charge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multiplier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standard Discount</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequiredApprovalLevel__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SPA_RequestLineItemwithCommercialReference</fullName>
+        <active>true</active>
+        <description>SPA Request Line Item with Commercial Reference</description>
+        <label>SPA Request Line Item with Commercial Reference</label>
+        <picklistValues>
+            <picklist>Business__c</picklist>
+            <values>
+                <fullName>BD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RecommendationStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved with change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestedType__c</picklist>
+            <values>
+                <fullName>Advised Discount %25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Free of charge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multiplier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standard Discount</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequiredApprovalLevel__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>AdditionalDiscount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FinalMultiplier__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>NetPrice__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LocalPricingGroup__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>NetDiscountAmount__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>AdditionalDiscount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>FinalMultiplier__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NetPrice__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LocalPricingGroup__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NetDiscountAmount__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AdditionalDiscount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FinalMultiplier__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NetPrice__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LocalPricingGroup__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NetDiscountAmount__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>AdditionalDiscount__c</searchFilterFields>
+        <searchFilterFields>FinalMultiplier__c</searchFilterFields>
+        <searchFilterFields>NetPrice__c</searchFilterFields>
+        <searchFilterFields>LocalPricingGroup__c</searchFilterFields>
+        <searchFilterFields>NetDiscountAmount__c</searchFilterFields>
+        <searchResultsAdditionalFields>AdditionalDiscount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FinalMultiplier__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>NetPrice__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ListPriceLineAmount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LocalPricingGroup__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>SPA_VR_OCT14SLS01_CompensationMandatory</fullName>
+        <active>true</active>
+        <description>Compensation is mandatory field for Advised Discount.</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp;  ISPICKVAL(RequestedType__c, &apos;Advised Discount %&apos;)  &amp;&amp; ISBLANK(Compensation__c)</errorConditionFormula>
+        <errorMessage>Compensation % is mandatory for the Advised Discount % Requested Type.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SPA_VR_SEP12SLS01_RLI_TargetQuantity</fullName>
+        <active>true</active>
+        <description>Target Quantity should be greater than 0</description>
+        <errorConditionFormula>AND (NOT($User.BypassVR__c),
+OR ( TargetQuantity__c  &lt;= 0 ,   ISBLANK(TargetQuantity__c)  ) )</errorConditionFormula>
+        <errorDisplayField>TargetQuantity__c</errorDisplayField>
+        <errorMessage>Target Quantity should be greater than 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SPA_VR_SEP12SLS03_RLI_ReqMultiplLessThn1</fullName>
+        <active>true</active>
+        <description>Requested Multiplier should not be greater than 1</description>
+        <errorConditionFormula>AND (NOT($User.BypassVR__c), 
+ISPICKVAL( RequestedType__c, &apos;Multiplier&apos;), 
+(RequestedValue__c &gt;1))</errorConditionFormula>
+        <errorDisplayField>RequestedValue__c</errorDisplayField>
+        <errorMessage>Final Multiplier should not exceed 1</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SPA_VR_SEP12SLS04_RLI_NetPrice</fullName>
+        <active>true</active>
+        <description>Net Price should less than Standard Price and List Price</description>
+        <errorConditionFormula>AND (NOT($User.BypassVR__c),
+AND ( ISPICKVAL( RequestedType__c ,&apos;Price&apos; ) , OR (RequestedValue__c  &gt; StandardPrice__c,RequestedValue__c &gt; ListPrice__c ) ) )</errorConditionFormula>
+        <errorDisplayField>RequestedValue__c</errorDisplayField>
+        <errorMessage>Net Price should be less than both, Standard Price &amp; List Price</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SPA_VR_SEP12SLS05_RLI_FinalMultiplier</fullName>
+        <active>true</active>
+        <description>Final Multiplier should less than Standard Multiplier</description>
+        <errorConditionFormula>AND (NOT($User.BypassVR__c),
+AND ( ISPICKVAL( RequestedType__c ,&apos;Multiplier&apos; ) ,  RequestedValue__c  &gt;  StandardMultiplier__c ) )</errorConditionFormula>
+        <errorDisplayField>RequestedValue__c</errorDisplayField>
+        <errorMessage>Final Multiplier should be less than Standard Multiplier</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SPA_VR_SEP12SLS06_RLI_RequestedDiscount</fullName>
+        <active>true</active>
+        <description>Additional Discount should not be greater than 100</description>
+        <errorConditionFormula>AND (NOT($User.BypassVR__c), 
+ISPICKVAL( RequestedType__c, &apos;Discount&apos;), 
+(RequestedValue__c &gt;100))</errorConditionFormula>
+        <errorDisplayField>RequestedValue__c</errorDisplayField>
+        <errorMessage>Additional Discount should not exceed 100</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SPA_VR_SEP12SLS07_RLI_NumericFields</fullName>
+        <active>true</active>
+        <description>Numeric fields should not be less than</description>
+        <errorConditionFormula>AND (NOT($User.BypassVR__c), 
+OR ( ListPrice__c &lt; 0 , RequestedValue__c&lt; 0 , StandardDiscount__c&lt; 0 ,  StandardMultiplier__c&lt; 0 , StandardPrice__c&lt; 0) )</errorConditionFormula>
+        <errorMessage>Value should not be less than 0</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>MassCreate</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Create</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP_SPALineItemMassCreate</page>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Recommendation</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Recommendation</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP_MassEditSPALineItems</page>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+    </webLinks>
+</CustomObject>

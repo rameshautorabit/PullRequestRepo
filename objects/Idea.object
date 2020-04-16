@@ -1,0 +1,2803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Business_Requirement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Business Requirement</label>
+        <referenceTo>Business_Requirement__c</referenceTo>
+        <relationshipLabel>Ideas</relationshipLabel>
+        <relationshipName>Ideas</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Categories</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ChangeRequest__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Links original idea to a change request when it has been validated</description>
+        <externalId>false</externalId>
+        <label>Change Request</label>
+        <referenceTo>Request__c</referenceTo>
+        <relationshipLabel>Ideas</relationshipLabel>
+        <relationshipName>Ideas</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ClassicInstanceURL__c</fullName>
+        <externalId>false</externalId>
+        <formula>LEFT($Api.Enterprise_Server_URL_440, FIND( &quot;/services&quot;, $Api.Enterprise_Server_URL_440) -1) + &apos;/ideas/viewIdea.apexp?id=&apos;+ Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Classic Instance URL</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Country of the user submitting the Idea</description>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <referenceTo>Country__c</referenceTo>
+        <relationshipLabel>Ideas</relationshipLabel>
+        <relationshipName>Ideas</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DaysDeferred__c</fullName>
+        <description>Number of days the Ideas has spent in Status Deferred - Candidate for Innovation</description>
+        <externalId>false</externalId>
+        <formula>IF ( ISNULL( TECHDeferredStart__c ) , 0
+    , IF (ISNULL(TECHDeferredEnd__c)
+         , TODAY() - TECHDeferredStart__c 
+         , TECHDeferredEnd__c - TECHDeferredStart__c 
+         ) +1
+     )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days in Deferred</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DaysNotYetReviewed__c</fullName>
+        <description>Number of days the Ideas has spent in Status Not Yet Reviewed</description>
+        <externalId>false</externalId>
+        <formula>IF ( ISNULL(TECHNotYetReviewedStart__c) , 0
+    , IF (ISNULL(TECHNotYetReviewedEnd__c)
+         , TODAY() - TECHNotYetReviewedStart__c 
+         , TECHNotYetReviewedEnd__c - TECHNotYetReviewedStart__c 
+         ) +1
+     )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days in Not Yet Reviewed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DaysQualified__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( ISNULL( TECHQualifiedStart__c) , 0
+    , IF (ISNULL(TECHQualifiedEnd__c)
+         , TODAY() - TECHQualifiedStart__c 
+         , TECHQualifiedEnd__c - TECHQualifiedStart__c
+         ) +1
+     )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days in Qualified for Change Board</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DaysSelected__c</fullName>
+        <description>Number of days the Ideas has spent in Status Selected by Change Board</description>
+        <externalId>false</externalId>
+        <formula>IF ( ISNULL( TECHSelectedStart__c)  , 0
+    , IF (ISNULL(TECHSelectedEnd__c)
+         , TODAY() - TECHSelectedStart__c 
+         , TECHSelectedEnd__c - TECHSelectedStart__c 
+         ) +1
+     )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days in Selected by Change Board</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DaysUnderConsideration__c</fullName>
+        <description>Number of days the Ideas has spent in Status Under Consideration</description>
+        <externalId>false</externalId>
+        <formula>IF ( ISNULL(TECHUnderConsiderationStart__c) , 0
+    , IF (ISNULL(TECHUnderConsiderationEnd__c)
+         , TODAY() - TECHUnderConsiderationStart__c 
+         , TECHUnderConsiderationEnd__c - TECHUnderConsiderationStart__c 
+         ) +1
+     )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days in Under Consideration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DaysUnderImplement__c</fullName>
+        <description>Number of days the Ideas has spent in Status Under Implementation</description>
+        <externalId>false</externalId>
+        <formula>IF ( ISNULL( TECHUnderImplementStart__c ) , 0
+    , IF (ISNULL( TECHUnderImplementEnd__c )
+         , TODAY() - TECHUnderImplementStart__c 
+         , TECHUnderImplementEnd__c - TECHUnderImplementStart__c 
+         ) +1
+     )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days in Under Implementation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EstimatedImplementationDate__c</fullName>
+        <description>Estimated implementation date</description>
+        <externalId>false</externalId>
+        <label>Estimated implementation date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ExpectedAddedValue__c</fullName>
+        <description>This field describes the added value area and its figures.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Will it drive Direct or Indirect Growth? 
+Is it applicable to a wide SE audience?
+Will it save the user time?
+Will it simplify the process?
+Is it easy to understand?
+Does it provide innovation of the process or system?</inlineHelpText>
+        <label>Expected Business Value</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IdeaID__c</fullName>
+        <description>Auto-generated Id for the Idea</description>
+        <displayFormat>IDEA-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Idea ID</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>InstanceURL__c</fullName>
+        <externalId>false</externalId>
+        <formula>LEFT($Api.Enterprise_Server_URL_440, FIND( &quot;/services&quot;, $Api.Enterprise_Server_URL_440) -1) + &apos;/lightning/n/Ideas?c__id=&apos;+ Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Instance URL</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>JIRAIssue__c</fullName>
+        <description>To be able to reference the JIRA issue that responds to the Idea.</description>
+        <externalId>false</externalId>
+        <label>JIRA Issue</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Program_Team_update__c</fullName>
+        <externalId>false</externalId>
+        <label>Program Team answer</label>
+        <length>32000</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reason_for_rejection__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for rejection</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Included in Monthly/Quarterly release</fullName>
+                    <default>false</default>
+                    <label>Included in Monthly/Quarterly release</label>
+                </value>
+                <value>
+                    <fullName>Merged with another idea</fullName>
+                    <default>false</default>
+                    <label>Merged with another idea</label>
+                </value>
+                <value>
+                    <fullName>No business added value</fullName>
+                    <default>false</default>
+                    <label>No business added value</label>
+                </value>
+                <value>
+                    <fullName>Not aligned with Enterprise Architecture</fullName>
+                    <default>false</default>
+                    <label>Not aligned with Enterprise Architecture</label>
+                </value>
+                <value>
+                    <fullName>Not aligned with program objectives</fullName>
+                    <default>false</default>
+                    <label>Not aligned with program objectives</label>
+                </value>
+                <value>
+                    <fullName>Not aligned with the process</fullName>
+                    <default>false</default>
+                    <label>Not aligned with the process</label>
+                </value>
+                <value>
+                    <fullName>Not globally applicable</fullName>
+                    <default>false</default>
+                    <label>Not globally applicable</label>
+                </value>
+                <value>
+                    <fullName>Not realistic (technical, workload)</fullName>
+                    <default>false</default>
+                    <label>Not realistic (technical, workload)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RequestedBy__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>October Release 2011</description>
+        <externalId>false</externalId>
+        <label>Requested By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Ideas</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Requestworkinprogress__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Request (work in progress)</label>
+        <referenceTo>Request_work_in_progress__c</referenceTo>
+        <relationshipLabel>Ideas</relationshipLabel>
+        <relationshipName>Ideas</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StatusHistory__c</fullName>
+        <description>This field is populated by workflow, each time the Status is changed.
+It displays:
+- the previous Status 
+- the name of the person that changed it  
+- the date when the Status has been changed</description>
+        <externalId>false</externalId>
+        <label>Status History</label>
+        <length>32000</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TECHDeferredEnd__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Deferred - Candidate for Innovation (stores the end date).</description>
+        <externalId>false</externalId>
+        <label>TECH_Deferred_End</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHDeferredStart__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Deferred - Candidate for Innovation  (stores the start date).</description>
+        <externalId>false</externalId>
+        <label>TECH_Deferred_Start</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHNotYetReviewedEnd__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Status Not Yet Reviewed (stores the end date).</description>
+        <externalId>false</externalId>
+        <label>TECH_NotYetReviewed_End</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHNotYetReviewedStart__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Status Not Yet Reviewed (stores the start date).</description>
+        <externalId>false</externalId>
+        <label>TECH_NotYetReviewed_Start</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHQualifiedEnd__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Qualified for Change Board (stores the end date).</description>
+        <externalId>false</externalId>
+        <label>TECH_Qualified_End</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHQualifiedStart__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Status Qualified for Change Board (stores the start date).</description>
+        <externalId>false</externalId>
+        <label>TECH_Qualified_Start</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHSelectedEnd__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Selected by Change Board (stores the end date).</description>
+        <externalId>false</externalId>
+        <label>TECH_Selected_End</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHSelectedStart__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Selected by Change Board (stores the start date).</description>
+        <externalId>false</externalId>
+        <label>TECH_Selected_Start</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHUnderConsiderationEnd__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Status Under Consideration (stores the end date).</description>
+        <externalId>false</externalId>
+        <label>TECH_UnderConsideration_End</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHUnderConsiderationStart__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Status Under Consideration (stores the start date).</description>
+        <externalId>false</externalId>
+        <label>TECH_UnderConsideration_Start</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHUnderImplementEnd__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Under Implementation (stores the end date).</description>
+        <externalId>false</externalId>
+        <label>TECH_UnderImplement_End</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECHUnderImplementStart__c</fullName>
+        <description>Field is updated by workflow, used to determine the number of days in Under Implementation (stores the start date).</description>
+        <externalId>false</externalId>
+        <label>TECH_UnderImplement_Start</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TechnicalComplexity__c</fullName>
+        <description>BFOS-3689</description>
+        <externalId>false</externalId>
+        <label>Technical Complexity</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>AC_Ideas</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.BODY</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>StatusHistory__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Account/Contact</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>contains</operation>
+            <value>Selected by the Change Board</value>
+        </filters>
+        <label>Account and Contact Ideas_Selected by CB</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>ALL_Ideas_by_Roshini_Benson_new</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>RequestedBy__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>equals</operation>
+            <value>SESA74718,SESA152236,SESA84444</value>
+        </filters>
+        <label>India_FS_Ideas</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>IN_FS_GRP</group>
+            <group>IN_FS_GRP1</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AR_Ideas</fullName>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>cristian.fantino,juan.cazon,paula.ruggieri,agustin.gimenez</value>
+        </filters>
+        <filters>
+            <field>IDEA.TITLE</field>
+            <operation>contains</operation>
+            <value>MySE AR</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>Danna Maria Duarte Roa</value>
+        </filters>
+        <label>AR - Ideas</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ARArgentina</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AT_CH_ideas</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Austria,Switzerland,AT,CH</value>
+        </filters>
+        <label>AT_CH-all ideas</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ATallUsersSEAustria</group>
+            <group>CHAllUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AT_my_ideas</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>Country__c</columns>
+        <columns>ExpectedAddedValue__c</columns>
+        <columns>VOTE.HAS_VOTED</columns>
+        <filterScope>Mine</filterScope>
+        <label>AT_CH-my ideas</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ATallUsersSEAustria</group>
+            <group>CHAllUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AU_Ideas_Australia_New_Zealand</fullName>
+        <booleanFilter>((1 OR 2 or 3 or 4 or 5 or 6 or 7 or 8) and 9)</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.BODY</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>,Ainsley Wilkinson,Annika Telfer,Anne Thomas,Amber Brown,Ben Drew,Bradley Rayner</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>,Brent Roylance,Brett Hendry,Brian Casserly,Bryan Burley,Christine Swistak</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>,Christopher Rivera,Darren Mullighan,David Mann,Erica Crawford,Erin Geddes</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>,Arghavan Hojarti,Craig1 Williaqms,Jacqui Middleton,Latika Sharma,Leon Burzacott</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>Michael Heffernan,Gazi Azmal,Geoffrey Nottage,Hank Wheeler,Heidi Timpano,Jae Lam</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>,Jim K Davis,Lisa Gibson,Michael Brain,Max Atschwager,Michael Cain,Pam McIntosh</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>,Paul Au-Yeung,Paul Grace,Oktay Yavuzer,Prakash Deveraj,Riccardo Tenaglia</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>Robyn Fullerton,Tim Downs,Sarah Sherrard,Sejal Patel,Socheatey Chan</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>AU_Ideas (Australia &amp; New Zealand)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>AU_CC_MySE_Ideas</group>
+            <group>PZ_All_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AU_Ideas_Australia_New_Zealand1</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.BODY</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>Paul Au-Yeung,Ellen Hudreaux,Nicola Irons,Lisa Gibson,Anuja Walavalkar</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>MySE</value>
+        </filters>
+        <label>AU_MYSE Ideas (Australia &amp; New Zealand)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>AU_CC_MySE_Ideas</group>
+            <group>PZ_All_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Automation_ideas</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_ALIAS</field>
+            <operation>equals</operation>
+            <value>frglapa,DRU</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_ALIAS</field>
+            <operation>equals</operation>
+            <value>phdhauss</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>1/1/2013 12:00 AM</value>
+        </filters>
+        <label>Automation ideas</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ENE_AUT_Views</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Brazil_Ideas</fullName>
+        <booleanFilter>(1 OR 2 OR 3) AND 4</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>Country__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>equals</operation>
+            <value>SESA215689,SESA447960,SESA379706</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>Roberto Kaique da Silva,Patricia Paola Tanaka,JOAO VICTOR ANDRADE DA SILVA</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>Nathaly da Silva Valenca</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Closed</value>
+        </filters>
+        <label>Brazil CCC Ideias</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BR_Customer_Care_Center</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CCC_Ideas1</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>DaysDeferred__c</columns>
+        <columns>DaysNotYetReviewed__c</columns>
+        <columns>DaysQualified__c</columns>
+        <columns>RequestedBy__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Customer Care process</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Under Consideration</value>
+        </filters>
+        <label>CCC Ideas - Under Consideration</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BFO_CCC_IDEAS_Review_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CCC_Ideas_Defferred_for_Innovation</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>DaysDeferred__c</columns>
+        <columns>DaysNotYetReviewed__c</columns>
+        <columns>DaysQualified__c</columns>
+        <columns>RequestedBy__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Customer Care process</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Deferred -  Candidate for Innovation</value>
+        </filters>
+        <label>CCC Ideas - Defferred for Innovation</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BFO_CCC_IDEAS_Review_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CCC_Ideas_Qualified_for_Change</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>EstimatedImplementationDate__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>DaysQualified__c</columns>
+        <columns>RequestedBy__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Customer Care process</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Qualified for Change Board</value>
+        </filters>
+        <label>CCC Ideas - Qualified for Change</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BFO_CCC_IDEAS_Review_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CCC_Ideas_Salesforce_Improvement</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>DaysDeferred__c</columns>
+        <columns>DaysNotYetReviewed__c</columns>
+        <columns>DaysQualified__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Customer Care process</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Idea for Salesforce.com improvement</value>
+        </filters>
+        <label>CCC Ideas - Salesforce Improvement</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BFO_CCC_IDEAS_Review_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CCC_Ideas_Selected1</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>DaysNotYetReviewed__c</columns>
+        <columns>DaysQualified__c</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Customer Care process</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Selected by the Change Board</value>
+        </filters>
+        <label>CCC Ideas - Selected</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BFO_CCC_IDEAS_Review_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CCC_Ideas_Under_Consideration</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IdeaID__c</columns>
+        <columns>Country__c</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>DaysDeferred__c</columns>
+        <columns>DaysNotYetReviewed__c</columns>
+        <columns>DaysQualified__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Customer Care process</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Not Yet Reviewed</value>
+        </filters>
+        <label>CCC Ideas - Not Yet Reviewed</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BFO_CCC_IDEAS_Review_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CCC_Ideas_Under_Implementation</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>DaysDeferred__c</columns>
+        <columns>DaysNotYetReviewed__c</columns>
+        <columns>DaysQualified__c</columns>
+        <columns>RequestedBy__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Customer Care process</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Under implementation</value>
+        </filters>
+        <label>CCC Ideas - Under Implementation</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BFO_CCC_IDEAS_Review_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CTI_Ideas</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>CTI</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Selected by the Change Board</value>
+        </filters>
+        <label>CTI Ideas_Selected by the Change Board</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CTI_Ideas_Deferred_for_Innovation</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>CTI</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Deferred -  Candidate for Innovation</value>
+        </filters>
+        <label>CTI Ideas - Deferred for Innovation</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CTI_Ideas_Not_Yet_Reviewed</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>Country__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>CTI</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Not Yet Reviewed</value>
+        </filters>
+        <label>CTI Ideas - Not Yet Reviewed</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CTI_Ideas_Qualified_for_Change</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>CTI</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Qualified for Change Board</value>
+        </filters>
+        <label>CTI Ideas - Qualified for Change</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CTI_Ideas_Salesforce_Innovation</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>CTI</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Idea for Salesforce.com improvement</value>
+        </filters>
+        <label>CTI Ideas - Salesforce Innovation</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CTI_Ideas_Under_Consideration</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>CTI</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Under Consideration</value>
+        </filters>
+        <label>CTI Ideas - Under Consideration</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CTI_Ideas_Under_Implementation</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>CTI</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Under implementation</value>
+        </filters>
+        <label>CTI Ideas - Under Implementation</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Customer_Voice_Ideas</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>The voice</value>
+        </filters>
+        <label>Customer Voice Ideas</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>DE_Ideas_Admins</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>Country__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>equals</operation>
+            <value>SESA110692,SESA45317,SESA162150,SESA153015,SESA289599,SESA109906,SESA9247</value>
+        </filters>
+        <label>DE_Ideas_Admins &amp; Champions Open</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>EUSDelegatedAdminGermany</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DE_Ideas_Admins_Champions_Closed</fullName>
+        <booleanFilter>(1 OR 2 OR 3) AND 4</booleanFilter>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>Country__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_ALIAS</field>
+            <operation>contains</operation>
+            <value>Faruk Orman,markus.heubach,jochen.beeker</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_ALIAS</field>
+            <operation>contains</operation>
+            <value>matthias-b.mueller@001,beatrice.barth@001</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_ALIAS</field>
+            <operation>contains</operation>
+            <value>Anne Horn,peter.soendgerath@001</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Implemented,Rejected,Closed</value>
+        </filters>
+        <label>DE_Ideas_Admins &amp; Champions Closed</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>EUSDelegatedAdminGermany</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DigiQ_Ideas1</fullName>
+        <booleanFilter>1</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>Program_Team_update__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>DigiQ</value>
+        </filters>
+        <label>DigiQ Ideas</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>EasySales_ideas_view</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>EasySales</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Idea for Salesforce.com improvement,Closed</value>
+        </filters>
+        <label>EasySales ideas view</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Guillaume_Rewards_Ideas</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.TITLE</field>
+            <operation>contains</operation>
+            <value>reward</value>
+        </filters>
+        <label>Rewards Ideas</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>HK_SPA</fullName>
+        <booleanFilter>1 or 2</booleanFilter>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IdeaID__c</field>
+            <operation>equals</operation>
+            <value>IDEA-003195</value>
+        </filters>
+        <filters>
+            <field>IdeaID__c</field>
+            <operation>equals</operation>
+            <value>IDEA-003196</value>
+        </filters>
+        <label>HK SPA</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SPA_Idea</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>I2P_Idea</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>I2P</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>startsWith</operation>
+            <value>antonio,anne</value>
+        </filters>
+        <label>I2P Idea</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>I2P_Idea_2_Under_Consideration</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>I2P</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>startsWith</operation>
+            <value>Under Consideration</value>
+        </filters>
+        <label>I2P Idea - 2 - Under Consideration</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>I2P_Idea_6_Closed</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>I2P</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>contains</operation>
+            <value>Deferred -  Candidate for Innovation,Idea for Salesforce.com improvement</value>
+        </filters>
+        <label>I2P Idea - 7 - Long term</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>I2P_Idea_6_Closed1</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>I2P</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>contains</operation>
+            <value>Closed</value>
+        </filters>
+        <label>I2P Idea - 6 - Closed</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>I2P_Idea_Implemented</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>I2P</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>contains</operation>
+            <value>Implemented</value>
+        </filters>
+        <label>I2P Idea - 5 - Implemented</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>I2P_Idea_Qualified</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>I2P</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>startsWith</operation>
+            <value>Not Yet Reviewed</value>
+        </filters>
+        <label>I2P Idea - 1 - New</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>I2P_Idea_Selected</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>I2P</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>startsWith</operation>
+            <value>Selected</value>
+        </filters>
+        <label>I2P Idea - 4 - Selected</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>I2P_Idea_Under_implementation</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>I2P</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>contains</operation>
+            <value>Under implementation</value>
+        </filters>
+        <label>I2P Idea - 4 - Under implementation</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ISMA_Ideas_Implemented_Rejected_Closed</fullName>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Implemented,Rejected,Closed</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>paco.de-la-villa,toni.cirera,raquel.freixes,alexandre.naffati</value>
+        </filters>
+        <filters>
+            <field>IdeaID__c</field>
+            <operation>contains</operation>
+            <value>0259,1075,1081,1391,1322,1775,1834,1872,1873,1976,1884</value>
+        </filters>
+        <label>Ideas ISMA Implemented+Rejected+Closed</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Ideas_ISMA_to_promote_and_follow</fullName>
+        <booleanFilter>1 or 2</booleanFilter>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>Cianflone,Balletbo,Gemma.Serra,toni.rico,marta.vicente,dani.munoz</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>Cirera,villa,freixes,naffati</value>
+        </filters>
+        <label>Ideas ISMA Barcelona (Spain and CE)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Ideas_ISMA_to_promote_and_follow1</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>paco.de-la-villa,toni.cirera,raquel.freixes,alexandre.naffati,silvio.basso</value>
+        </filters>
+        <filters>
+            <field>IdeaID__c</field>
+            <operation>contains</operation>
+            <value>0259,1075,1081,1391,1322,1775,1834,1872,1873,1976,1884</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>notContain</operation>
+            <value>Implemented,Rejected,Closed</value>
+        </filters>
+        <label>Ideas ISMA to promote and follow</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Ideas_ISMA_to_promote_and_follow2</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <columns>DaysNotYetReviewed__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Business_Requirement__c</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>PRM</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>equals</operation>
+            <value>SESA26634</value>
+        </filters>
+        <label>Ideas PRM (Paco view)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Ideas_Last_7_Days</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:7</value>
+        </filters>
+        <label>Last 7 Days</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Ideas_PRM_locator_Paco_view1</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>EstimatedImplementationDate__c</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <columns>DaysNotYetReviewed__c</columns>
+        <columns>DaysUnderConsideration__c</columns>
+        <columns>DaysSelected__c</columns>
+        <columns>DaysQualified__c</columns>
+        <columns>DaysUnderImplement__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>RequestedBy__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.TITLE</field>
+            <operation>contains</operation>
+            <value>LOCATOR</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Implemented</value>
+        </filters>
+        <label>Ideas PRM Locator Implemented(Paco view)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Ideas_PRM_locator_Paco_view2</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>EstimatedImplementationDate__c</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>Program_Team_update__c</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <columns>DaysNotYetReviewed__c</columns>
+        <columns>DaysQualified__c</columns>
+        <columns>DaysSelected__c</columns>
+        <columns>DaysUnderImplement__c</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>PRM</value>
+        </filters>
+        <filters>
+            <field>IDEA.TITLE</field>
+            <operation>contains</operation>
+            <value>rating</value>
+        </filters>
+        <label>Ideas PRM portal experience</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+            <group>ISMA_IPO_REGION_users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Ideas_Sales</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>JIRAIssue__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Sales process</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>notContain</operation>
+            <value>Implemented,Rejected,Closed</value>
+        </filters>
+        <label>Ideas Sales Process</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Manu_s_view</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_ALIAS</field>
+            <operation>equals</operation>
+            <value>padelavi</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/1/2018 12:00 AM</value>
+        </filters>
+        <label>Manu&apos;s view</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Mis_ideas_soliticadas_Creadas</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CREATED_BY_ALIAS</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>RequestedBy__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_BY_ALIAS</field>
+            <operation>equals</operation>
+            <value>mavicent,jmcoma</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>Marta VICENTE,Joan Marc Comalada</value>
+        </filters>
+        <label>Spain bFS ideas solicitadas/Creadas</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ESbFSNoE</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MySE_CN_Platform_Ideas</fullName>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6)</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>Program_Team_update__c</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>MySE</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>anna.lam</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>grace</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>meng</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>sandy</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>hiumei</value>
+        </filters>
+        <label>MySE CN Platform Ideas</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>MySE_CN_Platform_Ideas_CN</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>Program_Team_update__c</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>MySE</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>meng</value>
+        </filters>
+        <label>MySE CN Platform Ideas - CN</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>MySE_CN_Platform_Ideas_TW</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>Program_Team_update__c</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>MySE</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>grace</value>
+        </filters>
+        <label>MySE CN Platform Ideas - TW</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>MySE_Ideas4</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>JIRAIssue__c</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>MySE</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed,Implemented,Rejected</value>
+        </filters>
+        <label>MySE Ideas Open</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>MySE_Ideas_Under_Implementation1</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>MySE</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Under implementation</value>
+        </filters>
+        <label>MySE Ideas Under Implementation</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>OCM_Ideas</fullName>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.TITLE</field>
+            <operation>contains</operation>
+            <value>OCM</value>
+        </filters>
+        <label>OCM Ideas</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PL_CZ_SK_MySE_Open_Ideas</fullName>
+        <booleanFilter>2 AND (1 OR 3)</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.TITLE</field>
+            <operation>contains</operation>
+            <value>MYSE PL,MYSE CZ,MYSE SK</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Implemented,Rejected,Closed</value>
+        </filters>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>equals</operation>
+            <value>Marek Ouska,Martina Ruttkayova,Jiri Havelec,Hynek Petrak</value>
+        </filters>
+        <label>PL&amp;CZ&amp;SK_MySE Open Ideas</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>CZ_SK_All_Users</group>
+            <group>CZ_SK_All_sales_users</group>
+            <group>CZ_SK_CCC</group>
+            <group>CZ_SK_I2P</group>
+            <group>CZ_SK_Non_Sales_Users</group>
+            <group>PL_USERS_ALL</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>STM_ideas_view</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>STM Automation</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Idea for Salesforce.com improvement,Closed</value>
+        </filters>
+        <label>STM ideas view</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>STM_Project_group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Spain_Ideas</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>Country__c</columns>
+        <columns>RequestedBy__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RequestedBy__c</field>
+            <operation>contains</operation>
+            <value>Marta Vicente,Joan Marc Comalada,Meritxell Espinosa</value>
+        </filters>
+        <filters>
+            <field>IDEA.CREATED_BY_NICKNAME</field>
+            <operation>contains</operation>
+            <value>SESA107297,SESA377622,SESA25336</value>
+        </filters>
+        <label>Spain Ideas</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ESUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>bFS_Closed_Ideas</fullName>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>JIRAIssue__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Services</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Implemented,Rejected,Closed</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Deferred -  Candidate for Innovation,Idea for Salesforce.com improvement</value>
+        </filters>
+        <label>bFS Closed Ideas</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>bFS_Ideas</fullName>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <columns>IdeaID__c</columns>
+        <columns>RequestedBy__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>JIRAIssue__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>includes</operation>
+            <value>Services</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Not Yet Reviewed,Under Consideration,Qualified for Change Board</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>equals</operation>
+            <value>Selected by the Change Board,Under implementation</value>
+        </filters>
+        <label>bFS Open Ideas</label>
+        <language>en_US</language>
+    </listViews>
+    <recordTypes>
+        <fullName>InternalIdeasIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record Type used to associate ideas with a specific community</description>
+        <label>Panda: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>DigiQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ELLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EasySales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STM Automation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The voice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>customer Knowledge Management %28cKM%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_rejection__c</picklist>
+            <values>
+                <fullName>Included in Monthly%2FQuarterly release</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merged with another idea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No business added value</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not aligned with program objectives</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not aligned with the process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not globally applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not realistic %28technical%2C workload%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred -  Candidate for Innovation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Idea for Salesforce%2Ecom improvement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implemented</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualified for Change Board</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selected by the Change Board</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under implementation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TechnicalComplexity__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09aA00000004Gf9IAE_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific community</description>
+        <label>bFO internal community: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Account%2FContact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CTI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Care process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DigiQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ELLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EasySales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greenberry Commercial Performance BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I2P</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OCM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Panda process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports %26 Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Return %26 Repair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STM Automation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The voice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>customer Knowledge Management %28cKM%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_rejection__c</picklist>
+            <values>
+                <fullName>Included in Monthly%2FQuarterly release</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merged with another idea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No business added value</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not aligned with Enterprise Architecture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not aligned with program objectives</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not aligned with the process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not globally applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not realistic %28technical%2C workload%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred -  Candidate for Innovation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Idea for Salesforce%2Ecom improvement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implemented</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Qualified for Change Board</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selected by the Change Board</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under implementation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TechnicalComplexity__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09aA0000000GqnlIAC_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific community</description>
+        <label>Customer Care: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>DigiQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EasySales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STM Automation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>The voice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>customer Knowledge Management %28cKM%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_rejection__c</picklist>
+            <values>
+                <fullName>Included in Monthly%2FQuarterly release</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merged with another idea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No business added value</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not aligned with program objectives</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not aligned with the process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not globally applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not realistic %28technical%2C workload%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred -  Candidate for Innovation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Idea for Salesforce%2Ecom improvement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implemented</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Qualified for Change Board</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selected by the Change Board</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under implementation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TechnicalComplexity__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>IDEA.TITLE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.BODY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>COMMUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.CREATED_BY_NICKNAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.NUM_COMMENTS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>VOTE.HAS_VOTED</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.CATEGORIES</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.LAST_COMMENT_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>IDEA.TITLE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>COMMUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IDEA.TITLE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>COMMUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.BODY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>COMMUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.NUM_COMMENTS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.CREATED_BY_NICKNAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.CATEGORIES</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IdeaID__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>IDE_VR01_MandatoryReasonForRejection</fullName>
+        <active>true</active>
+        <description>When the Status is Rejectedn the Reason for Rejection field becomes mandatory.</description>
+        <errorConditionFormula>NOT($User.BypassVR__c)
+&amp;&amp; 
+( ISPICKVAL( Status , &apos;Rejected&apos;) || ISPICKVAL( Status , &apos;Closed&apos;) )
+&amp;&amp; 
+ISBLANK( Reason_for_rejection__c)</errorConditionFormula>
+        <errorMessage>Please provide reasons that explain the rejection or the closure of this Idea.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IDE_VR02_DoNotChangeCommunity</fullName>
+        <active>true</active>
+        <description>Prevent user from updating the Community (only bridge Front Office should be selected).
+This VR should be deactivated as soon as the communities will be merged.</description>
+        <errorConditionFormula>NOT($User.BypassVR__c)
+&amp;&amp;  BEGINS(  Community.Name , &quot;XX&quot;)</errorConditionFormula>
+        <errorMessage>Please do not select this Community.
+You can specify the Process this Idea is related to by selecting the Category instead.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IDE_VR03_Technical_Complexity_required</fullName>
+        <active>true</active>
+        <description>BFOS-3689, Technical Complexity should be mandatory field prior to moving to “Qualified for Change Board”</description>
+        <errorConditionFormula>AND(ISPICKVAL( Status , &apos;Qualified for Change Board&apos;), ISBLANK(TEXT( TechnicalComplexity__c )))</errorConditionFormula>
+        <errorMessage>Technical Complexity should be mandatory prior moving the Status to “Qualified for Change Board”</errorMessage>
+    </validationRules>
+</CustomObject>

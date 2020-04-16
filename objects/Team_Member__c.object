@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>Action__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Add additional owners for an action</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Add additional owners for an action</inlineHelpText>
+        <label>Action</label>
+        <referenceTo>Action__c</referenceTo>
+        <relationshipLabel>Additional Owners</relationshipLabel>
+        <relationshipName>Team_Member</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Deployment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used to link team member to different deployment and detail start &amp; end dates</description>
+        <externalId>false</externalId>
+        <label>Deployment</label>
+        <referenceTo>Deployment__c</referenceTo>
+        <relationshipLabel>Team Member</relationshipLabel>
+        <relationshipName>Team_Member</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>EndDate__c</fullName>
+        <description>Used to indicate the end date of the team member for the deployment or the release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter an end date for this team member</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used to link team member to user record and display any useful information such as phone, email and business hours back on the team member object</description>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Team_Member</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <description>Indicates phone number stored on user record</description>
+        <externalId>false</externalId>
+        <formula>Name__r.Phone</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates phone number stored on user record</inlineHelpText>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Release</label>
+        <referenceTo>Project__c</referenceTo>
+        <relationshipLabel>Team Member</relationshipLabel>
+        <relationshipName>Team_Member</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Application Design Architect</fullName>
+                    <default>false</default>
+                    <label>Application Design Architect</label>
+                </value>
+                <value>
+                    <fullName>Business domain expert - CCC</fullName>
+                    <default>false</default>
+                    <label>Business domain expert - CCC</label>
+                </value>
+                <value>
+                    <fullName>Business domain expert - I2P</fullName>
+                    <default>false</default>
+                    <label>Business domain expert - I2P</label>
+                </value>
+                <value>
+                    <fullName>Business domain expert - Sales</fullName>
+                    <default>false</default>
+                    <label>Business domain expert - Sales</label>
+                </value>
+                <value>
+                    <fullName>Business domain expert - Services</fullName>
+                    <default>false</default>
+                    <label>Business domain expert - Services</label>
+                </value>
+                <value>
+                    <fullName>Business Process Owner</fullName>
+                    <default>false</default>
+                    <label>Business Process Owner</label>
+                </value>
+                <value>
+                    <fullName>Business solution Analyst</fullName>
+                    <default>false</default>
+                    <label>Business solution Analyst</label>
+                </value>
+                <value>
+                    <fullName>Champions</fullName>
+                    <default>false</default>
+                    <label>Champions</label>
+                </value>
+                <value>
+                    <fullName>Change Manager / Analyst</fullName>
+                    <default>false</default>
+                    <label>Change Manager / Analyst</label>
+                </value>
+                <value>
+                    <fullName>COE Manager / Contact</fullName>
+                    <default>false</default>
+                    <label>COE Manager / Contact</label>
+                </value>
+                <value>
+                    <fullName>Consulting Engagement Manager</fullName>
+                    <default>false</default>
+                    <label>Consulting Engagement Manager</label>
+                </value>
+                <value>
+                    <fullName>Customer Success Manager</fullName>
+                    <default>false</default>
+                    <label>Customer Success Manager</label>
+                </value>
+                <value>
+                    <fullName>Developer / Configurator</fullName>
+                    <default>false</default>
+                    <label>Developer / Configurator</label>
+                </value>
+                <value>
+                    <fullName>Entity Business Owner</fullName>
+                    <default>false</default>
+                    <label>Entity Business Owner</label>
+                </value>
+                <value>
+                    <fullName>Entity Data Steward</fullName>
+                    <default>false</default>
+                    <label>Entity Data Steward</label>
+                </value>
+                <value>
+                    <fullName>Entity Delegated Administrator</fullName>
+                    <default>false</default>
+                    <label>Entity Delegated Administrator</label>
+                </value>
+                <value>
+                    <fullName>Entity Deployment Manager</fullName>
+                    <default>false</default>
+                    <label>Entity Deployment Manager</label>
+                </value>
+                <value>
+                    <fullName>Entity IT Manager</fullName>
+                    <default>false</default>
+                    <label>Entity IT Manager</label>
+                </value>
+                <value>
+                    <fullName>Global Data Steward</fullName>
+                    <default>false</default>
+                    <label>Global Data Steward</label>
+                </value>
+                <value>
+                    <fullName>Global Deployment Manager</fullName>
+                    <default>false</default>
+                    <label>Global Deployment Manager</label>
+                </value>
+                <value>
+                    <fullName>Global Trainers</fullName>
+                    <default>false</default>
+                    <label>Global Trainers</label>
+                </value>
+                <value>
+                    <fullName>Interface Architect / Developer</fullName>
+                    <default>false</default>
+                    <label>Interface Architect / Developer</label>
+                </value>
+                <value>
+                    <fullName>IPO Region Support</fullName>
+                    <default>false</default>
+                    <label>IPO Region Support</label>
+                </value>
+                <value>
+                    <fullName>Local IPO (connectors)</fullName>
+                    <default>false</default>
+                    <label>Local IPO (connectors)</label>
+                </value>
+                <value>
+                    <fullName>Local Trainers</fullName>
+                    <default>false</default>
+                    <label>Local Trainers</label>
+                </value>
+                <value>
+                    <fullName>Process Advocates</fullName>
+                    <default>false</default>
+                    <label>Process Advocates</label>
+                </value>
+                <value>
+                    <fullName>Project manager</fullName>
+                    <default>false</default>
+                    <label>Project manager</label>
+                </value>
+                <value>
+                    <fullName>Regional Deployment Manager</fullName>
+                    <default>false</default>
+                    <label>Regional Deployment Manager</label>
+                </value>
+                <value>
+                    <fullName>Solution Architect</fullName>
+                    <default>false</default>
+                    <label>Solution Architect</label>
+                </value>
+                <value>
+                    <fullName>Solution Owner</fullName>
+                    <default>false</default>
+                    <label>Solution Owner</label>
+                </value>
+                <value>
+                    <fullName>Sponsor</fullName>
+                    <default>false</default>
+                    <label>Sponsor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StartDate__c</fullName>
+        <description>The start date of the team member</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter the start date for this team member</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Team Member</label>
+    <nameField>
+        <displayFormat>TEAM-{000}</displayFormat>
+        <label>Team Member Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Team Member</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

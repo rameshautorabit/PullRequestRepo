@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>VFP76_NewAccountPlanOverride</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Account_Plan_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Account_Plan_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AccountPlanOwner__c</fields>
+        <fields>KeyAccountType__c</fields>
+        <fields>Account__c</fields>
+        <fields>Status__c</fields>
+        <fields>IsGlobalContract__c</fields>
+        <label>Account Plan Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccountEnvironment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Main external trends impacting account business</inlineHelpText>
+        <label>Account Environment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AccountPlanNamingConvention__c</fullName>
+        <defaultValue>&apos;Year - Account Name - Account Plan (eg. 2018 Exxon HQ Account Plan)&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>Account Plan Naming Convention</label>
+        <length>500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AccountPlanOwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field is created as per the description specified in the defect - 422</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Account Plan Owner must be the Account Owner or a member of the Account Team with Read/Write access to be able to edit the Account Plan</inlineHelpText>
+        <label>Account Plan Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>AccountPlanOwners</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AccountTurnover__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Revenue the Account realized with its own customers during last year period</inlineHelpText>
+        <label>Account Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <description>SR0 - Account targeted by the account plan</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please do not change the defaulted value</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Plans</relationshipLabel>
+        <relationshipName>AccPlan</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>AllBUAggSESales__c</fullName>
+        <description>SR0 - Sum all SE Sales values of Account Plan Potential object</description>
+        <externalId>false</externalId>
+        <formula>TECH_SESalesInNumber__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>All BU Aggregated SE Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AllBUAggregatedDirect__c</fullName>
+        <description>SR0 - Average of Direct Sales percentage for all BU</description>
+        <externalId>false</externalId>
+        <formula>ROUND(IF( TECH_NumberOfPotential__c=0 || ISBLANK( TECH_NumberOfPotential__c),0, TECH_AllPerDirect__c / TECH_NumberOfPotential__c),2)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Average Potential Direct Sales for all Business Units (BU)</inlineHelpText>
+        <label>All BU Aggregated % Direct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>AllBUAggregatedIndirect__c</fullName>
+        <description>SR0 - Average of Indirect Sales percentage for all BU</description>
+        <externalId>false</externalId>
+        <formula>1- AllBUAggregatedDirect__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Average Potential Indirect Sales for all Business Units (BU)</inlineHelpText>
+        <label>All BU Aggregated % Indirect</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>AllBUAggregatedPAM__c</fullName>
+        <description>SR0 - Sum all PAM values of Account Plan Potential object</description>
+        <externalId>false</externalId>
+        <formula>TECH_PAMInNumber__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>All BU Aggregated PAM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AllBUAggregatedShareWallet__c</fullName>
+        <description>SR0 - Sum of SE Sales / Sum of PAM in percentage and for all Business Units</description>
+        <externalId>false</externalId>
+        <formula>IF ( AllBUAggregatedPAM__c=0 || ISBLANK( AllBUAggregatedPAM__c),0,  AllBUAggSESales__c / AllBUAggregatedPAM__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>All BU Aggregated % Share of Wallet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>BusObj1Status__c</fullName>
+        <description>SR0 - Status of Business Objective 1</description>
+        <externalId>false</externalId>
+        <label>Bus. Objective 1 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BusObj1__c</fullName>
+        <description>SR0 - First business objective of the account plan</description>
+        <externalId>false</externalId>
+        <label>Business Objective 1</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BusObj2Status__c</fullName>
+        <description>SR0 - Status of Business Objective 2</description>
+        <externalId>false</externalId>
+        <label>Bus. Objective 2 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BusObj2__c</fullName>
+        <description>SR0 - Second business objective of the account plan</description>
+        <externalId>false</externalId>
+        <label>Business Objective 2</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BusObj3Status__c</fullName>
+        <description>SR0 - Status of Business Objective 3</description>
+        <externalId>false</externalId>
+        <label>Bus. Objective 3 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BusObj3__c</fullName>
+        <description>SR0 - Third business objective of the account plan</description>
+        <externalId>false</externalId>
+        <label>Business Objective 3</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CAPEXPAM__c</fullName>
+        <description>SR0 - CAPEX / PAM</description>
+        <externalId>false</externalId>
+        <formula>if (TotalPAM__c=0 || ISBLANK(TotalPAM__c), 0,TotalCAPEX__c /  TotalPAM__c)</formula>
+        <label>% CAPEX/PAM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>CAPEX__c</fullName>
+        <externalId>false</externalId>
+        <label>CAPEX</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Challenge1__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Demanding situation or objection coming from Account or from SE itself .</inlineHelpText>
+        <label>Challenge 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Challenge2__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Demanding situation or objection coming from Account or from SE itself .</inlineHelpText>
+        <label>Challenge 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Challenge3__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Demanding situation or objection coming from Account or from SE itself .</inlineHelpText>
+        <label>Challenge 3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Challenge4__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Demanding situation or objection coming from Account or from SE itself .</inlineHelpText>
+        <label>Challenge 4</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Challenge5__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Demanding situation or objection coming from Account or from SE itself .</inlineHelpText>
+        <label>Challenge 5</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CorporateGoal__c</fullName>
+        <description>SR0 - Define the SE strategy regarding this account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer&apos;s medium to long term strategy (information from annual reports, company program, vision of the CEO, etc.)</inlineHelpText>
+        <label>Account Business Drivers</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EndDate__c</fullName>
+        <description>February 2013</description>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ExecutiveSponsor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>SR0 - Account Sponsor</description>
+        <externalId>false</externalId>
+        <label>Executive Sponsor</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Account_Plans</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>GeographicalSpread__c</fullName>
+        <externalId>false</externalId>
+        <label>Geographical Spread</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Regional</fullName>
+                    <default>false</default>
+                    <label>Regional</label>
+                </value>
+                <value>
+                    <fullName>National</fullName>
+                    <default>false</default>
+                    <label>National</label>
+                </value>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>false</default>
+                    <label>Global</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GlobalContract__c</fullName>
+        <description>SR0 - Describe contracts specificities</description>
+        <externalId>false</externalId>
+        <label>Global Contract Comments</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HasObjectives__c</fullName>
+        <description>technical field needed for reports.
+return 0 if this account plan doesn&apos;t have any objective, else return1.</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(ISPICKVAL( BusObj1Status__c , &quot;&quot;),ISPICKVAL( BusObj2Status__c , &quot;&quot;),ISPICKVAL( BusObj3Status__c , &quot;&quot;),ISPICKVAL( RelObj1Status__c , &quot;&quot;),ISPICKVAL( RelObj2Status__c , &quot;&quot;),ISPICKVAL( RelObj3Status__c , &quot;&quot;)),0,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Has Objectives</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsGlobalContract__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To define if a Global Contract for this Account exists, you may refer Business Leader or Legal Department of the local Entity (not limited to Global Accounts, you can use this field if contracts signed at Country, Region or at a given Business level only)</inlineHelpText>
+        <label>Is There A Global Contract?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>KeyAccountType__c</fullName>
+        <description>Displays the Key Account Type from the Account associated to the Account Plan</description>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(Account__r.Type), 
+&quot;IA&quot;, &quot;International Account&quot;, 
+&quot;TA&quot;, &quot;BU Targeted&quot;,
+&quot;GSA&quot;,&quot;Global Multi-Site OEM&quot;,
+&quot;SA&quot;,&quot;Strategic Account&quot;,
+&quot;NA&quot;,&quot;Country Targeted&quot;,
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Key Account Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LeadershipPositioning__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Where the account is positioned within its own market</inlineHelpText>
+        <label>Leadership Positioning</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Top 5</fullName>
+                    <default>false</default>
+                    <label>Top 5</label>
+                </value>
+                <value>
+                    <fullName>Top 6 to 10</fullName>
+                    <default>false</default>
+                    <label>Top 6 to 10</label>
+                </value>
+                <value>
+                    <fullName>Below 10</fullName>
+                    <default>false</default>
+                    <label>Below 10</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LinkToDashboardReportPipeline__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to store the link to Dashboard/ Report Pipeline for this account/ private chatter group.</inlineHelpText>
+        <label>Link to Dashboard / Report Pipeline</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>MainChallenges__c</fullName>
+        <description>SR0 - Main challenges to face about this account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer&apos;s short to medium term initiatives (details of account specific actions, investments planned for this period)</inlineHelpText>
+        <label>Account Initiatives &amp; Focus</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>NbrOfCompletedObjectives__c</fullName>
+        <description>technical field neede for reports
+Return the sum of all completed objectives.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BusObj1Status__c , &quot;Completed&quot;), 1, 0) + IF(ISPICKVAL( BusObj2Status__c , &quot;Completed&quot;), 1, 0) + IF(ISPICKVAL( BusObj3Status__c , &quot;Completed&quot;), 1, 0) + IF(ISPICKVAL( RelObj1Status__c , &quot;Completed&quot;), 1, 0) + IF(ISPICKVAL( RelObj2Status__c , &quot;Completed&quot;), 1, 0) + IF(ISPICKVAL( RelObj3Status__c , &quot;Completed&quot;), 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nbr Of Completed Objectives</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NbrOfObjectives__c</fullName>
+        <description>technical field needed for reports
+Return the sum of all objectives.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BusObj1Status__c , &quot;&quot;), 0, 1) + IF(ISPICKVAL( BusObj2Status__c , &quot;&quot;), 0, 1) + IF(ISPICKVAL( BusObj3Status__c , &quot;&quot;), 0, 1) + IF(ISPICKVAL( RelObj1Status__c , &quot;&quot;), 0, 1) + IF(ISPICKVAL( RelObj2Status__c , &quot;&quot;), 0, 1) + IF(ISPICKVAL( RelObj3Status__c , &quot;&quot;), 0, 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nbr Of Objectives</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No1SEActionPlanStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 1 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Yet Started</fullName>
+                    <default>false</default>
+                    <label>Not Yet Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed w/o Success</fullName>
+                    <default>false</default>
+                    <label>Completed w/o Success</label>
+                </value>
+                <value>
+                    <fullName>Completed with Success</fullName>
+                    <default>false</default>
+                    <label>Completed with Success</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>No1SEActionPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 1</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>No2SEActionPlanStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 2 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Yet Started</fullName>
+                    <default>false</default>
+                    <label>Not Yet Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed w/o Success</fullName>
+                    <default>false</default>
+                    <label>Completed w/o Success</label>
+                </value>
+                <value>
+                    <fullName>Completed with Success</fullName>
+                    <default>false</default>
+                    <label>Completed with Success</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>No2SEActionPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 2</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>No3SEActionPlanStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 3 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Yet Started</fullName>
+                    <default>false</default>
+                    <label>Not Yet Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed w/o Success</fullName>
+                    <default>false</default>
+                    <label>Completed w/o Success</label>
+                </value>
+                <value>
+                    <fullName>Completed with Success</fullName>
+                    <default>false</default>
+                    <label>Completed with Success</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>No3SEActionPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 3</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>No4SEActionPlanStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 4 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Yet Started</fullName>
+                    <default>false</default>
+                    <label>Not Yet Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed w/o Success</fullName>
+                    <default>false</default>
+                    <label>Completed w/o Success</label>
+                </value>
+                <value>
+                    <fullName>Completed with Success</fullName>
+                    <default>false</default>
+                    <label>Completed with Success</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>No4SEActionPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 4</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>No5SEActionPlanStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 5 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Yet Started</fullName>
+                    <default>false</default>
+                    <label>Not Yet Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed w/o Success</fullName>
+                    <default>false</default>
+                    <label>Completed w/o Success</label>
+                </value>
+                <value>
+                    <fullName>Completed with Success</fullName>
+                    <default>false</default>
+                    <label>Completed with Success</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>No5SEActionPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Action Plan 5</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Noofemployees__c</fullName>
+        <externalId>false</externalId>
+        <label>No. of employees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OPEX__c</fullName>
+        <externalId>false</externalId>
+        <label>OPEX</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Opportunities__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>External factors - Account favorable factors for SE positioning with this Account (e.g. markets trend, sectors, fashion, seasonality, trends, competition, economics, politics, society, culture, technology, environmental, media, law)</inlineHelpText>
+        <label>Opportunities</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OverviewAccountBusiness__c</fullName>
+        <description>SR0 - Summarize account business</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Introduce all relevant information which will help better understand Account Business (e.g. activities, manufacturing sites, brands, business model, business units, etc.)</inlineHelpText>
+        <label>Generic Account Description</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAMCAPEX__c</fullName>
+        <externalId>false</externalId>
+        <formula>if (TotalCAPEX__c=0 || ISBLANK(TotalCAPEX__c), 0, TotalPAM__c / TotalCAPEX__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>%PAM/CAPEX</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>RelObj1Status__c</fullName>
+        <description>SR0 - Status of Relationship Objective 1</description>
+        <externalId>false</externalId>
+        <label>Rel. Objective 1 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RelObj2Status__c</fullName>
+        <description>SR0 - Status of Relationship Objective 2</description>
+        <externalId>false</externalId>
+        <label>Rel. Objective 2 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RelObj3Status__c</fullName>
+        <description>SR0 - Status of Relationship Objective 3</description>
+        <externalId>false</externalId>
+        <label>Rel. Objective 3 - Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RelationObj1__c</fullName>
+        <description>SR0 - First objective of creating a relationship with this account through an account plan.</description>
+        <externalId>false</externalId>
+        <label>Relationship Objective 1</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RelationObj2__c</fullName>
+        <description>SR0 - Second objective of creating a relationship with this account through an account plan.</description>
+        <externalId>false</externalId>
+        <label>Relationship Objective 2</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RelationObj3__c</fullName>
+        <description>SR0 - Third objective of creating a relationship with this account through an account plan.</description>
+        <externalId>false</externalId>
+        <label>Relationship Objective 3</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RevenueStormLink__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://www.saleswebserver.net/sfdc/RevenueStorm/showRSaccount.asp?ID=&quot; &amp; Account__c &amp; &quot;&amp;SessionID=&quot;&amp; $Api.Session_ID &amp;&quot;&amp;EndPoint=&quot;&amp; $Api.Partner_Server_URL_130 &amp; &quot;&amp;AccountID=&quot;&amp; Account__c &amp; &quot;&amp;ReturnURL=$Label.CL10071&quot; &amp; &quot;/&quot; &amp; Id , IMAGE(&quot;/resource/Revenue_Storm_Logo&quot;, &quot;Revenue Storm&quot;, 63, 87) , &quot;_blank&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Revenue Storm Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SWarning__c</fullName>
+        <externalId>false</externalId>
+        <formula>$Label.CL00709</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;Swot Warning&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ShareWallet__c</fullName>
+        <description>SR0 - Total SE Sales /  Total PAM</description>
+        <externalId>false</externalId>
+        <formula>if (TotalPAM__c=0 || ISBLANK(TotalPAM__c),0,TotalSESales__c  /  TotalPAM__c)</formula>
+        <inlineHelpText>Total SE Sales / Total PAM (in %)</inlineHelpText>
+        <label>% Share of Wallet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>StartDate__c</fullName>
+        <description>February 2013</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Calendar Year that the Plan applies to</inlineHelpText>
+        <label>Start Date</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>SR0 - Account Plan Status</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Submitted to management</fullName>
+                    <default>false</default>
+                    <label>Submitted to management</label>
+                </value>
+                <value>
+                    <fullName>Validated by management</fullName>
+                    <default>false</default>
+                    <label>Validated by management</label>
+                </value>
+                <value>
+                    <fullName>Reviewed with the customer</fullName>
+                    <default>false</default>
+                    <label>Reviewed with the customer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Strengths__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Internal factors - business characteristics which gives SE an advantage over our Competitors with this Account (e.g. products, pricing, costs, profitability, performance, quality, people skills, adaptability, brands, services, reputation, processes, etc.)</inlineHelpText>
+        <label>Strengths</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SuccessStories__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe briefly your key success stories with the customer (application/solution/location/key reason for success)</inlineHelpText>
+        <label>Success Stories</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TECH_AllPerDirect__c</fullName>
+        <description>SR0 - Sum all % of direct sales values of Account Plan Potential object</description>
+        <externalId>false</externalId>
+        <label>TECH_AllPerDirect</label>
+        <summarizedField>SFE_Potential__c.PerDirect__c</summarizedField>
+        <summaryForeignKey>SFE_Potential__c.AccountPlan__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TECH_NumberOfPotential__c</fullName>
+        <description>SR0 - Contains the number of rows in the Potential Related List</description>
+        <externalId>false</externalId>
+        <label>TECH_NumberOfPotential</label>
+        <summaryForeignKey>SFE_Potential__c.AccountPlan__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TECH_PAMInNumber__c</fullName>
+        <description>SR0 - Rollup the PAM amount of Account Plan Potential using fields in Number and not in Currency (we cannot work with currencies when Advanced Currency Management is activated)</description>
+        <externalId>false</externalId>
+        <label>TECH_PAMInNumber</label>
+        <summarizedField>SFE_Potential__c.TECH_PAMInNumber__c</summarizedField>
+        <summaryForeignKey>SFE_Potential__c.AccountPlan__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TECH_SESalesInNumber__c</fullName>
+        <description>SR0 - Rollup the SE Sales amount of Account Plan Potential using fields in Number and not in Currency (we cannot work with currencies when Advanced Currency Management is activated)</description>
+        <externalId>false</externalId>
+        <label>TECH_SESalesInNumber</label>
+        <summarizedField>SFE_Potential__c.TECH_SESalesInNumber__c</summarizedField>
+        <summaryForeignKey>SFE_Potential__c.AccountPlan__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Threats__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>External factors - Account problematic factors which endanger SE positioning with this Account (e.g. markets trend, sectors, fashion, seasonality, trends, competition, economics, politics, society, culture, technology, environmental, media, law)</inlineHelpText>
+        <label>Threats</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TotalCAPEX__c</fullName>
+        <description>SR0 - Manual entered CAPEX for all BU</description>
+        <externalId>false</externalId>
+        <label>Total CAPEX</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TotalPAM__c</fullName>
+        <description>SR0 - Manual entered PAM for all BU</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Represents total of Potential Available Market for the account, where Schneider Electric has potential offers (Products, Services and Solutions)</inlineHelpText>
+        <label>Total PAM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TotalPerDirect__c</fullName>
+        <description>SR0 - Manual entered % of Direct for all BU</description>
+        <externalId>false</externalId>
+        <label>Total % Direct</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TotalPerIndirect__c</fullName>
+        <description>SR0 - 100% minus % Direct</description>
+        <externalId>false</externalId>
+        <formula>IF ( ISBLANK(TotalPerDirect__c),0, 1 - TotalPerDirect__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total % Indirect</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TotalSESales__c</fullName>
+        <description>SR0 - Manual entered SE Sales for all BU</description>
+        <externalId>false</externalId>
+        <label>Total SE Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Warning__c</fullName>
+        <externalId>false</externalId>
+        <formula>$Label.CL00709</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;Warning&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Warnings__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe current hot topics with the customer each manager should know before visiting your customer</inlineHelpText>
+        <label>Warnings</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Weaknesses__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Internal factors - business characteristics which place SE at a disadvantage with this Account (e.g. products, pricing, costs, profitability, performance, quality, people skills, adaptability, brands, services, reputation, processes, etc.)</inlineHelpText>
+        <label>Weaknesses</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>isChallengeRecordsCreated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Field used for April Release Migration purpose only</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please do not add this field to the layout</inlineHelpText>
+        <label>is Challenge Records Created</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Account Plan</label>
+    <listViews>
+        <fullName>All_Channel_ACM_Account_Plans</fullName>
+        <columns>AccountPlanOwner__c</columns>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>ExecutiveSponsor__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Cust Target</value>
+        </filters>
+        <label>All Channel ACM - Account Plans</label>
+        <sharedTo>
+            <role>US_CA</role>
+            <roleAndSubordinatesInternal>US_PWR_CHANNEL_MGMT</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Baltic_account_plans</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountPlanOwner__c</field>
+            <operation>equals</operation>
+            <value>,Tomas Bakanas,Denis Gacicha,Igors Golubjevs,Mindaugas Matusevicius</value>
+        </filters>
+        <label>Baltic account plans</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Channel_ACM_My_Accounts_Targets</fullName>
+        <columns>AccountPlanOwner__c</columns>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>ExecutiveSponsor__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Cust Target</value>
+        </filters>
+        <label>Channel ACM - My Accounts Targets</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>US_PWR_CHANNEL_CAT_SALES_EAST</role>
+            <role>US_PWR_CHANNEL_CAT_SALES_WEST</role>
+            <roleAndSubordinatesInternal>US_PWR_CHANNEL_MGMT</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2017_YTD_September_Sales_Q2C_OEM</fullName>
+        <columns>AccountPlanOwner__c</columns>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>ExecutiveSponsor__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Cust Target</value>
+        </filters>
+        <filters>
+            <field>AccountPlanOwner__c</field>
+            <operation>equals</operation>
+            <value>Bret Caywood</value>
+        </filters>
+        <label>Bret Caywood ACM - Account Plans</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>US_PWR_CHANNEL_CAT_SALES_EAST</role>
+            <role>US_PWR_CHANNEL_CAT_SALES_WEST</role>
+            <roleAndSubordinatesInternal>US_CA</roleAndSubordinatesInternal>
+            <roleAndSubordinatesInternal>US_PWR_CHANNEL_MGMT</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <label>Account Plan Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Account Plans</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ExecutiveSponsor__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ExecutiveSponsor__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Account__c</searchFilterFields>
+        <searchFilterFields>ExecutiveSponsor__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>APL_VR01_CurrencyConsistency</fullName>
+        <active>true</active>
+        <description>SR0 - Make sure selected currency is the same as account currency</description>
+        <errorConditionFormula>NOT( $User.BypassVR__c ) 
+&amp;&amp; 
+TEXT(CurrencyIsoCode) &lt;&gt; TEXT( Account__r.CurrencyIsoCode )</errorConditionFormula>
+        <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+        <errorMessage>Currency should be the same as the one selected at account level.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>APL_VR02_AccountControl</fullName>
+        <active>true</active>
+        <description>July 2011: Ensures that the Account has not been marked for deletion</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; (ISNEW() || ISCHANGED(  Account__c )) &amp;&amp;( Account__r.ToBeDeleted__c = TRUE )</errorConditionFormula>
+        <errorDisplayField>Account__c</errorDisplayField>
+        <errorMessage>This Account has been marked for deletion, please choose another one.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Add_Edit_Initiatives</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Add/Edit Initiatives</masterLabel>
+        <openType>newWindow</openType>
+        <page>VFP_AddEditInitiatives</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>SR0_APL_NewAccPlan</fullName>
+        <availability>online</availability>
+        <description>SR0 - Custom button to create an account plan with currency defaulted from account currency</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Account Plan</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a0S/e?CurrencyIsoCode={!Account.CurrencyIsoCode}&amp;CF00NA000000559Lb={!Account.Name}&amp;CF00NA000000559Lb_lkid={!Account.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SR0_APL_ReportOpenWonOpp</fullName>
+        <availability>online</availability>
+        <description>SR0 - Report to list open or won opportunities for this current fiscal year related to this account</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Report on open or won opportunities (current fiscal year)</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>opp/rptopptprod.jsp?id=00OA0000002hXwk?pv0={!URLENCODE(SFE_AccPlan__c.Account__c)}&amp;isdtp=mn</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SR0_APL_ReportPipelineOpp</fullName>
+        <availability>online</availability>
+        <description>SR0 - Report to list opportunities pipeline related to this account</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Report Pipeline Opportunity</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>opp/rptopptprod.jsp?id=00OA0000003Djbo?pv0={!URLENCODE(SFE_AccPlan__c.Account__c)}&amp;isdtp=mn</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Traningvideos_Account_Plan</fullName>
+        <availability>online</availability>
+        <description>A link to the video training on the &quot;How To?&quot; library</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Traning Videos: Account Plan</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://schneider-electric.app.box.com/folder/30392120705</url>
+    </webLinks>
+</CustomObject>

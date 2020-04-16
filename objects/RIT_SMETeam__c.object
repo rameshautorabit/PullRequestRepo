@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <comment>Overridden for December Release.</comment>
+        <content>VFP65_NewEditSMETeamMember</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <comment>Overridden for December Release.</comment>
+        <content>VFP65_NewEditSMETeamMember</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>SMETeamMemberFeedback</fullName>
+        <description>VFP65_NewEditSMETeamMember</description>
+        <displayedFields>
+            <field>SMERecommendationStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SMEFeedback__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SME Team Member Feedback</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>SMETeamMemberInfo</fullName>
+        <description>In VFP65_NewEditSMETeamMember</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>QuoteLink__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TeamMember__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MemberRole__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MemberActivated__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SME Team Member Info</label>
+    </fieldSets>
+    <fields>
+        <fullName>DetailedComments__c</fullName>
+        <description>SR0 - Field to store the Detailed Comment related to the role associated to the SME Team Member</description>
+        <externalId>false</externalId>
+        <label>Detailed Comments</label>
+        <length>32000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>MemberActivated__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>SR0 - Checkbox indicating if the SME Team member is activated or not</description>
+        <externalId>false</externalId>
+        <label>Member Activated</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MemberRole__c</fullName>
+        <description>SR0 - Role associated to the SME</description>
+        <externalId>false</externalId>
+        <label>Member Role</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BU Contributor</fullName>
+                    <default>false</default>
+                    <label>BU Contributor</label>
+                </value>
+                <value>
+                    <fullName>Controlling</fullName>
+                    <default>false</default>
+                    <label>Controlling</label>
+                </value>
+                <value>
+                    <fullName>Execution</fullName>
+                    <default>false</default>
+                    <label>Execution</label>
+                </value>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                    <label>Finance</label>
+                </value>
+                <value>
+                    <fullName>Legal</fullName>
+                    <default>false</default>
+                    <label>Legal</label>
+                </value>
+                <value>
+                    <fullName>Purchases</fullName>
+                    <default>false</default>
+                    <label>Purchases</label>
+                </value>
+                <value>
+                    <fullName>Risk Management Team</fullName>
+                    <default>false</default>
+                    <label>Risk Management Team</label>
+                </value>
+                <value>
+                    <fullName>Solution Architect</fullName>
+                    <default>false</default>
+                    <label>Solution Architect</label>
+                </value>
+                <value>
+                    <fullName>Tax</fullName>
+                    <default>false</default>
+                    <label>Tax</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuoteLink__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Link</label>
+        <referenceTo>OPP_QuoteLink__c</referenceTo>
+        <relationshipName>SMETeams</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SMEBU__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(TeamMember__r.UserBusinessUnit__c), 
+&apos;BD&apos;,&apos;EcoBuildings&apos;, 
+&apos;BI&apos;,&apos;Building &amp; IT&apos;, 
+&apos;CMO&apos;,&apos;Global Marketing&apos;, 
+&apos;COP&apos;,&apos;China Operations&apos;, 
+&apos;EN&apos;,&apos;Energy&apos;, 
+&apos;FIN&apos;,&apos;Finance &amp; Control&apos;, 
+&apos;FLS&apos;,&apos;Field Services&apos;, 
+&apos;GC&apos;,&apos;Cloud Services&apos;, 
+&apos;GHR&apos;,&apos;Global Human Resource&apos;, 
+&apos;GMA&apos;,&apos;Corporate General Management&apos;, 
+&apos;GOP&apos;,&apos;Global Operations&apos;, 
+&apos;GS&apos;,&apos;Global Solutions&apos;, 
+&apos;GSC&apos;,&apos;Global Supply Chain&apos;, 
+&apos;GW&apos;,&apos;Software&apos;, 
+&apos;IA&apos;,&apos;Process Automation&apos;, 
+&apos;IB&apos;,&apos;Industry OEM-BIC&apos;, 
+&apos;ID&apos;,&apos;Industry&apos;, 
+&apos;IPO&apos;,&apos;Information, Process and Organization&apos;, 
+&apos;IT&apos;,&apos;IT&apos;, 
+&apos;NOP&apos;,&apos;North America Operations&apos;, 
+&apos;PP&apos;,&apos;Partner Projects&apos;, 
+&apos;PR&apos;,&apos;Retail&apos;, 
+&apos;PS&apos;,&apos;Energy and Sustainability&apos;, 
+&apos;SAI&apos;,&apos;Strategy &amp; Technology&apos;, 
+&apos;SCS&apos;,&apos;Strategic Customers and Segments&apos;, 
+&apos;SO&apos;,&apos;Solar&apos;,&apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SME Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMEFeedback__c</fullName>
+        <description>DECEMBER RELEASE - This Custom field stores overall comments.</description>
+        <externalId>false</externalId>
+        <label>SME Feedback</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SMERecommendationStatusFormula__c</fullName>
+        <description>DECEMBER RELEASE - This field is to display the SME Recommendation Status with image.</description>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(SMERecommendationStatus__c,  &apos;Not yet reviewed&apos; ) , IMAGE(&quot;/resource/STR031_SMERecomNotYetRev&quot;,&quot;Not yet reviewed&quot;,20,170), IF( ISPICKVAL(SMERecommendationStatus__c, &quot;Favorable&quot;), IMAGE(&quot;/resource/STR032_SMERecomFav&quot;,&quot;Favorable&quot;,20,170 ),IF(ISPICKVAL(SMERecommendationStatus__c, &quot;Unfavorable&quot;), IMAGE(&quot;/resource/STR033_SMERecomUnfav&quot;,&quot;Unfavorable&quot; ,20,170),IF(ISPICKVAL(SMERecommendationStatus__c, &quot;Risk needing attention&quot;), IMAGE(&quot;/resource/STR034_SMERecomRskNeedAttn&quot;,&quot;Risk needing attention&quot;,20,170 ),&apos; &apos;))))</formula>
+        <label>SME Recommendation Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMERecommendationStatus__c</fullName>
+        <description>DECEMBER RELEASE - This custom field is to display the SME Recommendation Status.</description>
+        <externalId>false</externalId>
+        <label>SME Recommendation Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not yet reviewed</fullName>
+                    <default>true</default>
+                    <label>Not yet reviewed</label>
+                </value>
+                <value>
+                    <fullName>Favorable</fullName>
+                    <default>false</default>
+                    <label>Favorable</label>
+                </value>
+                <value>
+                    <fullName>Unfavorable</fullName>
+                    <default>false</default>
+                    <label>Unfavorable</label>
+                </value>
+                <value>
+                    <fullName>Risk needing attention</fullName>
+                    <default>false</default>
+                    <label>Risk needing attention</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_UniqueKey__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>false</externalId>
+        <label>TECH_UniqueKey</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>TeamMember__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Team Member</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>SMETeamsMember</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>SME Team Member</label>
+    <nameField>
+        <displayFormat>{0000}</displayFormat>
+        <label>SME Comment ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>SME Team Members</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

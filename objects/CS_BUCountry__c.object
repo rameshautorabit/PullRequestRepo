@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>BatchType__c</fullName>
+        <externalId>false</externalId>
+        <label>BatchType</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BusinessUnit__c</fullName>
+        <externalId>false</externalId>
+        <label>BusinessUnit</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CountryCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Country Code</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OppToCreateforEOW__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>IP.Service Business Value is LOW and this is true , do not create opp for this.</description>
+        <externalId>false</externalId>
+        <label>OppToCreateforEoWLoWsbv</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opp_Probability__c</fullName>
+        <description>BFOFS - 1338</description>
+        <externalId>false</externalId>
+        <label>Opp Probability</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Renewal_Opp_Triggered__c</fullName>
+        <description>This is used as part of BFOFS-1340</description>
+        <externalId>false</externalId>
+        <label>Renewal Opp Triggered</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SentToCPQ__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SentToCPQ</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>CS_BUCountry</label>
+    <listViews>
+        <fullName>CPQ_view</fullName>
+        <columns>NAME</columns>
+        <columns>BusinessUnit__c</columns>
+        <columns>CountryCode__c</columns>
+        <columns>SentToCPQ__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>CPQ view</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

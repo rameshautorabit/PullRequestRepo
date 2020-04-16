@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>used to caliculate mean time to service</description>
+    <eventType>HighVolume</eventType>
+    <fields>
+        <fullName>workOrderID__c</fullName>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>workOrderID</label>
+        <length>18</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>MTTSCalcEvent</label>
+    <pluralLabel>MTTSCalcEvents</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
+</CustomObject>

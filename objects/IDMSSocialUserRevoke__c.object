@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Stroring the social provider details to be used in the apex classes</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>SsoProviderId__c</fullName>
+        <externalId>false</externalId>
+        <label>SsoProviderId</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SsoProviderName__c</fullName>
+        <externalId>false</externalId>
+        <label>SsoProviderName</label>
+        <length>16</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>isTrusted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>isTrusted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>IDMSSocialUserRevoke</label>
+    <listViews>
+        <fullName>IDMS_View</fullName>
+        <columns>NAME</columns>
+        <columns>isTrusted__c</columns>
+        <columns>SsoProviderId__c</columns>
+        <columns>SsoProviderName__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>IDMS View</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>BackOfficeSystem__c</fullName>
+        <description>it is used to populate Backoffice System on Work Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>it is used to populate Backoffice System on Work Order</inlineHelpText>
+        <label>Back Office System</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>CountryOfBackOffice__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>IBS_SAP</fullName>
+                    <default>false</default>
+                    <label>IBS_SAP</label>
+                </value>
+                <value>
+                    <fullName>ITB_SB</fullName>
+                    <default>false</default>
+                    <label>ITB_SB</label>
+                </value>
+                <value>
+                    <fullName>ITB_ORA</fullName>
+                    <default>false</default>
+                    <label>ITB_ORA</label>
+                </value>
+                <value>
+                    <fullName>BBO_AM</fullName>
+                    <default>false</default>
+                    <label>BBO_AM</label>
+                </value>
+                <value>
+                    <fullName>BBO_AP</fullName>
+                    <default>false</default>
+                    <label>BBO_AP</label>
+                </value>
+                <value>
+                    <fullName>BBO_EU</fullName>
+                    <default>false</default>
+                    <label>BBO_EU</label>
+                </value>
+                <value>
+                    <fullName>ES_SAP</fullName>
+                    <default>false</default>
+                    <label>ES_SAP</label>
+                </value>
+                <value>
+                    <fullName>CA_SAP</fullName>
+                    <default>false</default>
+                    <label>CA_SAP</label>
+                </value>
+                <value>
+                    <fullName>SDS/AS400</fullName>
+                    <default>false</default>
+                    <label>SDS/AS400</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>RU</controllingFieldValue>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>BBO_EU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>AU</controllingFieldValue>
+                <controllingFieldValue>IN</controllingFieldValue>
+                <controllingFieldValue>NZ</controllingFieldValue>
+                <valueName>BBO_AP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PT</controllingFieldValue>
+                <controllingFieldValue>ES</controllingFieldValue>
+                <valueName>IBS_SAP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>CA_SAP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Global</controllingFieldValue>
+                <valueName>ITB_ORA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mexico</controllingFieldValue>
+                <valueName>SDS/AS400</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>BBO_AM</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BillToAccount__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Bill To Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Impacted Installed Products (Bill To Account)</relationshipLabel>
+        <relationshipName>Impacted_Installed_Products1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Containment_Action__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Retrieves the Installed Product’s Location.</description>
+        <externalId>false</externalId>
+        <label>Containment Action</label>
+        <referenceTo>ContainmentAction__c</referenceTo>
+        <relationshipLabel>Impacted Installed Products</relationshipLabel>
+        <relationshipName>Impacted_Installed_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CountryOfBackOffice__c</fullName>
+        <description>it is used to populate CountryOfBackOffice on Work Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>it is used to populate CountryOfBackOffice on Work Order</inlineHelpText>
+        <label>Country of Back Office</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AU</fullName>
+                    <default>false</default>
+                    <label>AU</label>
+                </value>
+                <value>
+                    <fullName>CA</fullName>
+                    <default>false</default>
+                    <label>CA</label>
+                </value>
+                <value>
+                    <fullName>FR</fullName>
+                    <default>false</default>
+                    <label>FR</label>
+                </value>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>false</default>
+                    <label>Global</label>
+                </value>
+                <value>
+                    <fullName>IN</fullName>
+                    <default>false</default>
+                    <label>IN</label>
+                </value>
+                <value>
+                    <fullName>Mexico</fullName>
+                    <default>false</default>
+                    <label>Mexico</label>
+                </value>
+                <value>
+                    <fullName>NZ</fullName>
+                    <default>false</default>
+                    <label>NZ</label>
+                </value>
+                <value>
+                    <fullName>PT</fullName>
+                    <default>false</default>
+                    <label>PT</label>
+                </value>
+                <value>
+                    <fullName>RU</fullName>
+                    <default>false</default>
+                    <label>RU</label>
+                </value>
+                <value>
+                    <fullName>ES</fullName>
+                    <default>false</default>
+                    <label>ES</label>
+                </value>
+                <value>
+                    <fullName>UK</fullName>
+                    <default>false</default>
+                    <label>UK</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Location__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.SVMXC__Site__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Requested_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Requested Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FSB_Severity__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(FieldServiceBulletin__r.Severity__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FSB Severity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldServiceBulletin__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Field Service Bulletin</label>
+        <referenceTo>FieldServiceBulletin__c</referenceTo>
+        <relationshipLabel>Impacted Installed Products</relationshipLabel>
+        <relationshipName>Impacted_Installed_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IP_Serial_N__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.SVMXC__Serial_Lot_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IP Serial N°</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Installed_Product__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Installed Product</label>
+        <referenceTo>SVMXC__Installed_Product__c</referenceTo>
+        <relationshipLabel>Impacted Installed Products</relationshipLabel>
+        <relationshipName>Impacted_Installed_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Installed_at_Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.SVMXC__Company__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Installed at Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Installed_at_Accounts__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Installed at Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Impacted Installed Products</relationshipLabel>
+        <relationshipName>Impacted_Installed_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Local_Execution_N__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Local Execution N°</label>
+        <referenceTo>LocalizedFSB__c</referenceTo>
+        <relationshipLabel>Impacted Installed Products</relationshipLabel>
+        <relationshipName>Impacted_Installed_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Organization__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Containment_Action__c &lt;&gt; &apos;&apos;, 
+     Containment_Action__r.AccountableOrganization__r.Name,
+     Local_Execution_N__r.AccountableOrganization__r.Name
+  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Organization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SoldToAccount__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sold To Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Impacted Installed Products (Sold To Account)</relationshipLabel>
+        <relationshipName>Impacted_Installed_Products2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TECH_OneWOPerAccount__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TECH_OneWOPerAccount</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VIP__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (
+ ISPICKVAL(Installed_Product__r.SVMXC__Company__r.Account_VIPFlag__c, &apos;VIP1&apos;),
+ Installed_Product__r.VIPIcon__c, &apos;&apos;
+ )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;VIP&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WO_Customer_Requested_Scheduled_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Work_Order__r.SVMXC__Scheduled_Date__c), 
+Work_Order__r.CustomerRequestedDate__c,
+Work_Order__r.SVMXC__Scheduled_Date__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>WO Customer Requested/Scheduled Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>WO_Status_Grouping__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Work_Order__r.SVMXC__Order_Status__c,
+&quot;New&quot;, &quot;1- Unscheduled&quot;,
+&quot;Unscheduled&quot;, &quot;1- Unscheduled&quot;,
+&quot;Scheduled&quot;, &quot;2- Scheduled&quot;,
+&quot;Customer Confirmed&quot;, &quot;2- Scheduled&quot;,
+&quot;Acknowledge FSE&quot;, &quot;2- Scheduled&quot;,
+&quot;WIP&quot;, &quot;3- In Progress&quot;,
+&quot;Service Delivered&quot;, &quot;3- In Progress&quot;,
+&quot;Service Complete&quot;, &quot;4- Completed&quot;,
+&quot;Service Validated&quot;, &quot;4- Completed&quot;,
+&quot;Closed&quot;, &quot;4- Completed&quot;,
+&quot;Cancelled&quot;, &quot;99- Cancelled&quot;,
+&quot;0- Not Created&quot;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>WO Status Grouping</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_Order_Status_Grouping__c</fullName>
+        <externalId>false</externalId>
+        <label>Work Order Status Grouping</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>4- Completed</label>
+                </value>
+                <value>
+                    <fullName>Not Created</fullName>
+                    <default>true</default>
+                    <label>0- Not Created</label>
+                </value>
+                <value>
+                    <fullName>Unscheduled</fullName>
+                    <default>false</default>
+                    <label>1- Unscheduled</label>
+                </value>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>2- Scheduled</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>3- In Progress</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>99- Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Work_Order_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Work_Order__r.SVMXC__Order_Status__c,
+&quot;New&quot;,&quot;1- New&quot;,
+&quot;Unscheduled&quot;,&quot;2- Unscheduled&quot;,
+&quot;Scheduled&quot;,&quot;3- Scheduled&quot;,
+&quot;Customer Confirmed&quot;,&quot;4- Customer Confirmed&quot;,
+&quot;Acknowledge FSE&quot;, &quot;5- Acknowledge FSR&quot;,
+&quot;WIP&quot;,&quot;6- WIP&quot;,
+&quot;Service Delivered&quot;,&quot;7- Service Delivered&quot;,
+&quot;Service Complete&quot;,&quot;8- Service Completed&quot;,
+&quot;Service Validated&quot;,&quot;9- Service Validated&quot;,
+&quot;Closed&quot;,&quot;10- Closed&quot;,
+&quot;Cancelled&quot;, &quot;0- Cancelled&quot;,
+&quot;Completed&quot;,&quot;Completed&quot;,
+&apos;&apos;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Work Order Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <referenceTo>SVMXC__Service_Order__c</referenceTo>
+        <relationshipLabel>Impacted Installed Products</relationshipLabel>
+        <relationshipName>Impacted_Installed_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Impacted Installed Product</label>
+    <nameField>
+        <displayFormat>IIP-{000000}</displayFormat>
+        <label>Impacted Installed Product N°</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Impacted Installed Products</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>IIP_VR_R62017_CA_LE_CannotSelect</fullName>
+        <active>true</active>
+        <description>For a IIP, user can not select both CA and LE values.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),
+ Containment_Action__c  &lt;&gt; null, 
+ Local_Execution_N__c  &lt;&gt; null
+)</errorConditionFormula>
+        <errorMessage>Please enter either a Containment Action or a Local Execution number, cannot select both.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IIP_VR_R62017_CONTAINMENTORLOCALEXEC</fullName>
+        <active>true</active>
+        <description>If Containment Action &amp; Local Execution Lookups are both Blank.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),
+ISBLANK(Containment_Action__c), 
+ISBLANK(Local_Execution_N__c)
+)</errorConditionFormula>
+        <errorMessage>Please enter either a Containment Action or a Local Execution number.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IIP_VR_R62017_HIGHSEVERITY</fullName>
+        <active>true</active>
+        <description>If the FSB Severity is &quot;Significant/High&quot; or &quot;Safety Related&quot; &amp; Customer Requested Date is Blank.</description>
+        <errorConditionFormula>AND (NOT($User.BypassVR__c),
+OR(ISPICKVAL(FieldServiceBulletin__r.Severity__c, &apos;Significant / High&apos;) , ISPICKVAL(FieldServiceBulletin__r.Severity__c, 
+&apos;Safety related&apos;)), 
+ISNULL(Customer_Requested_Date__c)
+)</errorConditionFormula>
+        <errorMessage>The Customer Requested Date is mandatory for records related to an FSB with severity &quot;Significant/High&quot; or &quot;Safety Related&quot;.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Mass_Import</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Import</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP_ImpactedIPsCreateRedirect</page>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Impacted_Installed_Product</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>New Impacted Installed Product</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP_SearchIPRedirect</page>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>To prevent images being added in Rich Text Fields</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Fields__c</fullName>
+        <description>Contains the fields to be validated</description>
+        <externalId>false</externalId>
+        <label>Fields</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ObjectAPIName__c</fullName>
+        <externalId>false</externalId>
+        <label>Object Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pattern__c</fullName>
+        <description>The Pattern to be matched against the fields</description>
+        <externalId>false</externalId>
+        <label>Pattern</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PRM Rich Text Fields Map</label>
+    <visibility>Public</visibility>
+</CustomObject>

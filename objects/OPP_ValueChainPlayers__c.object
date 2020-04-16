@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccountClassificationLevel1__c</fullName>
+        <description>Account Classification Level 1</description>
+        <externalId>false</externalId>
+        <formula>TEXT( Account__r.ClassLevel1__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Classification Level 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountName2__c</fullName>
+        <description>SR0 - This field is automatically filled with the Local Name of the Account.</description>
+        <externalId>false</externalId>
+        <formula>Account__r.AccountLocalName__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Name 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountName__c</fullName>
+        <description>SR0 - This field is used to update the Account field when a user only selects a contact in the Value Chain Player definition.</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK( Contact__c )), Contact__r.Account.Name , Account__r.Name)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountRelatedTo__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Related To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Value_Chain_Players_1</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AccountRole__c</fullName>
+        <description>SR0</description>
+        <externalId>false</externalId>
+        <label>Account Role</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Agent</fullName>
+                    <default>false</default>
+                    <label>Agent</label>
+                </value>
+                <value>
+                    <fullName>Architect</fullName>
+                    <default>false</default>
+                    <label>Architect</label>
+                </value>
+                <value>
+                    <fullName>Consultant</fullName>
+                    <default>false</default>
+                    <label>Consultant</label>
+                </value>
+                <value>
+                    <fullName>Delegated as Primary</fullName>
+                    <default>false</default>
+                    <label>Delegated as Primary</label>
+                </value>
+                <value>
+                    <fullName>Distributors / Resellers</fullName>
+                    <default>false</default>
+                    <label>Distributors / Resellers</label>
+                </value>
+                <value>
+                    <fullName>Electrical Contractor</fullName>
+                    <default>false</default>
+                    <label>Electrical Contractor</label>
+                </value>
+                <value>
+                    <fullName>EPC</fullName>
+                    <default>false</default>
+                    <label>EPC</label>
+                </value>
+                <value>
+                    <fullName>Fulfillment Channel</fullName>
+                    <default>false</default>
+                    <label>Fulfillment Channel</label>
+                </value>
+                <value>
+                    <fullName>General Contractor</fullName>
+                    <default>false</default>
+                    <label>General Contractor</label>
+                </value>
+                <value>
+                    <fullName>Lead Finder</fullName>
+                    <default>false</default>
+                    <label>Lead Finder</label>
+                </value>
+                <value>
+                    <fullName>Mechanical Contractor</fullName>
+                    <default>false</default>
+                    <label>Mechanical Contractor</label>
+                </value>
+                <value>
+                    <fullName>OEM</fullName>
+                    <default>false</default>
+                    <label>OEM</label>
+                </value>
+                <value>
+                    <fullName>Panel Builders</fullName>
+                    <default>false</default>
+                    <label>Panel Builders</label>
+                </value>
+                <value>
+                    <fullName>Specifier</fullName>
+                    <default>false</default>
+                    <label>Specifier</label>
+                </value>
+                <value>
+                    <fullName>Subcontractor</fullName>
+                    <default>false</default>
+                    <label>Subcontractor</label>
+                </value>
+                <value>
+                    <fullName>System Integrator</fullName>
+                    <default>false</default>
+                    <label>System Integrator</label>
+                </value>
+                <value>
+                    <fullName>Vendor</fullName>
+                    <default>false</default>
+                    <label>Vendor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AccountSite__c</fullName>
+        <description>SR0 - This field is automatically populated with the Site of the Account</description>
+        <externalId>false</externalId>
+        <formula>Account__r.Site</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Site</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>SR0</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Opportunities as Value Chain Player</relationshipLabel>
+        <relationshipName>Value_Chain_Players</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactRole__c</fullName>
+        <description>SR0</description>
+        <externalId>false</externalId>
+        <label>Contact Role</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>VCP Executive</fullName>
+                    <default>false</default>
+                    <label>VCP Executive</label>
+                </value>
+                <value>
+                    <fullName>VCP Financial Influencer</fullName>
+                    <default>false</default>
+                    <label>VCP Financial Influencer</label>
+                </value>
+                <value>
+                    <fullName>VCP Technical Influencer</fullName>
+                    <default>false</default>
+                    <label>VCP Technical Influencer</label>
+                </value>
+                <value>
+                    <fullName>Primary Customer Contact</fullName>
+                    <default>false</default>
+                    <label>Primary Customer Contact (PRM)</label>
+                </value>
+                <value>
+                    <fullName>Primary Partner Contact</fullName>
+                    <default>false</default>
+                    <label>Primary Partner Contact (PRM)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>SR0</description>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+            <filterItems>
+                <field>$Source.Account__c</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>Contact.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.Account__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Account__c</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>Contact.LastName</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Value_Chain_Players</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <description>SR0 - This field is automatically populated with the account country.</description>
+        <externalId>false</externalId>
+        <formula>Account__r.Country__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact__r.Email</formula>
+        <label>Contact Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KeyAccountType__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(Account__r.Type),&apos;NA&apos;, &apos;Country Targeted&apos;, &apos;OSA&apos;, &apos;OEM Strategic Account&apos;, &apos;SA&apos;, &apos;Strategic Account&apos;,&apos;TA&apos;, &apos;BU Targeted&apos;,&apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Key Account Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LeadingPartner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>APRIL RELEASE - Identify that the VCP is a leading partner</description>
+        <externalId>false</externalId>
+        <label>Leading Partner</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NumberofOpportunityLinesAssociated__c</fullName>
+        <description>Check if Opportunity Lines have been associated to VCP - ASCO project - 2019 April release</description>
+        <externalId>false</externalId>
+        <label>Number of Opportunity Lines Associated</label>
+        <summaryForeignKey>VCPOpportunityLineLink__c.ValueChainPlayer__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OpportunityLinesAssociated__c</fullName>
+        <description>Check if Opportunity Lines have been associated to VCP - ASCO project - 2019 April release</description>
+        <externalId>false</externalId>
+        <formula>IF(NumberofOpportunityLinesAssociated__c &gt; 0, TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Lines</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OpportunityName__c</fullName>
+        <description>SR0</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please do not change the defaulted value</inlineHelpText>
+        <label>Opportunity Name</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Value Chain Players</relationshipLabel>
+        <relationshipName>Value_Chain_Players</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>OpportunityPlayerswithLines__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://&quot; 
+&amp; RIGHT(LEFT($Api.Partner_Server_URL_90,FIND(&quot;.&quot;,$Api.Partner_Server_URL_90)-1),LEN(LEFT($Api.Partner_Server_URL_90,FIND(&quot;.&quot;,$Api.Partner_Server_URL_90)-1))-LEN(&quot;https://&quot;)) 
+
+&amp;&quot;.salesforce.com/00OA0000005b9yc?pv0=&quot; 
+
+&amp; OpportunityName__r.Id, 
+
+&quot;Click here to display the report&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Players with Lines</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ParentValueChainPlayer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Value Chain Player</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Please select Parent Value chain player belongs to same opportunity.</errorMessage>
+            <filterItems>
+                <field>OPP_ValueChainPlayers__c.OpportunityName__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.OpportunityName__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>notEqual</operation>
+                <valueField>OPP_ValueChainPlayers__c.Id</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>OPP_ValueChainPlayers__c</referenceTo>
+        <relationshipLabel>Related Value Chain Players</relationshipLabel>
+        <relationshipName>ValueChainPlayers</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PhoneNumber__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact__r.WorkPhone__c</formula>
+        <label>Contact Phone Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PotentialforthisVCP__c</fullName>
+        <description>report showing the amount of Opportunities for this Account where this account is Value chain on the Oppty</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://&quot;
+&amp; RIGHT(LEFT($Api.Partner_Server_URL_90,FIND(&quot;.&quot;,$Api.Partner_Server_URL_90)-1),LEN(LEFT($Api.Partner_Server_URL_90,FIND(&quot;.&quot;,$Api.Partner_Server_URL_90)-1))-LEN(&quot;https://&quot;))
+
+&amp;&quot;.salesforce.com/00OA0000005b9yd?pv0=&quot; 
+
+&amp; Account__r.Id, 
+
+&quot;Click here to display the report&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Potential for this VCP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RelatedValueChainPlayerAccount__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK( ParentValueChainPlayer__r.Account__c, ParentValueChainPlayer__r.Account__r.Name,&quot;_self&quot;)</formula>
+        <label>Related Value Chain Player Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Segment__c</fullName>
+        <description>SR0 - This field is automatically filled with the Market Segment of the Account</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Account__r.MarketSegment__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SuccessRateForThisVCAccount__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://&quot; 
+&amp; RIGHT(LEFT($Api.Partner_Server_URL_90,FIND(&quot;.&quot;,$Api.Partner_Server_URL_90)-1),LEN(LEFT($Api.Partner_Server_URL_90,FIND(&quot;.&quot;,$Api.Partner_Server_URL_90)-1))-LEN(&quot;https://&quot;)) 
+
+&amp;&quot;.salesforce.com/00OA0000005bobW?pv0=&quot; 
+
+&amp; Account__r.Id, 
+
+&quot;Click here to display the report&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Success rate for this VC Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_OpportunityAmount__c</fullName>
+        <externalId>false</externalId>
+        <formula>OpportunityName__r.Amount</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TECH_OpportunityCloseDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>OpportunityName__r.CloseDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Close Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TECH_OpportunityStage__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(OpportunityName__r.StageName, 
+&quot;1 - Understand Business Context&quot;, &quot;1 - Understand Business Context&quot;, 
+&quot;2 - Define Opportunity Portfolio&quot;, &quot;2 - Identify Customer Strategic Initiatives&quot;, 
+&quot;3 - Identify &amp; Qualify&quot;, &quot;3 - Qualify Opportunity&quot;, 
+&quot;4 - Influence &amp; Develop&quot;, &quot;4 - Influence and Develop&quot;, 
+&quot;5 - Prepare &amp; Bid&quot;, &quot;5 - Prepare &amp; Bid&quot;, 
+&quot;6 - Negotiate &amp; Win&quot;, &quot;6 - Negotiate to Win&quot;, 
+&quot;7 - Deliver &amp; Validate&quot;, &quot;7 - Deliver &amp; Validate&quot;, 
+&quot;0 - Closed&quot;,&quot;0 - Closed&quot;, 
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_VCPIdSinkToSEA__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>TECH_VCPIdSinkToSEA</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_VCPSinkToSEA__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Send VCP info to SEA</description>
+        <externalId>false</externalId>
+        <label>TECH_VCPSinkTo_SEA</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TECH_ValueChainPlayer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+(TEXT(ContactRole__c) = &apos;Primary Customer Contact&apos; || TEXT(ContactRole__c) = &apos;Primary Partner Contact&apos;), 
+IF(TEXT(ContactRole__c) = &apos;Primary Customer Contact&apos;,&apos;Primary Customer Contact:&apos;,&apos;Primary Partner Contact:&apos;) &amp; BR() &amp;
+IF(NOT(ISBLANK( Contact__r.FirstName &amp; Contact__r.LastName )), &apos;Contact Name: &apos; &amp; Contact__r.FirstName &amp; &apos; &apos; &amp; Contact__r.LastName &amp; &apos;, &apos;, &apos;&apos;) &amp; 
+IF(NOT(ISBLANK( Contact__r.WorkPhone__c)), &apos; Contact Phone: &apos; &amp; Contact__r.WorkPhone__c &amp; &apos;, &apos;, &apos;&apos;) &amp; 
+IF(NOT(ISBLANK( Contact__r.Email )), &apos; Contact Email: &apos; &amp; Contact__r.Email &amp; &apos;, &apos;, &apos;&apos;) &amp; 
+IF(NOT(ISBLANK( Contact__r.Street__c+Contact__r.City__c+Contact__r.POBoxZip__c+Contact__r.StateProv__r.Name )),&apos; Contact Address:&apos; &amp; Contact__r.Street__c &amp; &apos; &apos; &amp; Contact__r.City__c &amp; &apos; &apos; &amp;
+Contact__r.POBoxZip__c &amp; &apos; &apos; &amp; Contact__r.StateProv__r.Name &amp; &apos; &apos; &amp; Contact__r.Country__r.Name &amp; &apos;, &apos;, &apos;&apos;) &amp;
+IF(NOT(ISBLANK( Account__r.Name )), &apos; Account Name: &apos; &amp; Account__r.Name, &apos;&apos;)
+, &apos;&apos;) &amp;
+IF(
+TEXT(AccountRole__c) = &apos;Distributors / Resellers&apos;, 
+&apos;Distributors / Resellers: &apos; &amp; BR() &amp; 
+IF(NOT(ISBLANK( Account__r.Name )), &apos; Account Name: &apos; &amp; Account__r.Name &amp; &apos;, &apos;, &apos;&apos;) &amp;
+IF(NOT(ISBLANK( Contact__r.FirstName &amp; Contact__r.LastName )), &apos;Contact Name: &apos; &amp; Contact__r.FirstName &amp; &apos; &apos; &amp; Contact__r.LastName &amp; &apos;, &apos;, &apos;&apos;) &amp; 
+IF(NOT(ISBLANK( Contact__r.WorkPhone__c)), &apos; Contact Phone: &apos; &amp; Contact__r.WorkPhone__c &amp; &apos;, &apos;, &apos;&apos;) &amp; 
+IF(NOT(ISBLANK( Contact__r.Email )), &apos; Contact Email: &apos; &amp; Contact__r.Email &amp; &apos;, &apos;, &apos;&apos;) &amp; 
+IF(NOT(ISBLANK( Contact__r.Street__c+Contact__r.City__c+Contact__r.POBoxZip__c+Contact__r.StateProv__r.Name )),&apos; Contact Address:&apos; &amp; Contact__r.Street__c &amp; &apos; &apos; &amp; Contact__r.City__c &amp; &apos; &apos; &amp;
+Contact__r.POBoxZip__c &amp; &apos; &apos; &amp; Contact__r.StateProv__r.Name &amp; &apos; &apos; &amp; Contact__r.Country__r.Name &amp; &apos;, &apos;, &apos;&apos;) &amp;
+IF(NOT(ISBLANK(TEXT(ContactRole__c))), &apos;Contact Role: &apos; &amp; TEXT(ContactRole__c), &apos;&apos;), &apos;&apos;)</formula>
+        <label>Value Chain Player</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tobedeleted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>To be deleted?</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VCPExternalRef__c</fullName>
+        <description>ASCO project Feb 2019 release</description>
+        <externalId>true</externalId>
+        <label>VCPExternalRef</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VCPExternalReference__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Used to populate the VCP External reference that we receive from a quoting system</description>
+        <externalId>true</externalId>
+        <label>VCP External Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>ValueChainPlayer_VIPIcon__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Account_VIPIcon__c</formula>
+        <label>&lt;VIPIcon&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ValueChainPlayer__c</fullName>
+        <description>SR0 - This field is automatically filled with a hyperlink.</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/&quot;&amp;Id , Account__r.Name &amp;  &apos; - &apos;  &amp; Contact__r.FirstName &amp; &apos; &apos; &amp; Contact__r.LastName,&apos;_self&apos;)</formula>
+        <label>Value Chain Player</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WinningValueChainPlayer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Winning Value Chain Player?</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Value Chain Player</label>
+    <nameField>
+        <displayFormat>VCP-{0000}</displayFormat>
+        <label>Value Chain Player ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Value Chain Players</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>AccountName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AccountRole__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ContactRole__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AccountName__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AccountRole__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ContactRole__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>AccountName__c</searchFilterFields>
+        <searchFilterFields>AccountRole__c</searchFilterFields>
+        <searchFilterFields>Contact__c</searchFilterFields>
+        <searchFilterFields>ContactRole__c</searchFilterFields>
+        <searchResultsAdditionalFields>AccountName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AccountRole__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ContactRole__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>VCP_VR02_InformationConsistency</fullName>
+        <active>true</active>
+        <description>SR0 - When contact role or account role are filling first, this VR checks that Contact or Account are entered.</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp;(
+(
+NOT(ISBLANK(TEXT( AccountRole__c ))) 
+&amp;&amp;  ISBLANK(Account__c)
+ )
+||
+(
+NOT(ISBLANK(TEXT(  ContactRole__c  ))) 
+&amp;&amp;  ISBLANK( Contact__c )
+)
+|| 
+(
+ISBLANK( Contact__c ) &amp;&amp; ISBLANK(Account__c) 
+)
+)</errorConditionFormula>
+        <errorMessage>Please enter either an Account or a Contact with an associated role.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VCP_VR03_AccountControl</fullName>
+        <active>true</active>
+        <description>July 2011: Ensures that the Account has not been marked for deletion</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; ( Account__r.ToBeDeleted__c = TRUE )</errorConditionFormula>
+        <errorDisplayField>Account__c</errorDisplayField>
+        <errorMessage>This Account has been marked for deletion, please choose another one.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VCP_VR_APR14SLS01_AssociatedRole</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(( 
+ISBLANK(TEXT( AccountRole__c ))
+&amp;&amp; NOT(ISBLANK(Account__c)) 
+&amp;&amp; ISBLANK( Contact__c ) 
+) 
+||
+( 
+ISBLANK(TEXT( ContactRole__c )) 
+&amp;&amp; NOT(ISBLANK( Contact__c )) 
+)
+)</errorConditionFormula>
+        <errorMessage>Please enter either an Account or a Contact with an associated role.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>TrainingVideoCreatingListOfValueChainPlayers</fullName>
+        <availability>online</availability>
+        <description>Link to training video for creating a list of Value Chain Players</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Training video: Creating a list of Value Chain Players</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://schneider-electric.box.com/s/xxotr0i033ohzg44pbx0</url>
+    </webLinks>
+</CustomObject>

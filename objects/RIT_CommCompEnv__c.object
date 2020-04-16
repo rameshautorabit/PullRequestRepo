@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CAPEXScope__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Equipment, software, design, installation, commissioning, supervision, civil works, etc.
+
+CAPEX value + OPEX value should equal the project value.</inlineHelpText>
+        <label>CAPEX scope and value (if any)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsOnCompetitionsAdvOrDrawbks__c</fullName>
+        <description>Quote Approval – Comments On Competitions Advantages Or Drawbacks for Commercial and Competitive Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Who are the competitors? What are the Competition&apos;s advantages or drawbacks?</inlineHelpText>
+        <label>Comments on Competition</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CompetitionAnalysis__c</fullName>
+        <description>Quote Approval – Competition Analysis for  Commercial and Competitive Environment.</description>
+        <externalId>false</externalId>
+        <label>Competition Analysis</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Favourable</fullName>
+                    <default>false</default>
+                    <label>Favourable</label>
+                </value>
+                <value>
+                    <fullName>Unfavourable to SE</fullName>
+                    <default>false</default>
+                    <label>Unfavourable to SE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HasSEAnyExperienceWithTheClient__c</fullName>
+        <description>Quote Approval – Has SE Any Experience With The Client  for  Commercial and Competitive Environment.</description>
+        <externalId>false</externalId>
+        <label>Has SE Any Experience With The Account?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IfYesPleaseComment__c</fullName>
+        <description>Quote Approval – Please Comment on SE&apos;s experience with the client for  Commercial and Competitive Environment.</description>
+        <externalId>false</externalId>
+        <label>If Yes, Please Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OPEXScope__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Maintenance, 24/7 hotline, helpdesk, spare parts.
+
+CAPEX value + OPEX value should equal the project value.</inlineHelpText>
+        <label>OPEX scope and value (if any)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ProjectOrgAccessToEndCustomer__c</fullName>
+        <description>Quote Approval – Project Org &amp; Access To End User Account for Commercial and Competitive Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please describe the contractual scheme (End-User, Client, Contractors, Consultants, SE role, Suppliers) and relationship to the Decision-Maker</inlineHelpText>
+        <label>Org. Scheme &amp; access to the End User</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ProjectOrganizationHelpText__c</fullName>
+        <defaultValue>&apos;Please attach a powerpoint describing the organisation chart of the contractual scheme (End-User, Client, Contractors, Consultants, SE role, Suppliers)&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QualifyRisksConcerningCommCompEnv__c</fullName>
+        <description>Quote Approval –  Qualify Risks Concerning Comm &amp; Comp Env for  Commercial and Competitive Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify The Risks Concerning The Commercial And Competitive Environments?</inlineHelpText>
+        <label>Qualify Risks Concerning Comm &amp; Comp Env</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuoteLink__c</fullName>
+        <description>Quote Approval - Master-detail relationship between Commercial And Competitive Environments and Quote Link for Bid Approval.</description>
+        <externalId>false</externalId>
+        <label>Quote Link</label>
+        <referenceTo>OPP_QuoteLink__c</referenceTo>
+        <relationshipName>RIT_CommCompEnv</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>RoleOfSEInThisProject__c</fullName>
+        <description>Quote Approval – Role Of SE In This Project for Commercial and Competitive Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please Describe What Role Would SE Play In This project?</inlineHelpText>
+        <label>Role Of SE In This Project</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Commercial Environment</label>
+    <nameField>
+        <displayFormat>RIT-CCE-{0000}</displayFormat>
+        <label>Commercial And Competitive Environements</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Commercial Environments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>CCE_VR02_CheckQuoteStatus</fullName>
+        <active>true</active>
+        <description>Quote Approval - To ensure that information is not edited after Quote Approval</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(Text(QuoteLink__r.QuoteStatus__c) = &apos;Approved&apos;)</errorConditionFormula>
+        <errorMessage>RITE Information cannot be modified now, as the Quote is Approved</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>RIT_CCE_Opportunity</fullName>
+        <availability>online</availability>
+        <description>Quote Approval – A link to go back to the Opportunity of the corresponding Quote LInk.  This is to facilitate users to view Value Chain Players and Competitors of the Opportunity.</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Click here to view Value Chain Players &amp; Main Competitors</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/{!OPP_QuoteLink__c.OpportunityNameId__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>RIT_CCE_RITEForm</fullName>
+        <availability>online</availability>
+        <description>Quote Approval – A button to go back to the RITE Form Executive Summary Page.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Back to RITE Form</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/VFP13_RITEForm?id={!RIT_CommCompEnv__c.QuoteLinkId__c}</url>
+    </webLinks>
+</CustomObject>

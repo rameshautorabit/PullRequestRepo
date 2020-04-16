@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>LexCompactOSACMeeting</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>LexCompactOSACMeeting</fullName>
+        <fields>Name</fields>
+        <fields>ProblemTitle__c</fields>
+        <fields>ObjectiveOfMeeting__c</fields>
+        <fields>Decision__c</fields>
+        <fields>AffectedOffer__c</fields>
+        <fields>Start__c</fields>
+        <label>LexCompactOSACMeeting</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>I2P September Release 2012</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>AffectedOffer__c</fullName>
+        <externalId>false</externalId>
+        <formula>Problem__r.AffectedOffer__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Affected Offer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSQManager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P September Release 2012 : CS&amp;Q of the organization accountable for the Problem at the time when the meeting is held</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CS&amp;Q of the organization accountable for the Problem at the time when the meeting is held</inlineHelpText>
+        <label>CS&amp;Q Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>GlobalSafetyAlertCommitteeMeetings1</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContainmentActionsDoneSoFar__c</fullName>
+        <description>I2P September Release 2012 :What has been done so far to contain the Problem?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What has been done so far to contain the Problem?</inlineHelpText>
+        <label>Containment Actions Done So Far</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ContainmentActionsToBeDone__c</fullName>
+        <description>I2P September Release 2012 :What containment actions are still to be done, including those decided in this meeting?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What containment actions are still to be done, including those decided in this meeting?</inlineHelpText>
+        <label>Containment Actions To Be Done</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CorrectiveActionsDoneSoFar__c</fullName>
+        <description>I2P September Release 2012 : What has been done so far to correct the Problem?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What has been done so far to correct the Problem?</inlineHelpText>
+        <label>Corrective Actions Done So Far</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CorrectiveActionsToBeDone__c</fullName>
+        <description>I2P September Release 2012 :What corrective actions are still to be done, including those decided in this meeting?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What corrective actions are still to be done, including those decided in this meeting?</inlineHelpText>
+        <label>Corrective Actions To Be Done</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DecisionSummary__c</fullName>
+        <description>I2P September Release 2012 :Summary of decisions made in the meeting and subsequent action plan.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Summary of decisions made in the meeting and subsequent action plan.</inlineHelpText>
+        <label>Decision Summary</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Decision__c</fullName>
+        <description>I2P september Release 2012 : Decision made in the meeting.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Decision made in the meeting.</inlineHelpText>
+        <label>Decision</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>true</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Go</fullName>
+                    <default>false</default>
+                    <label>Go</label>
+                </value>
+                <value>
+                    <fullName>No-go</fullName>
+                    <default>false</default>
+                    <label>No-go</label>
+                </value>
+                <value>
+                    <fullName>Keep Open</fullName>
+                    <default>false</default>
+                    <label>Keep Open</label>
+                </value>
+                <value>
+                    <fullName>Close</fullName>
+                    <default>false</default>
+                    <label>Close</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ENDDate_CST__c</fullName>
+        <externalId>false</externalId>
+        <label>ENDDate_CST</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EndDate_CET__c</fullName>
+        <externalId>false</externalId>
+        <label>EndDate_CET</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End__c</fullName>
+        <description>I2P September Release 2012  : Date and time when the meeting is scheduled to end.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date and time when the meeting is scheduled to end.</inlineHelpText>
+        <label>End</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FromDate__c</fullName>
+        <description>I2P September Release 2012 : When did the Problem start?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When did the Problem start?</inlineHelpText>
+        <label>From Date</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MeetingFacilitator__c</fullName>
+        <description>I2P September Release 2012 :Person who led the meeting and documented the minutes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Person who led the meeting and documented the minutes.</inlineHelpText>
+        <label>Meeting Facilitator</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ObjectiveOfMeeting__c</fullName>
+        <description>I2P September Release 2012 : Go/No-go: decide whether the Problem will be managed as a Safety Alert.
+Follow-up: inform the GSAC about progress or ask for guidance.
+Closure: request closure of the Safety Alert.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Go/No-go: decide whether the Problem will be managed as a Safety Alert.
+Follow-up: inform the GSAC about progress or ask for guidance.
+Closure: request closure of the Safety Alert.</inlineHelpText>
+        <label>Objective of meeting</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Go/No-go</fullName>
+                    <default>false</default>
+                    <label>Go/No-go</label>
+                </value>
+                <value>
+                    <fullName>Follow-up</fullName>
+                    <default>false</default>
+                    <label>Follow-up</label>
+                </value>
+                <value>
+                    <fullName>Closure</fullName>
+                    <default>false</default>
+                    <label>Closure</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OperationalRootCauses__c</fullName>
+        <description>I2P September Release 2012 : What are the operational root causes of the Problem?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What are the operational root causes of the Problem?</inlineHelpText>
+        <label>Operational Root Causes</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Participants__c</fullName>
+        <description>I2P September Release 2012 :All participants to the meeting, including the facilitator and Problem Leader, when applicable.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>All participants to the meeting, including the facilitator and Problem Leader, when applicable.</inlineHelpText>
+        <label>Participants</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PreventiveActionsDoneSoFar__c</fullName>
+        <description>I2P September Release 2012 :What has been done so far to prevent the Problem?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What has been done so far to prevent the Problem?</inlineHelpText>
+        <label>Preventive Actions Done So Far</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PreventiveActionsToBeDone__c</fullName>
+        <description>I2P September Release 2012 :What preventive actions are still to be done, including those decided in this meeting?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What preventive actions are still to be done, including those decided in this meeting?</inlineHelpText>
+        <label>Preventive Actions To Be Done</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ProbableNumberofBodilyInjuryEvents__c</fullName>
+        <description>I2P September Release 2012 :Probable number of events during the life time of the whole installed base, as calculated using Fault Tree Analysis</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Probable number of events during the life time of the whole installed base, as calculated using Fault Tree Analysis</inlineHelpText>
+        <label>Probable Number of Bodily Injury Events</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProbableNumbrofPropertyDamageEvents__c</fullName>
+        <description>I2P September Release 2012 :Probable number of events during the life time of the whole installed base, as calculated using Fault Tree Analysis</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Probable number of events during the life time of the whole installed base, as calculated using Fault Tree Analysis</inlineHelpText>
+        <label>Probable Numbr of Property Damage Events</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProblemLeader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P September Release 2012 : Problem Leader at the time when the meeting is held.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Problem Leader at the time when the meeting is held.</inlineHelpText>
+        <label>Problem Leader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OfferSafetyAlertCommitteeMeetings</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProblemSummary__c</fullName>
+        <description>I2P September Release 2012 : Summarize the Problem and its importance.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Summarize the Problem and its importance.</inlineHelpText>
+        <label>Problem Summary</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ProblemTitle__c</fullName>
+        <externalId>false</externalId>
+        <formula>Problem__r.Title__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Problem Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Problem_Leader_Readonly__c</fullName>
+        <externalId>false</externalId>
+        <formula>Problem__r.ProblemLeader__r.FirstName   &amp; &quot;  &quot;   &amp; Problem__r.ProblemLeader__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Problem Leader Readonly</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Problem__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P September Release 2012 :Select the Problem to be reviewed in this meeting.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Problem to be reviewed in this meeting.</inlineHelpText>
+        <label>Problem</label>
+        <referenceTo>Problem__c</referenceTo>
+        <relationshipLabel>OSAC Meetings</relationshipLabel>
+        <relationshipName>OSACMeetings</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RegulatorDisclosureRequired__c</fullName>
+        <description>I2P September Release 2012 :Specify whether this Problem must be disclosed to regulators.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify whether this Problem must be disclosed to regulators.</inlineHelpText>
+        <label>Regulator Disclosure Required</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To be determined</fullName>
+                    <default>true</default>
+                    <label>To be determined</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StartDate_CET__c</fullName>
+        <externalId>false</externalId>
+        <label>StartDate_CET</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StartDate_CST__c</fullName>
+        <externalId>false</externalId>
+        <label>StartDate_CST</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start__c</fullName>
+        <description>I2P September Release 2012 : Date and time when the meeting is scheduled to start.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date and time when the meeting is scheduled to start</inlineHelpText>
+        <label>Start</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <defaultValue>&apos;Offer Safety Alert Committee meeting&apos;</defaultValue>
+        <description>I2P September Release : This field is having Default Value &quot;Global Safety Alert Committee meeting&quot;</description>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SystemicRootCauses__c</fullName>
+        <description>I2P September Release 2012 : What are the systemic root causes of the Problem?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What are the systemic root causes of the Problem?</inlineHelpText>
+        <label>Systemic Root Causes</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Tech_BRE__c</fullName>
+        <externalId>false</externalId>
+        <formula>Problem__r.IsRelatedToBusinessRiskEscalation__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tech_BRE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_Booked__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Booked</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_Decision__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Decision</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_EntityBusinessResolutionLeader__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_EntityBusinessResolutionLeader</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_EntityCSQLeader__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Entity CS&amp;Q Leader</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_EntityI2PAdvocates__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Entity I2P Advocates</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_EntityLocalSafetyCommittee__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Entity Local Safety Committee</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_EntityManager__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Entity Manager</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_Entity__c</fullName>
+        <externalId>false</externalId>
+        <formula>Problem__r.AccountableOrganization__r.Entity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tech_Entity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_LocationCSQLeader__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Location CS&amp;Q Leader</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_LocationManager__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Location Manager</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_ProblemBRE__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Problem__r.IsRelatedToBusinessRiskEscalation__c !=&apos;No&apos;,&apos;Yes&apos;,&apos;No&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tech_ProblemBRE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_ProblemLeaderF__c</fullName>
+        <externalId>false</externalId>
+        <formula>Problem__r.ProblemLeader__r.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tech_ProblemLeader</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_ProblemLeader__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_ProblemLeader</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_RelatedOrganization__c</fullName>
+        <externalId>false</externalId>
+        <formula>Problem__r.AccountableOrganization__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tech_RelatedOrganization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_SubEntityBRELeader__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_SubEntityBRLeader</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_SubEntity__c</fullName>
+        <externalId>false</externalId>
+        <formula>If
+(
+	Problem__r.AccountableOrganization__r.Location__c !=&apos;&apos;,
+	Tech_Entity__c &amp; &quot; - &quot; &amp;  Problem__r.AccountableOrganization__r.SubEntity__c ,
+	&apos;&apos;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tech_SubEntity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_SubentityCSQLeader__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Sub-entity CS&amp;Q Leader</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_SubentityManager__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Sub-entity Manager</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ToDate__c</fullName>
+        <description>I2P September Release 2012 :When did the Problem end, or when was it contained?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When did the Problem end, or when was it contained?</inlineHelpText>
+        <label>To Date</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UnitsAffected__c</fullName>
+        <description>I2P September Release 2012 : How many units are affected by the Problem?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How many units are affected by the Problem?</inlineHelpText>
+        <label>Units Affected</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>OSAC Meeting</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Subject__c</columns>
+        <columns>Start__c</columns>
+        <columns>End__c</columns>
+        <columns>Problem__c</columns>
+        <columns>ProblemTitle__c</columns>
+        <columns>ObjectiveOfMeeting__c</columns>
+        <columns>Decision__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AvailableMeetings</fullName>
+        <columns>NAME</columns>
+        <columns>Subject__c</columns>
+        <columns>Start__c</columns>
+        <columns>End__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Problem__c</field>
+            <operation>equals</operation>
+        </filters>
+        <filters>
+            <field>Start__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Available Meetings</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Booked_Meeting_Pending</fullName>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Start__c</columns>
+        <columns>ObjectiveOfMeeting__c</columns>
+        <columns>Problem__c</columns>
+        <columns>ProblemTitle__c</columns>
+        <columns>Decision__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Problem__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Decision__c</field>
+            <operation>equals</operation>
+            <value>Pending</value>
+        </filters>
+        <filters>
+            <field>Start__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Upcoming Booked Meetings</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>OSAC-{0}</displayFormat>
+        <label>OSAC Meeting ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>OSAC Meetings</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Subject__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ObjectiveOfMeeting__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Start__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>End__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Problem__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Decision__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Subject__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Problem__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ObjectiveOfMeeting__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Decision__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Start__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>End__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P01_RegulatorDisclosureReq</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012:  &quot;Regulator Disclosure Required&quot; is Required if Decesion  is other than Pending.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+NOT(ISPICKVAL( Decision__c ,&apos;Pending&apos;)),
+NOT(ISPICKVAL( Decision__c ,&apos;&apos;)) ,
+ISPICKVAL( RegulatorDisclosureRequired__c, &apos;&apos;) 
+)</errorConditionFormula>
+        <errorDisplayField>RegulatorDisclosureRequired__c</errorDisplayField>
+        <errorMessage>Please specify whether regulator disclosure is required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P02_ParticipantsRequired</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012:  &quot;Participants&quot; is required if Decesion  is other than pending.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+NOT(ISPICKVAL( Decision__c ,&apos;Pending&apos;)),
+NOT(ISPICKVAL(  Decision__c,&apos;&apos;)) ,
+Participants__c =  &apos;&apos;
+)</errorConditionFormula>
+        <errorDisplayField>Participants__c</errorDisplayField>
+        <errorMessage>Please fill in the Participants.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P03_MeetingFacilitatorReq</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012:  &quot;Meeting Facilitator&quot; is required if Decesion  is other than pending.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+NOT(ISPICKVAL( Decision__c ,&apos;Pending&apos;)),
+NOT(ISPICKVAL( Decision__c ,&apos;&apos;)) ,
+MeetingFacilitator__c=&apos;&apos;
+)</errorConditionFormula>
+        <errorDisplayField>MeetingFacilitator__c</errorDisplayField>
+        <errorMessage>Please fill in the Meeting Facilitator.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P04_ObjectiveOfMeetingReq</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012:  &quot;Objective of Meeting &quot; is required if Problem is populated.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+Problem__c !=null ,
+Problem__c !=&apos;&apos;,
+OR(ISPICKVAL( ObjectiveOfMeeting__c, &apos;&apos;) ,ISPICKVAL( ObjectiveOfMeeting__c, &apos;None&apos;
+))
+)</errorConditionFormula>
+        <errorDisplayField>ObjectiveOfMeeting__c</errorDisplayField>
+        <errorMessage>Please select the objective of the meeting.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P05_DecisionSummaryReq</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012:  &quot;Decision Summary&quot; is required if decision is  other than pending.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+NOT(ISPICKVAL( Decision__c ,&apos;Pending&apos;)),
+NOT(ISPICKVAL( Decision__c ,&apos;&apos;)) ,
+DecisionSummary__c =&apos;&apos;
+)</errorConditionFormula>
+        <errorDisplayField>DecisionSummary__c</errorDisplayField>
+        <errorMessage>Please fill in the Decision Summary.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P06_ProblemSummaryReq</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012:  &quot;Problem Summary&quot; is required if decision is  other than pending.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+NOT(ISPICKVAL( Decision__c ,&apos;Pending&apos;)),
+NOT(ISPICKVAL( Decision__c ,&apos;&apos;)) ,
+ProblemSummary__c =&apos;&apos;
+)</errorConditionFormula>
+        <errorDisplayField>ProblemSummary__c</errorDisplayField>
+        <errorMessage>Please fill in the Problem Summary.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P07_EnddatenotlessStartDat</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012:  Enddate can not be lesser than Start Date,Please re-enter metting enddate.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+ End__c &lt; Start__c 
+)</errorConditionFormula>
+        <errorDisplayField>End__c</errorDisplayField>
+        <errorMessage>Enddate can not be lesser than Start Date,Please re-enter metting enddate.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P08_CSNQLeader</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012: CS&amp;Q Leader should be internal user.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+CSQManager__c!=null,
+NOT(ISPICKVAL(  CSQManager__r.UserType,&apos;Standard&apos;)) 
+
+)</errorConditionFormula>
+        <errorDisplayField>CSQManager__c</errorDisplayField>
+        <errorMessage>Please select internal user.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P09_ProblemLeader</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012: Problem Leader should be internal user.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+ProblemLeader__c!=null,
+NOT(ISPICKVAL( ProblemLeader__r.UserType,&apos;Standard&apos;)) 
+
+)</errorConditionFormula>
+        <errorDisplayField>ProblemLeader__c</errorDisplayField>
+        <errorMessage>Please select internal user.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P10_PRBReqWhnObjectMeeting</fullName>
+        <active>true</active>
+        <description>I2P September Release 2012:  &quot;Problem &quot; is required if Objective of meeting is populated.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+OR(Problem__c ==null ,
+Problem__c ==&apos;&apos;),
+NOT(OR(ISPICKVAL( ObjectiveOfMeeting__c, &apos;&apos;) ,ISPICKVAL( ObjectiveOfMeeting__c, &apos;None&apos;
+)))
+)</errorConditionFormula>
+        <errorDisplayField>Problem__c</errorDisplayField>
+        <errorMessage>Please enter problem.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OSM_VR_SEP12I2P11_PRBReqWhnDecision</fullName>
+        <active>true</active>
+        <description>I2P September Release</description>
+        <errorConditionFormula>AND
+(
+	NOT($User.BypassVR__c),
+	NOT(ISPICKVAL( Decision__c, &apos;Pending&apos;)),
+	OR
+	(
+		Problem__c ==null ,
+		Problem__c ==&apos;&apos;
+	),
+	NOT
+	(
+		OR
+		(
+		ISPICKVAL( Decision__c , &apos;&apos;) ,
+		ISPICKVAL( Decision__c, &apos;None&apos;)
+		)
+	)
+)</errorConditionFormula>
+        <errorDisplayField>Problem__c</errorDisplayField>
+        <errorMessage>Please enter problem</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>BookNewMeeting</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Book new meeting</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a4y?fcf=00BA0000007ZKWD</url>
+    </webLinks>
+</CustomObject>

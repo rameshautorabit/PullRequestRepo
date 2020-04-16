@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>User locales currency decimal seperator</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>DecimalSeperator__c</fullName>
+        <externalId>false</externalId>
+        <label>DecimalSeperator</label>
+        <length>1</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GroupingSeperator__c</fullName>
+        <externalId>false</externalId>
+        <label>GroupingSeperator</label>
+        <length>1</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_CurrencyDecimalSeperator</label>
+    <visibility>Public</visibility>
+</CustomObject>

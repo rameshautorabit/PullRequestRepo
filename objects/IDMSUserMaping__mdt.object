@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ChinaSync__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If true the related filed value will be synced from china to globa;</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>If true the related filed value will be synced from china to globa;</inlineHelpText>
+        <label>@China Sync</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HomeAttribute__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Flag used to specify the property is for Home applications</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Flag used to specify the property is for Home applications</inlineHelpText>
+        <label>@Home Attribute</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SObjectFieldCreateUpdate__c</fullName>
+        <description>We are creating this field for User creation and update mapping based on SAML Assertion. This was created as part of IC-2112.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>SObjectFieldCreateUpdate</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SobjectField__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>SobjectField</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sobject__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Sobject</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>User</fullName>
+                    <default>true</default>
+                    <label>User</label>
+                </value>
+                <value>
+                    <fullName>IDMSUserAIL</fullName>
+                    <default>false</default>
+                    <label>IDMSUserAIL</label>
+                </value>
+                <value>
+                    <fullName>IDMSUserInvitation__c</fullName>
+                    <default>false</default>
+                    <label>IDMSUserInvitation__c</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TargetField__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>TargetField</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UIMSSync__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>@UIMSSync</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WorkAttribute__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Flag used to specify the property is for Work Applications</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Flag used to specify the property is for Work Applications</inlineHelpText>
+        <label>@Work Attribute</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>IDMS User Mapping</label>
+    <listViews>
+        <fullName>Home_attr</fullName>
+        <columns>SobjectField__c</columns>
+        <columns>TargetField__c</columns>
+        <columns>Sobject__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>HomeAttribute__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Home_attr</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Work_Att_New</fullName>
+        <columns>SobjectField__c</columns>
+        <columns>TargetField__c</columns>
+        <columns>Sobject__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>WorkAttribute__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Work Att</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>IDMSUserMappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

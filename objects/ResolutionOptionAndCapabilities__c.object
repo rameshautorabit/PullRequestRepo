@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>DEC12RELEASE: Object helps to map Capabililtes to Cutomer Resolutions</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>AssessmentType__c</fullName>
+        <description>I2P-RR: OCT2013 RELEASE</description>
+        <externalId>false</externalId>
+        <label>Assessment Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product Return to Expert Center</fullName>
+                    <default>false</default>
+                    <label>Product Return to Expert Center</label>
+                </value>
+                <value>
+                    <fullName>Expert Assessment on Site</fullName>
+                    <default>false</default>
+                    <label>Expert Assessment on Site</label>
+                </value>
+                <value>
+                    <fullName>Remote Expert Assessment</fullName>
+                    <default>false</default>
+                    <label>Remote Expert Assessment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CustomerResolution__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Resolution</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>ProductCondition__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AXN + TEX</fullName>
+                    <default>false</default>
+                    <label>AXN + TEX</label>
+                </value>
+                <value>
+                    <fullName>AXR + TEX</fullName>
+                    <default>false</default>
+                    <label>AXR + TEX</label>
+                </value>
+                <value>
+                    <fullName>RFC + TEX</fullName>
+                    <default>false</default>
+                    <label>RFC + TEX</label>
+                </value>
+                <value>
+                    <fullName>REP + TEX</fullName>
+                    <default>false</default>
+                    <label>REP + TEX</label>
+                </value>
+                <value>
+                    <fullName>AXN</fullName>
+                    <default>false</default>
+                    <label>AXN</label>
+                </value>
+                <value>
+                    <fullName>RET</fullName>
+                    <default>false</default>
+                    <label>RET</label>
+                </value>
+                <value>
+                    <fullName>RFC</fullName>
+                    <default>false</default>
+                    <label>RFC</label>
+                </value>
+                <value>
+                    <fullName>REP</fullName>
+                    <default>false</default>
+                    <label>REP</label>
+                </value>
+                <value>
+                    <fullName>AXR</fullName>
+                    <default>false</default>
+                    <label>AXR</label>
+                </value>
+                <value>
+                    <fullName>TEX</fullName>
+                    <default>false</default>
+                    <label>TEX</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Defective</controllingFieldValue>
+                <valueName>AXN + TEX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Defective</controllingFieldValue>
+                <valueName>AXR + TEX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Defective</controllingFieldValue>
+                <valueName>RFC + TEX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Defective</controllingFieldValue>
+                <valueName>REP + TEX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Defective</controllingFieldValue>
+                <controllingFieldValue>Unused</controllingFieldValue>
+                <valueName>AXN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Defective</controllingFieldValue>
+                <controllingFieldValue>Unused</controllingFieldValue>
+                <valueName>RFC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Defective</controllingFieldValue>
+                <controllingFieldValue>Unused</controllingFieldValue>
+                <valueName>REP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Defective</controllingFieldValue>
+                <controllingFieldValue>Unused</controllingFieldValue>
+                <valueName>AXR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Defective</controllingFieldValue>
+                <valueName>TEX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unused</controllingFieldValue>
+                <valueName>RET</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProductCondition__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Condition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Defective</fullName>
+                    <default>false</default>
+                    <label>Defective</label>
+                </value>
+                <value>
+                    <fullName>Unused</fullName>
+                    <default>false</default>
+                    <label>Unused</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProductDestinationCapability__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Destination / Capability</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Receive defective product</fullName>
+                    <default>false</default>
+                    <label>Receive defective product</label>
+                </value>
+                <value>
+                    <fullName>Repair defective product</fullName>
+                    <default>false</default>
+                    <label>Repair defective product</label>
+                </value>
+                <value>
+                    <fullName>Restock unused product</fullName>
+                    <default>false</default>
+                    <label>Restock unused product</label>
+                </value>
+                <value>
+                    <fullName>Technical Expert Assessment - In-House</fullName>
+                    <default>false</default>
+                    <label>Technical Expert Assessment - In-House</label>
+                </value>
+                <value>
+                    <fullName>Technical Expert Assessment - On-Site</fullName>
+                    <default>false</default>
+                    <label>Technical Expert Assessment - On-Site</label>
+                </value>
+                <value>
+                    <fullName>Technical Expert Assessment-InHouse+Rep</fullName>
+                    <default>false</default>
+                    <label>Technical Expert Assessment-InHouse+Rep</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Return</fullName>
+                    <default>false</default>
+                    <label>Return</label>
+                </value>
+                <value>
+                    <fullName>Repair</fullName>
+                    <default>false</default>
+                    <label>Repair</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Resolution Options and Capabilities</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>ProductCondition__c</columns>
+        <columns>ProductDestinationCapability__c</columns>
+        <columns>CustomerResolution__c</columns>
+        <columns>AssessmentType__c</columns>
+        <columns>Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>ROC-{0000}</displayFormat>
+        <label>ROC ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Resolution Options and Capabilities</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ProductCondition__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ProductDestinationCapability__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CustomerResolution__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>ProductCondition__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ProductDestinationCapability__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CustomerResolution__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ProductCondition__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ProductDestinationCapability__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CustomerResolution__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ProductCondition__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ProductDestinationCapability__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CustomerResolution__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

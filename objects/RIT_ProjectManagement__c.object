@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Quote Approval - Project Management for Bid Approval</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AreTheseResourcesAvailableAtSE__c</fullName>
+        <description>Quote Approval - Are These Resources Available At SE  for Project Management.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify These Required Project Management Resources Compared To The Resources Available In The SE Entity?</inlineHelpText>
+        <label>Are These Resources Available At SE?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adequate</fullName>
+                    <default>false</default>
+                    <label>Adequate</label>
+                </value>
+                <value>
+                    <fullName>Stretch</fullName>
+                    <default>false</default>
+                    <label>Stretch</label>
+                </value>
+                <value>
+                    <fullName>Very Stretch</fullName>
+                    <default>false</default>
+                    <label>Very Stretch</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CommentsRemark__c</fullName>
+        <description>Quote Approval – Comments/Remark for Project Management.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Global mobility, specific technical skills, KPI requirements, PMP….</inlineHelpText>
+        <label>Comments on Project Management</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ExecutionChartTxt__c</fullName>
+        <defaultValue>&apos;Please attach the execution organisation Chart in Notes &amp; Attachments Section&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IdentifiedAndSufficientWorkspace__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is there identified and sufficient workforce (SE and OG) to allow for completion of the site activties to meet our overall commitment?
+
+e.g. enough resources to meet our delivery schedule for installation / commissioning / services</inlineHelpText>
+        <label>Identified &amp; sufficient site workforce?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QualifyRequiredProjectMgmtResources__c</fullName>
+        <description>Quote Approval –  Qualify Required Project Management Resources for Project Management.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify The Project Management Resources Required By This Project?</inlineHelpText>
+        <label>Qualify Required Project Mgmt Resources</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QualifyRisksConcerningThePM__c</fullName>
+        <description>Quote Approval – Qualify Risks Concerning The PM for Project Management.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify Risks Concerning The Project Management?</inlineHelpText>
+        <label>Qualify Risks Concerning The PM</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuoteLink__c</fullName>
+        <description>Quote Approval – Master-detail relationship between Project Management and Quote Link for Bid Approval</description>
+        <externalId>false</externalId>
+        <label>Quote Link</label>
+        <referenceTo>OPP_QuoteLink__c</referenceTo>
+        <relationshipLabel>Project Management</relationshipLabel>
+        <relationshipName>RIT_ProjectManagement</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SEOwnSufficientSkills__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Does SE own sufficient skills and adequate resources to perform this contract?</inlineHelpText>
+        <label>SE owns sufficient skills and resources?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Key resources are experienced and pre-allocated</fullName>
+                    <default>false</default>
+                    <label>Key resources are experienced and pre-allocated</label>
+                </value>
+                <value>
+                    <fullName>Key resources are in-house but not available</fullName>
+                    <default>false</default>
+                    <label>Key resources are in-house but not available</label>
+                </value>
+                <value>
+                    <fullName>Key resources need training / support</fullName>
+                    <default>false</default>
+                    <label>Key resources need training / support</label>
+                </value>
+                <value>
+                    <fullName>Need to hire some key resources</fullName>
+                    <default>false</default>
+                    <label>Need to hire some key resources</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Project Management</label>
+    <nameField>
+        <displayFormat>RIT-PRM-{0000}</displayFormat>
+        <label>Project Management</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Projects Management</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>PRM_VR01_CheckQuoteStatus</fullName>
+        <active>true</active>
+        <description>Quote Approval - To ensure that information is not edited after Quote Approval</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(Text(QuoteLink__r.QuoteStatus__c) = &apos;Approved&apos;)</errorConditionFormula>
+        <errorMessage>RITE Information cannot be modified now, as the Quote is Approved</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>RIT_PRM_RITEForm</fullName>
+        <availability>online</availability>
+        <description>Quote Approval – A button to go back to the RITE Form Executive Summary Page.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Back to RITE Form</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/VFP13_RITEForm?id={!RIT_ProjectManagement__c.QuoteLinkId__c}</url>
+    </webLinks>
+</CustomObject>

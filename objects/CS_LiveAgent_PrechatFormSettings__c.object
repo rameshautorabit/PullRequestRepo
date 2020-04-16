@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AdvancedRoutingMenu__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Collapsible Routing Menu</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AreProductFieldsVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Manage the visibility of Model Number and Serial Number with the new pre-chat form. With the new pre-chat form, the fields &quot;Model Number Visible, &quot;Model Number Mandatory&quot;, &quot;Serial Number Visible&quot; and &quot;Serial Number Mandatory&quot; are not supported anymore.</description>
+        <externalId>false</externalId>
+        <label>Product Fields Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AutoCreateCase__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Auto-Create Case</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AutoCreateConsumers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Auto-Create New Consumers</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CategoryLabel__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Label of the category picklist that will be used for the form</inlineHelpText>
+        <label>Chat Category Label (in the form)</label>
+        <length>120</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CategoryValues__c</fullName>
+        <description>List of values for the category picklist</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of values for the category picklist: separate the values with semi-colons &quot;;&quot;</inlineHelpText>
+        <label>Chat Category Values</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ChatButtonIds__c</fullName>
+        <description>Allows to route the chat requests to the main team and back-up teams. List here all the chat buttons to route the chat to by priority order.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allows to route the chat requests to the main team and back-up teams. List here all the chat buttons to route the chat to by priority order.
+If the form contains a routing menu, the Chat Button Ids need to be listed in the routing rules (not here).</inlineHelpText>
+        <label>Chat Button Ids By Priority</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactPageLink__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Page Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>CountryCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Country Code</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomRoutingRulesPrefix__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field, the reuse existing routing rules by providing the corresponding prefix.</inlineHelpText>
+        <label>Custom Routing Rules Prefix</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomWelcomeMessage__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Welcome Message</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DisplayDisclaimer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Display Disclaimer Link</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DisplayEmailOptIn__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Display Email Opt-In</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DisplayNonCommercialUsageMessage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Display a message that the email will not be used for commercial usage.</description>
+        <externalId>false</externalId>
+        <label>Display Non Commercial Usage Message</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DisplayWelcomeMessage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Display Welcome Message</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ForcedWindowHeight__c</fullName>
+        <defaultValue>550</defaultValue>
+        <externalId>false</externalId>
+        <label>Forced Window Height</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ForcedWindowWidth__c</fullName>
+        <defaultValue>500</defaultValue>
+        <externalId>false</externalId>
+        <label>Forced Window Width</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HideSearch__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Hides the search field on top of the routing menu</inlineHelpText>
+        <label>Hide Search</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCategoryMandatory__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Chat Category Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCategoryVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Chat Category Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCompanyMandatory__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Company Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCompanyVisible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Company Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustomerClassVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Customer Class Visible and Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsEmailOptInDefaulted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Email Opt-In Defaulted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsEmailVisible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Email Visible and Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsFirstNameVisible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>First Name Visible and Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsLastNameVisible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Last Name Visible and Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsOrderNumberVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Order Number Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsPhoneMandatory__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Phone Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsPhoneVisible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Phone Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsPrivacyPolicyAcceptationRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Privacy Policy Acceptation Required</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsReferenceNumberMandatory__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reference Number Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsReferenceNumberVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reference Number Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsRoutingMenuVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Routing Menu Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsTitleMandatory__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Title Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsTitleVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Title Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsZipCodeMandatory__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Zip Code Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsZipCodeVisible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Zip Code Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LanguageCode__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Required if auto-create consumer is enabled</inlineHelpText>
+        <label>Language Code</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PrivacyPolicyLink__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>In case of external link, do not forget to prefix you URL with &quot; http:// &quot; or &quot; https:// &quot;.</inlineHelpText>
+        <label>Privacy Policy or Disclaimer Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>RoutingMenuLabel__c</fullName>
+        <description>Label of Routing picklist.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Label of Routing picklist.</inlineHelpText>
+        <label>Routing Menu Label</label>
+        <length>120</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SearchCaseWithRefNumber__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Search Case With Reference Number</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SearchPhoneNumber__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Search Phone Number</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SetName__c</fullName>
+        <description>Defines what is used to call the customer, first name or last name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines what is used to call the customer, first name or last name.
+Value = &quot;FirstName&quot; OR &quot;LastName&quot;</inlineHelpText>
+        <label>Set Name</label>
+        <length>120</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ZipCodeLength__c</fullName>
+        <defaultValue>5</defaultValue>
+        <externalId>false</externalId>
+        <label>Zip Code Maximum Length</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ZipCodeMinimumLength__c</fullName>
+        <defaultValue>5</defaultValue>
+        <externalId>false</externalId>
+        <label>Zip Code Minimum Length</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_LiveAgent_PrechatFormSettings</label>
+    <listViews>
+        <fullName>All_Forms</fullName>
+        <columns>NAME</columns>
+        <columns>LanguageCode__c</columns>
+        <columns>IsCategoryVisible__c</columns>
+        <columns>CategoryLabel__c</columns>
+        <columns>IsRoutingMenuVisible__c</columns>
+        <columns>RoutingMenuLabel__c</columns>
+        <columns>ChatButtonIds__c</columns>
+        <columns>CustomRoutingRulesPrefix__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Chat_with_routing_and_categories</fullName>
+        <columns>NAME</columns>
+        <columns>IsCategoryVisible__c</columns>
+        <columns>IsCategoryMandatory__c</columns>
+        <columns>CategoryLabel__c</columns>
+        <columns>IsRoutingMenuVisible__c</columns>
+        <columns>RoutingMenuLabel__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CategoryLabel__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>RoutingMenuLabel__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Chat with routing and categories</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Chat_with_routing_or_categories</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>IsCategoryVisible__c</columns>
+        <columns>IsCategoryMandatory__c</columns>
+        <columns>CategoryLabel__c</columns>
+        <columns>IsRoutingMenuVisible__c</columns>
+        <columns>RoutingMenuLabel__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CategoryLabel__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>RoutingMenuLabel__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Chat with routing or categories</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Consumer_Forms</fullName>
+        <columns>NAME</columns>
+        <columns>CountryCode__c</columns>
+        <columns>IsRoutingMenuVisible__c</columns>
+        <columns>RoutingMenuLabel__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Consumer Forms</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Form_with_URLs</fullName>
+        <booleanFilter>1</booleanFilter>
+        <columns>NAME</columns>
+        <columns>ContactPageLink__c</columns>
+        <columns>PrivacyPolicyLink__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PrivacyPolicyLink__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Form with URLs</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Forms_with_Welcome_message</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>CountryCode__c</columns>
+        <columns>DisplayWelcomeMessage__c</columns>
+        <columns>CustomWelcomeMessage__c</columns>
+        <columns>IsCategoryVisible__c</columns>
+        <columns>CategoryLabel__c</columns>
+        <columns>IsRoutingMenuVisible__c</columns>
+        <columns>RoutingMenuLabel__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>DisplayWelcomeMessage__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CustomWelcomeMessage__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Forms with Welcome message</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>GDPR</fullName>
+        <columns>NAME</columns>
+        <columns>DisplayEmailOptIn__c</columns>
+        <columns>IsEmailOptInDefaulted__c</columns>
+        <columns>IsPrivacyPolicyAcceptationRequired__c</columns>
+        <columns>DisplayDisclaimer__c</columns>
+        <columns>PrivacyPolicyLink__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IsFirstNameVisible__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>GDPR public forms</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Language_Codes</fullName>
+        <columns>NAME</columns>
+        <columns>LanguageCode__c</columns>
+        <columns>IsCategoryVisible__c</columns>
+        <columns>CategoryLabel__c</columns>
+        <columns>IsRoutingMenuVisible__c</columns>
+        <columns>RoutingMenuLabel__c</columns>
+        <columns>ChatButtonIds__c</columns>
+        <columns>CustomRoutingRulesPrefix__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LanguageCode__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Language Codes</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>With_Postal_Code</fullName>
+        <columns>NAME</columns>
+        <columns>LanguageCode__c</columns>
+        <columns>IsZipCodeVisible__c</columns>
+        <columns>IsZipCodeMandatory__c</columns>
+        <columns>ZipCodeLength__c</columns>
+        <columns>ZipCodeMinimumLength__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IsZipCodeVisible__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>With Postal Code</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>With_Search_Phone_Number</fullName>
+        <columns>NAME</columns>
+        <columns>SearchPhoneNumber__c</columns>
+        <columns>CountryCode__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SearchPhoneNumber__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>With Search Phone Number</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>With_SetName</fullName>
+        <columns>NAME</columns>
+        <columns>SetName__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SetName__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>With SetName</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Protected</visibility>
+</CustomObject>

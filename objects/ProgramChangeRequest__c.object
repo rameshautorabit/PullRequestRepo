@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>For May 2013 Release. To create request for change in Program Feature , Program Requirement or for access to the Partner Program.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>ChangeRequestType__c</fullName>
+        <externalId>false</externalId>
+        <label>Change Request Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Feature Change Request</fullName>
+                    <default>false</default>
+                    <label>Feature Change Request</label>
+                </value>
+                <value>
+                    <fullName>Level Change Request</fullName>
+                    <default>false</default>
+                    <label>Level Change Request</label>
+                </value>
+                <value>
+                    <fullName>Program Access Request</fullName>
+                    <default>false</default>
+                    <label>Program Access Request</label>
+                </value>
+                <value>
+                    <fullName>Requirement Change Request</fullName>
+                    <default>false</default>
+                    <label>Requirement Change Request</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PartnerProgram__c</fullName>
+        <description>Parent Partner Program</description>
+        <externalId>false</externalId>
+        <label>Partner Program</label>
+        <referenceTo>PartnerProgram__c</referenceTo>
+        <relationshipLabel>Program Change Requests</relationshipLabel>
+        <relationshipName>PRMChangeRequests</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ProgramFeature__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Program Feature</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>No records found</errorMessage>
+            <filterItems>
+                <field>$Source.PartnerProgram__c</field>
+                <operation>equals</operation>
+                <valueField>ProgramFeature__c.PartnerProgram__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>ProgramFeature__c</referenceTo>
+        <relationshipLabel>PRM Change Requests</relationshipLabel>
+        <relationshipName>PRMChangeRequests</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProgramLevel__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related Program Level</description>
+        <externalId>false</externalId>
+        <label>Program Level</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>No records found.</errorMessage>
+            <filterItems>
+                <field>$Source.PartnerProgram__c</field>
+                <operation>equals</operation>
+                <valueField>ProgramLevel__c.PartnerProgram__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>ProgramLevel__c</referenceTo>
+        <relationshipLabel>PRM Change Requests</relationshipLabel>
+        <relationshipName>PRMChangeRequests</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProgramRequirement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related Requirment</description>
+        <externalId>false</externalId>
+        <label>Program Requirement</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>No records found.</errorMessage>
+            <filterItems>
+                <field>$Source.PartnerProgram__c</field>
+                <operation>equals</operation>
+                <valueField>ProgramRequirement__c.PartnerProgram__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>ProgramRequirement__c</referenceTo>
+        <relationshipLabel>PRM Change Requests</relationshipLabel>
+        <relationshipName>PRMChangeRequests</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RequestStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>true</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tech_ProgramAdministrator__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Program Administrator</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>ProgramChangeRequests2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tech_ProgramOwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>PRM May13  - Copy the Program Approver Partner program to this field</description>
+        <externalId>false</externalId>
+        <label>Program Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>ProgramChangeRequests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Program Change Request</label>
+    <nameField>
+        <displayFormat>CR-{000000000}</displayFormat>
+        <label>Change Request Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Program Change Requests</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>FeatureChangeRequest</fullName>
+        <active>false</active>
+        <description>Request for changes in features</description>
+        <label>Feature Change Request</label>
+        <picklistValues>
+            <picklist>ChangeRequestType__c</picklist>
+            <values>
+                <fullName>Feature Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Access Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requirement Change Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LevelChangeRequest</fullName>
+        <active>false</active>
+        <description>Request for changes in Program Level</description>
+        <label>Level Change Request</label>
+        <picklistValues>
+            <picklist>ChangeRequestType__c</picklist>
+            <values>
+                <fullName>Feature Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Access Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requirement Change Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>ProgramChangeRequest</fullName>
+        <active>true</active>
+        <description>Request for Programs</description>
+        <label>Program Change Request</label>
+        <picklistValues>
+            <picklist>ChangeRequestType__c</picklist>
+            <values>
+                <fullName>Feature Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Access Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requirement Change Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>RequirementChangeRequest</fullName>
+        <active>false</active>
+        <description>Request for changes in Program Requirements</description>
+        <label>Requirement Change Request</label>
+        <picklistValues>
+            <picklist>ChangeRequestType__c</picklist>
+            <values>
+                <fullName>Feature Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Access Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requirement Change Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>PCR_VR_MAY13PRM01_StatusCannotBeChanged</fullName>
+        <active>true</active>
+        <errorConditionFormula>$User.BypassVR__c == false &amp;&amp; ( $User.Id &lt;&gt; PartnerProgram__r.OwnerId &amp;&amp; $User.Id &lt;&gt; PartnerProgram__r.ProgramAdministrator__c ) &amp;&amp; ISCHANGED( RequestStatus__c )</errorConditionFormula>
+        <errorMessage>You cannot change Request Status. Only Program Owners and Program Admins can change Request Status.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>New_Feature_Change_Request</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Feature Change Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a7B/e?RecordType=012K00000008kTT&amp;CF00NK0000000rAd1={! ProgramFeature__c.Name}
+&amp;CF00NK0000000rAd1_lkid={!ProgramFeature__c.Id}&amp;CF00NK0000000rAXk={! ProgramFeature__c.PartnerProgram__c }
+&amp;CF00NK0000000rAXk_lkid={!ProgramFeature__c.PartnerProgramId__c}&amp;retURL=/{!ProgramFeature__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Level_Change_Request</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Level Change Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a7B/e?RecordType=012K00000008kTU&amp;CF00NK0000000rAd2={!ProgramLevel__c.Name}&amp;CF00NK0000000rAd2_lkid={!ProgramLevel__c.Id}&amp;CF00NK0000000rAXk={!  ProgramLevel__c.PartnerProgram__c } &amp; CF00NK0000000rAXk_lkid={!ProgramLevel__c.PartnerProgramId__c}&amp;retURL=/{!ProgramLevel__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_PRM_Requirement_CHnage</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Requirement Change Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a7B/e?RecordType=012K00000008kTW&amp;CF00NK0000000rAd3={!ProgramRequirement__c.Name}&amp;CF00NK0000000rAd3_lkid={!ProgramRequirement__c.Id}&amp;CF00NK0000000rAXk={! ProgramRequirement__c.PartnerProgram__c } &amp; CF00NK0000000rAXk_lkid={!ProgramRequirement__c.PartnerProgramId__c}&amp;retURL=/{!ProgramRequirement__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Program_Access_Request</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Program Access Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a7B/e?RecordType=012K00000008kTV&amp;CF00NK0000000rAXk={!PartnerProgram__c.Name}
+&amp;CF00NK0000000rAXk_lkid={!PartnerProgram__c.Id}&amp;retURL=/{!PartnerProgram__c.Id}</url>
+    </webLinks>
+</CustomObject>

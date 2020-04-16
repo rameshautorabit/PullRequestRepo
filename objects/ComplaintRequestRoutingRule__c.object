@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Complaint/Request Routing Rule</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product Selection &amp; Services</fullName>
+                    <default>false</default>
+                    <label>Product Selection &amp; Services</label>
+                </value>
+                <value>
+                    <fullName>Pricing and Availability</fullName>
+                    <default>false</default>
+                    <label>Pricing and Availability</label>
+                </value>
+                <value>
+                    <fullName>Quotation Request</fullName>
+                    <default>false</default>
+                    <label>Quotation Request</label>
+                </value>
+                <value>
+                    <fullName>Order Booking</fullName>
+                    <default>false</default>
+                    <label>Order Booking</label>
+                </value>
+                <value>
+                    <fullName>Order Inquiry</fullName>
+                    <default>false</default>
+                    <label>Order Inquiry</label>
+                </value>
+                <value>
+                    <fullName>Order Modification</fullName>
+                    <default>false</default>
+                    <label>Order Modification</label>
+                </value>
+                <value>
+                    <fullName>Delivery or Collection Issues*</fullName>
+                    <default>false</default>
+                    <label>Delivery or Collection Issues*</label>
+                </value>
+                <value>
+                    <fullName>Installation / Setup</fullName>
+                    <default>false</default>
+                    <label>Installation / Setup</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Troubleshooting*</fullName>
+                    <default>false</default>
+                    <label>Troubleshooting*</label>
+                </value>
+                <value>
+                    <fullName>Additional Documentation Request</fullName>
+                    <default>false</default>
+                    <label>Additional Documentation Request</label>
+                </value>
+                <value>
+                    <fullName>Documentation Missing or Incorrect*</fullName>
+                    <default>false</default>
+                    <label>Documentation Missing or Incorrect*</label>
+                </value>
+                <value>
+                    <fullName>Others*</fullName>
+                    <default>false</default>
+                    <label>Others*</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContactEmail__c</fullName>
+        <externalId>false</externalId>
+        <formula>TargetOrganization__r.ContactEmail__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <formula>TargetOrganization__r.RCCountry__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocationType__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(TargetOrganization__r.Location_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Location Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OriginatingOrganization__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Originating Organization</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4) OR 5</booleanFilter>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>To be deactivated</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Inactive</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Complaint/Request Routing Rules</relationshipLabel>
+        <relationshipName>Complaint_Request_Routing_Rules</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Address Incorrect*</fullName>
+                    <default>false</default>
+                    <label>Address Incorrect*</label>
+                </value>
+                <value>
+                    <fullName>Application Assistance</fullName>
+                    <default>false</default>
+                    <label>Application Assistance</label>
+                </value>
+                <value>
+                    <fullName>Cancellation</fullName>
+                    <default>false</default>
+                    <label>Cancellation</label>
+                </value>
+                <value>
+                    <fullName>Carrier Delivery Service*</fullName>
+                    <default>false</default>
+                    <label>Carrier Delivery Service*</label>
+                </value>
+                <value>
+                    <fullName>Catalog Selection</fullName>
+                    <default>false</default>
+                    <label>Catalog Selection</label>
+                </value>
+                <value>
+                    <fullName>Certificate of Origin</fullName>
+                    <default>false</default>
+                    <label>Certificate of Origin</label>
+                </value>
+                <value>
+                    <fullName>Certificate of Origin*</fullName>
+                    <default>false</default>
+                    <label>Certificate of Origin*</label>
+                </value>
+                <value>
+                    <fullName>Commercial / Financial Invoice</fullName>
+                    <default>false</default>
+                    <label>Commercial / Financial Invoice</label>
+                </value>
+                <value>
+                    <fullName>Commercial / Financial Invoice*</fullName>
+                    <default>false</default>
+                    <label>Commercial / Financial Invoice*</label>
+                </value>
+                <value>
+                    <fullName>Commercial Return</fullName>
+                    <default>false</default>
+                    <label>Commercial Return</label>
+                </value>
+                <value>
+                    <fullName>Competitive Cross Reference</fullName>
+                    <default>false</default>
+                    <label>Competitive Cross Reference</label>
+                </value>
+                <value>
+                    <fullName>Connected services</fullName>
+                    <default>false</default>
+                    <label>Connected services</label>
+                </value>
+                <value>
+                    <fullName>Counterfeit Check</fullName>
+                    <default>false</default>
+                    <label>Counterfeit Check</label>
+                </value>
+                <value>
+                    <fullName>Credit Memo / Note</fullName>
+                    <default>false</default>
+                    <label>Credit Memo / Note</label>
+                </value>
+                <value>
+                    <fullName>Credit Memo / Note*</fullName>
+                    <default>false</default>
+                    <label>Credit Memo / Note*</label>
+                </value>
+                <value>
+                    <fullName>Delivered Earlier than Scheduled*</fullName>
+                    <default>false</default>
+                    <label>Delivered Earlier than Scheduled*</label>
+                </value>
+                <value>
+                    <fullName>Delivery Address Modification</fullName>
+                    <default>false</default>
+                    <label>Delivery Address Modification</label>
+                </value>
+                <value>
+                    <fullName>Delivery before standard lead time</fullName>
+                    <default>false</default>
+                    <label>Delivery before standard lead time</label>
+                </value>
+                <value>
+                    <fullName>Delivery Date Postponed</fullName>
+                    <default>false</default>
+                    <label>Delivery Date Postponed</label>
+                </value>
+                <value>
+                    <fullName>Delivery Instruction not Followed*</fullName>
+                    <default>false</default>
+                    <label>Delivery Instruction not Followed*</label>
+                </value>
+                <value>
+                    <fullName>Delivery Note / Packing List*</fullName>
+                    <default>false</default>
+                    <label>Delivery Note / Packing List*</label>
+                </value>
+                <value>
+                    <fullName>Delivery Release or Shipping Mode Modification</fullName>
+                    <default>false</default>
+                    <label>Delivery Release or Shipping Mode Modification</label>
+                </value>
+                <value>
+                    <fullName>Drawings / Factory Prints</fullName>
+                    <default>false</default>
+                    <label>Drawings / Factory Prints</label>
+                </value>
+                <value>
+                    <fullName>E-Selling / Web</fullName>
+                    <default>false</default>
+                    <label>E-Selling / Web</label>
+                </value>
+                <value>
+                    <fullName>General Correspondence</fullName>
+                    <default>false</default>
+                    <label>General Correspondence</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Transportation Type Used*</fullName>
+                    <default>false</default>
+                    <label>Incorrect Transportation Type Used*</label>
+                </value>
+                <value>
+                    <fullName>Instructions / Manuals</fullName>
+                    <default>false</default>
+                    <label>Instructions / Manuals</label>
+                </value>
+                <value>
+                    <fullName>Instructions / Manuals*</fullName>
+                    <default>false</default>
+                    <label>Instructions / Manuals*</label>
+                </value>
+                <value>
+                    <fullName>Insurance Certificate</fullName>
+                    <default>false</default>
+                    <label>Insurance Certificate</label>
+                </value>
+                <value>
+                    <fullName>Insurance Certificate*</fullName>
+                    <default>false</default>
+                    <label>Insurance Certificate*</label>
+                </value>
+                <value>
+                    <fullName>Labeling not Compliant*</fullName>
+                    <default>false</default>
+                    <label>Labeling not Compliant*</label>
+                </value>
+                <value>
+                    <fullName>Late Delivery, already Received*</fullName>
+                    <default>false</default>
+                    <label>Late Delivery, already Received*</label>
+                </value>
+                <value>
+                    <fullName>Late Delivery, not Received Yet*</fullName>
+                    <default>false</default>
+                    <label>Late Delivery, not Received Yet*</label>
+                </value>
+                <value>
+                    <fullName>Legacy Cross Reference</fullName>
+                    <default>false</default>
+                    <label>Legacy Cross Reference</label>
+                </value>
+                <value>
+                    <fullName>Managed services</fullName>
+                    <default>false</default>
+                    <label>Managed services</label>
+                </value>
+                <value>
+                    <fullName>Marketing Activity Response</fullName>
+                    <default>false</default>
+                    <label>Marketing Activity Response</label>
+                </value>
+                <value>
+                    <fullName>Non-CCC Call</fullName>
+                    <default>false</default>
+                    <label>Non-CCC Call</label>
+                </value>
+                <value>
+                    <fullName>Non-standard Offer</fullName>
+                    <default>false</default>
+                    <label>Non-standard Offer</label>
+                </value>
+                <value>
+                    <fullName>Non-Technical Bulletins</fullName>
+                    <default>false</default>
+                    <label>Non-Technical Bulletins</label>
+                </value>
+                <value>
+                    <fullName>Online Tool Support</fullName>
+                    <default>false</default>
+                    <label>Online Tool Support</label>
+                </value>
+                <value>
+                    <fullName>On-Site Service Complaint*</fullName>
+                    <default>false</default>
+                    <label>On-Site Service Complaint*</label>
+                </value>
+                <value>
+                    <fullName>Order Acknowledgement</fullName>
+                    <default>false</default>
+                    <label>Order Acknowledgement</label>
+                </value>
+                <value>
+                    <fullName>Order Acknowledgement*</fullName>
+                    <default>false</default>
+                    <label>Order Acknowledgement*</label>
+                </value>
+                <value>
+                    <fullName>Order Line Delivery Split</fullName>
+                    <default>false</default>
+                    <label>Order Line Delivery Split</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other*</fullName>
+                    <default>false</default>
+                    <label>Other*</label>
+                </value>
+                <value>
+                    <fullName>Other Return Reasons</fullName>
+                    <default>false</default>
+                    <label>Other Return Reasons</label>
+                </value>
+                <value>
+                    <fullName>Packaging not Compliant*</fullName>
+                    <default>false</default>
+                    <label>Packaging not Compliant*</label>
+                </value>
+                <value>
+                    <fullName>Parcel AND Product damaged*</fullName>
+                    <default>false</default>
+                    <label>Parcel AND Product damaged*</label>
+                </value>
+                <value>
+                    <fullName>Parcel damaged, products OK*</fullName>
+                    <default>false</default>
+                    <label>Parcel damaged, products OK*</label>
+                </value>
+                <value>
+                    <fullName>Parcel in Excess*</fullName>
+                    <default>false</default>
+                    <label>Parcel in Excess*</label>
+                </value>
+                <value>
+                    <fullName>Parcel Missing*</fullName>
+                    <default>false</default>
+                    <label>Parcel Missing*</label>
+                </value>
+                <value>
+                    <fullName>Partner Selection</fullName>
+                    <default>false</default>
+                    <label>Partner Selection</label>
+                </value>
+                <value>
+                    <fullName>Part Number Modification</fullName>
+                    <default>false</default>
+                    <label>Part Number Modification</label>
+                </value>
+                <value>
+                    <fullName>Price Modification</fullName>
+                    <default>false</default>
+                    <label>Price Modification</label>
+                </value>
+                <value>
+                    <fullName>Product Characteristics</fullName>
+                    <default>false</default>
+                    <label>Product Characteristics</label>
+                </value>
+                <value>
+                    <fullName>Product damaged, parcel OK*</fullName>
+                    <default>false</default>
+                    <label>Product damaged, parcel OK*</label>
+                </value>
+                <value>
+                    <fullName>Project Execution Complaint*</fullName>
+                    <default>false</default>
+                    <label>Project Execution Complaint*</label>
+                </value>
+                <value>
+                    <fullName>Quantity in Excess within Parcel*</fullName>
+                    <default>false</default>
+                    <label>Quantity in Excess within Parcel*</label>
+                </value>
+                <value>
+                    <fullName>Quantity Missing within Parcel*</fullName>
+                    <default>false</default>
+                    <label>Quantity Missing within Parcel*</label>
+                </value>
+                <value>
+                    <fullName>Quantity Modification</fullName>
+                    <default>false</default>
+                    <label>Quantity Modification</label>
+                </value>
+                <value>
+                    <fullName>Reference Received Incorrect*</fullName>
+                    <default>false</default>
+                    <label>Reference Received Incorrect*</label>
+                </value>
+                <value>
+                    <fullName>Response to Recovery/Recall Notice*</fullName>
+                    <default>false</default>
+                    <label>Response to Recovery/Recall Notice*</label>
+                </value>
+                <value>
+                    <fullName>Sales Conditions Dissatisfaction*</fullName>
+                    <default>false</default>
+                    <label>Sales Conditions Dissatisfaction*</label>
+                </value>
+                <value>
+                    <fullName>Service Offer Selection</fullName>
+                    <default>false</default>
+                    <label>Service Offer Selection</label>
+                </value>
+                <value>
+                    <fullName>Solution Configuration</fullName>
+                    <default>false</default>
+                    <label>Solution Configuration</label>
+                </value>
+                <value>
+                    <fullName>Special Price</fullName>
+                    <default>false</default>
+                    <label>Special Price</label>
+                </value>
+                <value>
+                    <fullName>Standard Offer</fullName>
+                    <default>false</default>
+                    <label>Standard Offer</label>
+                </value>
+                <value>
+                    <fullName>Support Complaint*</fullName>
+                    <default>false</default>
+                    <label>Support Complaint*</label>
+                </value>
+                <value>
+                    <fullName>Test or Conformity Certificate</fullName>
+                    <default>false</default>
+                    <label>Test or Conformity Certificate</label>
+                </value>
+                <value>
+                    <fullName>Test or Conformity Certificate*</fullName>
+                    <default>false</default>
+                    <label>Test or Conformity Certificate*</label>
+                </value>
+                <value>
+                    <fullName>Training Request</fullName>
+                    <default>false</default>
+                    <label>Training Request</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Order Modification</controllingFieldValue>
+                <valueName>Cancellation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Modification</controllingFieldValue>
+                <valueName>Delivery Address Modification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Modification</controllingFieldValue>
+                <valueName>Delivery before standard lead time</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Modification</controllingFieldValue>
+                <valueName>Delivery Date Postponed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Modification</controllingFieldValue>
+                <valueName>Delivery Release or Shipping Mode Modification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Modification</controllingFieldValue>
+                <valueName>Order Line Delivery Split</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Modification</controllingFieldValue>
+                <valueName>Part Number Modification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Modification</controllingFieldValue>
+                <valueName>Price Modification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order Modification</controllingFieldValue>
+                <valueName>Quantity Modification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Address Incorrect*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Carrier Delivery Service*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Delivered Earlier than Scheduled*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Delivery Instruction not Followed*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Incorrect Transportation Type Used*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Labeling not Compliant*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Late Delivery, already Received*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Late Delivery, not Received Yet*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Packaging not Compliant*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Parcel AND Product damaged*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Parcel damaged, products OK*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Parcel in Excess*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Parcel Missing*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Product damaged, parcel OK*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Quantity in Excess within Parcel*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Quantity Missing within Parcel*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery or Collection Issues*</controllingFieldValue>
+                <valueName>Reference Received Incorrect*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Certificate of Origin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Commercial / Financial Invoice</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Credit Memo / Note</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Drawings / Factory Prints</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>E-Selling / Web</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>General Correspondence</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Instructions / Manuals</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Insurance Certificate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Non-Technical Bulletins</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Order Acknowledgement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Additional Documentation Request</controllingFieldValue>
+                <valueName>Test or Conformity Certificate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documentation Missing or Incorrect*</controllingFieldValue>
+                <valueName>Certificate of Origin*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documentation Missing or Incorrect*</controllingFieldValue>
+                <valueName>Commercial / Financial Invoice*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documentation Missing or Incorrect*</controllingFieldValue>
+                <valueName>Credit Memo / Note*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documentation Missing or Incorrect*</controllingFieldValue>
+                <valueName>Delivery Note / Packing List*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documentation Missing or Incorrect*</controllingFieldValue>
+                <valueName>Instructions / Manuals*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documentation Missing or Incorrect*</controllingFieldValue>
+                <valueName>Insurance Certificate*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documentation Missing or Incorrect*</controllingFieldValue>
+                <valueName>Order Acknowledgement*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documentation Missing or Incorrect*</controllingFieldValue>
+                <valueName>Other*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documentation Missing or Incorrect*</controllingFieldValue>
+                <valueName>Test or Conformity Certificate*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Selection &amp; Services</controllingFieldValue>
+                <valueName>Application Assistance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Selection &amp; Services</controllingFieldValue>
+                <valueName>Catalog Selection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Selection &amp; Services</controllingFieldValue>
+                <valueName>Competitive Cross Reference</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Selection &amp; Services</controllingFieldValue>
+                <valueName>Connected services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Selection &amp; Services</controllingFieldValue>
+                <valueName>Legacy Cross Reference</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Selection &amp; Services</controllingFieldValue>
+                <valueName>Managed services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Selection &amp; Services</controllingFieldValue>
+                <valueName>Product Characteristics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Selection &amp; Services</controllingFieldValue>
+                <valueName>Service Offer Selection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Selection &amp; Services</controllingFieldValue>
+                <valueName>Solution Configuration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Commercial Return</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Counterfeit Check</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Marketing Activity Response</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Non-CCC Call</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Online Tool Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>On-Site Service Complaint*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Other Return Reasons</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Partner Selection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Project Execution Complaint*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Response to Recovery/Recall Notice*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Sales Conditions Dissatisfaction*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Special Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Support Complaint*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Others*</controllingFieldValue>
+                <valueName>Training Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Quotation Request</controllingFieldValue>
+                <valueName>Non-standard Offer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Quotation Request</controllingFieldValue>
+                <valueName>Standard Offer</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SubReason__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Reason__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Address Incorrect*</fullName>
+                    <default>false</default>
+                    <label>Address Incorrect*</label>
+                </value>
+                <value>
+                    <fullName>Application Assistance</fullName>
+                    <default>false</default>
+                    <label>Application Assistance</label>
+                </value>
+                <value>
+                    <fullName>Behaviour or Competence*</fullName>
+                    <default>false</default>
+                    <label>Behaviour or Competence*</label>
+                </value>
+                <value>
+                    <fullName>Cancellation</fullName>
+                    <default>false</default>
+                    <label>Cancellation</label>
+                </value>
+                <value>
+                    <fullName>Carrier Delivery Service*</fullName>
+                    <default>false</default>
+                    <label>Carrier Delivery Service*</label>
+                </value>
+                <value>
+                    <fullName>Catalog Selection</fullName>
+                    <default>false</default>
+                    <label>Catalog Selection</label>
+                </value>
+                <value>
+                    <fullName>Certificate of Origin</fullName>
+                    <default>false</default>
+                    <label>Certificate of Origin</label>
+                </value>
+                <value>
+                    <fullName>Certificate of Origin*</fullName>
+                    <default>false</default>
+                    <label>Certificate of Origin*</label>
+                </value>
+                <value>
+                    <fullName>Commercial / Financial Invoice</fullName>
+                    <default>false</default>
+                    <label>Commercial / Financial Invoice</label>
+                </value>
+                <value>
+                    <fullName>Commercial / Financial Invoice*</fullName>
+                    <default>false</default>
+                    <label>Commercial / Financial Invoice*</label>
+                </value>
+                <value>
+                    <fullName>Communication</fullName>
+                    <default>false</default>
+                    <label>Communication</label>
+                </value>
+                <value>
+                    <fullName>Competitive Cross Reference</fullName>
+                    <default>false</default>
+                    <label>Competitive Cross Reference</label>
+                </value>
+                <value>
+                    <fullName>Credit Memo / Note</fullName>
+                    <default>false</default>
+                    <label>Credit Memo / Note</label>
+                </value>
+                <value>
+                    <fullName>Credit Memo / Note*</fullName>
+                    <default>false</default>
+                    <label>Credit Memo / Note*</label>
+                </value>
+                <value>
+                    <fullName>Customer Order Error</fullName>
+                    <default>false</default>
+                    <label>Customer Order Error</label>
+                </value>
+                <value>
+                    <fullName>Delivered Earlier than Scheduled*</fullName>
+                    <default>false</default>
+                    <label>Delivered Earlier than Scheduled*</label>
+                </value>
+                <value>
+                    <fullName>Delivery Address Modification</fullName>
+                    <default>false</default>
+                    <label>Delivery Address Modification</label>
+                </value>
+                <value>
+                    <fullName>Delivery Date Postponed</fullName>
+                    <default>false</default>
+                    <label>Delivery Date Postponed</label>
+                </value>
+                <value>
+                    <fullName>Delivery Instruction not Followed*</fullName>
+                    <default>false</default>
+                    <label>Delivery Instruction not Followed*</label>
+                </value>
+                <value>
+                    <fullName>Delivery Note / Packing List*</fullName>
+                    <default>false</default>
+                    <label>Delivery Note / Packing List*</label>
+                </value>
+                <value>
+                    <fullName>Delivery Release or Shipping Mode Modification</fullName>
+                    <default>false</default>
+                    <label>Delivery Release or Shipping Mode Modification</label>
+                </value>
+                <value>
+                    <fullName>Disaster Recovery</fullName>
+                    <default>false</default>
+                    <label>Disaster Recovery</label>
+                </value>
+                <value>
+                    <fullName>Discontinued/Old/Expired Product</fullName>
+                    <default>false</default>
+                    <label>Discontinued/Old/Expired Product</label>
+                </value>
+                <value>
+                    <fullName>Distributor Termination</fullName>
+                    <default>false</default>
+                    <label>Distributor Termination</label>
+                </value>
+                <value>
+                    <fullName>Drawings / Factory Prints</fullName>
+                    <default>false</default>
+                    <label>Drawings / Factory Prints</label>
+                </value>
+                <value>
+                    <fullName>End of Test and Trial</fullName>
+                    <default>false</default>
+                    <label>End of Test and Trial</label>
+                </value>
+                <value>
+                    <fullName>E-Selling / Web</fullName>
+                    <default>false</default>
+                    <label>E-Selling / Web</label>
+                </value>
+                <value>
+                    <fullName>General Correspondence</fullName>
+                    <default>false</default>
+                    <label>General Correspondence</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Hardware Product</fullName>
+                    <default>false</default>
+                    <label>Hardware Product</label>
+                </value>
+                <value>
+                    <fullName>Hardware Product*</fullName>
+                    <default>false</default>
+                    <label>Hardware Product*</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Transportation Type Used*</fullName>
+                    <default>false</default>
+                    <label>Incorrect Transportation Type Used*</label>
+                </value>
+                <value>
+                    <fullName>Information</fullName>
+                    <default>false</default>
+                    <label>Information</label>
+                </value>
+                <value>
+                    <fullName>Instructions / Manuals</fullName>
+                    <default>false</default>
+                    <label>Instructions / Manuals</label>
+                </value>
+                <value>
+                    <fullName>Instructions / Manuals*</fullName>
+                    <default>false</default>
+                    <label>Instructions / Manuals*</label>
+                </value>
+                <value>
+                    <fullName>Insurance Certificate</fullName>
+                    <default>false</default>
+                    <label>Insurance Certificate</label>
+                </value>
+                <value>
+                    <fullName>Insurance Certificate*</fullName>
+                    <default>false</default>
+                    <label>Insurance Certificate*</label>
+                </value>
+                <value>
+                    <fullName>Labeling not Compliant*</fullName>
+                    <default>false</default>
+                    <label>Labeling not Compliant*</label>
+                </value>
+                <value>
+                    <fullName>Late Delivery, already Received*</fullName>
+                    <default>false</default>
+                    <label>Late Delivery, already Received*</label>
+                </value>
+                <value>
+                    <fullName>Late Delivery, not Received Yet*</fullName>
+                    <default>false</default>
+                    <label>Late Delivery, not Received Yet*</label>
+                </value>
+                <value>
+                    <fullName>Legacy Cross Reference</fullName>
+                    <default>false</default>
+                    <label>Legacy Cross Reference</label>
+                </value>
+                <value>
+                    <fullName>Non-Technical Bulletins</fullName>
+                    <default>false</default>
+                    <label>Non-Technical Bulletins</label>
+                </value>
+                <value>
+                    <fullName>Order Acknowledgement</fullName>
+                    <default>false</default>
+                    <label>Order Acknowledgement</label>
+                </value>
+                <value>
+                    <fullName>Order Acknowledgement*</fullName>
+                    <default>false</default>
+                    <label>Order Acknowledgement*</label>
+                </value>
+                <value>
+                    <fullName>Order Expedite</fullName>
+                    <default>false</default>
+                    <label>Order Expedite</label>
+                </value>
+                <value>
+                    <fullName>Order Line Delivery Split</fullName>
+                    <default>false</default>
+                    <label>Order Line Delivery Split</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other*</fullName>
+                    <default>false</default>
+                    <label>Other*</label>
+                </value>
+                <value>
+                    <fullName>Packaging not Compliant*</fullName>
+                    <default>false</default>
+                    <label>Packaging not Compliant*</label>
+                </value>
+                <value>
+                    <fullName>Parcel Damaged, Products Damaged*</fullName>
+                    <default>false</default>
+                    <label>Parcel Damaged, Products Damaged*</label>
+                </value>
+                <value>
+                    <fullName>Parcel damaged, products OK*</fullName>
+                    <default>false</default>
+                    <label>Parcel damaged, products OK*</label>
+                </value>
+                <value>
+                    <fullName>Parcel in Excess*</fullName>
+                    <default>false</default>
+                    <label>Parcel in Excess*</label>
+                </value>
+                <value>
+                    <fullName>Parcel Missing*</fullName>
+                    <default>false</default>
+                    <label>Parcel Missing*</label>
+                </value>
+                <value>
+                    <fullName>Part Number Modification</fullName>
+                    <default>false</default>
+                    <label>Part Number Modification</label>
+                </value>
+                <value>
+                    <fullName>Price Modification</fullName>
+                    <default>false</default>
+                    <label>Price Modification</label>
+                </value>
+                <value>
+                    <fullName>Process*</fullName>
+                    <default>false</default>
+                    <label>Process*</label>
+                </value>
+                <value>
+                    <fullName>Product Characteristics</fullName>
+                    <default>false</default>
+                    <label>Product Characteristics</label>
+                </value>
+                <value>
+                    <fullName>Product damaged, parcel OK*</fullName>
+                    <default>false</default>
+                    <label>Product damaged, parcel OK*</label>
+                </value>
+                <value>
+                    <fullName>Quantity in Excess within Parcel*</fullName>
+                    <default>false</default>
+                    <label>Quantity in Excess within Parcel*</label>
+                </value>
+                <value>
+                    <fullName>Quantity Missing within Parcel*</fullName>
+                    <default>false</default>
+                    <label>Quantity Missing within Parcel*</label>
+                </value>
+                <value>
+                    <fullName>Quantity Modification</fullName>
+                    <default>false</default>
+                    <label>Quantity Modification</label>
+                </value>
+                <value>
+                    <fullName>Reference received incorrect*</fullName>
+                    <default>false</default>
+                    <label>Reference received incorrect*</label>
+                </value>
+                <value>
+                    <fullName>Response time*</fullName>
+                    <default>false</default>
+                    <label>Response time*</label>
+                </value>
+                <value>
+                    <fullName>Response to Recovery/Recall Notice*</fullName>
+                    <default>false</default>
+                    <label>Response to Recovery/Recall Notice*</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Software*</fullName>
+                    <default>false</default>
+                    <label>Software*</label>
+                </value>
+                <value>
+                    <fullName>Solution*</fullName>
+                    <default>false</default>
+                    <label>Solution*</label>
+                </value>
+                <value>
+                    <fullName>Stock Adjustment</fullName>
+                    <default>false</default>
+                    <label>Stock Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Test or Conformity Certificate</fullName>
+                    <default>false</default>
+                    <label>Test or Conformity Certificate</label>
+                </value>
+                <value>
+                    <fullName>Test or Conformity Certificate*</fullName>
+                    <default>false</default>
+                    <label>Test or Conformity Certificate*</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Sales Conditions Dissatisfaction*</controllingFieldValue>
+                <controllingFieldValue>Support Complaint*</controllingFieldValue>
+                <valueName>Other*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Offer Selection</controllingFieldValue>
+                <controllingFieldValue>Solution Configuration</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Complaint*</controllingFieldValue>
+                <valueName>Behaviour or Competence*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Complaint*</controllingFieldValue>
+                <valueName>Process*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support Complaint*</controllingFieldValue>
+                <valueName>Response time*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other Return Reasons</controllingFieldValue>
+                <valueName>Disaster Recovery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other Return Reasons</controllingFieldValue>
+                <valueName>Distributor Termination</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other Return Reasons</controllingFieldValue>
+                <valueName>End of Test and Trial</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other Return Reasons</controllingFieldValue>
+                <valueName>Response to Recovery/Recall Notice*</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial Return</controllingFieldValue>
+                <valueName>Customer Order Error</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial Return</controllingFieldValue>
+                <valueName>Discontinued/Old/Expired Product</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial Return</controllingFieldValue>
+                <valueName>Stock Adjustment</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_Unique__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>false</externalId>
+        <label>TECH_Unique</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>TargetOrganization__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>TargetOrganization</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4) OR 5</booleanFilter>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>To be deactivated</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Inactive</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Complaint/Request Routing Rules (TargetOrganization)</relationshipLabel>
+        <relationshipName>Complaint_Request_Routing_Rules1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Complaint/Request Routing Rule</label>
+    <listViews>
+        <fullName>ALL12</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Country__c</columns>
+        <columns>Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>1/22/2019 12:00 AM</value>
+        </filters>
+        <label>ALL</label>
+    </listViews>
+    <listViews>
+        <fullName>AR_APU_All</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Category__c</columns>
+        <columns>Reason__c</columns>
+        <columns>SubReason__c</columns>
+        <columns>Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>GSC South America</value>
+        </filters>
+        <label>AR - APU All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ARArgentina</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>AT_All</fullName>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>LocationType__c</columns>
+        <columns>Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>Austria</value>
+        </filters>
+        <label>AT - All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All4</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Category__c</columns>
+        <columns>Reason__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>GSC Transformers</value>
+        </filters>
+        <filters>
+            <field>TargetOrganization__c</field>
+            <operation>contains</operation>
+            <value>EAJP</value>
+        </filters>
+        <label>CRR EAJP</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>BE_CR_Routing_Rules</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Active__c</columns>
+        <columns>ContactEmail__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>Belgium</value>
+        </filters>
+        <filters>
+            <field>TargetOrganization__c</field>
+            <operation>contains</operation>
+            <value>Belgium</value>
+        </filters>
+        <label>BE - CR Routing Rules</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BECustomerCareGroup</group>
+            <group>BE_ALL_USERS</group>
+            <group>BE_Quality</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Baltic_CCC_rules</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Category__c</columns>
+        <columns>Reason__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>Global Operations - Nordic Baltic - Baltic countries</value>
+        </filters>
+        <label>Baltic CCC rules</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>EECustomerCareGroup</group>
+            <group>LTCustomerCareGroup</group>
+            <group>LVCustomerCareGroup</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Baltic_DC_RR1</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>equals</operation>
+            <value>GSC EMEA Product - Logistics North - Baltic DC</value>
+        </filters>
+        <filters>
+            <field>TargetOrganization__c</field>
+            <operation>equals</operation>
+            <value>GSC EMEA Product - Logistics North - Baltic DC</value>
+        </filters>
+        <label>Baltic DC RR</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Baltic_DC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_All</fullName>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Category__c</columns>
+        <columns>LocationType__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Switzerland,Liechtenstein</value>
+        </filters>
+        <label>CH - All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CN_CR_Routing_Rules</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>CURRENCY_ISO_CODE</columns>
+        <columns>ContactEmail__c</columns>
+        <columns>Country__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Category__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>China,Hong Kong</value>
+        </filters>
+        <label>CN-CR Routing Rules</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CO_CCC_rules</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Category__c</columns>
+        <columns>Reason__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Colombia,Ecuador,Venezuela</value>
+        </filters>
+        <label>CO CCC rules</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>CR_FR</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>startsWith</operation>
+            <value>Global Operations - France</value>
+        </filters>
+        <label>CR - FR</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DE_All</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Category__c</columns>
+        <columns>ContactEmail__c</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Reason__c</columns>
+        <columns>SubReason__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TargetOrganization__c</field>
+            <operation>contains</operation>
+            <value>venray</value>
+        </filters>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>venray</value>
+        </filters>
+        <label>DE - All</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>GR_All</fullName>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>LocationType__c</columns>
+        <columns>Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>Greece</value>
+        </filters>
+        <label>GR - All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+            <group>GRCustomerCareGroup</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>HU</fullName>
+        <columns>NAME</columns>
+        <columns>ContactEmail__c</columns>
+        <columns>Country__c</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Hungary</value>
+        </filters>
+        <label>HU</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>IT</fullName>
+        <columns>NAME</columns>
+        <columns>ContactEmail__c</columns>
+        <columns>Country__c</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>Italy</value>
+        </filters>
+        <label>IT</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>IT_Central_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>India_Organizations_Routing_Rule</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Country__c</columns>
+        <columns>Active__c</columns>
+        <columns>ContactEmail__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TargetOrganization__c</field>
+            <operation>contains</operation>
+            <value>GSC</value>
+        </filters>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>India</value>
+        </filters>
+        <label>India Organizations Routing Rule</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>India_Organizations_Routing_Rule3</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Country__c</columns>
+        <columns>Active__c</columns>
+        <columns>ContactEmail__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>global Oper</value>
+        </filters>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>India</value>
+        </filters>
+        <label>India Organizations Routing Rule</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>NO_CR_Rules</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Category__c</columns>
+        <columns>Reason__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>Norway</value>
+        </filters>
+        <filters>
+            <field>TargetOrganization__c</field>
+            <operation>contains</operation>
+            <value>Norway</value>
+        </filters>
+        <label>NO - CR Routing tules</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>FI_All</group>
+            <group>FI_CC</group>
+            <group>FI_CC_Frontline</group>
+            <group>FI_CC_Tech_Support</group>
+            <group>NOAllUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Nordic_Baltic_CCC_rules</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>Category__c</columns>
+        <columns>Reason__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>startsWith</operation>
+            <value>Global Operations - Nordic Baltic</value>
+        </filters>
+        <label>Nordic - Baltic CCC rules</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>FI_All</group>
+            <group>FI_CC</group>
+            <group>FI_CC_Frontline</group>
+            <group>FI_CC_Tech_Support</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>PH_SEA_CCC_Routing_Rules_Logistics</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>GSC EAJP - EAJ Logistics</value>
+        </filters>
+        <filters>
+            <field>Active__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>PH_SEA CCC Routing Rules -Logistics</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PH_Cavite_PH_CCC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Routing_rules_for_GSC_EMEA_Product_Log</fullName>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>startsWith</operation>
+            <value>Global Operations - CIS - Russian Federation</value>
+        </filters>
+        <filters>
+            <field>TargetOrganization__c</field>
+            <operation>startsWith</operation>
+            <value>GSC EMEA Product - CIS</value>
+        </filters>
+        <label>Routing rules for Logistics CIS - Lobnya</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>SUPPORT_FUNCTIONS</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SE_CR_Routing_Rules</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganization__c</columns>
+        <columns>TargetOrganization__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganization__c</field>
+            <operation>contains</operation>
+            <value>Sweden</value>
+        </filters>
+        <filters>
+            <field>TargetOrganization__c</field>
+            <operation>contains</operation>
+            <value>Sweden</value>
+        </filters>
+        <label>SE - CR Routing Rules</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SE_Sweden_CCC_Frontline</group>
+            <group>SE_Sweden_FO</group>
+            <group>SE_Sweden_NoE_Admin</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>CRR-{0000}</displayFormat>
+        <label>Complaint/Request Routing Rule</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Complaint/Request Routing Rules</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>OriginatingOrganization__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Reason__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SubReason__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>TargetOrganization__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Active__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>OriginatingOrganization__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Reason__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SubReason__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>TargetOrganization__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Active__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OriginatingOrganization__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Category__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Reason__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SubReason__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>TargetOrganization__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Active__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>OriginatingOrganization__c</searchFilterFields>
+        <searchFilterFields>Category__c</searchFilterFields>
+        <searchFilterFields>Reason__c</searchFilterFields>
+        <searchFilterFields>SubReason__c</searchFilterFields>
+        <searchFilterFields>TargetOrganization__c</searchFilterFields>
+        <searchFilterFields>Active__c</searchFilterFields>
+        <searchResultsAdditionalFields>OriginatingOrganization__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Reason__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SubReason__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TargetOrganization__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Active__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

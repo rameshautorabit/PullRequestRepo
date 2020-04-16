@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Create rules which are evaluated each night.  If any records match your rule criteria, all people following that rule will be unfollowed from that record.
+
+For example: if you have a rule to unfollow cases 2 days after the status is set to Closed and a case with 2 followers closes today, 2 days from now both of those followers will be unfollowed from the case.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>chttrunfollow__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Only Active rules are evaluated each night.  This lets you create rules that you only want to run periodically, not every night.</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>chttrunfollow__DaysDelay__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If a number is entered, the rule will not unfollow people from records that match the criteria that night, but rather will wait the specified number of days.  
+
+The maximum delay possible is 99 days.</description>
+        <externalId>false</externalId>
+        <label>Unfollow Delay in Days (optional)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chttrunfollow__FieldLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is the label that goes with a the field name.  For example: campaign member field HasResponded has a label of Responded.</description>
+        <externalId>false</externalId>
+        <label>Field Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chttrunfollow__FieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is the field that will be evaluated such as Stage for an Opportunity rule.</description>
+        <externalId>false</externalId>
+        <label>Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chttrunfollow__FieldType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Stores Schema.DisplayType for the field selected to prevent running out of describes when building the batch Apex query from the rule criteria.  Type is needed to determine whether to use quotes or not (string fields need them, numbers don&apos;t).
+
+Cannot be manually updated as the trigger will always overwrite (expected &amp; desirable behavior).</description>
+        <externalId>false</externalId>
+        <label>Field Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chttrunfollow__ObjectLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Label of the object that corresponds to it&apos;s API name.  For example, custom objects have an ObjectName of something like Projects__c where the label might be Projects.</description>
+        <externalId>false</externalId>
+        <label>Object Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chttrunfollow__ObjectName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the object such as Opportunity or Case.  This is the API name.</description>
+        <externalId>false</externalId>
+        <label>Object Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>chttrunfollow__Operator__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Operator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>equals</fullName>
+                    <default>false</default>
+                    <label>equals</label>
+                </value>
+                <value>
+                    <fullName>not equal to</fullName>
+                    <default>false</default>
+                    <label>not equal to</label>
+                </value>
+                <value>
+                    <fullName>greater than</fullName>
+                    <default>false</default>
+                    <label>greater than</label>
+                </value>
+                <value>
+                    <fullName>less than</fullName>
+                    <default>false</default>
+                    <label>less than</label>
+                </value>
+                <value>
+                    <fullName>greater or equal</fullName>
+                    <default>false</default>
+                    <label>greater or equal</label>
+                </value>
+                <value>
+                    <fullName>less or equal</fullName>
+                    <default>false</default>
+                    <label>less or equal</label>
+                </value>
+                <value>
+                    <fullName>contains</fullName>
+                    <default>false</default>
+                    <label>contains</label>
+                </value>
+                <value>
+                    <fullName>does not contain</fullName>
+                    <default>false</default>
+                    <label>does not contain</label>
+                </value>
+                <value>
+                    <fullName>starts with</fullName>
+                    <default>false</default>
+                    <label>starts with</label>
+                </value>
+                <value>
+                    <fullName>equals TODAY</fullName>
+                    <default>false</default>
+                    <label>equals TODAY</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>chttrunfollow__Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Unfortunately this application does not support blank criteria such as Opportunity Account equals &lt;blank&gt;.  This is enforced in the code, not in a validation rule nor in the field definition itself.</description>
+        <externalId>false</externalId>
+        <label>Unfollow Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Chatter Unfollow Rules</label>
+    <listViews>
+        <fullName>chttrunfollow__All</fullName>
+        <columns>chttrunfollow__Active__c</columns>
+        <columns>chttrunfollow__ObjectLabel__c</columns>
+        <columns>chttrunfollow__FieldLabel__c</columns>
+        <columns>chttrunfollow__Operator__c</columns>
+        <columns>chttrunfollow__Value__c</columns>
+        <columns>chttrunfollow__DaysDelay__c</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Chatter Unfollow Rule</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Chatter Unfollow Rules</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>chttrunfollow__Active__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>chttrunfollow__ObjectLabel__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>chttrunfollow__FieldLabel__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>chttrunfollow__Operator__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>chttrunfollow__Value__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>chttrunfollow__DaysDelay__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <listViewButtons>chttrunfollow__Run_All_Active_Unfollow_Rules</listViewButtons>
+        <lookupDialogsAdditionalFields>chttrunfollow__Active__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>chttrunfollow__ObjectLabel__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>chttrunfollow__FieldLabel__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>chttrunfollow__Operator__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>chttrunfollow__Value__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>chttrunfollow__DaysDelay__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>chttrunfollow__Active__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>chttrunfollow__ObjectLabel__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>chttrunfollow__FieldLabel__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>chttrunfollow__Operator__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>chttrunfollow__Value__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>chttrunfollow__DaysDelay__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>chttrunfollow__Active__c</searchFilterFields>
+        <searchFilterFields>chttrunfollow__ObjectLabel__c</searchFilterFields>
+        <searchFilterFields>chttrunfollow__FieldLabel__c</searchFilterFields>
+        <searchFilterFields>chttrunfollow__Operator__c</searchFilterFields>
+        <searchFilterFields>chttrunfollow__Value__c</searchFilterFields>
+        <searchFilterFields>chttrunfollow__DaysDelay__c</searchFilterFields>
+        <searchResultsAdditionalFields>chttrunfollow__Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>chttrunfollow__ObjectLabel__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>chttrunfollow__FieldLabel__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>chttrunfollow__Operator__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>chttrunfollow__Value__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>chttrunfollow__DaysDelay__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>chttrunfollow__No_Commas</fullName>
+        <active>true</active>
+        <description>Disallows comma&apos;s in Value as my code doesn&apos;t support them</description>
+        <errorConditionFormula>contains( chttrunfollow__Value__c, &quot;,&quot;)</errorConditionFormula>
+        <errorMessage>Unfortunately, you cannot use a comma for either multiple values or numbers. Please remove any commas, and if desired, create a second rule for additional criteria.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>chttrunfollow__No_Negative_Delay</fullName>
+        <active>true</active>
+        <description>Disallows negative numbers from DaysDelay</description>
+        <errorConditionFormula>chttrunfollow__DaysDelay__c &lt;0</errorConditionFormula>
+        <errorMessage>You cannot use a negative number for the Delay.  Please enter 0 or a positive number.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>chttrunfollow__Rule_objectfield_operator_value_not_null</fullName>
+        <active>true</active>
+        <description>Checks that the rule has a valid object, field, operator, and value</description>
+        <errorConditionFormula>ISNULL(chttrunfollow__ObjectName__c) ||chttrunfollow__ObjectName__c==&apos;&apos; || ISNULL(chttrunfollow__FieldName__c) ||chttrunfollow__FieldName__c==&apos;&apos; || ISNULL(text(chttrunfollow__Operator__c ))  || ISNULL(chttrunfollow__Value__c) || chttrunfollow__Value__c==&apos;&apos;</errorConditionFormula>
+        <errorMessage>Error: You must select an object, field, operator, and value before saving. Blank or null values are not supported.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>chttrunfollow__validate_operator</fullName>
+        <active>true</active>
+        <description>Note this doesn&apos;t check for hackers that try to use an invalid operator for a given field type such as &quot;boolean does not contain&quot;.  Checking for this in the trigger would create too many additional describes and hurt code coverage.</description>
+        <errorConditionFormula>NOT( ISPICKVAL(chttrunfollow__Operator__c ,&apos;equals&apos;) 
+||ISPICKVAL(chttrunfollow__Operator__c ,&apos;not equal to&apos;) 
+||ISPICKVAL(chttrunfollow__Operator__c ,&apos;greater than&apos;)
+||ISPICKVAL(chttrunfollow__Operator__c ,&apos;less than&apos;)
+||ISPICKVAL(chttrunfollow__Operator__c ,&apos;greater or equal&apos;)
+||ISPICKVAL(chttrunfollow__Operator__c ,&apos;less or equal&apos;)
+||ISPICKVAL(chttrunfollow__Operator__c ,&apos;contains&apos;)
+||ISPICKVAL(chttrunfollow__Operator__c ,&apos;does not contain&apos;)
+||ISPICKVAL(chttrunfollow__Operator__c ,&apos;starts with&apos;)
+||ISPICKVAL(chttrunfollow__Operator__c ,&apos;equals TODAY&apos;)
+)</errorConditionFormula>
+        <errorMessage>Error: Invalid operator entered.  You must select a valid operator such as &quot;equals&quot; or &quot;not equal to&quot;.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>chttrunfollow__Run_All_Active_Unfollow_Rules</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Run All Active Unfollow Rules</masterLabel>
+        <openType>sidebar</openType>
+        <page>chttrunfollow__UnfollowRunAllRulesButton</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

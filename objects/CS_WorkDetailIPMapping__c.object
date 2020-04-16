@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>For Creation Of Work Detail from Installed Product Line of WON Related List.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>SourceFieldApi__c</fullName>
+        <externalId>false</externalId>
+        <label>SourceFieldApi</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TargetFieldApi__c</fullName>
+        <externalId>false</externalId>
+        <label>TargetFieldApi</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_WorkDetailIPMapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

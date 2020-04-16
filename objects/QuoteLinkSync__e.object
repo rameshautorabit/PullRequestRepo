@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Feb 2019 release : A Platform Event for Quote Connector. Event messages to be published to IFW, who will send the details of the Quote to Synergy. Part of ASCO project.</description>
+    <eventType>HighVolume</eventType>
+    <fields>
+        <fullName>Action__c</fullName>
+        <description>Vlaue for ASCO project - SYNC REQUEST</description>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Action</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QuoteLinkId__c</fullName>
+        <description>Quote Link number</description>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Quote Link Id</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QuotingSystem__c</fullName>
+        <description>Vlaue for ASCO project - Synergy</description>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Quoting System</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Quote Link Sync</label>
+    <pluralLabel>Quote Link Sync</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
+</CustomObject>

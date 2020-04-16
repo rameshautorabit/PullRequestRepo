@@ -1,0 +1,1858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <comment>Owner of Service Center can delete CIS Competency</comment>
+        <content>VFP_CISCompetencyDelete</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Skills defined at a Product Hierarchy Level
+For a Field Service Representative, or a Service Center
+within CIS Program</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CIS_BusinessUnit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Electrical Distribution</fullName>
+                    <default>false</default>
+                    <label>Electrical Distribution</label>
+                </value>
+                <value>
+                    <fullName>Industrial Automation</fullName>
+                    <default>false</default>
+                    <label>Industrial Automation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CIS_Family__c</fullName>
+        <externalId>false</externalId>
+        <label>Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>CIS_BusinessUnit__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>LV Protection Circuit Breaker</fullName>
+                    <default>false</default>
+                    <label>LV Protection Circuit Breaker</label>
+                </value>
+                <value>
+                    <fullName>Network monitoring</fullName>
+                    <default>false</default>
+                    <label>Network monitoring</label>
+                </value>
+                <value>
+                    <fullName>Overload LV protection</fullName>
+                    <default>false</default>
+                    <label>Overload LV protection</label>
+                </value>
+                <value>
+                    <fullName>LV Panel &amp; Systems</fullName>
+                    <default>false</default>
+                    <label>LV Panel &amp; Systems</label>
+                </value>
+                <value>
+                    <fullName>MV Primary Distribution</fullName>
+                    <default>false</default>
+                    <label>MV Primary Distribution</label>
+                </value>
+                <value>
+                    <fullName>MV Secondary Distribution</fullName>
+                    <default>false</default>
+                    <label>MV Secondary Distribution</label>
+                </value>
+                <value>
+                    <fullName>Network management</fullName>
+                    <default>false</default>
+                    <label>Network management</label>
+                </value>
+                <value>
+                    <fullName>Distribution Transformer MV / LV</fullName>
+                    <default>false</default>
+                    <label>Distribution Transformer MV / LV</label>
+                </value>
+                <value>
+                    <fullName>Filtering and Power Factor correction</fullName>
+                    <default>false</default>
+                    <label>Filtering and Power Factor correction</label>
+                </value>
+                <value>
+                    <fullName>Application &amp; Energy system</fullName>
+                    <default>false</default>
+                    <label>Application &amp; Energy system</label>
+                </value>
+                <value>
+                    <fullName>Sites Application &amp; Systems Substructures &amp; building</fullName>
+                    <default>false</default>
+                    <label>Sites Application &amp; Systems Substructures &amp; building</label>
+                </value>
+                <value>
+                    <fullName>Electrical Distribution transversal capabilities</fullName>
+                    <default>false</default>
+                    <label>Electrical Distribution transversal capabilities</label>
+                </value>
+                <value>
+                    <fullName>Marine</fullName>
+                    <default>false</default>
+                    <label>Marine</label>
+                </value>
+                <value>
+                    <fullName>Photovoltaic Systems</fullName>
+                    <default>false</default>
+                    <label>Photovoltaic Systems</label>
+                </value>
+                <value>
+                    <fullName>Motor Control</fullName>
+                    <default>false</default>
+                    <label>Motor Control</label>
+                </value>
+                <value>
+                    <fullName>Motion Control</fullName>
+                    <default>false</default>
+                    <label>Motion Control</label>
+                </value>
+                <value>
+                    <fullName>Detection</fullName>
+                    <default>false</default>
+                    <label>Detection</label>
+                </value>
+                <value>
+                    <fullName>EMC</fullName>
+                    <default>false</default>
+                    <label>EMC</label>
+                </value>
+                <value>
+                    <fullName>Safety</fullName>
+                    <default>false</default>
+                    <label>Safety</label>
+                </value>
+                <value>
+                    <fullName>Human / Machine Interface</fullName>
+                    <default>false</default>
+                    <label>Human / Machine Interface</label>
+                </value>
+                <value>
+                    <fullName>Communication</fullName>
+                    <default>false</default>
+                    <label>Communication</label>
+                </value>
+                <value>
+                    <fullName>PLC&apos;s control</fullName>
+                    <default>false</default>
+                    <label>PLC&apos;s control</label>
+                </value>
+                <value>
+                    <fullName>Process Control</fullName>
+                    <default>false</default>
+                    <label>Process Control</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Remote control</fullName>
+                    <default>false</default>
+                    <label>Remote control</label>
+                </value>
+                <value>
+                    <fullName>Redundant Systems</fullName>
+                    <default>false</default>
+                    <label>Redundant Systems</label>
+                </value>
+                <value>
+                    <fullName>Weighing</fullName>
+                    <default>false</default>
+                    <label>Weighing</label>
+                </value>
+                <value>
+                    <fullName>Distribution, Protection, Relay</fullName>
+                    <default>false</default>
+                    <label>Distribution, Protection, Relay</label>
+                </value>
+                <value>
+                    <fullName>HHP Drives</fullName>
+                    <default>false</default>
+                    <label>HHP Drives</label>
+                </value>
+                <value>
+                    <fullName>XANTREX inverters</fullName>
+                    <default>false</default>
+                    <label>XANTREX inverters</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>LV Protection Circuit Breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>Network monitoring</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>Overload LV protection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>LV Panel &amp; Systems</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>MV Primary Distribution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>MV Secondary Distribution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>Network management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>Distribution Transformer MV / LV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>Filtering and Power Factor correction</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>Application &amp; Energy system</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>Sites Application &amp; Systems Substructures &amp; building</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <valueName>Electrical Distribution transversal capabilities</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Marine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution</controllingFieldValue>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Photovoltaic Systems</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Motor Control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Motion Control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Detection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>EMC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Safety</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Human / Machine Interface</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Communication</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>PLC&apos;s control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Process Control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Software</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Remote control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Redundant Systems</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Weighing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>Distribution, Protection, Relay</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>HHP Drives</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Industrial Automation</controllingFieldValue>
+                <valueName>XANTREX inverters</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CIS_FieldServiceRepresentative__c</fullName>
+        <externalId>false</externalId>
+        <label>Field Service Representative</label>
+        <referenceTo>CIS_FieldServiceRepresentative__c</referenceTo>
+        <relationshipLabel>CIS Competencies</relationshipLabel>
+        <relationshipName>Service_Center_Competencies</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>CIS_ProductFamily__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>CIS_Family__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>LV Protection Circuit Breaker</fullName>
+                    <default>false</default>
+                    <label>LV Protection Circuit Breaker</label>
+                </value>
+                <value>
+                    <fullName>Multi 9</fullName>
+                    <default>false</default>
+                    <label>Multi 9</label>
+                </value>
+                <value>
+                    <fullName>Compact</fullName>
+                    <default>false</default>
+                    <label>Compact</label>
+                </value>
+                <value>
+                    <fullName>Compact NS</fullName>
+                    <default>false</default>
+                    <label>Compact NS</label>
+                </value>
+                <value>
+                    <fullName>Network monitoring</fullName>
+                    <default>false</default>
+                    <label>Network monitoring</label>
+                </value>
+                <value>
+                    <fullName>Vigirex</fullName>
+                    <default>false</default>
+                    <label>Vigirex</label>
+                </value>
+                <value>
+                    <fullName>Vigilhom</fullName>
+                    <default>false</default>
+                    <label>Vigilhom</label>
+                </value>
+                <value>
+                    <fullName>Vigilhom system</fullName>
+                    <default>false</default>
+                    <label>Vigilhom system</label>
+                </value>
+                <value>
+                    <fullName>Dialpact</fullName>
+                    <default>false</default>
+                    <label>Dialpact</label>
+                </value>
+                <value>
+                    <fullName>Digipact</fullName>
+                    <default>false</default>
+                    <label>Digipact</label>
+                </value>
+                <value>
+                    <fullName>Powerlogic</fullName>
+                    <default>false</default>
+                    <label>Powerlogic</label>
+                </value>
+                <value>
+                    <fullName>Powerlink</fullName>
+                    <default>false</default>
+                    <label>Powerlink</label>
+                </value>
+                <value>
+                    <fullName>Circuit Motor</fullName>
+                    <default>false</default>
+                    <label>Circuit Motor</label>
+                </value>
+                <value>
+                    <fullName>Overload LV protection</fullName>
+                    <default>false</default>
+                    <label>Overload LV protection</label>
+                </value>
+                <value>
+                    <fullName>Masterpact</fullName>
+                    <default>false</default>
+                    <label>Masterpact</label>
+                </value>
+                <value>
+                    <fullName>DA</fullName>
+                    <default>false</default>
+                    <label>DA</label>
+                </value>
+                <value>
+                    <fullName>Selpact</fullName>
+                    <default>false</default>
+                    <label>Selpact</label>
+                </value>
+                <value>
+                    <fullName>Square D circuit breaker</fullName>
+                    <default>false</default>
+                    <label>Square D circuit breaker</label>
+                </value>
+                <value>
+                    <fullName>LV Panel &amp; Systems</fullName>
+                    <default>false</default>
+                    <label>LV Panel &amp; Systems</label>
+                </value>
+                <value>
+                    <fullName>Masterbloc</fullName>
+                    <default>false</default>
+                    <label>Masterbloc</label>
+                </value>
+                <value>
+                    <fullName>Digibloc</fullName>
+                    <default>false</default>
+                    <label>Digibloc</label>
+                </value>
+                <value>
+                    <fullName>Blockset</fullName>
+                    <default>false</default>
+                    <label>Blockset</label>
+                </value>
+                <value>
+                    <fullName>TMD, TDI, TMI panels</fullName>
+                    <default>false</default>
+                    <label>TMD, TDI, TMI panels</label>
+                </value>
+                <value>
+                    <fullName>SNA panels</fullName>
+                    <default>false</default>
+                    <label>SNA panels</label>
+                </value>
+                <value>
+                    <fullName>MV Primary Distribution</fullName>
+                    <default>false</default>
+                    <label>MV Primary Distribution</label>
+                </value>
+                <value>
+                    <fullName>Powerclad cubicles</fullName>
+                    <default>false</default>
+                    <label>Powerclad cubicles</label>
+                </value>
+                <value>
+                    <fullName>Fluair F100, F200, F300, F400 cubicles</fullName>
+                    <default>false</default>
+                    <label>Fluair F100, F200, F300, F400 cubicles</label>
+                </value>
+                <value>
+                    <fullName>MCSet 1, 2, 3, 4 cubicles</fullName>
+                    <default>false</default>
+                    <label>MCSet 1, 2, 3, 4 cubicles</label>
+                </value>
+                <value>
+                    <fullName>MC500 cubicles</fullName>
+                    <default>false</default>
+                    <label>MC500 cubicles</label>
+                </value>
+                <value>
+                    <fullName>CR cubicles</fullName>
+                    <default>false</default>
+                    <label>CR cubicles</label>
+                </value>
+                <value>
+                    <fullName>Venus cubicles</fullName>
+                    <default>false</default>
+                    <label>Venus cubicles</label>
+                </value>
+                <value>
+                    <fullName>YSF6 cubicles</fullName>
+                    <default>false</default>
+                    <label>YSF6 cubicles</label>
+                </value>
+                <value>
+                    <fullName>GM6 cubicles</fullName>
+                    <default>false</default>
+                    <label>GM6 cubicles</label>
+                </value>
+                <value>
+                    <fullName>Genie cubicles</fullName>
+                    <default>false</default>
+                    <label>Genie cubicles</label>
+                </value>
+                <value>
+                    <fullName>Gmset cubicles</fullName>
+                    <default>false</default>
+                    <label>Gmset cubicles</label>
+                </value>
+                <value>
+                    <fullName>CBG cubicles</fullName>
+                    <default>false</default>
+                    <label>CBG cubicles</label>
+                </value>
+                <value>
+                    <fullName>SO-HI circuit breaker</fullName>
+                    <default>false</default>
+                    <label>SO-HI circuit breaker</label>
+                </value>
+                <value>
+                    <fullName>DSE circuit breaker</fullName>
+                    <default>false</default>
+                    <label>DSE circuit breaker</label>
+                </value>
+                <value>
+                    <fullName>DIS circuit breaker</fullName>
+                    <default>false</default>
+                    <label>DIS circuit breaker</label>
+                </value>
+                <value>
+                    <fullName>FG, FB circuit breaker</fullName>
+                    <default>false</default>
+                    <label>FG, FB circuit breaker</label>
+                </value>
+                <value>
+                    <fullName>SF1, 2 Sfset circuit breaker</fullName>
+                    <default>false</default>
+                    <label>SF1, 2 Sfset circuit breaker</label>
+                </value>
+                <value>
+                    <fullName>LF1, 2, 3 circuit breaker</fullName>
+                    <default>false</default>
+                    <label>LF1, 2, 3 circuit breaker</label>
+                </value>
+                <value>
+                    <fullName>VAD circuit breaker : VAD2, 3, 4</fullName>
+                    <default>false</default>
+                    <label>VAD circuit breaker : VAD2, 3, 4</label>
+                </value>
+                <value>
+                    <fullName>7F 650L NMG circuit breaker</fullName>
+                    <default>false</default>
+                    <label>7F 650L NMG circuit breaker</label>
+                </value>
+                <value>
+                    <fullName>C, CD, K, KD contactor</fullName>
+                    <default>false</default>
+                    <label>C, CD, K, KD contactor</label>
+                </value>
+                <value>
+                    <fullName>Rollarc : R100, 200, 400 contactor</fullName>
+                    <default>false</default>
+                    <label>Rollarc : R100, 200, 400 contactor</label>
+                </value>
+                <value>
+                    <fullName>MV Secondary Distribution</fullName>
+                    <default>false</default>
+                    <label>MV Secondary Distribution</label>
+                </value>
+                <value>
+                    <fullName>V23, V60 Cubicle</fullName>
+                    <default>false</default>
+                    <label>V23, V60 Cubicle</label>
+                </value>
+                <value>
+                    <fullName>V500, V700 Cubicle</fullName>
+                    <default>false</default>
+                    <label>V500, V700 Cubicle</label>
+                </value>
+                <value>
+                    <fullName>VM6 Cubicle</fullName>
+                    <default>false</default>
+                    <label>VM6 Cubicle</label>
+                </value>
+                <value>
+                    <fullName>SM6 Cubicle</fullName>
+                    <default>false</default>
+                    <label>SM6 Cubicle</label>
+                </value>
+                <value>
+                    <fullName>HVL Cubicle</fullName>
+                    <default>false</default>
+                    <label>HVL Cubicle</label>
+                </value>
+                <value>
+                    <fullName>Visi / Vac Cubicle</fullName>
+                    <default>false</default>
+                    <label>Visi / Vac Cubicle</label>
+                </value>
+                <value>
+                    <fullName>RM6 modular Cubicle</fullName>
+                    <default>false</default>
+                    <label>RM6 modular Cubicle</label>
+                </value>
+                <value>
+                    <fullName>RINGMASTER modular Cubicle</fullName>
+                    <default>false</default>
+                    <label>RINGMASTER modular Cubicle</label>
+                </value>
+                <value>
+                    <fullName>PM6 aerial circuit breaker</fullName>
+                    <default>false</default>
+                    <label>PM6 aerial circuit breaker</label>
+                </value>
+                <value>
+                    <fullName>DVCAS</fullName>
+                    <default>false</default>
+                    <label>DVCAS</label>
+                </value>
+                <value>
+                    <fullName>Network management</fullName>
+                    <default>false</default>
+                    <label>Network management</label>
+                </value>
+                <value>
+                    <fullName>Vigirack protection relay</fullName>
+                    <default>false</default>
+                    <label>Vigirack protection relay</label>
+                </value>
+                <value>
+                    <fullName>Statimax protection relay</fullName>
+                    <default>false</default>
+                    <label>Statimax protection relay</label>
+                </value>
+                <value>
+                    <fullName>VIP protection relay</fullName>
+                    <default>false</default>
+                    <label>VIP protection relay</label>
+                </value>
+                <value>
+                    <fullName>SEPAM 15 protection relay</fullName>
+                    <default>false</default>
+                    <label>SEPAM 15 protection relay</label>
+                </value>
+                <value>
+                    <fullName>SEPAM 1000/2000 protection relay</fullName>
+                    <default>false</default>
+                    <label>SEPAM 1000/2000 protection relay</label>
+                </value>
+                <value>
+                    <fullName>TALUS 200 MV/LV control command</fullName>
+                    <default>false</default>
+                    <label>TALUS 200 MV/LV control command</label>
+                </value>
+                <value>
+                    <fullName>TALUS 2000 MV/LV control command</fullName>
+                    <default>false</default>
+                    <label>TALUS 2000 MV/LV control command</label>
+                </value>
+                <value>
+                    <fullName>ES100 control command</fullName>
+                    <default>false</default>
+                    <label>ES100 control command</label>
+                </value>
+                <value>
+                    <fullName>ITI enclosure</fullName>
+                    <default>false</default>
+                    <label>ITI enclosure</label>
+                </value>
+                <value>
+                    <fullName>SCADA/DAS : MILENIUM 8500, 8200, 8100</fullName>
+                    <default>false</default>
+                    <label>SCADA/DAS : MILENIUM 8500, 8200, 8100</label>
+                </value>
+                <value>
+                    <fullName>Distribution Transformer MV / LV</fullName>
+                    <default>false</default>
+                    <label>Distribution Transformer MV / LV</label>
+                </value>
+                <value>
+                    <fullName>MV/LV Dry Transformer</fullName>
+                    <default>false</default>
+                    <label>MV/LV Dry Transformer</label>
+                </value>
+                <value>
+                    <fullName>MV/LV Immersed Transformer</fullName>
+                    <default>false</default>
+                    <label>MV/LV Immersed Transformer</label>
+                </value>
+                <value>
+                    <fullName>MV/MV Dry Transformer</fullName>
+                    <default>false</default>
+                    <label>MV/MV Dry Transformer</label>
+                </value>
+                <value>
+                    <fullName>MV/MV Immersed Transformer</fullName>
+                    <default>false</default>
+                    <label>MV/MV Immersed Transformer</label>
+                </value>
+                <value>
+                    <fullName>Filtering and Power Factor correction</fullName>
+                    <default>false</default>
+                    <label>Filtering and Power Factor correction</label>
+                </value>
+                <value>
+                    <fullName>LV Capacitor</fullName>
+                    <default>false</default>
+                    <label>LV Capacitor</label>
+                </value>
+                <value>
+                    <fullName>MV Capacitor</fullName>
+                    <default>false</default>
+                    <label>MV Capacitor</label>
+                </value>
+                <value>
+                    <fullName>Application &amp; Energy system</fullName>
+                    <default>false</default>
+                    <label>Application &amp; Energy system</label>
+                </value>
+                <value>
+                    <fullName>MV/LV Ext./Int. Substations</fullName>
+                    <default>false</default>
+                    <label>MV/LV Ext./Int. Substations</label>
+                </value>
+                <value>
+                    <fullName>MV/LV Substations</fullName>
+                    <default>false</default>
+                    <label>MV/LV Substations</label>
+                </value>
+                <value>
+                    <fullName>Network Point</fullName>
+                    <default>false</default>
+                    <label>Network Point</label>
+                </value>
+                <value>
+                    <fullName>Energy control</fullName>
+                    <default>false</default>
+                    <label>Energy control</label>
+                </value>
+                <value>
+                    <fullName>Sites Application &amp; Systems Substructures &amp; building</fullName>
+                    <default>false</default>
+                    <label>Sites Application &amp; Systems Substructures &amp; building</label>
+                </value>
+                <value>
+                    <fullName>MV/MV sites/infra Substations</fullName>
+                    <default>false</default>
+                    <label>MV/MV sites/infra Substations</label>
+                </value>
+                <value>
+                    <fullName>MV/LV sites/infra Substations</fullName>
+                    <default>false</default>
+                    <label>MV/LV sites/infra Substations</label>
+                </value>
+                <value>
+                    <fullName>infra/site Distribution</fullName>
+                    <default>false</default>
+                    <label>infra/site Distribution</label>
+                </value>
+                <value>
+                    <fullName>MV/MV building Substations</fullName>
+                    <default>false</default>
+                    <label>MV/MV building Substations</label>
+                </value>
+                <value>
+                    <fullName>MV/LV building Substations</fullName>
+                    <default>false</default>
+                    <label>MV/LV building Substations</label>
+                </value>
+                <value>
+                    <fullName>Building distribution</fullName>
+                    <default>false</default>
+                    <label>Building distribution</label>
+                </value>
+                <value>
+                    <fullName>Electrical Distribution transversal capabilities</fullName>
+                    <default>false</default>
+                    <label>Electrical Distribution transversal capabilities</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+                <value>
+                    <fullName>Networks</fullName>
+                    <default>false</default>
+                    <label>Networks</label>
+                </value>
+                <value>
+                    <fullName>Marine</fullName>
+                    <default>false</default>
+                    <label>Marine</label>
+                </value>
+                <value>
+                    <fullName>Photovoltaic Systems</fullName>
+                    <default>false</default>
+                    <label>Photovoltaic Systems</label>
+                </value>
+                <value>
+                    <fullName>Motor Control</fullName>
+                    <default>false</default>
+                    <label>Motor Control</label>
+                </value>
+                <value>
+                    <fullName>by Contactor</fullName>
+                    <default>false</default>
+                    <label>by Contactor</label>
+                </value>
+                <value>
+                    <fullName>by Soft starter</fullName>
+                    <default>false</default>
+                    <label>by Soft starter</label>
+                </value>
+                <value>
+                    <fullName>by Variable Speed drive</fullName>
+                    <default>false</default>
+                    <label>by Variable Speed drive</label>
+                </value>
+                <value>
+                    <fullName>For Hoisting application</fullName>
+                    <default>false</default>
+                    <label>For Hoisting application</label>
+                </value>
+                <value>
+                    <fullName>Motion Control</fullName>
+                    <default>false</default>
+                    <label>Motion Control</label>
+                </value>
+                <value>
+                    <fullName>Controller</fullName>
+                    <default>false</default>
+                    <label>Controller</label>
+                </value>
+                <value>
+                    <fullName>Servo drives</fullName>
+                    <default>false</default>
+                    <label>Servo drives</label>
+                </value>
+                <value>
+                    <fullName>Servo motor</fullName>
+                    <default>false</default>
+                    <label>Servo motor</label>
+                </value>
+                <value>
+                    <fullName>Detection</fullName>
+                    <default>false</default>
+                    <label>Detection</label>
+                </value>
+                <value>
+                    <fullName>EMC</fullName>
+                    <default>false</default>
+                    <label>EMC</label>
+                </value>
+                <value>
+                    <fullName>Safety</fullName>
+                    <default>false</default>
+                    <label>Safety</label>
+                </value>
+                <value>
+                    <fullName>Human / Machine Interface</fullName>
+                    <default>false</default>
+                    <label>Human / Machine Interface</label>
+                </value>
+                <value>
+                    <fullName>Push-button controls</fullName>
+                    <default>false</default>
+                    <label>Push-button controls</label>
+                </value>
+                <value>
+                    <fullName>Operator dialog terminal</fullName>
+                    <default>false</default>
+                    <label>Operator dialog terminal</label>
+                </value>
+                <value>
+                    <fullName>PC based dialog terminal</fullName>
+                    <default>false</default>
+                    <label>PC based dialog terminal</label>
+                </value>
+                <value>
+                    <fullName>Scada</fullName>
+                    <default>false</default>
+                    <label>Scada</label>
+                </value>
+                <value>
+                    <fullName>Communication</fullName>
+                    <default>false</default>
+                    <label>Communication</label>
+                </value>
+                <value>
+                    <fullName>Serial link</fullName>
+                    <default>false</default>
+                    <label>Serial link</label>
+                </value>
+                <value>
+                    <fullName>Bus (ASI, Seriplex)</fullName>
+                    <default>false</default>
+                    <label>Bus (ASI, Seriplex)</label>
+                </value>
+                <value>
+                    <fullName>FieldBus I/O</fullName>
+                    <default>false</default>
+                    <label>FieldBus I/O</label>
+                </value>
+                <value>
+                    <fullName>Network</fullName>
+                    <default>false</default>
+                    <label>Network</label>
+                </value>
+                <value>
+                    <fullName>PLC&apos;s control</fullName>
+                    <default>false</default>
+                    <label>PLC&apos;s control</label>
+                </value>
+                <value>
+                    <fullName>Low end PLC&apos;s Modicon</fullName>
+                    <default>false</default>
+                    <label>Low end PLC&apos;s Modicon</label>
+                </value>
+                <value>
+                    <fullName>Low end PLC&apos;s Telemecanique</fullName>
+                    <default>false</default>
+                    <label>Low end PLC&apos;s Telemecanique</label>
+                </value>
+                <value>
+                    <fullName>High end PLC&apos;s Modicon</fullName>
+                    <default>false</default>
+                    <label>High end PLC&apos;s Modicon</label>
+                </value>
+                <value>
+                    <fullName>High end PLC&apos;s Telemecanique</fullName>
+                    <default>false</default>
+                    <label>High end PLC&apos;s Telemecanique</label>
+                </value>
+                <value>
+                    <fullName>High end PLC&apos;s Siemens</fullName>
+                    <default>false</default>
+                    <label>High end PLC&apos;s Siemens</label>
+                </value>
+                <value>
+                    <fullName>High end PLC&apos;s Rockwell</fullName>
+                    <default>false</default>
+                    <label>High end PLC&apos;s Rockwell</label>
+                </value>
+                <value>
+                    <fullName>Process Control</fullName>
+                    <default>false</default>
+                    <label>Process Control</label>
+                </value>
+                <value>
+                    <fullName>Process Control &quot;Advanced Control&quot;</fullName>
+                    <default>false</default>
+                    <label>Process Control &quot;Advanced Control&quot;</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Language PL7</fullName>
+                    <default>false</default>
+                    <label>Language PL7</label>
+                </value>
+                <value>
+                    <fullName>Language Concept</fullName>
+                    <default>false</default>
+                    <label>Language Concept</label>
+                </value>
+                <value>
+                    <fullName>Language Proworx</fullName>
+                    <default>false</default>
+                    <label>Language Proworx</label>
+                </value>
+                <value>
+                    <fullName>Diagnostics PL7 Diag</fullName>
+                    <default>false</default>
+                    <label>Diagnostics PL7 Diag</label>
+                </value>
+                <value>
+                    <fullName>Diagnostics SMS</fullName>
+                    <default>false</default>
+                    <label>Diagnostics SMS</label>
+                </value>
+                <value>
+                    <fullName>Language Unity</fullName>
+                    <default>false</default>
+                    <label>Language Unity</label>
+                </value>
+                <value>
+                    <fullName>Language STEP 5 STEP 7</fullName>
+                    <default>false</default>
+                    <label>Language STEP 5 STEP 7</label>
+                </value>
+                <value>
+                    <fullName>Remote control</fullName>
+                    <default>false</default>
+                    <label>Remote control</label>
+                </value>
+                <value>
+                    <fullName>Redundant Systems</fullName>
+                    <default>false</default>
+                    <label>Redundant Systems</label>
+                </value>
+                <value>
+                    <fullName>Weighing</fullName>
+                    <default>false</default>
+                    <label>Weighing</label>
+                </value>
+                <value>
+                    <fullName>Distribution, Protection, Relay</fullName>
+                    <default>false</default>
+                    <label>Distribution, Protection, Relay</label>
+                </value>
+                <value>
+                    <fullName>HHP Drives</fullName>
+                    <default>false</default>
+                    <label>HHP Drives</label>
+                </value>
+                <value>
+                    <fullName>HHP ATV 61 Plus</fullName>
+                    <default>false</default>
+                    <label>HHP ATV 61 Plus</label>
+                </value>
+                <value>
+                    <fullName>HHP ATV 71 Plus (Cabinet/VHP)</fullName>
+                    <default>false</default>
+                    <label>HHP ATV 71 Plus (Cabinet/VHP)</label>
+                </value>
+                <value>
+                    <fullName>Active Front End</fullName>
+                    <default>false</default>
+                    <label>Active Front End</label>
+                </value>
+                <value>
+                    <fullName>XANTREX inverters</fullName>
+                    <default>false</default>
+                    <label>XANTREX inverters</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>PLC&apos;s control</controllingFieldValue>
+                <valueName>PLC&apos;s control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PLC&apos;s control</controllingFieldValue>
+                <valueName>Low end PLC&apos;s Modicon</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PLC&apos;s control</controllingFieldValue>
+                <valueName>Low end PLC&apos;s Telemecanique</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PLC&apos;s control</controllingFieldValue>
+                <valueName>High end PLC&apos;s Modicon</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PLC&apos;s control</controllingFieldValue>
+                <valueName>High end PLC&apos;s Telemecanique</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PLC&apos;s control</controllingFieldValue>
+                <valueName>High end PLC&apos;s Siemens</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PLC&apos;s control</controllingFieldValue>
+                <valueName>High end PLC&apos;s Rockwell</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Process Control</controllingFieldValue>
+                <controllingFieldValue>Motor Control</controllingFieldValue>
+                <valueName>by Variable Speed drive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Process Control</controllingFieldValue>
+                <valueName>Process Control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Process Control</controllingFieldValue>
+                <valueName>Process Control &quot;Advanced Control&quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Software</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Language PL7</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Language Concept</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Language Proworx</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Diagnostics PL7 Diag</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Diagnostics SMS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Language Unity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Language STEP 5 STEP 7</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Remote control</controllingFieldValue>
+                <valueName>Remote control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Redundant Systems</controllingFieldValue>
+                <valueName>Redundant Systems</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Weighing</controllingFieldValue>
+                <valueName>Weighing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distribution, Protection, Relay</controllingFieldValue>
+                <valueName>Distribution, Protection, Relay</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>HHP Drives</controllingFieldValue>
+                <valueName>HHP Drives</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>HHP Drives</controllingFieldValue>
+                <valueName>HHP ATV 61 Plus</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>HHP Drives</controllingFieldValue>
+                <valueName>HHP ATV 71 Plus (Cabinet/VHP)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>HHP Drives</controllingFieldValue>
+                <valueName>Active Front End</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>XANTREX inverters</controllingFieldValue>
+                <valueName>XANTREX inverters</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application &amp; Energy system</controllingFieldValue>
+                <valueName>Application &amp; Energy system</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application &amp; Energy system</controllingFieldValue>
+                <valueName>MV/LV Ext./Int. Substations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application &amp; Energy system</controllingFieldValue>
+                <valueName>MV/LV Substations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application &amp; Energy system</controllingFieldValue>
+                <valueName>Network Point</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application &amp; Energy system</controllingFieldValue>
+                <valueName>Energy control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sites Application &amp; Systems Substructures &amp; building</controllingFieldValue>
+                <valueName>Sites Application &amp; Systems Substructures &amp; building</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sites Application &amp; Systems Substructures &amp; building</controllingFieldValue>
+                <valueName>MV/MV sites/infra Substations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sites Application &amp; Systems Substructures &amp; building</controllingFieldValue>
+                <valueName>MV/LV sites/infra Substations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sites Application &amp; Systems Substructures &amp; building</controllingFieldValue>
+                <valueName>infra/site Distribution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sites Application &amp; Systems Substructures &amp; building</controllingFieldValue>
+                <valueName>MV/MV building Substations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sites Application &amp; Systems Substructures &amp; building</controllingFieldValue>
+                <valueName>MV/LV building Substations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sites Application &amp; Systems Substructures &amp; building</controllingFieldValue>
+                <valueName>Building distribution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution transversal capabilities</controllingFieldValue>
+                <valueName>Electrical Distribution transversal capabilities</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution transversal capabilities</controllingFieldValue>
+                <valueName>Installation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical Distribution transversal capabilities</controllingFieldValue>
+                <valueName>Networks</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marine</controllingFieldValue>
+                <valueName>Marine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Photovoltaic Systems</controllingFieldValue>
+                <valueName>Photovoltaic Systems</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Motor Control</controllingFieldValue>
+                <valueName>Motor Control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Motor Control</controllingFieldValue>
+                <valueName>by Contactor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Motor Control</controllingFieldValue>
+                <valueName>by Soft starter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Motor Control</controllingFieldValue>
+                <valueName>For Hoisting application</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Motion Control</controllingFieldValue>
+                <valueName>Motion Control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Motion Control</controllingFieldValue>
+                <valueName>Controller</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Motion Control</controllingFieldValue>
+                <valueName>Servo drives</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Motion Control</controllingFieldValue>
+                <valueName>Servo motor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Detection</controllingFieldValue>
+                <valueName>Detection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EMC</controllingFieldValue>
+                <valueName>EMC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Safety</controllingFieldValue>
+                <valueName>Safety</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Protection Circuit Breaker</controllingFieldValue>
+                <valueName>LV Protection Circuit Breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Protection Circuit Breaker</controllingFieldValue>
+                <valueName>Multi 9</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Protection Circuit Breaker</controllingFieldValue>
+                <valueName>Compact</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Protection Circuit Breaker</controllingFieldValue>
+                <valueName>Compact NS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network monitoring</controllingFieldValue>
+                <valueName>Network monitoring</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network monitoring</controllingFieldValue>
+                <valueName>Vigirex</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network monitoring</controllingFieldValue>
+                <valueName>Vigilhom</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network monitoring</controllingFieldValue>
+                <valueName>Vigilhom system</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network monitoring</controllingFieldValue>
+                <valueName>Dialpact</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network monitoring</controllingFieldValue>
+                <valueName>Digipact</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network monitoring</controllingFieldValue>
+                <valueName>Powerlogic</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network monitoring</controllingFieldValue>
+                <valueName>Powerlink</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network monitoring</controllingFieldValue>
+                <valueName>Circuit Motor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Overload LV protection</controllingFieldValue>
+                <valueName>Overload LV protection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Overload LV protection</controllingFieldValue>
+                <valueName>Masterpact</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Overload LV protection</controllingFieldValue>
+                <valueName>DA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Overload LV protection</controllingFieldValue>
+                <valueName>Selpact</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Overload LV protection</controllingFieldValue>
+                <valueName>Square D circuit breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Panel &amp; Systems</controllingFieldValue>
+                <valueName>LV Panel &amp; Systems</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Panel &amp; Systems</controllingFieldValue>
+                <valueName>Masterbloc</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Panel &amp; Systems</controllingFieldValue>
+                <valueName>Digibloc</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Panel &amp; Systems</controllingFieldValue>
+                <valueName>Blockset</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Panel &amp; Systems</controllingFieldValue>
+                <valueName>TMD, TDI, TMI panels</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LV Panel &amp; Systems</controllingFieldValue>
+                <valueName>SNA panels</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>MV Primary Distribution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>Powerclad cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>Fluair F100, F200, F300, F400 cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>MCSet 1, 2, 3, 4 cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>MC500 cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>CR cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>Venus cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>YSF6 cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>GM6 cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>Genie cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>Gmset cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>CBG cubicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>SO-HI circuit breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>DSE circuit breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>DIS circuit breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>FG, FB circuit breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>SF1, 2 Sfset circuit breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>LF1, 2, 3 circuit breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>VAD circuit breaker : VAD2, 3, 4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>7F 650L NMG circuit breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>C, CD, K, KD contactor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Primary Distribution</controllingFieldValue>
+                <valueName>Rollarc : R100, 200, 400 contactor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>MV Secondary Distribution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>V23, V60 Cubicle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>V500, V700 Cubicle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>VM6 Cubicle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>SM6 Cubicle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>HVL Cubicle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>Visi / Vac Cubicle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>RM6 modular Cubicle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>RINGMASTER modular Cubicle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>PM6 aerial circuit breaker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MV Secondary Distribution</controllingFieldValue>
+                <valueName>DVCAS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>Network management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>Vigirack protection relay</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>Statimax protection relay</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>VIP protection relay</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>SEPAM 15 protection relay</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>SEPAM 1000/2000 protection relay</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>TALUS 200 MV/LV control command</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>TALUS 2000 MV/LV control command</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>ES100 control command</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>ITI enclosure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network management</controllingFieldValue>
+                <valueName>SCADA/DAS : MILENIUM 8500, 8200, 8100</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distribution Transformer MV / LV</controllingFieldValue>
+                <valueName>Distribution Transformer MV / LV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distribution Transformer MV / LV</controllingFieldValue>
+                <valueName>MV/LV Dry Transformer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distribution Transformer MV / LV</controllingFieldValue>
+                <valueName>MV/LV Immersed Transformer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distribution Transformer MV / LV</controllingFieldValue>
+                <valueName>MV/MV Dry Transformer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distribution Transformer MV / LV</controllingFieldValue>
+                <valueName>MV/MV Immersed Transformer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Filtering and Power Factor correction</controllingFieldValue>
+                <valueName>Filtering and Power Factor correction</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Filtering and Power Factor correction</controllingFieldValue>
+                <valueName>LV Capacitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Filtering and Power Factor correction</controllingFieldValue>
+                <valueName>MV Capacitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human / Machine Interface</controllingFieldValue>
+                <valueName>Human / Machine Interface</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human / Machine Interface</controllingFieldValue>
+                <valueName>Push-button controls</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human / Machine Interface</controllingFieldValue>
+                <valueName>Operator dialog terminal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human / Machine Interface</controllingFieldValue>
+                <valueName>PC based dialog terminal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human / Machine Interface</controllingFieldValue>
+                <valueName>Scada</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Communication</controllingFieldValue>
+                <valueName>Communication</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Communication</controllingFieldValue>
+                <valueName>Serial link</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Communication</controllingFieldValue>
+                <valueName>Bus (ASI, Seriplex)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Communication</controllingFieldValue>
+                <valueName>FieldBus I/O</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Communication</controllingFieldValue>
+                <valueName>Network</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CIS_ServiceCenter__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Center</label>
+        <referenceTo>CIS_ServiceCenter__c</referenceTo>
+        <relationshipLabel>CIS Competencies</relationshipLabel>
+        <relationshipName>Service_Center_Competencies</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>CIS_Skills__c</fullName>
+        <externalId>false</externalId>
+        <label>Skills</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Install, wire</fullName>
+                    <default>false</default>
+                    <label>Install, wire</label>
+                </value>
+                <value>
+                    <fullName>Start up, fix, maintain</fullName>
+                    <default>false</default>
+                    <label>Start up, fix, maintain</label>
+                </value>
+                <value>
+                    <fullName>Adjust, configure</fullName>
+                    <default>false</default>
+                    <label>Adjust, configure</label>
+                </value>
+                <value>
+                    <fullName>Analyse/control a communication network</fullName>
+                    <default>false</default>
+                    <label>Analyse/control a communication network</label>
+                </value>
+                <value>
+                    <fullName>Repair a product</fullName>
+                    <default>false</default>
+                    <label>Repair a product</label>
+                </value>
+                <value>
+                    <fullName>Train</fullName>
+                    <default>false</default>
+                    <label>Train</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>CIS Competency</label>
+    <nameField>
+        <displayFormat>C-{0000000000}</displayFormat>
+        <label>Competency Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>CIS Competencies</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>CIS_New_Compentency</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New CIS Compentency</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/aAP/e?
+
+CF00Nm0000000QXih={!CIS_ServiceCenter__c.Name}
+&amp;
+retURL=%2F{!CIS_ServiceCenter__c.Id}</url>
+    </webLinks>
+</CustomObject>

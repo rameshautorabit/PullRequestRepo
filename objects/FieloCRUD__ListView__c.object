@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>F_PRM_Scope__c</fullName>
+        <description>Used to define the limits of this list view: Global if it&apos;s used by all countries or Local if it&apos;s used for only one contry</description>
+        <externalId>false</externalId>
+        <label>Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>false</default>
+                    <label>Global</label>
+                </value>
+                <value>
+                    <fullName>Local</fullName>
+                    <default>false</default>
+                    <label>Local</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__BorderedTable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check for borders on all sides of the table and cells</inlineHelpText>
+        <label>Bordered table</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__CondensedTable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to make tables more compact by cutting cell padding in half</inlineHelpText>
+        <label>Condensed table</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__DateFilterBuddhistEra__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date Filter Buddhist Era</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__DateFilter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Define by which date or date/time field (API name) the user can filter records for. If this field is null then date filter functionality will be hidden.</inlineHelpText>
+        <label>Date Filter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__DeleteActionMenu__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Override the delete action by adding a menu that handles record deletion through the list view or related list.</inlineHelpText>
+        <label>Delete Action Menu</label>
+        <referenceTo>FieloEE__Menu__c</referenceTo>
+        <relationshipLabel>Delete Actions from List Views</relationshipLabel>
+        <relationshipName>ListViewDeleteAction</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__DeletionFrom__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Define whether the deletion of the record will be done directly on the list view, on the delete action menu or if there is no delete action on the list view / related list.</inlineHelpText>
+        <label>Deletion From</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                    <label>List</label>
+                </value>
+                <value>
+                    <fullName>Action Menu</fullName>
+                    <default>false</default>
+                    <label>Action Menu</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__DetailActionMenu__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Menu that handles record view through the list view or related list. Commonly is a menu that contains a CRUD component but it can also be a custom page.</inlineHelpText>
+        <label>Detail Action Menu</label>
+        <referenceTo>FieloEE__Menu__c</referenceTo>
+        <relationshipLabel>Detail Actions from List Views</relationshipLabel>
+        <relationshipName>ListViewDetailAction</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__DisplayRecordsPerPage__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Display Records Per Page</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Top</fullName>
+                    <default>false</default>
+                    <label>Top</label>
+                </value>
+                <value>
+                    <fullName>Bottom</fullName>
+                    <default>false</default>
+                    <label>Bottom</label>
+                </value>
+                <value>
+                    <fullName>Both</fullName>
+                    <default>false</default>
+                    <label>Both</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__EditActionMenu__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Menu that handles record edition through the list view or related list. Commonly is a menu that contains a CRUD component but it can also be a custom page.</inlineHelpText>
+        <label>Edit Action Menu</label>
+        <referenceTo>FieloEE__Menu__c</referenceTo>
+        <relationshipLabel>Edit Actions from List Views</relationshipLabel>
+        <relationshipName>ListViewEditAction</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__FieldConditionForDeleteAction__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Define the field API name that will determine if the delete action appears. Ex.: If you don&apos;t want users to delete invoice records that are already approved, complete this  field with Approved__c for instance.</inlineHelpText>
+        <label>Field Condition For Delete Action</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__FieldConditionForEditAction__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Define the field API name that will determine if the edit action appears. Ex.: If you don&apos;t want users to edit invoice records that are already approved, complete this  field with Approved__c for instance.</inlineHelpText>
+        <label>Field Condition For Edit Action</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__FieldSet__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Define which columns (field API names separated by comma) are going to be display and in which order. You may include any field from the related object setting but not fields from a relationship.</inlineHelpText>
+        <label>FieldSet</label>
+        <length>1000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__HideHeader__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this to hide the list view&apos;s header</inlineHelpText>
+        <label>Hide Header</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__HideSearch__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Hide Search</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__HoverRows__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to make tables more compact by cutting cell padding in half</inlineHelpText>
+        <label>Hover rows</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__LabelDateFilterFrom__c</fullName>
+        <defaultValue>&apos;ListView_DateFilterFrom&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Label Date Filter From</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__LabelDateFilterSearchButton__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Label Date Filter Search Button</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__LabelDateFilterTo__c</fullName>
+        <defaultValue>&apos;ListView_DateFilterTo&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Label Date Filter To</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__LabelEmptyList__c</fullName>
+        <defaultValue>&apos;ListView_NoRecords&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Label Empty List</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__LabelNewAction__c</fullName>
+        <defaultValue>&apos;ListView_New&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Label New Action</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__LabelViewName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The View name label replaces the view name within the related views picklist</inlineHelpText>
+        <label>Label View Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__LinkField__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Define the field API name that will work as a link redirecting the user to see the detail of a record. If this field is null, then the user won&apos;t be able to see the record detail.</inlineHelpText>
+        <label>Link Field</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ManageRecordsPerPage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>By checking this field the user will be able to choose how many records to display per page. Options are 10, 25, 50 or 100 records per page.</inlineHelpText>
+        <label>zz_deprecated_Manage Records Per Page</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__Navigation__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Navigation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Navigate</fullName>
+                    <default>true</default>
+                    <label>Navigate</label>
+                </value>
+                <value>
+                    <fullName>Target</fullName>
+                    <default>false</default>
+                    <label>Target</label>
+                </value>
+                <value>
+                    <fullName>No page</fullName>
+                    <default>false</default>
+                    <label>No page</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__NewActionMenu__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Menu that handles record creation through the list view or related list. Commonly is a menu that contains a CRUD component but it can also be a custom page.</inlineHelpText>
+        <label>New Action Menu</label>
+        <referenceTo>FieloEE__Menu__c</referenceTo>
+        <relationshipLabel>New Actions from List Views</relationshipLabel>
+        <relationshipName>ListViewNewAction</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ObjectAPIName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>FieloCRUD__ObjectSettings__r.FieloCRUD__ObjectAPIName__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Object API Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ObjectSettings__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Object Settings</label>
+        <referenceTo>FieloCRUD__ObjectSettings__c</referenceTo>
+        <relationshipLabel>List Views</relationshipLabel>
+        <relationshipName>ListViews</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__Object__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(FieloCRUD__ObjectSettings__c)), FieloCRUD__ObjectSettings__r.FieloCRUD__ObjectAPIName__c, FieloCRUD__RelatedListObjectAPIName__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Object</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__Order__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__PageLayout__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Page Layout</label>
+        <referenceTo>FieloCRUD__PageLayout__c</referenceTo>
+        <relationshipLabel>Related Lists</relationshipLabel>
+        <relationshipName>RelatedLists</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__PageSize__c</fullName>
+        <defaultValue>10</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Page Size</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ParentField__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Complete with the API name of the lookup field that relates the object defined on &quot;Related List Object API Name&quot; with the object setting of the page layout.</inlineHelpText>
+        <label>Parent Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ProxyDateFrom__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date From</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ProxyDateTo__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date To</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__RecordTypeName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>RecordType.Name</formula>
+        <label>Record Type Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__RedirectAfterNew__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Define where the user will be redirected after record creation, whether to the record detail or the list view / related list.</inlineHelpText>
+        <label>Redirect After New</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Detail</fullName>
+                    <default>true</default>
+                    <label>Detail</label>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                    <label>List</label>
+                </value>
+                <value>
+                    <fullName>Parent</fullName>
+                    <default>false</default>
+                    <label>Parent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ReflectionClassName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reflection Class Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__RelatedListObjectAPIName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Complete with the Object API name of the records that you want to display on the related list.</inlineHelpText>
+        <label>Related List Object API Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ScrollRows__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Scroll Rows</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ScrollTable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Scroll Table</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__SearchFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Works only with Text Fields</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Define by which fields (API names separated by comma) the user can search records for. If this field is null then search functionality will be hidden.</inlineHelpText>
+        <label>Search Fields</label>
+        <length>1000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ShowActionsColumn__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Show Actions Column</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__SiteName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The site name replaces the object plural name (for related lists).</inlineHelpText>
+        <label>Site Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__StripedRows__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to add zebra-striping to any table row</inlineHelpText>
+        <label>Striped rows</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ValueConditionForDeleteAction__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Complete with the value that the field defined on &quot;Field Condition For Delete Action&quot; should take in order to display the delete action. Ex.: If you don&apos;t want users to delete invoice records that are already approved, complete this field with FALSE.</inlineHelpText>
+        <label>Value Condition For Delete Action</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ValueConditionForEditAction__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Complete with the value that the field defined on &quot;Field Condition For Edit Action&quot; should take in order to display the edit action. Ex.: If you don&apos;t want users to edit invoice records that are already approved, complete this field with FALSE.</inlineHelpText>
+        <label>Value Condition For Edit Action</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__ViewName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The view name replaces the list name within the related views picklist.</inlineHelpText>
+        <label>View Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCRUD__WhereCondition__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Define your WHERE condition clause. You may include fields; ORDER BY and LIMIT clauses; and variables for Member Id, Account Id, Contact Id, UserId (ex. Member__c =: memberId)</inlineHelpText>
+        <label>Where Condition</label>
+        <length>1000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PublishingDescription__c</fullName>
+        <description>Small description of last publication</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Small description of last publication</inlineHelpText>
+        <label>PublishingDescription</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PublishingGoldenId__c</fullName>
+        <description>Track the source Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Track the source Id</inlineHelpText>
+        <label>PublishingGoldenId</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingIsUpdated__c</fullName>
+        <description>Identify if the record has been updated</description>
+        <externalId>false</externalId>
+        <formula>IF( OR(LastModifiedDate  &gt; PublishingTimestamp__c,ISBLANK(PublishingTimestamp__c)),true,false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Identify if the record has been updated</inlineHelpText>
+        <label>PublishingIsUpdated</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PublishingOdasevaId__c</fullName>
+        <externalId>true</externalId>
+        <label>PublishingOdasevaId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingPublisher__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Track who was the last publisher</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Track who was the last publisher</inlineHelpText>
+        <label>PublishingPublisher</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>PublisherFieloCRUDListViewc</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PublishingStatusImage__c</fullName>
+        <description>Identify at first sight that the record is set for publication</description>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(PublishingStatus__c),&quot;Ready for Publication&quot;,IMAGE(&quot;/img/samples/flag_green.gif&quot;,&quot;Ready for Publication&quot;),&quot;Awaiting Publication&quot;,IMAGE(&quot;/img/samples/flag_yellow.gif&quot;,&quot;Awaiting Publication&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Identify at first sight that the record is set for publication</inlineHelpText>
+        <label>PublishingStatusImage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>PublishingStatus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ready for Publication</fullName>
+                    <default>false</default>
+                    <label>Ready for Publication</label>
+                </value>
+                <value>
+                    <fullName>Awaiting Publication</fullName>
+                    <default>false</default>
+                    <label>Awaiting Publication</label>
+                </value>
+                <value>
+                    <fullName>Published</fullName>
+                    <default>false</default>
+                    <label>Published</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PublishingTimestamp__c</fullName>
+        <description>Date and time of the last publication</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date and time of the last publication</inlineHelpText>
+        <label>PublishingTimestamp</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TECH_MigrationUniqueID__c</fullName>
+        <description>Unique ID to be used by ODASEVA for synchronizing the records between environments</description>
+        <externalId>true</externalId>
+        <label>Migration Unique ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>List View</label>
+    <nameField>
+        <label>List Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>List Views</pluralLabel>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>FieloCRUD__Attachment</fullName>
+        <active>true</active>
+        <description>Is a related list of files that have been uploaded.</description>
+        <label>Attachment</label>
+        <picklistValues>
+            <picklist>F_PRM_Scope__c</picklist>
+            <values>
+                <fullName>Global</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Local</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__DeletionFrom__c</picklist>
+            <values>
+                <fullName>List</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__DisplayRecordsPerPage__c</picklist>
+            <values>
+                <fullName>Both</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bottom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__Navigation__c</picklist>
+            <values>
+                <fullName>Navigate</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Target</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__RedirectAfterNew__c</picklist>
+            <values>
+                <fullName>Detail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parent</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>FieloCRUD__ListView</fullName>
+        <active>true</active>
+        <description>List that displays records from a custom object.</description>
+        <label>List View</label>
+        <picklistValues>
+            <picklist>F_PRM_Scope__c</picklist>
+            <values>
+                <fullName>Global</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Local</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__DeletionFrom__c</picklist>
+            <values>
+                <fullName>Action Menu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>List</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__DisplayRecordsPerPage__c</picklist>
+            <values>
+                <fullName>Both</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bottom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__Navigation__c</picklist>
+            <values>
+                <fullName>Navigate</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Target</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__RedirectAfterNew__c</picklist>
+            <values>
+                <fullName>Detail</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>List</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>FieloCRUD__RelatedList</fullName>
+        <active>true</active>
+        <description>List that displays records from a custom object that are related to a particular custom object.</description>
+        <label>Related List</label>
+        <picklistValues>
+            <picklist>F_PRM_Scope__c</picklist>
+            <values>
+                <fullName>Global</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Local</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__DeletionFrom__c</picklist>
+            <values>
+                <fullName>Action Menu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>List</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__DisplayRecordsPerPage__c</picklist>
+            <values>
+                <fullName>Both</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bottom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__Navigation__c</picklist>
+            <values>
+                <fullName>Navigate</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Target</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCRUD__RedirectAfterNew__c</picklist>
+            <values>
+                <fullName>Detail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parent</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>FieloCRUD__ViewName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>FieloCRUD__ObjectAPIName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>FieloCRUD__ObjectSettings__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>FieloCRUD__Fielo_ListView_ScrollRowsCheck</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( NOT(FieloCRUD__ScrollTable__c) ,  NOT(ISNULL(FieloCRUD__ScrollRows__c)) )</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__ScrollTable__c</errorDisplayField>
+        <errorMessage>In order to set scroll rows, scroll table must be checked</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_DetailActionValidation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+	NOT(ISBLANK(FieloCRUD__LinkField__c)),
+	ISBLANK(FieloCRUD__DetailActionMenu__c)
+)</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__DetailActionMenu__c</errorDisplayField>
+        <errorMessage>In order to include a link field you must complete &quot;Detail Action Menu&quot; lookup as well.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_EditActionDependOnDetail</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+	NOT(ISBLANK(FieloCRUD__EditActionMenu__c)),
+	ISBLANK(FieloCRUD__DetailActionMenu__c)
+)</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__EditActionMenu__c</errorDisplayField>
+        <errorMessage>In order to include the edit action, you must first include the detail action menu!</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_FieldConditionDeleteAction</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(FieloCRUD__DeleteActionMenu__c)
+&amp;&amp;
+ISPICKVAL(FieloCRUD__DeletionFrom__c,&quot;Action Menu&quot;)
+&amp;&amp;
+NOT(ISBLANK(FieloCRUD__FieldConditionForDeleteAction__c))</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__FieldConditionForDeleteAction__c</errorDisplayField>
+        <errorMessage>You must complete the field &quot;Delete Action Menu&quot; if you want to add a condition to delete action when deleting from an action menu.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_FieldConditionEditAction</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(FieloCRUD__EditActionMenu__c)
+&amp;&amp;
+NOT(ISBLANK(FieloCRUD__FieldConditionForEditAction__c))</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__FieldConditionForEditAction__c</errorDisplayField>
+        <errorMessage>You must complete the field &quot;Edit Action Menu&quot; if you want to add a condition to edit action.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_LinkFieldValidation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+	NOT(ISBLANK(FieloCRUD__DetailActionMenu__c)),
+	ISBLANK(FieloCRUD__LinkField__c)
+)</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__LinkField__c</errorDisplayField>
+        <errorMessage>In order to include a detail action menu you must complete &quot;Link Field&quot; as well.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_NewActionDependOnDetail</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+	NOT(ISBLANK(FieloCRUD__NewActionMenu__c)),
+	ISBLANK(FieloCRUD__DetailActionMenu__c)
+)</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__NewActionMenu__c</errorDisplayField>
+        <errorMessage>In order to include the creation action, you must first include the detail action menu!</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_ObjectSettingMandatory</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(
+	AND(RecordType.DeveloperName = &quot;List&quot;,ISBLANK(FieloCRUD__ObjectSettings__c  )),
+	TRUE,
+	FALSE
+)</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__ObjectSettings__c</errorDisplayField>
+        <errorMessage>You must include an object setting for Lists with &quot;List View&quot; record type.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_PageSizeValidValues</fullName>
+        <active>true</active>
+        <errorConditionFormula>FieloCRUD__PageSize__c &lt; 1  || FieloCRUD__PageSize__c &gt; 100</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__PageSize__c</errorDisplayField>
+        <errorMessage>Page Size must be between 1 and 100.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_PageSizeValidValuesWithManageRe</fullName>
+        <active>true</active>
+        <description>Validates page size valid values when &quot;Manage Records Per Page&quot; is true.</description>
+        <errorConditionFormula>AND(
+	NOT(ISBLANK(TEXT(FieloCRUD__DisplayRecordsPerPage__c))),
+	FieloCRUD__PageSize__c &lt;&gt; 10,
+	FieloCRUD__PageSize__c &lt;&gt; 25,
+	FieloCRUD__PageSize__c &lt;&gt; 50,
+	FieloCRUD__PageSize__c &lt;&gt; 100
+)</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__PageSize__c</errorDisplayField>
+        <errorMessage>When &quot;Manage Records Per Page&quot; is checked, the only valid values for page size are: 10, 25, 50 and 100.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_ValueConditionDeleteAction</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(FieloCRUD__DeleteActionMenu__c)
+&amp;&amp;
+ISPICKVAL(FieloCRUD__DeletionFrom__c,&quot;Action Menu&quot;)
+&amp;&amp;
+NOT(ISBLANK(FieloCRUD__ValueConditionForDeleteAction__c))</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__ValueConditionForDeleteAction__c</errorDisplayField>
+        <errorMessage>You must complete the field &quot;Delete Action Menu&quot; if you want to add a condition to delete action when deleting from an action menu.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCRUD__ListView_ValueConditionEditAction</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(FieloCRUD__EditActionMenu__c)
+&amp;&amp;
+NOT(ISBLANK(FieloCRUD__ValueConditionForEditAction__c))</errorConditionFormula>
+        <errorDisplayField>FieloCRUD__ValueConditionForEditAction__c</errorDisplayField>
+        <errorMessage>You must complete the field &quot;Edit Action Menu&quot; if you want to add a condition to edit action.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>FieloCRUD__AddAttachmentsList</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add Attachments List</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/apex.js&quot;)}
+
+var pageLayoutFieldId = sforce.apex.execute(
+   &quot;FieloCRUD.CRUDUtilities&quot;,
+   &quot;getFieldId&quot;,
+   {theObject:&apos;ListView__c&apos;,theField:&apos;PageLayout__c&apos;}
+);
+
+var rtId = sforce.apex.execute(
+   &quot;FieloCRUD.CRUDUtilities&quot;,
+   &quot;getRecordTypeId&quot;,
+   {theObject:&apos;FieloCRUD__ListView__c&apos;,rtDevName:&apos;Attachment&apos;}
+);
+
+var urlRet = &apos;/&apos; + &apos;{!$ObjectType.FieloCRUD__ListView__c}&apos; + &apos;/e?&apos;;
+urlRet += &apos;CF&apos; + pageLayoutFieldId + &apos;=&apos; + &apos;{!FieloCRUD__PageLayout__c.Name}&apos;;
+urlRet += &apos;&amp;&apos; + &apos;CF&apos; + pageLayoutFieldId + &apos;_lkid=&apos; + &apos;{!FieloCRUD__PageLayout__c.Id}&apos;;
+urlRet += &apos;&amp;RecordType=&apos; + rtId;
+urlRet += &apos;&amp;retURL=/&apos; + &apos;{!FieloCRUD__PageLayout__c.Id}&apos;;
+
+window.location.href = urlRet;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>FieloCRUD__NewListView</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>New List View</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/apex.js&quot;)}
+
+var pageLayoutFieldId = sforce.apex.execute(
+   &quot;FieloCRUD.CRUDUtilities&quot;,
+   &quot;getFieldId&quot;,
+   {theObject:&apos;ListView__c&apos;,theField:&apos;ObjectSettings__c&apos;}
+);
+
+var rtId = sforce.apex.execute(
+   &quot;FieloCRUD.CRUDUtilities&quot;,
+   &quot;getRecordTypeId&quot;,
+   {theObject:&apos;FieloCRUD__ListView__c&apos;,rtDevName:&apos;ListView&apos;}
+);
+
+var urlRet = &apos;/&apos; + &apos;{!$ObjectType.FieloCRUD__ListView__c}&apos; + &apos;/e?&apos;;
+urlRet += &apos;CF&apos; + pageLayoutFieldId + &apos;=&apos; + &apos;{!FieloCRUD__ObjectSettings__c.Name}&apos;;
+urlRet += &apos;&amp;&apos; + &apos;CF&apos; + pageLayoutFieldId + &apos;_lkid=&apos; + &apos;{!FieloCRUD__ObjectSettings__c.Id}&apos;;
+urlRet += &apos;&amp;RecordType=&apos; + rtId;
+urlRet += &apos;&amp;retURL=/&apos; + &apos;{!FieloCRUD__ObjectSettings__c.Id}&apos;;
+
+
+window.location.href = urlRet;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>FieloCRUD__NewRelatedList</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>New Related List</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/apex.js&quot;)} 
+
+var pageLayoutFieldId = sforce.apex.execute( 
+&quot;FieloCRUD.CRUDUtilities&quot;, 
+&quot;getFieldId&quot;, 
+{theObject:&apos;ListView__c&apos;,theField:&apos;PageLayout__c&apos;} 
+); 
+
+var rtId = sforce.apex.execute( 
+&quot;FieloCRUD.CRUDUtilities&quot;, 
+&quot;getRecordTypeId&quot;, 
+{theObject:&apos;FieloCRUD__ListView__c&apos;,rtDevName:&apos;RelatedList&apos;} 
+); 
+
+var urlRet = &apos;/&apos; + &apos;{!$ObjectType.FieloCRUD__ListView__c}&apos; + &apos;/e?&apos;; 
+urlRet += &apos;CF&apos; + pageLayoutFieldId + &apos;=&apos; + &apos;{!FieloCRUD__PageLayout__c.Name}&apos;; 
+urlRet += &apos;&amp;&apos; + &apos;CF&apos; + pageLayoutFieldId + &apos;_lkid=&apos; + &apos;{!FieloCRUD__PageLayout__c.Id}&apos;; 
+urlRet += &apos;&amp;RecordType=&apos; + rtId; 
+urlRet += &apos;&amp;retURL=/&apos; + &apos;{!FieloCRUD__PageLayout__c.Id}&apos;; 
+
+window.location.href = urlRet;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>FieloCRUD__ReorderRelatedLists</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Reorder Related Lists</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!URLFOR(&quot;/apex/FieloCRUD__RecordsReorder&quot;,null, 
+[objectApiName = &quot;ListView__c&quot; , urlSave = &quot;/&quot;+FieloCRUD__PageLayout__c.Id, whereCond=&quot;FieloCRUD__PageLayout__c  =&apos;&quot;+FieloCRUD__PageLayout__c.Id+&quot;&apos;&quot;])}</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FieldName__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The API Name of the field</inlineHelpText>
+        <label>Field Name</label>
+        <length>64</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PathObjectName__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The full path of the object field from zqu__QuoteRatePlanCharge__c</inlineHelpText>
+        <label>Path Object Name</label>
+        <length>64</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>ZuoraFieldsQRPCMultiQuote</label>
+    <visibility>Public</visibility>
+</CustomObject>

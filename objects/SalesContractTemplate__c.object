@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object used to manage the sales contract templates.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ContractTemplateLink__c</fullName>
+        <description>Box or any URL related to template to be stored.</description>
+        <externalId>false</externalId>
+        <label>Contract Template Link</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>ContractType__c</fullName>
+        <description>This field is used to store the contract type.</description>
+        <externalId>false</externalId>
+        <label>Contract Type</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>APC Reference for Vendor</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>APC Reference for Vendor</label>
+                </value>
+                <value>
+                    <fullName>Certified Partner Agreement</fullName>
+                    <default>false</default>
+                    <label>Certified Partner Agreement</label>
+                </value>
+                <value>
+                    <fullName>Contractor Sales</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Contractor Sales</label>
+                </value>
+                <value>
+                    <fullName>Corporate Guaranty</fullName>
+                    <default>false</default>
+                    <label>Corporate Guaranty</label>
+                </value>
+                <value>
+                    <fullName>Demo Center Agreement</fullName>
+                    <default>false</default>
+                    <label>Demo Center Agreement</label>
+                </value>
+                <value>
+                    <fullName>Direct Master / Reseller</fullName>
+                    <default>false</default>
+                    <label>Direct Master / Reseller</label>
+                </value>
+                <value>
+                    <fullName>Direct Master Purchase</fullName>
+                    <default>false</default>
+                    <label>Direct Master Purchase</label>
+                </value>
+                <value>
+                    <fullName>Distribution Agreement</fullName>
+                    <default>false</default>
+                    <label>Distribution Agreement</label>
+                </value>
+                <value>
+                    <fullName>Funded Head Agreement</fullName>
+                    <default>false</default>
+                    <label>Funded Head Agreement</label>
+                </value>
+                <value>
+                    <fullName>MDF Agreement</fullName>
+                    <default>false</default>
+                    <label>MDF Agreement</label>
+                </value>
+                <value>
+                    <fullName>Migrated</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Migrated</label>
+                </value>
+                <value>
+                    <fullName>Migrated Agreement</fullName>
+                    <default>false</default>
+                    <label>Migrated Agreement</label>
+                </value>
+                <value>
+                    <fullName>Product Evaluation</fullName>
+                    <default>false</default>
+                    <label>Product Evaluation</label>
+                </value>
+                <value>
+                    <fullName>Program Agreement</fullName>
+                    <default>false</default>
+                    <label>Program Agreement</label>
+                </value>
+                <value>
+                    <fullName>Purchase Requisition T&amp;C</fullName>
+                    <default>false</default>
+                    <label>Purchase Requisition T&amp;C</label>
+                </value>
+                <value>
+                    <fullName>Rebate Agreement</fullName>
+                    <default>false</default>
+                    <label>Rebate Agreement</label>
+                </value>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>Retail Agreement</fullName>
+                    <default>false</default>
+                    <label>Retail Agreement</label>
+                </value>
+                <value>
+                    <fullName>Service Partner Agreement</fullName>
+                    <default>false</default>
+                    <label>Service Partner Agreement</label>
+                </value>
+                <value>
+                    <fullName>Services Agreement</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Services Agreement</label>
+                </value>
+                <value>
+                    <fullName>VIR Co Op Marketing</fullName>
+                    <default>false</default>
+                    <label>VIR Co Op Marketing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>This field is used to lookup for the country record.</description>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <referenceTo>Country__c</referenceTo>
+        <relationshipLabel>Sales Contract Templates</relationshipLabel>
+        <relationshipName>SalesContractTemplates</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LeadingBusinessUnitBU__c</fullName>
+        <externalId>false</externalId>
+        <label>Leading Business Unit (BU)</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BD</fullName>
+                    <default>false</default>
+                    <label>BD</label>
+                </value>
+                <value>
+                    <fullName>BI</fullName>
+                    <default>false</default>
+                    <label>BI</label>
+                </value>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>false</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>GW</fullName>
+                    <default>false</default>
+                    <label>GW</label>
+                </value>
+                <value>
+                    <fullName>IA</fullName>
+                    <default>false</default>
+                    <label>IA</label>
+                </value>
+                <value>
+                    <fullName>IB</fullName>
+                    <default>false</default>
+                    <label>IB</label>
+                </value>
+                <value>
+                    <fullName>ID</fullName>
+                    <default>false</default>
+                    <label>ID</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>PP</fullName>
+                    <default>false</default>
+                    <label>PP</label>
+                </value>
+                <value>
+                    <fullName>PR</fullName>
+                    <default>false</default>
+                    <label>PR</label>
+                </value>
+                <value>
+                    <fullName>PS</fullName>
+                    <default>false</default>
+                    <label>PS</label>
+                </value>
+                <value>
+                    <fullName>SO</fullName>
+                    <default>false</default>
+                    <label>SO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Sales Contract Template</label>
+    <nameField>
+        <label>Template Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Sales Contract Templates</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Country__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ContractType__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Country__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ContractType__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>Country__c</searchFilterFields>
+        <searchResultsAdditionalFields>Country__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ContractType__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

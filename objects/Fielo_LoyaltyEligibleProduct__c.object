@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>F_AttachmentId__c</fullName>
+        <externalId>false</externalId>
+        <label>AttachmentId</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_BusinessType__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Installer</fullName>
+                    <default>false</default>
+                    <label>Installer</label>
+                </value>
+                <value>
+                    <fullName>Retailer</fullName>
+                    <default>false</default>
+                    <label>Retailer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>F_Points__c</fullName>
+        <externalId>false</externalId>
+        <formula>F_RewardValue__c * 200</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Point Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_PriceAED__c</fullName>
+        <externalId>false</externalId>
+        <label>List Price AED</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>F_ProductFamily__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Actassi</fullName>
+                    <default>false</default>
+                    <label>Actassi</label>
+                </value>
+                <value>
+                    <fullName>Cable Management System</fullName>
+                    <default>false</default>
+                    <label>Cable Management System</label>
+                </value>
+                <value>
+                    <fullName>Digilink</fullName>
+                    <default>false</default>
+                    <label>Digilink</label>
+                </value>
+                <value>
+                    <fullName>Final Distribution</fullName>
+                    <default>false</default>
+                    <label>Final Distribution</label>
+                </value>
+                <value>
+                    <fullName>Network Connectivity</fullName>
+                    <default>false</default>
+                    <label>Network Connectivity</label>
+                </value>
+                <value>
+                    <fullName>PTFDA</fullName>
+                    <default>false</default>
+                    <label>PTFDA</label>
+                </value>
+                <value>
+                    <fullName>PTFDB</fullName>
+                    <default>false</default>
+                    <label>PTFDB</label>
+                </value>
+                <value>
+                    <fullName>Sensor</fullName>
+                    <default>false</default>
+                    <label>Sensor</label>
+                </value>
+                <value>
+                    <fullName>ULTI EZinstall3</fullName>
+                    <default>false</default>
+                    <label>ULTI EZinstall3</label>
+                </value>
+                <value>
+                    <fullName>Wiring Devices</fullName>
+                    <default>false</default>
+                    <label>Wiring Devices</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>F_ProductNameDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Name &amp; Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_ProductPicture__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISBLANK(F_AttachmentId__c),
+null,
+IMAGE(&apos;/Fielo/servlet/servlet.FileDownload?file=&apos;+F_AttachmentId__c, &apos;Product&apos;, 100, 100))
+
+/*Se agrega &quot;/Fielo&quot; porque en UAT el Site tiene prefijo*/</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Picture</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_ProductRange__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Range</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>56 &amp; 66 Series</fullName>
+                    <default>false</default>
+                    <label>56 &amp; 66 Series</label>
+                </value>
+                <value>
+                    <fullName>Actassi</fullName>
+                    <default>false</default>
+                    <label>Actassi</label>
+                </value>
+                <value>
+                    <fullName>Allied Accessories</fullName>
+                    <default>false</default>
+                    <label>Allied Accessories</label>
+                </value>
+                <value>
+                    <fullName>Argus</fullName>
+                    <default>false</default>
+                    <label>Argus</label>
+                </value>
+                <value>
+                    <fullName>Digilink</fullName>
+                    <default>false</default>
+                    <label>Digilink</label>
+                </value>
+                <value>
+                    <fullName>E2000</fullName>
+                    <default>false</default>
+                    <label>E2000</label>
+                </value>
+                <value>
+                    <fullName>Easy 9</fullName>
+                    <default>false</default>
+                    <label>Easy 9</label>
+                </value>
+                <value>
+                    <fullName>Exclusive</fullName>
+                    <default>false</default>
+                    <label>Exclusive</label>
+                </value>
+                <value>
+                    <fullName>Floor Socket</fullName>
+                    <default>false</default>
+                    <label>Floor Socket</label>
+                </value>
+                <value>
+                    <fullName>Lisse</fullName>
+                    <default>false</default>
+                    <label>Lisse</label>
+                </value>
+                <value>
+                    <fullName>Metal Clad</fullName>
+                    <default>false</default>
+                    <label>Metal Clad</label>
+                </value>
+                <value>
+                    <fullName>neo</fullName>
+                    <default>false</default>
+                    <label>neo</label>
+                </value>
+                <value>
+                    <fullName>Network Connectivity</fullName>
+                    <default>false</default>
+                    <label>Network Connectivity</label>
+                </value>
+                <value>
+                    <fullName>Pieno</fullName>
+                    <default>false</default>
+                    <label>Pieno</label>
+                </value>
+                <value>
+                    <fullName>S Classic</fullName>
+                    <default>false</default>
+                    <label>S Classic</label>
+                </value>
+                <value>
+                    <fullName>Ulti Impress</fullName>
+                    <default>false</default>
+                    <label>Ulti Impress</label>
+                </value>
+                <value>
+                    <fullName>ultimate flat plate</fullName>
+                    <default>false</default>
+                    <label>ultimate flat plate</label>
+                </value>
+                <value>
+                    <fullName>ultimate Grid</fullName>
+                    <default>false</default>
+                    <label>ultimate Grid</label>
+                </value>
+                <value>
+                    <fullName>Ultimate Screwless</fullName>
+                    <default>false</default>
+                    <label>Ultimate Screwless</label>
+                </value>
+                <value>
+                    <fullName>Ultimate White Moulded</fullName>
+                    <default>false</default>
+                    <label>Ultimate White Moulded</label>
+                </value>
+                <value>
+                    <fullName>Vivace</fullName>
+                    <default>false</default>
+                    <label>Vivace</label>
+                </value>
+                <value>
+                    <fullName>Weatherproof Isolators</fullName>
+                    <default>false</default>
+                    <label>Weatherproof Isolators</label>
+                </value>
+                <value>
+                    <fullName>ZENcelo</fullName>
+                    <default>false</default>
+                    <label>ZENcelo</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>F_ProductSKU__c</fullName>
+        <externalId>false</externalId>
+        <label>Product SKU</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_RewardValue__c</fullName>
+        <externalId>false</externalId>
+        <formula>F_PriceAED__c *  F_Reward__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reward value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>F_Reward__c</fullName>
+        <externalId>false</externalId>
+        <label>Reward %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Loyalty Eligible Product</label>
+    <listViews>
+        <fullName>AE_Eligible_products</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>F_ProductSKU__c</columns>
+        <columns>F_ProductFamily__c</columns>
+        <columns>F_ProductRange__c</columns>
+        <columns>F_ProductNameDescription__c</columns>
+        <columns>F_PriceAED__c</columns>
+        <columns>F_Points__c</columns>
+        <columns>CURRENCY_ISO_CODE</columns>
+        <columns>F_Reward__c</columns>
+        <columns>F_RewardValue__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CURRENCY_ISO_CODE</field>
+            <operation>equals</operation>
+            <value>AED</value>
+        </filters>
+        <label>AE - Eligible products</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>F_BusinessType__c</columns>
+        <columns>F_PriceAED__c</columns>
+        <columns>F_Points__c</columns>
+        <columns>F_ProductFamily__c</columns>
+        <columns>F_ProductNameDescription__c</columns>
+        <columns>F_ProductPicture__c</columns>
+        <columns>F_ProductRange__c</columns>
+        <columns>F_ProductSKU__c</columns>
+        <columns>F_Reward__c</columns>
+        <columns>F_RewardValue__c</columns>
+        <columns>CURRENCY_ISO_CODE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>P-{0000000}</displayFormat>
+        <label>Product Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Loyalty Eligible Products</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>F_ProductSKU__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>F_BusinessType__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>F_ProductSKU__c</lookupFilterFields>
+        <lookupFilterFields>NAME</lookupFilterFields>
+        <lookupFilterFields>F_ProductNameDescription__c</lookupFilterFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>F_ProductSKU__c</searchFilterFields>
+        <searchFilterFields>F_BusinessType__c</searchFilterFields>
+        <searchResultsAdditionalFields>F_BusinessType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>F_ProductSKU__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

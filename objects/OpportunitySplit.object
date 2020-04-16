@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditOpportunitySplits</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditOpportunitySplits</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditOpportunitySplits</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveAndClose</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveAndClose</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveAndClose</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Approved?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>InternalOrganization__c</fullName>
+        <description>Holds the user&apos;s department</description>
+        <externalId>false</externalId>
+        <formula>SplitOwner.Department</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Internal Organization</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OpportunityId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <description>Holds the role of user</description>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FCP</fullName>
+                    <default>false</default>
+                    <label>FCP</label>
+                </value>
+                <value>
+                    <fullName>FOPM</fullName>
+                    <default>false</default>
+                    <label>FOPM</label>
+                </value>
+                <value>
+                    <fullName>FOQ</fullName>
+                    <default>false</default>
+                    <label>FOQ</label>
+                </value>
+                <value>
+                    <fullName>PME</fullName>
+                    <default>false</default>
+                    <label>PME</label>
+                </value>
+                <value>
+                    <fullName>PMO</fullName>
+                    <default>false</default>
+                    <label>PMO</label>
+                </value>
+                <value>
+                    <fullName>PMT</fullName>
+                    <default>false</default>
+                    <label>PMT</label>
+                </value>
+                <value>
+                    <fullName>QM</fullName>
+                    <default>false</default>
+                    <label>QM</label>
+                </value>
+                <value>
+                    <fullName>RM</fullName>
+                    <default>false</default>
+                    <label>RM</label>
+                </value>
+                <value>
+                    <fullName>SCM</fullName>
+                    <default>false</default>
+                    <label>SCM</label>
+                </value>
+                <value>
+                    <fullName>SM</fullName>
+                    <default>false</default>
+                    <label>SM</label>
+                </value>
+                <value>
+                    <fullName>SP</fullName>
+                    <default>false</default>
+                    <label>SP</label>
+                </value>
+                <value>
+                    <fullName>TMP</fullName>
+                    <default>false</default>
+                    <label>TMP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SplitAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>SplitNote</fullName>
+    </fields>
+    <fields>
+        <fullName>SplitOwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SplitPercentage</fullName>
+    </fields>
+    <fields>
+        <fullName>SplitTypeId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TECH_IsCloned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To by validation rules for cloned sales contributor records</description>
+        <externalId>false</externalId>
+        <label>TECH_IsCloned</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TECH_SalesContributorId__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_SalesContributorId</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserBusiness__c</fullName>
+        <description>Holds the user&apos;s business unit</description>
+        <externalId>false</externalId>
+        <formula>Case(SplitOwner.UserBusinessUnit__c,
+&quot;BD&quot;, &quot;Digital Energy&quot;,
+&quot;CMO&quot;, &quot;Global Marketing&quot;,
+&quot;COP&quot;, &quot;China Operations&quot;,
+&quot;EN&quot;, &quot;Power Systems&quot;,
+&quot;FIN&quot;, &quot;Finance &amp; Control&quot;,
+&quot;FLS&quot;, &quot;Field Services&quot;,
+&quot;GC&quot;, &quot;Cloud Services&quot;,
+&quot;GHR&quot;, &quot;Global Human Resource&quot;,
+&quot;GMA&quot;, &quot;Corporate General Management&quot;,
+&quot;GOP&quot;, &quot;Global Operations&quot;,
+&quot;GSC&quot;, &quot;Global Supply Chain&quot;,
+&quot;GW&quot;, &quot;Software&quot;,
+&quot;IA&quot;, &quot;Process Automation&quot;,
+&quot;IB&quot;, &quot;Other Industry&quot;,
+&quot;ID&quot;, &quot;Industrial Automation&quot;,
+&quot;IPO&quot;, &quot;Information, Process and Organization&quot;,
+&quot;IT&quot;, &quot;Secure Power&quot;,
+&quot;NOP&quot;, &quot;North America Operations&quot;,
+&quot;PP&quot;, &quot;Power Products&quot;,
+&quot;PR&quot;, &quot;Home and Distribution&quot;,
+&quot;PS&quot;, &quot;Energy and Sustainability services&quot;,
+&quot;SAI&quot;, &quot;Strategy &amp; Technology&quot;,
+&quot;SCS&quot;, &quot;Strategic Customers and Segments&quot;,
+&quot;SO&quot;, &quot;Solar&quot;,
+&quot;BI&quot;, &quot;Energy Management&quot;,
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>User Business</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

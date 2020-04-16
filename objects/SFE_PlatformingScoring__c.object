@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>VFP_EditCAPPlatformingScoring</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>VFP_ViewCAPPlatformingScoring</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>PlatformingScoringCompactLayout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PlatformingScoringCompactLayout</fullName>
+        <fields>Name</fields>
+        <fields>Score__c</fields>
+        <fields>MktShare__c</fields>
+        <fields>ClassificationLvl1__c</fields>
+        <fields>AccountOwner__c</fields>
+        <label>PlatformingScoringCompactLayout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccountLocalName__c</fullName>
+        <description>October2012</description>
+        <externalId>false</externalId>
+        <formula>PlatformedAccount__r.AccountLocalName__c</formula>
+        <label>Account Local Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountMasterProfile__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(PlatformedAccount__r.AccountMasterProfile__c)</formula>
+        <label>Account Master Profile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwner__c</fullName>
+        <description>To store owner of an account.
+For Italy Agents ExternalSalesResponsible__c field stores actual owner information.</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(PlatformedAccount__r.ExternalSalesResponsible__c)), 
+PlatformedAccount__r.ExternalSalesResponsible__r.FirstName + &apos; &apos; + PlatformedAccount__r.ExternalSalesResponsible__r.LastName,
+PlatformedAccount__r.TECH_AccountOwner__r.FirstName + &apos; &apos; + PlatformedAccount__r.TECH_AccountOwner__r.LastName
+)</formula>
+        <label>Account Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AssignedTo__c</fullName>
+        <description>SR0 - Formula field to display the sales rep in charge of the related platforming campaign</description>
+        <externalId>false</externalId>
+        <formula>IndivCAP__r.AssignedTo__r.FirstName &amp; &quot; &quot; &amp; IndivCAP__r.AssignedTo__r.LastName</formula>
+        <label>Assigned To</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <description>October2012</description>
+        <externalId>false</externalId>
+        <formula>PlatformedAccount__r.City__c</formula>
+        <label>City</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ClassificationLvl1__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;EU&apos;,&apos;End User&apos;,  
+If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;IG&apos;,&apos;Internal Schneider Entity&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;LC&apos;,&apos;Contractor&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;OM&apos;,&apos;Original Equipment Manufacturer&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c )= &apos;PB&apos;,&apos;Panel Builder&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;RT&apos;,&apos;Consumer Retailer&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c )= &apos;SC&apos;,&apos;Electrician&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;SI&apos;,&apos;System Integrator&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;SP&apos;,&apos;Specifier&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c )= &apos;VR&apos;,&apos;IT Reseller&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;WD&apos;,&apos;B2B Distribution&apos;,
+If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;BM&apos;,&apos;Digital &amp; Service Partner&apos;, 
+If(Text(PlatformedAccount__r.ClassLevel1__c)= &apos;XX&apos;,&apos;Other Value-Chain Role&apos;,&apos;&apos;) 
+)  
+) 
+)
+)	
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+)</formula>
+        <label>Classification Level 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Commercial_Plan_Status__c</fullName>
+        <description>technical field needed for reports</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(TEXT(IndivCAP__r.Status__c) &lt;&gt; &quot;Cancelled&quot;, and(IndivCAP__r.StartDate__c &lt;= TODAY() , IndivCAP__r.EndDate__c &gt;= TODAY())), &quot;Active&quot;, &quot;Inactive&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Commercial Plan Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomerProfile__c</fullName>
+        <description>SR0 - Formula field to define Account profile based on Penetration and score</description>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISBLANK(Score__c),ISBLANK(MktShare__c)),&quot;Not Completed&quot;,(IF (  (( MktShare__c &gt;  IndivCAP__r.MktShareThreshold2__c )  &amp;&amp; ( (Score__c / 100)&lt;=  IndivCAP__r.AttractiAxisThreshold1__c )) , &quot;S1&quot;,
+
+IF (  ((  MktShare__c &gt; IndivCAP__r.MktShareThreshold2__c )  &amp;&amp; ( ((Score__c / 100) &gt; IndivCAP__r.AttractiAxisThreshold1__c ) &amp;&amp; ( (Score__c / 100) &lt;=  IndivCAP__r.AttractiAxisThreshold2__c ))), &quot;S2&quot;,
+
+IF (  ((  MktShare__c &gt; IndivCAP__r.MktShareThreshold2__c )  &amp;&amp; (  (Score__c / 100) &gt; IndivCAP__r.AttractiAxisThreshold2__c )), &quot;S3&quot;,
+
+IF (  (((  MktShare__c &gt;   IndivCAP__r.MktShareThreshold1__c )  &amp;&amp; ( MktShare__c &lt;= IndivCAP__r.MktShareThreshold2__c ))  &amp;&amp; ( (Score__c / 100) &lt;=  IndivCAP__r.AttractiAxisThreshold1__c )), &quot;G1&quot;,
+
+IF (  (((  MktShare__c &gt;   IndivCAP__r.MktShareThreshold1__c )  &amp;&amp; ( MktShare__c &lt;= IndivCAP__r.MktShareThreshold2__c ))  &amp;&amp; ((( (Score__c / 100) &gt; IndivCAP__r.AttractiAxisThreshold1__c ) &amp;&amp; ( (Score__c / 100) &lt;=  IndivCAP__r.AttractiAxisThreshold2__c )))), &quot;G2&quot;,
+
+IF (  (((  MktShare__c &gt;   IndivCAP__r.MktShareThreshold1__c )  &amp;&amp; ( MktShare__c &lt;= IndivCAP__r.MktShareThreshold2__c ))  &amp;&amp; (  (Score__c / 100) &gt; IndivCAP__r.AttractiAxisThreshold2__c )), &quot;G3&quot;,
+
+IF (  ((  MktShare__c &lt;=   IndivCAP__r.MktShareThreshold1__c )  &amp;&amp; ( (Score__c / 100) &lt;=  IndivCAP__r.AttractiAxisThreshold1__c )) , &quot;Q1&quot;,
+
+IF (  ((  MktShare__c &lt;=   IndivCAP__r.MktShareThreshold1__c )  &amp;&amp; (( (Score__c / 100) &gt; IndivCAP__r.AttractiAxisThreshold1__c ) &amp;&amp; ( (Score__c / 100) &lt;=  IndivCAP__r.AttractiAxisThreshold2__c ))), &quot;Q2&quot;,
+
+IF (  ((  MktShare__c &lt;=   IndivCAP__r.MktShareThreshold1__c )  &amp;&amp; ( (Score__c / 100) &gt; IndivCAP__r.AttractiAxisThreshold2__c )), &quot;Q3&quot;, &quot;Not Completed&quot;)))))))))))</formula>
+        <label>CAP Profile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DirectSalesPlatforming__c</fullName>
+        <description>SR0 - Part of Direct Sales relevant for selected country and business activity attributes of the platforming campaign</description>
+        <externalId>false</externalId>
+        <label>Direct Sales relevant for Platforming</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>EndDate__c</fullName>
+        <description>September Release - To store end date for CAP.</description>
+        <externalId>false</externalId>
+        <formula>IndivCAP__r.EndDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IndirectSalesPlatforming__c</fullName>
+        <description>SR0 - Part of Indirect Sales relevant for selected country and business activity attributes of the platforming campaign</description>
+        <externalId>false</externalId>
+        <label>Indirect Sales relevant for Platforming</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>IndivCAP__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>SR0 - Look-up to the Commercial Action Plan the scoring is related to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please do not change the defaulted value.</inlineHelpText>
+        <label>Commercial Action Plan</label>
+        <referenceTo>SFE_IndivCAP__c</referenceTo>
+        <relationshipLabel>CAP Profiles</relationshipLabel>
+        <relationshipName>Platforming_Scorings</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MarketSegment__c</fullName>
+        <description>September Release - To store Market segment of an account.</description>
+        <externalId>false</externalId>
+        <formula>Text(PlatformedAccount__r.MarketSegment__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MktShare__c</fullName>
+        <description>SR0 - Penetration of the platforming = (Direct Sales+Indirect Sales)/PAM, Read-only field updated using a WF</description>
+        <externalId>false</externalId>
+        <label>SE Market Share</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PAMPlaforming__c</fullName>
+        <description>SR0 - Part of PAM relevant for selected country and business activity attributes of the platforming campaign</description>
+        <externalId>false</externalId>
+        <inlineHelpText>PAM in CAP profile for non account owner comes from BU PAM in Account Master Profile</inlineHelpText>
+        <label>PAM relevant for Platforming</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PlatformedAccount__c</fullName>
+        <description>SR0 - Look-up to the Platforming Account the scoring is related to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please do not change the defaulted value.</inlineHelpText>
+        <label>Platformed Account</label>
+        <lookupFilter>
+            <active>false</active>
+            <filterItems>
+                <field>Account.OwnerId</field>
+                <operation>equals</operation>
+                <valueField>$User.Id</valueField>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>CAP Profiles</relationshipLabel>
+        <relationshipName>Platforming_Scorings</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>PriceSensitivity__c</fullName>
+        <description>SR0 - Scoring question #4</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What is importance of pricing?</inlineHelpText>
+        <label>Q4 - Price Sensitivity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Focused on low price</fullName>
+                    <default>false</default>
+                    <label>Focused on low price</label>
+                </value>
+                <value>
+                    <fullName>Asking for a special price 75% of time</fullName>
+                    <default>false</default>
+                    <label>Asking for a special price 75% of time</label>
+                </value>
+                <value>
+                    <fullName>Price is not the primary criteria</fullName>
+                    <default>false</default>
+                    <label>Price is not the primary criteria</label>
+                </value>
+                <value>
+                    <fullName>Not price sensitive</fullName>
+                    <default>false</default>
+                    <label>Not price sensitive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q1CriteriaWeight__c</fullName>
+        <description>If  weight linked to question 1, is not defined at Commercial Action Plan level then consider Master Data weight populated from the trigger</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(IndivCAP__r.CriterWeightQu1__c))&amp;&amp; IndivCAP__r.CriterWeightQu1__c!=0,IndivCAP__r.CriterWeightQu1__c,Q1MasterDataWeight__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Q1 - Criteria Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q1MasterDataWeight__c</fullName>
+        <description>Master Data weight for the question 1 populated from the trigger</description>
+        <externalId>false</externalId>
+        <label>Q1 - Master Data Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q1OpeSize__c</fullName>
+        <description>SR0 - Scoring question #1</description>
+        <externalId>false</externalId>
+        <label>Q1 - Operation Size</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Large</fullName>
+                    <default>false</default>
+                    <label>Large</label>
+                </value>
+                <value>
+                    <fullName>Very large</fullName>
+                    <default>false</default>
+                    <label>Very large</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q1Rating__c</fullName>
+        <description>SR0 - Dependent picklist linked to answers of question 1</description>
+        <externalId>false</externalId>
+        <label>Q1 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Q1OpeSize__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Small</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medium</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Large</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Very large</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q2CriteriaWeight__c</fullName>
+        <description>If weight linked to question 2, is not defined at Commercial Action Plan level then consider Master Data weight populated from the trigger</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(IndivCAP__r.CriterWeightQu2__c))&amp;&amp; IndivCAP__r.CriterWeightQu2__c!=0,IndivCAP__r.CriterWeightQu2__c,Q2MasterDataWeight__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Q2 - Criteria Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q2MasterDataWeight__c</fullName>
+        <description>Master Data weight for the question 2 populated from the trigger</description>
+        <externalId>false</externalId>
+        <label>Q2 - Master Data Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q2PowerPrescription__c</fullName>
+        <description>SR0 - Scoring question #2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does the Customer have a Prescription Power?</inlineHelpText>
+        <label>Q2 - Ability to specify</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Never (&lt; 10%)</fullName>
+                    <default>false</default>
+                    <label>Never (&lt; 10%)</label>
+                </value>
+                <value>
+                    <fullName>Occasionnaly (10% &lt; x &lt; 50%)</fullName>
+                    <default>false</default>
+                    <label>Occasionnaly (10% &lt; x &lt; 50%)</label>
+                </value>
+                <value>
+                    <fullName>Often (50% &lt; x &lt; 90%)</fullName>
+                    <default>false</default>
+                    <label>Often (50% &lt; x &lt; 90%)</label>
+                </value>
+                <value>
+                    <fullName>Always (&gt; 90%)</fullName>
+                    <default>false</default>
+                    <label>Always (&gt; 90%)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q2Rating__c</fullName>
+        <description>SR0 - Dependent picklist linked to answers of question 2</description>
+        <externalId>false</externalId>
+        <label>Q2 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Q2PowerPrescription__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Never (&lt; 10%)</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Occasionnaly (10% &lt; x &lt; 50%)</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Often (50% &lt; x &lt; 90%)</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Always (&gt; 90%)</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q3CriteriaWeight__c</fullName>
+        <description>If weight linked to question 3, is not defined at Commercial Action Plan level then consider Master Data weight populated from the trigger</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(IndivCAP__r.CriterWeightQu3__c))&amp;&amp; IndivCAP__r.CriterWeightQu3__c!=0,IndivCAP__r.CriterWeightQu3__c,Q3MasterDataWeight__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Q3 - Criteria Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q3MasterDataWeight__c</fullName>
+        <description>Master Data weight for the question 3 populated from the trigger</description>
+        <externalId>false</externalId>
+        <label>Q3 - Master Data Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q3PotentialGrowth__c</fullName>
+        <description>SR0 - Scoring question #3</description>
+        <externalId>false</externalId>
+        <label>Q3 - Account growth capacity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Downsizing</fullName>
+                    <default>false</default>
+                    <label>Downsizing</label>
+                </value>
+                <value>
+                    <fullName>No growth</fullName>
+                    <default>false</default>
+                    <label>No growth</label>
+                </value>
+                <value>
+                    <fullName>Low growth</fullName>
+                    <default>false</default>
+                    <label>Low growth</label>
+                </value>
+                <value>
+                    <fullName>High growth</fullName>
+                    <default>false</default>
+                    <label>High growth</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q3Rating__c</fullName>
+        <description>SR0 - Dependent picklist linked to answers of question 3</description>
+        <externalId>false</externalId>
+        <label>Q3 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Q3PotentialGrowth__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Downsizing</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>No growth</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Low growth</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>High growth</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q4CriteriaWeight__c</fullName>
+        <description>If weight linked to question 4, is not defined at Commercial Action Plan level then consider Master Data weight populated from the trigger</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(IndivCAP__r.CriterWeightQu4__c))&amp;&amp; IndivCAP__r.CriterWeightQu4__c!=0,IndivCAP__r.CriterWeightQu4__c,Q4MasterDataWeight__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Q4 - Criteria Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q4MasterDataWeight__c</fullName>
+        <description>Master Data weight for the Question 4 populated from the trigger</description>
+        <externalId>false</externalId>
+        <label>Q4 - Master Data Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q4Rating__c</fullName>
+        <description>SR0 - Dependent picklist linked to answers of question 4</description>
+        <externalId>false</externalId>
+        <label>Q4 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>PriceSensitivity__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Focused on low price</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Asking for a special price 75% of time</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Price is not the primary criteria</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Not price sensitive</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q5CriteriaWeight__c</fullName>
+        <description>If weight linked to question 5, is not defined at Commercial Action Plan level then consider Master Data weight populated from the trigger</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(IndivCAP__r.CriterWeightQu5__c))&amp;&amp; IndivCAP__r.CriterWeightQu5__c!=0,IndivCAP__r.CriterWeightQu5__c,Q5MasterDataWeight__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Q5 - Criteria Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q5MasterDataWeight__c</fullName>
+        <description>Master Data weight for the question 5 populated from the trigger</description>
+        <externalId>false</externalId>
+        <label>Q5 - Master Data Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q5OpenCommRelationshipSE__c</fullName>
+        <description>SR0 - Scoring question #5</description>
+        <externalId>false</externalId>
+        <label>Q5 - Openess for business with SE</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Unwilling to do business</fullName>
+                    <default>false</default>
+                    <label>Unwilling to do business</label>
+                </value>
+                <value>
+                    <fullName>No relationship or only purchasing</fullName>
+                    <default>false</default>
+                    <label>No relationship or only purchasing</label>
+                </value>
+                <value>
+                    <fullName>Access to some people at the customer</fullName>
+                    <default>false</default>
+                    <label>Access to some people at the customer</label>
+                </value>
+                <value>
+                    <fullName>Long strategic relationship with top management</fullName>
+                    <default>false</default>
+                    <label>Long strategic relationship with top management</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q5Rating__c</fullName>
+        <description>SR0 - Dependent picklist linked to answers of question 5</description>
+        <externalId>false</externalId>
+        <label>Q5 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Q5OpenCommRelationshipSE__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Unwilling to do business</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>No relationship or only purchasing</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Access to some people at the customer</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Long strategic relationship with top management</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q6CompetitionIntensity__c</fullName>
+        <description>SR0 - Scoring question #6</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Competitors/Suppliers Used incl. SE</inlineHelpText>
+        <label>Q6 - Competition Intensity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Loyal to a Competitor</fullName>
+                    <default>false</default>
+                    <label>Loyal to a Competitor</label>
+                </value>
+                <value>
+                    <fullName>Open Competition</fullName>
+                    <default>false</default>
+                    <label>Open Competition</label>
+                </value>
+                <value>
+                    <fullName>Schneider is a prefered supplier</fullName>
+                    <default>false</default>
+                    <label>Schneider is a prefered supplier</label>
+                </value>
+                <value>
+                    <fullName>Fully loyal to Schneider</fullName>
+                    <default>false</default>
+                    <label>Fully loyal to Schneider</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q6CriteriaWeight__c</fullName>
+        <description>If weight linked to question 6, is not defined at Commercial Action Plan level then consider Master Data weight populated from the trigger</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(IndivCAP__r.CriterWeightQu6__c))&amp;&amp; IndivCAP__r.CriterWeightQu6__c!=0,IndivCAP__r.CriterWeightQu6__c,Q6MasterDataWeight__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Q6 - Criteria Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q6MasterDataWeight__c</fullName>
+        <description>Master Data weight for the question 6 populated from the trigger</description>
+        <externalId>false</externalId>
+        <label>Q6 - Master Data Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q6Rating__c</fullName>
+        <description>SR0 - Dependent picklist linked to answers of question 6</description>
+        <externalId>false</externalId>
+        <label>Q6 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Q6CompetitionIntensity__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Loyal to a Competitor</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Open Competition</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Schneider is a prefered supplier</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fully loyal to Schneider</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q7CriteriaWeight__c</fullName>
+        <description>If weight linked to question 7, is not defined at Commercial Action Plan level then consider Master Data weight populated from the trigger</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(IndivCAP__r.CriterWeightQu7__c))&amp;&amp; IndivCAP__r.CriterWeightQu7__c!=0,IndivCAP__r.CriterWeightQu7__c,Q7MasterDataWeight__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Q7 - Criteria Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q7MasterDataWeight__c</fullName>
+        <description>Master Data weight for the question 7 populated from the trigger</description>
+        <externalId>false</externalId>
+        <label>Q7 - Master Data Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q7ProcessAppKnowledge__c</fullName>
+        <description>SR0 - Scoring question #7</description>
+        <externalId>false</externalId>
+        <label>Q7 - Process / segment knowledge</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No segment focus</fullName>
+                    <default>false</default>
+                    <label>No segment focus</label>
+                </value>
+                <value>
+                    <fullName>Focused but not on SE targeted segments</fullName>
+                    <default>false</default>
+                    <label>Focused but not on SE targeted segments</label>
+                </value>
+                <value>
+                    <fullName>Some focus on SE targeted segments</fullName>
+                    <default>false</default>
+                    <label>Some focus on SE targeted segments</label>
+                </value>
+                <value>
+                    <fullName>Focus fully alligned to SE segments</fullName>
+                    <default>false</default>
+                    <label>Focus fully alligned to SE segments</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q7Rating__c</fullName>
+        <description>SR0 - Dependent picklist linked to answers of question 7</description>
+        <externalId>false</externalId>
+        <label>Q7 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Q7ProcessAppKnowledge__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>No segment focus</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Focused but not on SE targeted segments</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Some focus on SE targeted segments</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Focus fully alligned to SE segments</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q8CriteriaWeight__c</fullName>
+        <description>If weight linked to question 8, is not defined at Commercial Action Plan level then consider Master Data weight populated from the trigger</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(IndivCAP__r.CriterWeightQu8__c))&amp;&amp; IndivCAP__r.CriterWeightQu8__c!=0,IndivCAP__r.CriterWeightQu8__c,Q8MasterDataWeight__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Q8 - Criteria Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q8MasterDataWeight__c</fullName>
+        <description>Master Data weight for the question 8 populated from the trigger</description>
+        <externalId>false</externalId>
+        <label>Q8 - Master Data Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q8OfferFit__c</fullName>
+        <description>SR0 - Scoring question #8</description>
+        <externalId>false</externalId>
+        <label>Q8 - Offer Fit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No fit</fullName>
+                    <default>false</default>
+                    <label>No fit</label>
+                </value>
+                <value>
+                    <fullName>Significant offer gap</fullName>
+                    <default>false</default>
+                    <label>Significant offer gap</label>
+                </value>
+                <value>
+                    <fullName>Insignificant offer gap</fullName>
+                    <default>false</default>
+                    <label>Insignificant offer gap</label>
+                </value>
+                <value>
+                    <fullName>Full Offer Fit (&gt;90%)</fullName>
+                    <default>false</default>
+                    <label>Full Offer Fit (&gt;90%)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q8Rating__c</fullName>
+        <description>SR0 - Dependent picklist linked to answers of question 8</description>
+        <externalId>false</externalId>
+        <label>Q8 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Q8OfferFit__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>No fit</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Significant offer gap</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Insignificant offer gap</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Full Offer Fit (&gt;90%)</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Score__c</fullName>
+        <description>SR0 - Score of the platforming. Read-only field updated using a WF</description>
+        <externalId>false</externalId>
+        <label>Score (%)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stateprovince__c</fullName>
+        <description>September Release - created to store state/province of related account.</description>
+        <externalId>false</externalId>
+        <formula>PlatformedAccount__r.StateProvince__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>State-province</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Street__c</fullName>
+        <description>October2012</description>
+        <externalId>false</externalId>
+        <formula>PlatformedAccount__r.Street__c</formula>
+        <label>Street</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_UniqueKey__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>SR0 - AccountId + IndividualAccountActionPlanId. Populated by workflow.</description>
+        <externalId>false</externalId>
+        <label>TECH_UniqueKey</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_AccAssignedToBUMap__c</fullName>
+        <description>This field is useful while fetching the Platforming scoring records for another user belonging to the same BU of team member.</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(PlatformedAccount__r.Id)+&quot;_&quot;+ Text(IndivCAP__r.AssignedTo__r.UserBusinessUnit__c)</formula>
+        <label>Tech_AccAssignedToBUMap</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_IsOwner__c</fullName>
+        <description>This field indentifies if the assigned to is the account owner.
+In case Italy agents External Sales Agent Responsible is the Account Owner</description>
+        <externalId>false</externalId>
+        <formula>IF(
+	AND(
+		NOT(ISBLANK(PlatformedAccount__r.ExternalSalesResponsible__c)),
+		IndivCAP__r.AssignedTo__c == PlatformedAccount__r.ExternalSalesResponsible__c
+	),TRUE,
+	IF(
+           AND(
+               ISBLANK(PlatformedAccount__r.ExternalSalesResponsible__c),
+               IndivCAP__r.AssignedTo__c == PlatformedAccount__r.OwnerId
+           ),TRUE,FALSE)
+)</formula>
+        <label>Tech_IsOwner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tech_ReferenceRecord__c</fullName>
+        <description>This field is populated when &quot;Generate Accounts&quot; is clicked. It will provide information about the reference record from where the current record got defaulted values</description>
+        <externalId>false</externalId>
+        <label>Tech_ReferenceRecord</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ViewAs__c</fullName>
+        <description>September Release - To Store View as field value from CAP.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(IndivCAP__r.CustPlatfViewAs__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>View As</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Platforming Scoring</label>
+    <nameField>
+        <displayFormat>Platforming Scoring-{0}</displayFormat>
+        <label>CAP Account Scoring ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Platforming Scorings</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>IndivCAP__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AssignedTo__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PlatformedAccount__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IndivCAP__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AssignedTo__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PlatformedAccount__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>IndivCAP__c</searchFilterFields>
+        <searchFilterFields>AssignedTo__c</searchFilterFields>
+        <searchFilterFields>PlatformedAccount__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>SCO_VR01_DirectIndirectSalesControl</fullName>
+        <active>true</active>
+        <description>SR0 - Ensure that Direct sales + indirect sales are less or equal to PAM</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+PAMPlaforming__c &lt; (FLOOR(DirectSalesPlatforming__c) + FLOOR(IndirectSalesPlatforming__c) )</errorConditionFormula>
+        <errorDisplayField>PAMPlaforming__c</errorDisplayField>
+        <errorMessage>PAM should be higher or equal to Direct Sales + Indirect Sales</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SCO_VR02_OnActionPlanUpdt</fullName>
+        <active>true</active>
+        <description>September Release - To prevent users from modifying the Action Plan to which the Platforming scoring is attached.</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; 
+ISCHANGED( IndivCAP__c )</errorConditionFormula>
+        <errorDisplayField>IndivCAP__c</errorDisplayField>
+        <errorMessage>Commercial Action Plan can&apos;t be changed.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>CAPScoringCompleted</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>CAP Scoring Completed</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP53_PlatformingScoringsCompleted</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>MassDelete</fullName>
+        <availability>online</availability>
+        <description>To allow mass deletion of Platforming Scoring</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/VFP_MassDeletePlatformingScoring?id={!SFE_IndivCAP__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>NewPlatformingScoring</fullName>
+        <availability>online</availability>
+        <description>A button to create new Platforming Scoring</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>New Account Scoring</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/VFP_NewCAPPlatformingScoring?Capid={!SFE_IndivCAP__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SCO_MassDelete</fullName>
+        <availability>online</availability>
+        <description>September Release -  Button created to allow deletion of Platforming scorings.</description>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Delete</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP48_MassDelete</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>SR0_SCO_GenerateTargetedAccounts</fullName>
+        <availability>online</availability>
+        <description>SR0 - Forwards to custom Visualforce page that creates Platforming Scoring records for the Commercial Action Plan</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Generate Accounts</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>../apex/VFP04_SFETargetting?id={!SFE_IndivCAP__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SR0_SCO_Guideline</fullName>
+        <availability>online</availability>
+        <description>SR0 - Direct to a content document to give some help to user on how to fill scoring survey</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Guideline</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://teamwork.schneider-electric.com/seglobalprocesses/selling/Shared%20Documents/Customer%20Platforming%20guidelines.xls</url>
+    </webLinks>
+</CustomObject>

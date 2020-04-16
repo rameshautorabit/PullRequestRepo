@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Custom setting for allowing to bypass globally (VR / WF / Trigger). To be used for specific use cases like SandboxPostRefresh and other data re-work scenarios if any. Org default for Bypass is not enabled.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>BypassEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Bypass Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Global Bypass</label>
+    <visibility>Public</visibility>
+</CustomObject>

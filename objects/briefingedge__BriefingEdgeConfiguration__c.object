@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>briefingedge__Client_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the client name as you see it in your browser when visiting the BriefingEdge website. For example, with the URL http://www.briefingedge.com/DemoClientName, DemoClientName is your client name.</inlineHelpText>
+        <label>Client Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>briefingedge__Default_Opportunity_Stages__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the default Stage filters for the Opportunity selection list.</inlineHelpText>
+        <label>Default Opportunity Stages</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>briefingedge__Don_t_Require_Opportunities_for_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this option if you want to be able to schedule visits without tying an Opportunity to the visit</inlineHelpText>
+        <label>Don&apos;t Require Opportunities for Visit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>briefingedge__Service_Endpoint__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the endpoint to be used for connecting with the webservices associated with your instance of BriefingEdge.</inlineHelpText>
+        <label>Service Endpoint</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>briefingedge__Service_Password__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the password used to authenticate requests to the BriefingEdge webservice.</inlineHelpText>
+        <label>Service Password</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>briefingedge__VisitData_Amount_Field_Option__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The behavior that should be used by the Amount field on VisitData page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Should the Amount column on the VisitData page use the Opportunity.Amount field, the field mapped to BriefingEdge&apos;s actual revenue, the field mapped to BriefingEdge&apos;s potential revenue, or not be displayed?</inlineHelpText>
+        <label>VisitData Amount Field Option</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>briefingedge__VisitData_Request_Briefing_Button_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>On the page used to send initial request data to BriefingEdge, you can customize the label of the button with this field. It defaults to Request a Briefing.</inlineHelpText>
+        <label>VisitData Request Briefing Button Label</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>BriefingEdge Configuration</label>
+    <visibility>Public</visibility>
+</CustomObject>

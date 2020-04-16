@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <comment>October 2014 Release for BR-5654: Changed Page from VFP50_CompetitorSearch to VFP_CompetitorSearch.</comment>
+        <content>VFP_CompetitorSearch</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>September Release - Junction object to relate multiple Competitors to Opportunity and vice versa.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <description>September Release - Comments for Competitor.</description>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CompetitorName__c</fullName>
+        <description>SEPTEMBER RELEASE - Created to display the Competitor Name to the User and clicking on the Competitor Name user will be navigate to the Opportunity Competitor detail page.</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK( LEFT($Api.Partner_Server_URL_300, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_300)) + Id , TECH_CompetitorName__r.Name, &apos;_parent&apos; )</formula>
+        <label>Competitor Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OppCompetitorExtRef__c</fullName>
+        <externalId>true</externalId>
+        <label>OppCompetitorExtRef</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OpportunityName__c</fullName>
+        <description>September Release - Field to store the name of an opportunity.</description>
+        <externalId>false</externalId>
+        <label>Opportunity Name</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Competitors</relationshipLabel>
+        <relationshipName>Competitors</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>OtherName__c</fullName>
+        <description>SEPTEMBER RELEASE - Field for Other Opportunity Competitor Name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Introduce here the Competitor name when you cannot find it in the &quot;Competitor Name&quot; active list. In &quot;Competitor Name&quot; field please choose &quot;Other&quot; value.</inlineHelpText>
+        <label>Other Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Price__c</fullName>
+        <description>September Release - Price for Competitor.</description>
+        <externalId>false</externalId>
+        <label>Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TECH_CompetitorName__c</fullName>
+        <description>September Release - Created to associate a competitor with an opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When the Competitor is not in the list, please choose Other as &quot;Competitor Name&quot; value and enter the exact name of the Competitor in the below &quot;Other Name&quot; field.</inlineHelpText>
+        <label>Competitor Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Competitor__c.Active__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Competitor__c</referenceTo>
+        <relationshipLabel>Opportunity Competitors</relationshipLabel>
+        <relationshipName>Opportunity_Competitors</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>TECH_UniqueCompetitor__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>SEPTEMBER RELEASE - Unique field to restrict user from Saving the same Competitor more than 1 time.</description>
+        <externalId>true</externalId>
+        <label>TECH_Unique Competitor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Winner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>September Release - Checkbox to check the winner of the opportunity.</description>
+        <externalId>false</externalId>
+        <label>Winner</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Opportunity Competitor</label>
+    <nameField>
+        <displayFormat>OCN - {0000}</displayFormat>
+        <label>Opportunity Competitor Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Opportunity Competitors</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>OCR_VR01_OtherCompetitorMandatory</fullName>
+        <active>true</active>
+        <description>SEPTEMBER RELEASE - When Competitor is Selected as Other, User has to provide the Competitor Name, Otherwise Other Name field should be blank.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), OR(AND(CONTAINS(LOWER(TECH_CompetitorName__r.Name), LOWER($Label.CL00519) ), ISBLANK(OtherName__c)), AND(NOT(CONTAINS(LOWER(TECH_CompetitorName__r.Name), LOWER($Label.CL00519) )), NOT(ISBLANK(OtherName__c)))))</errorConditionFormula>
+        <errorDisplayField>OtherName__c</errorDisplayField>
+        <errorMessage>Other Competitor Name should be populated if the competitor is selected as Other.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>AddDefaultCompetitors</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Add Default Opportunity Competitors</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>../apex/VFP_AddDefaultOpportunityCompetitor?oppID={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>TrainingVideoCreatingListOfCompetitors</fullName>
+        <availability>online</availability>
+        <description>List of training video for creating a List of Competitors</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Training video: Creating a List of Competitors</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://schneider-electric.box.com/s/b06zab6syc92euspttaz</url>
+    </webLinks>
+</CustomObject>

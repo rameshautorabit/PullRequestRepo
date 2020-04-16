@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This custom setting stores the country names,code and Marketo deployments information</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CountryCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Country Code</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CountryName__c</fullName>
+        <externalId>false</externalId>
+        <label>Country Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CountryRecordId__c</fullName>
+        <description>This field will store the country record id</description>
+        <externalId>false</externalId>
+        <label>Country Record Id</label>
+        <length>18</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MarketoDeployed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Marketo Deployed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>CS_Country</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds the Field name and API Name of the field</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FieldFullName__c</fullName>
+        <externalId>false</externalId>
+        <label>FieldFullName</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_FieldNameAPIName</label>
+    <visibility>Public</visibility>
+</CustomObject>

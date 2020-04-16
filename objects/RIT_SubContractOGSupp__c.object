@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Quote Approval - Sub Contractors- OG Suppliers for Bid Approval</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>BackToBackCondition__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify on what conditions a back-to-back has been negotiated</inlineHelpText>
+        <label>Back 2 Back clauses accepted by OG Supp</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contractual terms (Liabilities, etc.)</fullName>
+                    <default>false</default>
+                    <label>Contractual terms (Liabilities, etc.)</label>
+                </value>
+                <value>
+                    <fullName>Liquidated Damages (delay, performance)</fullName>
+                    <default>false</default>
+                    <label>Liquidated Damages (delay, performance)</label>
+                </value>
+                <value>
+                    <fullName>Penalties</fullName>
+                    <default>false</default>
+                    <label>Penalties</label>
+                </value>
+                <value>
+                    <fullName>Delivery time</fullName>
+                    <default>false</default>
+                    <label>Delivery time</label>
+                </value>
+                <value>
+                    <fullName>Technical scope &amp; performance commitment</fullName>
+                    <default>false</default>
+                    <label>Technical scope &amp; performance commitment</label>
+                </value>
+                <value>
+                    <fullName>Warranty</fullName>
+                    <default>false</default>
+                    <label>Warranty</label>
+                </value>
+                <value>
+                    <fullName>Price validity</fullName>
+                    <default>false</default>
+                    <label>Price validity</label>
+                </value>
+                <value>
+                    <fullName>Payment Milestones</fullName>
+                    <default>false</default>
+                    <label>Payment Milestones</label>
+                </value>
+                <value>
+                    <fullName>If &amp; When payments</fullName>
+                    <default>false</default>
+                    <label>If &amp; When payments</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentsOnOGSuppliers__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. the OG suppliers can be reinsourced, 3 binding offers for each SOW have been received, etc.</inlineHelpText>
+        <label>Comments on OG suppliers/subcontractors</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsonIGSuppliers__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. Offers received from IG suppliers, Provisions for Cost variations have been accounted for, etc.</inlineHelpText>
+        <label>Comments on IG Suppliers/Subcontractors</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CriticalOGSuppliers__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Have we received from all critical OG suppliers, binding offers with price, schedule, validity period, T&amp;Cs all matching our contract with the Client? 
+
+The offers received from the OG suppliers must be fully compliant with our contract with the Client.</inlineHelpText>
+        <label>OG firm offers in line with our offer ?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DeliveryTime__c</fullName>
+        <description>Quote Approval – Delivery Time for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <label>Delivery Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EquipmentServiceProcured__c</fullName>
+        <description>Quote Approval – Equipment/Service Procured for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What kind of equipment / software / service /  other will be procured from them?</inlineHelpText>
+        <label>OG Equip. / Software / Service procured?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EquipmentsProcured__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What kind of equipment/software/services/other will be procured from them?</inlineHelpText>
+        <label>IG Equip./Software/Service procured ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IsBackToBackConditionsNegotiatedNew__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Do the major OG suppliers have sufficient financial health to support back-to-back infringement to Platinum Rules?
+
+Major OG suppliers &gt; 20% COGS</inlineHelpText>
+        <label>OG credit worthiness OK for back 2 back?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsBackToBackConditionsNegotiated__c</fullName>
+        <description>Quote Approval – Is Back To Back Conditions Negotiated? for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Have We Negotiated Back To Back Conditions With Them Notably On :</inlineHelpText>
+        <label>Is Back To Back Conditions Negotiated?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>LiquidatedDamagesDelay__c</fullName>
+        <description>Quote Approval – Liquidated Damages  (Delay)  for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <label>Liquidated Damages  (Delay)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NameAndCountriesMajorIG__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Names and countries of the major IG suppliers  /  IG subcontractors</inlineHelpText>
+        <label>Name major IG Suppliers / Subcontractors</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NameTheMajorSubcontractorsOGSupp__c</fullName>
+        <description>Quote Approval – Name of the major subcontractors/OG Suppliers for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name and countries of the major OG Suppliers / OG subcontractors</inlineHelpText>
+        <label>Names of major OG Suppliers/Contractors</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OGSuppliersCriticalRiskMitiMsg__c</fullName>
+        <defaultValue>&apos;Please attach PPA in the Notes &amp; Attachments section&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OGSuppliersCriticalRiskMitigation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For the critical OG suppliers, have the supplier selection and risk mitigation be done with the PPA tool with the procurement team?
+
+A critical supplier is a supplier which scope is &gt; 30% COGS and/or sole source supplier and/or imposed by the Client</inlineHelpText>
+        <label>Procurement team filled PPA tool?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OGSuppliersCritical__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are some of the OG suppliers critical in our scope of supply?</inlineHelpText>
+        <label>OG suppliers critical for our scope ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>OG&apos;s scope &gt; 30% of COGS</fullName>
+                    <default>false</default>
+                    <label>OG&apos;s scope &gt; 30% of COGS</label>
+                </value>
+                <value>
+                    <fullName>OG is technically critical to our scope</fullName>
+                    <default>false</default>
+                    <label>OG is technically critical to our scope</label>
+                </value>
+                <value>
+                    <fullName>OG critical to our delivery schedule</fullName>
+                    <default>false</default>
+                    <label>OG critical to our delivery schedule</label>
+                </value>
+                <value>
+                    <fullName>OG supplier is imposed by the Client</fullName>
+                    <default>false</default>
+                    <label>OG supplier is imposed by the Client</label>
+                </value>
+                <value>
+                    <fullName>OG supplier is sole source supplier</fullName>
+                    <default>false</default>
+                    <label>OG supplier is sole source supplier</label>
+                </value>
+                <value>
+                    <fullName>OG can be transferred to other 3rd party</fullName>
+                    <default>false</default>
+                    <label>OG can be transferred to other 3rd party</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Other__c</fullName>
+        <description>Quote Approval – If Other, Please Comment for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <label>Other</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PaymentIfAndWhen__c</fullName>
+        <description>Quote Approval – Payment  (If And When) for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <label>Payment  (If And When)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Performance__c</fullName>
+        <description>Quote Approval – Performance for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <label>Performance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QualifyRisksConcerningSubConOGSupp__c</fullName>
+        <description>Quote Approval –Qualify Risks Concerning Sub Con/OG Supp  for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify The Risks Concerning The Sub Contractors - OG Suppliers?</inlineHelpText>
+        <label>Qualify Risks Concerning Sub Con/OG Supp</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuoteLink__c</fullName>
+        <description>Quote Approval - Master-detail relationship between Sub Contractor - OG Suppliers and Quote Link</description>
+        <externalId>false</externalId>
+        <label>Quote Link</label>
+        <referenceTo>OPP_QuoteLink__c</referenceTo>
+        <relationshipName>RIT_SubContractOGSupp</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ReinsourceSubcontractedWorkloadsPoss__c</fullName>
+        <description>Quote Approval – Reinsource Subcontracted Workloads Poss? for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Could We Re In-Source (Or Transfer To Another 3rd Party)  The Subcontracted Workload If Necessary</inlineHelpText>
+        <label>Reinsource Subcontracted Workloads Poss?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>RiskStatusPPAGreen__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the risk status of the PPA green after mitigation plan?</inlineHelpText>
+        <label>PPA green after mitigation plan?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Warranty__c</fullName>
+        <description>Quote Approval – Warranty for Sub Contractors - OG Suppliers.</description>
+        <externalId>false</externalId>
+        <label>Warranty</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Sourcing - Supply Chain</label>
+    <nameField>
+        <displayFormat>RIT-SCO-{0000}</displayFormat>
+        <label>Sub Contractors - OG Suppliers</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Sourcing - Supply Chains</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>SCO_VR01_CheckQuoteStatus</fullName>
+        <active>true</active>
+        <description>Quote Approval - To ensure that information is not edited after Quote Approval</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(Text(QuoteLink__r.QuoteStatus__c) = &apos;Approved&apos;)</errorConditionFormula>
+        <errorMessage>RITE Information cannot be modified now, as the Quote is Approved</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>RIT_SCO_RITEForm</fullName>
+        <availability>online</availability>
+        <description>Quote Approval – A button to go back to the RITE Form Executive Summary Page.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Back to RITE Form</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/VFP13_RITEForm?id={!RIT_SubContractOGSupp__c.QuoteLinkId__c}</url>
+    </webLinks>
+</CustomObject>

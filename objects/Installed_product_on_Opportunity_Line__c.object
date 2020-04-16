@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AssociatedIPExternalID__c</fullName>
+        <description>Concatenation of: &lt;Opportunity line external ID&gt;~&lt;Installed Product ID&gt;.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Concatenation of: &lt;Opportunity line external ID&gt;~&lt;Installed Product ID&gt;.</inlineHelpText>
+        <label>Associated IP External ID</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.Product_Brand__c</formula>
+        <label>Brand</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <description>When an FSR creates an opportunity notification and attaches an installed product, he can fill in a comment on the installed product to specify any details regarding the opportunity</description>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Device_type__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.Product_Device_Type__c</formula>
+        <label>Device type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Installed_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Installed Product</label>
+        <referenceTo>SVMXC__Installed_Product__c</referenceTo>
+        <relationshipLabel>Opportunity Lines</relationshipLabel>
+        <relationshipName>Associated_Installed_Products1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Installedataccount__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.SVMXC__Company__r.Name</formula>
+        <label>Installed at account</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LifeCycleStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF((TEXT(Installed_Product__r.LifeCycleStatusOfTheInstalledProduct__c))==&quot;NOT_USED&quot;,&quot;At Customer Location - Not Used&quot;,
+IF((TEXT(Installed_Product__r.LifeCycleStatusOfTheInstalledProduct__c))==&quot;LOST&quot;,&quot;Lost or Stolen&quot;,
+IF((TEXT(Installed_Product__r.LifeCycleStatusOfTheInstalledProduct__c))==&quot;REMOVED&quot;,&quot;Removed for Repair&quot;,
+IF((TEXT(Installed_Product__r.LifeCycleStatusOfTheInstalledProduct__c))==&quot;IN_USE&quot;,&quot;Commissioned / In Use&quot;,
+IF((TEXT(Installed_Product__r.LifeCycleStatusOfTheInstalledProduct__c))==&quot;SCRAPPED&quot;,&quot;Scrapped&quot;,
+IF((TEXT(Installed_Product__r.LifeCycleStatusOfTheInstalledProduct__c))==&quot;SUPPLY_CHAIN&quot;,&quot;In Supply Chain&quot;,&quot;&quot;))))))</formula>
+        <label>LifeCycle Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.SVMXC__Site__r.Name</formula>
+        <label>Location</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Line__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Line</label>
+        <referenceTo>OPP_ProductLine__c</referenceTo>
+        <relationshipLabel>Associated Installed Products</relationshipLabel>
+        <relationshipName>Installed_product_on_Opportunity_Line</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity_Line__r.Opportunity__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_SE_Reference_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity_Line__r.Opportunity__r.SEReference__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity SE Reference Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PDUIpbFOId__c</fullName>
+        <externalId>false</externalId>
+        <label>PDUIpbFOId</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phase_Sales_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Opportunity_Line__r.Opportunity__r.StageName,
+&quot;0 - Closed&quot;, &quot;0 - Closed&quot;, 
+&quot;1 - Understand Business Context&quot;,&quot;1 - Understand Business Context&quot;,
+&quot;2 - Define Opportunity Portfolio&quot;,&quot;2 - Identify Customer Strategic Initiatives&quot;,
+&quot;3 - Identify &amp; Qualify&quot;,&quot;3 - Qualify Opportunity&quot;,
+&quot;4 - Influence &amp; Develop&quot;,&quot;4 - Influence and Develop&quot;,
+&quot;5 - Prepare &amp; Bid&quot;,&quot;5 - Prepare &amp; Bid&quot;,
+&quot;6 - Negotiate &amp; Win&quot;,&quot;6 - Negotiate to Win&quot;,
+&quot;7 - Deliver &amp; Validate&quot;,&quot;7 - Deliver &amp; Validate&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Phase/Sales Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Range__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.Product_Range__c</formula>
+        <label>Range</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SKU__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.SVMXC__Product__r.SKU__c</formula>
+        <label>Product SKU</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Serial_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Installed_Product__r.SVMXC__Serial_Lot_Number__c</formula>
+        <label>Serial Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Associated Installed Product</label>
+    <nameField>
+        <displayFormat>AIPN-{0000}</displayFormat>
+        <label>Associated Installed Product Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Associated Installed Products</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>CreateAssoIP</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Create/Attach Installed Product</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/VFP_SearchInstalledProduct?objid={!OPP_ProductLine__c.Id}&amp;sobj=OPTY</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Amount__c</fullName>
+        <description>Estimated amount of this interest.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated amount of this interest.</inlineHelpText>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Counter__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Counter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Interest__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Exposed to Customer</inlineHelpText>
+        <label>Interest *</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Service Contract</fullName>
+                    <default>false</default>
+                    <label>Service Contract</label>
+                </value>
+                <value>
+                    <fullName>Cooling</fullName>
+                    <default>false</default>
+                    <label>Cooling</label>
+                </value>
+                <value>
+                    <fullName>Racks &amp; Enclosures</fullName>
+                    <default>false</default>
+                    <label>Racks &amp; Enclosures</label>
+                </value>
+                <value>
+                    <fullName>3 phase power</fullName>
+                    <default>false</default>
+                    <label>3 phase power</label>
+                </value>
+                <value>
+                    <fullName>1 phase power</fullName>
+                    <default>false</default>
+                    <label>1 phase power</label>
+                </value>
+                <value>
+                    <fullName>Other HW</fullName>
+                    <default>false</default>
+                    <label>Other HW</label>
+                </value>
+                <value>
+                    <fullName>Other Service</fullName>
+                    <default>false</default>
+                    <label>Other Service</label>
+                </value>
+                <value>
+                    <fullName>Spare Parts</fullName>
+                    <default>false</default>
+                    <label>Spare Parts</label>
+                </value>
+                <value>
+                    <fullName>MV Equipment</fullName>
+                    <default>false</default>
+                    <label>MV Equipment</label>
+                </value>
+                <value>
+                    <fullName>Switch Gear</fullName>
+                    <default>false</default>
+                    <label>Switch Gear</label>
+                </value>
+                <value>
+                    <fullName>Building Services</fullName>
+                    <default>false</default>
+                    <label>Building Services</label>
+                </value>
+                <value>
+                    <fullName>Solar Products</fullName>
+                    <default>false</default>
+                    <label>Solar Products</label>
+                </value>
+                <value>
+                    <fullName>Solar Services</fullName>
+                    <default>false</default>
+                    <label>Solar Services</label>
+                </value>
+                <value>
+                    <fullName>Systems (legacy Invensys) Services</fullName>
+                    <default>false</default>
+                    <label>Systems (legacy Invensys) Services</label>
+                </value>
+                <value>
+                    <fullName>Plant Solutions Services</fullName>
+                    <default>false</default>
+                    <label>Plant Solutions Services</label>
+                </value>
+                <value>
+                    <fullName>Systems (legacy Invensys) HW/SW</fullName>
+                    <default>false</default>
+                    <label>Systems (legacy Invensys) HW/SW</label>
+                </value>
+                <value>
+                    <fullName>Plant Solutions HW/SW</fullName>
+                    <default>false</default>
+                    <label>Plant Solutions HW/SW</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Batt. Repl. VRLA &amp; Li Ion</fullName>
+                    <default>false</default>
+                    <label>Batt. Repl. VRLA &amp; Li Ion</label>
+                </value>
+                <value>
+                    <fullName>MBRS</fullName>
+                    <default>false</default>
+                    <label>MBRS</label>
+                </value>
+                <value>
+                    <fullName>Spare Sales</fullName>
+                    <default>false</default>
+                    <label>Spare Sales</label>
+                </value>
+                <value>
+                    <fullName>RefreshUPS -Cooling Mod</fullName>
+                    <default>false</default>
+                    <label>RefreshUPS -Cooling Mod</label>
+                </value>
+                <value>
+                    <fullName>MPRS</fullName>
+                    <default>false</default>
+                    <label>MPRS</label>
+                </value>
+                <value>
+                    <fullName>Asset Advisor</fullName>
+                    <default>false</default>
+                    <label>Asset Advisor</label>
+                </value>
+                <value>
+                    <fullName>On demand</fullName>
+                    <default>false</default>
+                    <label>On demand</label>
+                </value>
+                <value>
+                    <fullName>LV Modernization &amp; Ecofit</fullName>
+                    <default>false</default>
+                    <label>LV Modernization &amp; Ecofit</label>
+                </value>
+                <value>
+                    <fullName>MV Modernization &amp; Ecofit</fullName>
+                    <default>false</default>
+                    <label>MV Modernization &amp; Ecofit</label>
+                </value>
+                <value>
+                    <fullName>Maintenance &amp; Diag for next intervention</fullName>
+                    <default>false</default>
+                    <label>Maintenance &amp; Diag for next intervention</label>
+                </value>
+                <value>
+                    <fullName>Maintenance &amp; Diag for urgent repair</fullName>
+                    <default>false</default>
+                    <label>Maintenance &amp; Diag for urgent repair</label>
+                </value>
+                <value>
+                    <fullName>Asset Advisor &amp; Connect</fullName>
+                    <default>false</default>
+                    <label>Asset Advisor &amp; Connect</label>
+                </value>
+                <value>
+                    <fullName>MPS audit, Technical Studies</fullName>
+                    <default>false</default>
+                    <label>MPS audit, Technical Studies</label>
+                </value>
+                <value>
+                    <fullName>Exchange &amp; Repair</fullName>
+                    <default>false</default>
+                    <label>Exchange &amp; Repair</label>
+                </value>
+                <value>
+                    <fullName>Consulting</fullName>
+                    <default>false</default>
+                    <label>Consulting</label>
+                </value>
+                <value>
+                    <fullName>Modernization</fullName>
+                    <default>false</default>
+                    <label>Modernization</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+                <value>
+                    <fullName>Service Contracts</fullName>
+                    <default>false</default>
+                    <label>Service Contracts</label>
+                </value>
+                <value>
+                    <fullName>Cyber Security</fullName>
+                    <default>false</default>
+                    <label>Cyber Security</label>
+                </value>
+                <value>
+                    <fullName>Other Services</fullName>
+                    <default>false</default>
+                    <label>Other Services</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>Service Contract</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <valueName>Other Service</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>Training</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <valueName>Batt. Repl. VRLA &amp; Li Ion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <valueName>MBRS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <valueName>Spare Sales</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <valueName>RefreshUPS -Cooling Mod</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <valueName>MPRS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <valueName>Asset Advisor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (IT)</controllingFieldValue>
+                <valueName>On demand</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (IT)</controllingFieldValue>
+                <valueName>Cooling</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (IT)</controllingFieldValue>
+                <valueName>Racks &amp; Enclosures</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (IT)</controllingFieldValue>
+                <valueName>3 phase power</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (IT)</controllingFieldValue>
+                <valueName>1 phase power</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (IT)</controllingFieldValue>
+                <controllingFieldValue>Product (Energy)</controllingFieldValue>
+                <valueName>Other HW</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>Spare Parts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <valueName>Systems (legacy Invensys) Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <valueName>Plant Solutions Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <valueName>Exchange &amp; Repair</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <valueName>Consulting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <valueName>Modernization</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <valueName>Installation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <valueName>Service Contracts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Industry)</controllingFieldValue>
+                <valueName>Cyber Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (Industry)</controllingFieldValue>
+                <valueName>Systems (legacy Invensys) HW/SW</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (Industry)</controllingFieldValue>
+                <valueName>Plant Solutions HW/SW</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Solar)</controllingFieldValue>
+                <valueName>Solar Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (Solar)</controllingFieldValue>
+                <valueName>Solar Products</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Building)</controllingFieldValue>
+                <valueName>Building Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>LV Modernization &amp; Ecofit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>MV Modernization &amp; Ecofit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>Maintenance &amp; Diag for next intervention</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>Maintenance &amp; Diag for urgent repair</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>Asset Advisor &amp; Connect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>MPS audit, Technical Studies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service (Energy)</controllingFieldValue>
+                <valueName>Other Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (Energy)</controllingFieldValue>
+                <valueName>MV Equipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product (Energy)</controllingFieldValue>
+                <valueName>Switch Gear</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Leading_Business_BU__c</fullName>
+        <externalId>false</externalId>
+        <label>Business (BU)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>false</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>SO</fullName>
+                    <default>false</default>
+                    <label>SO</label>
+                </value>
+                <value>
+                    <fullName>BD</fullName>
+                    <default>false</default>
+                    <label>BD</label>
+                </value>
+                <value>
+                    <fullName>ID</fullName>
+                    <default>false</default>
+                    <label>ID</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OpportunityNotification__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Notification</label>
+        <referenceTo>OpportunityNotification__c</referenceTo>
+        <relationshipName>Interests_On_Opportunity_Notif</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Exposed to Customer</inlineHelpText>
+        <label>Type *</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Leading_Business_BU__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Service (IT)</fullName>
+                    <default>false</default>
+                    <label>Service (Secure Power)</label>
+                </value>
+                <value>
+                    <fullName>Product (IT)</fullName>
+                    <default>false</default>
+                    <label>Product (Secure Power)</label>
+                </value>
+                <value>
+                    <fullName>Service (Industry)</fullName>
+                    <default>false</default>
+                    <label>Service (Industrial Automation)</label>
+                </value>
+                <value>
+                    <fullName>Service (Solar)</fullName>
+                    <default>false</default>
+                    <label>Service (Solar)</label>
+                </value>
+                <value>
+                    <fullName>Product (Solar)</fullName>
+                    <default>false</default>
+                    <label>Product (Solar)</label>
+                </value>
+                <value>
+                    <fullName>Service (Building)</fullName>
+                    <default>false</default>
+                    <label>Service (Digital Energy)</label>
+                </value>
+                <value>
+                    <fullName>Service (Energy)</fullName>
+                    <default>false</default>
+                    <label>Service (Power Systems)</label>
+                </value>
+                <value>
+                    <fullName>Product (Energy)</fullName>
+                    <default>false</default>
+                    <label>Product (Power Systems)</label>
+                </value>
+                <value>
+                    <fullName>Product (Industry)</fullName>
+                    <default>false</default>
+                    <label>Product (Industrial Automation)</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>IT</controllingFieldValue>
+                <valueName>Service (IT)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT</controllingFieldValue>
+                <valueName>Product (IT)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EN</controllingFieldValue>
+                <valueName>Service (Energy)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EN</controllingFieldValue>
+                <valueName>Product (Energy)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SO</controllingFieldValue>
+                <valueName>Service (Solar)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SO</controllingFieldValue>
+                <valueName>Product (Solar)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>BD</controllingFieldValue>
+                <valueName>Service (Building)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ID</controllingFieldValue>
+                <valueName>Service (Industry)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ID</controllingFieldValue>
+                <valueName>Product (Industry)</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Interest</label>
+    <nameField>
+        <displayFormat>INT-{0000}</displayFormat>
+        <label>Interest On Opportunity Notif Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Interests</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

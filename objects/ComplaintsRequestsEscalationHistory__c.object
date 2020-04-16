@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AcknowledgementTimeTaken__c</fullName>
+        <externalId>false</externalId>
+        <label>Acknowledgement Time Taken</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Action__c</fullName>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>BusinessMinutes__c</fullName>
+        <description>Total number of minutes from reception of the CR until the reassignment in Business hours in human readable format (text)</description>
+        <externalId>false</externalId>
+        <label>Working Business Minutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ComplaintRequest__c</fullName>
+        <externalId>false</externalId>
+        <label>Complaint/Request</label>
+        <referenceTo>ComplaintRequest__c</referenceTo>
+        <relationshipLabel>Complaints/Requests Escalation History</relationshipLabel>
+        <relationshipName>Complaints_Requests_Escalation_History</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ContactEmailOfAccountableOrganization__c</fullName>
+        <description>I2P: APRIL2014 RELEASE - Contact email of To accountable Organization</description>
+        <externalId>false</externalId>
+        <label>Contact Email of AccountableOrganization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactEmailOfIssueOwner__c</fullName>
+        <description>I2P: APRIL2014 RELEASE</description>
+        <externalId>false</externalId>
+        <label>Contact Email of Issue Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactEmailofFromAcctOrg__c</fullName>
+        <description>Contact Email of From Accountable Org</description>
+        <externalId>false</externalId>
+        <label>Contact Email of From Acct Org</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <formula>FromOrg__r.RCCountry__r.Name</formula>
+        <label>From Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DaysNotWeekend__c</fullName>
+        <description>I2P April 2015 Release</description>
+        <externalId>false</externalId>
+        <formula>(5 * ( FLOOR( ( Event_Date__c - DATETIMEVALUE( &quot;1900-01-08 00:00:00&quot; ) ) / 7 ) ) + MIN( 5, MOD(Event_Date__c - DATETIMEVALUE( &quot;1900-01-08 00:00:00&quot; ), 7 ) ) ) 
+- 
+(5 * ( FLOOR( ( PreviousEvent_Date__c - DATETIMEVALUE( &quot;1900-01-08 00:00:00&quot; ) ) / 7 ) ) + MIN( 5, MOD( PreviousEvent_Date__c - DATETIMEVALUE( &quot;1900-01-08 00:00:00&quot; ), 7 ) ) )</formula>
+        <label>DaysNotWeekend_NotUse</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DaysTaken__c</fullName>
+        <externalId>false</externalId>
+        <formula>Event_Date__c - PreviousEvent_Date__c</formula>
+        <label>Days Taken</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Department__c</fullName>
+        <description>I2P: Oct2014 Release</description>
+        <externalId>false</externalId>
+        <label>From Department</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EDate__c</fullName>
+        <description>I2P April 2015 Release</description>
+        <externalId>false</externalId>
+        <label>EDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>EscalationLevel__c</fullName>
+        <description>Track the Level of Escalation</description>
+        <externalId>false</externalId>
+        <label>EscalationLevel</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Date__c</fullName>
+        <description>Date on which the Assignment / Reassignment occured</description>
+        <externalId>false</externalId>
+        <label>Event Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Event_Type__c</fullName>
+        <description>I2P April release 2015</description>
+        <externalId>false</externalId>
+        <label>Event Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Reassign</fullName>
+                    <default>false</default>
+                    <label>Reassign</label>
+                </value>
+                <value>
+                    <fullName>Assign</fullName>
+                    <default>false</default>
+                    <label>Assign</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Answer</fullName>
+                    <default>false</default>
+                    <label>Answer</label>
+                </value>
+                <value>
+                    <fullName>Forward</fullName>
+                    <default>false</default>
+                    <label>Forward</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ForceManualSelectionToReason__c</fullName>
+        <description>I2P April 2015 Release</description>
+        <externalId>false</externalId>
+        <label>ForceManualSelectionToReason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FromDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Received</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FromKeepInvolved__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>This is the field used for From Keep Involved</description>
+        <externalId>false</externalId>
+        <label>Keep Involved To</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FromOrg__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>From</label>
+        <lookupFilter>
+            <active>false</active>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Complaints/Requests Escalation History</relationshipLabel>
+        <relationshipName>Complaints_Requests_Escalation_History</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>From_IssueOwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>From Issue Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CR_IssueOwner</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>From__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH From</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HoursTaken__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(FLOOR(ABS(DaysNotWeekend__c))) &amp; &quot;d &quot; &amp;
+TEXT( FLOOR( 24 * ( DaysTaken__c - FLOOR(DaysTaken__c) ))) &amp; &quot;h &quot; &amp;
+TEXT( ROUND(60 * (ROUND( 24 * (DaysTaken__c - FLOOR(DaysTaken__c) ),8) - FLOOR(
+ROUND( 24 * ( DaysTaken__c - FLOOR(DaysTaken__c) ),8)) ),0)) &amp; &quot;m&quot;</formula>
+        <label>Time Taken</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IssueOwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P: APRIL2014 RELEASE</description>
+        <externalId>false</externalId>
+        <label>To Issue Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Complaints_Requests_Escalation_History</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>KeepInvolved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Keep Involved</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MinutesTaken__c</fullName>
+        <description>I2P April 2015 Release</description>
+        <externalId>false</externalId>
+        <formula>(( FLOOR( ABS( DaysNotWeekend__c ) ) * 1440) + (60 * FLOOR( 24 * ( DaysTaken__c - FLOOR(DaysTaken__c) ))) 
++ (ROUND(60 * (ROUND( 24 * (DaysTaken__c - FLOOR(DaysTaken__c) ),8) - FLOOR( 
+ROUND( 24 * ( DaysTaken__c - FLOOR(DaysTaken__c) ),8)) ),0)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Minutes Taken</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Minutes_Taken__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT((FLOOR( ABS( DaysNotWeekend__c ) ) * 1440) + (60 * FLOOR( 24 * ( DaysTaken__c - FLOOR(DaysTaken__c) )))
++ (ROUND(60 * (ROUND( 24 * (DaysTaken__c  - FLOOR(DaysTaken__c) ),8) - FLOOR( 
+ROUND( 24 * ( DaysTaken__c - FLOOR(DaysTaken__c) ),8)) ),0)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH Minutes Taken</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrgSelectable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>I2P April 2015 Release - Determine if the org is a selectable org for answer</description>
+        <externalId>false</externalId>
+        <label>OrgSelectable</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PEDate__c</fullName>
+        <description>I2P April Release Changes</description>
+        <externalId>false</externalId>
+        <label>PEDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PreviousEvent_Date__c</fullName>
+        <description>Date of the Previous Assignment or Reassignment</description>
+        <externalId>false</externalId>
+        <label>Previous Event Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TECHMinutesConversion__c</fullName>
+        <externalId>false</externalId>
+        <formula>DaysTaken__c*24*60</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH Minutes Conversion</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TimeTaken__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(BusinessMinutes__c != 0, (TEXT(FLOOR(BusinessMinutes__c / 60)) 
+&amp;&apos;h&apos;&amp; &apos; &apos; &amp; 
+TEXT(MOD(BusinessMinutes__c ,60)) 
+&amp;&apos;m&apos; 
+),&apos;0h 0m&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Working Time Taken</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ToCountry__c</fullName>
+        <externalId>false</externalId>
+        <formula>ToOrg__r.RCCountry__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>To Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ToDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Reassigned</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ToDepartment__c</fullName>
+        <externalId>false</externalId>
+        <label>To Department</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ToForceManualSelection__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Force Manual Selection</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ToLocation__c</fullName>
+        <description>To Location</description>
+        <externalId>false</externalId>
+        <formula>FromOrg__r.Location__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ToLocation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ToOrg__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>To</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Complaints/Requests Escalation History (To)</relationshipLabel>
+        <relationshipName>Complaints_Requests_Escalation_History1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ToSubEntity__c</fullName>
+        <description>Sub Entity of the To Org</description>
+        <externalId>false</externalId>
+        <formula>FromOrg__r.SubEntity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ToSubEntity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>To__c</fullName>
+        <externalId>false</externalId>
+        <label>To</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackingField__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracking Field</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WorkingAcknowledgementTimeTaken__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(AcknowledgementTimeTaken__c != 0, (TEXT(FLOOR(AcknowledgementTimeTaken__c / 60)) 
+&amp;&apos;h&apos;&amp; &apos; &apos; &amp; 
+TEXT(MOD(AcknowledgementTimeTaken__c ,60)) 
+&amp;&apos;m&apos;
+),&apos;&apos;)</formula>
+        <label>Working Acknowledgement Time Taken</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Complaints/Requests Escalation History</label>
+    <nameField>
+        <displayFormat>H-{0000}</displayFormat>
+        <label>History Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Complaints/Requests Escalation History</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

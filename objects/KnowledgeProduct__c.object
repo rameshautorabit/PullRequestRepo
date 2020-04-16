@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Junction object between Knowledge Article and Products (Product2) or Ranges (Category__c).
+Used by the Product Search for Knowledge.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>CategoryName__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CategoryType__c ==&apos;PA-SUBNODE&apos;, Category__r.ParentCategory__r.ParentCategory__r.ParentCategory__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-NODE&apos;, Category__r.ParentCategory__r.ParentCategory__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-RANGE&apos;, Category__r.ParentCategory__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-SUBCATEGORY&apos;, Category__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-CATEGORY&apos;,Category__r.Name,
+&quot;&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Category Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CategoryType__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Category__c)), Category__r.CategoryType__c,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Category Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <referenceTo>Category__c</referenceTo>
+        <relationshipLabel>Knowledge Products</relationshipLabel>
+        <relationshipName>KnowledgeProducts</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Knowledge__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Knowledge</description>
+        <externalId>false</externalId>
+        <label>Knowledge</label>
+        <referenceTo>Knowledge__kav</referenceTo>
+        <relationshipName>Related_Products</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Node__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CategoryType__c ==&apos;PA-SUBNODE&apos;, Category__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-NODE&apos;,Category__r.Name,
+&quot;&quot;
+))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Node</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductDerived__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Product__c)), Product__r.Name,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductFormula__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Category__c)), Category__r.Name,&quot;&quot;) +
+IF(NOT(ISBLANK(Product__c)), Product__r.Name,&quot;&quot;) +
+IF(NOT(ISBLANK(ProductName__c)), ProductName__r.Name,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product(s)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductHierarchyType__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(ProductName__r.HierarchyType__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Hierarchy Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductName__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product Name</label>
+        <referenceTo>OPP_Product__c</referenceTo>
+        <relationshipName>Related_Products</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Knowledge Products</relationshipLabel>
+        <relationshipName>KnowledgeProducts</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Range__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CategoryType__c ==&apos;PA-SUBNODE&apos;, Category__r.ParentCategory__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-NODE&apos;, Category__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-RANGE&apos;,Category__r.Name,
+&quot;&quot;
+)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Range</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubCategory__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CategoryType__c ==&apos;PA-SUBNODE&apos;, Category__r.ParentCategory__r.ParentCategory__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-NODE&apos;, Category__r.ParentCategory__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-RANGE&apos;, Category__r.ParentCategory__r.Name,
+IF(CategoryType__c ==&apos;PA-SUBCATEGORY&apos;,Category__r.Name,
+&quot;&quot;
+))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SubCategory</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubNode__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CategoryType__c ==&apos;PA-SUBNODE&apos;, Category__r.Name,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sub Node</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Knowledge Product</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Knowledge__c</columns>
+        <columns>ProductName__c</columns>
+        <columns>ProductHierarchyType__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>KP-{000000}</displayFormat>
+        <label>Related Product Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Knowledge Products</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ProductName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ProductHierarchyType__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>ProductName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Knowledge__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ProductHierarchyType__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

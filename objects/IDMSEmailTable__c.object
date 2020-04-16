@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>EmailSender__c</fullName>
+        <description>Indicates who is the sender</description>
+        <externalId>false</externalId>
+        <label>EmailSender</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplateErrorReg__c</fullName>
+        <description>Registration email template in case of error in the user creation</description>
+        <externalId>false</externalId>
+        <label>EmailTemplateErrorReg</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplateExtInvitation__c</fullName>
+        <description>External Invitation Email Template (June&apos;17 Release)</description>
+        <externalId>false</externalId>
+        <label>EmailTemplateExtInvitation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplateIntInvitation__c</fullName>
+        <description>Internal Invitation Email Template (June&apos;17 Release)</description>
+        <externalId>false</externalId>
+        <label>EmailTemplateIntInvitation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplateInvited__c</fullName>
+        <description>Invitation email template</description>
+        <externalId>false</externalId>
+        <label>EmailTemplateInvited</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplateMFAEmail__c</fullName>
+        <description>Used in user login time to send OTP to the user</description>
+        <externalId>false</externalId>
+        <label>EmailTemplateMFAEmail</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplateNewEmail__c</fullName>
+        <description>New email template</description>
+        <externalId>false</externalId>
+        <label>EmailTemplateNewEmail</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplateOldEmail__c</fullName>
+        <description>Old email template</description>
+        <externalId>false</externalId>
+        <label>EmailTemplateOldEmail</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplatePreReg__c</fullName>
+        <description>Pre Registration Email Template (June&apos;17 Release)</description>
+        <externalId>false</externalId>
+        <label>EmailTemplatePreReg</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplatePwReset__c</fullName>
+        <description>Password reset email template</description>
+        <externalId>false</externalId>
+        <label>EmailTemplatePwReset</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplateRegPwSet__c</fullName>
+        <description>User registration without password.</description>
+        <externalId>false</externalId>
+        <label>EmailTemplateRegPwSet</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EmailTemplateReg__c</fullName>
+        <description>Registration email template</description>
+        <externalId>false</externalId>
+        <label>EmailTemplateReg</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>IDMSEmailTable</label>
+    <listViews>
+        <fullName>Email_Templates</fullName>
+        <columns>NAME</columns>
+        <columns>EmailTemplateNewEmail__c</columns>
+        <columns>EmailTemplateOldEmail__c</columns>
+        <columns>EmailTemplatePwReset__c</columns>
+        <columns>EmailTemplateReg__c</columns>
+        <columns>EmailTemplateRegPwSet__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Email Templates</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

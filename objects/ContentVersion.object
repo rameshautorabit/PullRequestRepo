@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Characteristic__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>List of the characteristics collected by the device model</inlineHelpText>
+        <label>Characteristics collected</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ContentSize</fullName>
+    </fields>
+    <fields>
+        <fullName>Content_Country__c</fullName>
+        <description>Content Country defaulted from user. Can be modified.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Country where the device is commercialized. By default the author country.</inlineHelpText>
+        <label>Device Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FR</fullName>
+                    <default>false</default>
+                    <label>FR</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Device_Type_New_Value__c</fullName>
+        <description>Allows to enter Device Type New Value if &quot;Other&quot; value is selected for Device type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>New value of Device Type to be created. The administrator will be notified.</inlineHelpText>
+        <label>Other device type</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocumentCategory__c</fullName>
+        <externalId>false</externalId>
+        <label>Document Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Business Case</fullName>
+                    <default>false</default>
+                    <label>Business Case</label>
+                </value>
+                <value>
+                    <fullName>Business Process Guide</fullName>
+                    <default>false</default>
+                    <label>Business Process Guide</label>
+                </value>
+                <value>
+                    <fullName>Com&apos;X Model</fullName>
+                    <default>true</default>
+                    <label>Com&apos;X Model</label>
+                </value>
+                <value>
+                    <fullName>Data Sheet</fullName>
+                    <default>false</default>
+                    <label>Data Sheet</label>
+                </value>
+                <value>
+                    <fullName>Detailled Functional Specification</fullName>
+                    <default>false</default>
+                    <label>Detailled Functional Specification</label>
+                </value>
+                <value>
+                    <fullName>Device Profile</fullName>
+                    <default>false</default>
+                    <label>Device Profile</label>
+                </value>
+                <value>
+                    <fullName>Documentation</fullName>
+                    <default>false</default>
+                    <label>Documentation</label>
+                </value>
+                <value>
+                    <fullName>General Presentation</fullName>
+                    <default>false</default>
+                    <label>General Presentation</label>
+                </value>
+                <value>
+                    <fullName>KPI definition</fullName>
+                    <default>false</default>
+                    <label>KPI definition</label>
+                </value>
+                <value>
+                    <fullName>Minutes of Meeting</fullName>
+                    <default>false</default>
+                    <label>Minutes of Meeting</label>
+                </value>
+                <value>
+                    <fullName>Program Rule</fullName>
+                    <default>false</default>
+                    <label>Program Rule</label>
+                </value>
+                <value>
+                    <fullName>Project Contract</fullName>
+                    <default>false</default>
+                    <label>Project Contract</label>
+                </value>
+                <value>
+                    <fullName>Strategy</fullName>
+                    <default>false</default>
+                    <label>Strategy</label>
+                </value>
+                <value>
+                    <fullName>Training Catalog Document</fullName>
+                    <default>false</default>
+                    <label>Training Catalog Document</label>
+                </value>
+                <value>
+                    <fullName>Training Unit Tutorial</fullName>
+                    <default>false</default>
+                    <label>Training Unit Tutorial</label>
+                </value>
+                <value>
+                    <fullName>Upload Data Procedure</fullName>
+                    <default>false</default>
+                    <label>Upload Data Procedure</label>
+                </value>
+                <value>
+                    <fullName>User Documentation Document</fullName>
+                    <default>false</default>
+                    <label>User Documentation Document</label>
+                </value>
+                <value>
+                    <fullName>User Story</fullName>
+                    <default>false</default>
+                    <label>User Story</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FileExtension</fullName>
+    </fields>
+    <fields>
+        <fullName>FileType</fullName>
+    </fields>
+    <fields>
+        <fullName>IsAssetEnabled</fullName>
+    </fields>
+    <fields>
+        <fullName>Language</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Original_Record_ID__c</fullName>
+        <description>The original Note or Attachment ID this ContentVersion was converted from. For history tracking purpose and used in conversion process to know the parent record to link the new content version to.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The original Note or Attachment ID this ContentVersion was converted from. For history tracking purpose and used in conversion process to know the parent record to link the new content version to.</inlineHelpText>
+        <label>Original Record ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Original_Record_Owner_ID__c</fullName>
+        <description>The owner ID of the original Note or Attachment that was converted.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The owner ID of the original Note or Attachment that was converted.</inlineHelpText>
+        <label>Original Record Owner ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Original_Record_Parent_ID__c</fullName>
+        <description>The original Note or Attachment parent ID this ContentVersion was converted from. For history tracking purpose and used in conversion process to know the parent record to link the new content version to.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The original Note or Attachment parent ID this ContentVersion was converted from. For history tracking purpose and used in conversion process to know the parent record to link the new content version to.</inlineHelpText>
+        <label>Original Record Parent ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Brand_New_Value__c</fullName>
+        <description>Allows to enter a new Brand value if &quot;Other&quot; Value is selected in Brand</description>
+        <externalId>false</externalId>
+        <inlineHelpText>New value of Brand to be created. The administrator will be notified.</inlineHelpText>
+        <label>Other Brand</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Manufacturer__c</fullName>
+        <description>Brand</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Brand of the device. The proposed list of brands depends on the country. Select Other to ask for the creation of a new value.</inlineHelpText>
+        <label>Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Content_Country__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ABB</fullName>
+                    <default>false</default>
+                    <label>ABB</label>
+                </value>
+                <value>
+                    <fullName>BMI</fullName>
+                    <default>false</default>
+                    <label>BMI</label>
+                </value>
+                <value>
+                    <fullName>Chauvin Arnoux</fullName>
+                    <default>false</default>
+                    <label>Chauvin Arnoux</label>
+                </value>
+                <value>
+                    <fullName>Circuitor</fullName>
+                    <default>false</default>
+                    <label>Circuitor</label>
+                </value>
+                <value>
+                    <fullName>Continental Control systems</fullName>
+                    <default>false</default>
+                    <label>Continental Control systems</label>
+                </value>
+                <value>
+                    <fullName>Dranetz</fullName>
+                    <default>false</default>
+                    <label>Dranetz</label>
+                </value>
+                <value>
+                    <fullName>Eaton</fullName>
+                    <default>false</default>
+                    <label>Eaton</label>
+                </value>
+                <value>
+                    <fullName>Electro Industries</fullName>
+                    <default>false</default>
+                    <label>Electro Industries</label>
+                </value>
+                <value>
+                    <fullName>E-Mon</fullName>
+                    <default>false</default>
+                    <label>E-Mon</label>
+                </value>
+                <value>
+                    <fullName>General Electric</fullName>
+                    <default>false</default>
+                    <label>General Electric</label>
+                </value>
+                <value>
+                    <fullName>Hager</fullName>
+                    <default>false</default>
+                    <label>Hager</label>
+                </value>
+                <value>
+                    <fullName>Honeywell</fullName>
+                    <default>false</default>
+                    <label>Honeywell</label>
+                </value>
+                <value>
+                    <fullName>Ilme</fullName>
+                    <default>false</default>
+                    <label>Ilme</label>
+                </value>
+                <value>
+                    <fullName>Imesys</fullName>
+                    <default>false</default>
+                    <label>Imesys</label>
+                </value>
+                <value>
+                    <fullName>IMS</fullName>
+                    <default>false</default>
+                    <label>IMS</label>
+                </value>
+                <value>
+                    <fullName>Legrand</fullName>
+                    <default>false</default>
+                    <label>Legrand</label>
+                </value>
+                <value>
+                    <fullName>Leviton</fullName>
+                    <default>false</default>
+                    <label>Leviton</label>
+                </value>
+                <value>
+                    <fullName>Quadlogic</fullName>
+                    <default>false</default>
+                    <label>Quadlogic</label>
+                </value>
+                <value>
+                    <fullName>Rockwell</fullName>
+                    <default>false</default>
+                    <label>Rockwell</label>
+                </value>
+                <value>
+                    <fullName>Satec</fullName>
+                    <default>false</default>
+                    <label>Satec</label>
+                </value>
+                <value>
+                    <fullName>Schneider Electric</fullName>
+                    <default>false</default>
+                    <label>Schneider Electric</label>
+                </value>
+                <value>
+                    <fullName>Siemens</fullName>
+                    <default>false</default>
+                    <label>Siemens</label>
+                </value>
+                <value>
+                    <fullName>Socomec</fullName>
+                    <default>false</default>
+                    <label>Socomec</label>
+                </value>
+                <value>
+                    <fullName>Triacta</fullName>
+                    <default>false</default>
+                    <label>Triacta</label>
+                </value>
+                <value>
+                    <fullName>Tyco Electronics</fullName>
+                    <default>false</default>
+                    <label>Tyco Electronics</label>
+                </value>
+                <value>
+                    <fullName>Veris</fullName>
+                    <default>false</default>
+                    <label>Veris</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>ABB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>Chauvin Arnoux</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>Circuitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Eaton</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>General Electric</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>Hager</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Honeywell</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>Ilme</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>Imesys</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>Legrand</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Schneider Electric</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Siemens</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>Socomec</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>BMI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Continental Control systems</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Dranetz</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Electro Industries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>E-Mon</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>IMS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Leviton</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Quadlogic</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Rockwell</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Satec</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Triacta</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Tyco Electronics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>Veris</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Part_Number__c</fullName>
+        <description>Product Part Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Part Number(s) of the device(s) concerned by the device model</inlineHelpText>
+        <label>Part Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_range__c</fullName>
+        <description>Device type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of device.  Select Other to ask for the creation of a new value and provide this value in Other Device Type.</inlineHelpText>
+        <label>Device Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Building Management Systems</fullName>
+                    <default>false</default>
+                    <label>Building Management Systems</label>
+                </value>
+                <value>
+                    <fullName>Capacitor banks</fullName>
+                    <default>false</default>
+                    <label>Capacitor banks</label>
+                </value>
+                <value>
+                    <fullName>Circuit breakers</fullName>
+                    <default>false</default>
+                    <label>Circuit breakers</label>
+                </value>
+                <value>
+                    <fullName>Command relays</fullName>
+                    <default>false</default>
+                    <label>Command relays</label>
+                </value>
+                <value>
+                    <fullName>Contactors</fullName>
+                    <default>false</default>
+                    <label>Contactors</label>
+                </value>
+                <value>
+                    <fullName>Control relays</fullName>
+                    <default>false</default>
+                    <label>Control relays</label>
+                </value>
+                <value>
+                    <fullName>Drives</fullName>
+                    <default>false</default>
+                    <label>Drives</label>
+                </value>
+                <value>
+                    <fullName>Electrical equipments</fullName>
+                    <default>false</default>
+                    <label>Electrical equipments</label>
+                </value>
+                <value>
+                    <fullName>Emergency lighting</fullName>
+                    <default>false</default>
+                    <label>Emergency lighting</label>
+                </value>
+                <value>
+                    <fullName>Energy meters</fullName>
+                    <default>false</default>
+                    <label>Energy meters</label>
+                </value>
+                <value>
+                    <fullName>EV Charging Stations</fullName>
+                    <default>false</default>
+                    <label>EV Charging Stations</label>
+                </value>
+                <value>
+                    <fullName>HVAC equipments</fullName>
+                    <default>false</default>
+                    <label>HVAC equipments</label>
+                </value>
+                <value>
+                    <fullName>Industrial controllers</fullName>
+                    <default>false</default>
+                    <label>Industrial controllers</label>
+                </value>
+                <value>
+                    <fullName>IT equipments</fullName>
+                    <default>false</default>
+                    <label>IT equipments</label>
+                </value>
+                <value>
+                    <fullName>Insulation controller</fullName>
+                    <default>false</default>
+                    <label>Insulation controller</label>
+                </value>
+                <value>
+                    <fullName>Lighting controllers</fullName>
+                    <default>false</default>
+                    <label>Lighting controllers</label>
+                </value>
+                <value>
+                    <fullName>Load shedders</fullName>
+                    <default>false</default>
+                    <label>Load shedders</label>
+                </value>
+                <value>
+                    <fullName>MV Switchgears</fullName>
+                    <default>false</default>
+                    <label>MV Switchgears</label>
+                </value>
+                <value>
+                    <fullName>Power meters</fullName>
+                    <default>false</default>
+                    <label>Power meters</label>
+                </value>
+                <value>
+                    <fullName>Power supply</fullName>
+                    <default>false</default>
+                    <label>Power supply</label>
+                </value>
+                <value>
+                    <fullName>Protection relays</fullName>
+                    <default>false</default>
+                    <label>Protection relays</label>
+                </value>
+                <value>
+                    <fullName>Refrigeration controllers</fullName>
+                    <default>false</default>
+                    <label>Refrigeration controllers</label>
+                </value>
+                <value>
+                    <fullName>Secured power (UPS)</fullName>
+                    <default>false</default>
+                    <label>Secured power (UPS)</label>
+                </value>
+                <value>
+                    <fullName>Street Lighting</fullName>
+                    <default>false</default>
+                    <label>Street Lighting</label>
+                </value>
+                <value>
+                    <fullName>Signalisation equipments</fullName>
+                    <default>false</default>
+                    <label>Signalisation equipments</label>
+                </value>
+                <value>
+                    <fullName>Solar secured power</fullName>
+                    <default>false</default>
+                    <label>Solar secured power</label>
+                </value>
+                <value>
+                    <fullName>Switches</fullName>
+                    <default>false</default>
+                    <label>Switches</label>
+                </value>
+                <value>
+                    <fullName>Temperature controllers</fullName>
+                    <default>false</default>
+                    <label>Temperature controllers</label>
+                </value>
+                <value>
+                    <fullName>Timers</fullName>
+                    <default>false</default>
+                    <label>Timers</label>
+                </value>
+                <value>
+                    <fullName>Transfer switches</fullName>
+                    <default>false</default>
+                    <label>Transfer switches</label>
+                </value>
+                <value>
+                    <fullName>Transformers</fullName>
+                    <default>false</default>
+                    <label>Transformers</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Process_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This will store SFM process id and Parent Record ID as a unique identifier.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This will store SFM process id and Parent Record ID as a unique identifier.</inlineHelpText>
+        <label>Process ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SharingPrivacy</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TagCsv</fullName>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Validated_by_Schneider__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Tested and Validated by Schneider Electric</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether this model has been Tested and Validated by Schneider Electric</inlineHelpText>
+        <label>Validated by Schneider Electric</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VisibleToCustomer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Knowledge Attachment Visible to Customer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Knowledge Attachment Visible to Customer</inlineHelpText>
+        <label>Visible To Customer</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VisibleToEmployee__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Knowledge Attachment Visible to Employee</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Knowledge Attachment Visible to Employee</inlineHelpText>
+        <label>Visible To Employee</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VisibleToLimited__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Knowledge Attachment Visible to Limited Customer</description>
+        <externalId>false</externalId>
+        <label>Visible To Limited Customer</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <recordTypes>
+        <fullName>Manual</fullName>
+        <active>true</active>
+        <label>Manual</label>
+        <picklistValues>
+            <picklist>DocumentCategory__c</picklist>
+            <values>
+                <fullName>Business Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Process Guide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Detailled Functional Specification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KPI definition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Minutes of Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strategy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Catalog Document</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Unit Tutorial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upload Data Procedure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Documentation Document</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Story</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Partners_Com_X</fullName>
+        <active>true</active>
+        <description>Partners - Com&apos;X used for collaborative file library</description>
+        <label>Partners - Com&apos;X</label>
+        <picklistValues>
+            <picklist>Content_Country__c</picklist>
+            <values>
+                <fullName>FR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DocumentCategory__c</picklist>
+            <values>
+                <fullName>Com%27X Model</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Manufacturer__c</picklist>
+            <values>
+                <fullName>ABB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BMI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chauvin Arnoux</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Circuitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Continental Control systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dranetz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E-Mon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eaton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electro Industries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Honeywell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ilme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Imesys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legrand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leviton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quadlogic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rockwell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Satec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schneider Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Socomec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triacta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tyco Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Veris</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_range__c</picklist>
+            <values>
+                <fullName>Building Management Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capacitor banks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Circuit breakers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Command relays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contactors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Control relays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Drives</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EV Charging Stations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrical equipments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Emergency lighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy meters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HVAC equipments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT equipments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial controllers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insulation controller</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lighting controllers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load shedders</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MV Switchgears</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Power meters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Power supply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Protection relays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refrigeration controllers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secured power %28UPS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signalisation equipments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solar secured power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Street Lighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Switches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temperature controllers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer switches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transformers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Project_Document</fullName>
+        <active>true</active>
+        <label>Project Document</label>
+        <picklistValues>
+            <picklist>DocumentCategory__c</picklist>
+            <values>
+                <fullName>Business Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Process Guide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Detailled Functional Specification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KPI definition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Minutes of Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strategy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Catalog Document</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Unit Tutorial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upload Data Procedure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Documentation Document</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Story</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Reference_Document</fullName>
+        <active>true</active>
+        <label>Reference Document</label>
+        <picklistValues>
+            <picklist>DocumentCategory__c</picklist>
+            <values>
+                <fullName>Business Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Process Guide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Detailled Functional Specification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KPI definition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Minutes of Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strategy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Catalog Document</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Unit Tutorial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upload Data Procedure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Documentation Document</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Story</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <searchResultsAdditionalFields>VERSION.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VERSION.CONTENT_SIZE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VERSION.FILE_EXTENSION</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VERSION.LAST_UPDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VERSION.OWNER</searchResultsAdditionalFields>
+    </searchLayouts>
+    <validationRules>
+        <fullName>DeviceTypeMandatory</fullName>
+        <active>true</active>
+        <description>Device type is mandatory</description>
+        <errorConditionFormula>ISPICKVAL(Product_range__c, &apos;&apos;) &amp;&amp;  RecordType.DeveloperName = &apos;Partners_Com_X&apos; &amp;&amp; NOT($User.BypassVR__c)</errorConditionFormula>
+        <errorDisplayField>Product_range__c</errorDisplayField>
+        <errorMessage>Device type is missing</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>DeviceTypeOtherMandatory</fullName>
+        <active>true</active>
+        <description>Device Type Other Value is mandatory if Device type equals Other</description>
+        <errorConditionFormula>AND 
+( 
+ISPICKVAL( Product_range__c, &apos;Other&apos;) , OR (ISNULL(Device_Type_New_Value__c ) , ISBLANK(Device_Type_New_Value__c )) 
+) &amp;&amp; NOT($User.BypassVR__c) &amp;&amp;  RecordType.DeveloperName = &apos;Partners_Com_X&apos;</errorConditionFormula>
+        <errorMessage>*** The device Type &apos;Other&apos; value is missing</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ProductBrandMandatory</fullName>
+        <active>true</active>
+        <description>Product Brand is mandatory</description>
+        <errorConditionFormula>ISPICKVAL( Product_Manufacturer__c , &apos;&apos;) &amp;&amp; NOT($User.BypassVR__c) &amp;&amp;  RecordType.DeveloperName = &apos;Partners_Com_X&apos;</errorConditionFormula>
+        <errorMessage>*** Brand is missing, select the country before</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ProductBrandOtherMandatory</fullName>
+        <active>true</active>
+        <description>The product brand &apos;Other&apos; value is mandatory if Product Brand equals Other</description>
+        <errorConditionFormula>AND 
+( 
+ISPICKVAL( Product_Manufacturer__c , &apos;Other&apos;) , OR (ISNULL(Product_Brand_New_Value__c ) , ISBLANK(Product_Brand_New_Value__c )) 
+) &amp;&amp; NOT($User.BypassVR__c) &amp;&amp;  RecordType.DeveloperName = &apos;Partners_Com_X&apos;</errorConditionFormula>
+        <errorMessage>*** The product brand &apos;Other&apos; value is missing</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ProductPartNumberMandatory</fullName>
+        <active>true</active>
+        <description>Product part number is mandatory</description>
+        <errorConditionFormula>OR (ISBLANK( Product_Part_Number__c ), ISNULL( Product_Part_Number__c )) &amp;&amp; NOT($User.BypassVR__c) &amp;&amp;  RecordType.DeveloperName = &apos;Partners_Com_X&apos;</errorConditionFormula>
+        <errorMessage>*** The product part number is missing</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ValidatedbySEProfile</fullName>
+        <active>true</active>
+        <description>Only standard users can update this field</description>
+        <errorConditionFormula>AND( 
+ISCHANGED(Validated_by_Schneider__c), 
+ISPICKVAL($Profile.UserType, &quot;Partner&quot;)|| 
+ISPICKVAL($Profile.UserType, &quot;PowerPartner&quot;)|| 
+ISPICKVAL($Profile.UserType, &quot;Customer Portal Manager&quot;)|| 
+ISPICKVAL($Profile.UserType, &quot;Customer Portal User&quot;)|| 
+ISPICKVAL($Profile.UserType, &quot;Guest&quot;)|| 
+ISPICKVAL($Profile.UserType, &quot;High Volume Portal&quot;)|| 
+ISPICKVAL($Profile.UserType, &quot;CSN Only&quot;)|| 
+ISPICKVAL($Profile.UserType, &quot;Self Service&quot;)) &amp;&amp; NOT($User.BypassVR__c) &amp;&amp;  RecordType.DeveloperName = &apos;Partners_Com_X&apos;</errorConditionFormula>
+        <errorDisplayField>Validated_by_Schneider__c</errorDisplayField>
+        <errorMessage>Not allow to update this field</errorMessage>
+    </validationRules>
+</CustomObject>

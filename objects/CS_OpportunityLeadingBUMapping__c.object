@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>NAMOpportunityWizardMarketSegment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Make Market Segment and Subsegment Mandatory on Wizard if checked</description>
+        <externalId>false</externalId>
+        <label>NAM Oppty Wizard Market Segment Required</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NAMOpportunityWizardProposalCreation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>BU&apos;s which have this field checked will trigger Proposal Creation and Amount field is mandatory</description>
+        <externalId>false</externalId>
+        <label>NAM Opportunity Wizard Proposal Creation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OpportunityLeadingBU__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Leading BU</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductLine__c</fullName>
+        <externalId>false</externalId>
+        <label>NAM Oppty Wizard Default Product Line</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SolutionsFastTrack__c</fullName>
+        <description>Default Stage for Fast Track Opportunities</description>
+        <externalId>false</externalId>
+        <label>Solutions Fast-Track</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Solutions__c</fullName>
+        <description>Default Stage for solutions Opportunity</description>
+        <externalId>false</externalId>
+        <label>Solutions</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Standard__c</fullName>
+        <description>Default stage for Standard Opportunities</description>
+        <externalId>false</externalId>
+        <label>Standard</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_OpportunityLeadingBUMapping</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OpportunityLeadingBU__c</columns>
+        <columns>NAMOpportunityWizardProposalCreation__c</columns>
+        <columns>ProductLine__c</columns>
+        <columns>NAMOpportunityWizardMarketSegment__c</columns>
+        <columns>Solutions__c</columns>
+        <columns>SolutionsFastTrack__c</columns>
+        <columns>Standard__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

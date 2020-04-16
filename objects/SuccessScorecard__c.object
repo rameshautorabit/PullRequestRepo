@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Used to manage customer success domain ratings and KPIs over time.  Reports to track progression.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AScorePRIOR__c</fullName>
+        <description>Adoption Score Prior</description>
+        <externalId>false</externalId>
+        <label>AScorePRIOR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Adoption_Score_average__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Organizational_Readiness__c +  Stakeholder_Involvement__c +  Measurements_Rewards__c +  Communication_Plan__c +  Training_Strategy__c +  Support__c +  Continuous_Improvement__c) / 7</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Adoption Score (avg)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMScorePRIOR__c</fullName>
+        <description>Business Measures Score PRIOR</description>
+        <externalId>false</externalId>
+        <label>BMScorePRIOR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Business_Measures_Score_average__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Objectives__c +  Key_Performance_Indicators__c +  Operationalize__c +  Validation__c) /4</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Shows average score across this section</inlineHelpText>
+        <label>Business Measures Score (avg)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Business_Strategy_Objectives_Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Business &amp; Strategy Objectives Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Business_and_Strategy_Objectives__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>A business strategy is developed to support the overall vision. It contains clear and measurable business and technical objectives that will be achieved within a given time frame.</inlineHelpText>
+        <label>Business and Strategy Objectives</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Business_and_Technology_Issues_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Business and Technology Issues Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Business_and_Technology_Issues__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Business and technology issues and obstacles that impact the vision and strategy are identified.</inlineHelpText>
+        <label>Business and Technology Issues</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Capabilities_Value_Map_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Capabilities Value Map Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Capabilities_Value_Map__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of capabilities prioritized and grouped into value drivers and mapped to your documented business measures.</inlineHelpText>
+        <label>Capabilities Value Map</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Center_of_Excellence_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Center of Excellence Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Center_of_Excellence__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Periodic status checks to ensure continuous adoption is being achieved.  The continuous improvement cycle must have established business metrics in place to track trends and results.</inlineHelpText>
+        <label>Center of Excellence</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Communication_Plan_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Communication Plan Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Communication_Plan__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>A comprehensive and resourced communication plan is put in place for all users impacted by the initiative.</inlineHelpText>
+        <label>Communication Plan</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Continuous_Improvement_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Continuous Improvement Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Continuous_Improvement__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Periodic status checks to ensure continuous adoption is being achieved.  The continuous improvement cycle must have established business metrics in place to track trends and results.</inlineHelpText>
+        <label>Continuous Improvement</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Experience_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Experience Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Experience__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The desired customer experience as it relates to the company’s vision is articulated and documented. The customer&apos;s journey through the organization is defined and understood by all.</inlineHelpText>
+        <label>Customer Experience</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Management_Strategy_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Management Strategy Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Data_Management_Strategy__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>A comprehensive data management plan defining how data is migrated, enriched, cleansed, and maintained on an ongoing basis.</inlineHelpText>
+        <label>Data Management Strategy</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deployment_Roadmap_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Deployment Roadmap Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Deployment_Roadmap__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>A list of capabilities the business has asked for to achieve the desired business objectives.</inlineHelpText>
+        <label>Deployment Roadmap</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Domain_Scores_Radar__c</fullName>
+        <description>Formula with last weeks entry (to correct) - replace 50,50 entries with last week merge fields:
+
+IMAGE(&apos;http://chart.apis.google.com/chart?cht=r&amp;chs=530x530&amp;chd=t:&apos; &amp; TEXT(Vision_and_Strategy_Score__c*25) &amp; &apos;,&apos; &amp; TEXT( Business_Measures_Score_average__c *25) &amp; &apos;,&apos; &amp; TEXT(  Adoption_Score_average__c *25) &amp; &apos;,&apos; &amp; TEXT(   Roadmap_Score__c  *25) &amp; &apos;,&apos; &amp; TEXT(   Sponsorship_and_Governance_Score_avg__c  *25) &amp; &apos;,&apos; &amp; TEXT(   Process_Definition_Score_avg__c  *25) &amp; &apos;,&apos; &amp; TEXT(   Technology_and_Data_Score_avg__c  *25) &amp; &apos;,&apos; &amp; TEXT(Vision_and_Strategy_Score__c*25) &amp; &apos;|50,50,50,50,50,50,50,50&amp;chco=0000FF,FF0000&amp;chxt=x&amp;chxl=0:|Vision%20and%20Strategy|Business%20Measures|Adoption|Roadmap|Sponsorship%20and%20Governance|Process%20Definition|Technology%20and%20Data&amp;chxr=0,0.0,360.0&amp;chg=25.0,25.0,4.0,4.0&amp;chm=B,00ff00,0,1.0,5.0|B,FF990080,1,1.0,5.0&apos;,&apos;Success Domains&apos;, 530, 530)</description>
+        <externalId>false</externalId>
+        <formula>IMAGE(&apos;http://chart.apis.google.com/chart?cht=r&amp;chs=500x500&amp;chd=t:&apos; &amp; TEXT(Vision_and_Strategy_Score__c*25) &amp; &apos;,&apos; &amp; TEXT( Business_Measures_Score_average__c *25) &amp; &apos;,&apos; &amp; TEXT(  Adoption_Score_average__c *25) &amp; &apos;,&apos; &amp; TEXT(   Roadmap_Score__c  *25) &amp; &apos;,&apos; &amp; TEXT(   Sponsorship_and_Governance_Score_avg__c  *25) &amp; &apos;,&apos; &amp; TEXT(   Process_Definition_Score_avg__c  *25) &amp; &apos;,&apos; &amp; TEXT(   Technology_and_Data_Score_avg__c  *25) &amp; &apos;,&apos; &amp; TEXT(Vision_and_Strategy_Score__c*25) &amp; &apos;&amp;chco=0000FF&amp;chxt=x&amp;chxl=0:|Vision%20and%20Strategy|Business%20Measures|Adoption|Roadmap|Sponsorship%20and%20Governance|Process%20Definition|Technology%20and%20Data&amp;chxr=0,0.0,360.0&amp;chg=25.0,25.0,4.0,4.0&amp;chm=B,00ff00,0,1.0,5.0|B,FF990080,1,1.0,5.0&apos;,&apos;Success Domains&apos;, 500, 500)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Domain Scores Radar</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Domain_Scores__c</fullName>
+        <description>Adoption_Score_average__c
+Business_Measures_Score_average__c
+ Process_Definition_Score_avg__c 
+ Technology_and_Data_Score_avg__c  
+Sponsorship_and_Governance_Score_avg__c 
+ Roadmap_Score__c</description>
+        <externalId>false</externalId>
+        <formula>IMAGE(&apos;http://chart.apis.google.com/chart?cht=r&amp;chs=530x530&amp;chd=t:&apos; &amp; TEXT(Vision_and_Strategy_Score__c*25) &amp; &apos;,&apos; &amp; TEXT( Business_Measures_Score_average__c *25) &amp; &apos;,&apos; &amp; TEXT(  Adoption_Score_average__c *25) &amp; &apos;,&apos; &amp; TEXT(   Roadmap_Score__c  *25) &amp; &apos;,&apos; &amp; TEXT(   Sponsorship_and_Governance_Score_avg__c  *25) &amp; &apos;,&apos; &amp; TEXT(   Process_Definition_Score_avg__c  *25) &amp; &apos;,&apos; &amp; TEXT(   Technology_and_Data_Score_avg__c  *25) &amp; &apos;,&apos; &amp; TEXT(Vision_and_Strategy_Score__c*25) &amp; &apos;|75,75,75,75,75,75,75,75&amp;chco=FF0000,0000FF&amp;chxt=x&amp;chxl=0:|Vision%20and%20Strategy|Business%20Measures|Adoption|Roadmap|Sponsorship%20and%20Governance|Process%20Definition|Technology%20and%20Data&amp;chxr=0,0.0,360.0&amp;chg=25.0,25.0,4.0,4.0&amp;chm=B,FF000080,0,1.0,5.0|B,FF990080,1,1.0,5.0&apos;,&apos;Success Domains&apos;, 530, 530)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Domain Scores</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Executive_Sponsorship_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Executive Sponsorship Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Executive_Sponsorship__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Measures, incentive plans and compensation structures are aligned with the new business objectives.</inlineHelpText>
+        <label>Executive Sponsorship</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Global_Deployment_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Deployment Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Global_Deployment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>A global deployment plan that considers all users - in all roles - in all locations.</inlineHelpText>
+        <label>Global Deployment</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Implementation_Framework_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Implementation Framework Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Implementation_Framework__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>An implementation framework that describes processes, roles, responsibilities and interactions between processes is defined, communicated and understood by program team members. This framework leads to better cross functional team and organizational align</inlineHelpText>
+        <label>Implementation Framework</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_1_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #1 Comments</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>KPI_1_Target__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #1 Target</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_1__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI#1: Login &amp; Creation</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_2_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #2 Comments</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>KPI_2_Target__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #2 Target</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_2__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI#2: Collaboration</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_3_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #3 Comments</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>KPI_3_Target__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #3 Target</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_3__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI#3: Data Quality</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_4_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #4 Comments</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>KPI_4_Target__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #4 Target</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_4__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI#4: Business Measures</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_5_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #5 Comments</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>KPI_5_Target__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI #5 Target</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_5__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI#5: Continuous Improvement</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>KPI Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Key_Performance_Indicators_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Performance Indicators Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Key_Performance_Indicators__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Quantifiable measurements that indicate whether or not a business is making progress toward its objectives. Key performance indicators must be predetermined.</inlineHelpText>
+        <label>Key Performance Indicators</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Measurements_Rewards_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Measurements &amp; Rewards Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Measurements_Rewards__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Measures, incentive plans and compensation structures are aligned with the new business objectives.</inlineHelpText>
+        <label>Measurements &amp; Rewards</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Methodology_Guidelines__c</fullName>
+        <externalId>false</externalId>
+        <label>Methodology Guidelines</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Objectives_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Objectives Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Objectives__c</fullName>
+        <externalId>false</externalId>
+        <label>Objectives</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Operationalize_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Operationalize Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Operationalize__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Mechanisms (such as reports and dashboards) for tracking and monitoring KPIs are defined, built and deployed.</inlineHelpText>
+        <label>Operationalize</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Organizational_Readiness_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Organizational Readiness Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Organizational_Readiness__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Continuous assessment of an organization’s readiness to undertake, implement and deploy new business strategies.  These assessments drive a plan for aligning the entire organization around a common strategy and vision.</inlineHelpText>
+        <label>Organizational Readiness</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_KPI_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Other KPI Comments</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PDScorePRIOR__c</fullName>
+        <description>Process Definition Score PRIOR</description>
+        <externalId>false</externalId>
+        <label>PDScorePRIOR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Platform_Integration_Strategy_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Platform &amp; Integration Strategy Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Platform_and_Integration_Strategy__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>An architecture, platform, and integration strategy that provides a coherent and consistent approach to Salesforce systems. This strategy guides all implementation decisions while laying the groundwork for business agility and future projects + ROI</inlineHelpText>
+        <label>Platform and Integration Strategy</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Process_Definition_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Process Definition Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Process_Definition_Score_avg__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Process_Definition__c +  Process_Ownership__c +  Process_Effectiveness__c +  Process_Review__c) / 4</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Process Definition Score (avg)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Process_Definition__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Key processes are defined so that a desired business outcome is achieved.  These processes help drive the prioritization of features and functionality deployed.</inlineHelpText>
+        <label>Process Definition</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Process_Effectiveness_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Process Effectiveness Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Process_Effectiveness__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Processes and practices are examined to ensure maximum effectiveness in the organizations performance.</inlineHelpText>
+        <label>Process Effectiveness</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Process_Ownership_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Process Ownership Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Process_Ownership__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The individual(s) responsible for process design and performance. The process owner is accountable for sustaining the process and identifying future improvements.</inlineHelpText>
+        <label>Process Ownership</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Process_Review_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Process Review Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Process_Review__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Processes are reviewed regularly for improvement; those undocumented are reviewed, improved and documented.</inlineHelpText>
+        <label>Process Review</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Roadmap_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Roadmap Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Product_Roadmap__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>An understanding of salesforce.com’s releases and product direction to consider in your roadmap development.</inlineHelpText>
+        <label>Product Roadmap</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Program__c</fullName>
+        <description>Link scorecard to program</description>
+        <externalId>false</externalId>
+        <label>Program</label>
+        <referenceTo>Program__c</referenceTo>
+        <relationshipLabel>Success Scorecards</relationshipLabel>
+        <relationshipName>Success_Scorecard</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>RScorePRIOR__c</fullName>
+        <description>Roadmap Score PRIOR</description>
+        <externalId>false</externalId>
+        <label>RScorePRIOR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Real_Time_Dashboard__c</fullName>
+        <externalId>false</externalId>
+        <label>Real-Time Dashboard</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Release_Management_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Release Management Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Release_Management__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>All appropriate support, training &amp; communication mechanisms for users are in place to manage changes.</inlineHelpText>
+        <label>Release Management</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Roadmap_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Deployment_Roadmap__c +  Capabilities_Value_Map__c +  Product_Roadmap__c +  Global_Deployment__c) / 4</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Roadmap Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SGScoresPrior__c</fullName>
+        <description>Sponsorship and Governance Score PRIOR</description>
+        <externalId>false</externalId>
+        <label>SGScoresPrior</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Security_Infrastructure_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Security Infrastructure Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Security_Infrastructure__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Aligning Salesforce user access and data visibility settings with your organizations overall security policies.</inlineHelpText>
+        <label>Security Infrastructure</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sponsorship_and_Governance_Score_avg__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Executive_Sponsorship__c +  Center_of_Excellence__c +  Release_Management__c) / 3</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sponsorship and Governance Score (avg)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stakeholder_Involvement_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Stakeholder Involvement Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Stakeholder_Involvement__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Stakeholders lead by example and drive the execution of change throughout the organization.</inlineHelpText>
+        <label>Stakeholder Involvement</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>true</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Finalised</fullName>
+                    <default>false</default>
+                    <label>Finalised</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Support_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Support Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Support__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>All appropriate support mechanisms for users are in place.</inlineHelpText>
+        <label>Support</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TDScorePRIOR__c</fullName>
+        <description>Technology and Data Score PRIOR</description>
+        <externalId>false</externalId>
+        <label>TDScorePRIOR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Technology_and_Data_Score_avg__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Implementation_Framework__c +  Data_Management_Strategy__c +  Platform_and_Integration_Strategy__c +  Security_Infrastructure__c) / 4</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Technology and Data Score (avg)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Training_Strategy_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Training Strategy Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Training_Strategy__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>A comprehensive and resourced training plan in place for all users impacted by the implementation.</inlineHelpText>
+        <label>Training Strategy</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VSScorePRIOR__c</fullName>
+        <description>Vision and Strategy Score PRIOR</description>
+        <externalId>false</externalId>
+        <label>VSScorePRIOR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Validation_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Validation Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Validation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Processes are put in place to ensure KPIs are utilized to progress towards the desired, agreed upon targets.</inlineHelpText>
+        <label>Validation</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vision_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Vision Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Vision__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>A vision for the desired state of the business is articulated by key executives, and is documented and understood by all.</inlineHelpText>
+        <label>Vision</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vision_and_Strategy_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>( Vision__c +  Business_and_Strategy_Objectives__c +  Business_and_Technology_Issues__c +  Customer_Experience__c )/4</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vision and Strategy Score (avg)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Success Scorecard</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>SUCCESS-{YYYY}-{MM}-{0}</displayFormat>
+        <label>Success Scorecard Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Success Scorecard</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Domain_Scores_Radar__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Adoption_Score_average__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Business_Measures_Score_average__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Process_Definition_Score_avg__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Sponsorship_and_Governance_Score_avg__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Technology_and_Data_Score_avg__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Vision_and_Strategy_Score__c</customTabListAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

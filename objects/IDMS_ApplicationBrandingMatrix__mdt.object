@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>BackgroundImage__c</fullName>
+        <description>Brand Background image to be displayed on the page</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Brand Background image to be displayed on the page</inlineHelpText>
+        <label>Background Image</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BrandCopyright__c</fullName>
+        <description>Brand Copyright to be displayed on the page, instead of the application Copyright, If blank keep the value blank in the page</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Brand Copyright to be displayed on the page, instead of the application Copyright, If blank keep the value blank in the page</inlineHelpText>
+        <label>Brand Copyright</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>BrandDescription__c</fullName>
+        <description>Brand Description to be displayed on the page, instead of the application Description.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Brand Description to be displayed on the page, instead of the application Description.</inlineHelpText>
+        <label>Brand Description</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>BrandFooterLogo__c</fullName>
+        <description>Brand Footer Logo to be displayed on the page, instead of the application Footer Logo.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Brand Footer Logo to be displayed on the page, instead of the application Footer Logo.</inlineHelpText>
+        <label>Brand Footer Logo</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BrandLogo__c</fullName>
+        <description>Brand Logo to be displayed on the page, instead of the application Logo</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Brand Logo to be displayed on the page, instead of the application Logo</inlineHelpText>
+        <label>Brand Logo</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BrandName__c</fullName>
+        <description>Brand Name to be displayed on the page, instead of the application name</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Brand Name to be displayed on the page, instead of the application name</inlineHelpText>
+        <label>Brand Name</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BrandStaticResourceName__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Brand Static Resource Name</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brand_CL_AppDescriptionFooter1__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Brand CL AppDescriptionFooter1</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brand_CL_AppTextAndUrl__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Brand CL AppTextAndUrl</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brand_CL_Appname__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Brand CL Appname</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsExternalBrand__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check if it&apos;s an extefrnal brand. If yes value checked, else value unchecked.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Check if it&apos;s an extefrnal brand. If yes value checked, else value unchecked.</inlineHelpText>
+        <label>IsExternal Brand</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>IDMS Application Branding Matrix</label>
+    <listViews>
+        <fullName>MyView</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>BrandName__c</columns>
+        <columns>BrandDescription__c</columns>
+        <columns>Brand_CL_AppDescriptionFooter1__c</columns>
+        <columns>Brand_CL_Appname__c</columns>
+        <columns>Brand_CL_AppTextAndUrl__c</columns>
+        <columns>BackgroundImage__c</columns>
+        <columns>BrandFooterLogo__c</columns>
+        <columns>BrandLogo__c</columns>
+        <columns>BrandStaticResourceName__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>MyView</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>IDMS Application Branding Matrices</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

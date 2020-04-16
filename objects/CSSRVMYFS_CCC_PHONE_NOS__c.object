@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>COUNTRY_CODE__c</fullName>
+        <externalId>false</externalId>
+        <label>COUNTRY_CODE</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>COUNTRY_CONTACT_NUMBER__c</fullName>
+        <externalId>false</externalId>
+        <label>COUNTRY_CONTACT_NUMBER</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>COUNTRY_ISO_CODE__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>COUNTRY_ISO_CODE</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>DIRECT_MARKEING_LINK__c</fullName>
+        <externalId>false</externalId>
+        <label>DIRECT MARKEING LINK</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>IMAGE_PATH__c</fullName>
+        <externalId>false</externalId>
+        <label>IMAGE PATH</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CSSRVMYFS_CCC_PHONE_NOS</label>
+    <visibility>Public</visibility>
+</CustomObject>

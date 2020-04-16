@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Custom setting holding the list of fields that we track changes with Creating Integration Simple Event</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FieldAPIName__c</fullName>
+        <description>API name of the field that be tracked with a Integration Simple Event once changed</description>
+        <externalId>false</externalId>
+        <label>Field API Name</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PRM Partner Locator Simple Event Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

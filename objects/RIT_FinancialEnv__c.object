@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>VFP_FinancialEnvironment</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>VFP_FinancialEnvironment</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>VFP_FinancialEnvironmentDetail</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Quote Approval - Financial Environment for Bid Approval</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AndForRawMaterial__c</fullName>
+        <description>Quote Approval –And For Raw Material? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <label>And For Raw Material?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AreTheyAnyIfWhenImposedOnSE__c</fullName>
+        <description>Quote Approval –Are They Any “If &amp; When” Imposed On SE? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <label>Are They Any “If &amp; When” Imposed On SE?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BackToBackWith3rdParties__c</fullName>
+        <description>Quote Approval –Back To Back With 3rd Parties? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Will We Have Symmetric Bonds, Warranties, Endorsements, Pledges Or Any Other Similar Commitment Backing The Obligations Of 3rd Parties?</inlineHelpText>
+        <label>Back To Back With 3rd Parties?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BankGuaranteesBondsTxt__c</fullName>
+        <defaultValue>&apos;Please fill in the chart with the Bank Guarantees &amp; Bonds  at the bottom of the page.&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BankGuaranteesOnFirstDemand__c</fullName>
+        <description>Quote Approval – Bank Guarantees On First Demand? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Are These Bank Guarantees On First Demand?</inlineHelpText>
+        <label>Bank Guarantees On First Demand?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BankGuarnteeReqClinet__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are there bonds or bank guarantees required by Client?</inlineHelpText>
+        <label>Bonds / Bank Guarantees required?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BondsBankGuaranteeApproved__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Has the wording of the Bonds &amp; Bank Guarantees been approved by Finance Dpt?</inlineHelpText>
+        <label>B/G wording approved by Finance Dpt?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClientAccountAlreadyCustomer__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If the Client/Account is already a SE customer, have there been any previous litigation or bad debt/payment overdues?</inlineHelpText>
+        <label>Previous bad debt/payment overdues?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClientAccountNewCustomer__c</fullName>
+        <externalId>false</externalId>
+        <label>Is the Client/Account a new customer ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClientOverseaEntity__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Does the project involve the export of goods or services to a foreign country?</inlineHelpText>
+        <label>Export to a foreign country?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CommentSuretyBond__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please comment &amp; specify the purpose of the Surety Bonds</inlineHelpText>
+        <label>Comment on Purpose of Surety Bonds</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsLC__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>1st class banks are mandatory for issuing and confirming banks. 
+
+e.g. does L/C wording include documentation issued, validated or signed by the client?</inlineHelpText>
+        <label>Comments on L/C (issuing bank, etc.)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsOnFinAss__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. Does the Client pay on time? What is the amount of the aging balance/overdues with the Client?</inlineHelpText>
+        <label>Comments on Financial Assessment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CompanyReqFinancingProposal__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Company requiring the financing proposal (if different from our Client)</inlineHelpText>
+        <label>Company requiring the financing proposal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CreditRatingTxt__c</fullName>
+        <defaultValue>&apos;Please attach credit ratings in the Notes &amp; Attachments section&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DeadlineFinancialProposal__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Deadline to submit a Financing proposal to the Client</inlineHelpText>
+        <label>Deadline to submit Financing proposal?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DetailOnCurrencyRiskIfItsHedged__c</fullName>
+        <description>Quote Approval –Detail On Currency, Risk &amp; If Its Hedged for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How are we protected against currency variation during tender phase? 
+
+How has it been hedged?</inlineHelpText>
+        <label>Protection against FOREX during tender?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DownPaymentCashFlowTxt__c</fullName>
+        <defaultValue>&apos;Please attach the Project Cash Flow Curve in the Notes &amp; Attachments section&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DownpaymentCashFlow__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is there a Downpayment and is Cash Flow positive across the entire project life?</inlineHelpText>
+        <label>Down-payment + cash flow curve positive?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExpectedDurFinProposal__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Expected duration of the Financing Proposal (in months)</inlineHelpText>
+        <label>Exp. duration of financing (months)?</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExportContractsQualifyPoliticalRisk__c</fullName>
+        <description>Quote Approval – Export Contracts: Qualify Political Risk for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In Case Of Export Contracts, How Would You Qualify The Political Risk?</inlineHelpText>
+        <label>Export Contracts: Qualify Political Risk</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExportCountryRestrictionTxt__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(ExportCountryRestriction__c, &apos;Yes&apos;), &apos;The review by the Corporate Customs department is mandatory&apos;, &apos;&apos;)</formula>
+        <label>-</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExportCountryRestriction__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the export country under any trade or currency restriction?</inlineHelpText>
+        <label>Export country under trade restriction?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FinancialSituationOfTheOGSuppliers__c</fullName>
+        <description>Quote Approval –Financial Situation Of The OG Suppliers? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Is The Financial Situation Of The OG Subcontractors/Suppliers(If Any)?</inlineHelpText>
+        <label>Financial Situation Of The OG Suppliers?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Weak</fullName>
+                    <default>false</default>
+                    <label>Weak</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IfDocumentaryCreditWordingOk__c</fullName>
+        <description>Quote Approval –If Documentary Credit: Wording Ok? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Payment Through Documentary Credit Is The Wording Acceptable ?</inlineHelpText>
+        <label>If Documentary Credit: Wording Ok?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IfMediumOrHighHasRiskBeenCoveredNew__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>In case of political risk in the export country, how has the manufacturing risk been covered ?
+
+Applicable for countries qualified 4 or above according to the OECD classification</inlineHelpText>
+        <label>How is the manufacturing risk covered?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Credit insurance</fullName>
+                    <default>false</default>
+                    <label>Credit insurance</label>
+                </value>
+                <value>
+                    <fullName>Letter of Credit / Documentary Credit</fullName>
+                    <default>false</default>
+                    <label>Letter of Credit / Documentary Credit</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Credit risk not covered</fullName>
+                    <default>false</default>
+                    <label>Credit risk not covered</label>
+                </value>
+                <value>
+                    <fullName>No political risk</fullName>
+                    <default>false</default>
+                    <label>No political risk</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IfMediumOrHighHasRiskBeenCovered__c</fullName>
+        <description>Quote Approval –If Medium Or High, Has Risk Been Covered for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In Case Of Medium Or High, How Has This Risk Been Covered?</inlineHelpText>
+        <label>If Medium Or High, Has Risk Been Covered</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfNoPleaseCommentDocCredit__c</fullName>
+        <description>Quote Approval –Please Comment On Documentary Credit for Financial Environment.</description>
+        <externalId>false</externalId>
+        <label>If No, Please Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfNoPleaseComment__c</fullName>
+        <description>Quote Approval –If No, Please Comment for Financial Environment.</description>
+        <externalId>false</externalId>
+        <label>If No, Please Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfOtherPleaseSpecify__c</fullName>
+        <externalId>false</externalId>
+        <label>If Other, please specify</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfYesPleaseCommentOnIfAndWhen__c</fullName>
+        <description>Quote Approval –Please Comment for Financial Environment.</description>
+        <externalId>false</externalId>
+        <label>If Yes, Please Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfYesPleaseCommentOnParentCompany__c</fullName>
+        <description>Quote Approval – Please Comment for Financial Environment.</description>
+        <externalId>false</externalId>
+        <label>If Yes, Please Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IsAnExpiryDateIncludedInWordingNew__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify all the conditions of the Bonds / Bank Guarantees.</inlineHelpText>
+        <label>Conditions of Bonds / Bank-guarantees</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>With automatic Extinction Date included</fullName>
+                    <default>false</default>
+                    <label>With automatic Extinction Date included</label>
+                </value>
+                <value>
+                    <fullName>Cannot be called on first demand</fullName>
+                    <default>false</default>
+                    <label>Cannot be called on first demand</label>
+                </value>
+                <value>
+                    <fullName>Not assignable to third party</fullName>
+                    <default>false</default>
+                    <label>Not assignable to third party</label>
+                </value>
+                <value>
+                    <fullName>Not reinstallable after being called</fullName>
+                    <default>false</default>
+                    <label>Not reinstallable after being called</label>
+                </value>
+                <value>
+                    <fullName>No Unfair call possible</fullName>
+                    <default>false</default>
+                    <label>No Unfair call possible</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IsAnExpiryDateIncludedInWording__c</fullName>
+        <description>Quote Approval –Is An Expiry Date Included In Wording? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is An Expiry Date Included In The Wording Of The Bank Guarantees?</inlineHelpText>
+        <label>Is An Expiry Date Included In Wording?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsItAutomatic__c</fullName>
+        <description>Quote Approval –If Yes Is It Automatic? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <label>If Yes, Is It Automatic?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>IsAnExpiryDateIncludedInWording__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsThereAnExchangeRisk__c</fullName>
+        <description>Quote Approval –Is There An Exchange Risk? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Are we protected against currency variation (FOREX)?</inlineHelpText>
+        <label>Protection against currency variation?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LCWordingApproved__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Has the wording of the L/C been approved by Finance Dpt?</inlineHelpText>
+        <label>L/C wording approved by Finance Dpt?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NameOfInsuranceComp__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. Globalliance (COFACE), Unistrat, Lloyds, etc. or brokers</inlineHelpText>
+        <label>Name of the Insurance company</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NewAndForRawMaterial__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. How are we protected against Materials and Costs Increases? e.g. formula for price revision, raw material, labour costs, etc. during execution</inlineHelpText>
+        <label>Comment on Materials and Costs Increases</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ParentCompanyGuaranteeReqTxt__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( ParentCompanyGuaranteeRequired__c, &apos;Yes&apos;), &apos;Please attach the Client documentation for the Parent Company Guarantee and the legal review&apos;, &apos;&apos;)</formula>
+        <label>-</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ParentCompanyGuaranteeRequired__c</fullName>
+        <description>Quote Approval –Parent Company Guarantee Required? for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a Parent Company Guarantee required from either Schneider Electric SA or from SEI sas?</inlineHelpText>
+        <label>Parent Company Guarantee required?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PaymentTermsClient__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the % of the contract value to be paid prior shipment in the payment terms requested by the Client in the RFQ?</inlineHelpText>
+        <label>% payment before shipment in RFQ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PaymentTermsRequestByClient__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are there payment terms requested by the Client in the RFQ?</inlineHelpText>
+        <label>Payment terms from Client incl. in RFQ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PaymentTermsSecuredTxt__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(INCLUDES(PaymentTermsSecured__c, &apos;No&apos;), &apos;The review of Corporate Credit department is mandatory&apos;, &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>-</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PaymentTermsSecured__c</fullName>
+        <externalId>false</externalId>
+        <label>How are the payment terms secured?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Credit Insurance</fullName>
+                    <default>false</default>
+                    <label>Credit Insurance</label>
+                </value>
+                <value>
+                    <fullName>Letter of Credit / Documentary Credit</fullName>
+                    <default>false</default>
+                    <label>Letter of Credit / Documentary Credit</label>
+                </value>
+                <value>
+                    <fullName>Stand-by Letter of Credit</fullName>
+                    <default>false</default>
+                    <label>Stand-by Letter of Credit</label>
+                </value>
+                <value>
+                    <fullName>Revolving Letter of Credit</fullName>
+                    <default>false</default>
+                    <label>Revolving Letter of Credit</label>
+                </value>
+                <value>
+                    <fullName>First-demand Bank Guarantee (of Client)</fullName>
+                    <default>false</default>
+                    <label>First-demand Bank Guarantee (of Client)</label>
+                </value>
+                <value>
+                    <fullName>Parent Company Guarantee (of Client)</fullName>
+                    <default>false</default>
+                    <label>Parent Company Guarantee (of Client)</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>No Payment Security</fullName>
+                    <default>false</default>
+                    <label>No Payment Security</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PerCoveredCreditIns__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>In % of contract value
+
+Maximum amount according to risk curve</inlineHelpText>
+        <label>% price covered by credit insurance?</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PercentSellingPrice__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>in % of contract value
+
+L/C: Letter of Credit</inlineHelpText>
+        <label>% of selling price covered by L/C?</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PleaseCommentOnBankGuarantees__c</fullName>
+        <description>Quote Approval –Please Comment On Bank Guarantees for Financial Environment.</description>
+        <externalId>false</externalId>
+        <label>Please Comment On Bank Guarantees</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PleaseGiveDetails__c</fullName>
+        <description>Quote Approval –Please Give Details for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Yes For At Least One of the 2 Previous Questions, Please Give Details</inlineHelpText>
+        <label>Please Give Details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ProjGrossAboveMinMargin__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the project Gross Margin above the minimum Gross Margin level for this BU?</inlineHelpText>
+        <label>Gross Margin above BU minimum level?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProjectInnovativeFinance__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Does the project involve innovative financing over its lifetime?</inlineHelpText>
+        <label>Is Innovative financing required ?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProtectedRawMaterial__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are we protected against raw material and costs increase?
+
+ increases in raw material, labour costs, etc. over the project duration</inlineHelpText>
+        <label>Protection for raw mat. / cost increase?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProtectionAgainstFOREXDuringExec__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How are we protected against currency variation during execution phase? 
+
+How has it been hedged?</inlineHelpText>
+        <label>Protection against FOREX during exec.?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>QualifyFinancialSituationOfClient__c</fullName>
+        <description>Quote Approval –Qualify Financial Situation Of Account for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How are the credit ratings and financial capacity of the Client/Account ?</inlineHelpText>
+        <label>Client credit rating and finance health?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Under surveillance</fullName>
+                    <default>false</default>
+                    <label>Under surveillance</label>
+                </value>
+                <value>
+                    <fullName>At risk</fullName>
+                    <default>false</default>
+                    <label>At risk</label>
+                </value>
+                <value>
+                    <fullName>Not checked</fullName>
+                    <default>false</default>
+                    <label>Not checked</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QualifyTheFinancialRisks__c</fullName>
+        <description>Quote Approval –Qualify The Financial Risks for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify The Financial Risks?</inlineHelpText>
+        <label>Qualify The Financial Risks</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuoteLink__c</fullName>
+        <description>Quote Approval - Master-detail relationship between Financial Environment and Quote Link</description>
+        <externalId>false</externalId>
+        <label>Quote Link</label>
+        <referenceTo>OPP_QuoteLink__c</referenceTo>
+        <relationshipLabel>Financial Environment</relationshipLabel>
+        <relationshipName>RIT_FinancialEnv</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ReasonsClientFinProposal__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please describe the reasons why the Client is requesting a Financing proposal</inlineHelpText>
+        <label>Why Client wants Financing proposal?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Shortage of own funds</fullName>
+                    <default>false</default>
+                    <label>Shortage of own funds</label>
+                </value>
+                <value>
+                    <fullName>Balance sheet optimisation</fullName>
+                    <default>false</default>
+                    <label>Balance sheet optimisation</label>
+                </value>
+                <value>
+                    <fullName>Cash-flow alignment</fullName>
+                    <default>false</default>
+                    <label>Cash-flow alignment</label>
+                </value>
+                <value>
+                    <fullName>No financing from the Client&apos;s own bank</fullName>
+                    <default>false</default>
+                    <label>No financing from the Client&apos;s own bank</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RevisionClauseForCurrencyFluctuation__c</fullName>
+        <description>Quote Approval –Revision Clause For Currency Fluctuation for Financial Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Have We Included In The Contract A Revision Clause For Currency Fluctuation?</inlineHelpText>
+        <label>Revision Clause For Currency Fluctuation</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RisksCreditInsurance__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What are the risks covered by the credit insurance?</inlineHelpText>
+        <label>Risks covered by the credit insurance?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manufacturing / pre-shipment</fullName>
+                    <default>false</default>
+                    <label>Manufacturing / pre-shipment</label>
+                </value>
+                <value>
+                    <fullName>credit</fullName>
+                    <default>false</default>
+                    <label>credit</label>
+                </value>
+                <value>
+                    <fullName>both</fullName>
+                    <default>false</default>
+                    <label>both</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SuretyBondClient__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are there Surety Bonds (from Insurance companies) required by the Client?</inlineHelpText>
+        <label>Surety Bonds required by the Client?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TermsAndMeansTxt__c</fullName>
+        <defaultValue>&apos;Please fill in the payment terms &amp; conditions included in SE Offer or expected to be negotiated with the Client at the bottom of the page.&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TotalAmount__c</fullName>
+        <description>Quote Approval – Sum of all bank guarantee Amounts of Bank Guarantee.</description>
+        <externalId>false</externalId>
+        <label>Total Amount</label>
+        <summarizedField>RIT_BankGuarantee__c.Amount__c</summarizedField>
+        <summaryForeignKey>RIT_BankGuarantee__c.FinancialEnvironment__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalPercentageBankGuarantee__c</fullName>
+        <description>Quote Approval - Rollup Summary field that sums up the (%) of Bank Guarantees.</description>
+        <externalId>false</externalId>
+        <label>Total % of sales amount</label>
+        <summarizedField>RIT_BankGuarantee__c.BankGuarantee__c</summarizedField>
+        <summaryFilterItems>
+            <field>RIT_BankGuarantee__c.NewTypeOfGuarantee__c</field>
+            <operation>notEqual</operation>
+            <value>Downpayment bond / BG</value>
+        </summaryFilterItems>
+        <summaryForeignKey>RIT_BankGuarantee__c.FinancialEnvironment__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalPercentageTermsAndMeans__c</fullName>
+        <description>Quote Approval – Sum of all Payment(%) of Terms and Means Of Payment.</description>
+        <externalId>false</externalId>
+        <label>Total Payments (%)</label>
+        <summarizedField>RIT_TermsAndMeansOfPayment__c.PaymentPercent__c</summarizedField>
+        <summaryForeignKey>RIT_TermsAndMeansOfPayment__c.FinancialEnvironment__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TypeOfFinancialProposal__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of financial proposal required</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Financial Environment</label>
+    <nameField>
+        <displayFormat>RIT-FIN-{0000}</displayFormat>
+        <label>Financial Environment</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Financial Environments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>FIN_VR07_ValidateTermsAndMeans</fullName>
+        <active>true</active>
+        <description>Quote Approval - Terms and Means of Payment cannot be greater than 100%</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(TotalPercentageTermsAndMeans__c  &gt; 1)</errorConditionFormula>
+        <errorMessage>Terms and Means of Payment cannot be greater than 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FIN_VR10_CheckQuoteStatus</fullName>
+        <active>true</active>
+        <description>Quote Approval - To ensure that information is not edited after Quote Approval</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(Text(QuoteLink__r.QuoteStatus__c) = &apos;Approved&apos;)</errorConditionFormula>
+        <errorMessage>RITE Information cannot be modified now, as the Quote is Approved</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>RIT_FIN_RITEForm</fullName>
+        <availability>online</availability>
+        <description>Quote Approval – A button to go back to the RITE Form Executive Summary Page.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Back to RITE Form</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/VFP13_RITEForm?id={!RIT_FinancialEnv__c.QuoteLinkId__c}</url>
+    </webLinks>
+</CustomObject>

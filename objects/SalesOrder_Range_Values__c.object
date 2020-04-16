@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Defines the Min and Max Range values in a WorkOrder</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Range_Value_max_incl_EUR__c</fullName>
+        <description>Value should be greater than this minimum range and less than or equal to its corresponding maximum range value.</description>
+        <externalId>false</externalId>
+        <label>Range Value max incl. (EUR)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Range_Value_min_EUR__c</fullName>
+        <description>Value should be greater than this minimum range and less than or equal to its corresponding maximum range value.</description>
+        <externalId>false</externalId>
+        <label>Range Value min (EUR)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Range__c</fullName>
+        <externalId>false</externalId>
+        <label>Range</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>SalesOrder_Range_Values</label>
+    <visibility>Public</visibility>
+</CustomObject>

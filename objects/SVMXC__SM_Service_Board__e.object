@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This platform event is used to send data in real time to Service Board.</description>
+    <eventType>HighVolume</eventType>
+    <fields>
+        <fullName>SVMXC__SM_Callback__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field if true, indicates that the payload size is more.</description>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Callback</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Event_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This indicates the type of event (create, update or delete).</description>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Event Type</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Object_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This has the name of the object for which the payload is being sent.</description>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Object Name</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Payload__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field has the payload of the record which is sent to Service Board.</description>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Payload</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Service Board</label>
+    <pluralLabel>Service Board</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
+</CustomObject>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>PRM OCT 2014: Settings to be used by PRM Apex Job for partner accessible list views.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>F_PRM_BatchSize__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Size</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_PRM_SyncAmount__c</fullName>
+        <externalId>false</externalId>
+        <label>Sync Amount</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_PRM_TryCount__c</fullName>
+        <externalId>false</externalId>
+        <label>Try count</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InitialSync__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>PRM OCT 2014: Setting if initial sync is complete by batch job</description>
+        <externalId>false</externalId>
+        <label>Initial Sync</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LastRun__c</fullName>
+        <description>Field to capture the last successful run of the batch job</description>
+        <externalId>false</externalId>
+        <label>Last Run</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>NumberValue__c</fullName>
+        <externalId>false</externalId>
+        <label>Number Value</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ObjectToParse__c</fullName>
+        <description>PRM OCT 2014: Comma separated list of Objects whose list views needs to be parsed by Batch job</description>
+        <externalId>false</externalId>
+        <label>Object To Parse</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QueryFields__c</fullName>
+        <description>PRM MAR&apos;16: Fields in SOQL query to be used for retrieving columns to be used in email templates</description>
+        <externalId>false</externalId>
+        <label>Query Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>RelatedObjects__c</fullName>
+        <description>PRM OCT 2013: List of related objects that are accessible to partners, fields need to discovered for UI</description>
+        <externalId>false</externalId>
+        <label>Related Objects</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PRM Settings</label>
+    <listViews>
+        <fullName>All_Entries</fullName>
+        <columns>NAME</columns>
+        <columns>InitialSync__c</columns>
+        <columns>LastRun__c</columns>
+        <columns>ObjectToParse__c</columns>
+        <columns>QueryFields__c</columns>
+        <columns>RelatedObjects__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Entries</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Placeholder_pools_size</fullName>
+        <columns>NAME</columns>
+        <columns>F_PRM_BatchSize__c</columns>
+        <columns>NumberValue__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>REG_POOL_</value>
+        </filters>
+        <label>PRM Placeholder pools size</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

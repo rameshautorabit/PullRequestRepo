@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>VFP15_BudgetView</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Quote Approval - Budget for Bid Approval</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CCOEbitPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the Percentage value for CCOEbit against Total Sales Value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( CCOEbit__c  /  Sales_RP__c  ) , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CCO Commercial Margin %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>CCOEbit__c</fullName>
+        <description>Quote Approval  - Formula in order to calculate the sum of CCO Gross Margin and SFC value.</description>
+        <externalId>false</externalId>
+        <formula>CCOGrossMargin__c  +   SFC__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CCO Commercial Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CCOGrossMarginPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value for CCO Gross Margin against total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( CCOGrossMargin__c   /  Sales_RP__c ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CCO Gross Margin %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>CCOGrossMargin__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the sum of Total Sales Value and Total COGs value.</description>
+        <externalId>false</externalId>
+        <formula>TotalCogs__c + Sales_RP__c + SECountryCogsCCO_RP__c + SEIGCogsCCO_RP__c + Other_RP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CCO Gross Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CCOMargin__c</fullName>
+        <defaultValue>&apos;The CCO Margin here above is considered as the walk away margin&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DesEngPM__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TotalCogs__c !=0, ( TotDesEngIGOG__c/TotalCogs__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Design, Engineering, Project Management in % of Total COGS</inlineHelpText>
+        <label>Design, Eng, PM % Total COGS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DesEngProjMgntPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( DesEngProjMgnt_RP__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Design, Engineering, Project Mgmt OG %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DesEngProjMgnt_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>OG Suppliers / OG Subcontractors
+
+COGS should be entered with a negative value</inlineHelpText>
+        <label>Design, Engineering, Project Mgmt OG</label>
+        <summarizedField>RIT_BudgetLine__c.DesEngProjMgnt__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>InstCommSerIGCCOPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( InstCommSerIGCCO_RP__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Install, Commissioning, Service IG(CCO)%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>InstCommSerIGCCO_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Hours Front-Office / Solution Centre
+
+COGS should be entered with a negative value</inlineHelpText>
+        <label>Install, Commissioning, Service IG (CCO)</label>
+        <summarizedField>RIT_BudgetLine__c.InstCommSerIGCCO__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>InstCommSerOGPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( InstCommSerOG_RP__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Installation, Commissioning,Services OG%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>InstCommSerOG_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>OG Suppliers / OG Subcontractors
+
+COGS should be entered with a negative value</inlineHelpText>
+        <label>Installation, Commissioning, Services OG</label>
+        <summarizedField>RIT_BudgetLine__c.InstCommSerOG__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OGCogsOtherPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of Other OG COGs(Other) against the Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( OGCogsOther_RP__c   /  Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Other COGS OG %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>OGCogsOther_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. credit insurance, bank guarantees, financial costs, etc.
+
+COGS should be entered with a negative value</inlineHelpText>
+        <label>Other COGS OG</label>
+        <summarizedField>RIT_BudgetLine__c.OGCogsOther__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OGCogsOther__c</fullName>
+        <description>Quote Approval - OG Cogs (Other) for Budget.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>OG Cogs (Other)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OGCogsPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of OG COGs against the Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( OGCogs__c  /  Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OG Cogs %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>OGCogs__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the sum of OG Products Purchase Costs and the OG COGS(Other) costs.</description>
+        <externalId>false</externalId>
+        <formula>OGPurchasesProducts_RP__c  +  OGCogsOther_RP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OG Cogs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OGPurchasesProductsPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of OG Product Purchases against Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( OGPurchasesProducts_RP__c   /  Sales_RP__c    ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product, Equipment, System COGS OG %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>OGPurchasesProducts_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>OG Suppliers / OG Subcontractors
+
+COGS should be entered with a negative value</inlineHelpText>
+        <label>Product, Equipment, System COGS OG</label>
+        <summarizedField>RIT_BudgetLine__c.OGPurchasesProducts__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OGPurchasesProducts__c</fullName>
+        <description>Quote Approval -OG Purchases (Products) for Budget.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>OG Purchases (Products)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OtherCOGSPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of Other COGS against Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( OtherCOGS_RP__c   /  Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Other COGS IG (CCO)%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>OtherCOGS_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. quality Costs, certification costs, etc.
+
+COGS should be entered with a negative value</inlineHelpText>
+        <label>Other COGS IG (CCO)</label>
+        <summarizedField>RIT_BudgetLine__c.OtherCOGS__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OtherCOGS__c</fullName>
+        <description>Quote Approval - Other COGS for Budget.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>Other COGS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OtherPercent__c</fullName>
+        <description>Quote Approval  - Formula in order to calculate the percentage value of Other costs against Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( Other_RP__c   /  Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Other %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Other_RP__c</fullName>
+        <externalId>false</externalId>
+        <label>Other</label>
+        <summarizedField>RIT_BudgetLine__c.Other__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Other__c</fullName>
+        <description>Quote Approval - Other for Budget.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>Other</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ProdEquipIGCCOPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( ProdEquipIGCCO_RP__c/Sales_RP__c), 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product, Equipment, System COGS IG(CCO)%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ProdEquipIGCCO_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>IG suppliers
+
+COGS should be entered with a negative value</inlineHelpText>
+        <label>Product, Equipment, System COGS IG (CCO)</label>
+        <summarizedField>RIT_BudgetLine__c.ProdEquipIGCCO__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>ProjectManagementPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of Project Mangment Costs against Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( ProjectManagement_RP__c  /  Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Design, Engineering, Proj. Mgmt IG(CCO)%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ProjectManagement_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Hours Front-Office / Solution Centre
+
+COGS should be entered with a negative value</inlineHelpText>
+        <label>Design, Engineering, Proj. Mgmt IG (CCO)</label>
+        <summarizedField>RIT_BudgetLine__c.ProjectManagement__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>ProjectManagement__c</fullName>
+        <description>Quote Approval - Project Management for Budget</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>Project Management</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>QuoteLink__c</fullName>
+        <description>Quote Approval - Master-detail relationship between Budget and Quote Link</description>
+        <externalId>false</externalId>
+        <label>Quote Link</label>
+        <referenceTo>OPP_QuoteLink__c</referenceTo>
+        <relationshipLabel>Budget</relationshipLabel>
+        <relationshipName>RIT_Budget</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>RiskReservePercent__c</fullName>
+        <description>Quote Approval  - Formula in order to calculate the percentage value of Risk reserve costs against Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( RiskReserve_RP__c  /  Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Risk Reserve %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>RiskReserve_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Risks provisions
+
+COGS should be entered with a negative value</inlineHelpText>
+        <label>Risk Reserve</label>
+        <summarizedField>RIT_BudgetLine__c.RiskReserve__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>RiskReserve__c</fullName>
+        <description>Quote Approval - Risk Reserve for Budget.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>Risk Reserve</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SECogsCCOPercent__c</fullName>
+        <description>Quote Approval  - Formula in order to calculate the percentage value of SE Cogs (CCO) against Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( SECogsCCO__c  /  Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SE Cogs (CCO) %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SECogsCCO__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the value for SE COGS as the sum of SE Country COGS CCO, SE IG COGS, Project Management Costs, and the Other costs.</description>
+        <externalId>false</externalId>
+        <formula>SECountryCogsCCO_RP__c  +  SEIGCogsCCO_RP__c  +  ProjectManagement_RP__c  +  Other_RP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SE Cogs (CCO)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SEContent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of SE COGS (CCO) value against Total COGS value.</description>
+        <externalId>false</externalId>
+        <formula>IF(TotalCogs__c !=0, ( (OtherCOGS_RP__c+InstCommSerIGCCO_RP__c+ProjectManagement_RP__c+ProdEquipIGCCO_RP__c)/TotalCogs__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>SE Content in % of Total COGS</inlineHelpText>
+        <label>SE Content % Total COGS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SECountryCogsCCOPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of SE Country COGS (CCO) value against Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( SECountryCogsCCO_RP__c  / Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SE Country Cogs (CCO) %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SECountryCogsCCO_RP__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Country Cogs (CCO)</label>
+        <summarizedField>RIT_BudgetLine__c.SECountryCogsCCO__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SECountryCogsCCO__c</fullName>
+        <description>Quote Approval - SE Country Cogs (CCO) for Budget</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>SE Country Cogs (CCO)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SEIGCogsCCOPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of SE IG COGS (CCO) value against Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( SEIGCogsCCO_RP__c  /  Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SE IG Cogs (CCO) %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SEIGCogsCCO_RP__c</fullName>
+        <externalId>false</externalId>
+        <label>SE IG Cogs (CCO)</label>
+        <summarizedField>RIT_BudgetLine__c.SEIGCogsCCO__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SEIGCogsCCO__c</fullName>
+        <description>Quote Approval - SE IG Cogs (CCO) for Budget</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>SE IG Cogs (CCO)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SFCCountryPercent__c</fullName>
+        <description>Quote Approval  - Formula in order to calculate the percentage value of SFC Country against the Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( SFCCountry_RP__c  / Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SFC Front-Office / Solution Centre %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SFCCountry_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SFC should be entered with a negative value</inlineHelpText>
+        <label>SFC Front-Office / Solution Centre</label>
+        <summarizedField>RIT_BudgetLine__c.SFCCountry__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SFCCountry__c</fullName>
+        <description>Quote Approval - SFC Country for Budget.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>SFC Country</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SFCOutsideCountryPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of SFC Outside Country against the Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( SFCOutsideCountry_RP__c  / Sales_RP__c  ), 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SFC upstream %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SFCOutsideCountry_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SFC should be entered with a negative value</inlineHelpText>
+        <label>SFC upstream</label>
+        <summarizedField>RIT_BudgetLine__c.SFCOutsideCountry__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SFCOutsideCountry__c</fullName>
+        <description>Quote Approval - SFC Outside Country for Budget.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a cost – please enter a negative figure</inlineHelpText>
+        <label>SFC Outside Country</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SFCPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of SFC against the Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( SFC__c  /  Sales_RP__c  ),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SFC %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SFC__c</fullName>
+        <description>Quote Approval  - Formula in order to calculate the value for SFC as a SUM of SFC Country and SFC Outside Country values.</description>
+        <externalId>false</externalId>
+        <formula>SFCCountry_RP__c  +  SFCOutsideCountry_RP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SFC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SalesPercent__c</fullName>
+        <description>Quote Approval - Formula to calculate the percentage value of Sales Value against Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sales Amount %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Sales_RP__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Amount</label>
+        <summarizedField>RIT_BudgetLine__c.Sales__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Sales__c</fullName>
+        <description>Quote Approval - Sales for Budget</description>
+        <externalId>false</externalId>
+        <label>Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>StatGrossMarginPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( StatGrossMargin__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Statutory Gross Margin %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>StatGrossMargin__c</fullName>
+        <externalId>false</externalId>
+        <formula>CCOGrossMargin__c-UpstreamMargin_RP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Statutory Gross Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TotDesEngIGOGPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( TotDesEngIGOG__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Design, Eng., Proj Mgmt (IG + OG)%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TotDesEngIGOG__c</fullName>
+        <externalId>false</externalId>
+        <formula>ProjectManagement_RP__c+DesEngProjMgnt_RP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total Design, Engineering, Project Management (IG + OG )</inlineHelpText>
+        <label>Total Design, Eng., Proj Mgmt (IG + OG )</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TotInstCommIGOGPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( TotInstCommIGOG__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Install, Comm., Services(IG + OG)%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TotInstCommIGOG__c</fullName>
+        <externalId>false</externalId>
+        <formula>InstCommSerIGCCO_RP__c+InstCommSerOG_RP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total Installation, Commissioning, Services (IG + OG)</inlineHelpText>
+        <label>Total Install, Comm., Services (IG + OG)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TotOtherIGOG__c</fullName>
+        <externalId>false</externalId>
+        <formula>OtherCOGS_RP__c + OGCogsOther_RP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Other COGCS (IG + OG)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TotOtherIGOGper__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( TotOtherIGOG__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Other COGCS (IG + OG) %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TotalCogsPercent__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the percentage value of Total COGS against the Total Sales value.</description>
+        <externalId>false</externalId>
+        <formula>IF( Sales_RP__c !=0, ( TotalCogs__c  /  Sales_RP__c  ) , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total COGS %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TotalCogs__c</fullName>
+        <description>Quote Approval - Formula in order to calculate the value for  Total COGS as Sum of SE COGS (CCO), OG COGS, Other COGS and Risk Reserve.</description>
+        <externalId>false</externalId>
+        <formula>RiskReserve_RP__c + Warranty_RP__c + TotInstCommIGOG__c+TotOtherIGOG__c+TotDesEngIGOG__c+TotalProdOGIG__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total COGS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TotalProdOGIGPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( TotalProdOGIG__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Pdt, Equip, System COGS (OG + IG)%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TotalProdOGIG__c</fullName>
+        <externalId>false</externalId>
+        <formula>ProdEquipIGCCO_RP__c + OGPurchasesProducts_RP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total Product, Equipment, System COGS (IG + OG)</inlineHelpText>
+        <label>Total Pdt, Equip, System COGS (IG + OG)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>UpstreamMarginPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( UpstreamMargin_RP__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Upstream Margin %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>UpstreamMargin_RP__c</fullName>
+        <externalId>false</externalId>
+        <label>Upstream Margin</label>
+        <summarizedField>RIT_BudgetLine__c.UpstreamMargin__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>WarrantyPer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Sales_RP__c !=0, ( Warranty_RP__c/Sales_RP__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Warranty %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Warranty_RP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>COGS should be entered with a negative value</inlineHelpText>
+        <label>Warranty</label>
+        <summarizedField>RIT_BudgetLine__c.Warranty__c</summarizedField>
+        <summaryForeignKey>RIT_BudgetLine__c.Budget__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Budget</label>
+    <nameField>
+        <displayFormat>RIT-BUD-{0000}</displayFormat>
+        <label>Budget</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Budgets</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>BUD_VR01_CheckQuoteStatus</fullName>
+        <active>true</active>
+        <description>Quote Approval - To ensure that information is not edited after Quote Approval</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp;
+Text(QuoteLink__r.QuoteStatus__c) = &apos;Approved&apos;</errorConditionFormula>
+        <errorMessage>RITE Information cannot be modified now, as the Quote is Approved</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>RIT_BUD_RITEForm</fullName>
+        <availability>online</availability>
+        <description>Quote Approval – A button to go back to the RITE Form Executive Summary Page.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Back to RITE Form</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/VFP01_RITEForm?id={!RIT_Budget__c.QuoteLinkId__c }</url>
+    </webLinks>
+</CustomObject>

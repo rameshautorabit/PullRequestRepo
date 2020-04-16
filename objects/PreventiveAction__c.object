@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>VFP_PreventionRecordTypeSelection</content>
+        <skipRecordTypeSelect>true</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PA_Lex</fullName>
+        <fields>Name</fields>
+        <fields>Owner__c</fields>
+        <fields>AccountableOrganization__c</fields>
+        <fields>Status__c</fields>
+        <fields>RelatedRootCause__c</fields>
+        <fields>RelatedProblem__c</fields>
+        <fields>PAIcons__c</fields>
+        <label>PA_Lex</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>PA_Supplier</fullName>
+        <fields>Name</fields>
+        <fields>Status__c</fields>
+        <fields>RelatedRootCause__c</fields>
+        <fields>RelatedProblem__c</fields>
+        <fields>PAIcons__c</fields>
+        <label>PA_Supplier</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Child Object for Problem to capture the Preventive Action for Problem</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccountableOrganization__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Select the organization accountable for the implementation of the Preventive Action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the organization accountable for the implementation of the Preventive Action.</inlineHelpText>
+        <label>Accountable Organization</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2 AND 4) OR (1 AND 2 AND 5 AND 7) OR (3 AND 6)</booleanFilter>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Return Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Status__c</field>
+                <operation>equals</operation>
+                <value>Canceled</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>To be deactivated</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Inactive</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Preventive Actions</relationshipLabel>
+        <relationshipName>Preventive_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AdditionalContact__c</fullName>
+        <description>Any additional person to notify</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Any additional person to notify. Please mention the email address of the person.</inlineHelpText>
+        <label>Additional Contact (email)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CycleTime__c</fullName>
+        <description>I2P January 2016 Release: This field calculates days the record is created to completed</description>
+        <externalId>false</externalId>
+        <formula>IF( OR( ISPICKVAL( Status__c , &apos;Completed&apos;) , ISPICKVAL( Status__c , &apos;Canceled&apos;) ) ,   IF(  DATEVALUE( CreatedDate ) &gt;  DateofClosure__c ,  DateofClosure__c  -  StartDate__c , DateofClosure__c - DATEVALUE( CreatedDate )) ,  TODAY() -  DATEVALUE( CreatedDate ) )</formula>
+        <label>Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateofClosure__c</fullName>
+        <description>Date when the Preventive Action is closed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when the Preventive Action is closed</inlineHelpText>
+        <label>Date of Closure</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Description of the Preventive Action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the Preventive Action, i.e. what is required from the person you are assigning it to.</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DueDate__c</fullName>
+        <description>Due Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date by which the action is to be completed</inlineHelpText>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DuplicatedPreventiveAction__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Select the Preventive Action of which this one is a duplicate</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Preventive Action of which this one is a duplicate</inlineHelpText>
+        <label>Duplicate of Preventive Action</label>
+        <referenceTo>PreventiveAction__c</referenceTo>
+        <relationshipLabel>Duplicate Preventive Actions</relationshipLabel>
+        <relationshipName>Preventive_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Improvement_Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Improvement Project</label>
+        <referenceTo>CSQ_ImprovementProject__c</referenceTo>
+        <relationshipLabel>Preventive Actions</relationshipLabel>
+        <relationshipName>Preventive_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IsDescriptionBlank__c</fullName>
+        <externalId>false</externalId>
+        <label>Is Description Blank ?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LastNotificationDay__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Notification Day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastUpdated__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Updated</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastUpdatedby__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Last Updated by</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Preventive_Actions1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Overdue__c</fullName>
+        <description>A red flag displayed here means the Preventive Action is overdue</description>
+        <externalId>false</externalId>
+        <formula>IF ( DueDate__c &lt; TODAY() &amp;&amp;
+NOT (ISPICKVAL(Status__c , &quot;Completed&quot;)) &amp;&amp;
+NOT (ISPICKVAL(Status__c , &quot;Canceled&quot;)) &amp;&amp; 
+NOT (ISPICKVAL(Status__c, &quot;Duplicate&quot;)),
+IMAGE(&quot;/resource/I2P_red_flag&quot;,&quot;Overdue&quot; ,20,95),
+&quot;&quot;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>A red flag displayed here means the Preventive Action is overdue</inlineHelpText>
+        <label>.</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Person responsible for the Preventive Action</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Person responsible for the Preventive Action</inlineHelpText>
+        <label>Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Preventive_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PAIcons__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tech_SafetyRelated__c&amp;&quot; &quot;&amp;&quot; &quot;&amp;Overdue__c</formula>
+        <label>PA Icons</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PreventiveActionLegacyID__c</fullName>
+        <description>ONLY for Preventive Action migrated to bFO from other tools. Preventive Action ID in the legacy tool.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ONLY for Preventive Action migrated to bFO from other tools. Preventive Action ID in the legacy tool.</inlineHelpText>
+        <label>Preventive Action Legacy ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PreventiveActionLegacyTool__c</fullName>
+        <description>ONLY for Preventive Action migrated to bFO from other tools. Name of the legacy tool.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ONLY for Preventive Action migrated to bFO from other tools. Name of the legacy tool.</inlineHelpText>
+        <label>Preventive Action Legacy Tool</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PreventiveActionType__c</fullName>
+        <description>Preventive Action Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Preventive Action Type</inlineHelpText>
+        <label>Preventive Action Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Process Deployment Request</fullName>
+                    <default>false</default>
+                    <label>Process Deployment Request</label>
+                </value>
+                <value>
+                    <fullName>Process Improvement Request</fullName>
+                    <default>false</default>
+                    <label>Process Improvement Request</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RelatedProblem__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Problem to which the Preventive Action is related</inlineHelpText>
+        <label>Related Problem</label>
+        <referenceTo>Problem__c</referenceTo>
+        <relationshipLabel>Preventive Actions</relationshipLabel>
+        <relationshipName>Preventive_Actions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>RelatedRootCause__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Select the Root Cause to which the Preventive Action is related</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lists only Root Causes of the Type &quot;Systemic&quot; with Status &quot;Confirmed&quot;</inlineHelpText>
+        <label>Related Root Cause</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2 AND 3) OR 4</booleanFilter>
+            <errorMessage>Please select a Root Cause with  Status as &quot;Confirmed&quot; and Type as &quot;Systematic Root Cause&quot;</errorMessage>
+            <filterItems>
+                <field>RootCause__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Confirmed</value>
+            </filterItems>
+            <filterItems>
+                <field>RootCause__c.RootCauseType__c</field>
+                <operation>equals</operation>
+                <value>Systemic Root Cause - Problem creation, Systemic Root Cause -  Problem non detection</value>
+            </filterItems>
+            <filterItems>
+                <field>RootCause__c.RelatedProblem__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.RelatedProblem__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$User.BypassVR__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>RootCause__c</referenceTo>
+        <relationshipLabel>Preventive Actions</relationshipLabel>
+        <relationshipName>Preventive_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ResolutionComments__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the actions finally implemented, their results and all relevant information about its effectiveness validation</inlineHelpText>
+        <label>Resolution Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>StartDate__c</fullName>
+        <description>Start Date when the execution of the action is initiated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when execution of the action is initiated</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>• Not started - initial status
+• Duplicate - same root cause already reported before
+• In progress - action is being implemented
+• Completed - all work done
+• Canceled - action was opened in error, or is no longer applicable</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>true</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Canceled</fullName>
+                    <default>false</default>
+                    <label>Canceled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(LEN(DuplicatedPreventiveAction__c)&gt;0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_IsDuplicate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(LEN(DuplicatedPreventiveAction__c)&gt;0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH_IsDuplicate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ProblemLeaderEmail__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_ProblemLeaderEmail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ProblemLeader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>TECH_ProblemLeader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Preventive_Actions2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tech_SafetyRelated__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( RelatedProblem__r.Severity__c , &apos;Safety related&apos;) , 
+IMAGE(&quot;/resource/I2P_Safety_Alert&quot;, &quot; warning&quot;, 20, 143), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;Tech_SafetyRelated&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <description>Title of the Preventive Action</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One sentence describing the Preventive Action. Example: &quot;Establish a formal process for critical-to-quality parameters&quot;. Avoid using acronyms, code names, or excessively short descriptions. 150 characters maximum.</inlineHelpText>
+        <label>Title</label>
+        <length>150</length>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Preventive Action</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>DuplicatedPreventiveAction__c</columns>
+        <columns>Overdue__c</columns>
+        <columns>Owner__c</columns>
+        <columns>Title__c</columns>
+        <columns>StartDate__c</columns>
+        <columns>DueDate__c</columns>
+        <columns>AccountableOrganization__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Energy_Automation_Open_Prevent_Actions</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>RelatedProblem__c</columns>
+        <columns>AccountableOrganization__c</columns>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Owner__c</columns>
+        <columns>Status__c</columns>
+        <columns>DueDate__c</columns>
+        <columns>StartDate__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>contains</operation>
+            <value>Energy - Automation</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Duplicate,Completed,Canceled</value>
+        </filters>
+        <label>Energy Automation Open Prevent Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>GSC_LifeSpace_EMEAS_accountable_total</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>AccountableOrganization__c</columns>
+        <columns>Owner__c</columns>
+        <columns>Status__c</columns>
+        <columns>Title__c</columns>
+        <columns>StartDate__c</columns>
+        <columns>DueDate__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>contains</operation>
+            <value>GSC LifeSpace EMEAS</value>
+        </filters>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>contains</operation>
+            <value>Power EMEAS - LifeSpace</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Duplicate,Completed,Canceled</value>
+        </filters>
+        <label>GSC LifeSpace EMEAS accountable and open</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>GSC_PZ_All_Open</fullName>
+        <columns>NAME</columns>
+        <columns>AccountableOrganization__c</columns>
+        <columns>Owner__c</columns>
+        <columns>Status__c</columns>
+        <columns>Title__c</columns>
+        <columns>Description__c</columns>
+        <columns>StartDate__c</columns>
+        <columns>DueDate__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>startsWith</operation>
+            <value>GSC EAJP - Pacific</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Duplicate,Completed,Canceled</value>
+        </filters>
+        <label>GSC PZ - All - Open</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>GSC_PZ_ALL</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Overdue_BEE_Preventive_Actions</fullName>
+        <columns>NAME</columns>
+        <columns>AccountableOrganization__c</columns>
+        <columns>DueDate__c</columns>
+        <columns>Owner__c</columns>
+        <columns>CycleTime__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Canceled</value>
+        </filters>
+        <filters>
+            <field>DueDate__c</field>
+            <operation>lessThan</operation>
+            <value>6/24/2016</value>
+        </filters>
+        <filters>
+            <field>AccountableOrganization__c</field>
+            <operation>contains</operation>
+            <value>Busway,Enclosure &amp; Equipement</value>
+        </filters>
+        <label>Overdue BEE Preventive Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>PA-{000}</displayFormat>
+        <label>Preventive Action ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Preventive Actions</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Schneider</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>PA_Lex</compactLayoutAssignment>
+        <description>Schneider Related Preventive Actions</description>
+        <label>Schneider</label>
+        <picklistValues>
+            <picklist>IsDescriptionBlank__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PreventiveActionType__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Deployment Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Improvement Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Supplier</fullName>
+        <active>true</active>
+        <description>Supplier Related Preventive Actions</description>
+        <label>Supplier</label>
+        <picklistValues>
+            <picklist>IsDescriptionBlank__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PreventiveActionType__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Deployment Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Improvement Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DuplicatedPreventiveAction__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Overdue__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DueDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AccountableOrganization__c</customTabListAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchResultsAdditionalFields>Title__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>PRA_VR01_DuplicatedPreventiveActionRequi</fullName>
+        <active>true</active>
+        <description>When the status of a Preventive Action moves to Duplicated, referencing the Duplicated Preventive Action is mandatory</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; 
+ISPICKVAL( Status__c , &quot;Duplicate&quot;)  &amp;&amp;  
+(LEN( DuplicatedPreventiveAction__c ) = 0)</errorConditionFormula>
+        <errorDisplayField>DuplicatedPreventiveAction__c</errorDisplayField>
+        <errorMessage>&quot;Duplicated Preventive Action&quot; is mandatory when the Status is set to &quot;Duplicate&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRA_VR02_OwnerFieldMandatory</fullName>
+        <active>true</active>
+        <description>Owner field is mandatory for Preventive Action</description>
+        <errorConditionFormula>AND
+(
+	NOT($User.BypassVR__c),
+	$RecordType.Name !=&apos;Supplier&apos;,
+	ISBLANK( Owner__c)
+)</errorConditionFormula>
+        <errorDisplayField>Owner__c</errorDisplayField>
+        <errorMessage>The corresponding Owner for the Preventive Action is not found. Owner must be associated to a Preventive Action</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRA_VR03_Prevent_Supplier_PRA</fullName>
+        <active>true</active>
+        <description>OCT 2015 Release : Supplier Preventive Action cannot be created on a Schneider Problem.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),RelatedProblem__r.RecordType.DeveloperName = &apos;Schneider&apos; , RecordType.DeveloperName = &apos;Supplier&apos;)</errorConditionFormula>
+        <errorMessage>Supplier Preventive Action cannot be created on a Schneider Problem.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRA_VR_JUN16I2P01_CheckSafeDomain</fullName>
+        <active>true</active>
+        <description>Check the safe domain in AdditionalContact__c</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+ VLOOKUP($ObjectType.SafeDomains__c.Fields.Name, $ObjectType.SafeDomains__c.Fields.Name,SUBSTITUTE(AdditionalContact__c,left(AdditionalContact__c,FIND(&quot;@&quot;, AdditionalContact__c)), &quot;&quot;))!=SUBSTITUTE(AdditionalContact__c,left(AdditionalContact__c,FIND(&quot;@&quot;, AdditionalContact__c)), &quot;&quot;) )</errorConditionFormula>
+        <errorDisplayField>AdditionalContact__c</errorDisplayField>
+        <errorMessage>Please enter valid email address within a Schneider safe domain.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRA_VR_OCT15I2P01_DueDateGtStartDate</fullName>
+        <active>true</active>
+        <description>I2P: OCT15 RELEASE. Due date should not be before Creation Date</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),  IF(ISNEW(),TODAY() &gt; DueDate__c, DATEVALUE( CreatedDate ) &gt; DueDate__c ))</errorConditionFormula>
+        <errorDisplayField>DueDate__c</errorDisplayField>
+        <errorMessage>Due date should not be before Creation Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRA_VR_OCT15I2P02_PACrifPrblmInPrognPrbl</fullName>
+        <active>true</active>
+        <description>I2P: OCT 15 Release. Preventive Action can be created only when the related Problem status is In Progress and Problem leader has been Nomiated</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), ISNEW(), NOT( ISPICKVAL( RelatedProblem__r.Status__c , &quot;In Progress&quot;) ),  ISBLANK( RelatedProblem__r.ProblemLeader__c )  )</errorConditionFormula>
+        <errorMessage>Preventive Action can only be created when the related Problem Status is In Progress and Schneider Problem Leader is nominated.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Clone</fullName>
+        <availability>online</availability>
+        <description>I2P July2012:Clone</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Clone</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>window.open(&quot;{!PreventiveAction__c.Id}&quot;+&quot;/e?clone=1&quot;+&quot;&amp;retURL=%2F&quot;+&quot;{!PreventiveAction__c.Id}&quot;+&quot;&amp;00NA0000009exTG=Not Started&quot;,&quot;_self&quot;);</url>
+    </webLinks>
+</CustomObject>

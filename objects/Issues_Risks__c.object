@@ -1,0 +1,2362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Issues_Risks_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Issues_Component_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Program__c</fields>
+        <fields>IRProject__c</fields>
+        <fields>IRDeployment__c</fields>
+        <fields>IRDetectionDate__c</fields>
+        <fields>IRStatus__c</fields>
+        <fields>Workstream__c</fields>
+        <fields>Type__c</fields>
+        <label>Issues Component Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ClosedComments__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolution</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Confidential__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Confidential</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Criticality__c</fullName>
+        <externalId>false</externalId>
+        <label>Criticality</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Escalation_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Escalation Level</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Partner Committee</fullName>
+                    <default>false</default>
+                    <label>Partner Committee</label>
+                </value>
+                <value>
+                    <fullName>PPR</fullName>
+                    <default>false</default>
+                    <label>PPR</label>
+                </value>
+                <value>
+                    <fullName>Steering Committee</fullName>
+                    <default>false</default>
+                    <label>Steering Committee</label>
+                </value>
+                <value>
+                    <fullName>Task Force</fullName>
+                    <default>false</default>
+                    <label>Task Force</label>
+                </value>
+                <value>
+                    <fullName>WPR</fullName>
+                    <default>false</default>
+                    <label>WPR</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FollowUpDecisionorActionRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Follow-Up</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IRCloseDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Resolution Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IRCommunicationTrainingPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>Communication &amp; Training Plan</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IRDaysSinceDetected__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY() -  IRDetectionDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days since detected</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IRDecisionMaker__c</fullName>
+        <description>Please enter the name of the decision maker</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter the name of the decision maker</inlineHelpText>
+        <label>Decision Maker</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IRDecision__c</fullName>
+        <externalId>false</externalId>
+        <label>Decision Required?</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IRDeployment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Links request to a deployment</description>
+        <externalId>false</externalId>
+        <label>Deployment</label>
+        <referenceTo>Deployment__c</referenceTo>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IRDescription__c</fullName>
+        <description>Please give further detail of request. You can also add images such as a screenshot if necessary to support your request</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please give further detail of request. You can also add images such as a screenshot if necessary to support your request</inlineHelpText>
+        <label>Description</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IRDetectionDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Detection Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IRExpectedBenefitsBusinessImpact__c</fullName>
+        <description>Please give a brief description of what the expected benefits or the business impact should this request be implemented</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please give a brief description of what the expected benefits would be should this request be implemented</inlineHelpText>
+        <label>Expected Benefits / Business Impact</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IRExpectedDueDate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Resolution/Activation date</inlineHelpText>
+        <label>Target Resolution Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IRExternalcostdays__c</fullName>
+        <externalId>false</externalId>
+        <label>External cost (days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IRFunctionalArea__c</fullName>
+        <externalId>false</externalId>
+        <label>Functional Area</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account Plan</fullName>
+                    <default>false</default>
+                    <label>Account Plan</label>
+                </value>
+                <value>
+                    <fullName>Accounts</fullName>
+                    <default>false</default>
+                    <label>Accounts</label>
+                </value>
+                <value>
+                    <fullName>Activities</fullName>
+                    <default>false</default>
+                    <label>Activities</label>
+                </value>
+                <value>
+                    <fullName>Administration Setup</fullName>
+                    <default>false</default>
+                    <label>Administration Setup</label>
+                </value>
+                <value>
+                    <fullName>Answers</fullName>
+                    <default>false</default>
+                    <label>Answers</label>
+                </value>
+                <value>
+                    <fullName>Assessment</fullName>
+                    <default>false</default>
+                    <label>Assessment</label>
+                </value>
+                <value>
+                    <fullName>Assets</fullName>
+                    <default>false</default>
+                    <label>Assets</label>
+                </value>
+                <value>
+                    <fullName>Call Center</fullName>
+                    <default>false</default>
+                    <label>Call Center</label>
+                </value>
+                <value>
+                    <fullName>Campaigns</fullName>
+                    <default>false</default>
+                    <label>Campaigns</label>
+                </value>
+                <value>
+                    <fullName>Cases</fullName>
+                    <default>false</default>
+                    <label>Cases</label>
+                </value>
+                <value>
+                    <fullName>Chatter</fullName>
+                    <default>false</default>
+                    <label>Chatter</label>
+                </value>
+                <value>
+                    <fullName>Communication Templates</fullName>
+                    <default>false</default>
+                    <label>Communication Templates</label>
+                </value>
+                <value>
+                    <fullName>Company Profile</fullName>
+                    <default>false</default>
+                    <label>Company Profile</label>
+                </value>
+                <value>
+                    <fullName>Console</fullName>
+                    <default>false</default>
+                    <label>Console</label>
+                </value>
+                <value>
+                    <fullName>Contacts</fullName>
+                    <default>false</default>
+                    <label>Contacts</label>
+                </value>
+                <value>
+                    <fullName>Content Deliveries</fullName>
+                    <default>false</default>
+                    <label>Content Deliveries</label>
+                </value>
+                <value>
+                    <fullName>Contracts</fullName>
+                    <default>false</default>
+                    <label>Contracts</label>
+                </value>
+                <value>
+                    <fullName>Country</fullName>
+                    <default>false</default>
+                    <label>Country</label>
+                </value>
+                <value>
+                    <fullName>Create</fullName>
+                    <default>false</default>
+                    <label>Create</label>
+                </value>
+                <value>
+                    <fullName>Critical Updates</fullName>
+                    <default>false</default>
+                    <label>Critical Updates</label>
+                </value>
+                <value>
+                    <fullName>Data Categories</fullName>
+                    <default>false</default>
+                    <label>Data Categories</label>
+                </value>
+                <value>
+                    <fullName>Data Management</fullName>
+                    <default>false</default>
+                    <label>Data Management</label>
+                </value>
+                <value>
+                    <fullName>Deploy</fullName>
+                    <default>false</default>
+                    <label>Deploy</label>
+                </value>
+                <value>
+                    <fullName>Desktop Administration</fullName>
+                    <default>false</default>
+                    <label>Desktop Administration</label>
+                </value>
+                <value>
+                    <fullName>Develop</fullName>
+                    <default>false</default>
+                    <label>Develop</label>
+                </value>
+                <value>
+                    <fullName>Email Administration</fullName>
+                    <default>false</default>
+                    <label>Email Administration</label>
+                </value>
+                <value>
+                    <fullName>Forecasts</fullName>
+                    <default>false</default>
+                    <label>Forecasts</label>
+                </value>
+                <value>
+                    <fullName>Google Apps</fullName>
+                    <default>false</default>
+                    <label>Google Apps</label>
+                </value>
+                <value>
+                    <fullName>Home</fullName>
+                    <default>false</default>
+                    <label>Home</label>
+                </value>
+                <value>
+                    <fullName>Ideas</fullName>
+                    <default>false</default>
+                    <label>Ideas</label>
+                </value>
+                <value>
+                    <fullName>Leads</fullName>
+                    <default>false</default>
+                    <label>Leads</label>
+                </value>
+                <value>
+                    <fullName>Manage Users</fullName>
+                    <default>false</default>
+                    <label>Manage Users</label>
+                </value>
+                <value>
+                    <fullName>Mobile Administration</fullName>
+                    <default>false</default>
+                    <label>Mobile Administration</label>
+                </value>
+                <value>
+                    <fullName>Monitoring</fullName>
+                    <default>false</default>
+                    <label>Monitoring</label>
+                </value>
+                <value>
+                    <fullName>Opportunities</fullName>
+                    <default>false</default>
+                    <label>Opportunities</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Partners</fullName>
+                    <default>false</default>
+                    <label>Partners</label>
+                </value>
+                <value>
+                    <fullName>Portfolio</fullName>
+                    <default>false</default>
+                    <label>Portfolio</label>
+                </value>
+                <value>
+                    <fullName>Products</fullName>
+                    <default>false</default>
+                    <label>Products</label>
+                </value>
+                <value>
+                    <fullName>Quote Link</fullName>
+                    <default>false</default>
+                    <label>Quote Link</label>
+                </value>
+                <value>
+                    <fullName>Quotes</fullName>
+                    <default>false</default>
+                    <label>Quotes</label>
+                </value>
+                <value>
+                    <fullName>Reports &amp; Dashboards</fullName>
+                    <default>false</default>
+                    <label>Reports &amp; Dashboards</label>
+                </value>
+                <value>
+                    <fullName>Risk Analysis Form</fullName>
+                    <default>false</default>
+                    <label>Risk Analysis Form</label>
+                </value>
+                <value>
+                    <fullName>Salesforce CRM Content</fullName>
+                    <default>false</default>
+                    <label>Salesforce CRM Content</label>
+                </value>
+                <value>
+                    <fullName>Salesforce to Salesforce</fullName>
+                    <default>false</default>
+                    <label>Salesforce to Salesforce</label>
+                </value>
+                <value>
+                    <fullName>Search</fullName>
+                    <default>false</default>
+                    <label>Search</label>
+                </value>
+                <value>
+                    <fullName>Security Controls</fullName>
+                    <default>false</default>
+                    <label>Security Controls</label>
+                </value>
+                <value>
+                    <fullName>Self-Service</fullName>
+                    <default>false</default>
+                    <label>Self-Service</label>
+                </value>
+                <value>
+                    <fullName>Solutions</fullName>
+                    <default>false</default>
+                    <label>Solutions</label>
+                </value>
+                <value>
+                    <fullName>Tab Names and Labels</fullName>
+                    <default>false</default>
+                    <label>Tab Names and Labels</label>
+                </value>
+                <value>
+                    <fullName>Tags</fullName>
+                    <default>false</default>
+                    <label>Tags</label>
+                </value>
+                <value>
+                    <fullName>Target</fullName>
+                    <default>false</default>
+                    <label>Target</label>
+                </value>
+                <value>
+                    <fullName>Translation Workbench</fullName>
+                    <default>false</default>
+                    <label>Translation Workbench</label>
+                </value>
+                <value>
+                    <fullName>User Interface</fullName>
+                    <default>false</default>
+                    <label>User Interface</label>
+                </value>
+                <value>
+                    <fullName>Users</fullName>
+                    <default>false</default>
+                    <label>Users</label>
+                </value>
+                <value>
+                    <fullName>View Installed Packages</fullName>
+                    <default>false</default>
+                    <label>View Installed Packages</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IRImpactDescription__c</fullName>
+        <description>If this risk should occur, what is the expected impact to the project</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this risk should occur, what is the expected impact to the project</inlineHelpText>
+        <label>Impact Description</label>
+        <length>5000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IRImpact__c</fullName>
+        <externalId>false</externalId>
+        <label>Impact</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Nice to Have</fullName>
+                    <default>false</default>
+                    <label>Nice to Have</label>
+                </value>
+                <value>
+                    <fullName>1 - Very low</fullName>
+                    <default>false</default>
+                    <label>1 - Very low</label>
+                </value>
+                <value>
+                    <fullName>2 - Low</fullName>
+                    <default>false</default>
+                    <label>2 - Low</label>
+                </value>
+                <value>
+                    <fullName>3 - Medium</fullName>
+                    <default>false</default>
+                    <label>3 - Medium</label>
+                </value>
+                <value>
+                    <fullName>4 - High</fullName>
+                    <default>false</default>
+                    <label>4 - High</label>
+                </value>
+                <value>
+                    <fullName>Blocking</fullName>
+                    <default>false</default>
+                    <label>Blocking</label>
+                </value>
+                <value>
+                    <fullName>Frustration</fullName>
+                    <default>false</default>
+                    <label>Frustration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IRImpactsuserguides__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Please indicate if this change would require an update to end user manuals</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please indicate if this change would require an update to end user manuals</inlineHelpText>
+        <label>Impacts user guides?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IRInternalcostdays__c</fullName>
+        <description>Nb of days for internal ressources to implement the change</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Design/Build/Test/Migration</inlineHelpText>
+        <label>Internal cost (days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IROwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The current owner of the Change Request</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The owner changes depending on the status</inlineHelpText>
+        <label>Accountable</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>IR_Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IRProbability__c</fullName>
+        <description>Please rank the probability of this risk</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please rank the probability of this risk</inlineHelpText>
+        <label>Probability</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+                <value>
+                    <fullName>1 - Very Small Chance</fullName>
+                    <default>false</default>
+                    <label>1 - Very Small Chance</label>
+                </value>
+                <value>
+                    <fullName>2 - 25% Chance</fullName>
+                    <default>false</default>
+                    <label>2 - 25% Chance</label>
+                </value>
+                <value>
+                    <fullName>3 - &gt;50% Chance</fullName>
+                    <default>false</default>
+                    <label>3 - &gt;50% Chance</label>
+                </value>
+                <value>
+                    <fullName>4 - &gt;90% Chance</fullName>
+                    <default>false</default>
+                    <label>4 - &gt;90% Chance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IRProject__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <referenceTo>Project__c</referenceTo>
+        <relationshipName>IR_Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IRProposedResolution__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolution / Mitigation Actions</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IRRiskCategory__c</fullName>
+        <description>Please put the risk in the appropriate category</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please put the risk in the appropriate category</inlineHelpText>
+        <label>Risk Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>Design / Build</fullName>
+                    <default>false</default>
+                    <label>Design / Build</label>
+                </value>
+                <value>
+                    <fullName>Implementation</fullName>
+                    <default>false</default>
+                    <label>Implementation</label>
+                </value>
+                <value>
+                    <fullName>Adoption</fullName>
+                    <default>false</default>
+                    <label>Adoption</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IRRiskScore__c</fullName>
+        <description>This score is proposed automatically based on the level of probability and the impact once you save the record. You may override by selecting a different value.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This score is proposed automatically based on the level of probability and the impact once you save the record. You may override by selecting a different value.</inlineHelpText>
+        <label>Risk Score (proposed automatically)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IRStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Resolution in Progress</fullName>
+                    <default>false</default>
+                    <label>Resolution in Progress</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IRUserCommunicationNeeded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Please indicate if communication to end-users is needed. If so, please detail in the field below</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please indicate if communication to end-users is needed. If so, please detail in the field below</inlineHelpText>
+        <label>User Communication Needed?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IRsfdc__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Change Request to be discussed with salesforce.com</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Either for feasability study or to follow-up implementation. 
+Can be used for both support and services</inlineHelpText>
+        <label>sfdc</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Initial_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Initiated_by__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Initiated by</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <description>Please prioritise the issue into one of the following classifications</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please prioritise the issue into one of the following classifications</inlineHelpText>
+        <label>Priority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 - no immediate impact on deadlines</fullName>
+                    <default>false</default>
+                    <label>1 - no immediate impact on deadlines</label>
+                </value>
+                <value>
+                    <fullName>2 - Impact on less critical deadlines</fullName>
+                    <default>false</default>
+                    <label>2 - Impact on less critical deadlines</label>
+                </value>
+                <value>
+                    <fullName>3 - May impact deadlines</fullName>
+                    <default>false</default>
+                    <label>3 - May impact deadlines</label>
+                </value>
+                <value>
+                    <fullName>4 - Will impact deadlines</fullName>
+                    <default>false</default>
+                    <label>4 - Will impact deadlines</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Program__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Program</label>
+        <referenceTo>Program__c</referenceTo>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RelatedMilestone__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Milestone</label>
+        <referenceTo>Milestone__c</referenceTo>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Release / Wave</label>
+        <referenceTo>Release__c</referenceTo>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Replanned_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Replanned Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>RiskIssueEscalationLevel__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select level of team that should evaluate risk or issue.</inlineHelpText>
+        <label>Risk / Issue Escalation Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Project Progress Review</fullName>
+                    <default>false</default>
+                    <label>Project Progress Review</label>
+                </value>
+                <value>
+                    <fullName>Work Stream Projects Progress Review</fullName>
+                    <default>false</default>
+                    <label>Work Stream Projects Progress Review</label>
+                </value>
+                <value>
+                    <fullName>Deployment Regional Operational Committee</fullName>
+                    <default>false</default>
+                    <label>Deployment Regional Operational Committee</label>
+                </value>
+                <value>
+                    <fullName>Weekly Progress Review</fullName>
+                    <default>false</default>
+                    <label>Weekly Progress Review</label>
+                </value>
+                <value>
+                    <fullName>Steering Committee</fullName>
+                    <default>false</default>
+                    <label>Steering Committee</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Severity__c</fullName>
+        <description>Please indicate the level of severity of this particular issue</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please indicate the level of severity of this particular issue</inlineHelpText>
+        <label>Severity</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 - Minimal impact on major deliverables</fullName>
+                    <default>false</default>
+                    <label>1 - Minimal impact on major deliverables</label>
+                </value>
+                <value>
+                    <fullName>2 - impact limited to partial deliverable</fullName>
+                    <default>false</default>
+                    <label>2 - impact limited to partial deliverable</label>
+                </value>
+                <value>
+                    <fullName>3 - Impact major deliverable</fullName>
+                    <default>false</default>
+                    <label>3 - Impact major deliverable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_Program_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH Program Id</label>
+        <length>22</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_Program_Name__c</fullName>
+        <description>This field is used in overriding the custom button New decision on the related list of decision on issue/risk detail page.</description>
+        <externalId>false</externalId>
+        <formula>Program__r.Name</formula>
+        <label>TECH Program Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_Project_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH Project Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_Project_Name__c</fullName>
+        <description>this field is used in overriding the custom button new decision on the related list decisions on the issue/risk detail page.</description>
+        <externalId>false</externalId>
+        <formula>IRProject__r.Name</formula>
+        <label>TECH Project Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Risk</fullName>
+                    <default>true</default>
+                    <label>Risk</label>
+                </value>
+                <value>
+                    <fullName>Issue</fullName>
+                    <default>false</default>
+                    <label>Issue</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Workstream__c</fullName>
+        <externalId>false</externalId>
+        <label>Workstream</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Change</fullName>
+                    <default>false</default>
+                    <label>Change</label>
+                </value>
+                <value>
+                    <fullName>Data</fullName>
+                    <default>false</default>
+                    <label>Data</label>
+                </value>
+                <value>
+                    <fullName>Deployment</fullName>
+                    <default>false</default>
+                    <label>Deployment</label>
+                </value>
+                <value>
+                    <fullName>Innovation&amp;Incubation</fullName>
+                    <default>false</default>
+                    <label>Innovation&amp;Incubation</label>
+                </value>
+                <value>
+                    <fullName>NoE</fullName>
+                    <default>false</default>
+                    <label>NoE</label>
+                </value>
+                <value>
+                    <fullName>PMO</fullName>
+                    <default>false</default>
+                    <label>PMO</label>
+                </value>
+                <value>
+                    <fullName>Process</fullName>
+                    <default>false</default>
+                    <label>Process</label>
+                </value>
+                <value>
+                    <fullName>Solution</fullName>
+                    <default>false</default>
+                    <label>Solution</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Issues/Risks</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>IROwner__c</columns>
+        <columns>IRDescription__c</columns>
+        <columns>Confidential__c</columns>
+        <columns>RiskIssueEscalationLevel__c</columns>
+        <columns>IRStatus__c</columns>
+        <columns>Criticality__c</columns>
+        <columns>IRDaysSinceDetected__c</columns>
+        <columns>Program__c</columns>
+        <columns>IRProject__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Risk</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>IROwner__c</columns>
+        <columns>IRDescription__c</columns>
+        <columns>Confidential__c</columns>
+        <columns>RiskIssueEscalationLevel__c</columns>
+        <columns>IRStatus__c</columns>
+        <columns>Criticality__c</columns>
+        <columns>IRDaysSinceDetected__c</columns>
+        <columns>Program__c</columns>
+        <columns>IRProject__c</columns>
+        <columns>Workstream__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IRStatus__c</field>
+            <operation>contains</operation>
+            <value>Open,Resolution in Progress</value>
+        </filters>
+        <label>All Open Risk</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Field_Services</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>IRDescription__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>IRStatus__c</columns>
+        <columns>IROwner__c</columns>
+        <columns>IRProposedResolution__c</columns>
+        <columns>Criticality__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Program__c</field>
+            <operation>contains</operation>
+            <value>Field Service</value>
+        </filters>
+        <filters>
+            <field>IRProject__c</field>
+            <operation>contains</operation>
+            <value>Field Service</value>
+        </filters>
+        <label>Field Services</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>bFO_Field_Services</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>IRK-{0000000}</displayFormat>
+        <label>Issues/Risks Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Issues/Risks</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Issue</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Issues_Component_Layout</compactLayoutAssignment>
+        <description>Used to log an issue that needs to be communicated and associate the priority and severity</description>
+        <label>Issue</label>
+        <picklistValues>
+            <picklist>IRFunctionalArea__c</picklist>
+            <values>
+                <fullName>Account Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accounts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Activities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administration Setup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Answers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Campaigns</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chatter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communication Templates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Company Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Console</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Content Deliveries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Country</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Critical Updates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Categories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deploy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desktop Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Develop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecasts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Google Apps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ideas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leads</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manage Users</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portfolio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Link</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quotes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports %26 Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Risk Analysis Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce CRM Content</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce to Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security Controls</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self-Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tab Names and Labels</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tags</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translation Workbench</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Interface</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Users</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>View Installed Packages</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRImpact__c</picklist>
+            <values>
+                <fullName>1 - Very low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Blocking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frustration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nice to Have</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRProbability__c</picklist>
+            <values>
+                <fullName>1 - Very Small Chance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - 25%25 Chance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - %3E50%25 Chance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - %3E90%25 Chance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRRiskCategory__c</picklist>
+            <values>
+                <fullName>Adoption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design %2F Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implementation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRRiskScore__c</picklist>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRStatus__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>1 - no immediate impact on deadlines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Impact on less critical deadlines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - May impact deadlines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Will impact deadlines</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RiskIssueEscalationLevel__c</picklist>
+            <values>
+                <fullName>Deployment Regional Operational Committee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Progress Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steering Committee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekly Progress Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work Stream Projects Progress Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Severity__c</picklist>
+            <values>
+                <fullName>1 - Minimal impact on major deliverables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - impact limited to partial deliverable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Impact major deliverable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Workstream__c</picklist>
+            <values>
+                <fullName>Innovation%26Incubation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Risk</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Issues_Component_Layout</compactLayoutAssignment>
+        <description>Used to log a risk and associate a criticity in order to make visible to a management audience</description>
+        <label>Risk</label>
+        <picklistValues>
+            <picklist>Criticality__c</picklist>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Escalation_Level__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PPR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Committee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steering Committee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Task Force</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WPR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRFunctionalArea__c</picklist>
+            <values>
+                <fullName>Account Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accounts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Activities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administration Setup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Answers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Campaigns</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chatter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communication Templates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Company Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Console</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Content Deliveries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Country</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Critical Updates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Categories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deploy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desktop Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Develop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecasts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Google Apps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ideas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leads</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manage Users</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portfolio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Link</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quotes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports %26 Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Risk Analysis Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce CRM Content</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce to Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security Controls</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self-Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tab Names and Labels</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tags</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Target</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translation Workbench</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Interface</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Users</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>View Installed Packages</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRImpact__c</picklist>
+            <values>
+                <fullName>1 - Very low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Blocking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frustration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nice to Have</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRProbability__c</picklist>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRRiskCategory__c</picklist>
+            <values>
+                <fullName>Adoption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design %2F Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implementation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRRiskScore__c</picklist>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IRStatus__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolution in Progress</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>1 - no immediate impact on deadlines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Impact on less critical deadlines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - May impact deadlines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Will impact deadlines</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RiskIssueEscalationLevel__c</picklist>
+            <values>
+                <fullName>Deployment Regional Operational Committee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Progress Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steering Committee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekly Progress Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work Stream Projects Progress Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Severity__c</picklist>
+            <values>
+                <fullName>1 - Minimal impact on major deliverables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - impact limited to partial deliverable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Impact major deliverable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Risk</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Workstream__c</picklist>
+            <values>
+                <fullName>Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Innovation%26Incubation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NoE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PMO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>IROwner__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Criticality__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IRStatus__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IRExpectedDueDate__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>IROwner__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Criticality__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IRStatus__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IRExpectedDueDate__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IROwner__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Criticality__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IRStatus__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IRExpectedDueDate__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Escalation_Level__c</searchFilterFields>
+        <searchFilterFields>Criticality__c</searchFilterFields>
+        <searchFilterFields>Initial_Due_Date__c</searchFilterFields>
+        <searchFilterFields>Initiated_by__c</searchFilterFields>
+        <searchFilterFields>IRProbability__c</searchFilterFields>
+        <searchFilterFields>Replanned_Due_Date__c</searchFilterFields>
+        <searchFilterFields>IRStatus__c</searchFilterFields>
+        <searchResultsAdditionalFields>IROwner__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Criticality__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IRStatus__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IRExpectedDueDate__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>New_Issues_Risk</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Issues/Risk</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!URLFOR($Action.Issues_Risks__c.New,null,[
+&apos;CF00NA0000007Acav&apos;=Project__c.Name,
+&apos;CF00NA0000007Acav_lkid&apos;=Project__c.Id,
+&apos;CF00NA0000007AcaR_lkid&apos;=Project__c.ProgramId__c,
+&apos;CF00NA0000007AcaR&apos;=Program__c.Name,
+&apos;cancelURL&apos;=&apos;../&apos;+Project__c.Id])}</url>
+    </webLinks>
+</CustomObject>

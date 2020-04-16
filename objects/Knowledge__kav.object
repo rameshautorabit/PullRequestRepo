@@ -1,0 +1,3866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <articleTypeChannelDisplay>
+        <articleTypeTemplates>
+            <channel>App</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Prm</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Csp</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Pkb</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+    </articleTypeChannelDisplay>
+    <compactLayoutAssignment>FAQ_compact_layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>FAQ_compact_layout</fullName>
+        <fields>Title</fields>
+        <fields>RecordTypeId</fields>
+        <fields>ArticleNumber</fields>
+        <fields>PublishStatus</fields>
+        <fields>VersionNumber</fields>
+        <fields>OwnerId</fields>
+        <label>FAQ_compact_layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fieldSets>
+        <fullName>Advisory_Employee_PDF</fullName>
+        <description>This is used to display preview of Advisory Article as an Employee</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Advisory_Employee_PDF</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Knowledge_Contract_PDF</fullName>
+        <description>The field set is used to display field information for Contract Users for Knowledge Article</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ProblemDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FixResolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OperatingSystem__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EnvironmentInformation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Knowledge_Contract_PDF</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Knowledge_Employee_PDF</fullName>
+        <description>This field set will be used to generate Employee PDF</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ProblemDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FixResolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Internal_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EnvironmentInformation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Troubleshooting__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OperatingSystem__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>VersionNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Knowledge_Employee_PDF</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Notification_Employee_PDF</fullName>
+        <description>This is used to preview Notification Articles as an employee</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Notification Employee_PDF</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>PDFPreviewAdvisoryCustomer</fullName>
+        <description>This fields set contains field information for displaying an Advisory  PDF for Customers</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TypeTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Synopsis__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Situation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Symptoms__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ActionsOrResolutions__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RegardsTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ForInformationTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>VersionNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FirstPublishedDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastPublishedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PublishStatus</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PDFPreviewAdvisoryCustomer</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>PDFPreviewAdvisoryEmployee</fullName>
+        <description>This is used to display preview of Advisory Article as an Employee</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TypeTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Synopsis__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Situation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Symptoms__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ActionsOrResolutions__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ForInformationTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RegardsTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EmployeeOnly__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>VersionNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FirstPublishedDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastPublishedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PublishStatus</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PDFPreviewAdvisoryEmployee</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>PDFPreviewKnowledgeArticleCustomer</fullName>
+        <description>The fieldset is used to display field information for Knowledge Article in PDF for Customers</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ProblemDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FixResolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OperatingSystem__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EnvironmentInformation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>VersionNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FirstPublishedDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastPublishedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PublishStatus</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PDFPreviewKnowledgeArticleCustomer</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>PDFPreviewKnowledgeArticleEmployee</fullName>
+        <description>This field set will be used to generate a Knowledge Article PDF for Employee</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ProblemDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FixResolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Troubleshooting__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OperatingSystem__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EnvironmentInformation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>VersionNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FirstPublishedDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastPublishedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PublishStatus</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PDFPreviewKnowledgeArticleEmployee</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>PDFPreviewNotificationCustomer</fullName>
+        <description>This fieldset is used to generate a PDF for a Notification Article for Customers</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TypeTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Synopsis__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Benefits__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ForInformationTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RegardsTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>VersionNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FirstPublishedDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastPublishedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PublishStatus</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PDFPreviewNotificationCustomer</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>PDFPreviewNotificationEmployee</fullName>
+        <description>This is used to preview Notification Articles as an employee</description>
+        <displayedFields>
+            <field>Title</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UrlName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TypeTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Synopsis__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Benefits__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ForInformationTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RegardsTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EmployeeOnly__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>VersionNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FirstPublishedDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastPublishedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PublishStatus</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PDFPreviewNotificationEmployee</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>VersionComparatorAdvisory</fullName>
+        <description>Version Comparator</description>
+        <displayedFields>
+            <field>Synopsis__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Situation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Symptoms__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ActionsOrResolutions__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EmployeeOnly__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Internal_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>VersionComparatorAdvisory</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>VersionComparatorKnowledgeArticle</fullName>
+        <description>Version Comparator</description>
+        <displayedFields>
+            <field>ProblemDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FixResolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EnvironmentInformation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Troubleshooting__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OperatingSystem__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Internal_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>VersionComparatorKnowledgeArticle</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>VersionComparatorNotification</fullName>
+        <description>User for Version Comparison of Notifications</description>
+        <displayedFields>
+            <field>Synopsis__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Benefits__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RelatedArticle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EmployeeOnly__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Internal_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>VersionComparatorNotification</label>
+    </fieldSets>
+    <fields>
+        <fullName>ActionsOrResolutions__c</fullName>
+        <externalId>false</externalId>
+        <label>Actions or Resolutions</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AdvNotify__c</fullName>
+        <externalId>false</externalId>
+        <label>AdvNotifyLevel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Author</fullName>
+                    <default>true</default>
+                    <label>Author</label>
+                </value>
+                <value>
+                    <fullName>Technical Reviewer</fullName>
+                    <default>false</default>
+                    <label>Technical Reviewer</label>
+                </value>
+                <value>
+                    <fullName>KCS Reviewer</fullName>
+                    <default>false</default>
+                    <label>KCS Reviewer</label>
+                </value>
+                <value>
+                    <fullName>Management Reviewer</fullName>
+                    <default>false</default>
+                    <label>Management Reviewer</label>
+                </value>
+                <value>
+                    <fullName>Upper Management Reviewer</fullName>
+                    <default>false</default>
+                    <label>Upper Management Reviewer</label>
+                </value>
+                <value>
+                    <fullName>Publisher</fullName>
+                    <default>false</default>
+                    <label>Publisher</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Safety Reviewer</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Safety Reviewer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Advisory__c</fullName>
+        <externalId>false</externalId>
+        <label>ADV Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Answer__c</fullName>
+        <externalId>false</externalId>
+        <label>Answer</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ApprovalRoutingProductFamily__c</fullName>
+        <description>Product Family for Approval Routing</description>
+        <externalId>false</externalId>
+        <label>Approval Workflow</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>ApprovalRoutingProductFamily</valueSetName>
+        </valueSet>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ApprovalStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Published</fullName>
+                    <default>false</default>
+                    <label>Published</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ApproverUser__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Approver User</description>
+        <externalId>false</externalId>
+        <label>Approver User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Knowledge</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AttachmentVisibility__c</fullName>
+        <externalId>false</externalId>
+        <label>Attachment Visibility</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AllUsers</fullName>
+                    <default>false</default>
+                    <label>AllUsers</label>
+                </value>
+                <value>
+                    <fullName>InternalUsers</fullName>
+                    <default>false</default>
+                    <label>InternalUsers</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BatchNumber__c</fullName>
+        <description>Batch Number field is used for Article Migration</description>
+        <externalId>false</externalId>
+        <label>Batch Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Benefits__c</fullName>
+        <externalId>false</externalId>
+        <label>Benefits</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Channel__c</fullName>
+        <externalId>false</externalId>
+        <formula>RecordType.Name</formula>
+        <label>Channel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Days_in_WF_step__c</fullName>
+        <externalId>false</externalId>
+        <formula>now()- TECH_StepEntryDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days in WF step</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocID__c</fullName>
+        <description>Document Id Technical Field to store the DocId from existing application during migrations</description>
+        <externalId>false</externalId>
+        <label>Doc ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmployeeOnly__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Only</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EnvironmentInformation__c</fullName>
+        <externalId>false</externalId>
+        <label>Supporting Information</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FaqSolLevel__c</fullName>
+        <externalId>false</externalId>
+        <label>FaqSolLevel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Author</fullName>
+                    <default>true</default>
+                    <label>Author</label>
+                </value>
+                <value>
+                    <fullName>Technical Reviewer</fullName>
+                    <default>false</default>
+                    <label>Technical Reviewer</label>
+                </value>
+                <value>
+                    <fullName>KCS Reviewer</fullName>
+                    <default>false</default>
+                    <label>KCS Reviewer</label>
+                </value>
+                <value>
+                    <fullName>Publisher</fullName>
+                    <default>false</default>
+                    <label>Publisher</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FirstPublishedDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( OR( PACreatedDate__c &gt; DATEVALUE( FirstPublishedDate), ISBLANK(PACreatedDate__c)),DATEVALUE(FirstPublishedDate), PACreatedDate__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>First Published Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FixResolution__c</fullName>
+        <externalId>false</externalId>
+        <label>Response</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ForInformationTemplate__c</fullName>
+        <description>Template to be displayed based on the For Information Field</description>
+        <externalId>false</externalId>
+        <label>For Information:</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ForInformation__c</fullName>
+        <externalId>false</externalId>
+        <label>For information</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>{ForInformation}</fullName>
+                    <default>true</default>
+                    <label>{ForInformation}</label>
+                </value>
+                <value>
+                    <fullName>{FORINFORMATION.EN}</fullName>
+                    <default>false</default>
+                    <label>{FORINFORMATION.EN}</label>
+                </value>
+                <value>
+                    <fullName>{FORINFORMATION.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{FORINFORMATION.EN_US}</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Internal_Comments__c</fullName>
+        <description>For BFO-KNO-106 : As a back end user, I want the ability to enter internal comments on an article</description>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>LegalReviewerNeeded__c</fullName>
+        <externalId>false</externalId>
+        <label>Legal Reviewer needed ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Notification__c</fullName>
+        <externalId>false</externalId>
+        <label>NOT Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OperatingSystem__c</fullName>
+        <externalId>false</externalId>
+        <label>Operating System</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>DOS</fullName>
+                    <default>false</default>
+                    <label>DOS</label>
+                </value>
+                <value>
+                    <fullName>Solaris 10.0</fullName>
+                    <default>false</default>
+                    <label>Solaris 10.0</label>
+                </value>
+                <value>
+                    <fullName>Solaris 2.5.1</fullName>
+                    <default>false</default>
+                    <label>Solaris 2.5.1</label>
+                </value>
+                <value>
+                    <fullName>Solaris 8.0</fullName>
+                    <default>false</default>
+                    <label>Solaris 8.0</label>
+                </value>
+                <value>
+                    <fullName>Unix</fullName>
+                    <default>false</default>
+                    <label>Unix</label>
+                </value>
+                <value>
+                    <fullName>Venix</fullName>
+                    <default>false</default>
+                    <label>Venix</label>
+                </value>
+                <value>
+                    <fullName>Windows 10</fullName>
+                    <default>false</default>
+                    <label>Windows 10</label>
+                </value>
+                <value>
+                    <fullName>Windows 2000</fullName>
+                    <default>false</default>
+                    <label>Windows 2000</label>
+                </value>
+                <value>
+                    <fullName>Windows 7</fullName>
+                    <default>false</default>
+                    <label>Windows 7</label>
+                </value>
+                <value>
+                    <fullName>Windows 95/98</fullName>
+                    <default>false</default>
+                    <label>Windows 95/98</label>
+                </value>
+                <value>
+                    <fullName>Windows NT</fullName>
+                    <default>false</default>
+                    <label>Windows NT</label>
+                </value>
+                <value>
+                    <fullName>Windows NT Terminal Server</fullName>
+                    <default>false</default>
+                    <label>Windows NT Terminal Server</label>
+                </value>
+                <value>
+                    <fullName>Windows Server 2003</fullName>
+                    <default>false</default>
+                    <label>Windows Server 2003</label>
+                </value>
+                <value>
+                    <fullName>Windows Server 2008</fullName>
+                    <default>false</default>
+                    <label>Windows Server 2008</label>
+                </value>
+                <value>
+                    <fullName>Windows Server 2012</fullName>
+                    <default>false</default>
+                    <label>Windows Server 2012</label>
+                </value>
+                <value>
+                    <fullName>Windows Server 2016</fullName>
+                    <default>false</default>
+                    <label>Windows Server 2016</label>
+                </value>
+                <value>
+                    <fullName>Windows XP</fullName>
+                    <default>false</default>
+                    <label>Windows XP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAArticleNumber__c</fullName>
+        <description>Article Number of the Article in the PA System</description>
+        <externalId>false</externalId>
+        <label>OKM Doc Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAAuthor__c</fullName>
+        <description>Author of Article in the PA System</description>
+        <externalId>false</externalId>
+        <label>PA Author</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PACreatedDate__c</fullName>
+        <description>Date when the Article was first created or published in the PA system</description>
+        <externalId>false</externalId>
+        <label>PA Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PALastPublishDate__c</fullName>
+        <description>Date when the Article was last published in the PA System</description>
+        <externalId>false</externalId>
+        <label>PA Last Publish Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PAOwner__c</fullName>
+        <description>Owner of  the Knowledge Article in the PA Application</description>
+        <externalId>false</externalId>
+        <label>PA Owner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAVersion__c</fullName>
+        <description>Version of the last Published document in the PA System</description>
+        <externalId>false</externalId>
+        <label>PA Version</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProblemDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ProductCount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Product Count for this Knowledge Article</description>
+        <externalId>false</externalId>
+        <label>Product Count</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <description>Product information coming from solutions. This might be replaced by a lookup later.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Product information as seen in picklists.</inlineHelpText>
+        <label>Product</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>_Don&apos;t Know</fullName>
+                    <default>false</default>
+                    <label>_Don&apos;t Know</label>
+                </value>
+                <value>
+                    <fullName>Accessories, Discountinued</fullName>
+                    <default>false</default>
+                    <label>Accessories, Discountinued</label>
+                </value>
+                <value>
+                    <fullName>Accessories - IPC</fullName>
+                    <default>false</default>
+                    <label>Accessories - IPC</label>
+                </value>
+                <value>
+                    <fullName>Digital Quick Designer Registration</fullName>
+                    <default>false</default>
+                    <label>Digital Quick Designer Registration</label>
+                </value>
+                <value>
+                    <fullName>Indusoft Web Studio</fullName>
+                    <default>false</default>
+                    <label>Indusoft Web Studio</label>
+                </value>
+                <value>
+                    <fullName>Industrial Monitor</fullName>
+                    <default>false</default>
+                    <label>Industrial Monitor</label>
+                </value>
+                <value>
+                    <fullName>Industrial Monitor, Discontinued</fullName>
+                    <default>false</default>
+                    <label>Industrial Monitor, Discontinued</label>
+                </value>
+                <value>
+                    <fullName>Industrial PC</fullName>
+                    <default>false</default>
+                    <label>Industrial PC</label>
+                </value>
+                <value>
+                    <fullName>Industrial PC, Discontinued</fullName>
+                    <default>false</default>
+                    <label>Industrial PC, Discontinued</label>
+                </value>
+                <value>
+                    <fullName>OIL / Terminal Emulation</fullName>
+                    <default>false</default>
+                    <label>OIL / Terminal Emulation</label>
+                </value>
+                <value>
+                    <fullName>OpenClient</fullName>
+                    <default>false</default>
+                    <label>OpenClient</label>
+                </value>
+                <value>
+                    <fullName>OpenCNTRL</fullName>
+                    <default>false</default>
+                    <label>OpenCNTRL</label>
+                </value>
+                <value>
+                    <fullName>OpenHMI</fullName>
+                    <default>false</default>
+                    <label>OpenHMI</label>
+                </value>
+                <value>
+                    <fullName>OpenHMIAny DesignStudio</fullName>
+                    <default>false</default>
+                    <label>OpenHMIAny DesignStudio</label>
+                </value>
+                <value>
+                    <fullName>OpenHMI EE, DesignStudio</fullName>
+                    <default>false</default>
+                    <label>OpenHMI EE, DesignStudio</label>
+                </value>
+                <value>
+                    <fullName>OpenHMI PE, DesignStudio</fullName>
+                    <default>false</default>
+                    <label>OpenHMI PE, DesignStudio</label>
+                </value>
+                <value>
+                    <fullName>OpenHMI SE, DesignStudio</fullName>
+                    <default>false</default>
+                    <label>OpenHMI SE, DesignStudio</label>
+                </value>
+                <value>
+                    <fullName>OpenHMI WW, Wonderware</fullName>
+                    <default>false</default>
+                    <label>OpenHMI WW, Wonderware</label>
+                </value>
+                <value>
+                    <fullName>Panel Station</fullName>
+                    <default>false</default>
+                    <label>Panel Station</label>
+                </value>
+                <value>
+                    <fullName>Proface Accessories</fullName>
+                    <default>false</default>
+                    <label>Proface Accessories</label>
+                </value>
+                <value>
+                    <fullName>Proface AGP</fullName>
+                    <default>false</default>
+                    <label>Proface AGP</label>
+                </value>
+                <value>
+                    <fullName>Proface GLC</fullName>
+                    <default>false</default>
+                    <label>Proface GLC</label>
+                </value>
+                <value>
+                    <fullName>Proface GP</fullName>
+                    <default>false</default>
+                    <label>Proface GP</label>
+                </value>
+                <value>
+                    <fullName>Proface HMI Software</fullName>
+                    <default>false</default>
+                    <label>Proface HMI Software</label>
+                </value>
+                <value>
+                    <fullName>Proface IPC</fullName>
+                    <default>false</default>
+                    <label>Proface IPC</label>
+                </value>
+                <value>
+                    <fullName>Proface Logitouch</fullName>
+                    <default>false</default>
+                    <label>Proface Logitouch</label>
+                </value>
+                <value>
+                    <fullName>Proface LT</fullName>
+                    <default>false</default>
+                    <label>Proface LT</label>
+                </value>
+                <value>
+                    <fullName>Proface PSG Series</fullName>
+                    <default>false</default>
+                    <label>Proface PSG Series</label>
+                </value>
+                <value>
+                    <fullName>Proface SP5000</fullName>
+                    <default>false</default>
+                    <label>Proface SP5000</label>
+                </value>
+                <value>
+                    <fullName>Proface ST</fullName>
+                    <default>false</default>
+                    <label>Proface ST</label>
+                </value>
+                <value>
+                    <fullName>Softscreen for DOS</fullName>
+                    <default>false</default>
+                    <label>Softscreen for DOS</label>
+                </value>
+                <value>
+                    <fullName>Softscreen for Windows</fullName>
+                    <default>false</default>
+                    <label>Softscreen for Windows</label>
+                </value>
+                <value>
+                    <fullName>Training Requests</fullName>
+                    <default>false</default>
+                    <label>Training Requests</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <description>Question for FAQ</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Question for FAQ</inlineHelpText>
+        <label>Question</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RecordLink__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(Left($Api.Enterprise_Server_URL_190,(find(&apos;/services&apos;,$Api.Enterprise_Server_URL_190)))+ &apos;lightning/r/Knowledge__kav/&apos; + Id + &apos;/view&apos;, &apos;Article Link&apos; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Record Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecordTypeName__c</fullName>
+        <description>Record Type Name of the Knowledge Article</description>
+        <externalId>false</externalId>
+        <formula>RecordType.DeveloperName</formula>
+        <label>Record Type Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RegardsTemplate__c</fullName>
+        <description>Template that will be displayed to user based on Regards field</description>
+        <externalId>false</externalId>
+        <label>Regards:</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Regards__c</fullName>
+        <externalId>false</externalId>
+        <label>Regards,</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>{JohnPetty}</fullName>
+                    <default>true</default>
+                    <label>{JohnPetty}</label>
+                </value>
+                <value>
+                    <fullName>{JeffEisenbach}</fullName>
+                    <default>false</default>
+                    <label>{JeffEisenbach}</label>
+                </value>
+                <value>
+                    <fullName>{RicardoCortejoso}</fullName>
+                    <default>false</default>
+                    <label>{RicardoCortejoso}</label>
+                </value>
+                <value>
+                    <fullName>{RICARDOCORTEJOSO.EN}</fullName>
+                    <default>false</default>
+                    <label>{RICARDOCORTEJOSO.EN}</label>
+                </value>
+                <value>
+                    <fullName>{JOHNPETTY.EN}</fullName>
+                    <default>false</default>
+                    <label>{JOHNPETTY.EN}</label>
+                </value>
+                <value>
+                    <fullName>{JOHNPETTY.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{JOHNPETTY.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{JEFFEISENBACH.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{JEFFEISENBACH.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{CHRISSMITH.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{CHRISSMITH.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{DONALDCRUSE.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{DONALDCRUSE.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{CHRISSTOGNER.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{CHRISSTOGNER.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{MANOJCHANDRASEKHARAN.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{MANOJCHANDRASEKHARAN.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{ALAINGINGUENE.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{ALAINGINGUENE.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{TINAVOLKRINGER.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{TINAVOLKRINGER.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>Closing</fullName>
+                    <default>false</default>
+                    <label>Closing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RelatedArticle__c</fullName>
+        <externalId>false</externalId>
+        <label>Related Article</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ReviewDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Review Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>RichSummary__c</fullName>
+        <description>Rich summary Field if the summary field doesnt support rich text.</description>
+        <externalId>false</externalId>
+        <label>Rich Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Rich_Summary__c</fullName>
+        <description>Rich summary Field if the summary field doesnt support rich text.</description>
+        <externalId>false</externalId>
+        <label>Rich Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RightNow_Category__c</fullName>
+        <description>Right now category would be easier to manage categories without managing data categories at this moment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Right now category would be easier to manage categories without managing data categories at this moment.</inlineHelpText>
+        <label>RightNow Category</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SafetyReview__c</fullName>
+        <description>Safety Review Comments</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comments For Safety Review</inlineHelpText>
+        <label>Safety Review</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SafetyReviewerNeeded__c</fullName>
+        <externalId>false</externalId>
+        <label>Safety Reviewer Needed ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SecondaryApprover__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Secondary Approver for Approval process. used only in the approval process to Assign to the secondary Approver</description>
+        <externalId>false</externalId>
+        <label>Secondary Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Knowledge1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Situation__c</fullName>
+        <externalId>false</externalId>
+        <label>Situation</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SupportingInformation__c</fullName>
+        <externalId>false</externalId>
+        <label>Supporting Information</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Symptoms__c</fullName>
+        <externalId>false</externalId>
+        <label>Symptoms</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Synopsis__c</fullName>
+        <externalId>false</externalId>
+        <label>Synopsis</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TECH_InitialEntryDate__c</fullName>
+        <description>Technical field to capture the entry date in the approval process</description>
+        <externalId>false</externalId>
+        <label>Initial_EntryDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TECH_StepEntryDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Step_EntryDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TECH_TotalDaysInWF__c</fullName>
+        <externalId>false</externalId>
+        <formula>now()- TECH_InitialEntryDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total days in WF (in progress)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_TotalDaysWF__c</fullName>
+        <externalId>false</externalId>
+        <label>Total days in WF</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_WFStepName__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( (CONTAINS(RecordType.Name, &quot;FAQ&quot;)  || CONTAINS(RecordType.Name, &quot;SOLUTION&quot;)),text(FaqSolLevel__c),text(AdvNotify__c)  )</formula>
+        <label>WF Step Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_workflowname__c</fullName>
+        <description>Technical field used to register the name of the approval process in progress</description>
+        <externalId>false</externalId>
+        <label>WF Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_Step__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Step</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_Steps__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_Steps</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tech_SubmitforApproval__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_SubmitforApproval</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tech__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_ApprovalFlag</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>First Reject</fullName>
+                    <default>false</default>
+                    <label>First Reject</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Time_in_WF__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( ispickval(ValidationStatus ,&quot;Validated&quot;), TECH_TotalDaysWF__c , TECH_TotalDaysInWF__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Time in WF</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Troubleshooting__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Only</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TypeTemplate__c</fullName>
+        <description>Template to be displayed for the Type field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Template to be displayed for the Type field</inlineHelpText>
+        <label>Type:</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>{CustomerAdvisory}</fullName>
+                    <default>false</default>
+                    <label>{CustomerAdvisory}</label>
+                </value>
+                <value>
+                    <fullName>{SafetyAdvisory}</fullName>
+                    <default>false</default>
+                    <label>{SafetyAdvisory}</label>
+                </value>
+                <value>
+                    <fullName>{ServiceAdvisory}</fullName>
+                    <default>false</default>
+                    <label>{ServiceAdvisory}</label>
+                </value>
+                <value>
+                    <fullName>{SecurityAdvisory}</fullName>
+                    <default>false</default>
+                    <label>{SecurityAdvisory}</label>
+                </value>
+                <value>
+                    <fullName>{CustomerNotification}</fullName>
+                    <default>false</default>
+                    <label>{CustomerNotification}</label>
+                </value>
+                <value>
+                    <fullName>{SecurityNotification}</fullName>
+                    <default>false</default>
+                    <label>{SecurityNotification}</label>
+                </value>
+                <value>
+                    <fullName>{ServiceNotification}</fullName>
+                    <default>false</default>
+                    <label>{ServiceNotification}</label>
+                </value>
+                <value>
+                    <fullName>{CUSTOMERNOTIFICATION.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{CUSTOMERNOTIFICATION.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{CUSTOMERNOTIFICATION.EN}</fullName>
+                    <default>false</default>
+                    <label>{CUSTOMERNOTIFICATION.EN}</label>
+                </value>
+                <value>
+                    <fullName>{SERVICENOTIFICATION.EN}</fullName>
+                    <default>false</default>
+                    <label>{SERVICENOTIFICATION.EN}</label>
+                </value>
+                <value>
+                    <fullName>{SERVICENOTIFICATION.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{SERVICENOTIFICATION.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{CUSTOMERADVISORY.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{CUSTOMERADVISORY.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{CUSTOMERADVISORY.EN}</fullName>
+                    <default>false</default>
+                    <label>{CUSTOMERADVISORY.EN}</label>
+                </value>
+                <value>
+                    <fullName>{SAFETYADVISORY.EN}</fullName>
+                    <default>false</default>
+                    <label>{SAFETYADVISORY.EN}</label>
+                </value>
+                <value>
+                    <fullName>{SERVICEADVISORY.EN}</fullName>
+                    <default>false</default>
+                    <label>{SERVICEADVISORY.EN}</label>
+                </value>
+                <value>
+                    <fullName>{SAFETYADVISORY.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{SAFETYADVISORY.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>{SERVICEADVISORY.EN_US}</fullName>
+                    <default>false</default>
+                    <label>{SERVICEADVISORY.EN_US}</label>
+                </value>
+                <value>
+                    <fullName>CCA Offer Safety Alert</fullName>
+                    <default>false</default>
+                    <label>CCA Offer Safety Alert</label>
+                </value>
+                <value>
+                    <fullName>CCA Priority Customer Alert</fullName>
+                    <default>false</default>
+                    <label>CCA Priority Customer Alert</label>
+                </value>
+                <value>
+                    <fullName>CCA Support and Services Alert</fullName>
+                    <default>false</default>
+                    <label>CCA Support and Services Alert</label>
+                </value>
+                <value>
+                    <fullName>CCA Support and Services Alert Internal Only</fullName>
+                    <default>false</default>
+                    <label>CCA Support and Services Alert Internal Only</label>
+                </value>
+                <value>
+                    <fullName>CCN Customer Notification</fullName>
+                    <default>false</default>
+                    <label>CCN Customer Notification</label>
+                </value>
+                <value>
+                    <fullName>CCN Support and Services Notification</fullName>
+                    <default>false</default>
+                    <label>CCN Support and Services Notification</label>
+                </value>
+                <value>
+                    <fullName>CCN Support and Services Notification Internal Only</fullName>
+                    <default>false</default>
+                    <label>CCN Support and Services Notification Internal Only</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>test_ext_email__c</fullName>
+        <externalId>false</externalId>
+        <label>test ext email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <label>Knowledge</label>
+    <listViews>
+        <fullName>Advisories</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.Advisory</value>
+        </filters>
+        <label>01_Advisories</label>
+    </listViews>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>TITLE</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.Advisory,Knowledge__kav.KnowledgeArticle,Knowledge__kav.Notification</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Notifications</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.Notification</value>
+        </filters>
+        <label>03_Notifications</label>
+    </listViews>
+    <listViews>
+        <fullName>PA_Draft_Articles</fullName>
+        <columns>RECORDTYPE</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>OWNER_ID</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <columns>ApprovalRoutingProductFamily__c</columns>
+        <columns>ASSIGNEDTO_USER</columns>
+        <columns>SecondaryApprover__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>PAArticleNumber__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.Advisory,Knowledge__kav.KnowledgeArticle,Knowledge__kav.Notification</value>
+        </filters>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>PA Draft Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>PA_Published_Knowledge_Articles</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>2</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.KnowledgeArticle</value>
+        </filters>
+        <label>PA Published Knowledge Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>X03_Knowledge_Article</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RecordTypeName__c</field>
+            <operation>equals</operation>
+            <value>Knowledge Article</value>
+        </filters>
+        <label>02_Knowledge_Article</label>
+    </listViews>
+    <listViews>
+        <fullName>archived_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>3</value>
+        </filters>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>equals</operation>
+            <value>en_US</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.Advisory,Knowledge__kav.KnowledgeArticle,Knowledge__kav.Notification</value>
+        </filters>
+        <label>Archived Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>draft_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Draft Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>published_articles</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>2</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.KnowledgeArticle</value>
+        </filters>
+        <label>Published Articles</label>
+    </listViews>
+    <pluralLabel>Knowledge</pluralLabel>
+    <recordTypes>
+        <fullName>Advisory</fullName>
+        <active>true</active>
+        <description>Article that explains, issue affecting some aspect of system operation, describe the observed situation, how to implement a defined workaround, how to obtain the replacement hardware and/or software component.</description>
+        <label>Advisory</label>
+        <picklistValues>
+            <picklist>AdvNotify__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Author</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>KCS Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Management Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upper Management Reviewer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ApprovalRoutingProductFamily__c</picklist>
+            <values>
+                <fullName>Accutech%2C Realflo%2C SCADAPack%2C and TRIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClearSCADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro DCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro Field Devices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro SCADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Advisor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triconex Safety Systems</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ApprovalStatus__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Published</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>AttachmentVisibility__c</picklist>
+            <values>
+                <fullName>AllUsers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>InternalUsers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FaqSolLevel__c</picklist>
+            <values>
+                <fullName>Author</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>KCS Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Reviewer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForInformation__c</picklist>
+            <values>
+                <fullName>%7BForInformation%7D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LegalReviewerNeeded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OperatingSystem__c</picklist>
+            <values>
+                <fullName>DOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 2%2E5%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 2000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 95%2F98</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows NT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows NT Terminal Server</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2003</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2008</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2012</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows XP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>Accessories - IPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accessories%2C Discountinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Quick Designer Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indusoft Web Studio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Monitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Monitor%2C Discontinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial PC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial PC%2C Discontinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OIL %2F Terminal Emulation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenCNTRL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenClient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI EE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI PE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI SE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI WW%2C Wonderware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMIAny DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Panel Station</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface AGP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface GLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface HMI Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface IPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface LT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface Logitouch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface PSG Series</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface SP5000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface ST</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Softscreen for DOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Softscreen for Windows</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Requests</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Don%27t Know</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Regards__c</picklist>
+            <values>
+                <fullName>Closing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SafetyReviewerNeeded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech_Steps__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech_SubmitforApproval__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>First Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>CCA Offer Safety Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCA Priority Customer Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCA Support and Services Alert</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>FAQ</fullName>
+        <active>true</active>
+        <description>Frequently Asked Question.</description>
+        <label>FAQ</label>
+        <picklistValues>
+            <picklist>AdvNotify__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Author</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>KCS Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Management Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upper Management Reviewer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ApprovalRoutingProductFamily__c</picklist>
+            <values>
+                <fullName>Accutech%2C Realflo%2C SCADAPack%2C and TRIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClearSCADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro DCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro Field Devices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro SCADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Advisor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triconex Safety Systems</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ApprovalStatus__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Published</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>AttachmentVisibility__c</picklist>
+            <values>
+                <fullName>AllUsers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>InternalUsers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FaqSolLevel__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Author</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>KCS Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Reviewer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForInformation__c</picklist>
+            <values>
+                <fullName>%7BForInformation%7D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LegalReviewerNeeded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OperatingSystem__c</picklist>
+            <values>
+                <fullName>DOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 2%2E5%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 2000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 95%2F98</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows NT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows NT Terminal Server</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2003</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2008</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2012</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows XP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>Accessories - IPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accessories%2C Discountinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Quick Designer Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indusoft Web Studio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Monitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Monitor%2C Discontinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial PC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial PC%2C Discontinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OIL %2F Terminal Emulation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenCNTRL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenClient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI EE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI PE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI SE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI WW%2C Wonderware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMIAny DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Panel Station</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface AGP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface GLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface HMI Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface IPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface LT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface Logitouch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface PSG Series</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface SP5000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface ST</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Softscreen for DOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Softscreen for Windows</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Requests</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Don%27t Know</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Regards__c</picklist>
+            <values>
+                <fullName>%7BJeffEisenbach%7D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%7BJohnPetty%7D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%7BRicardoCortejoso%7D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SafetyReviewerNeeded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech_Steps__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech_SubmitforApproval__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>First Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>%7BServiceNotification%7D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>KnowledgeArticle</fullName>
+        <active>true</active>
+        <description>Article that has a clear problem description and a resolution for the problem, in most cases this will be technical.</description>
+        <label>Knowledge Article</label>
+        <picklistValues>
+            <picklist>AdvNotify__c</picklist>
+            <values>
+                <fullName>Author</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ApprovalRoutingProductFamily__c</picklist>
+            <values>
+                <fullName>Accutech%2C Realflo%2C SCADAPack%2C and TRIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClearSCADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro DCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro Field Devices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro SCADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Advisor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triconex Safety Systems</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ApprovalStatus__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Published</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>AttachmentVisibility__c</picklist>
+            <values>
+                <fullName>AllUsers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>InternalUsers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FaqSolLevel__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Author</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>KCS Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Reviewer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForInformation__c</picklist>
+            <values>
+                <fullName>%7BForInformation%7D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LegalReviewerNeeded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OperatingSystem__c</picklist>
+            <values>
+                <fullName>DOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 2%2E5%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 2000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 95%2F98</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows NT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows NT Terminal Server</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2003</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2008</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2012</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows XP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>Accessories - IPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accessories%2C Discountinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Quick Designer Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indusoft Web Studio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Monitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Monitor%2C Discontinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial PC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial PC%2C Discontinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OIL %2F Terminal Emulation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenCNTRL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenClient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI EE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI PE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI SE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI WW%2C Wonderware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMIAny DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Panel Station</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface AGP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface GLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface HMI Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface IPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface LT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface Logitouch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface PSG Series</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface SP5000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface ST</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Softscreen for DOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Softscreen for Windows</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Requests</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Don%27t Know</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Regards__c</picklist>
+            <values>
+                <fullName>%7BJeffEisenbach%7D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%7BJohnPetty%7D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%7BRicardoCortejoso%7D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SafetyReviewerNeeded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech_Steps__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech_SubmitforApproval__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>First Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>%7BServiceNotification%7D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Notification</fullName>
+        <active>true</active>
+        <description>Article about, product release information that resolves reported problems, training opportunities, non-technical information.</description>
+        <label>Notification</label>
+        <picklistValues>
+            <picklist>AdvNotify__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Author</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>KCS Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Management Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upper Management Reviewer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ApprovalRoutingProductFamily__c</picklist>
+            <values>
+                <fullName>Accutech%2C Realflo%2C SCADAPack%2C and TRIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ClearSCADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro DCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro Field Devices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foxboro SCADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Advisor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triconex Safety Systems</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ApprovalStatus__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Published</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>AttachmentVisibility__c</picklist>
+            <values>
+                <fullName>AllUsers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>InternalUsers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FaqSolLevel__c</picklist>
+            <values>
+                <fullName>Author</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>KCS Reviewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Reviewer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForInformation__c</picklist>
+            <values>
+                <fullName>%7BForInformation%7D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LegalReviewerNeeded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OperatingSystem__c</picklist>
+            <values>
+                <fullName>DOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 2%2E5%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solaris 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 2000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 95%2F98</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows NT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows NT Terminal Server</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2003</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2008</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Server 2012</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows XP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>Accessories - IPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accessories%2C Discountinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Quick Designer Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indusoft Web Studio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Monitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Monitor%2C Discontinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial PC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial PC%2C Discontinued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OIL %2F Terminal Emulation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenCNTRL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenClient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI EE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI PE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI SE%2C DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMI WW%2C Wonderware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenHMIAny DesignStudio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Panel Station</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface AGP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface GLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface HMI Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface IPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface LT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface Logitouch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface PSG Series</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface SP5000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proface ST</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Softscreen for DOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Softscreen for Windows</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Requests</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Don%27t Know</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Regards__c</picklist>
+            <values>
+                <fullName>Closing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SafetyReviewerNeeded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech_Steps__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech_SubmitforApproval__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tech__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>First Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>CCN Customer Notification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCN Support and Services Notification</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>TITLE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RichSummary__c</customTabListAdditionalFields>
+        <searchFilterFields>TITLE</searchFilterFields>
+        <searchFilterFields>ARTICLE_NUMBER</searchFilterFields>
+        <searchFilterFields>RecordTypeName__c</searchFilterFields>
+        <searchResultsAdditionalFields>TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ARTICLE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>URL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RecordTypeName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_PUBLISHED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PUBLISH_STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <validationRules>
+        <fullName>ProblemDescriptionMandatoryOnknowledge</fullName>
+        <active>true</active>
+        <description>Problem Description is mandatory on Knowledge Article</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), RecordType.Name== &quot;Knowledge Article&quot; &amp;&amp; LEN( ProblemDescription__c) = 0)</errorConditionFormula>
+        <errorMessage>Please Provide a Problem Description</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Safety_Review_valid_for_Safety_Advisory</fullName>
+        <active>true</active>
+        <description>Safety Review can be updated only for Advisory of Type CCA Offer Safety Alert - Record is Edited</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), TEXT(Type__c)&lt;&gt;&quot;CCA Offer Safety Alert&quot; &amp;&amp; (!ISBLANK(SafetyReview__c)))</errorConditionFormula>
+        <errorMessage>Safety Review Field Can Be Updated for CCA Offer Safety Alert Only</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SynopsisMandatoryOnAdvisory</fullName>
+        <active>true</active>
+        <description>Synopsis Field is mandatory on Advisory</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),RecordType.Name== &quot;Advisory&quot; &amp;&amp; LEN( Synopsis__c ) = 0)</errorConditionFormula>
+        <errorMessage>Please Provide a Synopsis to the Advisory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SynopsisMandatoryOnNotification</fullName>
+        <active>true</active>
+        <description>Synopsis field is mandatory on Notification.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),RecordType.Name== &quot;Notification&quot; &amp;&amp; LEN( Synopsis__c ) = 0)</errorConditionFormula>
+        <errorMessage>Please Provide a Synopsis on the Notification.</errorMessage>
+    </validationRules>
+</CustomObject>

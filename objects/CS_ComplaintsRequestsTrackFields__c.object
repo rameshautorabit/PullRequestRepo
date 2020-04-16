@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>I2P-LCR: Dec Release 2013</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CustomFieldAPI__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Field API</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomFieldName__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Field Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_Complaints/Requests Track Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>PRM May 2013 - Contains the mapping between Requirement Catalog Record type and Account and Contact Assigned Requirement record types</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AARRecordTypeID__c</fullName>
+        <description>Account Assigned Requirement&apos;s record type ID</description>
+        <externalId>false</externalId>
+        <label>AAR RecordType ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ASPRRecordTypeID__c</fullName>
+        <description>Account Specialization Requirement record type ids</description>
+        <externalId>false</externalId>
+        <label>ASPRRecordTypeID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CARRecordTypeID__c</fullName>
+        <description>Contact Assigned Requirement&apos;s Record Type ID</description>
+        <externalId>false</externalId>
+        <label>CAR Record Type ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_RequirementRecordType</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>AARRecordTypeID__c</columns>
+        <columns>ASPRRecordTypeID__c</columns>
+        <columns>CARRecordTypeID__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Protected</visibility>
+</CustomObject>

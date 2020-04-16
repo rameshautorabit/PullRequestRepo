@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Activity_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(Work_Details__c=&apos;&apos;,Text(Activity__c ),Text(Work_Details__r.SVMXC__Activity_Type__c) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Activity Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Administrative</fullName>
+                    <default>false</default>
+                    <label>Administrative</label>
+                </value>
+                <value>
+                    <fullName>Meetings</fullName>
+                    <default>false</default>
+                    <label>Meetings</label>
+                </value>
+                <value>
+                    <fullName>QA Feedback</fullName>
+                    <default>false</default>
+                    <label>QA Feedback</label>
+                </value>
+                <value>
+                    <fullName>Special Project</fullName>
+                    <default>false</default>
+                    <label>Special Project</label>
+                </value>
+                <value>
+                    <fullName>Time Off</fullName>
+                    <default>false</default>
+                    <label>Time Off</label>
+                </value>
+                <value>
+                    <fullName>Training - Customer</fullName>
+                    <default>false</default>
+                    <label>Training - Customer</label>
+                </value>
+                <value>
+                    <fullName>Training - Technician</fullName>
+                    <default>false</default>
+                    <label>Training - Technician</label>
+                </value>
+                <value>
+                    <fullName>Travel Time</fullName>
+                    <default>false</default>
+                    <label>Travel Time</label>
+                </value>
+                <value>
+                    <fullName>Work Detail-Labor</fullName>
+                    <default>false</default>
+                    <label>Work Detail-Labor</label>
+                </value>
+                <value>
+                    <fullName>Work Detail-Travel</fullName>
+                    <default>false</default>
+                    <label>Work Detail-Travel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>All_Day_Event_from_Time_Entry_Request__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>All Day Event from Time Entry Request</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Associated_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The customer account associated with this time entry</description>
+        <externalId>false</externalId>
+        <label>Associated Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Time_Entries</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BankTimeInHours__c</fullName>
+        <description>BFOFS-3231 Oct 19</description>
+        <externalId>false</externalId>
+        <label>Bank Time(In Hours)</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Calculated_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>ROUND(Total_Time__c ,2)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Calculated Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>California_Break_Time__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used by tech to document that a reported time entry reflects California break time</description>
+        <externalId>false</externalId>
+        <label>California Break Time</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Create_Event__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Create Event</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Current_Employment_Status__c</fullName>
+        <description>Reflects the technician&apos;s employment status when the time entry record is created.  Populated by workflow if employment status has changed date of change is earlier than today</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reflects the technician&apos;s employment status when the time entry record is created.  Populated by workflow if employment status has changed date of change is earlier than today</inlineHelpText>
+        <label>Current Employment Status</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Time_Counter__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Not(Contains(Text( Activity__c ),&apos;Travel&apos;)), 1 ,0)</formula>
+        <label>Customer Time Counter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Not(Contains(Text( Activity__c ),&apos;Travel&apos;)), Total_Time__c ,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Day_of_Week__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( 
+MOD(DATEVALUE( Start_Date_Time__c ) - DATE(1900, 1, 7), 7), 
+0, &quot;Sunday&quot;, 
+1, &quot;Monday&quot;, 
+2, &quot;Tuesday&quot;, 
+3, &quot;Wednesday&quot;, 
+4, &quot;Thursday&quot;, 
+5, &quot;Friday&quot;, 
+6, &quot;Saturday&quot;, &quot;Unknown&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Day of Week</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Day_of_the_Week_FSR__c</fullName>
+        <description>This field is set via the SVMXC_TimeEntryBefore class. It sets the day of the week to be that of the related Technicians timezone.</description>
+        <externalId>false</externalId>
+        <label>Day of the Week FSR</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Work_Details__c), Time_Entry_Request__r.Name + &apos; - &apos; + TEXT( Time_Entry_Request__r.Activity__c ), Work_Details__r.SVMXC__Service_Order__r.Name + &apos; - &apos; + TEXT(Work_Details__r.SVMXC__Service_Order__r.SVMXC__Order_Type__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Download_to_iPad__c</fullName>
+        <externalId>false</externalId>
+        <formula>If (CONTAINS( Related_User__c , $User.Id ), 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Download to iPad</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Date_Search__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text( End_Date_Time__c )</formula>
+        <label>End Date (Search)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date/Time</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FSREmployeeID__c</fullName>
+        <description>FSR Employee ID from the User record (via the Technician Record)</description>
+        <externalId>false</externalId>
+        <formula>Technician__r.SVMXC__Salesforce_User__r.FSREmployeeID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FSR Employee ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSR_Hour_type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Work_Details__r.HourType__c)</formula>
+        <label>FSR Hour type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FixedValue1__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;FH&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FixedValue1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FixedValue2__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;1&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FixedValue2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FixedValue3__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;2002&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FixedValue3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FixedValue4__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;9902&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FixedValue4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Friday__c</fullName>
+        <externalId>false</externalId>
+        <label>Friday</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Include_in_Search__c</fullName>
+        <externalId>false</externalId>
+        <formula>if((Download_to_iPad__c = 1 &amp;&amp;  Start_Date_Time__c &gt;= datetimevalue(TODAY() - 28)), 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Include in Search</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Billable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Boolean indicating if a time entry is billable or not</description>
+        <externalId>false</externalId>
+        <label>Is Billable?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Labor_Rate__c</fullName>
+        <defaultValue>15.00</defaultValue>
+        <description>Average labor rate for reactive service calls</description>
+        <externalId>false</externalId>
+        <label>Labor Rate</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Last_Approval_Date__c</fullName>
+        <description>BFOFS-831</description>
+        <externalId>false</externalId>
+        <label>Last Approval Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_Approved_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>BFOFS-831</description>
+        <externalId>false</externalId>
+        <label>Last Approved By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Time_Entries</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Mileage_Cost__c</fullName>
+        <externalId>false</externalId>
+        <formula>Miles_Driven__c * Mileage_Rate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mileage Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mileage_Rate__c</fullName>
+        <defaultValue>0.45</defaultValue>
+        <externalId>false</externalId>
+        <label>Mileage Rate</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Miles_Driven__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Entry for miles driven during the course of service or non-service related work time</description>
+        <externalId>false</externalId>
+        <label>Miles Driven</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Miles_Reported__c</fullName>
+        <externalId>false</externalId>
+        <formula>Round( Miles_Driven__c,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Miles Reported</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Monday__c</fullName>
+        <externalId>false</externalId>
+        <label>Monday</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Month_Driven__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR( DATEVALUE( Start_Date_Time__c ))) &amp; if( LEN(TEXT(Month(DATEVALUE(Start_Date_Time__c )))) =1,&quot;0&quot;&amp; Text(Month(DATEVALUE(Start_Date_Time__c ))),Text(Month(DATEVALUE(Start_Date_Time__c ))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Month Driven</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Only_For_Working_Hours__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Only For Working Hours</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Payroll_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(YEAR( DATEVALUE(End_Date_Time__c) )) &amp; if(len(text(Month(datevalue(End_Date_Time__c))))=1,&quot;0&quot; &amp; text(Month(datevalue(End_Date_Time__c))),text(Month(datevalue(End_Date_Time__c))))&amp;
+if(len(text(Day(datevalue(End_Date_Time__c))))=1,&quot;0&quot;&amp; text(Day(datevalue(End_Date_Time__c))),text(Day(datevalue(End_Date_Time__c))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payroll_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(YEAR( DATEVALUE(Start_Date_Time__c) )) &amp; if(len(text(Month(datevalue(Start_Date_Time__c))))=1,&quot;0&quot; &amp; text(Month(datevalue(Start_Date_Time__c))),text(Month(datevalue(Start_Date_Time__c))))&amp;
+if(len(text(Day(datevalue(Start_Date_Time__c))))=1,&quot;0&quot;&amp; text(Day(datevalue(Start_Date_Time__c))),text(Day(datevalue(Start_Date_Time__c))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Account__c</fullName>
+        <description>Renders the account associated with the time entry as a hyperlink</description>
+        <externalId>false</externalId>
+        <formula>IF( Work_Details__c =&quot;&quot;,
+
+    IF(Associated_Account__c =&quot;&quot;,
+
+          HYPERLINK(&quot;%2F0016000000mq97X&quot;,&quot;*Not Customer Specific&quot;),
+
+          HYPERLINK(&quot;%2F&quot;&amp;Associated_Account__c ,  Associated_Account__r.Name)),
+
+		HYPERLINK(&quot;%2F&quot;&amp; Work_Details__r.SVMXC__Service_Order__r.SVMXC__Company__c,Work_Details__r.SVMXC__Service_Order__r.SVMXC__Company__r.Name))</formula>
+        <label>Related Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_User__c</fullName>
+        <externalId>false</externalId>
+        <formula>Technician__r.SVMXC__Salesforce_User__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Related User</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC_Warnings__c</fullName>
+        <externalId>false</externalId>
+        <label>Warnings</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Saturday__c</fullName>
+        <externalId>false</externalId>
+        <label>Saturday</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Select__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Select</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Set_All_Day__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Set All Day</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>StartDateTimeAtFSRTimeZone__c</fullName>
+        <description>Start date/time of the Time Entry in the time zone of the user record associated with the FSR. Note, the time zone taken into account is the user&apos;s time zone (salesforce.com user) at creation and when start date/time is changed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Start date/time of the Time Entry in the time zone of the user record associated with the FSR. Note, the time zone taken into account is the user&apos;s time zone (salesforce.com user) at creation and when start date/time is changed.</inlineHelpText>
+        <label>Start 	 Date/time at FSR time zone</label>
+        <length>19</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Search__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(Start_Date_Time__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Date (Search)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date/Time</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Sunday__c</fullName>
+        <externalId>false</externalId>
+        <label>Sunday</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_isTimeEntryValid__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+ AND(LastModifiedDate &gt;  Timesheet__r.LastModifiedDate, ISPICKVAL(Timesheet__r.Status__c , &apos;Approved&apos;)),
+ False,
+ True
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH_isTimeEntryValid</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TechEmpStatus_CurrentValue__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(Technician__r.Employment_Status__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TechEmpStatus-CurrentValue</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Technician_Manager__c</fullName>
+        <externalId>false</externalId>
+        <formula>Technician__r.Technician_Manager__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Technician Manager</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Technician__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Technician</label>
+        <referenceTo>SVMXC__Service_Group_Members__c</referenceTo>
+        <relationshipName>Time_Entries</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Thursday__c</fullName>
+        <externalId>false</externalId>
+        <label>Thursday</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Time_Entry_Request__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Time Entry Request</label>
+        <referenceTo>SVMXC_Time_Entry_Request__c</referenceTo>
+        <relationshipName>Time_Entries</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Timesheet__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Timesheet</label>
+        <referenceTo>SVMXC_Timesheet__c</referenceTo>
+        <relationshipName>Time_Entries</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Total_Time__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Total Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Travel_Rate__c</fullName>
+        <externalId>false</externalId>
+        <formula>Miles_Driven__c /Total_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Travel Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Travel_Time_Counter__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Contains(Text( Activity__c ),&apos;Travel&apos;), 1 ,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Travel Time Counter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Travel_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( contains(TEXT(Activity__c),&apos;Travel&apos;), Total_Time__c ,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Travel Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tuesday__c</fullName>
+        <externalId>false</externalId>
+        <label>Tuesday</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Wednesday__c</fullName>
+        <externalId>false</externalId>
+        <label>Wednesday</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_Details__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Details</label>
+        <referenceTo>SVMXC__Service_Order_Line__c</referenceTo>
+        <relationshipName>Time_Entries</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Work_Order_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>If (Begins(TEXT(Activity__c),&quot;Work Detail&quot;), Work_Details__r.SVMXC__Service_Order__r.Name, &quot;N/A&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Work Order Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_Order_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Work_Details__r.SVMXC__Service_Order__r.SVMXC__Order_Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Work Order Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Time Entries</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Comments__c</columns>
+        <columns>Timesheet__c</columns>
+        <columns>Related_Account__c</columns>
+        <columns>Activity__c</columns>
+        <columns>Technician__c</columns>
+        <columns>Start_Date_Time__c</columns>
+        <columns>End_Date_Time__c</columns>
+        <columns>Total_Time__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>TE-{0000000000}</displayFormat>
+        <label>Time Entry Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Time Entries</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Activity__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Related_Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Start_Date_Time__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>End_Date_Time__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Miles_Driven__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Is_Billable__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Time__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Timesheet__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Activity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Related_Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Work_Details__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Start_Date_Time__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>End_Date_Time__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Miles_Driven__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Timesheet__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total_Time__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Activity__c</searchFilterFields>
+        <searchFilterFields>Related_Account__c</searchFilterFields>
+        <searchFilterFields>Work_Details__c</searchFilterFields>
+        <searchFilterFields>Start_Date_Time__c</searchFilterFields>
+        <searchFilterFields>End_Date_Time__c</searchFilterFields>
+        <searchFilterFields>Miles_Driven__c</searchFilterFields>
+        <searchFilterFields>Total_Time__c</searchFilterFields>
+        <searchResultsAdditionalFields>Activity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Technician__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Related_Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Start_Date_Time__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>End_Date_Time__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Time__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>SVMX_Ensure_Start_Time_Before_End_Time</fullName>
+        <active>true</active>
+        <description>Prevent negative entries on time entries by ensuring that start time is before end time</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),End_Date_Time__c &lt;= Start_Date_Time__c, ISNULL(Time_Entry_Request__c))</errorConditionFormula>
+        <errorDisplayField>Activity__c</errorDisplayField>
+        <errorMessage>Your start date and time must be earlier than your end date and time</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SVMX_NonTravel_Time_Include_Miles_Driven</fullName>
+        <active>true</active>
+        <description>Ensure that if Activity Type is not Travel Time that Miles Driven may not have a value</description>
+        <errorConditionFormula>AND(
+NOT($User.BypassVR__c),
+Not(contains(text(Activity__c),&quot;Travel&quot; )) &amp;&amp;  (Miles_Driven__c &gt;0))</errorConditionFormula>
+        <errorDisplayField>Activity__c</errorDisplayField>
+        <errorMessage>Miles driven must be entered using the Travel Time activity type</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

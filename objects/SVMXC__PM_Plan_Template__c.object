@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>OBJ_New_PMPlan_Template</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PM_plan_template_compact_layout</fullName>
+        <fields>Name</fields>
+        <fields>SVMXC__Status__c</fields>
+        <fields>SVMXC__Coverage_Type__c</fields>
+        <label>PM plan template compact layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This is a template for creating preventive maintenance plan, it has definitions for products, schedules and tasks that are needs to be performed as part of Preventive Maintenance.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Count_of_Recurring_Schedule__c</fullName>
+        <externalId>false</externalId>
+        <label>Count of Recurring Schedule</label>
+        <summaryFilterItems>
+            <field>SVMXC__PM_Schedule_Template__c.SVMXC__Recurring__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>SVMXC__PM_Schedule_Template__c.SVMXC__PM_Plan_Template__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>PM_Plan_Template_External__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>PM Plan Template External</description>
+        <externalId>true</externalId>
+        <label>PM_Plan_Template_External</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Coverage_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Coverage Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product (Must Have IB)</fullName>
+                    <default>false</default>
+                    <label>Product (Must Have IB)</label>
+                </value>
+                <value>
+                    <fullName>Location (Must Have Location)</fullName>
+                    <default>false</default>
+                    <label>Location (Must Have Location)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SVMXC__IB_Criteria__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Installed Product Criteria</label>
+        <referenceTo>SVMXC__ServiceMax_Processes__c</referenceTo>
+        <relationshipLabel>PM Plan Templates</relationshipLabel>
+        <relationshipName>PM_Plan_Templates</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Location_Criteria__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Location Criteria</label>
+        <referenceTo>SVMXC__ServiceMax_Processes__c</referenceTo>
+        <relationshipLabel>PM Plan Templates (Location Criteria)</relationshipLabel>
+        <relationshipName>PM_Plan_Templates1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Activity_Date_To_Be_Considered__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field value will be applicable only if the PM plan is configured with one per product. It defines whether activity of first or last work order to be considered for next scheduled date calculation.</description>
+        <externalId>false</externalId>
+        <label>Activity Work Order</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>First Activity</fullName>
+                    <default>false</default>
+                    <label>First Activity</label>
+                </value>
+                <value>
+                    <fullName>Last Activity</fullName>
+                    <default>false</default>
+                    <label>Last Activity</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Adjustment_Activity_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field indicates the date field on Work Order which will be considered as completion date.</description>
+        <externalId>false</externalId>
+        <label>Activity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SVMXC__Completed_Date_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Completed_Date_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Actual_Initial_Response__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Actual_Initial_Response__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Actual_Onsite_Response__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Actual_Onsite_Response__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Actual_Resolution__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Actual_Resolution__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Actual_Restoration__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Actual_Restoration__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Canceled_Date_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Canceled_Date_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Closed_On__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Closed_On__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Acknowledged_By_Technician_Date_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Acknowledged_By_Technician_Date_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Finished_Onsite_Date_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Finished_Onsite_Date_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__First_Assigned_DateTime__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__First_Assigned_DateTime__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__First_Queued_DateTime__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__First_Queued_DateTime__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__FirstScheduledDateTime__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__FirstScheduledDateTime__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Initial_Response_Customer_By__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Initial_Response_Customer_By__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Initial_Response_Internal_By__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Initial_Response_Internal_By__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Onsite_Response_Customer_By__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Onsite_Response_Customer_By__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Onsite_Response_Internal_By__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Onsite_Response_Internal_By__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__OptiMax_Last_Run_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__OptiMax_Last_Run_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__SM_Optimizer_Message_Creation_Date_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__SM_Optimizer_Message_Creation_Date_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Preferred_End_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Preferred_End_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Preferred_Start_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Preferred_Start_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Previous_Scheduled_Date_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Previous_Scheduled_Date_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Resolution_Customer_By__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Resolution_Customer_By__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Resolution_Internal_By__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Resolution_Internal_By__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Restoration_Customer_By__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Restoration_Customer_By__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Restoration_Internal_By__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Restoration_Internal_By__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Scheduled_Date_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Scheduled_Date_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__SLA_Clock_Pause_Restart_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__SLA_Clock_Pause_Restart_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__SLA_Clock_Pause_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__SLA_Clock_Pause_Time__c</label>
+                </value>
+                <value>
+                    <fullName>SVMXC__Started_Driving_To_Location_Date_Time__c</fullName>
+                    <default>false</default>
+                    <label>SVMXC__Started_Driving_To_Location_Date_Time__c</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Adjustment_Max__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field indicates date difference larger than this value will use the maximum allowed difference. The max value cannot exceed the frequency of recurrence. For example, if the frequency is every 2 months, this value has to be 60 days or less. If this value is blank, frequency of recurrence is implied</description>
+        <externalId>false</externalId>
+        <label>Max Activity Changed</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Adjustment_Min__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field indicates date difference smaller than this value will be ignored and the next Schedule On date is not affected. For example, if this value is 14, the next Scheduled On date is not affected if the Activity Date is less than 14 days after the Preferred Start date of the WO</description>
+        <externalId>false</externalId>
+        <label>Min Activity Changed</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Adjustment_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is to indicate the adjustment type. 
+Actual – adjust the next Scheduled On date by the actual difference in Activity Date and Preferred Start date of the last WO
+Fixed – adjust the next date by a fixed value</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Actual</fullName>
+                    <default>false</default>
+                    <label>Actual</label>
+                </value>
+                <value>
+                    <fullName>Fixed</fullName>
+                    <default>false</default>
+                    <label>Fixed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Adjustment_Unit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field indicates the frequency unit of adjustment</description>
+        <externalId>false</externalId>
+        <label>Adjusted Units</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Weeks</fullName>
+                    <default>false</default>
+                    <label>Weeks</label>
+                </value>
+                <value>
+                    <fullName>Months</fullName>
+                    <default>false</default>
+                    <label>Months</label>
+                </value>
+                <value>
+                    <fullName>Years</fullName>
+                    <default>false</default>
+                    <label>Years</label>
+                </value>
+                <value>
+                    <fullName>Days</fullName>
+                    <default>false</default>
+                    <label>Days</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Adjustment_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used if adjustment type is Fixed,this value in multiple of adjustment unit is added to the Scheduled On date as long as the Activity Date exceeds the minimum value of adjustment range; max adjustment value does not apply.</description>
+        <externalId>false</externalId>
+        <label>Adjusted Value</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Advanced_Expression__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Advanced expression for condition rules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Advanced expression for condition rules</inlineHelpText>
+        <label>Advanced Expression</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Condition_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Condition Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Dynamic_Time_Based__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field indicates if the Time based PM is enabled for the plan</description>
+        <externalId>false</externalId>
+        <label>Dynamic Time Based</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Schedule_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the type of PM Plan Template - either Time-based or Condition-based</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the type of PM Plan Template - either Time-based or Condition-based</inlineHelpText>
+        <label>Schedule Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Condition Based</fullName>
+                    <default>false</default>
+                    <label>Condition Based</label>
+                </value>
+                <value>
+                    <fullName>Time Based</fullName>
+                    <default>false</default>
+                    <label>Time Based</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Unit_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Units to be applied on the delay field by which the first PM work order to be delayed from the start date of the PM Plan.</description>
+        <externalId>false</externalId>
+        <label>Start Date Delay Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Days</fullName>
+                    <default>false</default>
+                    <label>Days</label>
+                </value>
+                <value>
+                    <fullName>Weeks</fullName>
+                    <default>false</default>
+                    <label>Weeks</label>
+                </value>
+                <value>
+                    <fullName>Months</fullName>
+                    <default>false</default>
+                    <label>Months</label>
+                </value>
+                <value>
+                    <fullName>Years</fullName>
+                    <default>false</default>
+                    <label>Years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Unit_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Time by which the first PM work order to be delayed from the start date of the PM Plan.</description>
+        <externalId>false</externalId>
+        <label>Start Date Delay</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Use_Current_Field_Value__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This influences the schedules that get generated.If set to true, the ‘Start At’ value in the condition is taken from the current value of the IB attribute.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This influences the schedules that get generated.If set to true, the ‘Start At’ value in the condition is taken from the current value of the IB attribute.</inlineHelpText>
+        <label>Use Current Field Value</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SM_Work_Order_Purpose__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Reference to Task Template object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to Task Template object.</inlineHelpText>
+        <label>Work Order Purpose</label>
+        <referenceTo>SVMXC__Task_Template__c</referenceTo>
+        <relationshipLabel>PM Plan Templates</relationshipLabel>
+        <relationshipName>PM_Plan_Templates</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Schedule_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Schedule Count</label>
+        <summaryForeignKey>SVMXC__PM_Schedule_Template__c.SVMXC__PM_Plan_Template__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>If( SVMXC__Schedule_Count__c &gt; 0, &apos;Complete&apos;, &apos;Incomplete&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WorkOrderSubType__c</fullName>
+        <externalId>false</externalId>
+        <label>Work Order Sub-Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>WorkOrderType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Data Collection</fullName>
+                    <default>false</default>
+                    <label>Data Collection</label>
+                </value>
+                <value>
+                    <fullName>Battery Maintenance</fullName>
+                    <default>false</default>
+                    <label>Battery Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Battery Replacement</fullName>
+                    <default>false</default>
+                    <label>Battery Replacement</label>
+                </value>
+                <value>
+                    <fullName>PM and Diagnostic</fullName>
+                    <default>false</default>
+                    <label>PM and Diagnostic</label>
+                </value>
+                <value>
+                    <fullName>Preventive Maintenance Witness</fullName>
+                    <default>false</default>
+                    <label>Preventive Maintenance Witness</label>
+                </value>
+                <value>
+                    <fullName>Regular Preventive Maintenance</fullName>
+                    <default>false</default>
+                    <label>Regular Preventive Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Site cleaning</fullName>
+                    <default>false</default>
+                    <label>Site cleaning</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Assessment/ Inspection</controllingFieldValue>
+                <controllingFieldValue>Consulting</controllingFieldValue>
+                <valueName>Data Collection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Preventive Maintenance</controllingFieldValue>
+                <valueName>Battery Maintenance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Preventive Maintenance</controllingFieldValue>
+                <valueName>Battery Replacement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Preventive Maintenance</controllingFieldValue>
+                <valueName>PM and Diagnostic</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Preventive Maintenance</controllingFieldValue>
+                <valueName>Preventive Maintenance Witness</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Preventive Maintenance</controllingFieldValue>
+                <valueName>Regular Preventive Maintenance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Preventive Maintenance</controllingFieldValue>
+                <valueName>Site cleaning</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WorkOrderType__c</fullName>
+        <externalId>false</externalId>
+        <label>Work Order Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Assessment/ Inspection</fullName>
+                    <default>false</default>
+                    <label>Assessment/ Inspection</label>
+                </value>
+                <value>
+                    <fullName>Preventive Maintenance</fullName>
+                    <default>false</default>
+                    <label>Preventive Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Consulting</fullName>
+                    <default>false</default>
+                    <label>Consulting</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>PM Plan Template</label>
+    <listViews>
+        <fullName>SVMXC__All_PM_Plan_Templates</fullName>
+        <columns>NAME</columns>
+        <columns>SVMXC__Coverage_Type__c</columns>
+        <columns>SVMXC__Schedule_Count__c</columns>
+        <columns>SVMXC__Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>SVMXC__Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SVMXC__Status__c</field>
+            <operation>equals</operation>
+            <value>Complete</value>
+        </filters>
+        <label>All PM Plan Templates</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>UK_PM_Plan_Templates</fullName>
+        <columns>NAME</columns>
+        <columns>SVMXC__Schedule_Count__c</columns>
+        <columns>SVMXC__Status__c</columns>
+        <columns>CURRENCY_ISO_CODE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>UK</value>
+        </filters>
+        <label>UK PM Templates</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>PM Plan Template Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>PM Plan Templates</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>SVMXC__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Coverage_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Status__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Status__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>SVMXC__Coverage_Type__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Status__c</searchFilterFields>
+        <searchResultsAdditionalFields>SVMXC__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SVMXC__Coverage_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SVMXC__Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>SVMXC__SM_Create_Condition_Based_PM_Plan_Template</fullName>
+        <availability>online</availability>
+        <description>This button is used to invoke the page to create new Condition Based PM Plan Template</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Create Condition Based PM Plan Template</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/SVMXC__PREV_SetupPMPlanTemplate</url>
+    </webLinks>
+</CustomObject>

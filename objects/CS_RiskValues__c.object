@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AdditionalRecommendation1__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Recommendation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AdditionalRecommendation2__c</fullName>
+        <externalId>false</externalId>
+        <label>AdditionalRecommendation2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AdditionalRecommendation__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Recommendation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Answers__c</fullName>
+        <externalId>false</externalId>
+        <label>Answers</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>MatchingField__c</fullName>
+        <externalId>false</externalId>
+        <label>Matching Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Questions__c</fullName>
+        <externalId>false</externalId>
+        <label>Questions</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Recommendations__c</fullName>
+        <externalId>false</externalId>
+        <label>Recommendations</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>CS_RecommendationsQuestsAns</label>
+    <visibility>Public</visibility>
+</CustomObject>

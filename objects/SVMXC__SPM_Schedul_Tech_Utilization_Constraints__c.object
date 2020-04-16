@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>SVMXC__SVMX_LaunchHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This object will used for reporting on the values of Constraints, Cost factors &amp; Prioritization for Scheduling  runs.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>SVMXC__Dispatch_Process_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the Dispatch Process holding the Scheduling configuration</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Dispatch Process holding the Scheduling configuration</inlineHelpText>
+        <label>Dispatch Process Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Horizon_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Events creation End Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Events creation End Date</inlineHelpText>
+        <label>Horizon End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Horizon_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Events creation Start Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Events creation Start Date</inlineHelpText>
+        <label>Horizon Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__JobId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Servicemax Jobs</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to Servicemax Jobs</inlineHelpText>
+        <label>JobId</label>
+        <referenceTo>SVMXC__SVMX_Jobs__c</referenceTo>
+        <relationshipLabel>SPM Schedul Tech Utilization Constraints</relationshipLabel>
+        <relationshipName>SPM_Schedul_Tech_Utilization_Constraints</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Overall_Drive_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Weight of technician&apos;s overall drive time</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weight of technician&apos;s overall drive time</inlineHelpText>
+        <label>Overall Drive Time</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Overhead_time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Weight of technician&apos;s overhead time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weight of technician&apos;s overhead time.</inlineHelpText>
+        <label>Overhead time</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Preferred_Technician__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Weight of selecting the preferred technician</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weight of selecting the preferred technician</inlineHelpText>
+        <label>Preferred Technician</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Priority1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>First Priority of the Work Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>First Priority of the Work Order</inlineHelpText>
+        <label>Priority1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Priority2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Second Priority of the Work Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Second Priority of the Work Order</inlineHelpText>
+        <label>Priority2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Priority3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Third Priority of the Work Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Third Priority of the Work Order</inlineHelpText>
+        <label>Priority3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Priority4__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Fourth Priority of the Work Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Fourth Priority of the Work Order</inlineHelpText>
+        <label>Priority4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Processed_Work_Orders_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of work orders that were scheduled for scheduling run</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of work orders that were scheduled for scheduling run</inlineHelpText>
+        <label>Processed Work Orders Count</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Product_Specialization__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Weight of technician meeting required product specialization</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weight of technician meeting required product specialization</inlineHelpText>
+        <label>Product Specialization</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Qualified_Technician__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Weight of finding the Qualified Technician for the service.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weight of finding the Qualified Technician for the service.</inlineHelpText>
+        <label>Qualified Technician</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SLA__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Weight of meeting the SLA Time Window</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weight of meeting the SLA Time Window</inlineHelpText>
+        <label>SLA (Weights)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Skill_Match__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Weight of matching skill set of the technician with the desired skill set</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weight of matching skill set of the technician with the desired skill set</inlineHelpText>
+        <label>Skill Match</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Submitted_Work_Orders_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of work orders that were sent for scheduling run</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of work orders that were sent for scheduling run</inlineHelpText>
+        <label>Submitted Work Orders Count</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Technician_Eligibility__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Weight of technician&apos;s eligibility to do the job.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weight of technician&apos;s eligibility to do the job.</inlineHelpText>
+        <label>Technician Eligibility</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Technicians_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of Technicians</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Technicians</inlineHelpText>
+        <label>Technicians Count</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Total_Events_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of total events generated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of total events generated</inlineHelpText>
+        <label>Total Events Count</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Travel_Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Weight of total travel cost incurred by the technician.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weight of total travel cost incurred by the technician.</inlineHelpText>
+        <label>Travel Cost</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Utilization_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Count of averages computed for every run</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Count of averages computed for every run</inlineHelpText>
+        <label>Utilization Count</label>
+        <summaryForeignKey>SVMXC__SPM_Scheduling_Technician_Utilization__c.SVMXC__SPM_Schedul_Tech_Utilization_Constraints__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Utilization_Sum__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sum of averages computed for every run</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sum of averages computed for every run</inlineHelpText>
+        <label>Utilization Sum</label>
+        <summarizedField>SVMXC__SPM_Scheduling_Technician_Utilization__c.SVMXC__Utilization__c</summarizedField>
+        <summaryForeignKey>SVMXC__SPM_Scheduling_Technician_Utilization__c.SVMXC__SPM_Schedul_Tech_Utilization_Constraints__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Utilization__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Average utilization for the Run</description>
+        <externalId>false</externalId>
+        <formula>( SVMXC__Utilization_Sum__c / SVMXC__Utilization_Count__c ) / 100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Average utilization for the Run</inlineHelpText>
+        <label>Utilization %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>SPM Schedul Tech Utilization Constraints</label>
+    <nameField>
+        <displayFormat>{0000000000}</displayFormat>
+        <label>Record Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>SPM Schedul Tech Utilization Constraints</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

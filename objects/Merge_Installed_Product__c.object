@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Gaining_Installed_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Gaining Installed Product</label>
+        <referenceTo>SVMXC__Installed_Product__c</referenceTo>
+        <relationshipLabel>Merge Installed Products (Gaining Installed Product)</relationshipLabel>
+        <relationshipName>Merge_Installed_Products1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Losing_Golden_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Losing Golden Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Losing_Installed_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Losing Installed Product</label>
+        <referenceTo>SVMXC__Installed_Product__c</referenceTo>
+        <relationshipLabel>Merge Installed Products</relationshipLabel>
+        <relationshipName>Merge_Installed_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Merge Installed Product</label>
+    <nameField>
+        <label>Merge Installed Product Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Merge Installed Products</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>VR_R117_GoldenId_Check</fullName>
+        <active>true</active>
+        <description>This rule will check if the losing and golden has different golden ids</description>
+        <errorConditionFormula>AND(NOT( $User.BypassVR__c ),( Losing_Installed_Product__r.GoldenAssetId__c &lt;&gt;  Gaining_Installed_Product__r.GoldenAssetId__c ))</errorConditionFormula>
+        <errorMessage>The losing and gaining IP must have the same golden ID</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_R117_InstalledAtAccountSame_Check</fullName>
+        <active>false</active>
+        <description>This will check if the losing asset and gaining asset belongs to different installed account</description>
+        <errorConditionFormula>AND(NOT( $User.BypassVR__c ),(Gaining_Installed_Product__r.SVMXC__Company__c &lt;&gt;  Losing_Installed_Product__r.SVMXC__Company__c))</errorConditionFormula>
+        <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+        <errorMessage>The losing and gaining IPs must have the same Installed At Account.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_R117_MasterShip_Check</fullName>
+        <active>true</active>
+        <description>This validation rule will check if the losing and gaining ip belongs to BFO.</description>
+        <errorConditionFormula>AND(NOT( $User.BypassVR__c ),Losing_Installed_Product__r.TECH_SDHPublisherMaster__c  &lt;&gt;  &apos;BFO&apos;, Gaining_Installed_Product__r.TECH_SDHPublisherMaster__c   &lt;&gt; &apos;BFO&apos;)</errorConditionFormula>
+        <errorMessage>The losing and gaining IPs must have the same mastership as BFO</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_R117_ProductGroupId_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT( $User.BypassVR__c ), Losing_Installed_Product__r.ProductGroupID__c != null, Gaining_Installed_Product__r.ProductGroupID__c != null, Losing_Installed_Product__r.ProductGroupID__c !=  Gaining_Installed_Product__r.ProductGroupID__c )</errorConditionFormula>
+        <errorMessage>The losing and gaining IP must have the same Product Group Id</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_R117_TechnicalAttribute_Check</fullName>
+        <active>true</active>
+        <description>This validation rule will check if the losing and gaining has different technical attribute.</description>
+        <errorConditionFormula>AND(NOT( $User.BypassVR__c ), Losing_Installed_Product__r.TechnicalAttributePart1__c &lt;&gt; null, Gaining_Installed_Product__r.TechnicalAttributePart1__c  &lt;&gt; null, Losing_Installed_Product__r.TechnicalAttributePart1__c &lt;&gt;  Gaining_Installed_Product__r.TechnicalAttributePart1__c  )</errorConditionFormula>
+        <errorMessage>Please review both Technical Attribute and choose which one needs to be kept by deleting the bad one.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

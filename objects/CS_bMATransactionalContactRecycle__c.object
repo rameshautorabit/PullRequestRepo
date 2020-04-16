@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>June 2016 Release: Contact Recycle Reason on bMA Transactional Lead closure</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ContactRecycleReason__c</fullName>
+        <description>Contact Recycle Reason on bMA Transactional Lead closure</description>
+        <externalId>false</externalId>
+        <label>ContactRecycleReason</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_bMATransactionalContactRecycle</label>
+    <visibility>Public</visibility>
+</CustomObject>

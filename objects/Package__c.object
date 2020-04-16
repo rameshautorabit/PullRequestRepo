@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>VFP_NewPackage</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Relates Package Template with Contracts</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AutomaticProactiveCase__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Q3 2016 - Checkbox to determine whether to create an automatic Proactive case from a active package</description>
+        <externalId>false</externalId>
+        <label>Automatic Proactive Case</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contract__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Packages</relationshipLabel>
+        <relationshipName>Packages</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>DONOTDELIVER__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DO NOT DELIVER</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DONOTPRINT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DO NOT PRINT</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Description field for the Contract Admins</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description for the Package</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EndDate__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>LegacyPackageId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Stores the Vantive Id of the Package</description>
+        <externalId>true</externalId>
+        <label>Legacy Package Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>OfferedPrice__c</fullName>
+        <externalId>false</externalId>
+        <label>Offered Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PackageTemplate__c</fullName>
+        <externalId>false</externalId>
+        <label>Package Template</label>
+        <referenceTo>PackageTemplate__c</referenceTo>
+        <relationshipLabel>Related Packages</relationshipLabel>
+        <relationshipName>Packages</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ProactiveCaseSupportTeam__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Q3 2016 - Team which supports the Proactive Cases created from active package</description>
+        <externalId>false</externalId>
+        <label>Proactive Case Support Team</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Please select an Active Team</errorMessage>
+            <filterItems>
+                <field>CustomerCareTeam__c.Inactive__c</field>
+                <operation>notEqual</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>CustomerCareTeam__c</referenceTo>
+        <relationshipLabel>Packages</relationshipLabel>
+        <relationshipName>Packages</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StartDate__c</fullName>
+        <defaultValue>NOW()</defaultValue>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Status of the Package</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Support_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Support Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Level 1</fullName>
+                    <default>false</default>
+                    <label>Level 1</label>
+                </value>
+                <value>
+                    <fullName>Level 2</fullName>
+                    <default>false</default>
+                    <label>Level 2</label>
+                </value>
+                <value>
+                    <fullName>Level 3</fullName>
+                    <default>false</default>
+                    <label>Level 3</label>
+                </value>
+                <value>
+                    <fullName>Level 4</fullName>
+                    <default>false</default>
+                    <label>Level 4</label>
+                </value>
+                <value>
+                    <fullName>Level 5</fullName>
+                    <default>false</default>
+                    <label>Level 5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_DuplicateKey__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>false</externalId>
+        <label>DuplicateKey</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_TriggerFirstProactiveCase__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Q3 2016 - This field will be set to True by Timebased Workflow. When true, a proactive case will be created for the active package.</description>
+        <externalId>false</externalId>
+        <label>TECH_TriggerFirstProactiveCase</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TECH_TriggerSecondProactiveCase__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Q3 2016 - This field will be set to True by Timebased Workflow. When true, a proactive case will be created for the active package.</description>
+        <externalId>false</externalId>
+        <label>TECH_TriggerSecondProactiveCase</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Package</label>
+    <nameField>
+        <displayFormat>{0000000}</displayFormat>
+        <label>Package Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Packages</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Contract__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PackageTemplate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>StartDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EndDate__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contract__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PackageTemplate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartDate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EndDate__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Contract__c</searchFilterFields>
+        <searchFilterFields>PackageTemplate__c</searchFilterFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchFilterFields>StartDate__c</searchFilterFields>
+        <searchFilterFields>EndDate__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>PKG_VR01_Q316_TeamMandatryProactiveCases</fullName>
+        <active>true</active>
+        <description>Customer care team should be populated when active package marked for proactive case creation.</description>
+        <errorConditionFormula>AND(
+	NOT($User.BypassVR__c),
+	AutomaticProactiveCase__c ,
+	ISPICKVAL(Status__c,&apos;Active&apos;),
+	ISBLANK( ProactiveCaseSupportTeam__c) 
+)</errorConditionFormula>
+        <errorMessage>Proactive Case Support Team is mandatory for Automatic Proactive Case creation</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PKG_VR02_Q316_CaseOlyForActivePkgs</fullName>
+        <active>true</active>
+        <description>Proactive cases can be created only for active packages</description>
+        <errorConditionFormula>AND(
+	NOT($User.BypassVR__c),
+        NOT(ISPICKVAL(Status__c, &apos;Active&apos; )),
+	AutomaticProactiveCase__c
+)</errorConditionFormula>
+        <errorMessage>Proactive cases are created for active packages only.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PKG_VR_SEP12CCC01_EndDtLessThanStrtDt</fullName>
+        <active>true</active>
+        <description>End Date should be greater than Start Date</description>
+        <errorConditionFormula>(AND($User.BypassVR__c=False, EndDate__c &lt;  StartDate__c))</errorConditionFormula>
+        <errorMessage>End Date should be greater than Start Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PKG_VR_SEP12CCC02_CantUpdateStatustoExp</fullName>
+        <active>true</active>
+        <description>Status cannot be Expired as end date is not reached</description>
+        <errorConditionFormula>(AND
+( $User.BypassVR__c=False,
+ ISPICKVAL( Status__c , &apos;Expired&apos;), 
+(EndDate__c  &gt;   TODAY() )
+ ))</errorConditionFormula>
+        <errorMessage>Status cannot be Expired as end date is not reached</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PKG_VR_SEP12CCC03_StrtDtGrtrThanEndDate</fullName>
+        <active>true</active>
+        <description>Start Date should not be greater than End Date</description>
+        <errorConditionFormula>(AND
+( ISNEW() ,
+$User.BypassVR__c=False, 
+StartDate__c  &gt;   EndDate__c ))</errorConditionFormula>
+        <errorDisplayField>StartDate__c</errorDisplayField>
+        <errorMessage>Start Date cannot be greater than End Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PKG_VR_SEP12CCC03_StrtDtGrtrThanToday</fullName>
+        <active>false</active>
+        <description>Start Date should not be greater than today</description>
+        <errorConditionFormula>(AND
+( ISNEW() ,
+$User.BypassVR__c=False, 
+StartDate__c  &gt;  TODAY()))</errorConditionFormula>
+        <errorDisplayField>StartDate__c</errorDisplayField>
+        <errorMessage>Start Date should not be greater than today</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PKG_VR_SEP12CCC04_InactivePKGcantbeadded</fullName>
+        <active>false</active>
+        <description>Inactive package cannot be added to Contract</description>
+        <errorConditionFormula>(AND
+( ISNEW() ,
+$User.BypassVR__c=False,
+ISPICKVAL( Status__c , &apos;Inactive&apos;) ))</errorConditionFormula>
+        <errorMessage>Inactive package cannot be added to Contract</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>NewLEX</fullName>
+        <availability>online</availability>
+        <description>Button to create new package in package template and contract in console lightning</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>New</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/lightning/cmp/c__LCMP_CCCNewPkgComponent?c__templateId={!PackageTemplate__c.Id}&amp;duration={!PackageTemplate__c.PackageDuration__c}&amp;c__contractId={!Contract.Id}&amp;c__accountId={!Account.Id}</url>
+    </webLinks>
+</CustomObject>

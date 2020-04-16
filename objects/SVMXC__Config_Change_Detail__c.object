@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>SVMXC__SVMX_LaunchHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Capture config changes made by application for audit trail</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>SVMXC__Action_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of action performed</description>
+        <externalId>false</externalId>
+        <label>Action Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Created</fullName>
+                    <default>false</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>Deleted</fullName>
+                    <default>false</default>
+                    <label>Deleted</label>
+                </value>
+                <value>
+                    <fullName>Modified</fullName>
+                    <default>false</default>
+                    <label>Modified</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Action__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Capture the details about what changes are made to ServiceMax Configuration</description>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Additional_information__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Capture warnings, errors</description>
+        <externalId>false</externalId>
+        <label>Additional information</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Application__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Capture application which made the changes.</description>
+        <externalId>false</externalId>
+        <label>Application</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ServiceMax Migration Tool</fullName>
+                    <default>false</default>
+                    <label>ServiceMax Migration Tool</label>
+                </value>
+                <value>
+                    <fullName>ServiceMax Auto Configurator</fullName>
+                    <default>false</default>
+                    <label>ServiceMax Auto Configurator</label>
+                </value>
+                <value>
+                    <fullName>Browser</fullName>
+                    <default>false</default>
+                    <label>Browser</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Capture date and time with timezone</description>
+        <externalId>false</externalId>
+        <label>Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Entity_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ServiceMax Entity Identifier</description>
+        <externalId>false</externalId>
+        <label>Entity Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Auto Entitlement Rules</fullName>
+                    <default>false</default>
+                    <label>Auto Entitlement Rules</label>
+                </value>
+                <value>
+                    <fullName>Configuration Profiles</fullName>
+                    <default>false</default>
+                    <label>Configuration Profiles</label>
+                </value>
+                <value>
+                    <fullName>Counter Rule</fullName>
+                    <default>false</default>
+                    <label>Counter Rule</label>
+                </value>
+                <value>
+                    <fullName>DC Views</fullName>
+                    <default>false</default>
+                    <label>DC Views</label>
+                </value>
+                <value>
+                    <fullName>Install Base App Setup</fullName>
+                    <default>false</default>
+                    <label>Install Base App Setup</label>
+                </value>
+                <value>
+                    <fullName>Inventory Process</fullName>
+                    <default>false</default>
+                    <label>Inventory Process</label>
+                </value>
+                <value>
+                    <fullName>Mobile Configuration</fullName>
+                    <default>false</default>
+                    <label>Mobile Configuration</label>
+                </value>
+                <value>
+                    <fullName>PM Process</fullName>
+                    <default>false</default>
+                    <label>PM Process</label>
+                </value>
+                <value>
+                    <fullName>SFM Mobile Permissions</fullName>
+                    <default>false</default>
+                    <label>SFM Mobile Permissions</label>
+                </value>
+                <value>
+                    <fullName>SFM Search</fullName>
+                    <default>false</default>
+                    <label>SFM Search</label>
+                </value>
+                <value>
+                    <fullName>SFM Transactions</fullName>
+                    <default>false</default>
+                    <label>SFM Transactions</label>
+                </value>
+                <value>
+                    <fullName>SFM Wizards</fullName>
+                    <default>false</default>
+                    <label>SFM Wizards</label>
+                </value>
+                <value>
+                    <fullName>SPM</fullName>
+                    <default>false</default>
+                    <label>SPM</label>
+                </value>
+                <value>
+                    <fullName>Spare Parts</fullName>
+                    <default>false</default>
+                    <label>Spare Parts</label>
+                </value>
+                <value>
+                    <fullName>Technical Attributes</fullName>
+                    <default>false</default>
+                    <label>Technical Attributes</label>
+                </value>
+                <value>
+                    <fullName>Timesheet</fullName>
+                    <default>false</default>
+                    <label>Timesheet</label>
+                </value>
+                <value>
+                    <fullName>IOT Configuration</fullName>
+                    <default>false</default>
+                    <label>IOT Configuration</label>
+                </value>
+                <value>
+                    <fullName>Device Mobile Configuration</fullName>
+                    <default>false</default>
+                    <label>Device Mobile Configuration</label>
+                </value>
+                <value>
+                    <fullName>SFM Wizard Layout Configuration</fullName>
+                    <default>false</default>
+                    <label>SFM Wizard Layout Configuration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__ServiceMax_Job__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to ServiceMax Job object</description>
+        <externalId>false</externalId>
+        <label>ServiceMax Job</label>
+        <referenceTo>SVMXC__SVMX_Jobs__c</referenceTo>
+        <relationshipName>Config_Change_Details</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Capture user who made the change</description>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Config_Change_Details</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>View ServiceMax Configuration Change</label>
+    <nameField>
+        <displayFormat>{000000}</displayFormat>
+        <label>Record Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>View ServiceMax Configuration Changes</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>SVMXC__User__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Action__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Application__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__User__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Action__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Application__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>SVMXC__User__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Date__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Action__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Application__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>VFP1001_AddCommercialReferencesToProblem</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Business</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CommercialReference__c</fullName>
+        <externalId>false</externalId>
+        <label>Commercial Reference</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateCodesSerialNumber__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <formula>IF(NonStandardDatecode__c != null || NonStandardSerialN__c != null, $Label.CLMAR16I2P07 ,(IF(NOT(ISNULL(StartDatecode__c)), &apos;Plant&apos; &amp; &apos; &apos; &amp; Plantcode__c &amp; &apos; &apos; &amp; $Label.CLMAR16I2P05 &amp; &apos; &apos; &amp; IF(LEN(TEXT(DAY(StartDatecode__c))) == 1 ,&apos;0&apos; &amp; TEXT(DAY(StartDatecode__c)),TEXT(DAY(StartDatecode__c))) &amp; &apos;-&apos; &amp; CASE(MONTH(StartDatecode__c),1, &quot;JAN&quot;,2, &quot;FEB&quot;,3, &quot;MAR&quot;,4, &quot;APR&quot;,5, &quot;MAY&quot;,6, &quot;JUN&quot;,7, &quot;JUL&quot;,8, &quot;AUG&quot;,9, &quot;SEPT&quot;,10, &quot;OCT&quot;,11, &quot;NOV&quot;,12, &quot;DEC&quot;,&quot;None&quot;)
+&amp; &apos;-&apos; &amp; TEXT(YEAR(StartDatecode__c)) ,&apos;&apos;) &amp; IF(NOT(ISNULL(EndDatecode__c)), &apos; &apos; &amp; $Label.CLMAR16I2P06 &amp; &apos; &apos; &amp; &apos; &apos; &amp; IF(LEN(TEXT(DAY(EndDatecode__c))) == 1, &apos;0&apos; &amp; TEXT(DAY(EndDatecode__c)),TEXT(DAY(EndDatecode__c))) &amp; &apos;-&apos; &amp; CASE(MONTH(EndDatecode__c),1, &quot;JAN&quot;,2, &quot;FEB&quot;,3, &quot;MAR&quot;,4, &quot;APR&quot;,5, &quot;MAY&quot;,6, &quot;JUN&quot;,7, &quot;JUL&quot;,8, &quot;AUG&quot;,9, &quot;SEPT&quot;,10, &quot;OCT&quot;,11, &quot;NOV&quot;,12, &quot;DEC&quot;,&quot;None&quot;) &amp; &apos;-&apos; &amp; TEXT(YEAR(EndDatecode__c)) ,&apos;&apos;) &amp; IF(InitialSerialN__c != null, &apos; &apos; &amp; $Label.CLMAR16I2P05 &amp; &apos; &apos; &amp; $Label.CLMAR16I2P08 &amp; &apos; &apos; &amp; InitialSerialN__c, &apos;&apos;) &amp; IF(LastSerialN__c != null, &apos; &apos; &amp; $Label.CLMAR16I2P06 &amp; &apos; &apos; &amp; $Label.CLMAR16I2P08 &amp; &apos; &apos; &amp; LastSerialN__c, &apos;&apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dates / Serial Numbers</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EndBatchcode__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Ending Date code of the products affected by the Problem.</inlineHelpText>
+        <label>End Date code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EndDatecode__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Ending manufacturing date of the products affected by the Problem.</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Family__c</fullName>
+        <externalId>false</externalId>
+        <label>Family</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GMRCode__c</fullName>
+        <externalId>false</externalId>
+        <label>GMR Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InitialSerialN__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Initial serial number of the products affected by the Problem.</inlineHelpText>
+        <label>Initial Serial N°</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LastSerialN__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Final serial number of the products affected by the Problem.</inlineHelpText>
+        <label>Last Serial N°</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NonStandardDatecode__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to describe the range of date codes impacted by the related Problem.</inlineHelpText>
+        <label>Range of impacted codes</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NonStandardSerialN__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field if the Serial number does not have a standard format.</inlineHelpText>
+        <label>Non Standard Serial N°</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Plantcode__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Two character code of the manufacturing plant of the product affected by the Problem. If having several Plant Codes for this Product, please create 2 separate Affected Products. It will be one of the components of the Date code field.</inlineHelpText>
+        <label>Plant code</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Problem__c</fullName>
+        <externalId>false</externalId>
+        <label>Problem</label>
+        <referenceTo>Problem__c</referenceTo>
+        <relationshipName>Commercial_References</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ProductDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Description</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductFamily__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductGroup__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Group</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductLine__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Line</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductSuccession__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Succession</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StartBatchcode__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Starting Date code of the products affected by the Problem.</inlineHelpText>
+        <label>Start Date code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StartDatecode__c</fullName>
+        <description>Mar 2016 Release</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Starting manufacturing date of the products affected by the Problem.</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SubFamily__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Family</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_Uniqueness__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>TECH_Uniqueness</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Affected Product</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>CMR-{0000}</displayFormat>
+        <label>Aff Prod Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Affected Products</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>DisplayStock</fullName>
+        <availability>online</availability>
+        <description>Stock Display button on Affected Product related list on Schneider Problem detail page</description>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Display Stock</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP_GetStockDetails</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>UpdateAffectedProducts</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Update Affected Product(s)</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP_MassUpdateAffectedProducts</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

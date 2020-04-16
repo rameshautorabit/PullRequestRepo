@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>FieloEE__BranchHelpBackEnd</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Your business’ branches or points of sale where members can generate points.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>FieloEE__AddressInformation</fullName>
+        <description>FieloBranchNew visualforce page</description>
+        <label>AddressInformation</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>FieloEE__PrincipalFields</fullName>
+        <description>FieloBranchNew visualforce page</description>
+        <label>PrincipalFields</label>
+    </fieldSets>
+    <fields>
+        <fullName>FieloEE__Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Branches</relationshipLabel>
+        <relationshipName>Branches</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloEE__City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>City where the branch is located.</description>
+        <externalId>false</externalId>
+        <label>City</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloEE__Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The branch code. It can be filled with a branch number or just enter a name for each branch.</description>
+        <externalId>true</externalId>
+        <label>Code</label>
+        <length>4</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloEE__Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Country where the branch is located.</description>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloEE__Latitude__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The latitude coordinates of this branch. This field will autocomplete after you enter your branch address.</description>
+        <externalId>false</externalId>
+        <label>Latitude</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>10</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloEE__Longitude__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The longitude coordinates of this branch. This field will autocomplete after you enter your branch address.</description>
+        <externalId>false</externalId>
+        <label>Longitude</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>10</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloEE__Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Branches</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloEE__State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>State where the branch is located.</description>
+        <externalId>false</externalId>
+        <label>State</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloEE__Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Street where this branch is located.</description>
+        <externalId>false</externalId>
+        <label>Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloEE__ZipCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Zip code of the branch address.</description>
+        <externalId>false</externalId>
+        <label>Zip Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Branch</label>
+    <listViews>
+        <fullName>FieloEE__All</fullName>
+        <columns>FieloEE__Code__c</columns>
+        <columns>NAME</columns>
+        <columns>FieloEE__Street__c</columns>
+        <columns>FieloEE__City__c</columns>
+        <columns>FieloEE__State__c</columns>
+        <columns>FieloEE__Country__c</columns>
+        <columns>FieloEE__Owner__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>FieloEE__All_Branches</fullName>
+        <columns>NAME</columns>
+        <columns>FieloEE__Country__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Branches</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Branch Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Branch</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>FieloEE__Street__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FieloEE__City__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FieloEE__State__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FieloEE__Country__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>FieloEE__SetGeoLocation</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Set Geo Location</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false&quot;)}
+
+var branchs = sforce.connection.query(&quot;SELECT Id, {!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Street__c, {!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}City__c, {!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}State__c, {!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}ZipCode__c, {!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Country__c, {!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Latitude__c, {!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Longitude__c FROM {!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Branch__c WHERE Id = \&apos;{!FieloEE__Branch__c.Id}\&apos; &quot;);
+var branch = branchs.getArray(&quot;records&quot;)[0];
+
+var geocoder = new google.maps.Geocoder();
+var address =&apos;&apos;;
+address += (branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Street__c != null)?&apos;,&apos;+branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Street__c:&apos;&apos;;
+address += (branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}City__c != null)?&apos;,&apos;+branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}City__c:&apos;&apos;;
+address += (branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}State__c != null)?&apos;,&apos;+branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}State__c:&apos;&apos;;
+address += (branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}ZipCode__c != null)?&apos;,&apos;+branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}ZipCode__c:&apos;&apos;;
+address += (branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Country__c != null)?&apos;,&apos;+branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Country__c:&apos;&apos;;
+
+if(address.length &gt; 0){
+address = address.substring(1);
+
+geocoder.geocode( { &apos;address&apos;: address}, function(results, status) {
+if (status == google.maps.GeocoderStatus.OK) {
+branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Latitude__c = results[0].geometry.location.lat();
+branch.{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}Longitude__c = results[0].geometry.location.lng();
+}else{
+alert(&apos;{!$Label.fieloee__serviceunavailable}&apos;);
+}
+var branchUpdate = [];
+branchUpdate.push(branch);
+result = sforce.connection.update(branchUpdate);
+parent.location.href = &quot;{!FieloEE__Branch__c.Id}&quot;;
+});
+}else{
+alert(&apos;{!$Label.fieloee__pleasefilladdressinformation}&apos;);
+}</url>
+    </webLinks>
+</CustomObject>

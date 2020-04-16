@@ -1,0 +1,4540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>AccountOwnerBusinessUnit__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account__r.Owner.UserBusinessUnit__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwnerCell__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.MobilePhone</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Cell</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwnerEmail__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwnerId__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.OwnerId</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwnerManagerId__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.Manager.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Manager Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwnerManager__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.Manager.FirstName &amp; &quot; &quot; &amp; Account__r.Owner.Manager.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Manager</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwnerPhone__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.Phone</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwnerProfile__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.Profile.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Profile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwnerRole__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.UserRole.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwnerSesa__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.SESAExternalID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Sesa</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.FirstName  &amp; &quot; &quot; &amp;  Account__r.Owner.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Criteres</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AchatsSchneiderVsConcurrence__c</fullName>
+        <externalId>false</externalId>
+        <label>Achats Schneider vs Concurrence</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Acquis à la concurrence</fullName>
+                    <default>false</default>
+                    <label>Acquis à la concurrence</label>
+                </value>
+                <value>
+                    <fullName>Occasionnel Schneider</fullName>
+                    <default>false</default>
+                    <label>Occasionnel Schneider</label>
+                </value>
+                <value>
+                    <fullName>Préférence Schneider</fullName>
+                    <default>false</default>
+                    <label>Préférence Schneider</label>
+                </value>
+                <value>
+                    <fullName>Pro-Schneider</fullName>
+                    <default>false</default>
+                    <label>Pro-Schneider</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AddressValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Adresse</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>AdequationOffreValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;adéquation de l&apos;offre Schneider Electric à l&apos;activité du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Adéquation Offre</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>AdequationOffre__c</fullName>
+        <description>Adéquation de l&apos;offre de Schneider Electric à l&apos;activité du client</description>
+        <externalId>false</externalId>
+        <label>Adéquation Offre SE à Activité Client</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ne répond pas au besoin</fullName>
+                    <default>false</default>
+                    <label>Ne répond pas au besoin</label>
+                </value>
+                <value>
+                    <fullName>Trou d&apos;offre identifié</fullName>
+                    <default>false</default>
+                    <label>Trou d&apos;offre identifié</label>
+                </value>
+                <value>
+                    <fullName>Répond partiellement</fullName>
+                    <default>false</default>
+                    <label>Répond partiellement</label>
+                </value>
+                <value>
+                    <fullName>Répond à plus de 90%</fullName>
+                    <default>false</default>
+                    <label>Répond à plus de 90%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AnnualEquipmentAmountValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Montant Achat Matériel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>AnnualEquipmentAmount__c</fullName>
+        <externalId>false</externalId>
+        <label>Montant d&apos;achat de mat élec k€ par an</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenueApprobDate__c</fullName>
+        <description>Date d&apos;approbation (ou refus) du Chiffre d&apos;Affaires Client validé par le vendeur</description>
+        <externalId>false</externalId>
+        <label>Date Approbation CA Client</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenueApprob__c</fullName>
+        <description>Etat d&apos;approbation du Chiffre d&apos;Affaires Client validé par le vendeur (à approuver, approuvé, refusé)</description>
+        <externalId>false</externalId>
+        <label>Etat Approbation CA Client</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>En attente approbation</fullName>
+                    <default>false</default>
+                    <label>En attente approbation</label>
+                </value>
+                <value>
+                    <fullName>Approuvé</fullName>
+                    <default>false</default>
+                    <label>Approuvé</label>
+                </value>
+                <value>
+                    <fullName>Refusé</fullName>
+                    <default>false</default>
+                    <label>Refusé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenueValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation CA du client</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>AnnualSchneiderAmountValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Montant Achat Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>AnnualSchneiderAmount__c</fullName>
+        <externalId>false</externalId>
+        <label>Montant achats Schneider k€ par an</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AppareillageValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la prescription d&apos;appareillage SE par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Appareillage SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>AutonomieVendreSchneiderValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du degré d&apos;autonomie du client pour vendre du Schneider Electric</description>
+        <externalId>false</externalId>
+        <label>Date Validation Autonome Vente Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>AutonomieVendreSchneider__c</fullName>
+        <description>Niveau d&apos;autonomie du client pour vendre Schneider Electric</description>
+        <externalId>false</externalId>
+        <label>Autonomie pour Vendre Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pas autonome</fullName>
+                    <default>false</default>
+                    <label>Pas autonome</label>
+                </value>
+                <value>
+                    <fullName>Connaissances basiques</fullName>
+                    <default>false</default>
+                    <label>Connaissances basiques</label>
+                </value>
+                <value>
+                    <fullName>Connaissances avancées</fullName>
+                    <default>false</default>
+                    <label>Connaissances avancées</label>
+                </value>
+                <value>
+                    <fullName>Autonome</fullName>
+                    <default>false</default>
+                    <label>Autonome</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BaseInstallee__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Base installée</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Bureaux__c</fullName>
+        <description>Ce client réalise l&apos;électricité dans les plateaux du bureaux</description>
+        <externalId>false</externalId>
+        <label>Fait du Plateau de Bureaux</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oui</fullName>
+                    <default>false</default>
+                    <label>Oui</label>
+                </value>
+                <value>
+                    <fullName>Non</fullName>
+                    <default>false</default>
+                    <label>Non</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CacAuditeur__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Auditeur CAC pour ce client</description>
+        <externalId>false</externalId>
+        <label>Auditeur</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.UserRole.Name</field>
+                <operation>startsWith</operation>
+                <value>FR_</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>InfoClientFrance</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CacBancTest__c</fullName>
+        <description>Définit si la dernier audit a bien conclu à la présence d&apos;un banc de test chez le client</description>
+        <externalId>false</externalId>
+        <label>Audit : banc de test</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oui</fullName>
+                    <default>false</default>
+                    <label>Oui</label>
+                </value>
+                <value>
+                    <fullName>Non</fullName>
+                    <default>false</default>
+                    <label>Non</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CacCleDynamo__c</fullName>
+        <description>Définit si la dernier audit a bien conclu à la présence d&apos;une clé dynamométrique chez le client</description>
+        <externalId>false</externalId>
+        <label>Audit : présence clé dynamométrique</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oui</fullName>
+                    <default>false</default>
+                    <label>Oui</label>
+                </value>
+                <value>
+                    <fullName>Non</fullName>
+                    <default>false</default>
+                    <label>Non</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CacNumeroCertification__c</fullName>
+        <description>Numéro de certification CAC de ce client</description>
+        <externalId>false</externalId>
+        <label>Numéro de certification CAC</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CacProchainAudit__c</fullName>
+        <description>Date prévue du prochain audit CAC</description>
+        <externalId>false</externalId>
+        <label>Date dernier audit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CanalAchatValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du canal d&apos;achat du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Canal d&apos;Achat</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CanalAchat__c</fullName>
+        <description>Canal d&apos;achat préféré du client</description>
+        <externalId>false</externalId>
+        <label>Canal d&apos;Achat</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GSB</fullName>
+                    <default>false</default>
+                    <label>GSB</label>
+                </value>
+                <value>
+                    <fullName>Distribution Elec Professionnelle</fullName>
+                    <default>false</default>
+                    <label>Distribution Elec Professionnelle</label>
+                </value>
+                <value>
+                    <fullName>Négoce Pro</fullName>
+                    <default>false</default>
+                    <label>Négoce Pro</label>
+                </value>
+                <value>
+                    <fullName>Internet</fullName>
+                    <default>false</default>
+                    <label>Internet</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Categorisation__c</fullName>
+        <description>Catégorie (POLCO) dans laquelle est rangée ce client</description>
+        <externalId>false</externalId>
+        <label>Catégorie</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>B80</fullName>
+                    <default>false</default>
+                    <label>B80</label>
+                </value>
+                <value>
+                    <fullName>C01</fullName>
+                    <default>false</default>
+                    <label>C01</label>
+                </value>
+                <value>
+                    <fullName>C04</fullName>
+                    <default>false</default>
+                    <label>C04</label>
+                </value>
+                <value>
+                    <fullName>C31</fullName>
+                    <default>false</default>
+                    <label>C31</label>
+                </value>
+                <value>
+                    <fullName>C40</fullName>
+                    <default>false</default>
+                    <label>C40</label>
+                </value>
+                <value>
+                    <fullName>C45</fullName>
+                    <default>false</default>
+                    <label>C45</label>
+                </value>
+                <value>
+                    <fullName>C46</fullName>
+                    <default>false</default>
+                    <label>C46</label>
+                </value>
+                <value>
+                    <fullName>C48</fullName>
+                    <default>false</default>
+                    <label>C48</label>
+                </value>
+                <value>
+                    <fullName>C51</fullName>
+                    <default>false</default>
+                    <label>C51</label>
+                </value>
+                <value>
+                    <fullName>C55</fullName>
+                    <default>false</default>
+                    <label>C55</label>
+                </value>
+                <value>
+                    <fullName>C60</fullName>
+                    <default>false</default>
+                    <label>C60</label>
+                </value>
+                <value>
+                    <fullName>C70</fullName>
+                    <default>false</default>
+                    <label>C70</label>
+                </value>
+                <value>
+                    <fullName>E01</fullName>
+                    <default>false</default>
+                    <label>E01</label>
+                </value>
+                <value>
+                    <fullName>E02</fullName>
+                    <default>false</default>
+                    <label>E02</label>
+                </value>
+                <value>
+                    <fullName>E03</fullName>
+                    <default>false</default>
+                    <label>E03</label>
+                </value>
+                <value>
+                    <fullName>E04</fullName>
+                    <default>false</default>
+                    <label>E04</label>
+                </value>
+                <value>
+                    <fullName>E05</fullName>
+                    <default>false</default>
+                    <label>E05</label>
+                </value>
+                <value>
+                    <fullName>E41</fullName>
+                    <default>false</default>
+                    <label>E41</label>
+                </value>
+                <value>
+                    <fullName>E44</fullName>
+                    <default>false</default>
+                    <label>E44</label>
+                </value>
+                <value>
+                    <fullName>E58</fullName>
+                    <default>false</default>
+                    <label>E58</label>
+                </value>
+                <value>
+                    <fullName>I10</fullName>
+                    <default>false</default>
+                    <label>I10</label>
+                </value>
+                <value>
+                    <fullName>I12</fullName>
+                    <default>false</default>
+                    <label>I12</label>
+                </value>
+                <value>
+                    <fullName>I13</fullName>
+                    <default>false</default>
+                    <label>I13</label>
+                </value>
+                <value>
+                    <fullName>I1Z</fullName>
+                    <default>false</default>
+                    <label>I1Z</label>
+                </value>
+                <value>
+                    <fullName>I51</fullName>
+                    <default>false</default>
+                    <label>I51</label>
+                </value>
+                <value>
+                    <fullName>M01</fullName>
+                    <default>false</default>
+                    <label>M01</label>
+                </value>
+                <value>
+                    <fullName>M02</fullName>
+                    <default>false</default>
+                    <label>M02</label>
+                </value>
+                <value>
+                    <fullName>M05</fullName>
+                    <default>false</default>
+                    <label>M05</label>
+                </value>
+                <value>
+                    <fullName>MA5</fullName>
+                    <default>false</default>
+                    <label>MA5</label>
+                </value>
+                <value>
+                    <fullName>MB1</fullName>
+                    <default>false</default>
+                    <label>MB1</label>
+                </value>
+                <value>
+                    <fullName>MB5</fullName>
+                    <default>false</default>
+                    <label>MB5</label>
+                </value>
+                <value>
+                    <fullName>P01</fullName>
+                    <default>false</default>
+                    <label>P01</label>
+                </value>
+                <value>
+                    <fullName>P03</fullName>
+                    <default>false</default>
+                    <label>P03</label>
+                </value>
+                <value>
+                    <fullName>P04</fullName>
+                    <default>false</default>
+                    <label>P04</label>
+                </value>
+                <value>
+                    <fullName>P51</fullName>
+                    <default>false</default>
+                    <label>P51</label>
+                </value>
+                <value>
+                    <fullName>P53</fullName>
+                    <default>false</default>
+                    <label>P53</label>
+                </value>
+                <value>
+                    <fullName>P54</fullName>
+                    <default>false</default>
+                    <label>P54</label>
+                </value>
+                <value>
+                    <fullName>R14</fullName>
+                    <default>false</default>
+                    <label>R14</label>
+                </value>
+                <value>
+                    <fullName>R15</fullName>
+                    <default>false</default>
+                    <label>R15</label>
+                </value>
+                <value>
+                    <fullName>R16</fullName>
+                    <default>false</default>
+                    <label>R16</label>
+                </value>
+                <value>
+                    <fullName>R17</fullName>
+                    <default>false</default>
+                    <label>R17</label>
+                </value>
+                <value>
+                    <fullName>R18</fullName>
+                    <default>false</default>
+                    <label>R18</label>
+                </value>
+                <value>
+                    <fullName>R1C</fullName>
+                    <default>false</default>
+                    <label>R1C</label>
+                </value>
+                <value>
+                    <fullName>R1D</fullName>
+                    <default>false</default>
+                    <label>R1D</label>
+                </value>
+                <value>
+                    <fullName>R1E</fullName>
+                    <default>false</default>
+                    <label>R1E</label>
+                </value>
+                <value>
+                    <fullName>R1X</fullName>
+                    <default>false</default>
+                    <label>R1X</label>
+                </value>
+                <value>
+                    <fullName>R34</fullName>
+                    <default>false</default>
+                    <label>R34</label>
+                </value>
+                <value>
+                    <fullName>R38</fullName>
+                    <default>false</default>
+                    <label>R38</label>
+                </value>
+                <value>
+                    <fullName>R3D</fullName>
+                    <default>false</default>
+                    <label>R3D</label>
+                </value>
+                <value>
+                    <fullName>S01</fullName>
+                    <default>false</default>
+                    <label>S01</label>
+                </value>
+                <value>
+                    <fullName>S07</fullName>
+                    <default>false</default>
+                    <label>S07</label>
+                </value>
+                <value>
+                    <fullName>S10</fullName>
+                    <default>false</default>
+                    <label>S10</label>
+                </value>
+                <value>
+                    <fullName>S11</fullName>
+                    <default>false</default>
+                    <label>S11</label>
+                </value>
+                <value>
+                    <fullName>S41</fullName>
+                    <default>false</default>
+                    <label>S41</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ChargesAffairesValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé le nombre de chargés d&apos;affaires dans l&apos;effectif du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Chargés d&apos;Affaires</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ChargesAffaires__c</fullName>
+        <description>Nombre de chargé d&apos;affaires dans les effectifs du client</description>
+        <externalId>false</externalId>
+        <label>Nombre de Chargés d&apos;Affaire</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CiblageValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;intérêt dusavoir-faire Schneider Electric pour l&apos;activité du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Intérêt Savoir-Faire SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Ciblage__c</fullName>
+        <description>Intérêt dusavoir-faire Schneider Electric pour l&apos;activité du client</description>
+        <externalId>false</externalId>
+        <label>Intérêt Savoir-Faire SE pour Client</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Non ciblé</fullName>
+                    <default>false</default>
+                    <label>Non ciblé</label>
+                </value>
+                <value>
+                    <fullName>Approche opportuniste</fullName>
+                    <default>false</default>
+                    <label>Approche opportuniste</label>
+                </value>
+                <value>
+                    <fullName>Ciblé</fullName>
+                    <default>false</default>
+                    <label>Ciblé</label>
+                </value>
+                <value>
+                    <fullName>Métier stratégique pour Schneider</fullName>
+                    <default>false</default>
+                    <label>Métier stratégique pour Schneider</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClassDetailValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la classification détaillée</description>
+        <externalId>false</externalId>
+        <label>Date Validation Classification Détaillée</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ClassLevel1ApprobDate__c</fullName>
+        <description>Date d&apos;approbation (ou refus) du Classification Level 1 validé par le vendeur</description>
+        <externalId>false</externalId>
+        <label>Date Approbation Class Level 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ClassLevel1Approb__c</fullName>
+        <description>Etat d&apos;approbation du Classification Level 1 validé par le vendeur (à approuver, approuvé, refusé)</description>
+        <externalId>false</externalId>
+        <label>Etat Approbation Class Level 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>En attente approbation</fullName>
+                    <default>false</default>
+                    <label>En attente approbation</label>
+                </value>
+                <value>
+                    <fullName>Approuvé</fullName>
+                    <default>false</default>
+                    <label>Approuvé</label>
+                </value>
+                <value>
+                    <fullName>Refusé</fullName>
+                    <default>false</default>
+                    <label>Refusé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClassLevel1ValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Classification 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ClassLevel2ValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Classification 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CoffretsValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé le pourcentage de coffrets</description>
+        <externalId>false</externalId>
+        <label>Date Validation % Coffrets</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Coffrets__c</fullName>
+        <description>Pourcentage de coffrets (par opposition aux armoires)</description>
+        <externalId>false</externalId>
+        <label>% Coffrets (vs. Armoires)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>CommandeValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du mode préféré de passation de commande du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Mode Commande</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Commande__c</fullName>
+        <description>Mode préféré de passation de commande du client</description>
+        <externalId>false</externalId>
+        <label>Mode Préféré de Passation de Commande</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Comptoir</fullName>
+                    <default>false</default>
+                    <label>Comptoir</label>
+                </value>
+                <value>
+                    <fullName>Fax</fullName>
+                    <default>false</default>
+                    <label>Fax</label>
+                </value>
+                <value>
+                    <fullName>Internet</fullName>
+                    <default>false</default>
+                    <label>Internet</label>
+                </value>
+                <value>
+                    <fullName>Téléphone</fullName>
+                    <default>false</default>
+                    <label>Téléphone</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CommentaireExceptionPOLCO__c</fullName>
+        <externalId>false</externalId>
+        <label>Commentaire Exception POLCO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Client dépositionné</fullName>
+                    <default>false</default>
+                    <label>Client dépositionné</label>
+                </value>
+                <value>
+                    <fullName>Désaccord avec distributeur</fullName>
+                    <default>false</default>
+                    <label>Désaccord avec distributeur</label>
+                </value>
+                <value>
+                    <fullName>Spécificité métier de l&apos;établissement</fullName>
+                    <default>false</default>
+                    <label>Spécificité métier de l&apos;établissement</label>
+                </value>
+                <value>
+                    <fullName>En attente de changement de catégorie</fullName>
+                    <default>false</default>
+                    <label>En attente de changement de catégorie</label>
+                </value>
+                <value>
+                    <fullName>Autre</fullName>
+                    <default>false</default>
+                    <label>Autre</label>
+                </value>
+                <value>
+                    <fullName>En attente de changement de lead POLCO</fullName>
+                    <default>false</default>
+                    <label>En attente de changement de lead POLCO</label>
+                </value>
+                <value>
+                    <fullName>En attente de changement de catégorie et de lead POLCO</fullName>
+                    <default>false</default>
+                    <label>En attente de changement de catégorie et de lead POLCO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CommerciauxProduitsValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du nombre de commerciaux &quot;produits&quot; chez le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Commerciaux &quot;Produits&quot;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CommerciauxProduits__c</fullName>
+        <description>Nombre de commerciaux &quot;Produits&quot; chez le client</description>
+        <externalId>false</externalId>
+        <label>Nombre de Commerciaux &quot;Produits&quot;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 à 3</fullName>
+                    <default>false</default>
+                    <label>1 à 3</label>
+                </value>
+                <value>
+                    <fullName>4 à 8</fullName>
+                    <default>false</default>
+                    <label>4 à 8</label>
+                </value>
+                <value>
+                    <fullName>9 à 12</fullName>
+                    <default>false</default>
+                    <label>9 à 12</label>
+                </value>
+                <value>
+                    <fullName>Plus de 12</fullName>
+                    <default>false</default>
+                    <label>Plus de 12</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CompatibiliteOffreValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la compatibilité de l&apos;offre Schneider Electric avec les besoins de ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Compatibilité Offre</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CompatibiliteOffre__c</fullName>
+        <description>Compatibilité de l&apos;offre Schneider Electric avec les besoins de ce client</description>
+        <externalId>false</externalId>
+        <label>Compatibilité de l&apos;Offre Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inférieure à 20%</fullName>
+                    <default>false</default>
+                    <label>Inférieure à 20%</label>
+                </value>
+                <value>
+                    <fullName>Entre 20 et 30 %</fullName>
+                    <default>false</default>
+                    <label>Entre 20 et 30 %</label>
+                </value>
+                <value>
+                    <fullName>Entre 30 et 50%</fullName>
+                    <default>false</default>
+                    <label>Entre 30 et 50%</label>
+                </value>
+                <value>
+                    <fullName>Supérieure à 50%</fullName>
+                    <default>false</default>
+                    <label>Supérieure à 50%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Completion2__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>*Remplissage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>CompletionCount2__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>*Champs Remplis</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CompletionCount__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISNULL(ContenderPurchaseValidationDate__c), 0, 1) 
++ IF(ISNULL(AnnualRevenueValidationDate__c), 0, 1) 
++ IF(ISNULL(ClassLevel1ValidationDate__c), 0, 1) 
++ IF(ISNULL(ClassLevel2ValidationDate__c), 0, 1) 
++ IF(ISNULL(NafValidationDate__c), 0, 1) 
++ IF(ISNULL(EmployeeSizeValidationDate__c), 0, 1) 
++ IF(ISNULL(OpinionLeaderValidationDate__c), 0, 1) 
++ IF(ISNULL(AnnualEquipmentAmountValidationDate__c), 0, 1) 
++ IF(ISNULL(AnnualSchneiderAmountValidationDate__c), 0, 1) 
++ IF(ISNULL(NameValidationDate__c), 0, 1) 
++ IF(ISNULL(PhoneValidationDate__c), 0, 1) 
++ IF(ISNULL(SchneiderPromoterValidationDate__c), 0, 1) 
++ IF(ISNULL(RelationShipValidationDate__c), 0, 1) 
++ IF(ISNULL(PriceSensitivityValidationDate__c), 0, 1) 
++ IF(ISNULL(SiretValidationDate__c), 0, 1) 
++ IF(ISNULL(CountCrewsValidationDate__c), 0, 1)
++ IF(ISNULL(AddressValidationDate__c), 0, 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Champs Remplis</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completion__c</fullName>
+        <externalId>false</externalId>
+        <formula>(
+IF(ISNULL(ContenderPurchaseValidationDate__c), 0, 1) 
++ IF(ISNULL(AddressValidationDate__c), 0, 1) 
++ IF(ISNULL(AnnualRevenueValidationDate__c), 0, 1) 
++ IF(ISNULL(ClassLevel1ValidationDate__c), 0, 1) 
++ IF(ISNULL(ClassLevel2ValidationDate__c), 0, 1) 
++ IF(ISNULL(NafValidationDate__c), 0, 1) 
++ IF(ISNULL(EmployeeSizeValidationDate__c), 0, 1) 
++ IF(ISNULL(OpinionLeaderValidationDate__c), 0, 1) 
++ IF(ISNULL(AnnualEquipmentAmountValidationDate__c), 0, 1) 
++ IF(ISNULL(AnnualSchneiderAmountValidationDate__c), 0, 1) 
++ IF(ISNULL(NameValidationDate__c), 0, 1) 
++ IF(ISNULL(PhoneValidationDate__c), 0, 1) 
++ IF(ISNULL(SchneiderPromoterValidationDate__c), 0, 1) 
++ IF(ISNULL(RelationShipValidationDate__c), 0, 1) 
++ IF(ISNULL(PriceSensitivityValidationDate__c), 0, 1) 
++ IF(ISNULL(SiretValidationDate__c), 0, 1) 
++ IF(ISNULL(CountCrewsValidationDate__c), 0, 1) 
+)/17</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Remplissage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ComptageValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la prescription de comptage SE par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Comptage SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Comptage__c</fullName>
+        <description>Ce client est-il prescripteur de comptage SE ?</description>
+        <externalId>false</externalId>
+        <label>Prescripteur de Comptage SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Toujours</fullName>
+                    <default>false</default>
+                    <label>Toujours</label>
+                </value>
+                <value>
+                    <fullName>Souvent</fullName>
+                    <default>false</default>
+                    <label>Souvent</label>
+                </value>
+                <value>
+                    <fullName>Parfois</fullName>
+                    <default>false</default>
+                    <label>Parfois</label>
+                </value>
+                <value>
+                    <fullName>Jamais</fullName>
+                    <default>false</default>
+                    <label>Jamais</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ConnectesValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la prescription de logements connectés SE par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Logement Connectés SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Connectes__c</fullName>
+        <description>Ce client est-il prescripteur de logements connectés SE ?</description>
+        <externalId>false</externalId>
+        <label>Prescripteur de Logements Connectés SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Toujours</fullName>
+                    <default>false</default>
+                    <label>Toujours</label>
+                </value>
+                <value>
+                    <fullName>Souvent</fullName>
+                    <default>false</default>
+                    <label>Souvent</label>
+                </value>
+                <value>
+                    <fullName>Parfois</fullName>
+                    <default>false</default>
+                    <label>Parfois</label>
+                </value>
+                <value>
+                    <fullName>Jamais</fullName>
+                    <default>false</default>
+                    <label>Jamais</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContenderPurchaseValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Achats Concurrence</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CountCrewsValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Tournevis</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CountCrews__c</fullName>
+        <externalId>false</externalId>
+        <label>Nombre de Tournevis</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DOValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé les pourcentages d&apos;approvisionnement chez les DO</description>
+        <externalId>false</externalId>
+        <label>Date Validation Approvisionnement DO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DateImmatriculationRCS__c</fullName>
+        <externalId>false</externalId>
+        <label>Date immatriculation RCS</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DecoValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la proposition par le client d&apos;appareillages couleur et/ou matière</description>
+        <externalId>false</externalId>
+        <label>Date Validation Finition Déco</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Deco__c</fullName>
+        <description>Ce client vend à ses propres clients des appareillages couleur et/ou matière pour la décoration</description>
+        <externalId>false</externalId>
+        <label>Vend Appareillages Couleur et/ou Matière</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Toujours</fullName>
+                    <default>false</default>
+                    <label>Toujours</label>
+                </value>
+                <value>
+                    <fullName>Souvent</fullName>
+                    <default>false</default>
+                    <label>Souvent</label>
+                </value>
+                <value>
+                    <fullName>Parfois</fullName>
+                    <default>false</default>
+                    <label>Parfois</label>
+                </value>
+                <value>
+                    <fullName>Jamais</fullName>
+                    <default>false</default>
+                    <label>Jamais</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DisAgencementValidationDate__c</fullName>
+        <description>Date de validation de l&apos;agencement du distributeur</description>
+        <externalId>false</externalId>
+        <label>Date Validation Agencement</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DisAgencement__c</fullName>
+        <description>Agencement du distributeur</description>
+        <externalId>false</externalId>
+        <label>Agencement</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Comptoir</fullName>
+                    <default>false</default>
+                    <label>Comptoir</label>
+                </value>
+                <value>
+                    <fullName>Libre service</fullName>
+                    <default>false</default>
+                    <label>Libre service</label>
+                </value>
+                <value>
+                    <fullName>Linéaire Avancé</fullName>
+                    <default>false</default>
+                    <label>Linéaire Avancé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DisCoda__c</fullName>
+        <description>Coda (code interne) du distributeur</description>
+        <externalId>false</externalId>
+        <label>Coda</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DisCodeFrn__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>Code FRN du distributeur (égale au code SIRET, sauf pour Rexel, Code FRN = Code SIREN + code établissement Rexel)</description>
+        <externalId>false</externalId>
+        <label>Code FRN</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>DisDiffusionTvValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la diffusion TV du distributeur</description>
+        <externalId>false</externalId>
+        <label>Date Validation Diffusion TV</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DisDiffusionTv__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Diffusion TV du distributeur</description>
+        <externalId>false</externalId>
+        <label>Diffusion TV</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DisRexelTopValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du flag REXEL Top Schneider</description>
+        <externalId>false</externalId>
+        <label>Date Validation REXEL Top Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DisRexelTop__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Top client REXEL</description>
+        <externalId>false</externalId>
+        <label>REXEL Top Schneider</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DisTypesClientsValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du type de clients servis par ce distributeur</description>
+        <externalId>false</externalId>
+        <label>Date Validation Types Clients Servis</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DisTypesClients__c</fullName>
+        <description>Types de clients servis par ce distributeur</description>
+        <externalId>false</externalId>
+        <label>Types de Clients Servis</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ENERGY</fullName>
+                    <default>false</default>
+                    <label>ENERGY</label>
+                </value>
+                <value>
+                    <fullName>INDUSTRY</fullName>
+                    <default>false</default>
+                    <label>INDUSTRY</label>
+                </value>
+                <value>
+                    <fullName>PPEB</fullName>
+                    <default>false</default>
+                    <label>PPEB</label>
+                </value>
+                <value>
+                    <fullName>RETAIL</fullName>
+                    <default>false</default>
+                    <label>RETAIL</label>
+                </value>
+                <value>
+                    <fullName>AUTRES</fullName>
+                    <default>false</default>
+                    <label>AUTRES</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DisTypologieDistributeurApprobDate__c</fullName>
+        <description>Date d&apos;approbation (ou refus) de la typologie distributeur validée par le vendeur</description>
+        <externalId>false</externalId>
+        <label>Date Approbation Typologie Distributeur</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DisTypologieDistributeurApprob__c</fullName>
+        <description>Etat d&apos;approbation de la typologie distributeur validée par le vendeur (à approuver, approuvé, refusé)</description>
+        <externalId>false</externalId>
+        <label>Etat Approbation Typologie Distributeur</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>En attente approbation</fullName>
+                    <default>false</default>
+                    <label>En attente approbation</label>
+                </value>
+                <value>
+                    <fullName>Approuvé</fullName>
+                    <default>false</default>
+                    <label>Approuvé</label>
+                </value>
+                <value>
+                    <fullName>Refusé</fullName>
+                    <default>false</default>
+                    <label>Refusé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DisTypologieDistributeurValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la typologie du distributeur</description>
+        <externalId>false</externalId>
+        <label>Date Validation Typologie Distributeur</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DisTypologieDistributeur__c</fullName>
+        <description>Typologie du distributeur (anciennement 2 derniers digits de la segmentation Vantive : DAxx, DBxx, etc.)</description>
+        <externalId>false</externalId>
+        <label>Typologie de Distributeur</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Centre de facturation</fullName>
+                    <default>false</default>
+                    <label>Centre de facturation</label>
+                </value>
+                <value>
+                    <fullName>Direction Régionale</fullName>
+                    <default>false</default>
+                    <label>Direction Régionale</label>
+                </value>
+                <value>
+                    <fullName>Distributeur en Composants Electroniques</fullName>
+                    <default>false</default>
+                    <label>Distributeur en Composants Electroniques</label>
+                </value>
+                <value>
+                    <fullName>Distributeur Informatique et Automate Industriels</fullName>
+                    <default>false</default>
+                    <label>Distributeur Informatique et Automate Industriels</label>
+                </value>
+                <value>
+                    <fullName>Grossiste en Fourniture Méca Industrielle</fullName>
+                    <default>false</default>
+                    <label>Grossiste en Fourniture Méca Industrielle</label>
+                </value>
+                <value>
+                    <fullName>Groupe Financier</fullName>
+                    <default>false</default>
+                    <label>Groupe Financier</label>
+                </value>
+                <value>
+                    <fullName>Négoce du bâtiment</fullName>
+                    <default>false</default>
+                    <label>Négoce du bâtiment</label>
+                </value>
+                <value>
+                    <fullName>Plateforme Multi Enseignes</fullName>
+                    <default>false</default>
+                    <label>Plateforme Multi Enseignes</label>
+                </value>
+                <value>
+                    <fullName>Point de Vente Généraliste / Magasin GSB</fullName>
+                    <default>false</default>
+                    <label>Point de Vente Généraliste / Magasin GSB</label>
+                </value>
+                <value>
+                    <fullName>Point de Vente Spécialiste</fullName>
+                    <default>false</default>
+                    <label>Point de Vente Spécialiste</label>
+                </value>
+                <value>
+                    <fullName>Pôle de Compétences</fullName>
+                    <default>false</default>
+                    <label>Pôle de Compétences</label>
+                </value>
+                <value>
+                    <fullName>Satellite</fullName>
+                    <default>false</default>
+                    <label>Satellite</label>
+                </value>
+                <value>
+                    <fullName>Service Export</fullName>
+                    <default>false</default>
+                    <label>Service Export</label>
+                </value>
+                <value>
+                    <fullName>Siège de Firme</fullName>
+                    <default>false</default>
+                    <label>Siège de Firme</label>
+                </value>
+                <value>
+                    <fullName>Stock Central</fullName>
+                    <default>false</default>
+                    <label>Stock Central</label>
+                </value>
+                <value>
+                    <fullName>Stock GSB et Assimilés</fullName>
+                    <default>false</default>
+                    <label>Stock GSB et Assimilés</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DomaineValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du domaine</description>
+        <externalId>false</externalId>
+        <label>Date Validation Domaine</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Domaine__c</fullName>
+        <description>Domaine du client</description>
+        <externalId>false</externalId>
+        <label>Domaine</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Achats</fullName>
+                    <default>false</default>
+                    <label>Achats</label>
+                </value>
+                <value>
+                    <fullName>Conception</fullName>
+                    <default>false</default>
+                    <label>Conception</label>
+                </value>
+                <value>
+                    <fullName>Innovation</fullName>
+                    <default>false</default>
+                    <label>Innovation</label>
+                </value>
+                <value>
+                    <fullName>Patrimoine</fullName>
+                    <default>false</default>
+                    <label>Patrimoine</label>
+                </value>
+                <value>
+                    <fullName>Programme</fullName>
+                    <default>false</default>
+                    <label>Programme</label>
+                </value>
+                <value>
+                    <fullName>Technique</fullName>
+                    <default>false</default>
+                    <label>Technique</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DoublonVolontaire__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Doublon Volontaire</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EcoEnergieValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la proposition par le client de solutions d&apos;économie et de gestion de l&apos;énergie</description>
+        <externalId>false</externalId>
+        <label>Date Validation Solutions Eco Energie</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>EcoEnergie__c</fullName>
+        <description>Ce client propose à ses propres clients des solutions d&apos;économie et de gestion de l&apos;énergie</description>
+        <externalId>false</externalId>
+        <label>Propose Solutions Eco &amp; Gestion Energie</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Toujours</fullName>
+                    <default>false</default>
+                    <label>Toujours</label>
+                </value>
+                <value>
+                    <fullName>Souvent</fullName>
+                    <default>false</default>
+                    <label>Souvent</label>
+                </value>
+                <value>
+                    <fullName>Parfois</fullName>
+                    <default>false</default>
+                    <label>Parfois</label>
+                </value>
+                <value>
+                    <fullName>Jamais</fullName>
+                    <default>false</default>
+                    <label>Jamais</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EmployeeSizeValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Employee Size</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Enveloppe__c</fullName>
+        <description>Structure enveloppe</description>
+        <externalId>false</externalId>
+        <label>Structure Enveloppe</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Cubic</fullName>
+                    <default>false</default>
+                    <label>Cubic</label>
+                </value>
+                <value>
+                    <fullName>Legrand</fullName>
+                    <default>false</default>
+                    <label>Legrand</label>
+                </value>
+                <value>
+                    <fullName>Logstrup</fullName>
+                    <default>false</default>
+                    <label>Logstrup</label>
+                </value>
+                <value>
+                    <fullName>Natus</fullName>
+                    <default>false</default>
+                    <label>Natus</label>
+                </value>
+                <value>
+                    <fullName>Prisma</fullName>
+                    <default>false</default>
+                    <label>Prisma</label>
+                </value>
+                <value>
+                    <fullName>Tabula</fullName>
+                    <default>false</default>
+                    <label>Tabula</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EnveloppesUniversellesValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé le pourcentage d&apos;enveloppes universelles</description>
+        <externalId>false</externalId>
+        <label>Date Validation Enveloppes Universelles</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>EnveloppesUniverselles__c</fullName>
+        <description>Pourcentage d&apos;enveloppes universelles</description>
+        <externalId>false</externalId>
+        <label>% Enveloppes Universelles (vs. Fonctionn</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ExceptionPOLCO__c</fullName>
+        <externalId>false</externalId>
+        <label>Exception POLCO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oui</fullName>
+                    <default>false</default>
+                    <label>Oui</label>
+                </value>
+                <value>
+                    <fullName>Non</fullName>
+                    <default>false</default>
+                    <label>Non</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExternalID__c</fullName>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GammeValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du niveau de gamme adressé principalement par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Niveau de Gamme</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Gamme__c</fullName>
+        <description>Niveau de gamme adressé principalement par le client</description>
+        <externalId>false</externalId>
+        <label>Niveau de Gamme Prédominant</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Entrée de gamme</fullName>
+                    <default>false</default>
+                    <label>Entrée de gamme</label>
+                </value>
+                <value>
+                    <fullName>Milieu de gamme</fullName>
+                    <default>false</default>
+                    <label>Milieu de gamme</label>
+                </value>
+                <value>
+                    <fullName>Haut de gamme</fullName>
+                    <default>false</default>
+                    <label>Haut de gamme</label>
+                </value>
+                <value>
+                    <fullName>Non pertinent</fullName>
+                    <default>false</default>
+                    <label>Non pertinent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HotelValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du nombre de chambres hôtellerie construites annuellement par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Chambres d&apos;Hôtel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Hotel__c</fullName>
+        <description>Nombre de chambres hôtellerie construites chaque année par le client</description>
+        <externalId>false</externalId>
+        <label>Nombre de Chambres Hôtellerie (Annuel)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1-200</fullName>
+                    <default>false</default>
+                    <label>1-200</label>
+                </value>
+                <value>
+                    <fullName>201-500</fullName>
+                    <default>false</default>
+                    <label>201-500</label>
+                </value>
+                <value>
+                    <fullName>501-1000</fullName>
+                    <default>false</default>
+                    <label>501-1000</label>
+                </value>
+                <value>
+                    <fullName>1001+</fullName>
+                    <default>false</default>
+                    <label>1001+</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Indice223__c</fullName>
+        <externalId>false</externalId>
+        <label>Indices Réalisés 223 (nb colonnes/an)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0 à 10</fullName>
+                    <default>false</default>
+                    <label>0 à 10</label>
+                </value>
+                <value>
+                    <fullName>11 à 20</fullName>
+                    <default>false</default>
+                    <label>11 à 20</label>
+                </value>
+                <value>
+                    <fullName>21 à 100</fullName>
+                    <default>false</default>
+                    <label>21 à 100</label>
+                </value>
+                <value>
+                    <fullName>Plus de 100</fullName>
+                    <default>false</default>
+                    <label>Plus de 100</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Indice233__c</fullName>
+        <externalId>false</externalId>
+        <label>Indices Réalisés 233 (nb colonnes/an)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0 à 10</fullName>
+                    <default>false</default>
+                    <label>0 à 10</label>
+                </value>
+                <value>
+                    <fullName>11 à 20</fullName>
+                    <default>false</default>
+                    <label>11 à 20</label>
+                </value>
+                <value>
+                    <fullName>21 à 100</fullName>
+                    <default>false</default>
+                    <label>21 à 100</label>
+                </value>
+                <value>
+                    <fullName>Plus de 100</fullName>
+                    <default>false</default>
+                    <label>Plus de 100</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Indice333__c</fullName>
+        <externalId>false</externalId>
+        <label>Indices Réalisés 333 (nb colonnes/an)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0 à 10</fullName>
+                    <default>false</default>
+                    <label>0 à 10</label>
+                </value>
+                <value>
+                    <fullName>11 à 20</fullName>
+                    <default>false</default>
+                    <label>11 à 20</label>
+                </value>
+                <value>
+                    <fullName>21 à 100</fullName>
+                    <default>false</default>
+                    <label>21 à 100</label>
+                </value>
+                <value>
+                    <fullName>Plus de 100</fullName>
+                    <default>false</default>
+                    <label>Plus de 100</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IndiceValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé les informations relatives aux indices réalisés par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Indices</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>JDBValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de l&apos;info sur la réalisation par le client de ses propres jeux de barres</description>
+        <externalId>false</externalId>
+        <label>Date Validation Jeux de Barres</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>JDB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indique si ce client réalise ses propres jeux de barres</description>
+        <externalId>false</externalId>
+        <label>Réalise ses jeux de barres</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LastValidationDate__c</fullName>
+        <description>Date de la dernière validation vendeur sur ce client (toutes validations confondues)</description>
+        <externalId>false</externalId>
+        <label>Date Dernière Validation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LeadPolCo__c</fullName>
+        <description>Qui définit le prix pour ce client</description>
+        <externalId>false</externalId>
+        <label>Lead PolCo</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Transac DO Lead</fullName>
+                    <default>false</default>
+                    <label>Transac DO Lead</label>
+                </value>
+                <value>
+                    <fullName>DO Lead</fullName>
+                    <default>false</default>
+                    <label>DO Lead</label>
+                </value>
+                <value>
+                    <fullName>Schneider Lead</fullName>
+                    <default>false</default>
+                    <label>Schneider Lead</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LienApplicationMobile__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://schneider-quic.herokuapp.com&quot;, &quot;Cliquez ici&quot;, &quot;_blank&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lien Application Mobile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LogementsValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du nombre de logements construits annuellement par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Nombre Logements</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Logements__c</fullName>
+        <description>Nombre de logements construits chaque année par le client</description>
+        <externalId>false</externalId>
+        <label>Nombre de Logements (Annuel)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1-200</fullName>
+                    <default>false</default>
+                    <label>1-200</label>
+                </value>
+                <value>
+                    <fullName>201-500</fullName>
+                    <default>false</default>
+                    <label>201-500</label>
+                </value>
+                <value>
+                    <fullName>501-1000</fullName>
+                    <default>false</default>
+                    <label>501-1000</label>
+                </value>
+                <value>
+                    <fullName>1001+</fullName>
+                    <default>false</default>
+                    <label>1001+</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MachinesValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé le nombre de machines annuel du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Nb de Machines Annuel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Machines__c</fullName>
+        <description>Nombre de machines annuel du client</description>
+        <externalId>false</externalId>
+        <label>Nombre Machines Annuel</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MaintenanceIndus__c</fullName>
+        <description>Ce client réalise l&apos;électricité dans la maintenance industrielle</description>
+        <externalId>false</externalId>
+        <label>Fait de la Maintenance Industrielle</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oui</fullName>
+                    <default>false</default>
+                    <label>Oui</label>
+                </value>
+                <value>
+                    <fullName>Non</fullName>
+                    <default>false</default>
+                    <label>Non</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MarketSegmentApprobDate__c</fullName>
+        <description>Date d&apos;approbation par le marketing du market segment validé par le vendeur</description>
+        <externalId>false</externalId>
+        <label>Date Approbation Market Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MarketSegmentApprob__c</fullName>
+        <description>Etat de l&apos;Approbation par le marketing du market segment validé par le vendeur</description>
+        <externalId>false</externalId>
+        <label>Etat Approbation Market Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>En attente approbation</fullName>
+                    <default>false</default>
+                    <label>En attente approbation</label>
+                </value>
+                <value>
+                    <fullName>Approuvé</fullName>
+                    <default>false</default>
+                    <label>Approuvé</label>
+                </value>
+                <value>
+                    <fullName>Refusé</fullName>
+                    <default>false</default>
+                    <label>Refusé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MarketSegmentValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du market segment</description>
+        <externalId>false</externalId>
+        <label>Date Validation Market Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MarketSubSegmentApprobDate__c</fullName>
+        <description>Date de l&apos;approbation par le marketing du market sub-segment validé par le vendeur</description>
+        <externalId>false</externalId>
+        <label>Date Approbation Market Sub-Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MarketSubSegmentApprob__c</fullName>
+        <description>Etat de l&apos;approbation par le marketing du Market Sub-Segment validé par le vendeur</description>
+        <externalId>false</externalId>
+        <label>Etat Approbation Market Sub-Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>En attente approbation</fullName>
+                    <default>false</default>
+                    <label>En attente approbation</label>
+                </value>
+                <value>
+                    <fullName>Approuvé</fullName>
+                    <default>false</default>
+                    <label>Approuvé</label>
+                </value>
+                <value>
+                    <fullName>Refusé</fullName>
+                    <default>false</default>
+                    <label>Refusé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MarketSubSegmentValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du market sub-segment</description>
+        <externalId>false</externalId>
+        <label>Date Validation Market Sub-Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MontantAchatITBValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du montant d&apos;achat onduleurs, racks, PDUs par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Montant Achat Onduleurs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MontantAchatITB__c</fullName>
+        <description>Montant d&apos;achat Onduleurs, Racks, PDUs du client</description>
+        <externalId>false</externalId>
+        <label>Montant d&apos;Achat Onduleurs, Racks, PDUs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MotifDoublonVolontaire__c</fullName>
+        <externalId>false</externalId>
+        <label>Motif Doublon Volontaire</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AGENCE</fullName>
+                    <default>false</default>
+                    <label>AGENCE</label>
+                </value>
+                <value>
+                    <fullName>BU</fullName>
+                    <default>false</default>
+                    <label>BU</label>
+                </value>
+                <value>
+                    <fullName>CRCE</fullName>
+                    <default>false</default>
+                    <label>CRCE</label>
+                </value>
+                <value>
+                    <fullName>DV</fullName>
+                    <default>false</default>
+                    <label>DV</label>
+                </value>
+                <value>
+                    <fullName>ENE</fullName>
+                    <default>false</default>
+                    <label>ENE</label>
+                </value>
+                <value>
+                    <fullName>IND</fullName>
+                    <default>false</default>
+                    <label>IND</label>
+                </value>
+                <value>
+                    <fullName>POLE</fullName>
+                    <default>false</default>
+                    <label>POLE</label>
+                </value>
+                <value>
+                    <fullName>PPEB</fullName>
+                    <default>false</default>
+                    <label>PPEB</label>
+                </value>
+                <value>
+                    <fullName>REGION</fullName>
+                    <default>false</default>
+                    <label>REGION</label>
+                </value>
+                <value>
+                    <fullName>SIEGE</fullName>
+                    <default>false</default>
+                    <label>SIEGE</label>
+                </value>
+                <value>
+                    <fullName>STATISTIQUE</fullName>
+                    <default>false</default>
+                    <label>STATISTIQUE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MoyensTechniquesValidationDate__c</fullName>
+        <description>Date de validation par le vendeur des moyens techniques dont dispose le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Moyens Techniques</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>NafApprobDate__c</fullName>
+        <description>Date d&apos;approbation (ou refus) du code NAF validé par le vendeur</description>
+        <externalId>false</externalId>
+        <label>Date Approbation NAF</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>NafApprob__c</fullName>
+        <description>Etat d&apos;approbation du code NAF validé par le vendeur (à approuver, approuvé, refusé)</description>
+        <externalId>false</externalId>
+        <label>Etat Approbation NAF</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>En attente approbation</fullName>
+                    <default>false</default>
+                    <label>En attente approbation</label>
+                </value>
+                <value>
+                    <fullName>Approuvé</fullName>
+                    <default>false</default>
+                    <label>Approuvé</label>
+                </value>
+                <value>
+                    <fullName>Refusé</fullName>
+                    <default>false</default>
+                    <label>Refusé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NafValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Code NAF</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Naf__c</fullName>
+        <externalId>false</externalId>
+        <label>NAF</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NameValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>NbCableursValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du nombre de câbleurs chez ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Nombre de Câbleurs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>NbCableurs__c</fullName>
+        <description>Nombre de câbleurs chez ce client</description>
+        <externalId>false</externalId>
+        <label>Nombre de câbleurs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 à 4</fullName>
+                    <default>false</default>
+                    <label>1 à 4</label>
+                </value>
+                <value>
+                    <fullName>5 à 10</fullName>
+                    <default>false</default>
+                    <label>5 à 10</label>
+                </value>
+                <value>
+                    <fullName>11 à 20</fullName>
+                    <default>false</default>
+                    <label>11 à 20</label>
+                </value>
+                <value>
+                    <fullName>Plus de 20</fullName>
+                    <default>false</default>
+                    <label>Plus de 20</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NbChefsValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du nombre de chargés d&apos;affaire, chefs d&apos;ateliers, responsables de groupe chez ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Ch d&apos;Affaire, Ch Atelier</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>NbChefs__c</fullName>
+        <description>Nombre de chargés d&apos;affaire, chefs d&apos;ateliers, responsables de groupe chez ce client</description>
+        <externalId>false</externalId>
+        <label>Chargés d&apos;affaire, chefs d&apos;atelier, ...</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 à 4</fullName>
+                    <default>false</default>
+                    <label>1 à 4</label>
+                </value>
+                <value>
+                    <fullName>5 à 10</fullName>
+                    <default>false</default>
+                    <label>5 à 10</label>
+                </value>
+                <value>
+                    <fullName>11 à 20</fullName>
+                    <default>false</default>
+                    <label>11 à 20</label>
+                </value>
+                <value>
+                    <fullName>Plus de 20</fullName>
+                    <default>false</default>
+                    <label>Plus de 20</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NomTableau__c</fullName>
+        <description>Indique le nom du tableau électrique dont ce client est propriétaire (vide si pas propriétaire de tableau)</description>
+        <externalId>false</externalId>
+        <label>Nom du Tableau</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NombrePersonnesAvantVenteValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du nombre de personnes avant-vente chez le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Nombre Avant-Vente</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>NombrePersonnesAvantVente__c</fullName>
+        <description>Nombre de personnes dédiées avant-vente chez le client</description>
+        <externalId>false</externalId>
+        <label>Nombre de Personnes Avant-Vente</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OnduleursAutres__c</fullName>
+        <description>Pourcentage d&apos;onduleurs d&apos;autres marques acheté par le client</description>
+        <externalId>false</externalId>
+        <formula>100 - OnduleursEaton__c - OnduleursEmerson__c - OnduleursSchneider__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>% Onduleurs Autres Marques</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OnduleursEaton__c</fullName>
+        <description>Pourcentage d&apos;onduleurs Eaton acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% Onduleurs Eaton</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OnduleursEmerson__c</fullName>
+        <description>Pourcentage d&apos;onduleurs Emerson acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% Onduleurs Emerson</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OnduleursSchneider__c</fullName>
+        <description>Pourcentage d&apos;onduleurs Eaton acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% Onduleurs Schneider</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OnduleursValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la répartition en pourcentage des marques d&apos;onduleurs achetées</description>
+        <externalId>false</externalId>
+        <label>Date Validation % Onduleurs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>OpinionLeaderValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Leader d&apos;opinion</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>OpinionLeader__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Leader d&apos;opinion</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAMOneValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé le PAM One pour ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation PAM One</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PAMOne__c</fullName>
+        <description>PAM accessible globalement par Schneider (cross-selling) chez ce client</description>
+        <externalId>false</externalId>
+        <label>PAM One</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PDMDistriValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé la part de marché Schneider Electric sur la distribution électrique chez ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Part Marché SE Distri</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PDMDistri__c</fullName>
+        <description>Part de marché de Schneider Electric sur la distribution électrique chez ce client</description>
+        <externalId>false</externalId>
+        <label>Part de Marché SE sur Distribution Elec</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PDUsAutres__c</fullName>
+        <externalId>false</externalId>
+        <formula>100 -  PDUsEaton__c - PDUsRaritan__c - PDUsSchneider__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>% PDUs Autres Marques</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PDUsEaton__c</fullName>
+        <description>Pourcentage de PDUs Eaton acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% PDUs Eaton</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PDUsRaritan__c</fullName>
+        <description>Pourcentage de PDUs Raritan acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% PDUs Raritan</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PDUsSchneider__c</fullName>
+        <description>Pourcentage de PDUs Schneider acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% PDUs Schneider</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PDUsValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la répartition en pourcentage des marques de PDUs achetées</description>
+        <externalId>false</externalId>
+        <label>Date Validation % PDUs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PRMControleValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé la part de marché Schneider Electric sur le contrôle industriel chez ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Part Marché SE Contr Ind</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PRMControle__c</fullName>
+        <description>Part de marché de Schneider Electric sur le contrôle industriel chez ce client</description>
+        <externalId>false</externalId>
+        <label>Part de Marché SE sur Contrôle Indus</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PartElecValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la part d&apos;activité électrique du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Part d&apos;Activité Elec</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PartElec__c</fullName>
+        <description>Part d&apos;activité électrique pour le client</description>
+        <externalId>false</externalId>
+        <label>Part d&apos;Activité Electrique</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0 - 25%</fullName>
+                    <default>false</default>
+                    <label>0 - 25%</label>
+                </value>
+                <value>
+                    <fullName>25 - 50%</fullName>
+                    <default>false</default>
+                    <label>25 - 50%</label>
+                </value>
+                <value>
+                    <fullName>50 - 75%</fullName>
+                    <default>false</default>
+                    <label>50 - 75%</label>
+                </value>
+                <value>
+                    <fullName>75 - 99%</fullName>
+                    <default>false</default>
+                    <label>75 - 99%</label>
+                </value>
+                <value>
+                    <fullName>100%</fullName>
+                    <default>false</default>
+                    <label>100%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PartRenovationValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de % rénovation dans résidentiel pour ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation % Rénovation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PartRenovation__c</fullName>
+        <description>Pourcentage de rénovation que ce client réalise dans le résidentiel</description>
+        <externalId>false</externalId>
+        <label>% Rénovation Dans Résidentiel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0%</fullName>
+                    <default>false</default>
+                    <label>0%</label>
+                </value>
+                <value>
+                    <fullName>1 à 25%</fullName>
+                    <default>false</default>
+                    <label>1 à 25%</label>
+                </value>
+                <value>
+                    <fullName>25 à 50%</fullName>
+                    <default>false</default>
+                    <label>25 à 50%</label>
+                </value>
+                <value>
+                    <fullName>50 à 75%</fullName>
+                    <default>false</default>
+                    <label>50 à 75%</label>
+                </value>
+                <value>
+                    <fullName>75 à 99%</fullName>
+                    <default>false</default>
+                    <label>75 à 99%</label>
+                </value>
+                <value>
+                    <fullName>100%</fullName>
+                    <default>false</default>
+                    <label>100%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Peinture__c</fullName>
+        <description>Moyens techniques dont dispose ce client en peinture</description>
+        <externalId>false</externalId>
+        <label>Moyens Techniques en Peinture</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pas de moyens spécifiques</fullName>
+                    <default>false</default>
+                    <label>Pas de moyens spécifiques</label>
+                </value>
+                <value>
+                    <fullName>Moyen</fullName>
+                    <default>false</default>
+                    <label>Moyen</label>
+                </value>
+                <value>
+                    <fullName>Elevé</fullName>
+                    <default>false</default>
+                    <label>Elevé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PersonnelFixeValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du pourcentage de personnel fixe chez ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation % Personnel Fixe</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PersonnelFixe__c</fullName>
+        <description>Pourcentage de personnel fixe chez ce client</description>
+        <externalId>false</externalId>
+        <label>% Personnel Fixe</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PetitTertiaire__c</fullName>
+        <description>Ce client réalise l&apos;électricité dans le petit tertiaire</description>
+        <externalId>false</externalId>
+        <label>Fait du Petit Tertiaire</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oui</fullName>
+                    <default>false</default>
+                    <label>Oui</label>
+                </value>
+                <value>
+                    <fullName>Non</fullName>
+                    <default>false</default>
+                    <label>Non</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PhoneValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Plateforme__c</fullName>
+        <description>Moyens techniques dont dispose ce client en termes de plateforme d&apos;essais</description>
+        <externalId>false</externalId>
+        <label>Moyens Techniques Plateforme d&apos;Essais</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pas de moyens spécifiques</fullName>
+                    <default>false</default>
+                    <label>Pas de moyens spécifiques</label>
+                </value>
+                <value>
+                    <fullName>Moyen</fullName>
+                    <default>false</default>
+                    <label>Moyen</label>
+                </value>
+                <value>
+                    <fullName>Elevé</fullName>
+                    <default>false</default>
+                    <label>Elevé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PotentielCroissanceValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du potentiel de croissance du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Potentiel de Croissance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PotentielCroissance__c</fullName>
+        <description>Potentiel de croissance du client</description>
+        <externalId>false</externalId>
+        <label>Potentiel de Croissance du Client</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Décroissance</fullName>
+                    <default>false</default>
+                    <label>Décroissance</label>
+                </value>
+                <value>
+                    <fullName>Stable</fullName>
+                    <default>false</default>
+                    <label>Stable</label>
+                </value>
+                <value>
+                    <fullName>Légère croissance</fullName>
+                    <default>false</default>
+                    <label>Légère croissance</label>
+                </value>
+                <value>
+                    <fullName>Forte croissance</fullName>
+                    <default>false</default>
+                    <label>Forte croissance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Prescripteur_d_Appareillage_SE__c</fullName>
+        <description>Ce client est-il prescripteur d&apos;appareillage SE ?</description>
+        <externalId>false</externalId>
+        <label>Prescripteur d&apos;Appareillage SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Toujours</fullName>
+                    <default>false</default>
+                    <label>Toujours</label>
+                </value>
+                <value>
+                    <fullName>Souvent</fullName>
+                    <default>false</default>
+                    <label>Souvent</label>
+                </value>
+                <value>
+                    <fullName>Parfois</fullName>
+                    <default>false</default>
+                    <label>Parfois</label>
+                </value>
+                <value>
+                    <fullName>Jamais</fullName>
+                    <default>false</default>
+                    <label>Jamais</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PriceSensitivityValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Sensibilité Prix</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PriceSensitivity__c</fullName>
+        <externalId>false</externalId>
+        <label>Sensibilité au prix</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Prix=1er critère de choix</fullName>
+                    <default>false</default>
+                    <label>Prix=1er critère de choix</label>
+                </value>
+                <value>
+                    <fullName>Demande souvent un prix spécial</fullName>
+                    <default>false</default>
+                    <label>Demande souvent un prix spécial</label>
+                </value>
+                <value>
+                    <fullName>Le prix n&apos;est pas le 1er critère</fullName>
+                    <default>false</default>
+                    <label>Le prix n&apos;est pas le 1er critère</label>
+                </value>
+                <value>
+                    <fullName>Non sensible au prix</fullName>
+                    <default>false</default>
+                    <label>Non sensible au prix</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProgrammePartenaireITBValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du programme partenaire ITB auquel est rattaché ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Programme Partenaire</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ProgrammePartenaireITB__c</fullName>
+        <description>Programme partenaire ITB auquel est rattaché ce client</description>
+        <externalId>false</externalId>
+        <label>Programme Partenaire</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Elite</fullName>
+                    <default>false</default>
+                    <label>Elite</label>
+                </value>
+                <value>
+                    <fullName>Premier</fullName>
+                    <default>false</default>
+                    <label>Premier</label>
+                </value>
+                <value>
+                    <fullName>Registered</fullName>
+                    <default>false</default>
+                    <label>Registered</label>
+                </value>
+                <value>
+                    <fullName>Sans et non intéréssé</fullName>
+                    <default>false</default>
+                    <label>Sans et non intéréssé</label>
+                </value>
+                <value>
+                    <fullName>Sans mais intéressé</fullName>
+                    <default>false</default>
+                    <label>Sans mais intéressé</label>
+                </value>
+                <value>
+                    <fullName>Select</fullName>
+                    <default>false</default>
+                    <label>Select</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QualiteValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé le niveau de qualité ISO atteinte chez ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Qualité ISO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Qualite__c</fullName>
+        <description>Indique le degré de qualité ISO atteint chez ce client</description>
+        <externalId>false</externalId>
+        <label>Processus &amp; Procédure Qualité ISO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pas de processus</fullName>
+                    <default>false</default>
+                    <label>Pas de processus</label>
+                </value>
+                <value>
+                    <fullName>Des procédures</fullName>
+                    <default>false</default>
+                    <label>Des procédures</label>
+                </value>
+                <value>
+                    <fullName>Système de management de la qualité</fullName>
+                    <default>false</default>
+                    <label>Système de management de la qualité</label>
+                </value>
+                <value>
+                    <fullName>Process lean</fullName>
+                    <default>false</default>
+                    <label>Process lean</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RacksAutres__c</fullName>
+        <description>Pourcentage de racks d&apos;autres marques acheté par le client</description>
+        <externalId>false</externalId>
+        <formula>100 -  RacksHP__c - RacksMinkels__c - RacksRittal__c - RacksSchneider__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>% Racks Autres Marques</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RacksHP__c</fullName>
+        <description>Pourcentage de racks HP acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% Racks HP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RacksMinkels__c</fullName>
+        <description>Pourcentage de racks Minkels acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% Racks Minkels</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RacksRittal__c</fullName>
+        <description>Pourcentage de racks Rittal acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% Racks Rittal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RacksSchneider__c</fullName>
+        <description>Pourcentage de racks Schneider acheté par le client</description>
+        <externalId>false</externalId>
+        <label>% Racks Schneider</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RacksValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la répartition en pourcentage des marques de racks achetées</description>
+        <externalId>false</externalId>
+        <label>Date Validation % Racks</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>RelationShipValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Relation avec S.</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>RelationShip__c</fullName>
+        <externalId>false</externalId>
+        <label>Relation avec Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pas de contact avec Schneider</fullName>
+                    <default>false</default>
+                    <label>Pas de contact avec Schneider</label>
+                </value>
+                <value>
+                    <fullName>Contacts si besoin</fullName>
+                    <default>false</default>
+                    <label>Contacts si besoin</label>
+                </value>
+                <value>
+                    <fullName>Contacts réguliers</fullName>
+                    <default>false</default>
+                    <label>Contacts réguliers</label>
+                </value>
+                <value>
+                    <fullName>Relations de long terme</fullName>
+                    <default>false</default>
+                    <label>Relations de long terme</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Residentiel__c</fullName>
+        <description>Ce client réalise l&apos;électricité dans le résidentiel</description>
+        <externalId>false</externalId>
+        <label>Fait du Résidentiel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oui</fullName>
+                    <default>false</default>
+                    <label>Oui</label>
+                </value>
+                <value>
+                    <fullName>Non</fullName>
+                    <default>false</default>
+                    <label>Non</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RetailClassDetail__c</fullName>
+        <description>Classification détaillée du client (BU Retail)</description>
+        <externalId>false</externalId>
+        <label>Classification Détaillée</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Architecte</fullName>
+                    <default>false</default>
+                    <label>Architecte</label>
+                </value>
+                <value>
+                    <fullName>Artisan électricien</fullName>
+                    <default>false</default>
+                    <label>Artisan électricien</label>
+                </value>
+                <value>
+                    <fullName>Assistant à maîtrise d&apos;ouvrage</fullName>
+                    <default>false</default>
+                    <label>Assistant à maîtrise d&apos;ouvrage</label>
+                </value>
+                <value>
+                    <fullName>Associations professionnelles</fullName>
+                    <default>false</default>
+                    <label>Associations professionnelles</label>
+                </value>
+                <value>
+                    <fullName>Bailleur social</fullName>
+                    <default>false</default>
+                    <label>Bailleur social</label>
+                </value>
+                <value>
+                    <fullName>Bureau d&apos;étude</fullName>
+                    <default>false</default>
+                    <label>Bureau d&apos;étude</label>
+                </value>
+                <value>
+                    <fullName>CMI installateur intégré</fullName>
+                    <default>false</default>
+                    <label>CMI installateur intégré</label>
+                </value>
+                <value>
+                    <fullName>CMI pieuvriste</fullName>
+                    <default>false</default>
+                    <label>CMI pieuvriste</label>
+                </value>
+                <value>
+                    <fullName>CMI traditionnel</fullName>
+                    <default>false</default>
+                    <label>CMI traditionnel</label>
+                </value>
+                <value>
+                    <fullName>Economiste de la construction</fullName>
+                    <default>false</default>
+                    <label>Economiste de la construction</label>
+                </value>
+                <value>
+                    <fullName>Entreprise d&apos;électricité</fullName>
+                    <default>false</default>
+                    <label>Entreprise d&apos;électricité</label>
+                </value>
+                <value>
+                    <fullName>Entreprise générale du bâtiment (EGB)</fullName>
+                    <default>false</default>
+                    <label>Entreprise générale du bâtiment (EGB)</label>
+                </value>
+                <value>
+                    <fullName>Installateur major</fullName>
+                    <default>false</default>
+                    <label>Installateur major</label>
+                </value>
+                <value>
+                    <fullName>Maître d&apos;œuvre</fullName>
+                    <default>false</default>
+                    <label>Maître d&apos;œuvre</label>
+                </value>
+                <value>
+                    <fullName>OEM du résidentiel</fullName>
+                    <default>false</default>
+                    <label>OEM du résidentiel</label>
+                </value>
+                <value>
+                    <fullName>Promoteur</fullName>
+                    <default>false</default>
+                    <label>Promoteur</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RetraitValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la modalité de retrait principale du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Mode Retrait</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Retrait__c</fullName>
+        <description>Modalité préférée de retrait du client</description>
+        <externalId>false</externalId>
+        <label>Modalité Préférée de Retrait</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Comptoir commandé</fullName>
+                    <default>false</default>
+                    <label>Comptoir commandé</label>
+                </value>
+                <value>
+                    <fullName>Comptoir immédiat</fullName>
+                    <default>false</default>
+                    <label>Comptoir immédiat</label>
+                </value>
+                <value>
+                    <fullName>Livraison atelier</fullName>
+                    <default>false</default>
+                    <label>Livraison atelier</label>
+                </value>
+                <value>
+                    <fullName>Livraison sur chantier</fullName>
+                    <default>false</default>
+                    <label>Livraison sur chantier</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rexel__c</fullName>
+        <description>Pourcentage d&apos;approvisionnement chez Rexel</description>
+        <externalId>false</externalId>
+        <label>% Approvisionnement chez Rexel</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>RisquePerteCAValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du risque de perte de chiffre d&apos;affaire chez ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Risque de Perte CA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>RisquePerteCA__c</fullName>
+        <description>Risque de perte de chiffre d&apos;affaire chez ce client</description>
+        <externalId>false</externalId>
+        <label>Risque de Perte de CA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pas de risque</fullName>
+                    <default>false</default>
+                    <label>Pas de risque</label>
+                </value>
+                <value>
+                    <fullName>Peu de risque</fullName>
+                    <default>false</default>
+                    <label>Peu de risque</label>
+                </value>
+                <value>
+                    <fullName>Risque sensible</fullName>
+                    <default>false</default>
+                    <label>Risque sensible</label>
+                </value>
+                <value>
+                    <fullName>Gros risque</fullName>
+                    <default>false</default>
+                    <label>Gros risque</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SIAllianceValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de l&apos;appartenance du client au réseau SI Alliance</description>
+        <externalId>false</externalId>
+        <label>Date Validation SI Alliance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SIAlliance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indique si le client fait partie du réseau SI Alliance</description>
+        <externalId>false</externalId>
+        <label>Fait partie du réseau SI Alliance</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SanteValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du nombre de chambres santé construites annuellement par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Chambres Santé</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Sante__c</fullName>
+        <description>Nombre de chambres santé construites chaque année par le client</description>
+        <externalId>false</externalId>
+        <label>Nombre de Chambres Santé (Annuel)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1-200</fullName>
+                    <default>false</default>
+                    <label>1-200</label>
+                </value>
+                <value>
+                    <fullName>201-500</fullName>
+                    <default>false</default>
+                    <label>201-500</label>
+                </value>
+                <value>
+                    <fullName>501-1000</fullName>
+                    <default>false</default>
+                    <label>501-1000</label>
+                </value>
+                <value>
+                    <fullName>1001+</fullName>
+                    <default>false</default>
+                    <label>1001+</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SchneiderPromoterValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Prescripteur Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SchneiderPromoter__c</fullName>
+        <externalId>false</externalId>
+        <label>Prescripteur de Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Toujours</fullName>
+                    <default>false</default>
+                    <label>Toujours</label>
+                </value>
+                <value>
+                    <fullName>Souvent</fullName>
+                    <default>false</default>
+                    <label>Souvent</label>
+                </value>
+                <value>
+                    <fullName>Parfois</fullName>
+                    <default>false</default>
+                    <label>Parfois</label>
+                </value>
+                <value>
+                    <fullName>Jamais</fullName>
+                    <default>false</default>
+                    <label>Jamais</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SegmentGenieClim__c</fullName>
+        <description>Pourcentage du segment de marché Génie Climatique pour ce client</description>
+        <externalId>false</externalId>
+        <label>% Segment de Marché Génie Climatique</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SegmentIndus__c</fullName>
+        <description>Pourcentage du segment de marché Industrie pour ce client</description>
+        <externalId>false</externalId>
+        <label>% Segment de Marché Industrie</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SegmentInfra__c</fullName>
+        <description>Pourcentage du segment de marché Infrastructure pour ce client</description>
+        <externalId>false</externalId>
+        <label>% Segment de Marché Infrastructure</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SegmentOEM__c</fullName>
+        <description>Pourcentage du segment de marché OEM pour ce client</description>
+        <externalId>false</externalId>
+        <label>% Segment de Marché OEM</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SegmentTertiaire__c</fullName>
+        <description>Pourcentage du segment de marché Tertiaire pour ce client</description>
+        <externalId>false</externalId>
+        <label>% Segment de Marché Tertiaire</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SegmentsValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé les pourcentages de segments de marché ciblés par ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Segments de Marché</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SiretApprobDate__c</fullName>
+        <description>Date d&apos;approbation (ou refus) du SIRET validé par le vendeur</description>
+        <externalId>false</externalId>
+        <label>Date Approbation SIRET</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SiretApprob__c</fullName>
+        <description>Etat d&apos;approbation du SIRET validé par le vendeur (à approuver, approuvé, refusé)</description>
+        <externalId>false</externalId>
+        <label>Etat Approbation SIRET</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>En attente approbation</fullName>
+                    <default>false</default>
+                    <label>En attente approbation</label>
+                </value>
+                <value>
+                    <fullName>Approuvé</fullName>
+                    <default>false</default>
+                    <label>Approuvé</label>
+                </value>
+                <value>
+                    <fullName>Refusé</fullName>
+                    <default>false</default>
+                    <label>Refusé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SiretValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation SIRET</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Sonepar__c</fullName>
+        <description>Pourcentage d&apos;approvisionnement chez Sonepar</description>
+        <externalId>false</externalId>
+        <label>% Approvisionnement chez Sonepar</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SpecialisationPPITBValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la spécialisation du programme partenaire ITB à laquelle est rattaché le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Spécialisation PP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SpecialisationPPITB__c</fullName>
+        <description>Spécialisation du programme partenaire ITB à laquelle est rattaché le client</description>
+        <externalId>false</externalId>
+        <label>Spécialisation Programme Partenaire</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Aucune</fullName>
+                    <default>false</default>
+                    <label>Aucune</label>
+                </value>
+                <value>
+                    <fullName>Business Networks</fullName>
+                    <default>false</default>
+                    <label>Business Networks</label>
+                </value>
+                <value>
+                    <fullName>Cooling</fullName>
+                    <default>false</default>
+                    <label>Cooling</label>
+                </value>
+                <value>
+                    <fullName>Data Center</fullName>
+                    <default>false</default>
+                    <label>Data Center</label>
+                </value>
+                <value>
+                    <fullName>Industry &amp; Infrastructure</fullName>
+                    <default>false</default>
+                    <label>Industry &amp; Infrastructure</label>
+                </value>
+                <value>
+                    <fullName>IT Power</fullName>
+                    <default>false</default>
+                    <label>IT Power</label>
+                </value>
+                <value>
+                    <fullName>Prefabricated Data Center</fullName>
+                    <default>false</default>
+                    <label>Prefabricated Data Center</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Soho</fullName>
+                    <default>false</default>
+                    <label>Soho</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Statut2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Completion2__c = 1, &apos;Validés&apos;, IF(Completion2__c = 0, &apos;Non qualifiés&apos;, IF(Completion2__c &gt; 0, &apos;En cours&apos;, &apos;&apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>*Statut</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Statut__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Completion__c = 1, &apos;Validés&apos;, IF(Completion__c = 0, &apos;Non qualifiés&apos;, IF(Completion__c &gt; 0, &apos;En cours&apos;, &apos;&apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Statut</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Synchronize_With_Marketo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Synchronisation Marketo Account</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TECH_UniqueFieldOnAccountID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>false</externalId>
+        <label>TECH_Unique Field on Account ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>TGBT3200AValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé le pourcentage de TGBT supérieurs à 3200 A</description>
+        <externalId>false</externalId>
+        <label>Date Validation % TGBT &gt; 3200 A</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TGBT3200A__c</fullName>
+        <description>Pourcentage de TGBT supérieurs à 3200 A</description>
+        <externalId>false</externalId>
+        <label>% TGBT Supérieurs à 3200 A</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TableauValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé les informations sur le tableau électrique du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Tableau</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Tableau__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indique si ce client est propriétaire d&apos;un tableau électrique</description>
+        <externalId>false</externalId>
+        <label>Propriétaire d&apos;un Tableau</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TableauxComValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de la prescription de tableaux de communication SE par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Tableaux Comm SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TableauxCom__c</fullName>
+        <description>Ce client est-il prescripteur de tableaux de communication SE ?</description>
+        <externalId>false</externalId>
+        <label>Prescripteur Tableaux Communication SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Toujours</fullName>
+                    <default>false</default>
+                    <label>Toujours</label>
+                </value>
+                <value>
+                    <fullName>Souvent</fullName>
+                    <default>false</default>
+                    <label>Souvent</label>
+                </value>
+                <value>
+                    <fullName>Parfois</fullName>
+                    <default>false</default>
+                    <label>Parfois</label>
+                </value>
+                <value>
+                    <fullName>Jamais</fullName>
+                    <default>false</default>
+                    <label>Jamais</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TertiaireValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du nombre de m2  de bâtiments tertiaires réalisés</description>
+        <externalId>false</externalId>
+        <label>Date Validation Tertiaire</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Tertiaire__c</fullName>
+        <description>Nombre de m2 de bâtiments tertiaires réalisés chaque année</description>
+        <externalId>false</externalId>
+        <label>Nombre de m2 Tertiaire (Annuel)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tolerie__c</fullName>
+        <description>Moyens techniques dont dispose ce client en tôlerie</description>
+        <externalId>false</externalId>
+        <label>Moyens Techniques en Tôlerie</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pas de moyens spécifiques</fullName>
+                    <default>false</default>
+                    <label>Pas de moyens spécifiques</label>
+                </value>
+                <value>
+                    <fullName>Moyen</fullName>
+                    <default>false</default>
+                    <label>Moyen</label>
+                </value>
+                <value>
+                    <fullName>Elevé</fullName>
+                    <default>false</default>
+                    <label>Elevé</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TypeChantierValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du type de chantiers adressés par le client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Type Chantier</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>UltiParentAccValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de l&apos;ultimate parent account</description>
+        <externalId>false</externalId>
+        <label>Date Validation Ultimate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>UniteDeporteeCommentaire__c</fullName>
+        <description>Commentaire sur l&apos;unité déportée du client</description>
+        <externalId>false</externalId>
+        <label>Commentaire sur l&apos;Unité Déportée</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UniteDeporteeValidationDate__c</fullName>
+        <description>Date de validation par le vendeur des infos sur l&apos;unité déportée du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Unité Déportée</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>UniteDeportee__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Ce client possède une unité déportée</description>
+        <externalId>false</externalId>
+        <label>Unité Déportée</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VenteAnnuelleServeursValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du nombre de serveurs vendus annuellement</description>
+        <externalId>false</externalId>
+        <label>Date Validation Vente Annuelle Serveurs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>VenteAnnuelleServeurs__c</fullName>
+        <description>Nombre de serveurs annuels vendus</description>
+        <externalId>false</externalId>
+        <label>Vente Annuelle en Nombre de Serveurs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Moins de 25</fullName>
+                    <default>false</default>
+                    <label>Moins de 25</label>
+                </value>
+                <value>
+                    <fullName>Entre 25 et 49</fullName>
+                    <default>false</default>
+                    <label>Entre 25 et 49</label>
+                </value>
+                <value>
+                    <fullName>Entre  50 et 99</fullName>
+                    <default>false</default>
+                    <label>Entre  50 et 99</label>
+                </value>
+                <value>
+                    <fullName>Plus de 100</fullName>
+                    <default>false</default>
+                    <label>Plus de 100</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Info Client France</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Info Qualif Id-{0000}</displayFormat>
+        <label>Info Qualif</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Info Client France</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AccountOwner__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Completion__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Statut__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Categorisation__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AccountOwner__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Completion__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Statut__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Categorisation__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

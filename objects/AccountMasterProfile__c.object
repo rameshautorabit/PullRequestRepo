@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>VFP_AccountMasterProfileRedirection</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccountClassificationLevel1__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Text(Account__r.ClassLevel1__c )= &apos;EU&apos;,&apos;End User&apos;,
+	If(Text(Account__r.ClassLevel1__c )= &apos;IG&apos;,&apos;Internal Schneider Entity&apos;,
+		If(Text(Account__r.ClassLevel1__c )= &apos;LC&apos;,&apos;Contractor&apos;,
+			If(Text(Account__r.ClassLevel1__c )= &apos;OM&apos;,&apos;Original Equipment Manufacturer&apos;,
+				If(Text(Account__r.ClassLevel1__c )= &apos;PB&apos;,&apos;Panel Builder&apos;,
+					If(Text(Account__r.ClassLevel1__c )= &apos;RT&apos;,&apos;Consumer Retailer&apos;,
+						If(Text(Account__r.ClassLevel1__c )= &apos;SC&apos;,&apos;Electrician&apos;,
+							If(Text(Account__r.ClassLevel1__c )= &apos;SI&apos;,&apos;System Integrator&apos;,
+								If(Text(Account__r.ClassLevel1__c )= &apos;SP&apos;,&apos;Specifier&apos;,
+									If(Text(Account__r.ClassLevel1__c )= &apos;VR&apos;,&apos;IT Reseller&apos;,
+										If(Text(Account__r.ClassLevel1__c )= &apos;WD&apos;,&apos;B2B Distribution&apos;,
+											If(Text(Account__r.ClassLevel1__c )= &apos;XX&apos;,&apos;Other Value-Chain Role&apos;,
+												If(Text(Account__r.ClassLevel1__c )= &apos;BM&apos;,&apos;Digital &amp; Service Partner&apos;,&apos;&apos;) 
+											)
+										)
+									)
+								)
+							)	
+						)
+					)
+				)
+			)
+		)
+	)
+)</formula>
+        <label>Account Classification Level 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountMarketSegment__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Text(Account__r.MarketSegment__c )= &apos;BD1&apos;,&apos;Wholesale &amp; Retail Trade&apos;,
+	If(Text(Account__r.MarketSegment__c )= &apos;BD3&apos;,&apos;Hotels&apos;,
+		If(Text(Account__r.MarketSegment__c )= &apos;BD4&apos;,&apos;Healthcare&apos;,
+			If(Text(Account__r.MarketSegment__c )= &apos;BD6&apos;,&apos;LifeSciences&apos;,
+				If(Text(Account__r.MarketSegment__c )= &apos;BD9&apos;,&apos;Education &amp; Research&apos;,
+					If(Text(Account__r.MarketSegment__c )= &apos;BDR&apos;,&apos;Real Estate&apos;,
+						If(Text(Account__r.MarketSegment__c )= &apos;BDZ&apos;,&apos;Industrial Buildings and Commercial&apos;,
+							If(Text(Account__r.MarketSegment__c )= &apos;EN1&apos;,&apos;Electric Utilities&apos;,
+								If(Text(Account__r.MarketSegment__c )= &apos;EN2&apos;,&apos;Oil, Gas &amp; Petrochemicals&apos;,
+									If(Text(Account__r.MarketSegment__c )= &apos;EN3&apos;,&apos;Transportation&apos;,
+										If(Text(Account__r.MarketSegment__c )= &apos;ID1&apos;,&apos;Machinery&apos;,
+											If(Text(Account__r.MarketSegment__c )= &apos;ID2&apos;,&apos;Water&apos;,
+												If(Text(Account__r.MarketSegment__c )= &apos;ID3&apos;,&apos;MMM&apos;,
+													If(Text(Account__r.MarketSegment__c )= &apos;ID4&apos;,&apos;Food &amp; Beverage&apos;,
+														If(Text(Account__r.MarketSegment__c )= &apos;ID5&apos;,&apos;Automotive &amp; E-Mobility&apos;,
+															If(Text(Account__r.MarketSegment__c )= &apos;ID6&apos;,&apos;Household &amp; Personal Care&apos;,
+															   If(Text(Account__r.MarketSegment__c )= &apos;ID7&apos;,&apos;Semiconductor&apos;,
+																	If(Text(Account__r.MarketSegment__c )= &apos;IDZ&apos;,&apos;Industrial Manufacturing and Commercial&apos;,
+																		If(Text(Account__r.MarketSegment__c )= &apos;IT1&apos;,&apos;IT Equipment and Professional Services&apos;,
+																			If(Text(Account__r.MarketSegment__c )= &apos;IT2&apos;,&apos;Finance&apos;,
+																				If(Text(Account__r.MarketSegment__c )= &apos;IT3&apos;,&apos;Cloud&amp; Service providers&apos;,
+																					If(Text(Account__r.MarketSegment__c )= &apos;PW1&apos;,&apos;Residential&apos;,
+																						If(Text(Account__r.MarketSegment__c )= &apos;PW3&apos;,&apos;Marine &amp; Shore Power&apos;,&apos;&apos;
+																						)
+																					)
+																				)
+																			)
+																		)
+																	)
+																)
+															)
+														)
+													)
+												)
+											)
+										)
+									)	
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+)</formula>
+        <label>Account Market Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountMasterProfile__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( OR(ISBLANK(Score__c),ISBLANK(MarketShare__c)),&quot;Not Completed&quot;,
+IF ( (( MarketShare__c*100 &gt; 50 ) &amp;&amp; ( Score__c &lt;= 33)) , &quot;MS1&quot;, 
+
+IF ( (( MarketShare__c*100 &gt; 50 ) &amp;&amp; ( (Score__c  &gt; 33 ) &amp;&amp; (Score__c  &lt;= 66 ))), &quot;MS2&quot;, 
+
+IF ( (( MarketShare__c*100 &gt; 50 ) &amp;&amp; ( Score__c  &gt; 66 )), &quot;MS3&quot;, 
+
+IF ( ((( MarketShare__c*100 &gt; 15 ) &amp;&amp; ( MarketShare__c*100 &lt;= 50 )) &amp;&amp; Score__c  &lt;= 33 ), &quot;MG1&quot;, 
+
+IF ( ((( MarketShare__c*100 &gt; 15 ) &amp;&amp; ( MarketShare__c*100 &lt;= 50 )) &amp;&amp; (((Score__c  &gt; 33 ) &amp;&amp; ( (Score__c ) &lt;= 66 )))), &quot;MG2&quot;, 
+
+IF ( ((( MarketShare__c*100 &gt; 15 ) &amp;&amp; ( MarketShare__c*100 &lt;= 50 )) &amp;&amp; ( Score__c  &gt; 66 )), &quot;MG3&quot;, 
+
+IF ( (( MarketShare__c*100 &lt;= 15 ) &amp;&amp; (Score__c &lt;= 33 ))  , &quot;MQ1&quot;, 
+
+IF ( (( MarketShare__c*100 &lt;= 15 ) &amp;&amp; (( Score__c  &gt; 33 ) &amp;&amp; ( Score__c  &lt;= 66 ))), &quot;MQ2&quot;, 
+
+IF ( (( MarketShare__c*100 &lt;= 15 ) &amp;&amp; ( Score__c ) &gt; 66 ), &quot;MQ3&quot;, &quot;Not Completed&quot;))))))))))</formula>
+        <label>Account Master Profile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Master Profiles</relationshipLabel>
+        <relationshipName>Account_Master_Profiles</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>DirectSales__c</fullName>
+        <externalId>false</externalId>
+        <label>Direct Sales</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FieldServicesDirectSales__c</fullName>
+        <externalId>false</externalId>
+        <label>Field Services Direct Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FieldServicesIndirectSales__c</fullName>
+        <externalId>false</externalId>
+        <label>Field Services Indirect Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FieldServicesPAM__c</fullName>
+        <externalId>false</externalId>
+        <label>Field Services PAM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>IndirectSales__c</fullName>
+        <externalId>false</externalId>
+        <label>Indirect Sales</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MarketShare__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TotalPAM__c=0,0, IF(ISBLANK(TotalPAM__c),NULL,ROUND((( DirectSales__c + IndirectSales__c )/ TotalPAM__c),2)))</formula>
+        <label>MarketShare</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Q1CriteriaWeight__c</fullName>
+        <externalId>false</externalId>
+        <label>Q1 - Criteria Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q1Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Q1 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q2CriteriaWeight__c</fullName>
+        <externalId>false</externalId>
+        <label>Q2 - Criteria Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q2Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Q2 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q3CriteriaWeight__c</fullName>
+        <externalId>false</externalId>
+        <label>Q3 - Criteria Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q3Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Q3 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q4CriteriaWeight__c</fullName>
+        <externalId>false</externalId>
+        <label>Q4 - Criteria Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q4Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Q4 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q5CriteriaWeight__c</fullName>
+        <externalId>false</externalId>
+        <label>Q5 - Criteria Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q5Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Q5 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q6CriteriaWeight__c</fullName>
+        <externalId>false</externalId>
+        <label>Q6 - Criteria Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q6Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Q6 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q7CriteriaWeight__c</fullName>
+        <externalId>false</externalId>
+        <label>Q7 - Criteria Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q7Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Q7 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Q8CriteriaWeight__c</fullName>
+        <externalId>false</externalId>
+        <label>Q8 - Criteria Weight</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q8Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Q8 - Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Score (%)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SumOfBUDirectSales__c</fullName>
+        <externalId>false</externalId>
+        <label>Sum of BU Direct Sales</label>
+        <summarizedField>AccountMasterProfilePAM__c.DirectSales__c</summarizedField>
+        <summaryFilterItems>
+            <field>AccountMasterProfilePAM__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>AccountMasterProfilePAM__c.AccountMasterProfile__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SumofBUIndirectSales__c</fullName>
+        <externalId>false</externalId>
+        <label>Sum of BU Indirect Sales</label>
+        <summarizedField>AccountMasterProfilePAM__c.IndirectSales__c</summarizedField>
+        <summaryFilterItems>
+            <field>AccountMasterProfilePAM__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>AccountMasterProfilePAM__c.AccountMasterProfile__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SumofBUPAM__c</fullName>
+        <externalId>false</externalId>
+        <label>Sum of BU PAM</label>
+        <summarizedField>AccountMasterProfilePAM__c.PAM__c</summarizedField>
+        <summaryFilterItems>
+            <field>AccountMasterProfilePAM__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>AccountMasterProfilePAM__c.AccountMasterProfile__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TECH_UniqueAccount__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>This unique field will ensure one Account Master Profile per account</description>
+        <externalId>false</externalId>
+        <label>TECH UniqueAccount</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_DataMigratedFromPS__c</fullName>
+        <externalId>false</externalId>
+        <label>Tech_DataMigratedFromPS</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TotalPAM__c</fullName>
+        <externalId>false</externalId>
+        <label>Total PAM</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Account Master Profile</label>
+    <nameField>
+        <displayFormat>AMP-{0000}</displayFormat>
+        <label>Account Master Profile Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Account Master Profiles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>AMP_VR_Q316SLS01_SalesValuesValidate</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+TotalPAM__c &lt; (FLOOR(DirectSales__c)+ FLOOR(IndirectSales__c))</errorConditionFormula>
+        <errorMessage>PAM should be higher or equal to Direct Sales + Indirect Sales</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AMP_VR_Q316SLS02_ValidateNegativeValues</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+( TotalPAM__c &lt; 0 ||  DirectSales__c &lt;0 ||  IndirectSales__c &lt; 0 ||  FieldServicesDirectSales__c &lt; 0 ||  FieldServicesIndirectSales__c &lt; 0 ||  FieldServicesPAM__c &lt;0 )</errorConditionFormula>
+        <errorMessage>Please enter non-negative number</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>NewAccountMasterProfile</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Account Master Profile</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>../apex/VFP_UpsertAccountMasterProfile?accID={!Account.Id}&amp;accCL1={!Account.ClassLevel1__c}</url>
+    </webLinks>
+</CustomObject>

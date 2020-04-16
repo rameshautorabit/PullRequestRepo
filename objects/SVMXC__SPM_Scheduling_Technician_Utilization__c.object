@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>SVMXC__SVMX_LaunchHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Holds the Technician Utilization computed from Scheduling Engine on a daily basis</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>SVMXC__Available_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the available time of the technician.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the available time of the technician.</inlineHelpText>
+        <label>Available Time</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Break_Minutes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Time during which the technician takes a Break.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Time during which the technician takes a Break.</inlineHelpText>
+        <label>Break Minutes</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Dispatch_Process_Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Servicemax Process</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to Servicemax Process</inlineHelpText>
+        <label>Dispatch Process Id</label>
+        <referenceTo>SVMXC__ServiceMax_Processes__c</referenceTo>
+        <relationshipLabel>SPM Scheduling Technician Utilization</relationshipLabel>
+        <relationshipName>SPM_Scheduling_Technician_Utilization</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Dispatch_Process_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the Dispatch Process holding the scheduling configuration</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Dispatch Process holding the scheduling configuration</inlineHelpText>
+        <label>Dispatch Process Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Drive_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the sum of driven time before and driven time after values</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the sum of driven time before and driven time after values</inlineHelpText>
+        <label>Drive Time</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Horizon_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date for which the utilization is computed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date for which the utilization is computed</inlineHelpText>
+        <label>Horizon Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Idle_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the Idle time of the technician (blank spaces on the calendar). 
+Formula - (Available Time - Productive Time)</description>
+        <externalId>false</externalId>
+        <formula>( SVMXC__Available_Time__c - SVMXC__Productive_Time__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Holds the Idle time of the technician (blank spaces on the calendar). 
+Formula - (Available Time - Productive Time)</inlineHelpText>
+        <label>Idle Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__JobId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Servicemax Jobs</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to Servicemax Jobs</inlineHelpText>
+        <label>JobId</label>
+        <referenceTo>SVMXC__SVMX_Jobs__c</referenceTo>
+        <relationshipLabel>SPM Scheduling Technician Utilization</relationshipLabel>
+        <relationshipName>SPM_Scheduling_Technician_Utilization</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Job_Execution_Start_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the start time of the scheduling job</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the start time of the scheduling job</inlineHelpText>
+        <label>Job Execution Start Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Non_Productive_Time_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the Non-Productive Time of the technician.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the Non-Productive Time of the technician.</inlineHelpText>
+        <label>Non Productive Time Value</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Non_Work_Order_Events_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sum of duration of non work-order events</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sum of duration of non work-order events</inlineHelpText>
+        <label>Non Work Order Events Time</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Overhead_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the overhead time taken before and after the work is performed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the overhead time taken before and after the work is performed</inlineHelpText>
+        <label>Overhead Time</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Productive_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the sum of productive time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the sum of productive time.</inlineHelpText>
+        <label>Productive Time</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__SPM_Schedul_Tech_Utilization_Constraints__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Master-Details Relationship to SPM Schedul Tech Utilization Constraints table</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Master-Details Relationship to SPM Schedul Tech Utilization Constraints table</inlineHelpText>
+        <label>SPM Schedul Tech Utilization Constraints</label>
+        <referenceTo>SVMXC__SPM_Schedul_Tech_Utilization_Constraints__c</referenceTo>
+        <relationshipLabel>SPM Scheduling Technician Utilization</relationshipLabel>
+        <relationshipName>SPM_Scheduling_Technician_Utilization</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Service_Team__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Technician Team</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Technician Team</inlineHelpText>
+        <label>Service Team</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Service_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the sum of differences of event duration with drive time</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the sum of differences of event duration with drive time</inlineHelpText>
+        <label>Service Time</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Technician__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Technician</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to Technician</inlineHelpText>
+        <label>Technician</label>
+        <referenceTo>SVMXC__Service_Group_Members__c</referenceTo>
+        <relationshipLabel>SPM Scheduling Technician Utilization</relationshipLabel>
+        <relationshipName>SPM_Scheduling_Technician_Utilization</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Territory__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Technician&apos;s Territory</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Technician&apos;s Territory</inlineHelpText>
+        <label>Territory</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Utilization__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the utilization of the technician for the day.</description>
+        <externalId>false</externalId>
+        <formula>IF((SVMXC__Available_Time__c &gt; 0),
+(SVMXC__Productive_Time__c / SVMXC__Available_Time__c) * 100,
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Holds the utilization of the technician for the day.</inlineHelpText>
+        <label>Utilization %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Working_Minutes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is computed from Technician&apos;s WorkingHours Field. If empty then we consider Territory Business Hours. If Territory Business  Hours is also empty then we consider Company&apos;s Business Hours.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is computed from Technician&apos;s WorkingHours Field. If empty then we consider Territory Business Hours. If Territory Business  Hours is also empty then we consider Company&apos;s Business Hours.</inlineHelpText>
+        <label>Working Minutes</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>SPM Scheduling Technician Utilization</label>
+    <nameField>
+        <displayFormat>{0000000000}</displayFormat>
+        <label>Record Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>SPM Scheduling Technician Utilization</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CVCPCompactLayout</fullName>
+        <fields>Name</fields>
+        <fields>ContractStatus__c</fields>
+        <fields>Account__c</fields>
+        <fields>Contact__c</fields>
+        <fields>ContactRole__c</fields>
+        <fields>ContractVCP_VIPIcon__c</fields>
+        <label>CVCP Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account_Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Role</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agent</fullName>
+                    <default>false</default>
+                    <label>Agent</label>
+                </value>
+                <value>
+                    <fullName>Architect</fullName>
+                    <default>false</default>
+                    <label>Architect</label>
+                </value>
+                <value>
+                    <fullName>Consultant</fullName>
+                    <default>false</default>
+                    <label>Consultant</label>
+                </value>
+                <value>
+                    <fullName>Delegated as Primary</fullName>
+                    <default>false</default>
+                    <label>Delegated as Primary</label>
+                </value>
+                <value>
+                    <fullName>Distributors / Resellers</fullName>
+                    <default>false</default>
+                    <label>Distributors / Resellers</label>
+                </value>
+                <value>
+                    <fullName>Electrical Contractor</fullName>
+                    <default>false</default>
+                    <label>Electrical Contractor</label>
+                </value>
+                <value>
+                    <fullName>EPC</fullName>
+                    <default>false</default>
+                    <label>EPC</label>
+                </value>
+                <value>
+                    <fullName>Fulfillment Channel</fullName>
+                    <default>false</default>
+                    <label>Fulfillment Channel</label>
+                </value>
+                <value>
+                    <fullName>General Contractor</fullName>
+                    <default>false</default>
+                    <label>General Contractor</label>
+                </value>
+                <value>
+                    <fullName>Lead Finder</fullName>
+                    <default>false</default>
+                    <label>Lead Finder</label>
+                </value>
+                <value>
+                    <fullName>OEM</fullName>
+                    <default>false</default>
+                    <label>OEM</label>
+                </value>
+                <value>
+                    <fullName>Panel Builders</fullName>
+                    <default>false</default>
+                    <label>Panel Builders</label>
+                </value>
+                <value>
+                    <fullName>Specifier</fullName>
+                    <default>false</default>
+                    <label>Specifier</label>
+                </value>
+                <value>
+                    <fullName>Subcontractor</fullName>
+                    <default>false</default>
+                    <label>Subcontractor</label>
+                </value>
+                <value>
+                    <fullName>System Integrator</fullName>
+                    <default>false</default>
+                    <label>System Integrator</label>
+                </value>
+                <value>
+                    <fullName>Vendor</fullName>
+                    <default>false</default>
+                    <label>Vendor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Contract Value Chain Players</relationshipLabel>
+        <relationshipName>Contract_Value_Chain_Players</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactEmail__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact__r.Email</formula>
+        <label>Contact Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactPhone__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact__r.WorkPhone__c</formula>
+        <label>Contact Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactRole__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Role</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account Manager</fullName>
+                    <default>false</default>
+                    <label>Account Manager</label>
+                </value>
+                <value>
+                    <fullName>Admin</fullName>
+                    <default>false</default>
+                    <label>Admin</label>
+                </value>
+                <value>
+                    <fullName>Beneficiary</fullName>
+                    <default>false</default>
+                    <label>Beneficiary</label>
+                </value>
+                <value>
+                    <fullName>Business Development Specialist</fullName>
+                    <default>false</default>
+                    <label>Business Development Specialist</label>
+                </value>
+                <value>
+                    <fullName>Consultant</fullName>
+                    <default>false</default>
+                    <label>Consultant</label>
+                </value>
+                <value>
+                    <fullName>Contract Admin</fullName>
+                    <default>false</default>
+                    <label>Contract Admin</label>
+                </value>
+                <value>
+                    <fullName>Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Decision Maker</label>
+                </value>
+                <value>
+                    <fullName>Executive</fullName>
+                    <default>false</default>
+                    <label>Executive</label>
+                </value>
+                <value>
+                    <fullName>Financial Buyer</fullName>
+                    <default>false</default>
+                    <label>Financial Buyer</label>
+                </value>
+                <value>
+                    <fullName>Inside Sales</fullName>
+                    <default>false</default>
+                    <label>Inside Sales</label>
+                </value>
+                <value>
+                    <fullName>Internal Enabler</fullName>
+                    <default>false</default>
+                    <label>Internal Enabler</label>
+                </value>
+                <value>
+                    <fullName>Onsite Engineer</fullName>
+                    <default>false</default>
+                    <label>Onsite Engineer</label>
+                </value>
+                <value>
+                    <fullName>Operational end user</fullName>
+                    <default>false</default>
+                    <label>Operational end user</label>
+                </value>
+                <value>
+                    <fullName>Outside Sales</fullName>
+                    <default>false</default>
+                    <label>Outside Sales</label>
+                </value>
+                <value>
+                    <fullName>Political Influencer</fullName>
+                    <default>false</default>
+                    <label>Political Influencer</label>
+                </value>
+                <value>
+                    <fullName>Primary Partner Contact</fullName>
+                    <default>false</default>
+                    <label>Primary Partner Contact</label>
+                </value>
+                <value>
+                    <fullName>Primary User</fullName>
+                    <default>false</default>
+                    <label>Primary User</label>
+                </value>
+                <value>
+                    <fullName>Solution Sales Engineer</fullName>
+                    <default>false</default>
+                    <label>Solution Sales Engineer</label>
+                </value>
+                <value>
+                    <fullName>Subject Matter Expert</fullName>
+                    <default>false</default>
+                    <label>Subject Matter Expert</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Contract Value Chain Players</relationshipLabel>
+        <relationshipName>Contract_Value_Chain_Players</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContractName__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contract__r.Name</formula>
+        <label>Contract Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContractStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Contract__r.Status)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Status of the Contract</inlineHelpText>
+        <label>Contract Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContractVCP_VIPIcon__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Account_VIPIcon__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;VIPIcon&gt;</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Contract Value Chain Players</relationshipLabel>
+        <relationshipName>Contract_Value_Chain_Players</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>EclipseAccessRequest__c</fullName>
+        <description>Status of Eclipse</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Status of Eclipse</inlineHelpText>
+        <label>Eclipse Access Request</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>false</default>
+                    <label>Requested</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Failed</fullName>
+                    <default>false</default>
+                    <label>Failed</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Eclipse_Feature_Manage__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/apex/VFP_AddorRemoveEclipseFeature?contactId=&quot;+Contact__c+&quot;&amp;CVCPId=&quot;+Id, IF(ISPICKVAL(Contract__r.WebAccess__c, &apos;Eclipse&apos;), &apos;[Eclipse Feature Manage]&apos;, IF(ISPICKVAL(Contract__r.WebAccess__c, &apos;Cassini&apos;), &apos;[Cassini Feature Manage]&apos;, &apos;&apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;Eclipse Feature Manage&gt;</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LegacyBeneficiaryId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Stores the Vantive Id</description>
+        <externalId>true</externalId>
+        <label>Legacy Beneficiary Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>LegacyPIN__c</fullName>
+        <externalId>false</externalId>
+        <label>Legacy PIN</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MasterPIN__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Uniqueness of Legacy PIN will be checked, if Master Pin is not checked</description>
+        <externalId>false</externalId>
+        <label>Master PIN</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Points__c</fullName>
+        <externalId>false</externalId>
+        <label>Beneficiary Point Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PortalAccess__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>R6 2017 Release: BFOCCC-325, This field will store whether the cvcp has access to portal</description>
+        <externalId>false</externalId>
+        <label>Portal Access</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SupportContractLevel__c</fullName>
+        <description>Related Contract&apos;s active Package&apos;s highest Level</description>
+        <externalId>false</externalId>
+        <formula>TEXT( Contract__r.SupportContractLevel__c )</formula>
+        <label>Support Contract Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_DuplicateKey__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>To check for duplicate records</description>
+        <externalId>false</externalId>
+        <label>TECH_DuplicateKey</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Contract Value Chain Player</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Contract__c</columns>
+        <columns>Contact__c</columns>
+        <columns>ContactRole__c</columns>
+        <columns>Account_Role__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>INVENSYS_CFID</fullName>
+        <columns>NAME</columns>
+        <columns>ContractName__c</columns>
+        <columns>LegacyPIN__c</columns>
+        <columns>Contact__c</columns>
+        <columns>Account__c</columns>
+        <columns>ContactRole__c</columns>
+        <columns>MasterPIN__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>00038255</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>3/20/2017 12:00 AM</value>
+        </filters>
+        <label>INVENSYS CFID</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>INVENSYS_CFID_specifc</fullName>
+        <columns>NAME</columns>
+        <columns>ContractName__c</columns>
+        <columns>LegacyPIN__c</columns>
+        <columns>Contact__c</columns>
+        <columns>Account__c</columns>
+        <columns>ContactRole__c</columns>
+        <columns>MasterPIN__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>00038255</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>3/20/2017 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>Account__c</field>
+            <operation>contains</operation>
+            <value>Agrium</value>
+        </filters>
+        <label>INVENSYS CFID specifc</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>INVENSYS_M_I</fullName>
+        <columns>NAME</columns>
+        <columns>ContractName__c</columns>
+        <columns>LegacyPIN__c</columns>
+        <columns>Contact__c</columns>
+        <columns>Account__c</columns>
+        <columns>ContactRole__c</columns>
+        <columns>MasterPIN__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>00038255</value>
+        </filters>
+        <label>INVENSYS M&amp;I</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Invensys_Contacts_CVCP</fullName>
+        <booleanFilter>1 or 2 or 3 or 4 or 5</booleanFilter>
+        <columns>NAME</columns>
+        <columns>ContractName__c</columns>
+        <columns>Contact__c</columns>
+        <columns>LegacyPIN__c</columns>
+        <columns>ContactEmail__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>MasterPIN__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Account__c</columns>
+        <columns>Account_Role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>0038255</value>
+        </filters>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>00044530</value>
+        </filters>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>00044531</value>
+        </filters>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>00044532</value>
+        </filters>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>00044533</value>
+        </filters>
+        <label>Invensys - Contacts CVCP</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Invensys_Contacts_CVCP_44533</fullName>
+        <columns>NAME</columns>
+        <columns>ContractName__c</columns>
+        <columns>Contact__c</columns>
+        <columns>LegacyPIN__c</columns>
+        <columns>ContactEmail__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>MasterPIN__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Account__c</columns>
+        <columns>Account_Role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>00044533</value>
+        </filters>
+        <label>Invensys - Contacts CVCP 44533</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Invensys_Contacts_CVCP_445331</fullName>
+        <columns>NAME</columns>
+        <columns>ContractName__c</columns>
+        <columns>Contact__c</columns>
+        <columns>LegacyPIN__c</columns>
+        <columns>ContactEmail__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>MasterPIN__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Account__c</columns>
+        <columns>Account_Role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Contract__c</field>
+            <operation>equals</operation>
+            <value>00044533</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>4/1/2017 12:00 AM</value>
+        </filters>
+        <label>Invensys - Contacts CVCP 44533</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>ma_vue</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Contract__c</columns>
+        <columns>Contact__c</columns>
+        <columns>ContactRole__c</columns>
+        <columns>Account_Role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LegacyPIN__c</field>
+            <operation>equals</operation>
+            <value>208372</value>
+        </filters>
+        <label>ma vue</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>CVCP-{000000}</displayFormat>
+        <label>Contract Value Chain Player Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Contract Value Chain Players</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Points__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LegacyPIN__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Points__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LegacyPIN__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Points__c</searchFilterFields>
+        <searchFilterFields>Contact__c</searchFilterFields>
+        <searchFilterFields>LegacyPIN__c</searchFilterFields>
+        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LegacyPIN__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ContractName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ContactRole__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>CVCP_VR_JUN13CCC01_CheckBlankLegacyPIN</fullName>
+        <active>true</active>
+        <description>Checks whether Legacy PIN is filled, if Master PIN is checked</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c) , MasterPIN__c, ISBLANK( LegacyPIN__c))</errorConditionFormula>
+        <errorDisplayField>LegacyPIN__c</errorDisplayField>
+        <errorMessage>Legacy PIN is mandatory if Master PIN is checked</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>NewCase</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>New Case</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/cmp/c__LCMP_CCCCaseCreation?c__accId={!CTR_ValueChainPlayers__c.AccountId__c}&amp;c__conId={!CTR_ValueChainPlayers__c.ContactId__c}&amp;c__cvcpOrg=CVCP&amp;c__cvcpId={!CTR_ValueChainPlayers__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>NewLEX</fullName>
+        <availability>online</availability>
+        <description>CVCP Creation in Console</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>New</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/lightning/cmp/c__LCMP_CCCCVCPPage?c__accountId={!Contract.AccountId}&amp;c__contractId={!Contract.Id}</url>
+    </webLinks>
+</CustomObject>

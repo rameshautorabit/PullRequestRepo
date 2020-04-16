@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Complaint_Request__c</fullName>
+        <externalId>false</externalId>
+        <label>Complaint/Request</label>
+        <referenceTo>ComplaintRequest__c</referenceTo>
+        <relationshipName>C_R_Comments</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>TECH_CROwnerEmailId__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_CROwnerEmailId</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_CreatorName__c</fullName>
+        <description>I2P April 16 Release: This field concatenates the value of comment creator and the time stamp which in turn is used to update Comments field in CR record.</description>
+        <externalId>false</externalId>
+        <formula>CreatedBy.FirstName + &apos; &apos; +  CreatedBy.LastName</formula>
+        <label>TECH_CreatorName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Answer</fullName>
+                    <default>false</default>
+                    <label>Answer</label>
+                </value>
+                <value>
+                    <fullName>Comment</fullName>
+                    <default>true</default>
+                    <label>Comment</label>
+                </value>
+                <value>
+                    <fullName>Final resolution</fullName>
+                    <default>false</default>
+                    <label>Final resolution</label>
+                </value>
+                <value>
+                    <fullName>Reassign</fullName>
+                    <default>false</default>
+                    <label>Reassign</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>C/R Comments</label>
+    <nameField>
+        <displayFormat>CRC-{0000}</displayFormat>
+        <label>CR Comments Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>C/R Comments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>CRC_VR_Q316I2P01_CommercialRefOroderdChe</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND($User.BypassVR__c=False,AND(
+OR(
+AND(
+ISPICKVAL(Complaint_Request__r.Category__c, &apos;Pricing and Availability&apos;)
+) ,
+AND(
+ISPICKVAL(Complaint_Request__r.Category__c, &apos;Quotation Request&apos;) ,
+ISPICKVAL(Complaint_Request__r.Reason__c, &apos;Non-standard Offer&apos;)
+) ,
+
+AND(
+ISPICKVAL(Complaint_Request__r.Category__c, &apos;Quotation Request&apos;) ,
+ISPICKVAL(Complaint_Request__r.Reason__c, &apos;Standard Offer&apos;)
+),
+AND(
+ISPICKVAL(Complaint_Request__r.Category__c, &apos;Others*&apos;) ,
+ISPICKVAL(Complaint_Request__r.Reason__c, &apos;Special Price&apos;)
+),
+AND(ISPICKVAL( Complaint_Request__r.Reason__c , &apos;Delivery before standard lead time&apos;),
+ISPICKVAL(Complaint_Request__r.Category__c ,&apos;Order Modification&apos;)
+),
+
+AND(ISPICKVAL( Complaint_Request__r.Reason__c , &apos;Late Delivery, not Received Yet*&apos;),
+ISPICKVAL(Complaint_Request__r.Category__c ,&apos;Delivery or Collection Issues*&apos;)
+),
+AND(ISPICKVAL( Complaint_Request__r.Reason__c , &apos;Labeling not Compliant*&apos;),
+ISPICKVAL(Complaint_Request__r.Category__c ,&apos;Delivery or Collection Issues*&apos;)
+),
+AND(ISPICKVAL( Complaint_Request__r.Reason__c , &apos;Packaging not Compliant*&apos;),
+ISPICKVAL(Complaint_Request__r.Category__c ,&apos;Delivery or Collection Issues*&apos;)
+),
+AND(
+ISPICKVAL( Complaint_Request__r.Reason__c , &apos;Reference Received Incorrect*&apos;),
+ISPICKVAL(Complaint_Request__r.Category__c ,&apos;Delivery or Collection Issues*&apos;),
+OR
+(
+
+AND(Complaint_Request__r.CommercialReferenceReceived__c==&apos;&apos;,Complaint_Request__r.CommercialReferenceOrdered__c=&apos;&apos;)
+
+)
+)
+),
+AND(Complaint_Request__r.CommercialReferenceOrdered__c=&apos;&apos;,Complaint_Request__r.TECH_CROrderFamily__c=&apos;&apos;)
+),NOT(ISPICKVAL(Complaint_Request__r.Status__c,&apos;Cancelled&apos;)))</errorConditionFormula>
+        <errorMessage>Please enter commercial reference ordered Or Family ordered on Complaint Request before create comments.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>NewCustom</fullName>
+        <availability>online</availability>
+        <description>I2P Apr 16 Release: This button will replace the standard new button</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/aIz/e?CF{!$Label.CLAPR16I2P01}={!ComplaintRequest__c.Name}&amp;CF{!$Label.CLAPR16I2P01}_lkid={!ComplaintRequest__c.Id}&amp;retURL=%2F{!ComplaintRequest__c.Id}&amp;saveURL=%2F{!ComplaintRequest__c.Id}</url>
+    </webLinks>
+</CustomObject>

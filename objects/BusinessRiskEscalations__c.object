@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>BREHighlightPanal</fullName>
+        <fields>Name</fields>
+        <fields>Title__c</fields>
+        <fields>Status__c</fields>
+        <fields>ResolutionLeader__c</fields>
+        <fields>OriginatingOrganisation__c</fields>
+        <fields>AffectedCustomer__c</fields>
+        <fields>BREIcons__c</fields>
+        <label>BRE Highlight Panal</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>I2P - Business Risk object to handle Business Risk Escalation.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>ActionPlanAgreedWithCustomer__c</fullName>
+        <description>I2P - Input Summary of Action Plan to be followed against the Business Risk.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ONLY AFTER the customer relationship has been restored and the Business Risk Escalation closure has been decided, input the summary of the action plan agreed with the customer. The details of the action plan should be described in the associated Case(s).</inlineHelpText>
+        <label>Action Plan Agreed With Customer</label>
+        <length>32000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Actual_User_LastmodifiedDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual User LastmodifiedDate</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Actual_User_Lastmodifiedby__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Actual User Lastmodifiedby</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Business_Risk_Escalations1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AffectedCustomer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P - Name of affected customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the affected account. If the account does not exist in the database, create the account first by opening the Accounts list in a new window.</inlineHelpText>
+        <label>Affected Customer</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.DeveloperName</field>
+                <operation>notEqual</operation>
+                <value>Supplier</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Business Risk Escalations</relationshipLabel>
+        <relationshipName>BusinessRisks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BREIcons__c</fullName>
+        <externalId>false</externalId>
+        <formula>BusinessRiskEsc_VIPFlag__c &amp;&quot; &quot;&amp;  Overdue__c</formula>
+        <label>BRE Icons</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BusinessRiskEsc_VIPFlag__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(VIP_Status__c=$Label.CLR617I2P01,IMAGE(&quot;/resource/STR_ACC_VIPGold&quot;,&quot;VIP Gold&quot;,20,31),
+if(VIP_Status__c=$Label.CLR617I2P02,IMAGE(&quot;/resource/VIPOEM&quot;,&quot;&quot;,20,31),
+if( VIP_Status__c=$Label.CLR617I2P03,IMAGE(&quot;/resource/VIPCTA&quot;,&quot;&quot;,20,31),
+if(VIP_Status__c=&apos;VIP MCTA&apos;,IMAGE(&quot;/resource/VIPMCTA&quot;,&quot;VIPMCTA&quot;,20,31),&apos;&apos;))))</formula>
+        <inlineHelpText>VIPIcon</inlineHelpText>
+        <label>&lt;VIPIcon&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BusinessRiskSponsor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P - Name of Business Risk sponsor.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Leave the Resolution Sponsor blank to let the tool assign the right people according to the Accountable Organization selected</inlineHelpText>
+        <label>Resolution Sponsor</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>BusinessRisks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ClosedDate__c</fullName>
+        <description>I2P - Reflect the date when the Business Risk is closed.</description>
+        <externalId>false</externalId>
+        <label>Closed Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ClosureCriteria__c</fullName>
+        <description>I2P - Closure criteria, based on the customer�s expectations</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the criteria to close the Business Risk Escalation, based on customer expectations. Remember that a Business Risk Escalation must be closed as soon as the customer relationship is restored, even if some actions are still to be completed.</inlineHelpText>
+        <label>Closure Criteria</label>
+        <length>32000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CountryQualityManager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P - Country Quality Manager for Business Risk</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Country CS&amp;Q Manager accountable for the Business Risk Escalation, typically the same person that is reporting it.</inlineHelpText>
+        <label>Country CS&amp;Q Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>BusinessRisks1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CustomerContactEmail__c</fullName>
+        <description>I2P - Email of customer.</description>
+        <externalId>false</externalId>
+        <label>Customer Contact Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomerContactPhone__c</fullName>
+        <description>I2P - Phone of customer.</description>
+        <externalId>false</externalId>
+        <label>Customer Contact Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>CustomerContact__c</fullName>
+        <description>I2P - Name of customer.</description>
+        <externalId>false</externalId>
+        <label>Customer Contact</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomerSituation__c</fullName>
+        <description>I2P - Description of customer situation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What made the customer dissatisfied?
+What is the customer expecting that has not been provided yet?</inlineHelpText>
+        <label>Customer Situation</label>
+        <length>32000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DescribeRiskToSchneiderBusiness__c</fullName>
+        <description>I2P - Impacts on business due to business risk.</description>
+        <externalId>false</externalId>
+        <label>Describe Risk To Schneider Business</label>
+        <length>32000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DescriptionSection__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;/resource/I2PBRESection1&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>.</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;/resource/I2PBRESection&quot;,&quot;&quot;)</formula>
+        <label>.</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EstimatedFinancialImpact__c</fullName>
+        <description>I2P - Estimated financial impact if nothing is done.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please provide an estimated financial impact of the Business Risk in EUROS</inlineHelpText>
+        <label>Estimated Financial Impact</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ExpectedSLACloseDate__c</fullName>
+        <description>I2P - Date before which the BR should be closed to be compliant with the SLA</description>
+        <externalId>false</externalId>
+        <label>Expected SLA Close Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>GSAAffected__c</fullName>
+        <description>I2P - GSA Affected for Business Risk.</description>
+        <externalId>false</externalId>
+        <formula>IF(AffectedCustomer__r.TECH_I2PNotification__c = &quot;GSA&quot;,&quot;Yes&quot;, &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>GSA Affected</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InvolvedOrganizations__c</fullName>
+        <externalId>false</externalId>
+        <label>Involved Organizations</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>LocalContactEmail__c</fullName>
+        <description>I2P - Name for local I2P contact</description>
+        <externalId>false</externalId>
+        <label>Local Contact Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalContactPhone__c</fullName>
+        <description>I2P - Phone of local I2P contact</description>
+        <externalId>false</externalId>
+        <label>Local Contact Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>LocalContact__c</fullName>
+        <description>I2P - Name for local I2P contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identify the Schneider Electric person coordinating resolution actions in the country.</inlineHelpText>
+        <label>Local Contact Non Bfo</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalContact_lk__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Local Contact Bfo</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Business_Risk_Escalations2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>NumberOfDaysBROpen__c</fullName>
+        <description>I2P - Total number of days  Business Risk has been open</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(  ISPICKVAL(Status__c , &quot;Closed&quot;),  NOT(ISNULL(ClosedDate__c) ) ),  DATEVALUE(ClosedDate__c)- OpenDate__c  , IF(ISPICKVAL(Status__c , &quot;Open&quot;),  today() - OpenDate__c  , 0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OpenDate__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <description>I2P - Field used to store when the Business Risk was opened regardless of when the record has been created. This will be useful in case of data loading/migration to store the actual open date for the Business Risk.</description>
+        <externalId>false</externalId>
+        <label>Open Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OriginatingCountry__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P - Country where Business Risk originated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Country where the affected customer resides.</inlineHelpText>
+        <label>Originating Country DEL</label>
+        <referenceTo>Country__c</referenceTo>
+        <relationshipLabel>Business Risk Escalations</relationshipLabel>
+        <relationshipName>BusinessRisks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OriginatingOrganisation__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>I2P - Field used to store the related Originating Oganisation information on the Business Risk Escalation</description>
+        <externalId>false</externalId>
+        <label>Reporting Organization</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>3 OR (4 AND 5) OR ((1 OR 2) AND 6)</booleanFilter>
+            <filterItems>
+                <field>$Source.Status__c</field>
+                <operation>equals</operation>
+                <value>Closed</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Status__c</field>
+                <operation>equals</operation>
+                <value>Cancelled</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>To be deactivated</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Inactive</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Business Risk Escalations (Originating Organisation)</relationshipLabel>
+        <relationshipName>Business_Risk_Escalations1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Overdue__c</fullName>
+        <description>I2P - If a BR is overdue, a red flag will appear.</description>
+        <externalId>false</externalId>
+        <formula>IF( SLCompliant__c &lt; 1 &amp;&amp;  NOT(ISPICKVAL(Status__c  , &apos;Closed&apos;)) &amp;&amp; NOT (ISPICKVAL (Status__c, &apos;Cancelled&apos; )) , IMAGE(&quot;/resource/I2P_red_flag&quot;,&quot;Overdue&quot;), &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Overdue</inlineHelpText>
+        <label>Overdue</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>OriginatingOrganisation__r.Entity__c</formula>
+        <label>Originating Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RelatedProblem__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P - Field used to store the related Problem Name on the Business Risk Escalation</description>
+        <externalId>false</externalId>
+        <label>Related Problem</label>
+        <referenceTo>Problem__c</referenceTo>
+        <relationshipLabel>Business Risk Escalations</relationshipLabel>
+        <relationshipName>Business_Risk_Escalations</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ResolutionHistoryBeforeBusinessRisk__c</fullName>
+        <description>I2P - Description of Actions taken by Schneider Electric to repair relationship.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the actions taken by Schneider Electric to resolve the customer�s issues before deciding to raise the Business Risk Escalation.</inlineHelpText>
+        <label>Resolution History Before Escalation</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ResolutionLeader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P - Name of Resolution Leader</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Leave the Resolution Leader blank to let the tool assign the right people according to the Accountable Organization selected</inlineHelpText>
+        <label>Resolution Leader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>BusinessRiskResolutionLeaders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ResolutionOrganisation__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>I2P - Field used to store the related Resolution Organisation information on the Business Risk Escalation</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the initial Organization that will lead  this Business Risk Escalation. Default Resolution Leader and Sponsor will be taken from this Organization. Other involved Organizations can be added after creation.</inlineHelpText>
+        <label>Initial Accountable Organisation</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2 AND 3 AND 4 AND 5) OR (1 AND 2 AND 3 AND 4 AND 6 AND 7) OR ((9 OR 10) AND 8)</booleanFilter>
+            <errorMessage>Only Entity and SubEntity are listed in Resolution Organisation</errorMessage>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.SubEntity__c</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location__c</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Return Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>To be deactivated</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Inactive</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Status__c</field>
+                <operation>equals</operation>
+                <value>Closed</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Status__c</field>
+                <operation>equals</operation>
+                <value>Cancelled</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Business Risk Escalations</relationshipLabel>
+        <relationshipName>Business_Risk_Escalations</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RiskToSchneiderElectric__c</fullName>
+        <description>I2P - Overall risks to Schneider if nothing is done to repair the relationship</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Why is a Business Risk being escalated?
+What are the potential consequences of doing nothing?</inlineHelpText>
+        <label>Risk To Schneider Electric</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SLCompliant__c</fullName>
+        <description>I2P - If the Business Risk Escalation (BRE) has been closed within the Service Level timeframe, then the BRE is compliant (100%) otherwise it is not (0%)</description>
+        <externalId>false</externalId>
+        <formula>IF(  NumberOfDaysBROpen__c  &lt;  TargetTimeToClosure__c +1, 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SL Compliant</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SLTarget__c</fullName>
+        <defaultValue>0.70</defaultValue>
+        <description>I2P - SL Target for Business Risk.</description>
+        <externalId>false</externalId>
+        <label>SL Target</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>I2P - Status of Business Risk</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Open: customer relationship still at risk; crisis management in progress. Closed: customer relationship restored. Canceled: false alarm; Business Risk Escalation opened in error.</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Re-Open</fullName>
+                    <default>false</default>
+                    <label>Re-Open</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_Executive_Sponsor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>TECH Executive Sponsor</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Business_Risk_Escalations</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TECH_InvolvedOrganization__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_InvolvedOrganization</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TECH_LeadingBusiness__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(AffectedCustomer__r.UltiParentAcc__r.LeadingBusiness__c)</formula>
+        <label>TECH_LeadingBusiness</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_OnceClose__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>I2P - This field will reflect if the business risk is closed once.</description>
+        <externalId>false</externalId>
+        <label>TECH_OnceClose</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TECH_OriginatingEntity__c</fullName>
+        <externalId>false</externalId>
+        <formula>OriginatingOrganisation__r.Entity__c</formula>
+        <label>TECH_OriginatingEntity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_OriginatingLocation__c</fullName>
+        <externalId>false</externalId>
+        <formula>OriginatingOrganisation__r.Location__c</formula>
+        <label>TECH_OriginatingLocation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_OriginatingSubEntity__c</fullName>
+        <externalId>false</externalId>
+        <formula>OriginatingOrganisation__r.SubEntity__c</formula>
+        <label>TECH_OriginatingSubEntity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ReminderOpenDate__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_ReminderOpenDate</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TECH_ResolutionEntity__c</fullName>
+        <externalId>false</externalId>
+        <formula>ResolutionOrganisation__r.Entity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH_ResolutionEntity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ResolutionLocation__c</fullName>
+        <externalId>false</externalId>
+        <formula>ResolutionOrganisation__r.Location__c</formula>
+        <label>TECH_ResolutionLocation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ResolutionSubEntity__c</fullName>
+        <externalId>false</externalId>
+        <formula>ResolutionOrganisation__r.SubEntity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH_ResolutionSubEntity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_Ultimate_Parent__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(AffectedCustomer__r.UltiParentAcc__c) ), AffectedCustomer__r.UltiParentAcc__c, &quot;No&quot;)</formula>
+        <label>TECH_Ultimate_Parent</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_YearMonth__c</fullName>
+        <description>I2P - Year - Month for Business Risk.</description>
+        <externalId>false</externalId>
+        <formula>IF ( MONTH(DATEVALUE(ClosedDate__c))=MONTH(OpenDate__c),
+/* If the Business Risk is open and closed in the same month it should be counted in the month it was open */
+TEXT(
+  YEAR(
+   OpenDate__c
+  )
+) 
+&amp;&apos;-&apos;
+&amp;LPAD(
+  TEXT(
+    MONTH(
+      OpenDate__c
+    )
+  )
+,2,&apos;0&apos;
+)
+, /* Otherwise the Business Risk should be counted in the month following the month it was opened */
+TEXT(
+  YEAR(
+    OpenDate__c+30
+  )
+) 
+&amp;&apos;-&apos;
+&amp;LPAD(
+  TEXT(
+    MONTH(
+      OpenDate__c+30)
+    ),2,&apos;0&apos;)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH_YearMonth</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TargetTimeToClosure__c</fullName>
+        <defaultValue>16</defaultValue>
+        <description>I2P - Maximum number of days allowed to close a Business Risk to be SLA compliant.</description>
+        <externalId>false</externalId>
+        <label>Target Time To Closure</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <description>I2P - Free-text title to reference Business Risk</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Summarize the issue causing the Business Risk Escalation, offer affected, customer affected and country. Example: &quot;Lack of spare parts to address UPS failure at Centrix China&quot;, &quot;Multiple issues put relationship with Eletrobras Sao Paulo at risk&quot;</inlineHelpText>
+        <label>Title</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VIPStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_Initial VIP Status</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VIP_Status__c</fullName>
+        <description>OCT 2015 Release</description>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL((AffectedCustomer__r.Account_VIPFlag__c), &apos;VIP1&apos;) , $Label.CLR617I2P01, IF( ISPICKVAL((AffectedCustomer__r.Account_VIPFlag__c), &apos;VIP4&apos;) , $Label.CLR617I2P02, IF( ISPICKVAL((AffectedCustomer__r.Account_VIPFlag__c), &apos;VIP5&apos;) , $Label.CLR617I2P03, IF( ISPICKVAL((AffectedCustomer__r.Account_VIPFlag__c), &apos;VIP6&apos;),&apos;VIP MCTA&apos;,&apos;&apos;))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>VIP Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Business Risk Escalation</label>
+    <listViews>
+        <fullName>AR_Business_Risk_Escalations</fullName>
+        <columns>NAME</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>OriginatingCountry__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganisation__c</field>
+            <operation>contains</operation>
+            <value>Argentina,Uruguay,Paraguay,Buenos Aires</value>
+        </filters>
+        <label>AR - BRE Argentina</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ARArgentina</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Automation_BRE</fullName>
+        <booleanFilter>1 OR (2 AND 3) OR (4 OR 5 OR 6)</booleanFilter>
+        <columns>TECH_OriginatingLocation__c</columns>
+        <columns>NAME</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>BusinessRiskEsc_VIPFlag__c</columns>
+        <columns>Status__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>ResolutionLeader__c</columns>
+        <columns>BusinessRiskSponsor__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>EstimatedFinancialImpact__c</columns>
+        <columns>ResolutionHistoryBeforeBusinessRisk__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>startsWith</operation>
+            <value>Energy - Auto</value>
+        </filters>
+        <filters>
+            <field>ResolutionLeader__c</field>
+            <operation>equals</operation>
+            <value>Frederic Godemel,Vincent Petit,Klaus-Dieter Stefan,Bruno Dercle,John Phillips</value>
+        </filters>
+        <filters>
+            <field>ResolutionLeader__c</field>
+            <operation>equals</operation>
+            <value>Ruidong Xu,Benjamin Neumann</value>
+        </filters>
+        <filters>
+            <field>ResolutionLeader__c</field>
+            <operation>equals</operation>
+            <value>Guillaume Horreard,Christian Corsin,Jesus Manuel Rios Odero,Carine Glas</value>
+        </filters>
+        <label>Automation BRE</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ENE_AUT_Views</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CN_I2P_BRE</fullName>
+        <booleanFilter>1 AND (2 or 3)</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>ResolutionLeader__c</columns>
+        <columns>InvolvedOrganizations__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganisation__c</field>
+            <operation>contains</operation>
+            <value>China</value>
+        </filters>
+        <filters>
+            <field>OpenDate__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/1/2017</value>
+        </filters>
+        <filters>
+            <field>InvolvedOrganizations__c</field>
+            <operation>contains</operation>
+            <value>GSC China</value>
+        </filters>
+        <label>I2P_BRE_GSC China</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>CN_I2P</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CZ_Business_Risk_Escalations</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>BusinessRiskSponsor__c</columns>
+        <columns>CustomerContact__c</columns>
+        <columns>GSAAffected__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>ClosedDate__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingCountry__c</field>
+            <operation>startsWith</operation>
+            <value>Czech Republic</value>
+        </filters>
+        <label>CZ_Business Risk Escalations</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>CZ_ALL_USERS</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CZ_Business_Risk_Escalations1</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>BusinessRiskSponsor__c</columns>
+        <columns>CustomerContact__c</columns>
+        <columns>GSAAffected__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>ClosedDate__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingCountry__c</field>
+            <operation>equals</operation>
+            <value>South Africa</value>
+        </filters>
+        <label>ZA_Business Risk Escalations</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ZAAllUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>China_Ops_BRE</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>ResolutionLeader__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganisation__c</field>
+            <operation>contains</operation>
+            <value>China</value>
+        </filters>
+        <filters>
+            <field>OpenDate__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/1/2016</value>
+        </filters>
+        <label>CN_I2P_BRE</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>CN_I2P</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DE_Open_Business_Risk_Escalation</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>InvolvedOrganizations__c</field>
+            <operation>contains</operation>
+            <value>Europe Operations - Germany - Germany</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>DE - Open Business Risk Escalation</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>DE_Central_Functions_Read_Only</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ITB_EXCom</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>ResolutionLeader__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>startsWith</operation>
+            <value>IT</value>
+        </filters>
+        <label>ITB BRE</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ITB_EXCom</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Korea_BRE_Status</fullName>
+        <columns>Title__c</columns>
+        <columns>NAME</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>DescribeRiskToSchneiderBusiness__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <columns>RiskToSchneiderElectric__c</columns>
+        <columns>TECH_YearMonth__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganisation__c</field>
+            <operation>contains</operation>
+            <value>south korea</value>
+        </filters>
+        <label>Korea BRE Status</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>NAM_BREs</fullName>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Status__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>North America</value>
+        </filters>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>USA</value>
+        </filters>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>MEXICO</value>
+        </filters>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>Canada</value>
+        </filters>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>Mexico</value>
+        </filters>
+        <label>NAM BREs</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>NAMI2P</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NAM_BREs4</fullName>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>Status__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>North America</value>
+        </filters>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>USA</value>
+        </filters>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>MEXICO</value>
+        </filters>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>Canada</value>
+        </filters>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>Mexico</value>
+        </filters>
+        <label>NAM BREs</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>NAMI2P</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NL_Closed_BRE</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>Status__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganisation__c</field>
+            <operation>equals</operation>
+            <value>Netherlands</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Closed,Cancelled</value>
+        </filters>
+        <label>NL - Closed BRE</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>NL_Open_BRE</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>Status__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganisation__c</field>
+            <operation>equals</operation>
+            <value>Netherlands</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Closed,Cancelled</value>
+        </filters>
+        <label>NL - Open BRE</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>NO_All_BRE</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>Status__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>NO - All BRE</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>NOAllUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Open4</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>BusinessRiskEsc_VIPFlag__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>Overdue__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>Open</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Overdue</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>BusinessRiskEsc_VIPFlag__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>Overdue__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NumberOfDaysBROpen__c</field>
+            <operation>greaterThan</operation>
+            <value>21</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>Overdue</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Partner_BRE2</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>Status__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>GSAAffected__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>Retail</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open,Closed</value>
+        </filters>
+        <filters>
+            <field>OpenDate__c</field>
+            <operation>greaterThan</operation>
+            <value>1/1/2013</value>
+        </filters>
+        <label>Retail</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Partner_Retail_I2P_Community</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Partner_EcoBuildings_SMK</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>Status__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>EcoB,Energy - Automation</value>
+        </filters>
+        <label>_Partner EcoBuildings_SMK</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>EcoBuildings</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>RO_BRE</fullName>
+        <columns>NAME</columns>
+        <columns>Title__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>Status__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>CountryQualityManager__c</columns>
+        <columns>ResolutionLeader__c</columns>
+        <columns>BusinessRiskSponsor__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganisation__c</field>
+            <operation>equals</operation>
+            <value>Power EMEAS - Central Europe - Romania</value>
+        </filters>
+        <label>RO_BRE</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ROChampions</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SEHK_BRE</fullName>
+        <columns>NAME</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>CustomerContact__c</columns>
+        <columns>CustomerSituation__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>DescribeRiskToSchneiderBusiness__c</columns>
+        <columns>ExpectedSLACloseDate__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>RelatedProblem__c</columns>
+        <columns>ResolutionLeader__c</columns>
+        <columns>RiskToSchneiderElectric__c</columns>
+        <columns>Status__c</columns>
+        <columns>Title__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganisation__c</field>
+            <operation>equals</operation>
+            <value>Power Asia Pacific - China - Hong Kong</value>
+        </filters>
+        <label>SEHK_BRE</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>HK_CCC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SK_Business_Risk_Escalations</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>BusinessRiskSponsor__c</columns>
+        <columns>CustomerContact__c</columns>
+        <columns>GSAAffected__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>ClosedDate__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingCountry__c</field>
+            <operation>startsWith</operation>
+            <value>Slovakia</value>
+        </filters>
+        <label>SK_Business Risk Escalations</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>CZ_ALL_USERS</group>
+            <group>CZ_SK_All_sales_users</group>
+            <group>SKAdoption</group>
+            <group>SKServices</group>
+            <group>SK_Projects</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Samah_view</fullName>
+        <columns>NAME</columns>
+        <columns>InvolvedOrganizations__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <filters>
+            <field>InvolvedOrganizations__c</field>
+            <operation>contains</operation>
+            <value>a1H1200000Ddafj</value>
+        </filters>
+        <label>Samah view</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>TR_and_CS_BRE</fullName>
+        <columns>NAME</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>OpenDate__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginatingOrganisation__c</field>
+            <operation>contains</operation>
+            <value>Turkey,Azerbaijan,Georgia,Tajikistan,Turkmenistan,Uzbekistan</value>
+        </filters>
+        <filters>
+            <field>Overdue__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>TR and CS BRE</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>lifespace</fullName>
+        <columns>NAME</columns>
+        <columns>ResolutionOrganisation__c</columns>
+        <columns>AffectedCustomer__c</columns>
+        <columns>Status__c</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>CountryQualityManager__c</columns>
+        <columns>OriginatingOrganisation__c</columns>
+        <columns>ResolutionLeader__c</columns>
+        <columns>NumberOfDaysBROpen__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ResolutionOrganisation__c</field>
+            <operation>contains</operation>
+            <value>network</value>
+        </filters>
+        <label>Lifespace BU</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>LifeSpaceEMEASPI2P192431</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>BRE-{0}</displayFormat>
+        <label>Business Risk Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Business Risk Escalations</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>BRE_BusinessRiskClosed</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>BREHighlightPanal</compactLayoutAssignment>
+        <description>Used when business risk closed</description>
+        <label>Business Risk Closed</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Re-Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>BRE_BusinessRiskOpen</fullName>
+        <active>true</active>
+        <description>Used when business risk opened</description>
+        <label>Business Risk Open</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>BusinessRisk</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>BREHighlightPanal</compactLayoutAssignment>
+        <description>I2P  - May 2013 Release</description>
+        <label>Business Risk</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AffectedCustomer__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BusinessRiskEsc_VIPFlag__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Overdue__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ResolutionLeader__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BusinessRiskSponsor__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OriginatingOrganisation__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ResolutionOrganisation__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>AffectedCustomer__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATEDBY_USER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EstimatedFinancialImpact__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ResolutionLeader__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BusinessRiskSponsor__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AffectedCustomer__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATEDBY_USER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EstimatedFinancialImpact__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ResolutionLeader__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>BusinessRiskSponsor__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Title__c</searchFilterFields>
+        <searchFilterFields>AffectedCustomer__c</searchFilterFields>
+        <searchResultsAdditionalFields>AffectedCustomer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EstimatedFinancialImpact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ResolutionLeader__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BusinessRiskSponsor__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>BRE_VR01_AccountControl</fullName>
+        <active>true</active>
+        <description>July 2011: Ensures that the Account has not been marked for deletion</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp;  (ISNEW() || ISCHANGED(  AffectedCustomer__c  )) &amp;&amp;(  AffectedCustomer__r.ToBeDeleted__c = TRUE )</errorConditionFormula>
+        <errorDisplayField>AffectedCustomer__c</errorDisplayField>
+        <errorMessage>This Account has been marked for deletion, please choose another one.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BRE_VR02_ActionPlanAgreedWithCustomer</fullName>
+        <active>true</active>
+        <description>I2P - While Closing the case user has to provide the details of the Action Plan Agreed With Customer .</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),
+    OR(AND(NOT(ISPICKVAL(Status__c,&quot;Closed&quot;)),
+			NOT(ISPICKVAL(Status__c,&quot;Re-Open&quot;)),
+           NOT(ISBLANK(ActionPlanAgreedWithCustomer__c))
+		  ),
+	   AND(ISPICKVAL(Status__c,&quot;Closed&quot;),
+           ISBLANK(ActionPlanAgreedWithCustomer__c)
+		  )
+	  )
+	)</errorConditionFormula>
+        <errorDisplayField>ActionPlanAgreedWithCustomer__c</errorDisplayField>
+        <errorMessage>The Action Plan Agreed with Customer must be filled in when closing the BRE. It cannot be filled in before.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BRE_VR03_StatusShouldNotBeChanged</fullName>
+        <active>true</active>
+        <description>I2P - User should not change the status field of Business Risks from Re-Open to &apos;Open&apos;.</description>
+        <errorConditionFormula>AND($User.BypassVR__c =False,
+             ISCHANGED ( Status__c ), ISPICKVAL( PRIORVALUE(Status__c),&quot;Re-Open&quot;),ISPICKVAL( Status__c , &quot;Open&quot; )
+                     )</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>Status can not be changed from Re-Open to &apos;Open&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BRE_VR04_ResolutionLeader_Sponsor</fullName>
+        <active>true</active>
+        <description>I2P - While saving a  Business Risk Resolution Leader and business risk sponsor should not be blank</description>
+        <errorConditionFormula>(AND($User.BypassVR__c =False,(OR(ISBLANK(ResolutionLeader__c),ISBLANK(BusinessRiskSponsor__c)))))</errorConditionFormula>
+        <errorMessage>We are unable to select an appropriate Resolution Leader.
+Either Change the Entity,Sub-Entity or Country Or select that field manually</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BRE_VR05_NonGSAEstimatedFinancialImpact</fullName>
+        <active>true</active>
+        <description>Estimated financial impact is not mandatory for Strategic Accounts</description>
+        <errorConditionFormula>$User.BypassVR__c == FALSE 
+   &amp;&amp;
+       (     NOT (AffectedCustomer__r.TECH_I2PNotification__c = &apos;GSA&apos; )  &amp;&amp;
+             NOT ( ISPICKVAL ( AffectedCustomer__r.Type, &apos;GMO&apos; ))  &amp;&amp;
+             NOT ( ISPICKVAL ( AffectedCustomer__r.Type, &apos;IA&apos; ))
+       )
+  &amp;&amp;
+ISBLANK (EstimatedFinancialImpact__c)</errorConditionFormula>
+        <errorDisplayField>EstimatedFinancialImpact__c</errorDisplayField>
+        <errorMessage>Estimated Financial Impact cannot be blank for a non-global Affected Customer</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BRE_VR_DEC13I2P01_CheckRelatedProblem</fullName>
+        <active>true</active>
+        <description>Related problem  should not be blank while closing the BRE</description>
+        <errorConditionFormula>And( $User.BypassVR__c =False,ISPICKVAL(Status__c, &apos;Closed&apos;),RelatedProblem__c =null)</errorConditionFormula>
+        <errorDisplayField>RelatedProblem__c</errorDisplayField>
+        <errorMessage>Related Problem is mandatory before Business Risk Escalation status set to closed</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BRE_VR_JUN16I2P01_CheckSafeDomain</fullName>
+        <active>false</active>
+        <description>Check safe domain in Customer Contact Email</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), VLOOKUP($ObjectType.SafeDomains__c.Fields.Name, $ObjectType.SafeDomains__c.Fields.Name,SUBSTITUTE(CustomerContactEmail__c,left(CustomerContactEmail__c,FIND(&quot;@&quot;, CustomerContactEmail__c)), &quot;&quot;))!=SUBSTITUTE(CustomerContactEmail__c,left(CustomerContactEmail__c,FIND(&quot;@&quot;, CustomerContactEmail__c)), &quot;&quot;))</errorConditionFormula>
+        <errorDisplayField>CustomerContactEmail__c</errorDisplayField>
+        <errorMessage>Please enter valid email address within a Schneider safe domain.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BRE_VR_JUN16I2P02_CheckSafeDomain</fullName>
+        <active>true</active>
+        <description>Check safe domain in Local Contact Email</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), VLOOKUP($ObjectType.SafeDomains__c.Fields.Name, $ObjectType.SafeDomains__c.Fields.Name,SUBSTITUTE(LocalContactEmail__c,left(LocalContactEmail__c,FIND(&quot;@&quot;, LocalContactEmail__c)), &quot;&quot;))!=SUBSTITUTE(LocalContactEmail__c,left(LocalContactEmail__c,FIND(&quot;@&quot;, LocalContactEmail__c)), &quot;&quot;))</errorConditionFormula>
+        <errorDisplayField>LocalContactEmail__c</errorDisplayField>
+        <errorMessage>Please enter valid email address within a Schneider safe domain.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BRE_VR_Jul18I2P01_CheckLocationType</fullName>
+        <active>true</active>
+        <description>Check if Location Type of Originating Country is either Country Front Office HQ, Country Front Office Verticalised, and Country Front Office Other</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),NOT(ISPICKVAL(OriginatingOrganisation__r.Location_Type__c,&quot;Country Front Office HQ&quot;)),NOT(ISPICKVAL(OriginatingOrganisation__r.Location_Type__c,&quot;Country Front Office Verticalized&quot;)),NOT(ISPICKVAL(OriginatingOrganisation__r.Location_Type__c,&quot;Country Front Office Other&quot;)))</errorConditionFormula>
+        <errorDisplayField>OriginatingOrganisation__c</errorDisplayField>
+        <errorMessage>Originating County should only contain organizations with Location Type = Country Front Office HQ, Country Front Office Verticalised or Country Front Office Other</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BRE_VR_Jul18I2P02_CheckLocation</fullName>
+        <active>true</active>
+        <description>Check if Location of the Origination country is blank</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),ISBLANK(OriginatingOrganisation__r.Location__c))</errorConditionFormula>
+        <errorMessage>Please select an organization (Originating Country) at location level; Entity - Sub Entity - &quot;Location&quot;</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>TrainingMaterials</fullName>
+        <availability>online</availability>
+        <description>Training Materials</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Training Materials: Business Risk Escalation</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://schneider-electric.box.com/v/i2p-breTraining</url>
+    </webLinks>
+</CustomObject>

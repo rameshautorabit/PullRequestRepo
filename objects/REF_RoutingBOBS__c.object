@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>L1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Org Level 1</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>REF_OrganizationRecord__c.Type__c</field>
+                <operation>equals</operation>
+                <value>Business Organization</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>REF_OrganizationRecord__c</referenceTo>
+        <relationshipLabel>Routings BO - BS</relationshipLabel>
+        <relationshipName>RoutingsBOBS</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>L2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Org Level 2</label>
+        <referenceTo>REF_OrganizationRecord__c</referenceTo>
+        <relationshipLabel>Routings BO - BS (Org Level 2)</relationshipLabel>
+        <relationshipName>RoutingsBOBS1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>L3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Org Level 3</label>
+        <referenceTo>REF_OrganizationRecord__c</referenceTo>
+        <relationshipLabel>Routings BO - BS (Org Level 3)</relationshipLabel>
+        <relationshipName>RoutingsBOBS2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>L4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Org Level 4</label>
+        <referenceTo>REF_OrganizationRecord__c</referenceTo>
+        <relationshipLabel>Routings BO - BS (Org Level 4)</relationshipLabel>
+        <relationshipName>RoutingsBOBS3</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Process__c</fullName>
+        <externalId>false</externalId>
+        <label>Process</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer Care</fullName>
+                    <default>false</default>
+                    <label>Customer Care</label>
+                </value>
+                <value>
+                    <fullName>Customer Project Execution</fullName>
+                    <default>false</default>
+                    <label>Customer Project Execution</label>
+                </value>
+                <value>
+                    <fullName>Customer Relations-Marketing</fullName>
+                    <default>false</default>
+                    <label>Customer Relations-Marketing</label>
+                </value>
+                <value>
+                    <fullName>Customer Relations-Sales</fullName>
+                    <default>false</default>
+                    <label>Customer Relations-Sales</label>
+                </value>
+                <value>
+                    <fullName>Customer Services</fullName>
+                    <default>false</default>
+                    <label>Customer Services</label>
+                </value>
+                <value>
+                    <fullName>Finance, Controlling, External Relations</fullName>
+                    <default>false</default>
+                    <label>Finance, Controlling, External Relations</label>
+                </value>
+                <value>
+                    <fullName>Hire to Retire</fullName>
+                    <default>false</default>
+                    <label>Hire to Retire</label>
+                </value>
+                <value>
+                    <fullName>Manage Information Technology</fullName>
+                    <default>false</default>
+                    <label>Manage Information Technology</label>
+                </value>
+                <value>
+                    <fullName>Manage Processes, Design Organization</fullName>
+                    <default>false</default>
+                    <label>Manage Processes, Design Organization</label>
+                </value>
+                <value>
+                    <fullName>Integration</fullName>
+                    <default>false</default>
+                    <label>Integration</label>
+                </value>
+                <value>
+                    <fullName>Issue to Prevention</fullName>
+                    <default>false</default>
+                    <label>Issue to Prevention</label>
+                </value>
+                <value>
+                    <fullName>Offer Creation</fullName>
+                    <default>false</default>
+                    <label>Offer Creation</label>
+                </value>
+                <value>
+                    <fullName>Operations, Safety, Assets</fullName>
+                    <default>false</default>
+                    <label>Operations, Safety, Assets</label>
+                </value>
+                <value>
+                    <fullName>Market to Order</fullName>
+                    <default>false</default>
+                    <label>Market to Order</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Routing BO - BS</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Process__c</columns>
+        <columns>L1__c</columns>
+        <columns>L2__c</columns>
+        <columns>L3__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Routings</fullName>
+        <columns>NAME</columns>
+        <columns>L1__c</columns>
+        <columns>L2__c</columns>
+        <columns>L3__c</columns>
+        <columns>L4__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>Routings</label>
+    </listViews>
+    <nameField>
+        <label>Routing BO - BS Reference Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Routings BO - BS</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Process__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>L1__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>L2__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>L3__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>L4__c</customTabListAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

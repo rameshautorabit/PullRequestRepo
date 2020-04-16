@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Used as part of BFOFS_835</description>
+    <eventType>StandardVolume</eventType>
+    <fields>
+        <fullName>IPInfo__c</fullName>
+        <description>Used as part of BFOFS_835</description>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>IPInfo</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Installed Product</label>
+    <pluralLabel>Installed Products</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
+</CustomObject>

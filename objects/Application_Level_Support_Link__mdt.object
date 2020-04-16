@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains Support links based on the Application level and Country</description>
+    <fields>
+        <fullName>Application_Name__c</fullName>
+        <description>Select the Application Name</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Select the Application Name</inlineHelpText>
+        <label>Application Name</label>
+        <referenceTo>IDMS_ApplicationMapping__mdt</referenceTo>
+        <relationshipLabel>IDMS Support Links</relationshipLabel>
+        <relationshipName>IDMS_Support_Links</relationshipName>
+        <required>true</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Support__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>If checked, application level Support Link will open else IDMS Support link will open for Contact Support option in Need Help</inlineHelpText>
+        <label>Contact Support</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Country_Code__c</fullName>
+        <description>Country code</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Two Digit Country Code</inlineHelpText>
+        <label>Country Code</label>
+        <length>10</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>If checked, application level Support Link will open else IDMS Support link will open in all Email templates</inlineHelpText>
+        <label>Email Template</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Webform__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check the Box if record is created from a webform</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Check the option if the Support Link is in web form</inlineHelpText>
+        <label>Is Webform</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Password_Confirmation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>If checked, application level Support Link will open else IDMS Support link will open for all confirmation page,Reset Password page</inlineHelpText>
+        <label>Password Change</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Support_Link__c</fullName>
+        <description>Contains Either the App specific Support Webform link or the Support email.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Value should be either an Web Link or Email</inlineHelpText>
+        <label>Support Link</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>IDMS Support Link</label>
+    <listViews>
+        <fullName>ALL_LINKS</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>Application_Name__c</columns>
+        <columns>Country_Code__c</columns>
+        <columns>Password_Confirmation__c</columns>
+        <columns>Email__c</columns>
+        <columns>Contact_Support__c</columns>
+        <columns>Support_Link__c</columns>
+        <columns>Is_Webform__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>ALL LINKS</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>IDMS Support Links</pluralLabel>
+    <validationRules>
+        <fullName>ISL_VR_DEC18IDMS01_ValidSupportLink</fullName>
+        <active>true</active>
+        <description>Checks whether the support link is email or weblink based on is webform checkbox</description>
+        <errorConditionFormula>(NOT(Is_Webform__c) &amp;&amp; (CONTAINS(Support_Link__c,&apos;https:&apos;)  || NOT( CONTAINS(Support_Link__c,&apos;@&apos;))))  || ((Is_Webform__c) &amp;&amp; 
+NOT(BEGINS(Support_Link__c,&apos;https://&apos;)))  &amp;&amp;  NOT( $User.BypassVR__c )</errorConditionFormula>
+        <errorDisplayField>Support_Link__c</errorDisplayField>
+        <errorMessage>IF &quot;Is Webform&quot; Checked Then Please Enter a Valid Web Address starting with https:// OR IF &quot;Is Webform&quot; Unchecked Then Please Enter a Valid Email Address</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ISL_VR_DEC18IDMS_02_Uniqueness</fullName>
+        <active>true</active>
+        <errorConditionFormula>((Application_Name__r.DeveloperName+&apos;_&apos;+Country_Code__c )!=DeveloperName )  || 
+ ((Application_Name__r.DeveloperName+&apos;_&apos;+Country_Code__c )!= MasterLabel )</errorConditionFormula>
+        <errorMessage>Name and Label should be in the format of ApplicationName_CountryCode</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

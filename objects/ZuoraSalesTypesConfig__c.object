@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Define the type of sales regarding the Quote Entity and the Account Classification Level 1</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Classification_Level_1__c</fullName>
+        <description>Account Classification Level 1</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Account Classification Level 1: this field plus the Entity determine the Sales Type</inlineHelpText>
+        <label>Classification Level 1</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_type__c</fullName>
+        <description>Installer or InstallAt</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Installer or InstallAt</inlineHelpText>
+        <label>Contact type</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Context__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Direct or Indirect Sales</inlineHelpText>
+        <label>Context</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EntityToConssider__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Entity to consider</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Entity__c</fullName>
+        <description>A value of the Entity field on the Quote</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A value of the Entity field on the Quote</inlineHelpText>
+        <label>Entity</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Installer_mandatory__c</fullName>
+        <description>Yes : the field should be filled
+No : the field should be empty
+Optional : the field is optional</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Yes : the field should be filled
+No : the field should be empty
+Optional : the field is optional</inlineHelpText>
+        <label>Installer mandatory?</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Store_In__c</fullName>
+        <description>Name of the field in Zuora Subscription where to store the Contact Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the field in Zuora Subscription where to store the Contact Id
+This field should exist in the Quote objet also in Salesforce and in the Field set &apos;Custom Quote Fields&apos;</inlineHelpText>
+        <label>Store In</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Zuora Sales Types Config</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Entity__c</columns>
+        <columns>EntityToConssider__c</columns>
+        <columns>Classification_Level_1__c</columns>
+        <columns>Context__c</columns>
+        <columns>Installer_mandatory__c</columns>
+        <columns>Contact_type__c</columns>
+        <columns>Store_In__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

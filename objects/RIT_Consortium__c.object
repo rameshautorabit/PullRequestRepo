@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Quote Approval - Consortium for Bid Approval</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Amount1__c</fullName>
+        <description>Quote Approval - Amount 1 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Amount 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Amount2__c</fullName>
+        <description>Quote Approval - Amount 2 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Amount 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Amount3__c</fullName>
+        <description>Quote Approval - Amount 3 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Amount 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Amount4__c</fullName>
+        <description>Quote Approval - Amount 4 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Amount 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ClearMatrixResp__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Has a clear matrix of responsibilities been prepared and signed by all Consortium Members before the offer submission?
+
+Roles and responsibilities of each Consortium Member should be clearly defined and agreed before offer submission</inlineHelpText>
+        <label>Matrix of responsibilities signed ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CommentsRecommendations__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please describe the comments / recommendations of the Legal Dept</inlineHelpText>
+        <label>Please describe comments Legal Dept</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ConsortReviewedByLegalDpt__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(ConsortiumReviewedByLegalDept__c, &apos;Yes&apos;) , &apos;Attach the Agreement approved by the Legal Dept  and the Recommendations of the Legal Dept in the Notes &amp; Attachments&apos;,IF(ISPICKVAL(ConsortiumReviewedByLegalDept__c, &apos;No&apos;), &apos;The Consortium must be reviewed by Legal Dpt&apos;, &apos;&apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>-</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ConsortiumContracts__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Have the consortium contract and annexes been duly signed by all Consortium Members before the offer submission?</inlineHelpText>
+        <label>Consortium signed before offer sub.?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ConsortiumReviewedByLegalDept__c</fullName>
+        <description>Quote Approval - Has the consortium been reviewed by Legal Department? for Consortium.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Has the Consortium been reviewed by Legal Department?</inlineHelpText>
+        <label>Consortium been reviewed by Legal Dpt?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FinSituationConsMember1__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the financial situation of Consortium Member 1 ?</inlineHelpText>
+        <label>Financial situation of Cons. Member 1?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Under Surveillance</fullName>
+                    <default>false</default>
+                    <label>Under Surveillance</label>
+                </value>
+                <value>
+                    <fullName>At Risk</fullName>
+                    <default>false</default>
+                    <label>At Risk</label>
+                </value>
+                <value>
+                    <fullName>Not Checked</fullName>
+                    <default>false</default>
+                    <label>Not Checked</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FinSituationConsMember2__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the financial situation of Consortium Member 2 ?</inlineHelpText>
+        <label>Financial situation of Cons. Member 2?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Under Surveillance</fullName>
+                    <default>false</default>
+                    <label>Under Surveillance</label>
+                </value>
+                <value>
+                    <fullName>At Risk</fullName>
+                    <default>false</default>
+                    <label>At Risk</label>
+                </value>
+                <value>
+                    <fullName>Not Checked</fullName>
+                    <default>false</default>
+                    <label>Not Checked</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FinSituationConsMember3__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the financial situation of Consortium Member 3 ?</inlineHelpText>
+        <label>Financial situation of Cons. Member 3?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Under Surveillance</fullName>
+                    <default>false</default>
+                    <label>Under Surveillance</label>
+                </value>
+                <value>
+                    <fullName>At Risk</fullName>
+                    <default>false</default>
+                    <label>At Risk</label>
+                </value>
+                <value>
+                    <fullName>Not Checked</fullName>
+                    <default>false</default>
+                    <label>Not Checked</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FinSituationConsMember4__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the financial situation of Consortium Member 4 ?</inlineHelpText>
+        <label>Financial situation of Cons. Member 4?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Under Surveillance</fullName>
+                    <default>false</default>
+                    <label>Under Surveillance</label>
+                </value>
+                <value>
+                    <fullName>At Risk</fullName>
+                    <default>false</default>
+                    <label>At Risk</label>
+                </value>
+                <value>
+                    <fullName>Not Checked</fullName>
+                    <default>false</default>
+                    <label>Not Checked</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>InPercentOfTotalOffer1__c</fullName>
+        <description>Quote Approval  - Formula to calculate the percentage value of the given Amount 1against the Total Amount</description>
+        <externalId>false</externalId>
+        <formula>IF(( Amount1__c  +  Amount2__c  +  Amount3__c  +  Amount4__c ) &gt;0,( Amount1__c  / ( Amount1__c  +  Amount2__c  +  Amount3__c  +  Amount4__c ))  
+, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>In % Of Total Offer 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>InPercentOfTotalOffer2__c</fullName>
+        <description>Quote Approval - Formula to calculate the percentage value of the given Amount 2 against the Total Amount</description>
+        <externalId>false</externalId>
+        <formula>IF(( Amount1__c  +  Amount2__c  +  Amount3__c  +  Amount4__c ) &gt;0,(  Amount2__c   / ( Amount1__c  +  Amount2__c  +  Amount3__c  +  Amount4__c )) , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>In % Of Total Offer 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>InPercentOfTotalOffer3__c</fullName>
+        <description>Quote Approval - Formula to calculate the percentage value of the given Amount 3 against the Total Amount</description>
+        <externalId>false</externalId>
+        <formula>IF(( Amount1__c  +  Amount2__c  +  Amount3__c  +  Amount4__c ) &gt;0,(  Amount3__c   / ( Amount1__c  +  Amount2__c  +  Amount3__c  +  Amount4__c )) , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>In % Of Total Offer 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>InPercentOfTotalOffer4__c</fullName>
+        <description>Quote Approval - Formula to calculate the percentage value of the given Amount 4 against the Total Amount</description>
+        <externalId>false</externalId>
+        <formula>IF(( Amount1__c  +  Amount2__c  +  Amount3__c  +  Amount4__c ) &gt;0,(  Amount4__c   / ( Amount1__c  +  Amount2__c  +  Amount3__c  +  Amount4__c )) , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>In % Of Total Offer 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>IsThereJointAndSeveralLiabilities__c</fullName>
+        <description>Quote Approval - Is there any joint and several  liabilities? for Consortium.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is there a Joint and Several Liabilities Clause?</inlineHelpText>
+        <label>Joint and Several Liabilities Clause?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>JustifyNeedForConsortium__c</fullName>
+        <externalId>false</externalId>
+        <label>Please justify the need for a Consortium</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NameOfConsortiumParticipant1New__c</fullName>
+        <description>Quote Approval - Name of consortium participant 1 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Name &amp; Country of Consortium Member 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NameOfConsortiumParticipant1__c</fullName>
+        <description>Quote Approval - Name of consortium participant 1 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Name &amp; Country of Consortium Member 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NameOfConsortiumParticipant2New__c</fullName>
+        <description>Quote Approval - Name of consortium participant 2 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Name &amp; Country of Consortium Member 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NameOfConsortiumParticipant2__c</fullName>
+        <description>Quote Approval - Name of consortium participant 2 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Name &amp; Country of Consortium Member 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NameOfConsortiumParticipant3New__c</fullName>
+        <description>Quote Approval - Name of consortium participant 3 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Name &amp; Country of Consortium Member 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NameOfConsortiumParticipant3__c</fullName>
+        <description>Quote Approval - Name of consortium participant 3 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Name &amp; Country of Consortium Member 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NameOfConsortiumParticipant4New__c</fullName>
+        <description>Quote Approval - Name of consortium participant 4 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Name &amp; Country of Consortium Member 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NameOfConsortiumParticipant4__c</fullName>
+        <description>Quote Approval - Name of consortium participant 4 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Name &amp; Country of Consortium Member 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NameOfTheLeaderOfTheConsortium__c</fullName>
+        <description>Quote Approval - Name of the Leader of  the Consortium for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Name Of The Leader Of The Consortium</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PartnerScopeDoableBySEOr3rdParty__c</fullName>
+        <description>Quote Approval - Can the partner(s)’ scope be performed by SE or a third party? for Consortium.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Can the Partner(s)&apos; scope be re-insourced by SE or performed by a Third Party?</inlineHelpText>
+        <label>Can Partners&apos; scope be re-insourced ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuoteLink__c</fullName>
+        <description>Quote Approval - Master-detail relationship between Consortium and Quote Link</description>
+        <externalId>false</externalId>
+        <label>Quote Link</label>
+        <referenceTo>OPP_QuoteLink__c</referenceTo>
+        <relationshipLabel>Consortium</relationshipLabel>
+        <relationshipName>RIT_Consortium</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>RisksRemarks__c</fullName>
+        <description>Quote Approval - Risks? Remarks? for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Comments on the Consortium</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Role1New__c</fullName>
+        <description>Quote Approval - Role 1 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Role &amp; Scope of Work of Member 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Role1__c</fullName>
+        <description>Quote Approval - Role 1 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Role &amp; Scope of Work of Member 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role2New__c</fullName>
+        <description>Quote Approval - Role 2 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Role &amp; Scope of Work of Member 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Role2__c</fullName>
+        <description>Quote Approval - Role 2 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Role &amp; Scope of Work of Member 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role3New__c</fullName>
+        <description>Quote Approval - Role 3 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Role &amp; Scope of Work of Member 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Role3__c</fullName>
+        <description>Quote Approval - Role 3 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Role &amp; Scope of Work of Member 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role4New__c</fullName>
+        <description>Quote Approval - Role 4 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Role &amp; Scope of Work of Member 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Role4__c</fullName>
+        <description>Quote Approval - Role 4 for Consortium.</description>
+        <externalId>false</externalId>
+        <label>Role &amp; Scope of Work of Member 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TotalAmount__c</fullName>
+        <description>Quote Approval - Formula to sum up all the Amounts</description>
+        <externalId>false</externalId>
+        <formula>Amount1__c  +  Amount2__c  +  Amount3__c  +  Amount4__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Consortium Total Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TotalPercentOfTotalOffer__c</fullName>
+        <description>Quote Approval - Formula to sum up all the percentages of Total Offer</description>
+        <externalId>false</externalId>
+        <formula>InPercentOfTotalOffer1__c  +  InPercentOfTotalOffer2__c  +  InPercentOfTotalOffer3__c  +  InPercentOfTotalOffer4__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total % should be 100%</inlineHelpText>
+        <label>Total % Of Total Offer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Consortium</label>
+    <nameField>
+        <displayFormat>RIT-CON-{0000}</displayFormat>
+        <label>Consortium</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Consortiums</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>CON_VR01_CheckQuoteStatus</fullName>
+        <active>true</active>
+        <description>Quote Approval - To ensure that information is not edited after Quote Approval</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(Text(QuoteLink__r.QuoteStatus__c) = &apos;Approved&apos;)</errorConditionFormula>
+        <errorMessage>RITE Information cannot be modified now, as the Quote is Approved</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>RIT_CON_RITEForm</fullName>
+        <availability>online</availability>
+        <description>Quote Approval – A button to go back to the RITE Form Executive Summary Page.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Back to RITE Form</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/VFP13_RITEForm?id={! RIT_Consortium__c.QuoteLinkId__c }</url>
+    </webLinks>
+</CustomObject>

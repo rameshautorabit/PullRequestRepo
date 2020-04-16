@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Connect Global Scorecard Performance Measures</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>All_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <label>All_Quarter</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Green__c</fullName>
+        <description>Measure for Green</description>
+        <externalId>false</externalId>
+        <label>Green</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Measure_Type__c</fullName>
+        <description>Type of Measure</description>
+        <externalId>false</externalId>
+        <label>Measure Type</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Red__c</fullName>
+        <description>Measure for Red</description>
+        <externalId>false</externalId>
+        <label>Red</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Yellow__c</fullName>
+        <description>Measure for Yellow</description>
+        <externalId>false</externalId>
+        <label>Yellow</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>ConnectGlobalScorecardPerfMeasures</label>
+    <visibility>Protected</visibility>
+</CustomObject>

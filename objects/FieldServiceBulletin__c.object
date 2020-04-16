@@ -1,0 +1,2020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>VFP_NewFieldServiceBulletin</content>
+        <skipRecordTypeSelect>true</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>HighlightPanelofFSB</fullName>
+        <fields>FSBNumber__c</fields>
+        <fields>Name</fields>
+        <fields>OwnerId</fields>
+        <fields>ProductLine__c</fields>
+        <fields>Severity__c</fields>
+        <fields>ImplementationStrategy__c</fields>
+        <fields>Status__c</fields>
+        <label>HighlightPanelofFSB</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AssessedNumberofIntalledProducts__c</fullName>
+        <externalId>false</externalId>
+        <label>Assessed Number of Installed Products</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AssessedNumberofWOforCompletion__c</fullName>
+        <externalId>false</externalId>
+        <label>Assessed Number of WO for Completion</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BOXMessage__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;/resource/SR_Q216_FSB_BOXMessage&quot;, &apos;box message&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;BOXMessage&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ChangeStatusMessage__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;/resource/SR_Q216_FSB_ChangeSatus&quot;, &apos;change status message&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;ChangeStatusMessage&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CompletionDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Completion Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CostCenter__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Center</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CountofWorkOrdersForecasted__c</fullName>
+        <externalId>false</externalId>
+        <label>Count of Work Orders Forecasted</label>
+        <summaryForeignKey>ImpactedInstalledProductFollowup__c.FieldServiceBulletin__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>CustomerRisk__c</fullName>
+        <description>Q2 2016 Release : Notes to bFO</description>
+        <externalId>false</externalId>
+        <label>Customer Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Q2 2016 Release : Notes to bFO</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DetailedinformationofFSB__c</fullName>
+        <externalId>false</externalId>
+        <formula>&apos;Detailed information of FSB Implementation is under Country Management Responsibility&apos;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;Detailed information of FSB&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocumentDeliveryDueDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Due Date for FSB Release</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DocumentProofreadingStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Document Proofreading Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sent to Proofreaders</fullName>
+                    <default>false</default>
+                    <label>Sent to Proofreaders</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DueDatetoCompleteImplementation__c</fullName>
+        <externalId>false</externalId>
+        <label>Due Date to Complete Implementation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>EndOfSectionStatus1Message__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;/resource/SR_Q216_FSB_EndofSection1Msg&quot;, &apos;spares section message&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;EndOfSectionStatus1Message&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EndofSection4Message__c</fullName>
+        <externalId>false</externalId>
+        <formula>iMAGE(&quot;/resource/SR_Q216_FSB_EndofSection4Mesg&quot;, &apos;spares section message&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;EndofSection4Message&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EnoughsparepartsorderedforVIPs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Enough spare parts ordered for VIPs</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSBApprovalStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>FSB Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Potential FSB</fullName>
+                    <default>false</default>
+                    <label>Potential FSB</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FSBApprover__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Q2 2016 Release : Notes to bFO</description>
+        <externalId>false</externalId>
+        <label>FSB Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Field_Service_Bulletins</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FSBCompletionProofreadingDate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FSB Completion Proofreading</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSBEmailDate__c</fullName>
+        <externalId>false</externalId>
+        <label>FSB Communication to Countries Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FSBEmailedbyL3FSETechnicalSupport__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FSB Emailed by L3 FSE Technical Support</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSBFinalVersionBoxLink__c</fullName>
+        <externalId>false</externalId>
+        <label>FSB Box Link</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>FSBGoNoGoSectionMessage__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;/resource/SR_Q216_FSB_FSBGoNoGoSectionMessage&quot;, &apos;spares section message&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;FSBGoNoGoSectionMessage&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSBNumber__c</fullName>
+        <displayFormat>FSB-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>FSB Number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>FSBProofreadingStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>FSB Proofreading Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sent</fullName>
+                    <default>false</default>
+                    <label>Sent</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FSBwithServiceSpares__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK( $Label.CLQ216I2P18 &amp; &quot;?pv0=&quot; &amp; Id , &quot;Report&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FSB with Service Spares</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Family__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Family</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <filterItems>
+                <field>OPP_Product__c.HierarchyType__c</field>
+                <operation>equals</operation>
+                <value>PM0-FAMILY</value>
+            </filterItems>
+            <filterItems>
+                <field>$User.BypassVR__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>OPP_Product__c</referenceTo>
+        <relationshipLabel>Field Service Bulletins (Family)</relationshipLabel>
+        <relationshipName>Field_Service_Bulletins1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>GLAccount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>General Ledger Account.</inlineHelpText>
+        <label>GL Account</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GeographicalImpact__c</fullName>
+        <externalId>false</externalId>
+        <label>Geographical Impact</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Local</fullName>
+                    <default>false</default>
+                    <label>Local</label>
+                </value>
+                <value>
+                    <fullName>Regional</fullName>
+                    <default>false</default>
+                    <label>Regional</label>
+                </value>
+                <value>
+                    <fullName>Worldwide</fullName>
+                    <default>false</default>
+                    <label>Worldwide</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GeographicalScope__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Need to define for each region the quantity of installed product forecast and service spare parts forecast.
+Example: Specificity on US part</inlineHelpText>
+        <label>Geographical Scope</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>GlobalCostofModificationink__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If more than 100KE a technical risk should be open</inlineHelpText>
+        <label>Global Cost of Modification</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ImpactedInstalledProductFollowup__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK( $Label.CLQ216I2P17 &amp; &quot;?pv0=&quot; &amp;  Id , &quot;Report&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Impacted Installed Product Follow-up</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ImplementationStrategy__c</fullName>
+        <externalId>false</externalId>
+        <label>Implementation Strategy</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>For Information</fullName>
+                    <default>false</default>
+                    <label>For Information</label>
+                </value>
+                <value>
+                    <fullName>Fix Upon Failure</fullName>
+                    <default>false</default>
+                    <label>Fix Upon Failure</label>
+                </value>
+                <value>
+                    <fullName>Next Visit</fullName>
+                    <default>false</default>
+                    <label>Next Visit</label>
+                </value>
+                <value>
+                    <fullName>Immediate Action</fullName>
+                    <default>false</default>
+                    <label>Immediate Action</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IstheSolutionFeasibleonSite__c</fullName>
+        <description>Q2  2016 release</description>
+        <externalId>false</externalId>
+        <label>Is the Solution Feasible on Site</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Not Defined Yet</fullName>
+                    <default>false</default>
+                    <label>Not Defined Yet</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsthereaSolution__c</fullName>
+        <description>Q2  2016 release</description>
+        <externalId>false</externalId>
+        <label>Is there a Solution</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Not Defined Yet</fullName>
+                    <default>false</default>
+                    <label>Not Defined Yet</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Legacy_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Legacy Number</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NumberOfAffectedProducts__c</fullName>
+        <description>Roll-up Summary to count the number of FSB Affected Products added</description>
+        <externalId>false</externalId>
+        <label>Number Of Affected Products</label>
+        <summaryForeignKey>FSBAffectedProduct__c.FieldServiceBulletin__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>NumberOfFSBTeamMembers__c</fullName>
+        <description>Q2 2016  Release : Notes to BFO</description>
+        <externalId>false</externalId>
+        <label>Number Of FSB Team Members</label>
+        <summaryForeignKey>FSBTeam__c.FieldServiceBulletin__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>PartandSpecialToolsRecommended__c</fullName>
+        <externalId>false</externalId>
+        <label>Part and Special Tools Recommended</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>false</default>
+                    <label>Undefined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Problem__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Problem</label>
+        <referenceTo>Problem__c</referenceTo>
+        <relationshipLabel>Field Service Bulletins</relationshipLabel>
+        <relationshipName>Field_Service_Bulletins</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductLine__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product Line</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>OPP_Product__c.ProductFamily__c</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>OPP_Product__c.ProductLine__c</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <infoMessage>Please add a product at the Product Line level.</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>OPP_Product__c</referenceTo>
+        <relationshipLabel>Field Service Bulletins</relationshipLabel>
+        <relationshipName>Field_Service_Bulletins</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Proofreading_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Proofreading Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ReplacedbynewFSB__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Replaced by new FSB</label>
+        <referenceTo>FieldServiceBulletin__c</referenceTo>
+        <relationshipLabel>Previous Field Service Bulletins</relationshipLabel>
+        <relationshipName>Field_Service_Bulletins</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Severity__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Severity of the Field Service Bulletin:
+
+10 - Safety Related
+7 - Significant/High
+5 - Moderately Significant
+3 - Minor
+1 - Insignificant</inlineHelpText>
+        <label>Severity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Insignificant / Low</fullName>
+                    <default>false</default>
+                    <label>Insignificant</label>
+                </value>
+                <value>
+                    <fullName>Minor</fullName>
+                    <default>false</default>
+                    <label>Minor</label>
+                </value>
+                <value>
+                    <fullName>Moderately Significant</fullName>
+                    <default>false</default>
+                    <label>Moderately Significant</label>
+                </value>
+                <value>
+                    <fullName>Significant / High</fullName>
+                    <default>false</default>
+                    <label>Significant/High</label>
+                </value>
+                <value>
+                    <fullName>Safety related</fullName>
+                    <default>false</default>
+                    <label>Safety Related</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SignOffDecisionComment__c</fullName>
+        <externalId>false</externalId>
+        <label>Sign Off Decision Comment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SignOffDecision__c</fullName>
+        <externalId>false</externalId>
+        <label>Sign Off Decision</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approved for Execution</fullName>
+                    <default>false</default>
+                    <label>Approved for Execution</label>
+                </value>
+                <value>
+                    <fullName>Rejected - To be re-worked</fullName>
+                    <default>false</default>
+                    <label>Rejected - To be re-worked</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SparePartsAllocationRulesIfneeded__c</fullName>
+        <externalId>false</externalId>
+        <label>Spare Parts Allocation Rules (If needed)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SparePartsCreationOwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Creator of a new reference in spare part catalog</inlineHelpText>
+        <label>New Spare Part Creator</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Field_Service_Bulletins1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SparePartsMessage__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;/resource/SR_Q216_FSB_SparePartsMessage&quot;, &apos;spares section message&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;SparePartsMessage&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SparePartsToolsAvailability__c</fullName>
+        <externalId>false</externalId>
+        <label>Spare Parts &amp; Tools Availability</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>false</default>
+                    <label>Undefined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SparePartsToolsAvailable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Spare Parts &amp; Tools Available</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SparePartsToolsLeadTime__c</fullName>
+        <externalId>false</externalId>
+        <label>Spare Parts &amp; Tools Lead Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SparePartsToolsSolutionSelected__c</fullName>
+        <externalId>false</externalId>
+        <label>Spare Parts &amp; Tools Solution Selected</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>StatusFlow__c</fullName>
+        <externalId>false</externalId>
+        <formula>image(&quot;/resource/&quot; 
+&amp; Case( 
+TEXT(Status__c),
+&apos;1. New&apos; ,&quot;SR_Q216_FSB_New&quot;,
+&apos;2. Go/NoGo Decision Pending&apos; ,&quot;SR_Q216_FSB_GoNoGoDecisionPending&quot;,
+&apos;3a. Document in progress&apos;,&quot;SR_Q216_FSB_DocumentInProgress&quot;,
+&apos;3b. Cancelled&apos;,&quot;SR_Q216_FSB_Cancelled&quot;,
+&apos;4. Pending Final Approval&apos;,&quot;SR_Q216_FSB_PendingFinalApproval&quot;,
+&apos;5. Execution&apos;,&quot;SR_Q216_FSB_Execution&quot;,
+&apos;6. Completed&apos;,&quot;SR_Q216_FSB_Completed&quot;,
+&apos;7. Obsolete&apos;,&quot;SR_Q216_FSB_Obsolete&quot;
+,&apos;&apos;)
+,&quot;Status&quot;, 175,650)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status Flow</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Q2 2016 Release : Notes to bFO</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1. New</fullName>
+                    <default>true</default>
+                    <label>1. New</label>
+                </value>
+                <value>
+                    <fullName>2. Go/NoGo Decision Pending</fullName>
+                    <default>false</default>
+                    <label>2. Go/NoGo Decision Pending</label>
+                </value>
+                <value>
+                    <fullName>3a. Document in progress</fullName>
+                    <default>false</default>
+                    <label>3a. Document in progress</label>
+                </value>
+                <value>
+                    <fullName>3b. Cancelled</fullName>
+                    <default>false</default>
+                    <label>3b. Cancelled</label>
+                </value>
+                <value>
+                    <fullName>4. Pending Final Approval</fullName>
+                    <default>false</default>
+                    <label>4. Pending Final Approval</label>
+                </value>
+                <value>
+                    <fullName>5. Execution</fullName>
+                    <default>false</default>
+                    <label>5. Execution</label>
+                </value>
+                <value>
+                    <fullName>6. Completed</fullName>
+                    <default>false</default>
+                    <label>6. Completed</label>
+                </value>
+                <value>
+                    <fullName>7. Obsolete</fullName>
+                    <default>false</default>
+                    <label>7. Obsolete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StorageinSKM__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Storage in SKM</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TechnicalRiskNumberReady__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Q2 2016 Release :  Notes to bFO</description>
+        <externalId>false</externalId>
+        <label>Technical Risk Number Ready</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TechnicalRisknumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Technical Risk number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TechnicalSolutionSelectedIfseveral__c</fullName>
+        <externalId>false</externalId>
+        <label>Go/No Go Decision Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Temp_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1. New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>2. Go/NoGo Decision Pending</fullName>
+                    <default>false</default>
+                    <label>Go/No Go decision pending</label>
+                </value>
+                <value>
+                    <fullName>3a. Document in progress</fullName>
+                    <default>false</default>
+                    <label>Document in progress</label>
+                </value>
+                <value>
+                    <fullName>4. Pending Final Approval</fullName>
+                    <default>false</default>
+                    <label>Pending final approval</label>
+                </value>
+                <value>
+                    <fullName>5. Execution</fullName>
+                    <default>false</default>
+                    <label>Execution</label>
+                </value>
+                <value>
+                    <fullName>6. Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TypeofDocumenttoGenerate__c</fullName>
+        <description>Go/No-Go Decision</description>
+        <externalId>false</externalId>
+        <label>Go/No-Go Decision</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>true</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Go</fullName>
+                    <default>false</default>
+                    <label>Go</label>
+                </value>
+                <value>
+                    <fullName>No Go</fullName>
+                    <default>false</default>
+                    <label>No Go</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>VIPisImpacted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If the issue came from VIP site, check this box</inlineHelpText>
+        <label>Detected from VIP</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Validation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ValidationtoReleaseQV__c</fullName>
+        <externalId>false</externalId>
+        <label>Quality Validation to Release</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approve</fullName>
+                    <default>false</default>
+                    <label>Approve</label>
+                </value>
+                <value>
+                    <fullName>Reject</fullName>
+                    <default>false</default>
+                    <label>Reject</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WarningMessageApproverBlank__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NumberOfAffectedProducts__c &gt; 0 &amp;&amp;  ISBLANK(FSBApprover__c) , IMAGE(&quot;/resource/SR_Q216_FSB_Warning&quot;, &apos;warning&apos;),&apos;&apos; )</formula>
+        <label>&lt;WarningMessageApproverBlank&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WarningMessageQC__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISBLANK(FSBApprover__c) , IMAGE(&quot;/resource/SR_Q216_FSB_Warning&quot;, &apos;warning&apos;),&apos;&apos; )</formula>
+        <label>&lt;WarningMessageApproverBlank&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WarningSeverityLow__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( OR(ISPICKVAL(Severity__c, &apos;Minor&apos;), ISPICKVAL(Severity__c, &apos;Insignificant / Low&apos;)) , IMAGE(&quot;/resource/SR_Q216_FSB_SeverityLow&quot;, &apos;warning&apos;),&apos;&apos; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;WarningSeverityLow&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WhoSupportsCost__c</fullName>
+        <externalId>false</externalId>
+        <label>Who Supports Cost?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>LOB via Technical Risk</fullName>
+                    <default>false</default>
+                    <label>LOB via Technical Risk</label>
+                </value>
+                <value>
+                    <fullName>Countries</fullName>
+                    <default>false</default>
+                    <label>Countries</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Field Service Bulletin</label>
+    <listViews>
+        <fullName>All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Classic_FSB</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Severity__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>ProductLine__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>Classic FSB</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Details</fullName>
+        <columns>NAME</columns>
+        <columns>Problem__c</columns>
+        <columns>Description__c</columns>
+        <columns>ProductLine__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ProductLine__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Details</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>EcoBuildings</fullName>
+        <columns>NAME</columns>
+        <columns>Severity__c</columns>
+        <columns>Status__c</columns>
+        <columns>ProductLine__c</columns>
+        <columns>Problem__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>FSBFinalVersionBoxLink__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ProductLine__c</field>
+            <operation>startsWith</operation>
+            <value>PT</value>
+        </filters>
+        <label>EcoBuildings</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Field Service Bulletins</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>FieldServiceBulletinProblemRecordType</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>HighlightPanelofFSB</compactLayoutAssignment>
+        <label>Field Service Bulletin - Problem Record Type</label>
+        <picklistValues>
+            <picklist>DocumentProofreadingStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent to Proofreaders</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FSBApprovalStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential FSB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FSBProofreadingStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>GeographicalImpact__c</picklist>
+            <values>
+                <fullName>Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Worldwide</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IstheSolutionFeasibleonSite__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Defined Yet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IsthereaSolution__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Defined Yet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PartandSpecialToolsRecommended__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undefined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Severity__c</picklist>
+            <values>
+                <fullName>Insignificant %2F Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Minor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moderately Significant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Safety related</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Significant %2F High</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SignOffDecision__c</picklist>
+            <values>
+                <fullName>Approved for Execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected - To be re-worked</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SparePartsToolsAvailability__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undefined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>1%2E New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>2%2E Go%2FNoGo Decision Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3a%2E Document in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3b%2E Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%2E Pending Final Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%2E Execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%2E Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%2E Obsolete</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TypeofDocumenttoGenerate__c</picklist>
+            <values>
+                <fullName>Go</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Go</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ValidationtoReleaseQV__c</picklist>
+            <values>
+                <fullName>Approve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>WhoSupportsCost__c</picklist>
+            <values>
+                <fullName>Countries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOB via Technical Risk</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>FieldServiceBulletinProductRecordType</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>HighlightPanelofFSB</compactLayoutAssignment>
+        <label>Field Service Bulletin - Product Record Type</label>
+        <picklistValues>
+            <picklist>DocumentProofreadingStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent to Proofreaders</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FSBApprovalStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential FSB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FSBProofreadingStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>GeographicalImpact__c</picklist>
+            <values>
+                <fullName>Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Worldwide</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IstheSolutionFeasibleonSite__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Defined Yet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IsthereaSolution__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Defined Yet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PartandSpecialToolsRecommended__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undefined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Severity__c</picklist>
+            <values>
+                <fullName>Insignificant %2F Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Minor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moderately Significant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Safety related</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Significant %2F High</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SignOffDecision__c</picklist>
+            <values>
+                <fullName>Approved for Execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected - To be re-worked</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SparePartsToolsAvailability__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undefined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>1%2E New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>2%2E Go%2FNoGo Decision Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3a%2E Document in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3b%2E Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%2E Pending Final Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%2E Execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%2E Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%2E Obsolete</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TypeofDocumenttoGenerate__c</picklist>
+            <values>
+                <fullName>Go</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Go</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ValidationtoReleaseQV__c</picklist>
+            <values>
+                <fullName>Approve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>WhoSupportsCost__c</picklist>
+            <values>
+                <fullName>Countries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOB via Technical Risk</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Severity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ProductLine__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Problem__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Severity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ProductLine__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Problem__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>VR_Q216_Change_the_SignOffDecision</fullName>
+        <active>true</active>
+        <description>change the Sign Off Decision, the following conditions must be met, error messages shall be shown to the user when conditions are not met</description>
+        <errorConditionFormula>IF(AND(NOT( $User.BypassVR__c ),
+				ISCHANGED (SignOffDecision__c), 
+	   OR(
+					NOT(	ISPICKVAL(DocumentProofreadingStatus__c , &apos;Approved&apos;)), 
+	    NOT(ISPICKVAL(Status__c , &apos;4. Pending Final Approval&apos;))
+		)
+  ),
+			true ,false)</errorConditionFormula>
+        <errorMessage>To change the Sign Off Decision, the following conditions must be met: Documents Proofreading Status is equal to ‘Approved’ and FSB Status is ‘Pending Final Approval’</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_FSBPendingtobeCancelled</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : The Field Service Bulletin Status must be moved to Cancelled as the selected document type is not FSB</description>
+        <errorConditionFormula>AND( NOT($User.BypassVR__c) , OR(ISPICKVAL(Status__c , &apos;3a. Document in progress&apos;) , ISPICKVAL(Status__c , &apos;4. Pending Final Approval&apos;) , ISPICKVAL(Status__c , &apos;5. Execution&apos;) , ISPICKVAL(Status__c , &apos;6. Completed&apos;)), ISPICKVAL( TypeofDocumenttoGenerate__c , &apos;Pending&apos;), NOT(ISPICKVAL( TypeofDocumenttoGenerate__c , &apos;&apos;)))</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>Please change the Go/No-Go Decision to either &quot;Go&quot; or &quot;No Go&quot; before trying to move the Status to Document In Progress.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_FSB_Status_Execution</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c ),ISCHANGED(Status__c),
+				ISPICKVAL( Status__c , &apos;5. Execution&apos;), 
+	   NOT( ISPICKVAL( SignOffDecision__c , &apos;Approved for Execution&apos;))
+      )</errorConditionFormula>
+        <errorMessage>To move an FSB to status ‘5. Execution’: ‘Sign Off Decision’ has to be ‘Approved for Execution’.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_FSBtobeCancelled</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : The Field Service Bulletin Status must be moved to Cancelled as the selected document type is not FSB</description>
+        <errorConditionFormula>AND( NOT($User.BypassVR__c) , OR(ISPICKVAL(Status__c , &apos;3a. Document in progress&apos;) , ISPICKVAL(Status__c , &apos;4. Pending Final Approval&apos;) , ISPICKVAL(Status__c , &apos;5. Execution&apos;) , ISPICKVAL(Status__c , &apos;6. Completed&apos;)), ISPICKVAL( TypeofDocumenttoGenerate__c , &apos;No Go&apos;), NOT(ISPICKVAL( TypeofDocumenttoGenerate__c , &apos;&apos;)))</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>The Field Service Bulletin Status must be moved to Cancelled as the Go/No-Go Decision is not Go</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_NameChange</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : FSB Name cannot be modified beyond Satus &apos;4. Pending Document Approval.&apos;</description>
+        <errorConditionFormula>AND( NOT($User.BypassVR__c) , OR(ISPICKVAL(Status__c , &apos;4. Pending Final Approval&apos;) , ISPICKVAL(Status__c , &apos;5. Execution&apos;) , ISPICKVAL(Status__c , &apos;6. Completed&apos;)),   ISCHANGED(Name))</errorConditionFormula>
+        <errorDisplayField>Name</errorDisplayField>
+        <errorMessage>FSB Name cannot be modified beyond Satus &apos;4. Pending Document Approval.&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_NotApproved</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : The FSB document must be validated by the Line of Business Quality Manager to change the status to &apos;4. Pending Final Approval&apos; or any further status. Please update &apos; Document Proofreading Status&apos; field.</description>
+        <errorConditionFormula>AND( NOT($User.BypassVR__c) , OR(ISPICKVAL(Status__c , &apos;4. Pending Final Approval&apos;) , ISPICKVAL(Status__c , &apos;5. Execution&apos;) , ISPICKVAL(Status__c , &apos;6. Completed&apos;)) , NOT(ISPICKVAL( DocumentProofreadingStatus__c , &apos;Approved&apos;)))</errorConditionFormula>
+        <errorDisplayField>DocumentProofreadingStatus__c</errorDisplayField>
+        <errorMessage>The FSB document must be validated by the Line of Business Quality Manager to change the status to &apos;4. Pending Final Approval&apos; or any further status. Please update &apos; Document Proofreading Status&apos; field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_ReasonMandatoryforCancel</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : Please enter a reason for cancelling the Field Service Bulletin.</description>
+        <errorConditionFormula>AND(NOT( $User.BypassVR__c ) ,  ISPICKVAL(Status__c, &apos;3b. Cancelled&apos;) ,  ISBLANK(Reason__c)  )</errorConditionFormula>
+        <errorDisplayField>Reason__c</errorDisplayField>
+        <errorMessage>Please enter a reason for cancelling the Field Service Bulletin.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_ReasonMandatoryforObsolete</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : Please provide a Reason to set the status to Obsolete.</description>
+        <errorConditionFormula>AND(NOT( $User.BypassVR__c ) ,  ISPICKVAL(Status__c, &apos;7. Obsolete&apos;) ,  ISBLANK(Reason__c)  )</errorConditionFormula>
+        <errorDisplayField>Reason__c</errorDisplayField>
+        <errorMessage>Please provide a Reason to set the status to Obsolete.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_SeverityChange</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : Severity of a &apos;Safety related&apos; FSB cannot be changed.</description>
+        <errorConditionFormula>AND ( NOT( $User.BypassVR__c ) , ISPICKVAL(PRIORVALUE(Severity__c), &apos;Safety related&apos;), ISCHANGED( Severity__c) )</errorConditionFormula>
+        <errorDisplayField>Severity__c</errorDisplayField>
+        <errorMessage>Severity of a &apos;Safety related&apos; FSB cannot be changed.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_SeveritySafetyrelated</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : Please create this Field Service Bulletin from the corresponding Safety Problem.</description>
+        <errorConditionFormula>AND ( NOT( $User.BypassVR__c ) , ISPICKVAL(Severity__c, &apos;Safety related&apos;), NOT(ISPICKVAL( Problem__r.Severity__c , &apos;Safety related&apos;)) )</errorConditionFormula>
+        <errorMessage>Please create this Field Service Bulletin from the corresponding Safety Problem.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_SignOffReason</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : Please enter Sign Off Desicion Comment for Sign Off Decision = &quot;Rejected - To be re-worked&quot;</description>
+        <errorConditionFormula>AND( NOT( $User.BypassVR__c) ,  ISBLANK( SignOffDecisionComment__c ) ,  ISPICKVAL( SignOffDecision__c , &apos;Rejected - To be re-worked&apos;)  )</errorConditionFormula>
+        <errorDisplayField>SignOffDecisionComment__c</errorDisplayField>
+        <errorMessage>Please enter Sign Off Desicion Comment for Sign Off Decision = &quot;Rejected - To be re-worked&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_StatusChange</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : Please provide the list of affected products in the FSB Affected Products related list to indicate who should validate this Field Service Bulletin.</description>
+        <errorConditionFormula>AND( NOT($User.BypassVR__c) , OR(ISPICKVAL(Status__c , &apos;2. Go/NoGo Decision Pending&apos;) , ISPICKVAL(Status__c , &apos;3a. Document in progress&apos;) ,  ISPICKVAL(Status__c , &apos;4. Pending Final Approval&apos;) , ISPICKVAL(Status__c , &apos;5. Execution&apos;) , ISPICKVAL(Status__c , &apos;6. Completed&apos;)),  NumberOfAffectedProducts__c = 0 )</errorConditionFormula>
+        <errorMessage>Please provide the list of affected products in the FSB Affected Products related list to indicate who should validate this Field Service Bulletin.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_StatusChangeAfterCancelled</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : Status cannot be changed once it has been set to ‘Cancelled’.</description>
+        <errorConditionFormula>AND ( NOT( $User.BypassVR__c ) , ISPICKVAL(PRIORVALUE(Status__c), &apos;3b. Cancelled&apos;), ISCHANGED( Status__c ) )</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>Status cannot be changed once it has been set to ‘Cancelled’</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_StatusChangeWithoutFSBTeamMember</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : Please create FSB Team Members.</description>
+        <errorConditionFormula>AND( NOT($User.BypassVR__c) , OR(ISPICKVAL(Status__c , &apos;2. Go/NoGo Decision Pending&apos;) , ISPICKVAL(Status__c , &apos;3a. Document in progress&apos;) ,  ISPICKVAL(Status__c , &apos;4. Pending Final Approval&apos;) , ISPICKVAL(Status__c , &apos;5. Execution&apos;) , ISPICKVAL(Status__c , &apos;6. Completed&apos;)),   NumberOfFSBTeamMembers__c = 0)</errorConditionFormula>
+        <errorMessage>Please create FSB Team Members.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_Technical_Risk_number</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : If &quot;Who support cost = LOB Technical Risk&quot; and &quot;Global Cost of Modification&quot; &gt; 100K dollars &quot;Technical Risk Number&quot; field is Mandatory</description>
+        <errorConditionFormula>AND( NOT( $User.BypassVR__c ) , TEXT(WhoSupportsCost__c) = &apos;LOB via Technical Risk&apos;, GlobalCostofModificationink__c &gt; 100000, ISBLANK(TechnicalRisknumber__c))</errorConditionFormula>
+        <errorDisplayField>TechnicalRisknumber__c</errorDisplayField>
+        <errorMessage>Please enter Technical Risk Number</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_TypeofDocumenttoGenerate</fullName>
+        <active>true</active>
+        <description>Q2 2016 Release : The Line of Business Quality Manager needs to approve the creation of a Field Service Bulletin by selecting the right value on the Type of document to generate field.</description>
+        <errorConditionFormula>AND( NOT($User.BypassVR__c) , OR(ISPICKVAL(Status__c , &apos;3a. Document in progress&apos;) , ISPICKVAL(Status__c , &apos;4. Pending Final Approval&apos;) , ISPICKVAL(Status__c , &apos;5. Execution&apos;) , ISPICKVAL(Status__c , &apos;6. Completed&apos;)), ISPICKVAL( TypeofDocumenttoGenerate__c , &apos;&apos;))</errorConditionFormula>
+        <errorDisplayField>TypeofDocumenttoGenerate__c</errorDisplayField>
+        <errorMessage>The Line of Business Quality Manager needs to approve the creation of a Field Service Bulletin by selecting the right value on the Go/No-Go decision field</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

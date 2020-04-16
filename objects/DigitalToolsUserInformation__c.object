@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Action__c</fullName>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>CustomerResponse__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>User Guide Email Requested</fullName>
+                    <default>false</default>
+                    <label>User Guide Email Requested</label>
+                </value>
+                <value>
+                    <fullName>Release Notes Requested</fullName>
+                    <default>false</default>
+                    <label>Release Notes Requested</label>
+                </value>
+                <value>
+                    <fullName>Live Training Requested</fullName>
+                    <default>false</default>
+                    <label>Live Training Requested</label>
+                </value>
+                <value>
+                    <fullName>Unauthorized/Access Forbidden by Remote Admin</fullName>
+                    <default>false</default>
+                    <label>Unauthorized/Access Forbidden by Remote Admin</label>
+                </value>
+                <value>
+                    <fullName>Account Activation Needed</fullName>
+                    <default>false</default>
+                    <label>Account Activation Needed</label>
+                </value>
+                <value>
+                    <fullName>Commercial Logistics Help Needed</fullName>
+                    <default>false</default>
+                    <label>Commercial Logistics Help Needed</label>
+                </value>
+                <value>
+                    <fullName>Material is not available via web</fullName>
+                    <default>false</default>
+                    <label>Material is not available via web</label>
+                </value>
+                <value>
+                    <fullName>Price or Availability – Incorrect Data</fullName>
+                    <default>false</default>
+                    <label>Price or Availability – Incorrect Data</label>
+                </value>
+                <value>
+                    <fullName>Delivery Date – Incorrect Data</fullName>
+                    <default>false</default>
+                    <label>Delivery Date – Incorrect Data</label>
+                </value>
+                <value>
+                    <fullName>Substitution – Incorrect Data</fullName>
+                    <default>false</default>
+                    <label>Substitution – Incorrect Data</label>
+                </value>
+                <value>
+                    <fullName>Other – Incorrect Data</fullName>
+                    <default>false</default>
+                    <label>Other – Incorrect Data</label>
+                </value>
+                <value>
+                    <fullName>Additional Reports Needed</fullName>
+                    <default>false</default>
+                    <label>Additional Reports Needed</label>
+                </value>
+                <value>
+                    <fullName>Other – Feedback in case</fullName>
+                    <default>false</default>
+                    <label>Other – Feedback in case</label>
+                </value>
+                <value>
+                    <fullName>MySE Icon Missing</fullName>
+                    <default>false</default>
+                    <label>MySE Icon Missing</label>
+                </value>
+                <value>
+                    <fullName>Account/Contact Data Quality Issue</fullName>
+                    <default>false</default>
+                    <label>Account/Contact Data Quality Issue</label>
+                </value>
+                <value>
+                    <fullName>Prefers not to use MySE</fullName>
+                    <default>false</default>
+                    <label>Prefers not to use MySE</label>
+                </value>
+                <value>
+                    <fullName>Solve Problem</fullName>
+                    <default>false</default>
+                    <label>Solve Problem</label>
+                </value>
+                <value>
+                    <fullName>Callback for help requested</fullName>
+                    <default>false</default>
+                    <label>Callback for help requested</label>
+                </value>
+                <value>
+                    <fullName>SPA (Special Price Agreement)</fullName>
+                    <default>false</default>
+                    <label>SPA (Special Price Agreement)</label>
+                </value>
+                <value>
+                    <fullName>Daily proactive info (reschedule date)</fullName>
+                    <default>false</default>
+                    <label>Daily proactive info (reschedule date)</label>
+                </value>
+                <value>
+                    <fullName>View Only Access</fullName>
+                    <default>false</default>
+                    <label>View Only Access</label>
+                </value>
+                <value>
+                    <fullName>Order Entry Access</fullName>
+                    <default>false</default>
+                    <label>Order Entry Access</label>
+                </value>
+                <value>
+                    <fullName>Real Stock Availability</fullName>
+                    <default>false</default>
+                    <label>Real Stock Availability</label>
+                </value>
+                <value>
+                    <fullName>Specific Functionality Explanation via call back</fullName>
+                    <default>false</default>
+                    <label>Specific Functionality Explanation via call back</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>User Activation request (email address is required)</controllingFieldValue>
+                <valueName>View Only Access</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>User Activation request (email address is required)</controllingFieldValue>
+                <controllingFieldValue>Feature - Missing/Limited</controllingFieldValue>
+                <valueName>Order Entry Access</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Unawareness / Not Trained</controllingFieldValue>
+                <valueName>User Guide Email Requested</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Unawareness / Not Trained</controllingFieldValue>
+                <valueName>Release Notes Requested</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Unawareness / Not Trained</controllingFieldValue>
+                <valueName>Live Training Requested</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Unawareness / Not Trained</controllingFieldValue>
+                <valueName>Specific Functionality Explanation via call back</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>User Access Denied or Account not Active</controllingFieldValue>
+                <valueName>Unauthorized/Access Forbidden by Remote Admin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>User Access Denied or Account not Active</controllingFieldValue>
+                <valueName>Account Activation Needed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information - Incorrect/Missing</controllingFieldValue>
+                <valueName>Commercial Logistics Help Needed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information - Incorrect/Missing</controllingFieldValue>
+                <valueName>Material is not available via web</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information - Incorrect/Missing</controllingFieldValue>
+                <valueName>Price or Availability – Incorrect Data</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information - Incorrect/Missing</controllingFieldValue>
+                <valueName>Delivery Date – Incorrect Data</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information - Incorrect/Missing</controllingFieldValue>
+                <valueName>Substitution – Incorrect Data</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information - Incorrect/Missing</controllingFieldValue>
+                <valueName>Other – Incorrect Data</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Feature - Missing/Limited</controllingFieldValue>
+                <valueName>Additional Reports Needed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Feature - Missing/Limited</controllingFieldValue>
+                <valueName>Other – Feedback in case</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Feature - Missing/Limited</controllingFieldValue>
+                <valueName>SPA (Special Price Agreement)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Feature - Missing/Limited</controllingFieldValue>
+                <valueName>Daily proactive info (reschedule date)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Feature - Missing/Limited</controllingFieldValue>
+                <valueName>Real Stock Availability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Active User</controllingFieldValue>
+                <valueName>MySE Icon Missing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Active User</controllingFieldValue>
+                <valueName>Account/Contact Data Quality Issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Active User</controllingFieldValue>
+                <valueName>Prefers not to use MySE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other/Troubleshooting</controllingFieldValue>
+                <valueName>Solve Problem</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other/Troubleshooting</controllingFieldValue>
+                <valueName>Callback for help requested</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CasePromoted__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Last Case Number for which MySE was promoted to the MySE user for the selected BU</description>
+        <externalId>false</externalId>
+        <label>Case Promoted</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>MySE User Information</relationshipLabel>
+        <relationshipName>MySE_User_Information</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>MySE User Information</relationshipLabel>
+        <relationshipName>MySE_User_Information</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>CountOfPromotion__c</fullName>
+        <externalId>false</externalId>
+        <label>Count of Promotion</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomerResponse__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Feedback</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer Accepted</fullName>
+                    <default>false</default>
+                    <label>Customer Accepted</label>
+                </value>
+                <value>
+                    <fullName>Customer did not accept – not interested</fullName>
+                    <default>false</default>
+                    <label>Customer did not accept – not interested</label>
+                </value>
+                <value>
+                    <fullName>Customer did not accept – does not have access</fullName>
+                    <default>false</default>
+                    <label>Customer did not accept – does not have access</label>
+                </value>
+                <value>
+                    <fullName>Customer did not accept – access denied by Admin</fullName>
+                    <default>false</default>
+                    <label>Customer did not accept – access denied by Admin</label>
+                </value>
+                <value>
+                    <fullName>Functional Unawareness / Not Trained</fullName>
+                    <default>false</default>
+                    <label>Functional Unawareness / Not Trained</label>
+                </value>
+                <value>
+                    <fullName>User Access Denied or Account not Active</fullName>
+                    <default>false</default>
+                    <label>User Access Denied or Account not Active</label>
+                </value>
+                <value>
+                    <fullName>Information - Incorrect/Missing</fullName>
+                    <default>false</default>
+                    <label>Information - Incorrect/Missing</label>
+                </value>
+                <value>
+                    <fullName>Feature - Missing/Limited</fullName>
+                    <default>false</default>
+                    <label>Feature - Missing/Limited</label>
+                </value>
+                <value>
+                    <fullName>Active User</fullName>
+                    <default>false</default>
+                    <label>Active User</label>
+                </value>
+                <value>
+                    <fullName>Other/Troubleshooting</fullName>
+                    <default>false</default>
+                    <label>Other/Troubleshooting</label>
+                </value>
+                <value>
+                    <fullName>User Activation request (email address is required)</fullName>
+                    <default>false</default>
+                    <label>User Activation request (email address is required)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GranularAccess__c</fullName>
+        <description>The various MySE functionality which MySE user can access for the selected BU</description>
+        <externalId>false</externalId>
+        <label>Granular Access</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Access</fullName>
+                    <default>false</default>
+                    <label>Access</label>
+                </value>
+                <value>
+                    <fullName>AR</fullName>
+                    <default>false</default>
+                    <label>AR</label>
+                </value>
+                <value>
+                    <fullName>AV</fullName>
+                    <default>false</default>
+                    <label>AV</label>
+                </value>
+                <value>
+                    <fullName>CC</fullName>
+                    <default>false</default>
+                    <label>CC</label>
+                </value>
+                <value>
+                    <fullName>CE</fullName>
+                    <default>false</default>
+                    <label>CE</label>
+                </value>
+                <value>
+                    <fullName>CMP</fullName>
+                    <default>false</default>
+                    <label>CMP</label>
+                </value>
+                <value>
+                    <fullName>CS</fullName>
+                    <default>false</default>
+                    <label>CS</label>
+                </value>
+                <value>
+                    <fullName>DL</fullName>
+                    <default>false</default>
+                    <label>DL</label>
+                </value>
+                <value>
+                    <fullName>DN</fullName>
+                    <default>false</default>
+                    <label>DN</label>
+                </value>
+                <value>
+                    <fullName>FQ</fullName>
+                    <default>false</default>
+                    <label>FQ</label>
+                </value>
+                <value>
+                    <fullName>FR</fullName>
+                    <default>false</default>
+                    <label>FR</label>
+                </value>
+                <value>
+                    <fullName>IOSS</fullName>
+                    <default>false</default>
+                    <label>IOSS</label>
+                </value>
+                <value>
+                    <fullName>IS</fullName>
+                    <default>false</default>
+                    <label>IS</label>
+                </value>
+                <value>
+                    <fullName>NPSOS</fullName>
+                    <default>false</default>
+                    <label>NPSOS</label>
+                </value>
+                <value>
+                    <fullName>O3</fullName>
+                    <default>false</default>
+                    <label>O3</label>
+                </value>
+                <value>
+                    <fullName>OE</fullName>
+                    <default>false</default>
+                    <label>OE</label>
+                </value>
+                <value>
+                    <fullName>OEDQ</fullName>
+                    <default>false</default>
+                    <label>OEDQ</label>
+                </value>
+                <value>
+                    <fullName>OM</fullName>
+                    <default>false</default>
+                    <label>OM</label>
+                </value>
+                <value>
+                    <fullName>OMR</fullName>
+                    <default>false</default>
+                    <label>OMR</label>
+                </value>
+                <value>
+                    <fullName>OR</fullName>
+                    <default>false</default>
+                    <label>OR</label>
+                </value>
+                <value>
+                    <fullName>OS</fullName>
+                    <default>false</default>
+                    <label>OS</label>
+                </value>
+                <value>
+                    <fullName>PA</fullName>
+                    <default>false</default>
+                    <label>PA</label>
+                </value>
+                <value>
+                    <fullName>PAM</fullName>
+                    <default>false</default>
+                    <label>PAM</label>
+                </value>
+                <value>
+                    <fullName>PD</fullName>
+                    <default>false</default>
+                    <label>PD</label>
+                </value>
+                <value>
+                    <fullName>PL</fullName>
+                    <default>false</default>
+                    <label>PL</label>
+                </value>
+                <value>
+                    <fullName>PRS</fullName>
+                    <default>false</default>
+                    <label>PRS</label>
+                </value>
+                <value>
+                    <fullName>PS</fullName>
+                    <default>false</default>
+                    <label>PS</label>
+                </value>
+                <value>
+                    <fullName>QC</fullName>
+                    <default>false</default>
+                    <label>QC</label>
+                </value>
+                <value>
+                    <fullName>QCDQ</fullName>
+                    <default>false</default>
+                    <label>QCDQ</label>
+                </value>
+                <value>
+                    <fullName>QMCPQ</fullName>
+                    <default>false</default>
+                    <label>QMCPQ</label>
+                </value>
+                <value>
+                    <fullName>QS</fullName>
+                    <default>false</default>
+                    <label>QS</label>
+                </value>
+                <value>
+                    <fullName>QV</fullName>
+                    <default>false</default>
+                    <label>QV</label>
+                </value>
+                <value>
+                    <fullName>RA</fullName>
+                    <default>false</default>
+                    <label>RA</label>
+                </value>
+                <value>
+                    <fullName>SI</fullName>
+                    <default>false</default>
+                    <label>SI</label>
+                </value>
+                <value>
+                    <fullName>SL</fullName>
+                    <default>false</default>
+                    <label>SL</label>
+                </value>
+                <value>
+                    <fullName>SQ</fullName>
+                    <default>false</default>
+                    <label>SQ</label>
+                </value>
+                <value>
+                    <fullName>SR</fullName>
+                    <default>false</default>
+                    <label>SR</label>
+                </value>
+                <value>
+                    <fullName>TELEC</fullName>
+                    <default>false</default>
+                    <label>TELEC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Contact exist as an Active user in MySE for the BU (Updated from MySE/Cordys)</description>
+        <externalId>false</externalId>
+        <label>IsActive</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LastAccessRemoteAdminUpdate__c</fullName>
+        <description>Timestamp of Last Update by Batch (to be filled by Cordys)</description>
+        <externalId>false</externalId>
+        <label>Last Access &amp; Remote Admin Update</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastAgentPromoted__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>User Id and link to the last customer who promoted MySE to the customer</description>
+        <externalId>false</externalId>
+        <label>Last Agent who Promoted</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>MySE_User_Information</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LastLoginDateTime__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Login Date &amp; Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastPromotionDateTime__c</fullName>
+        <description>Date and Time when MySE was promoted to the customer</description>
+        <externalId>false</externalId>
+        <label>Last Promotion Date/Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LoginDateIcon__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(((Now() - LastLoginDateTime__c) &gt;= 0 &amp;&amp; (Now() - LastLoginDateTime__c &lt; 30)), IMAGE(&quot;/resource/MYSE_green&quot;, &quot;Green&quot;, 20, 95),
+    If(((Now() - LastLoginDateTime__c) &gt;= 30 &amp;&amp; (Now() - LastLoginDateTime__c &lt;= 180)), IMAGE(&quot;/resource/MYSE_orange&quot;, &quot;Orange&quot;, 20, 95),
+        If(Now() - LastLoginDateTime__c &gt; 180, IMAGE(&quot;/resource/MYSE_red&quot;, &quot;Red&quot;, 20, 95),
+            if (Now() - LastLoginDateTime__c &lt; 0, &quot;&quot;, &quot;&quot;))))</formula>
+        <label>Login Date icon</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MySEBU__c</fullName>
+        <description>The BU to which the user has access to in MySE</description>
+        <externalId>false</externalId>
+        <label>MySE BU</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>BU</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BU</label>
+                </value>
+                <value>
+                    <fullName>ITB</fullName>
+                    <default>false</default>
+                    <label>ITB</label>
+                </value>
+                <value>
+                    <fullName>MySEAR</fullName>
+                    <default>false</default>
+                    <label>MySEAR</label>
+                </value>
+                <value>
+                    <fullName>MySEAT</fullName>
+                    <default>false</default>
+                    <label>MySEAT</label>
+                </value>
+                <value>
+                    <fullName>MySEAU</fullName>
+                    <default>false</default>
+                    <label>MySEAU</label>
+                </value>
+                <value>
+                    <fullName>MySEBE</fullName>
+                    <default>false</default>
+                    <label>MySEBE</label>
+                </value>
+                <value>
+                    <fullName>MySEBG</fullName>
+                    <default>false</default>
+                    <label>MySEBG</label>
+                </value>
+                <value>
+                    <fullName>MySEBR</fullName>
+                    <default>false</default>
+                    <label>MySEBR</label>
+                </value>
+                <value>
+                    <fullName>MySECA</fullName>
+                    <default>false</default>
+                    <label>MySECA</label>
+                </value>
+                <value>
+                    <fullName>MySECAM</fullName>
+                    <default>false</default>
+                    <label>MySECAM</label>
+                </value>
+                <value>
+                    <fullName>MySECH</fullName>
+                    <default>false</default>
+                    <label>MySECH</label>
+                </value>
+                <value>
+                    <fullName>MySECL</fullName>
+                    <default>false</default>
+                    <label>MySECL</label>
+                </value>
+                <value>
+                    <fullName>MySECN</fullName>
+                    <default>false</default>
+                    <label>MySECN</label>
+                </value>
+                <value>
+                    <fullName>MySECO</fullName>
+                    <default>false</default>
+                    <label>MySECO</label>
+                </value>
+                <value>
+                    <fullName>MySECZ</fullName>
+                    <default>false</default>
+                    <label>MySECZ</label>
+                </value>
+                <value>
+                    <fullName>MySEDE</fullName>
+                    <default>false</default>
+                    <label>MySEDE</label>
+                </value>
+                <value>
+                    <fullName>MySEDK</fullName>
+                    <default>false</default>
+                    <label>MySEDK</label>
+                </value>
+                <value>
+                    <fullName>MySEDZ</fullName>
+                    <default>false</default>
+                    <label>MySEDZ</label>
+                </value>
+                <value>
+                    <fullName>MySEEG</fullName>
+                    <default>false</default>
+                    <label>MySEEG</label>
+                </value>
+                <value>
+                    <fullName>MySEELKO</fullName>
+                    <default>false</default>
+                    <label>MySEELKO</label>
+                </value>
+                <value>
+                    <fullName>MySEES</fullName>
+                    <default>false</default>
+                    <label>MySEES</label>
+                </value>
+                <value>
+                    <fullName>MySEFI</fullName>
+                    <default>false</default>
+                    <label>MySEFI</label>
+                </value>
+                <value>
+                    <fullName>MySEFR</fullName>
+                    <default>false</default>
+                    <label>MySEFR</label>
+                </value>
+                <value>
+                    <fullName>MySEFR2</fullName>
+                    <default>false</default>
+                    <label>MySEFR2</label>
+                </value>
+                <value>
+                    <fullName>MySEGB</fullName>
+                    <default>false</default>
+                    <label>MySEGB</label>
+                </value>
+                <value>
+                    <fullName>MySEGR</fullName>
+                    <default>false</default>
+                    <label>MySEGR</label>
+                </value>
+                <value>
+                    <fullName>MySEGULF</fullName>
+                    <default>false</default>
+                    <label>MySEGULF</label>
+                </value>
+                <value>
+                    <fullName>MySEHK</fullName>
+                    <default>false</default>
+                    <label>MySEHK</label>
+                </value>
+                <value>
+                    <fullName>MySEHR</fullName>
+                    <default>false</default>
+                    <label>MySEHR</label>
+                </value>
+                <value>
+                    <fullName>MySEHU</fullName>
+                    <default>false</default>
+                    <label>MySEHU</label>
+                </value>
+                <value>
+                    <fullName>MySEID</fullName>
+                    <default>false</default>
+                    <label>MySEID</label>
+                </value>
+                <value>
+                    <fullName>MySEIE</fullName>
+                    <default>false</default>
+                    <label>MySEIE</label>
+                </value>
+                <value>
+                    <fullName>MySEIL</fullName>
+                    <default>false</default>
+                    <label>MySEIL</label>
+                </value>
+                <value>
+                    <fullName>MySEIN</fullName>
+                    <default>false</default>
+                    <label>MySEIN</label>
+                </value>
+                <value>
+                    <fullName>MySEJP</fullName>
+                    <default>false</default>
+                    <label>MySEJP</label>
+                </value>
+                <value>
+                    <fullName>MySEJP2</fullName>
+                    <default>false</default>
+                    <label>MySEJP2</label>
+                </value>
+                <value>
+                    <fullName>MySEKR</fullName>
+                    <default>false</default>
+                    <label>MySEKR</label>
+                </value>
+                <value>
+                    <fullName>MySEKSA</fullName>
+                    <default>false</default>
+                    <label>MySEKSA</label>
+                </value>
+                <value>
+                    <fullName>MySEKZ</fullName>
+                    <default>false</default>
+                    <label>MySEKZ</label>
+                </value>
+                <value>
+                    <fullName>MySEMA</fullName>
+                    <default>false</default>
+                    <label>MySEMA</label>
+                </value>
+                <value>
+                    <fullName>MySEMX</fullName>
+                    <default>false</default>
+                    <label>MySEMX</label>
+                </value>
+                <value>
+                    <fullName>MySEMY</fullName>
+                    <default>false</default>
+                    <label>MySEMY</label>
+                </value>
+                <value>
+                    <fullName>MySENG</fullName>
+                    <default>false</default>
+                    <label>MySENG</label>
+                </value>
+                <value>
+                    <fullName>MySENL</fullName>
+                    <default>false</default>
+                    <label>MySENL</label>
+                </value>
+                <value>
+                    <fullName>MySENO</fullName>
+                    <default>false</default>
+                    <label>MySENO</label>
+                </value>
+                <value>
+                    <fullName>MySENZ</fullName>
+                    <default>false</default>
+                    <label>MySENZ</label>
+                </value>
+                <value>
+                    <fullName>MySEPE</fullName>
+                    <default>false</default>
+                    <label>MySEPE</label>
+                </value>
+                <value>
+                    <fullName>MySEPH</fullName>
+                    <default>false</default>
+                    <label>MySEPH</label>
+                </value>
+                <value>
+                    <fullName>MySEPL</fullName>
+                    <default>false</default>
+                    <label>MySEPL</label>
+                </value>
+                <value>
+                    <fullName>MySERO</fullName>
+                    <default>false</default>
+                    <label>MySERO</label>
+                </value>
+                <value>
+                    <fullName>MySERS</fullName>
+                    <default>false</default>
+                    <label>MySERS</label>
+                </value>
+                <value>
+                    <fullName>MySERU</fullName>
+                    <default>false</default>
+                    <label>MySERU</label>
+                </value>
+                <value>
+                    <fullName>MySESE</fullName>
+                    <default>false</default>
+                    <label>MySESE</label>
+                </value>
+                <value>
+                    <fullName>MySESEINT</fullName>
+                    <default>false</default>
+                    <label>MySESEINT</label>
+                </value>
+                <value>
+                    <fullName>MySESG</fullName>
+                    <default>false</default>
+                    <label>MySESG</label>
+                </value>
+                <value>
+                    <fullName>MySESI</fullName>
+                    <default>false</default>
+                    <label>MySESI</label>
+                </value>
+                <value>
+                    <fullName>MySESK</fullName>
+                    <default>false</default>
+                    <label>MySESK</label>
+                </value>
+                <value>
+                    <fullName>MySETH</fullName>
+                    <default>false</default>
+                    <label>MySETH</label>
+                </value>
+                <value>
+                    <fullName>MySETR</fullName>
+                    <default>false</default>
+                    <label>MySETR</label>
+                </value>
+                <value>
+                    <fullName>MySETW</fullName>
+                    <default>false</default>
+                    <label>MySETW</label>
+                </value>
+                <value>
+                    <fullName>MySEUA</fullName>
+                    <default>false</default>
+                    <label>MySEUA</label>
+                </value>
+                <value>
+                    <fullName>MySEUS</fullName>
+                    <default>false</default>
+                    <label>MySEUS</label>
+                </value>
+                <value>
+                    <fullName>MySEVN</fullName>
+                    <default>false</default>
+                    <label>MySEVN</label>
+                </value>
+                <value>
+                    <fullName>MySEZA</fullName>
+                    <default>false</default>
+                    <label>MySEZA</label>
+                </value>
+                <value>
+                    <fullName>Potential</fullName>
+                    <default>false</default>
+                    <label>Potential</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RemoteAdminName__c</fullName>
+        <description>Name of the remote admin for the MySE company who can help with customer with login and other issues</description>
+        <externalId>false</externalId>
+        <label>Remote Admin Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>MySE User Information</label>
+    <nameField>
+        <displayFormat>MUI-{000000}</displayFormat>
+        <label>MySE User Information Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>MySE User Information</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>MYSE_VR_R617_AccessCustomerFeedback</fullName>
+        <active>true</active>
+        <description>This is used to restrict the picklist values of some users of the CustomerResponse__c field of  &quot;MySE User Information&quot; object</description>
+        <errorConditionFormula>AND (NOT( $User.BypassVR__c ), IF(OR(ISBLANK(Contact__c), ISPICKVAL( MySEBU__c ,&quot;Potential&quot;)), OR(ISPICKVAL( CustomerResponse__c ,&quot;Information - Bad/Missing&quot; ),
+	ISPICKVAL( CustomerResponse__c ,&quot;Feature - Missing/Limited&quot; )),
+	ISPICKVAL( CustomerResponse__c ,&quot;Active User&quot; )))</errorConditionFormula>
+        <errorMessage>You cannot select this value, please select other value</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

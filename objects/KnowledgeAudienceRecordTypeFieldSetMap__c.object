@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This has the mappings for the fieldset name per Recortype and Audience</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Audience__c</fullName>
+        <description>Type of User, possible values are Employee, Contract and Non Contract</description>
+        <externalId>false</externalId>
+        <label>Audience</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldSetName__c</fullName>
+        <description>Name of the FieldSet</description>
+        <externalId>false</externalId>
+        <label>FieldSetName</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecordType__c</fullName>
+        <description>RecordType</description>
+        <externalId>false</externalId>
+        <label>RecordType</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>KnowledgeAudienceRecordTypeFieldSetMap</label>
+    <visibility>Public</visibility>
+</CustomObject>

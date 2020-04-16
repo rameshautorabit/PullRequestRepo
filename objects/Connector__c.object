@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Connector_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Connector_Mini_Page_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Connector_Mini_Page_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Critical__c</fields>
+        <fields>API_User__c</fields>
+        <fields>End_Point_System__c</fields>
+        <fields>Connector_type__c</fields>
+        <fields>Main_bFO_Object__c</fields>
+        <fields>OwnerId</fields>
+        <fields>Main_Object_Solution_Lead__c</fields>
+        <fields>Vendor__c</fields>
+        <fields>Connected_App__c</fields>
+        <label>Connector Mini Page Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Definition : Connector between bFO and one or several System(s)
+Usage : Knowledge Management on Connectors
+
+Within PANDA Project Management App</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>API_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>API User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Connectors</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>API_s_used__c</fullName>
+        <externalId>false</externalId>
+        <label>API(s) used</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SOAP API</fullName>
+                    <default>false</default>
+                    <label>SOAP API</label>
+                </value>
+                <value>
+                    <fullName>REST API</fullName>
+                    <default>false</default>
+                    <label>REST API</label>
+                </value>
+                <value>
+                    <fullName>BULK API</fullName>
+                    <default>false</default>
+                    <label>BULK API</label>
+                </value>
+                <value>
+                    <fullName>METADATA API</fullName>
+                    <default>false</default>
+                    <label>METADATA API</label>
+                </value>
+                <value>
+                    <fullName>STREAMING API</fullName>
+                    <default>false</default>
+                    <label>STREAMING API</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Business_scope_delivered__c</fullName>
+        <externalId>false</externalId>
+        <label>Business scope delivered</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Connected_App__c</fullName>
+        <externalId>false</externalId>
+        <label>Connected App</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Connector_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Connector type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Catalog Connector (Core)</fullName>
+                    <default>false</default>
+                    <label>Catalog Connector (Core)</label>
+                </value>
+                <value>
+                    <fullName>Specific Connector</fullName>
+                    <default>false</default>
+                    <label>Specific Connector</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Critical__c</fullName>
+        <externalId>false</externalId>
+        <label>Critical</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+                <value>
+                    <fullName>Non critical</fullName>
+                    <default>false</default>
+                    <label>Non critical</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Deployment_Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>Deployment scope (BU, Country)</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Point_System__c</fullName>
+        <externalId>false</externalId>
+        <label>End-Point System</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Frequency__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify &quot;On-Demand&quot; Or Batch Frequency</inlineHelpText>
+        <label>On Demand / Frequency</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Main_Object_Solution_Lead__c</fullName>
+        <externalId>false</externalId>
+        <formula>Main_bFO_Object__r.Solution_Owner__c</formula>
+        <label>Main Object Solution Lead</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Main_bFO_Object__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Main bFO Object</label>
+        <referenceTo>bFO_Object__c</referenceTo>
+        <relationshipLabel>Connectors Related as Main Object</relationshipLabel>
+        <relationshipName>Connectors</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Middleware_Coresystems_involved__c</fullName>
+        <externalId>false</externalId>
+        <label>Middleware&amp;Coresystems involved</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cordys Middleware</fullName>
+                    <default>false</default>
+                    <label>Cordys Middleware</label>
+                </value>
+                <value>
+                    <fullName>BEM Middleware</fullName>
+                    <default>false</default>
+                    <label>BEM Middleware</label>
+                </value>
+                <value>
+                    <fullName>SDH</fullName>
+                    <default>false</default>
+                    <label>SDH</label>
+                </value>
+                <value>
+                    <fullName>BSL Middleware for cKM/Inquira</fullName>
+                    <default>false</default>
+                    <label>BSL Middleware for cKM/Inquira</label>
+                </value>
+                <value>
+                    <fullName>Motwin Middleware Mobile</fullName>
+                    <default>false</default>
+                    <label>Motwin Middleware Mobile</label>
+                </value>
+                <value>
+                    <fullName>CPQ</fullName>
+                    <default>false</default>
+                    <label>CPQ</label>
+                </value>
+                <value>
+                    <fullName>IFW</fullName>
+                    <default>false</default>
+                    <label>IFW</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>7</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Objects_Read__c</fullName>
+        <externalId>false</externalId>
+        <label>Objects Read</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Activity</fullName>
+                    <default>false</default>
+                    <label>Activity</label>
+                </value>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>false</default>
+                    <label>Contact</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Opportunity</fullName>
+                    <default>false</default>
+                    <label>Opportunity</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Line</fullName>
+                    <default>false</default>
+                    <label>Opportunity Line</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Team</fullName>
+                    <default>false</default>
+                    <label>Opportunity Team</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Contact Roles</fullName>
+                    <default>false</default>
+                    <label>Opportunity Contact Roles</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Value Chain Players</fullName>
+                    <default>false</default>
+                    <label>Opportunity Value Chain Players</label>
+                </value>
+                <value>
+                    <fullName>Work order</fullName>
+                    <default>false</default>
+                    <label>Work order</label>
+                </value>
+                <value>
+                    <fullName>Work order group</fullName>
+                    <default>false</default>
+                    <label>Work order group</label>
+                </value>
+                <value>
+                    <fullName>Other(s)</fullName>
+                    <default>false</default>
+                    <label>Other(s)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Objects_written__c</fullName>
+        <externalId>false</externalId>
+        <label>Objects written</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Activity</fullName>
+                    <default>false</default>
+                    <label>Activity</label>
+                </value>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>false</default>
+                    <label>Contact</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Opportunity</fullName>
+                    <default>false</default>
+                    <label>Opportunity</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Line</fullName>
+                    <default>false</default>
+                    <label>Opportunity Line</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Team</fullName>
+                    <default>false</default>
+                    <label>Opportunity Team</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Contact Roles</fullName>
+                    <default>false</default>
+                    <label>Opportunity Contact Roles</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Value Chain Players</fullName>
+                    <default>false</default>
+                    <label>Opportunity Value Chain Players</label>
+                </value>
+                <value>
+                    <fullName>Work order</fullName>
+                    <default>false</default>
+                    <label>Work order</label>
+                </value>
+                <value>
+                    <fullName>Work order group</fullName>
+                    <default>false</default>
+                    <label>Work order group</label>
+                </value>
+                <value>
+                    <fullName>Other(s)</fullName>
+                    <default>false</default>
+                    <label>Other(s)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Other_Object_s_Read__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Object(s) Read</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Other_Object_s_written__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Object(s) written</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Source_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Third party</fullName>
+                    <default>false</default>
+                    <label>Third party</label>
+                </value>
+                <value>
+                    <fullName>Schneider</fullName>
+                    <default>false</default>
+                    <label>Schneider</label>
+                </value>
+                <value>
+                    <fullName>Salesforce</fullName>
+                    <default>false</default>
+                    <label>Salesforce</label>
+                </value>
+                <value>
+                    <fullName>Appexchange</fullName>
+                    <default>false</default>
+                    <label>Appexchange</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Specification_folder_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Specification folder Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Under implementation</fullName>
+                    <default>false</default>
+                    <label>Under implementation</label>
+                </value>
+                <value>
+                    <fullName>Authorized</fullName>
+                    <default>false</default>
+                    <label>Authorized</label>
+                </value>
+                <value>
+                    <fullName>Not authorized</fullName>
+                    <default>false</default>
+                    <label>Not authorized</label>
+                </value>
+                <value>
+                    <fullName>Oauth (non Connected App)</fullName>
+                    <default>false</default>
+                    <label>Oauth (non Connected App)</label>
+                </value>
+                <value>
+                    <fullName>Connected App</fullName>
+                    <default>false</default>
+                    <label>Connected App</label>
+                </value>
+                <value>
+                    <fullName>Decommissioned</fullName>
+                    <default>false</default>
+                    <label>Decommissioned</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WSDL__c</fullName>
+        <externalId>false</externalId>
+        <label>WSDL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Partner WSDL</fullName>
+                    <default>false</default>
+                    <label>Partner WSDL</label>
+                </value>
+                <value>
+                    <fullName>Enterprise WSDL</fullName>
+                    <default>false</default>
+                    <label>Enterprise WSDL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Connector</label>
+    <listViews>
+        <fullName>Account_Contact_Connectors</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Main_bFO_Object__c</columns>
+        <columns>Middleware_Coresystems_involved__c</columns>
+        <columns>End_Point_System__c</columns>
+        <columns>Vendor__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.FIRST_NAME</field>
+            <operation>contains</operation>
+            <value>anish</value>
+        </filters>
+        <label>Account Contact Connectors</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Connector_type__c</columns>
+        <columns>Middleware_Coresystems_involved__c</columns>
+        <columns>Connected_App__c</columns>
+        <columns>Vendor__c</columns>
+        <columns>Main_bFO_Object__c</columns>
+        <columns>Business_scope_delivered__c</columns>
+        <columns>Status__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CTI_Connectors</fullName>
+        <columns>NAME</columns>
+        <columns>API_User__c</columns>
+        <columns>End_Point_System__c</columns>
+        <columns>Status__c</columns>
+        <columns>Specification_folder_Link__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>End_Point_System__c</field>
+            <operation>equals</operation>
+            <value>CTI</value>
+        </filters>
+        <label>CTI Connectors</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Connected_Apps</fullName>
+        <columns>NAME</columns>
+        <columns>Comment__c</columns>
+        <columns>Connected_App__c</columns>
+        <columns>Connector_type__c</columns>
+        <columns>End_Point_System__c</columns>
+        <columns>Main_Object_Solution_Lead__c</columns>
+        <columns>Vendor__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Connected App</value>
+        </filters>
+        <label>Connected Apps</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Connectors_CCC</fullName>
+        <columns>NAME</columns>
+        <columns>Connector_type__c</columns>
+        <columns>Critical__c</columns>
+        <columns>Deployment_Scope__c</columns>
+        <columns>Middleware_Coresystems_involved__c</columns>
+        <columns>Status__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.FIRST_NAME</field>
+            <operation>contains</operation>
+            <value>Anca,Laszlo,Alexandre,Jean-Cyrile,Michael,Pooja</value>
+        </filters>
+        <label>Connectors CCC</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Email_Connectors</fullName>
+        <columns>NAME</columns>
+        <columns>API_User__c</columns>
+        <columns>End_Point_System__c</columns>
+        <columns>Status__c</columns>
+        <columns>Specification_folder_Link__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Lotus,Outlook</value>
+        </filters>
+        <label>Email Connectors</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>IDMS</fullName>
+        <columns>NAME</columns>
+        <columns>Connected_App__c</columns>
+        <columns>Connector_type__c</columns>
+        <columns>Critical__c</columns>
+        <columns>Other_Object_s_Read__c</columns>
+        <columns>Other_Object_s_written__c</columns>
+        <columns>Main_Object_Solution_Lead__c</columns>
+        <columns>Main_bFO_Object__c</columns>
+        <columns>End_Point_System__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Connected_App__c</field>
+            <operation>contains</operation>
+            <value>IDMS</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Connected App</value>
+        </filters>
+        <label>IDMS</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>SAP</fullName>
+        <columns>NAME</columns>
+        <columns>Connected_App__c</columns>
+        <columns>Connector_type__c</columns>
+        <columns>Description__c</columns>
+        <columns>End_Point_System__c</columns>
+        <columns>Main_bFO_Object__c</columns>
+        <columns>Middleware_Coresystems_involved__c</columns>
+        <columns>Status__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>SAP</value>
+        </filters>
+        <label>SAP</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Sales_connectors</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Main_bFO_Object__c</columns>
+        <columns>Middleware_Coresystems_involved__c</columns>
+        <columns>End_Point_System__c</columns>
+        <columns>Vendor__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.FIRST_NAME</field>
+            <operation>equals</operation>
+            <value>ljiljana</value>
+        </filters>
+        <label>Sales connectors</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Connector Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Connectors</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Critical__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Connector_type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>End_Point_System__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Connected_App__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Business_scope_delivered__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.LAST_NAME</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

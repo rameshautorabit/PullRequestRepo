@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AdditionalInformation__c</fullName>
+        <description>I2P-LCR: Dec Release 2013</description>
+        <externalId>false</externalId>
+        <label>Additional Information</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BusinessRiskEscalationEntity__c</fullName>
+        <description>I2P - Detail for Business Risk Entity.</description>
+        <externalId>false</externalId>
+        <label>Organization</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR (2 AND 3)</booleanFilter>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>equals</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.VerticalisedCustomerCare__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Organization Stakeholders</relationshipLabel>
+        <relationshipName>EntityStakeholders</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Department__c</fullName>
+        <description>I2P-LCR: Dec Release 2013</description>
+        <externalId>false</externalId>
+        <label>Department</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <description>I2P - Picklist to select the role of the user.</description>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BRE Informed</fullName>
+                    <default>false</default>
+                    <label>BRE Informed</label>
+                </value>
+                <value>
+                    <fullName>BRE Resolution Leader</fullName>
+                    <default>false</default>
+                    <label>BRE Resolution Leader</label>
+                </value>
+                <value>
+                    <fullName>BRE Resolution Sponsor</fullName>
+                    <default>false</default>
+                    <label>BRE Resolution Sponsor</label>
+                </value>
+                <value>
+                    <fullName>Business VP</fullName>
+                    <default>false</default>
+                    <label>Business VP</label>
+                </value>
+                <value>
+                    <fullName>Country President</fullName>
+                    <default>false</default>
+                    <label>Country President</label>
+                </value>
+                <value>
+                    <fullName>CS&amp;Q Manager</fullName>
+                    <default>false</default>
+                    <label>CS&amp;Q Manager</label>
+                </value>
+                <value>
+                    <fullName>GSA CS&amp;Q Manager</fullName>
+                    <default>false</default>
+                    <label>GSA CS&amp;Q Manager</label>
+                </value>
+                <value>
+                    <fullName>I2P Process Advocate</fullName>
+                    <default>false</default>
+                    <label>I2P Process Advocate</label>
+                </value>
+                <value>
+                    <fullName>Local Safety Committee</fullName>
+                    <default>false</default>
+                    <label>Local Safety Committee</label>
+                </value>
+                <value>
+                    <fullName>Organization Manager</fullName>
+                    <default>false</default>
+                    <label>Organization Manager</label>
+                </value>
+                <value>
+                    <fullName>Default Containment Action Owner</fullName>
+                    <default>false</default>
+                    <label>Default Containment Action Owner</label>
+                </value>
+                <value>
+                    <fullName>Supplier Quality Engineer</fullName>
+                    <default>false</default>
+                    <label>Supplier Quality Engineer</label>
+                </value>
+                <value>
+                    <fullName>Upstream Flow Supervisor</fullName>
+                    <default>false</default>
+                    <label>Upstream Flow Supervisor</label>
+                </value>
+                <value>
+                    <fullName>CMI Informed</fullName>
+                    <default>false</default>
+                    <label>CMI Informed</label>
+                </value>
+                <value>
+                    <fullName>TEX Creation Informed</fullName>
+                    <default>false</default>
+                    <label>TEX Creation Informed</label>
+                </value>
+                <value>
+                    <fullName>Potential Safety Issue Reviewer</fullName>
+                    <default>false</default>
+                    <label>Potential Safety Issue Reviewer</label>
+                </value>
+                <value>
+                    <fullName>Customer Feedback Informed</fullName>
+                    <default>false</default>
+                    <label>Customer Feedback Informed</label>
+                </value>
+                <value>
+                    <fullName>Regional FSB Leader</fullName>
+                    <default>false</default>
+                    <label>Regional FSB Leader</label>
+                </value>
+                <value>
+                    <fullName>CI Deployment Leader</fullName>
+                    <default>false</default>
+                    <label>CI Deployment Leader</label>
+                </value>
+                <value>
+                    <fullName>Regional CISO</fullName>
+                    <default>false</default>
+                    <label>Regional CISO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>User__r.Email</formula>
+        <label>REP User Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ParentEntity__c</fullName>
+        <description>I2P - This field contains the Entity value of the parent &quot;Business Risk Escalation Entity&quot;.</description>
+        <externalId>false</externalId>
+        <formula>BusinessRiskEscalationEntity__r.Entity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH_ParentEntity</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_Role__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>I2P-LCR: Dec Release 2013</description>
+        <externalId>false</externalId>
+        <label>TECH_Role</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_UniqueField__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>I2P - Technical field used to ensure that records are unique.</description>
+        <externalId>false</externalId>
+        <label>TECH_UniqueField</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>I2P - Look up to user.</description>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>EntityStakeholders</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Organization Stakeholder</label>
+    <listViews>
+        <fullName>AR_Organisation_Stakeholders</fullName>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>Role__c</columns>
+        <columns>BusinessRiskEscalationEntity__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>BusinessRiskEscalationEntity__c</field>
+            <operation>contains</operation>
+            <value>Argentina</value>
+        </filters>
+        <label>AR_Organisation Stakeholders</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ARArgentina</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>Role__c</columns>
+        <columns>BusinessRiskEscalationEntity__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>systems expert support</value>
+        </filters>
+        <label>Industry - PA Process Systems</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>BE_Organisation_Stakeholders</fullName>
+        <columns>NAME</columns>
+        <columns>AdditionalInformation__c</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>BusinessRiskEscalationEntity__c</columns>
+        <columns>TECH_Role__c</columns>
+        <columns>User__c</columns>
+        <columns>Role__c</columns>
+        <columns>Department__c</columns>
+        <columns>CURRENCY_ISO_CODE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>BusinessRiskEscalationEntity__c</field>
+            <operation>contains</operation>
+            <value>belgium</value>
+        </filters>
+        <label>BE_Organisation Stakeholders</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BE_ALL_USERS</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CI_Deployment_Leaders</fullName>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>BusinessRiskEscalationEntity__c</columns>
+        <columns>Role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Role__c</field>
+            <operation>equals</operation>
+            <value>CI Deployment Leader</value>
+        </filters>
+        <label>CI Deployment Leaders</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>FI_Organisation_Stakeholders</fullName>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>Role__c</columns>
+        <columns>BusinessRiskEscalationEntity__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>BusinessRiskEscalationEntity__c</field>
+            <operation>contains</operation>
+            <value>Finland</value>
+        </filters>
+        <label>FI_Organisation Stakeholders</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ARArgentina</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>FR_Organisation_Stakeholders</fullName>
+        <columns>NAME</columns>
+        <columns>AdditionalInformation__c</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>BusinessRiskEscalationEntity__c</columns>
+        <columns>TECH_Role__c</columns>
+        <columns>User__c</columns>
+        <columns>Role__c</columns>
+        <columns>Department__c</columns>
+        <columns>CURRENCY_ISO_CODE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>BusinessRiskEscalationEntity__c</field>
+            <operation>equals</operation>
+            <value>France Operations</value>
+        </filters>
+        <label>FR_OP_Organization Stakeholders</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PZ_All_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Netherlands</fullName>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>Role__c</columns>
+        <columns>BusinessRiskEscalationEntity__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Netherlands</value>
+        </filters>
+        <label>Netherlands</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PZ_Organisation_Stakeholders</fullName>
+        <columns>NAME</columns>
+        <columns>AdditionalInformation__c</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>BusinessRiskEscalationEntity__c</columns>
+        <columns>TECH_Role__c</columns>
+        <columns>User__c</columns>
+        <columns>Role__c</columns>
+        <columns>Department__c</columns>
+        <columns>CURRENCY_ISO_CODE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>BusinessRiskEscalationEntity__c</field>
+            <operation>contains</operation>
+            <value>Pacific</value>
+        </filters>
+        <label>PZ_Organisation Stakeholders</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PZ_All_Users</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>ENS-{0}</displayFormat>
+        <label>Organization Stakeholder Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Organization Stakeholders</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>User__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Role__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Role__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>User__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Role__c</searchFilterFields>
+        <searchFilterFields>User__c</searchFilterFields>
+        <searchResultsAdditionalFields>Role__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>User__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>ORGS_VR_NOV16_AllowOnlyCMIInformedRoles</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),BusinessRiskEscalationEntity__r.VerticalisedCustomerCare__c=True,ISPICKVAL( BusinessRiskEscalationEntity__r.Location_Type__c , &apos;Customer Care Center&apos;),NOT(ISPICKVAL(Role__c,&apos;CMI Informed&apos;)) )</errorConditionFormula>
+        <errorMessage>You can add only CMI informed role users when the organisation is Verticalised Customer Care</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ORGS_VR_OCT15I2P01_Potential_SafetyIssue</fullName>
+        <active>true</active>
+        <description>October 2015 release</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),ISPICKVAL(Role__c , &apos;Potential Safety Issue Reviewer&apos;),NOT(OR(ISPICKVAL(BusinessRiskEscalationEntity__r.Location_Type__c,&apos;Country Front Office HQ&apos;),ISPICKVAL(BusinessRiskEscalationEntity__r.Location_Type__c,&apos;Country Front Office Other&apos;),ISPICKVAL(BusinessRiskEscalationEntity__r.Location_Type__c,&apos;Country Front Office Verticalized&apos;))))</errorConditionFormula>
+        <errorMessage>In order to create this role the Organization location type should be &apos;Country Front Office HQ&apos; or &apos;Country Front Office Verticalized&apos; or &apos;Country Front Office Other&apos;</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

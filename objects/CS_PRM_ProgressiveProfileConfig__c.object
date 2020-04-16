@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Custom setting used to store field information that is being used progress profile form</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CustomLabel__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldDataType__c</fullName>
+        <externalId>false</externalId>
+        <label>Field Data Type</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldLabel__c</fullName>
+        <description>Label of the field displayed in the configuration form in backoffice</description>
+        <externalId>false</externalId>
+        <label>Field Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldSortOrder__c</fullName>
+        <description>Order of the field to be displayed in configuration form in backoffice</description>
+        <externalId>false</externalId>
+        <label>Field Sort Order</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MappedField__c</fullName>
+        <description>Field API name of object being used in the backend</description>
+        <externalId>false</externalId>
+        <label>Mapped Field</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MappedObject__c</fullName>
+        <description>Object API name which is being used in the backend</description>
+        <externalId>false</externalId>
+        <label>Mapped Object</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PRM Progressive Profile Configuration</label>
+    <visibility>Public</visibility>
+</CustomObject>

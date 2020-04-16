@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>VFP_ContractualEnvironment</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>VFP_ContractualEnvironment</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>VFP_ContractualEnvironmentDetail</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Quote Approval - Contractual Environments for Bid Approval</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccumulatedLDPenaltiesTotal__c</fullName>
+        <description>Quote Approval –Accumulated LD &amp; Penalties (Total) for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>Total Aggregate LDs &amp; Penalties (%)</label>
+        <summarizedField>RIT_LiquidatedDamages__c.MaxExposure__c</summarizedField>
+        <summaryForeignKey>RIT_LiquidatedDamages__c.ContractualEnvironment__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>AnyOtherCommentOnOtherTaxConcerns__c</fullName>
+        <description>Quote Approval – Any Other Comment On Other Tax Concerns for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>(Customs, VAT, Other  ...)?</inlineHelpText>
+        <label>Any Other Comment On Other Tax Concerns</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AreTheyAnyIfAndWhenImposedSEasMainContra__c</fullName>
+        <description>Quote Approval -Are They Any &quot;If And When&quot; Imposed? when the CD imposed on the subcontractor for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Yes, Are They Any &quot;If And When&quot; Imposed?</inlineHelpText>
+        <label>Are They Any &quot;If And When&quot; Imposed?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>InCaseSEIsActingAsMain__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>Yes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>No</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>N/A</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AreTheyAnyIfAndWhenImposedSEisSubContrac__c</fullName>
+        <description>Quote Approval – Are They Any &quot;If And When&quot; Imposed? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Yes, Are They Any &quot;If And When&quot; Imposed?</inlineHelpText>
+        <label>Are They Any &quot;If And When&quot; Imposed?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CDListedWithTheOrderOfPrecedence__c</fullName>
+        <description>Quote Approval – CD Listed With The Order Of Precedence?  for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does the Contract(with mutually agreed clauses) prevail over other contractual documents (PO,IMA,GTC…)?
+The contract should be the 1st document in the order of precedence.
+A clear order precedence in the contractual documents has to be acceptable to SE.</inlineHelpText>
+        <label>Contract prevails on all contractual doc</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ChangesInLegislation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are the changes in legislation for law/taxes and duties in the destination country imposed to SE?</inlineHelpText>
+        <label>Changes of local law imposed on SE?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClaimOfThirdParty__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Do claims of Third Parties fall under the general liability clause?
+
+Claims issued to our Client from a Third Party (e.g. with the End User, funder, Purchaser, Tenants, etc)</inlineHelpText>
+        <label>Claim of 3rd Parties in liability clause</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClauseEnablingClientAssignment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is there a clause that enables the Client to assign any rights or obligations under the contract to another company (even a subsidiary) without SE approval?</inlineHelpText>
+        <label>Assignment possible without SE approval?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClientAllowedToReduceScopeOfWork__c</fullName>
+        <description>Quote Approval – Client Allowed To Reduce Scope Of Work? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is The Client Allowed Per Contract To Significantly Reduce/Modify The Scope Of Work?</inlineHelpText>
+        <label>Client Allowed To Reduce Scope Of Work?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClientLateForPayment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If the Client is late for payment, does Schneider have the right to suspend the works and recover loss and expenses?
+
+Do we have the right to recover losses / expenses /  finance costs / margin and can we claim extension of time?</inlineHelpText>
+        <label>Suspension of works if late payment?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClientRequest__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If different, please describe the Client&apos;s request for general liabilities (direct, indirect, consequential)</inlineHelpText>
+        <label>Client&apos;s request for general liabilities</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ComingIntoForceBeginDeliveryTime__c</fullName>
+        <description>Quote Approval – Coming Into Force: Begin Delivery Time? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the &quot;coming into force&quot; the starting point of the delivery period (in months)?
+
+Duration should be in months after coming into force (not a fixed date).</inlineHelpText>
+        <label>Coming Into Force: Starts Delivery Time?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CommentLegalAdvice__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please comment on Legal advice on Indemnities and Rights of Third Parties</inlineHelpText>
+        <label>Please comment (Legal Advice)</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentOnInsurance__c</fullName>
+        <description>Quote Approval –Comment On Insurance for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. Property damage, etc.</inlineHelpText>
+        <label>Comments On Insurance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentOnTermination__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments on Termination /  Suspension</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentRemarkOnLiquidatedDamages__c</fullName>
+        <description>Quote Approval –Comment/Remark On Liquidated Damages for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>Comments On Liquidated Damages</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentsOnAssignment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>It is mandatory that SE has the right to approve/reject any assignment to a third party</inlineHelpText>
+        <label>Comments on Assignment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsOnComingIntoForce__c</fullName>
+        <description>Quote Approval – Comments On Coming Into Force for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>Comments On Coming Into Force</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsOnDelivery__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments on Delivery</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsOnGeneralLiabilities__c</fullName>
+        <description>Quote Approval –Comments On General Liabilities for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. Client&apos;s position on negotiating liabilities, cap of liabilities that may have been negotiated for previous projects, etc.</inlineHelpText>
+        <label>Comments On General Liabilities</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentsOnVariations__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments on Variations and Change orders</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommunicationChartChange__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are the communication chart and change order process with the Client clearly defined in our offer? 
+
+This is mandatory for offers above 5MEUR.</inlineHelpText>
+        <label>Change order process defined?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ConsequentIndirectDamagesExcluded__c</fullName>
+        <description>Quote Approval –Consequent &amp; Indirect Damages Excluded? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is there an exclusion of Consequential or Indirect Damages (Loss of Profit / Data  / Use / Business and Production)?
+
+Any indemnity shall fall under the general liability cap.  Indemnity shall not be a carve-out to indirect and consequential damages.</inlineHelpText>
+        <label>Consequent &amp; Indirect Damages Excluded?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DoesProjectInvolveAnyIPRights__c</fullName>
+        <description>Quote Approval –Does Project Involve Any IP Rights? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the ownership of Intellectual Property pre-existing or developed as part of the project retained by SE?</inlineHelpText>
+        <label>All IP rights retained by SE?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DoesSEGuaranteeToIndemnifyAndHold__c</fullName>
+        <description>Quote Approval - Does SE Guarantee To Indemnify And Hold client harmless from and against limitation, any charge and/or liability of IPR infringement? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Client Harmless From And Against Limitation, Any Charge And/Or Liability Of IPR Infringement?</inlineHelpText>
+        <label>Does SE Guarantee To Indemnify And Hold…</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DurationOfTheWarrantyPeriodMonths__c</fullName>
+        <description>Quote Approval –Duration Of The Warranty Period (Months) for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Required Duration Of The Warranty Period (in Months)</inlineHelpText>
+        <label>Required  Warranty Period (Months)</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EstimatedTaxationInExportCountryNew__c</fullName>
+        <description>Quote Approval – Estimated Taxation In Export Country? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Has the taxation implications been estimated by Corporate Tax Dept and the costs being included in the budget?  
+Please comment</inlineHelpText>
+        <label>Involvement of Corp. Tax Dept?  Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>EstimatedTaxationInExportCountry__c</fullName>
+        <description>Quote Approval – Estimated Taxation In Export Country? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Has the taxation implications been estimated by Corporate Tax Dept and the costs being included in the budget?  Please comment</inlineHelpText>
+        <label>Involvement of Corp. Tax Dept?  Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>IfExportCountryLocalActivity__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>Yes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>No</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HowIsTheComingIntoForceDefinedNew__c</fullName>
+        <description>Quote Approval – How Is The &quot;Coming Into Force&quot; Defined? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What are the pre-conditions of the coming into force?</inlineHelpText>
+        <label>Conditions of coming into force?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contract signing</fullName>
+                    <default>false</default>
+                    <label>Contract signing</label>
+                </value>
+                <value>
+                    <fullName>Receipt of down-payment</fullName>
+                    <default>false</default>
+                    <label>Receipt of down-payment</label>
+                </value>
+                <value>
+                    <fullName>Opened and Acceptable Letter of Credit</fullName>
+                    <default>false</default>
+                    <label>Opened and Acceptable Letter of Credit</label>
+                </value>
+                <value>
+                    <fullName>Kick-off meeting</fullName>
+                    <default>false</default>
+                    <label>Kick-off meeting</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HowIsTheComingIntoForceDefined__c</fullName>
+        <description>Quote Approval – How Is The &quot;Coming Into Force&quot; Defined? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Is The “Coming Into Force” Defined? In Particular Is The Actual Payment Of The Down Payment A Condition For The Coming Into Force?</inlineHelpText>
+        <label>How Is The &quot;Coming Into Force&quot; Defined?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfExportCountryLocalActivity__c</fullName>
+        <description>Quote Approval –If Export Country: Local Activity? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does the Contract include local activity performed in an export Country?
+
+e.g. Customs Clearance, Local Transportation, Erection, Training, Design/drawing used locally, etc.</inlineHelpText>
+        <label>Local activity in an export Country?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IfOtherComingIntoForce__c</fullName>
+        <externalId>false</externalId>
+        <label>If Other, Please describe</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfTurnkeyWhatFinalAcceptDeadline__c</fullName>
+        <description>Quote Approval –If Turnkey, What Final Accept &amp; Deadline for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Turnkey Contract, What Are The Final Acceptance Conditions And Deadline?</inlineHelpText>
+        <label>If Turnkey, What Final Accept &amp; Deadline</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IfTurnkeyWhatProvAcceptDeadlineNew__c</fullName>
+        <description>Quote Approval – If Turnkey, What Prov Accept &amp; Deadline for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In case of turnkey project, specify PAC conditions and backstop milestone.
+
+PAC must be 100% under SE control.
+The backstop milestone of the Final Acceptance should be a fixed date or a number of months after PAC.</inlineHelpText>
+        <label>If turnkey, PAC condition &amp; backstop?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfTurnkeyWhatProvAcceptDeadline__c</fullName>
+        <description>Quote Approval – If Turnkey, What Prov Accept &amp; Deadline for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In case of turnkey project, specify PAC conditions and backstop milestone.
+
+PAC must be 100% under SE control.
+The backstop milestone of the Final Acceptance should be a fixed date or a number of months after PAC.</inlineHelpText>
+        <label>If turnkey, PAC condition &amp; backstop?</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>InCaseSEIsActingAsMain__c</fullName>
+        <description>Quote Approval – Are The CD Imposed On The Subcontractor for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contractor, Are The CD Imposed On The Subcontractor?</inlineHelpText>
+        <label>In Case SE Is Acting As Main...</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>InCaseSEIsActingAsSubContractor__c</fullName>
+        <description>Quote Approval – CD Of Main Contract Imposed On SE? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does SE have to accept flow-down terms from the prime contract applicable between the End-User and the Client / main Contractor?
+
+Flow-down terms include back-to-back or If&amp;When payments.</inlineHelpText>
+        <label>Flow-down terms from End-User?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>InCaseThereIsExtensionOfWarranty__c</fullName>
+        <description>Quote Approval - In Case There Is Extension Of Warranty? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In Case There Is An Extension Of Warranty?</inlineHelpText>
+        <label>In Case There Is Extension Of Warranty?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Incoterms__c</fullName>
+        <description>Quote Approval –Incoterms for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>Incoterms?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IndemnityClauseFall__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Does the indemnity clause fall under the general liability cap?
+
+Indemnity shall not be a carve out of Indirect and Consequential Damage.
+Indemnity shall fall under the general liability cap.</inlineHelpText>
+        <label>Indemnity clause under liability cap?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsSELiabilityLimitedInTheContract__c</fullName>
+        <description>Quote Approval – Is SE Liability Limited In The Contract?  for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is SE liability for direct damages limited to a maximum of 100% of the contract value?</inlineHelpText>
+        <label>SE liability limited to contract value?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LDAmountCalculation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are the LD&apos;s amount calculated on the delayed (or non perfoming) part only?</inlineHelpText>
+        <label>LDs on delayed / non perf. part only?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LDForDelay__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are the LD&apos;s for delay and/or performance capped on a daily/weekly basis and do they have an aggregate cap &lt;10%?</inlineHelpText>
+        <label>LDs have an aggregate cap &lt;10%?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LDSoleRemedy__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are the LD`s the sole remedy and full compensation for Delay and/or Non-Performance?</inlineHelpText>
+        <label>LDs sole remedy and full compensation?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LiabilityInsuranceClauseValidated__c</fullName>
+        <description>Quote Approval – Liability Insurance &amp; Clause Validated? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please confirm the contract has been reviewed in accordance with the SERIM Contractual Guidelines</inlineHelpText>
+        <label>Contract in line with SERIM guidelines?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LiquidatedDamagesMsgs__c</fullName>
+        <defaultValue>&apos;Please fill in the Liquidated Damages and Penalties for Delay and Technical Performance at the bottom of the page&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LumpSumGuaranteePrice__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is this a  Lump sum / Guaranteed Maximum Price (GMP) contract?</inlineHelpText>
+        <label>Lump Sum / GMP contract?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MainCausesForForceMajeure__c</fullName>
+        <description>Quote Approval –Main Causes For Force Majeure? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What are the main causes of Force Majeure?</inlineHelpText>
+        <label>Main causes of Force Majeure?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>MechanismForTheSettlementOfDisputes__c</fullName>
+        <description>Quote Approval – Mechanism For The Settlement Of Disputes for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What Is The Mechanism For The Settlement Of Disputes?</inlineHelpText>
+        <label>Mechanism For The Settlement Of Disputes</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>NewAreTheyAnyIfAndWhenImposedSEasMainCon__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. T&amp;Cs used for previous contracts ; in case of back-to-back, most critical and onerous conditions (liabilities, payments, etc.)</inlineHelpText>
+        <label>Comments on Contractual Documents</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NewIncoterms__c</fullName>
+        <externalId>false</externalId>
+        <label>2010 applicable Incoterms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EXW</fullName>
+                    <default>false</default>
+                    <label>EXW</label>
+                </value>
+                <value>
+                    <fullName>FCA</fullName>
+                    <default>false</default>
+                    <label>FCA</label>
+                </value>
+                <value>
+                    <fullName>CPT</fullName>
+                    <default>false</default>
+                    <label>CPT</label>
+                </value>
+                <value>
+                    <fullName>CIP</fullName>
+                    <default>false</default>
+                    <label>CIP</label>
+                </value>
+                <value>
+                    <fullName>DAT</fullName>
+                    <default>false</default>
+                    <label>DAT</label>
+                </value>
+                <value>
+                    <fullName>DAP</fullName>
+                    <default>false</default>
+                    <label>DAP</label>
+                </value>
+                <value>
+                    <fullName>DDP</fullName>
+                    <default>false</default>
+                    <label>DDP</label>
+                </value>
+                <value>
+                    <fullName>FAS</fullName>
+                    <default>false</default>
+                    <label>FAS</label>
+                </value>
+                <value>
+                    <fullName>FOB</fullName>
+                    <default>false</default>
+                    <label>FOB</label>
+                </value>
+                <value>
+                    <fullName>CFR</fullName>
+                    <default>false</default>
+                    <label>CFR</label>
+                </value>
+                <value>
+                    <fullName>CIF</fullName>
+                    <default>false</default>
+                    <label>CIF</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NewLegalEntity__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a New legal Entity (Special Purpose Vehicle or JV) required as part of the project?</inlineHelpText>
+        <label>New Legal Entity (SPV, JV) required?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NumberOfMonths__c</fullName>
+        <description>Quote Approval –Number Of Months for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In Case There Is An Extension Of Warranty?</inlineHelpText>
+        <label>Number Of Months</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PercentOfCOGSReserved__c</fullName>
+        <description>Quote Approval –% Of COGS Reserved for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In Case There Is An Extension Of Warranty?</inlineHelpText>
+        <label>% Of COGS Reserved</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PlaceOfIncoterms__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. Shanghai harbour, premises of a Supplier, etc.</inlineHelpText>
+        <label>Place of Incoterms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PleaseCommentOnContractualDocuments__c</fullName>
+        <description>Quote Approval – Please Comment On Contractual Documents for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>Please Comment On Contractual Documents</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PleaseCommentOnTitleRiskTransfers__c</fullName>
+        <description>Quote Approval –Please Comment On Title &amp; Risk Transfers for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>Please Comment On Title &amp; Risk Transfers</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PleaseCommentOnTransferOfRisks__c</fullName>
+        <description>Quote Approval –Please Comment On Transfer Of Risks for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>Please Comment On Transfer Of Risks</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PleaseCommentOnTransferOfTitle__c</fullName>
+        <description>Quote Approval –Please Comment On Transfer Of Title for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>Comments on transfer of Risks/Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PlsCommentAndExplainMitigationPlans__c</fullName>
+        <description>Quote Approval –Please Comment And Explain Mitigation Plans for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please describe the mitigation to the risk exposure</inlineHelpText>
+        <label>Comments on Intellectual Property</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PlsSpecifyTheAmountInPercentOfContract__c</fullName>
+        <description>Quote Approval - Please Specify The Amount In % Of  Contract for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If No, Please specify the amount in % of Contract and comment</inlineHelpText>
+        <label>If No, amount in % of Contract - Comment</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PriorNoticePeriodInDays__c</fullName>
+        <description>Quote Approval –Prior Notice Period In Months for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>Prior Notice Period In Days</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QualifyContractualAndLegalRisks__c</fullName>
+        <description>Quote Approval – Qualify Contractual And Legal Risks for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify The Contractual And Legal Risks?</inlineHelpText>
+        <label>Qualify Contractual And Legal Risks</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuoteLink__c</fullName>
+        <description>Quote Approval - Master-detail relationship between Contractual Environments and Quote Link</description>
+        <externalId>false</externalId>
+        <label>Quote Link</label>
+        <referenceTo>OPP_QuoteLink__c</referenceTo>
+        <relationshipLabel>Contractual Environment</relationshipLabel>
+        <relationshipName>RIT_ContractualEnv</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SERequiredToInterveneWorkOnsite__c</fullName>
+        <description>Quote Approval –SE Required To Intervene &amp; Work Onsite?  for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is SE Required To Intervene &amp; Work on site and does SE need an EAR?
+
+EAR: Erection All Risks</inlineHelpText>
+        <label>SE has to work on site and needs EAR?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SpecifyTheAmountInPercentOfContractNew__c</fullName>
+        <description>Quote Approval - Please Specify The Amount In % Of  Contract for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If No, Please specify the amount in % of Contract and comment</inlineHelpText>
+        <label>If No, amount in % of Contract - Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TerminationForConvenienceIncluded__c</fullName>
+        <description>Quote Approval –&quot;Termination For Convenience&quot; Included? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does the Client have the right to suspend the works or terminate the contract for convenience?</inlineHelpText>
+        <label>&quot;Termination For Convenience&quot; Included?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TransferOfTitleOwnershipWhen__c</fullName>
+        <description>Quote Approval –Transfer Of Title/Ownership: When? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When Does The Transfer Of Title/Ownership Occur?</inlineHelpText>
+        <label>When does the transfer of Title occur?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>At Delivery</fullName>
+                    <default>false</default>
+                    <label>At Delivery</label>
+                </value>
+                <value>
+                    <fullName>After Complete Payment</fullName>
+                    <default>false</default>
+                    <label>After Complete Payment</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WhatIsTheApplicableLawInContractNew__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are the applicable law and jurisdiction considered neutral and acceptable?</inlineHelpText>
+        <label>Law &amp; jurisdiction neutral &amp; acceptable?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WhatIsTheApplicableLawInContract__c</fullName>
+        <description>Quote Approval – What Is The Applicable Law In Contract? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Are the applicable law and jurisdiction considered neutral and acceptable?</inlineHelpText>
+        <label>Law &amp; jurisdiction neutral &amp; acceptable?</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WhatIsTheJurisdictionNamePlaceNew__c</fullName>
+        <description>Quote Approval –What Is The Jurisdiction (Name &amp; Place) for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please describe the applicable law, name and place of jurisdiction, and the mechanism for the settlement of disputes.</inlineHelpText>
+        <label>Describe law, jurisdiction, disputes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>WhatIsTheJurisdictionNamePlace__c</fullName>
+        <description>Quote Approval –What Is The Jurisdiction (Name &amp; Place) for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please describe the applicable law, name and place of jurisdiction, and the mechanism for the settlement of disputes.</inlineHelpText>
+        <label>Describe law, jurisdiction, disputes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WhenDoesTheTransferOfRisksOccur__c</fullName>
+        <description>Quote Approval –When Does The Transfer Of Risks Occur? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <label>When does the transfer of Risks occur?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>At Delivery</fullName>
+                    <default>false</default>
+                    <label>At Delivery</label>
+                </value>
+                <value>
+                    <fullName>At Provisional Acceptance</fullName>
+                    <default>false</default>
+                    <label>At Provisional Acceptance</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WhenDoesTheWarrantyPeriodStartNew__c</fullName>
+        <description>Quote Approval –When Does The Warranty Period Start? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the milestone for the warranty period to start? 
+
+For turnkey project, warranty milestones should be the PAC.</inlineHelpText>
+        <label>When does the warranty period start?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>WhenDoesTheWarrantyPeriodStart__c</fullName>
+        <description>Quote Approval –When Does The Warranty Period Start? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the milestone for the warranty period to start? 
+
+For turnkey project, warranty milestones should be the PAC.</inlineHelpText>
+        <label>When does the warranty period start?</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WillSEBeIndemnifiedOfAllCostsNew__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If Yes, will SE be indemnified for all costs?
+
+Do we have the right to recover losses / expenses /  finance costs / margin and can we claim extension of time?</inlineHelpText>
+        <label>If Yes, SE indemnified for all costs?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>WillSEBeIndemnifiedOfAllCosts__c</fullName>
+        <description>Quote Approval –Will SE Be Indemnified Of All Costs? for Contractual Environment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Yes, will SE be indemnified of all costs?
+
+Do we have the right to recover loss / expense /  finance costs / margin and can we claim extension of time?</inlineHelpText>
+        <label>If Yes, SE indemnified of all costs?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>TerminationForConvenienceIncluded__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>Yes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>No</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>N/A</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Contractual Environment</label>
+    <nameField>
+        <displayFormat>RIT-CTE-{0000}</displayFormat>
+        <label>Contractual Environment</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Contractual Environments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>CTE_VR12_CheckQuoteStatus</fullName>
+        <active>true</active>
+        <description>Quote Approval - To ensure that information is not edited after Quote Approval</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(Text(QuoteLink__r.QuoteStatus__c) = &apos;Approved&apos;)</errorConditionFormula>
+        <errorMessage>RITE Information cannot be modified now, as the Quote is Approved</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>RIT_CTE_RITEForm</fullName>
+        <availability>online</availability>
+        <description>Quote Approval – A button to go back to the RITE Form Executive Summary Page.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Back to RITE Form</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/VFP13_RITEForm?id={!RIT_ContractualEnv__c.QuoteLinkId__c}</url>
+    </webLinks>
+</CustomObject>

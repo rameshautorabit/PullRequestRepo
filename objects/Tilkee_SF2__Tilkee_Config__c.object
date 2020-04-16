@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Tilkee special configuration (Entreprise Level or user level) Use name = &quot;Enterprise&quot; for enterprise level or use Username for a user</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Tilkee_SF2__API_KEY__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>API key for asynchronous operations</inlineHelpText>
+        <label>API_KEY</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__API_Url__c</fullName>
+        <deprecated>false</deprecated>
+        <description>https://api.tilkee.com (par défaut) ou https://api-beta.tilkee.com</description>
+        <externalId>false</externalId>
+        <inlineHelpText>https://api.tilkee.com (default) or https://api-beta.tilkee.com</inlineHelpText>
+        <label>API_Url</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__APP_Url__c</fullName>
+        <deprecated>false</deprecated>
+        <description>https://app.tilkee.com (par défaut) ou https://app-beta.tilkee.com</description>
+        <externalId>false</externalId>
+        <inlineHelpText>https://app2.tilkee.com (default) or https://app-beta.tilkee.com</inlineHelpText>
+        <label>APP Url</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__CC_enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Display &quot;CC&quot; and &quot;BCC&quot; input in &quot;send by email&quot; popup</inlineHelpText>
+        <label>CC/BCC enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__CanSignTilks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>True if company or user can sign Tilks. If true, signable check box will be present on project editor</description>
+        <externalId>false</externalId>
+        <inlineHelpText>True if company or user can sign Tilks. If true, signable check box will be present on project editor</inlineHelpText>
+        <label>CanSignTilks</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__Client_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Client ID linked in Tilkee to the SF instance url</description>
+        <externalId>false</externalId>
+        <label>Client ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__No_Options__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Affichage oui ou non des options dans l&apos;editeur de projet</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Display or not options in project editor</inlineHelpText>
+        <label>No Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__No_archive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Si cochée, le projet n&apos;est pas archivé lorsque l&apos;opportunité est fermée
+Si non cochée (par défaut), le projet est archivé lorsque l&apos;opportunité est fermée</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, project isn&apos;t archived when opportunity is closed. False by default.</inlineHelpText>
+        <label>Don&apos;t archive project when closing opp.</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__Template_id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Template_id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__Tilkee_Email_Alert_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Address to use when no user ID defined for Tilkee Email Alert</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Address to use when no user ID defined for Tilkee Email Alert</inlineHelpText>
+        <label>Tilkee Email Alert Address</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__Tilkee_Email_Alert_User_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>User ID  for a Tilkee problem.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>User ID  for a Tilkee problem.</inlineHelpText>
+        <label>Tilkee Email Alert User ID</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__Webhook_linked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Change this value only if you are 100% sure you are right</inlineHelpText>
+        <label>Webhook linked</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__Webhook_settings__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Change this value only if you are 100% sure you are right</inlineHelpText>
+        <label>Webhook settings</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__automatic_project_creation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ObjectType:SignAuto:FieldContactName:IdTilkeeTemplate:IdSfdcTemplate</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ObjectType:SignAuto:FieldContactName:IdTilkeeTemplate:IdSfdcTemplate</inlineHelpText>
+        <label>automatic_project_creation</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__no_Display_Attachments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Don&apos;t display Attachments on project&apos;s creation page</description>
+        <externalId>false</externalId>
+        <label>Don&apos;t display Attachments</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__no_Display_Documents__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Don&apos;t display Documents on project&apos;s creation page</description>
+        <externalId>false</externalId>
+        <label>Don&apos;t display Documents</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__not_opportunity_close_date__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Si cochée, la date de clôture de l&apos;opportunité n&apos;est pas envoyée au projet Tilkee (consultable_until)
+Si non cochée (par défaut), la date de clôture de l&apos;opportunité est envoyée au projet Tilkee</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, opportunité close date isn&apos;t send to tilkee project. False by default.</inlineHelpText>
+        <label>Don&apos;t use opportunity close date</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__override_tilk_in_salesforce__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>override tilk in salesforce</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__synchronize_Tilks_created_by_prospects__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Synchronisation des Tilks crée par un utilisateur en /p dans salesforce</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Synchronize or not Tilks create by a /p user in Salesforce</inlineHelpText>
+        <label>synchronize Tilks created by prospects</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tilkee_SF2__synchronize_all_Tilks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Synchronisation des Tilks crées en dehors de salesforce</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Synchronize or not Tilks created outside Salesforce</inlineHelpText>
+        <label>synchronize all Tilks</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Tilkee Configuration</label>
+    <visibility>Public</visibility>
+</CustomObject>

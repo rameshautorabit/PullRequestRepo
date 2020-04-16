@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>TER_Compact_layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>TER_Compact_layout</fullName>
+        <fields>Name</fields>
+        <fields>Technician__c</fields>
+        <fields>Activity__c</fields>
+        <fields>Start_Date__c</fields>
+        <fields>End_Date__c</fields>
+        <fields>Status__c</fields>
+        <label>TER Compact layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bereavement</fullName>
+                    <default>false</default>
+                    <label>Bereavement</label>
+                </value>
+                <value>
+                    <fullName>Holiday</fullName>
+                    <default>false</default>
+                    <label>Holiday</label>
+                </value>
+                <value>
+                    <fullName>Jury Duty</fullName>
+                    <default>false</default>
+                    <label>Jury Duty</label>
+                </value>
+                <value>
+                    <fullName>Military Leave</fullName>
+                    <default>false</default>
+                    <label>Military Leave</label>
+                </value>
+                <value>
+                    <fullName>Unpaid Time Off</fullName>
+                    <default>false</default>
+                    <label>Unpaid Time Off</label>
+                </value>
+                <value>
+                    <fullName>Vacation</fullName>
+                    <default>false</default>
+                    <label>Vacation</label>
+                </value>
+                <value>
+                    <fullName>Sick Time</fullName>
+                    <default>false</default>
+                    <label>Sick Time</label>
+                </value>
+                <value>
+                    <fullName>Bank Time</fullName>
+                    <default>false</default>
+                    <label>Bank Time</label>
+                </value>
+                <value>
+                    <fullName>Time not available to work</fullName>
+                    <default>false</default>
+                    <label>Time not available to work</label>
+                </value>
+                <value>
+                    <fullName>Vehicle Maintenance</fullName>
+                    <default>false</default>
+                    <label>Vehicle Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Time in Lieu</fullName>
+                    <default>false</default>
+                    <label>Time in Lieu</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>All_Day_Event__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>All Day Event</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EnableBankTime__c</fullName>
+        <externalId>false</externalId>
+        <formula>Technician__r.EnableBankTime__c</formula>
+        <label>Enable Bank Time</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>End_Date_for_All_Day_Event__c</fullName>
+        <description>Used to create a common date that will be seen regardless of timezone between Technician and Approving User.</description>
+        <externalId>false</externalId>
+        <label>End Date for All Day Event</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FSREmployeeID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Technician__r.SVMXC__Salesforce_User__r.FSREmployeeID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FSR Employee ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsRangeSameWeek__c</fullName>
+        <description>Returns a 1 if the start and end dates are in the same week.</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+((MOD(FLOOR((DATEVALUE(Start_Date__c) -DATEVALUE(&quot;2006-01-01&quot; ))/7),52)+1) = (MOD(FLOOR((DATEVALUE(End_Date__c) -DATEVALUE(&quot;2006-01-01&quot; ))/7),52)+1)),1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsRangeSameWeek</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manager_Email__c</fullName>
+        <description>Used for the TER approval process</description>
+        <externalId>false</externalId>
+        <label>Manager Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date_for_All_Day_Event__c</fullName>
+        <description>Used to create a common date that will be seen regardless of timezone between Technician and Approving User.</description>
+        <externalId>false</externalId>
+        <label>Start Date for All Day Event</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Submitted_for_Approval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Submitted for Approval</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Technician__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Technician</label>
+        <referenceTo>SVMXC__Service_Group_Members__c</referenceTo>
+        <relationshipLabel>Time Entry Requests</relationshipLabel>
+        <relationshipName>Time_Entry_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Travel_From_Hours__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The time it takes to travel from the Event you are creating.</inlineHelpText>
+        <label>Travel From (Hours)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Travel_To_Hours__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The time it takes to travel to the Event you are creating.</inlineHelpText>
+        <label>Travel To (Hours)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Time Entry Request</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Activity__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Technician__c</columns>
+        <columns>Travel_To_Hours__c</columns>
+        <columns>Travel_From_Hours__c</columns>
+        <columns>FSREmployeeID__c</columns>
+        <columns>Start_Date_for_All_Day_Event__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>Gustavo Miguel</value>
+        </filters>
+        <label>Mexico Time Entry Requests</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
+        <columns>Technician__c</columns>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>Start_Date_for_All_Day_Event__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>End_Date_for_All_Day_Event__c</columns>
+        <columns>Submitted_for_Approval__c</columns>
+        <columns>Activity__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Singapore</fullName>
+        <columns>Technician__c</columns>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>Start_Date_for_All_Day_Event__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>End_Date_for_All_Day_Event__c</columns>
+        <columns>Submitted_for_Approval__c</columns>
+        <columns>Activity__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.ALIAS</field>
+            <operation>equals</operation>
+            <value>kokoh,noabdul,requirod,alwin,chyeoh</value>
+        </filters>
+        <filters>
+            <field>Start_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/1/2019 12:00 AM</value>
+        </filters>
+        <label>All ITD Singapore</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>AND_FS_CONT_GRP</group>
+            <group>AND_FS_GRP</group>
+            <group>AND_FS_GRP1</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Christian_BOLDUTime_Entry_Requests_Pdtes</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Activity__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Technician__c</columns>
+        <columns>Travel_To_Hours__c</columns>
+        <columns>Travel_From_Hours__c</columns>
+        <columns>FSREmployeeID__c</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>Submitted_for_Approval__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted,Open</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Christian BOLDUC</value>
+        </filters>
+        <label>Christian BOLDUTime Entry Requests Pdtes</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ESUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Mis_TER_Time_Entry_Requests</fullName>
+        <columns>Technician__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Activity__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>All_Day_Event__c</columns>
+        <columns>Notes__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Mine</filterScope>
+        <label>Mis TER (Time Entry Requests)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ESUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NL_Field_Services_My_Open_Time_Requests</fullName>
+        <columns>NAME</columns>
+        <columns>Technician__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Submitted_for_Approval__c</columns>
+        <columns>Activity__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open,Rejected</value>
+        </filters>
+        <label>NL Field Services My Open Time Requests</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>NL_FS</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SG_ITD_FSR_TER</fullName>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8) and 9</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Technician__c</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>All_Day_Event__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Submitted_for_Approval__c</columns>
+        <columns>Notes__c</columns>
+        <columns>Activity__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>contains</operation>
+            <value>Kok Leong,Noorizam,Reynante,Balan Raju,Chin han Chung,Katta,Fadzlan,Faiz</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>contains</operation>
+            <value>Albert Nyan,Chee Leong,Enrique Angel,Hla Han,Huan Meng,Hung Kim,Khon Heor</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>contains</operation>
+            <value>Kian Leong,Kok Heong,Maung Kyaw Soe,Peng Peng,Pramook,Rahmat Bin,Romeo Jr</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>contains</operation>
+            <value>See Kiang,Benedict Lim,Shuo Yang,Andy Soh,Thant Moe,Way Kwang,Wee Leong</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>contains</operation>
+            <value>Yong Hui,Zhan yue,Zhi Hong</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>contains</operation>
+            <value>Hisyam,Razale,Natarajan,Prem Rajoo,Quah Siong,Sin Eng,Sivagurunathan</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>contains</operation>
+            <value>Swee Kwang,Tianbao,Wai Kin,Xue Yun,Zalani</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>notEqual</operation>
+            <value>Chwee Leong Ang</value>
+        </filters>
+        <label>SG ITD - FSR TER</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Spain_Time_Entry_Requests_Cerrados</fullName>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8)</booleanFilter>
+        <columns>Technician__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Activity__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>All_Day_Event__c</columns>
+        <columns>Notes__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Approved,Rejected</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Ander Perez,Eric Canovas Barres,Marc Gonzalez,Oliver Soto,Manuel Canellas</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Juan Sebastian Martinez,Ismael SASTRE,Vicente SANIA,Carlos ABASOLO,Juan LLORENS</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Santiago LOPEZ,Enrique MATEOS,Francisco ARES,Marcos Vina,Inigo Uribesalazar</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Marcos Arans,Jesus-Martin PABLO,Javier HOMBRADOS,Francisco MORALEDA</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Lorenzo LILLO,Antonio PIÑEIRO,Juan GAMERO,Angel IBANEZ,Sergio RENEDO</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Manuel PEREZ,Victor GUERRERO,Rufino PEREZ,Francisco GONZALEZ,Jorge LAHERA</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>David Martinez Montoro,Xavier Diaz Bernet</value>
+        </filters>
+        <label>Spain - Time Entry Requests Cerrados</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ESUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Submitted_Time_Entry_Requests</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Activity__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Technician__c</columns>
+        <columns>Travel_To_Hours__c</columns>
+        <columns>Travel_From_Hours__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <label>Submitted Time Entry Requests</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Tevfik_Ezber_TER_List</fullName>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 )</booleanFilter>
+        <columns>Technician__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Activity__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>All_Day_Event__c</columns>
+        <columns>Notes__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open,Submitted</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>,Tufan Acay,Seyfettin Arabacigulu,Muhittin Cakar,Mehmet Kavas,Emre Sunnetci</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>,Gokhan Uzel,Halil Goynuer,Ekrem Ozsoy,Murat Yildiz,Selcuk Ogan</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>,Yalcin Besbilek,Erkan Comert,Murat Nalbantoglu,Seref Togan,Suayip Diser</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>,Murat Togay,Murat Kucukpamuk,Serdal Demir,Erdi Aydemir</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>Mert Sarikaya,Mazlum Aydin</value>
+        </filters>
+        <label>Tevfik Ekip - TER List</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>UK_Time_Entry_Requests</fullName>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8)</booleanFilter>
+        <columns>Technician__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Activity__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>All_Day_Event__c</columns>
+        <columns>Notes__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Approved,Rejected</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Ander Perez,Eric Canovas Barres,Marc Gonzalez,Oliver Soto,Manuel Canellas</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Juan Sebastian Martinez,Ismael SASTRE,Vicente SANIA,Carlos ABASOLO,Juan LLORENS</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Santiago LOPEZ,Enrique MATEOS,Francisco ARES,Marcos Vina,Inigo Uribesalazar</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Marcos Arans,Jesus-Martin PABLO,Javier HOMBRADOS,Francisco MORALEDA</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Lorenzo LILLO,Antonio PIÑEIRO,Juan GAMERO,Angel IBANEZ,Sergio RENEDO</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Manuel PEREZ,Victor GUERRERO,Rufino PEREZ,Francisco GONZALEZ,Jorge LAHERA</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>David Martinez Montoro,Xavier Diaz Bernet</value>
+        </filters>
+        <label>UK - Time Entry Requests</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ESUsers</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>UK_Time_Entry_Requests1</fullName>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8)</booleanFilter>
+        <columns>Technician__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Activity__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>All_Day_Event__c</columns>
+        <columns>Notes__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Approved,Rejected</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Ander Perez,Eric Canovas Barres,Marc Gonzalez,Oliver Soto,Manuel Canellas</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Juan Sebastian Martinez,Ismael SASTRE,Vicente SANIA,Carlos ABASOLO,Juan LLORENS</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Santiago LOPEZ,Enrique MATEOS,Francisco ARES,Marcos Vina,Inigo Uribesalazar</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Marcos Arans,Jesus-Martin PABLO,Javier HOMBRADOS,Francisco MORALEDA</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Lorenzo LILLO,Antonio PIÑEIRO,Juan GAMERO,Angel IBANEZ,Sergio RENEDO</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>Manuel PEREZ,Victor GUERRERO,Rufino PEREZ,Francisco GONZALEZ,Jorge LAHERA</value>
+        </filters>
+        <filters>
+            <field>Technician__c</field>
+            <operation>equals</operation>
+            <value>David Martinez Montoro,Xavier Diaz Bernet</value>
+        </filters>
+        <label>UK - Time Entry Requests</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ESUsers</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>TER-{0000}</displayFormat>
+        <label>Time Entry Request Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Time Entry Requests</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Ensure_Start_Time_Before_End_Time</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),(Start_Date__c != End_Date__c), (End_Date__c &lt;= Start_Date__c))</errorConditionFormula>
+        <errorDisplayField>Start_Date__c</errorDisplayField>
+        <errorMessage>The Start Date time needs to be earlier or equal to the End Date time.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Non_All_Day_Events_Cant_Span_Multi_Days</fullName>
+        <active>true</active>
+        <description>Only All Day Events are allowed to span multiple days.  Non All-Day Events can only be for the same day.</description>
+        <errorConditionFormula>IF(AND(NOT($User.BypassVR__c),NOT(All_Day_Event__c),(DAY(DATEVALUE(End_Date__c)) != DAY(DATEVALUE(Start_Date__c)))), true, false)</errorConditionFormula>
+        <errorMessage>Time Entry Requests that are not All Day Events can only be for the same day.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_MAR18_TER_greater_than_14_days</fullName>
+        <active>true</active>
+        <description>If TER&gt;14 days throw error.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),((DATEVALUE(End_Date__c) - DATEVALUE(Start_Date__c))&gt;14))</errorConditionFormula>
+        <errorMessage>Time entry request is greater than 14 days.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Unapprove_Time_Entry_Request</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Unapprove Time Entry Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Site.Prefix+&apos;/apex/SVMXC__ServiceMaxConsole?SVMX_recordId=&apos;+CASESAFEID(SVMXC_Time_Entry_Request__c.Id)+&apos;&amp;SVMX_processId=R117_Unapproved_Time_Entry_Request&amp;SVMX_retURL=&apos;+URLFOR($Site.Prefix+&apos;/&apos;+CASESAFEID(SVMXC_Time_Entry_Request__c.Id)))}</url>
+    </webLinks>
+</CustomObject>

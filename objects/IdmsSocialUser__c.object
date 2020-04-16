@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AppValue__c</fullName>
+        <description>Application value</description>
+        <externalId>false</externalId>
+        <label>AppValue</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>oAuthUrl2__c</fullName>
+        <externalId>false</externalId>
+        <label>oAuthUrl2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>oAuthUrl3__c</fullName>
+        <externalId>false</externalId>
+        <label>oAuthUrl3</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>oAuthUrl__c</fullName>
+        <externalId>false</externalId>
+        <label>oAuthUrl</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Idms Social User</label>
+    <visibility>Public</visibility>
+</CustomObject>

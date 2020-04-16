@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CSQ_CertificateNumber__c</fullName>
+        <displayFormat>CS-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Certificate Number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>CSQ_CertificationLink__c</fullName>
+        <externalId>false</externalId>
+        <label>Training Certificate Link</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>CSQ_CertificationStatusLogo__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(Name,&apos;Master Black Belt&apos;), image(&quot;/resource/SR_Q316_CT_MasterBlackBelt&quot;,&quot;CertificationType&quot;, 20,31) , IF(CONTAINS(Name,&apos;Black Belt&apos;) &amp;&amp; NOT( CONTAINS(Name,&apos;Master&apos;)), image(&quot;/resource/SR_Q316_CT_BlackBelt&quot;,&quot;CertificationType&quot;, 20,31) , IF(CONTAINS(Name,&apos;Green Belt&apos;) &amp;&amp; ( ISPICKVAL(CSQ_Certificationstatus__c , &apos;Certified&apos;) || ISPICKVAL(CSQ_Certificationstatus__c , &apos;Certification Expired&apos;)) ,image(&quot;/resource/SR_Q316_CT_GreenBelt&quot;,&quot;CertificationType&quot;, 20,31),image(&quot;/resource/SR_Q316_CT_YellowBelt&quot;,&quot;CertificationType&quot;, 20,31))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Certification Status Logo</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSQ_Certification__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>CS&amp;Q Certification</label>
+        <referenceTo>CSQ_CertificationType__c</referenceTo>
+        <relationshipLabel>CSQ Training and Certification Statuses</relationshipLabel>
+        <relationshipName>CSQ_Certificationpaths</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CSQ_Certificationstatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Certification Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Under Training</fullName>
+                    <default>false</default>
+                    <label>Under Training</label>
+                </value>
+                <value>
+                    <fullName>Training Completed</fullName>
+                    <default>false</default>
+                    <label>Training Completed</label>
+                </value>
+                <value>
+                    <fullName>Certification Planned</fullName>
+                    <default>false</default>
+                    <label>Certification Planned</label>
+                </value>
+                <value>
+                    <fullName>Certified</fullName>
+                    <default>false</default>
+                    <label>Certified</label>
+                </value>
+                <value>
+                    <fullName>Certification Expired</fullName>
+                    <default>false</default>
+                    <label>Certification Expired</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CSQ_Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CSQ_ExpirationDate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The date at which you will no longer be certified.</inlineHelpText>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CSQ_HaveCompletedAllNecessaryTrainings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Have Completed All Necessary Trainings</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CSQ_InitialcertifiedDate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The date at which you were first certified at this level.</inlineHelpText>
+        <label>First Certified Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CSQ_LastTrainingDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Training Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CSQ_LastcertifiedDate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The date you received your last certification at this level (including renewal of the certificate).</inlineHelpText>
+        <label>Latest Certified Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CSQ_NumberOfProjectsNotMigrated__c</fullName>
+        <externalId>false</externalId>
+        <label>Number Of Projects Managed Not Migrated</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSQ_Profile__c</fullName>
+        <externalId>false</externalId>
+        <label>CS&amp;Q Profile</label>
+        <referenceTo>CSQ_Profile__c</referenceTo>
+        <relationshipName>CSQ_Certificationpaths</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>CSQ_StartTrainingDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Training Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CSQ_TECH_Email__c</fullName>
+        <description>Stores email of the CSQ Profile user - used to send Expiration Notification</description>
+        <externalId>false</externalId>
+        <label>TECH_Email</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSQ_TrainingStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Training Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To be planned</fullName>
+                    <default>true</default>
+                    <label>To be planned</label>
+                </value>
+                <value>
+                    <fullName>Planned</fullName>
+                    <default>false</default>
+                    <label>Planned</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Not necessary</fullName>
+                    <default>false</default>
+                    <label>Not necessary</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CSQ_TrainingsAchievedandRemaining__c</fullName>
+        <externalId>false</externalId>
+        <label>Trainings Achieved and Remaining</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Certificate_number__c</fullName>
+        <externalId>false</externalId>
+        <label>Certificate Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IamtheOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>CSQ_Profile__r.IambFOUser__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IamtheOwner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>CSQ Training and Certification Status</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CSQ_LastcertifiedDate__c</columns>
+        <columns>CSQ_ExpirationDate__c</columns>
+        <columns>CSQ_CertificationStatusLogo__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All CIS</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Certification_status_Of_Current_User</fullName>
+        <columns>NAME</columns>
+        <columns>CSQ_Profile__c</columns>
+        <columns>CSQ_Certification__c</columns>
+        <columns>CSQ_Certificationstatus__c</columns>
+        <columns>CSQ_CertificationStatusLogo__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CSQ_Certificationstatus__c</field>
+            <operation>equals</operation>
+            <value>Certified</value>
+        </filters>
+        <filters>
+            <field>IamtheOwner__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Certification status Of Current User</label>
+        <language>en_IN</language>
+    </listViews>
+    <nameField>
+        <label>Certification Status Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>CSQ Training and Certification Statuses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>VR_Q316_CS_CertifiedMandatoryFields</fullName>
+        <active>true</active>
+        <description>Q3 2016 Release : Please fill in the following fields : Start Training Date, Last Training Date, Initial Certification Date and Last Certified Date for certification status &quot;Certified&quot;</description>
+        <errorConditionFormula>AND( NOT( $User.BypassVR__c ) ,  ISPICKVAL( CSQ_Certificationstatus__c , &quot;Certified&quot;) , OR( ISBLANK( CSQ_StartTrainingDate__c ) , ISBLANK( CSQ_LastTrainingDate__c) , ISBLANK(  CSQ_InitialcertifiedDate__c ) , ISBLANK(  CSQ_LastcertifiedDate__c )))</errorConditionFormula>
+        <errorMessage>Please fill in the following fields : Start Training Date, Last Training Date, First Certified Date and Last Certified Date for certification status &quot;Certified&quot;</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

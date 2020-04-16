@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used for managing the language matrix</description>
+    <fields>
+        <fullName>IDMSLocale__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>IDMS Locale</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IDMS_ISOLanguageCode__c</fullName>
+        <description>Storing the corresponding ISO code for the language</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>IDMS_ISOLanguageCode</label>
+        <length>9</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IDMS_Language_code__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>IDMS Language code</label>
+        <length>9</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Language_Name__c</fullName>
+        <description>Name of the language</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Language Name</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Language__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>User Language</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>IDMS Language Matrix</label>
+    <listViews>
+        <fullName>IDMS_Language_Matrix</fullName>
+        <columns>MasterLabel</columns>
+        <columns>Language_Name__c</columns>
+        <columns>DeveloperName</columns>
+        <columns>IDMS_ISOLanguageCode__c</columns>
+        <columns>IDMS_Language_code__c</columns>
+        <columns>IDMSLocale__c</columns>
+        <columns>User_Language__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>IDMS Language Matrix</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>IDMS Language Matrices</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

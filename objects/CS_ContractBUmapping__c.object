@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>SEP 2012 Release - CCC- This Custom settings used to store the Skill numbers for each BU and Support level.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>BUVdnNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>BUVdnNumber</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LeadingBusiness__c</fullName>
+        <externalId>false</externalId>
+        <label>Leading Business(BU)</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SkillNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Skill Number</label>
+        <length>10</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SupportLevel__c</fullName>
+        <externalId>false</externalId>
+        <label>Support Level</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_ContractBUmapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

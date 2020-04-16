@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>SVMXC__SVMX_LaunchHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This object is used to capture part requests made from field engineers to other field engineers/warehouses/suppliers, and from warehouses to suppliers. Parts requests do not have the context of a service event.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>SVMXC__Additional_Information__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Any additional information relevant to this parts request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Any additional information relevant to this parts request.</inlineHelpText>
+        <label>Additional Information</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Age__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Age of the parts request in number of days.</description>
+        <externalId>false</externalId>
+        <formula>(Now() - CreatedDate )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Age of the parts request in number of days.</inlineHelpText>
+        <label>Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Canceled_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Name of the salesforce user that canceled this parts request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the salesforce user that canceled this parts request.</inlineHelpText>
+        <label>Canceled By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Parts_Request_Canceled_By</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Canceled_on__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date/time on which this parts request was canceled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date/time on which this parts request was canceled.</inlineHelpText>
+        <label>Canceled on</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Closed_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Name of the salesforce user that closed this parts request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the salesforce user that closed this parts request.</inlineHelpText>
+        <label>Closed By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Parts_Request_Closed_By</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Closed_On__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date/time when the request was completed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date/time when the request was completed.</inlineHelpText>
+        <label>Closed On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Company__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Name of the supplier company. Applicable for replenishing stock at warehouse locations. Lookup to an existing salesforce account record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the supplier company. Applicable for replenishing stock at warehouse locations. Lookup to an existing salesforce account record.</inlineHelpText>
+        <label>Supplier</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Parts_Request</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__IsPartnerRecord__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if Parts Request is for/by a Partner or not.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag indicates if Parts Request is for/by a Partner or not.</inlineHelpText>
+        <label>IsPartnerRecord</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__IsPartner__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Flag indicates if Parts Request is for/by a Partner or not.</description>
+        <externalId>false</externalId>
+        <formula>IF( SVMXC__IsPartnerRecord__c ,&quot;True&quot;, &quot;False&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Flag indicates if Parts Request is for/by a Partner or not.</inlineHelpText>
+        <label>Is Partner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Partner_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Account, set by trigger.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to Partner Account.</inlineHelpText>
+        <label>Partner Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Parts Requests (Partner Account)</relationshipLabel>
+        <relationshipName>Parts_Request_Partner</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Partner_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Contact, set by trigger.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to Partner Contact.</inlineHelpText>
+        <label>Partner Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Parts Requests</relationshipLabel>
+        <relationshipName>Parts_Request_Partner</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Requested_From__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Location from where stock is requested. This is a lookup to an existing site record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Location from where stock is requested. This is a lookup to an existing site record.</inlineHelpText>
+        <label>Requested From</label>
+        <referenceTo>SVMXC__Site__c</referenceTo>
+        <relationshipName>Parts_Request_From</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Required_At_Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Location where stock is required. This is a lookup to an existing site record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Location where stock is required. This is a lookup to an existing site record.</inlineHelpText>
+        <label>Required At Location</label>
+        <referenceTo>SVMXC__Site__c</referenceTo>
+        <relationshipName>Parts_Request_To</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Current status of parts request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Current status of parts request.</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Canceled</fullName>
+                    <default>false</default>
+                    <label>Canceled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Total_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sum of Total Line Price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sum of Total Line Price</inlineHelpText>
+        <label>Total Amount</label>
+        <summarizedField>SVMXC__Parts_Request_Line__c.SVMXC__Total_Line_Price__c</summarizedField>
+        <summaryForeignKey>SVMXC__Parts_Request_Line__c.SVMXC__Parts_Request__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Parts Request</label>
+    <listViews>
+        <fullName>SVMXC__All_Parts_Requests</fullName>
+        <columns>NAME</columns>
+        <columns>SVMXC__Requested_From__c</columns>
+        <columns>SVMXC__Company__c</columns>
+        <columns>SVMXC__Required_At_Location__c</columns>
+        <columns>SVMXC__Status__c</columns>
+        <columns>SVMXC__Total_Amount__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Parts Requests</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>PRQ-{00000000}</displayFormat>
+        <label>Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Parts Requests</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>SVMXC__Requested_From__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SVMXC__Required_At_Location__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SVMXC__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SVMXC__Closed_By__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SVMXC__Closed_On__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Requested_From__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Required_At_Location__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATEDBY_USER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Closed_By__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Closed_On__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>SVMXC__Requested_From__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Required_At_Location__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Status__c</searchFilterFields>
+        <searchFilterFields>CREATEDBY_USER</searchFilterFields>
+        <searchFilterFields>SVMXC__Age__c</searchFilterFields>
+        <searchResultsAdditionalFields>SVMXC__Requested_From__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SVMXC__Required_At_Location__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SVMXC__Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SVMXC__Closed_By__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SVMXC__Closed_On__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>SVMXC__SVMXC_ValidateLocationsAreSame</fullName>
+        <active>true</active>
+        <description>From and To locations cannot be the same.</description>
+        <errorConditionFormula>(SVMXC__Requested_From__c =  SVMXC__Required_At_Location__c)</errorConditionFormula>
+        <errorDisplayField>SVMXC__Requested_From__c</errorDisplayField>
+        <errorMessage>Requested From location cannot be the same as Required At Location.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SVMXC__SVMXC_ValidateRequestedFromStockable1</fullName>
+        <active>true</active>
+        <description>Requested From should be a stockable location if Supplier name is not entered.</description>
+        <errorConditionFormula>AND(SVMXC__Company__c = &quot;&quot;, SVMXC__Requested_From__r.SVMXC__Stocking_Location__c = FALSE)</errorConditionFormula>
+        <errorDisplayField>SVMXC__Requested_From__c</errorDisplayField>
+        <errorMessage>Requested From should be a stockable location if Supplier name is not entered.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SVMXC__SVMXC_ValidateRequestedFromStockable2</fullName>
+        <active>true</active>
+        <description>Requested From should not be a stockable location if supplier name is provided</description>
+        <errorConditionFormula>AND(SVMXC__Company__c &lt;&gt; &quot;&quot;, SVMXC__Requested_From__r.SVMXC__Stocking_Location__c = TRUE)</errorConditionFormula>
+        <errorDisplayField>SVMXC__Requested_From__c</errorDisplayField>
+        <errorMessage>Requested From should be a non-stockable location when supplier name is entered.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SVMXC__SVMXC_ValidateRequiredAtStockable</fullName>
+        <active>true</active>
+        <description>Required At should be a stockable location</description>
+        <errorConditionFormula>( SVMXC__Required_At_Location__r.SVMXC__Stocking_Location__c = FALSE)</errorConditionFormula>
+        <errorDisplayField>SVMXC__Required_At_Location__c</errorDisplayField>
+        <errorMessage>Required At is not a stockable location. Please select a stockable location.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>SVMXC__Add_Lines</fullName>
+        <availability>online</availability>
+        <description>Launch Create Parts Request Lines Screen</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Create/Edit Lines</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Site.Prefix+&apos;/apex/SVMXC__ServiceMaxConsole?SVMX_recordId=&apos;+CASESAFEID(SVMXC__Parts_Request__c.Id)+&apos;&amp;SVMX_processId=TDM012&amp;SVMX_retURL=&apos;+URLFOR($Site.Prefix+&apos;/&apos;+CASESAFEID(SVMXC__Parts_Request__c.Id)))}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SVMXC__Cancel_Parts_Request</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Cancel Parts Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Site.Prefix+&apos;/apex/SVMXC__PREQ_CancelPartsRequest?PrId=&apos;+SVMXC__Parts_Request__c.Id)}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SVMXC__Create_Shipment_Order</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Create Shipment Order</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Site.Prefix+&apos;/apex/SVMXC__ServiceMaxConsole?SVMX_recordId=&apos;+CASESAFEID(SVMXC__Parts_Request__c.Id)+&apos;&amp;SVMX_processId=TDM008&amp;SVMX_retURL=&apos;+URLFOR($Site.Prefix+&apos;/&apos;+CASESAFEID(SVMXC__Parts_Request__c.Id)))}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SVMXC__Generate_Document_s</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Generate Document(s)</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Site.Prefix+&apos;/apex/SVMXC__OPDOC_Delivery?SVMX_recordId=&apos;+SVMXC__Parts_Request__c.Id+&apos;&amp;SVMX_retURL=&apos;+SVMXC__Parts_Request__c.Id+&apos;&amp;SVMX_processId=PR_Report_001&apos;)}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SVMXC__Process_Receipts_Internal</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Process Receipts (Internal)</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Site.Prefix+&apos;/apex/SVMXC__INVT_SmartEngine?hdrId=&apos;+SVMXC__Parts_Request__c.Id+&apos;&amp;SMid=PREQ004&apos;)}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SVMXC__Process_Receipts_Supplier</fullName>
+        <availability>online</availability>
+        <description>Receive Parts from Supplier</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Process Receipts (Supplier)</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Site.Prefix+&apos;/apex/SVMXC__INVT_SmartEngine?hdrId=&apos;+SVMXC__Parts_Request__c.Id+&apos;&amp;SMid=PREQ005&apos;)}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SVMXC__StockLookupPREQ</fullName>
+        <availability>online</availability>
+        <description>Button should not be on Parts request.
+Do not Use this button.</description>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>sControl</linkType>
+        <masterLabel>Stock Lookup(Do not Use)</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <scontrol>SVMXC__StockLookupPR</scontrol>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+</CustomObject>

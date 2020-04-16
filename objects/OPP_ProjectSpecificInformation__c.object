@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>BiddingEPC__c</fullName>
+        <externalId>false</externalId>
+        <label>Bidding EPC</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ContractType__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>LSTK</fullName>
+                    <default>false</default>
+                    <label>LSTK</label>
+                </value>
+                <value>
+                    <fullName>TM</fullName>
+                    <default>false</default>
+                    <label>TM</label>
+                </value>
+                <value>
+                    <fullName>DI</fullName>
+                    <default>false</default>
+                    <label>DI</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EndUsertoEPCAwardDate__c</fullName>
+        <externalId>false</externalId>
+        <label>End-User to EPC Award Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>GMPGates__c</fullName>
+        <externalId>false</externalId>
+        <label>GMP Gates</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Go No Go decision</fullName>
+                    <default>false</default>
+                    <label>Go No Go decision</label>
+                </value>
+                <value>
+                    <fullName>Deal Winning Session 1</fullName>
+                    <default>false</default>
+                    <label>Deal Winning Session 1</label>
+                </value>
+                <value>
+                    <fullName>Bid No Bid</fullName>
+                    <default>false</default>
+                    <label>Bid No Bid</label>
+                </value>
+                <value>
+                    <fullName>RFQ</fullName>
+                    <default>false</default>
+                    <label>RFQ</label>
+                </value>
+                <value>
+                    <fullName>Deal Winning Session 2</fullName>
+                    <default>false</default>
+                    <label>Deal Winning Session 2</label>
+                </value>
+                <value>
+                    <fullName>CQA approval</fullName>
+                    <default>false</default>
+                    <label>CQA approval</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GlobalMajorProjects__c</fullName>
+        <externalId>false</externalId>
+        <label>Global Major Projects</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GMP: Major Project handled by GMP team</fullName>
+                    <default>false</default>
+                    <label>GMP: Major Project handled by GMP team</label>
+                </value>
+                <value>
+                    <fullName>GMP S: Major Project supported by GMP team</fullName>
+                    <default>false</default>
+                    <label>GMP S: Major Project supported by GMP team</label>
+                </value>
+                <value>
+                    <fullName>GMP CAN: Candidate Major Project to be evaluated</fullName>
+                    <default>false</default>
+                    <label>GMP CAN: Candidate Major Project to be evaluated</label>
+                </value>
+                <value>
+                    <fullName>Regional MP: Major Project regionally handled</fullName>
+                    <default>false</default>
+                    <label>Regional MP: Major Project regionally handled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>KeyRisks__c</fullName>
+        <externalId>false</externalId>
+        <label>Key risks</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Licensor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Provides licenses to Invensys projects</inlineHelpText>
+        <label>Licensor</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Master Project Specific Informations (Licensor)</relationshipLabel>
+        <relationshipName>ProjectSpecificInformations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MainAutomationContractor__c</fullName>
+        <externalId>false</externalId>
+        <label>MAC-Main Automation Contractor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MajorPursuitLeader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Major Pursuit Leader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>MasterProjectSpecificInformations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MasterProject__c</fullName>
+        <externalId>false</externalId>
+        <label>Master Project</label>
+        <referenceTo>OPP_Project__c</referenceTo>
+        <relationshipLabel>Master Project Specific Information</relationshipLabel>
+        <relationshipName>MasterProjectSpecificInformations</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>NextActions__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Actions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAEstimatedPursuitvalueUSD__c</fullName>
+        <externalId>false</externalId>
+        <label>PA Estimated Pursuit value (USD)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProjectManagementContractor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Project Management Contractor</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Master Project Specific Informations (Project Management Contractor)</relationshipLabel>
+        <relationshipName>ProjectSpecificInformations1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProjectSpecInfVIPIcon__c</fullName>
+        <externalId>false</externalId>
+        <formula>MasterProject__r.ProjectEndUserInvestor__r.Account_VIPIcon__c</formula>
+        <label>&lt;VIPIcon&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PursuitPhase__c</fullName>
+        <externalId>false</externalId>
+        <label>Pursuit Phase</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0-Lead (pre-funding)</fullName>
+                    <default>false</default>
+                    <label>0-Lead (pre-funding)</label>
+                </value>
+                <value>
+                    <fullName>1-Feed</fullName>
+                    <default>false</default>
+                    <label>1-Feed</label>
+                </value>
+                <value>
+                    <fullName>2-EPC Selection</fullName>
+                    <default>false</default>
+                    <label>2-EPC Selection</label>
+                </value>
+                <value>
+                    <fullName>3-EPC Awarded</fullName>
+                    <default>false</default>
+                    <label>3-EPC Awarded</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PursuitProbability__c</fullName>
+        <externalId>false</externalId>
+        <label>Pursuit Probability</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StatusRemarks__c</fullName>
+        <externalId>false</externalId>
+        <label>Status / Remarks</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <label>Master Project Specific Information</label>
+    <nameField>
+        <displayFormat>MPSI-{0000}</displayFormat>
+        <label>Master Project Specific Information Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Master Project Specific Informations</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>IndustryProcessAutomation</fullName>
+        <active>true</active>
+        <label>Industry - Process Automation</label>
+        <picklistValues>
+            <picklist>ContractType__c</picklist>
+            <values>
+                <fullName>DI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LSTK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TM</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>GMPGates__c</picklist>
+            <values>
+                <fullName>Bid No Bid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CQA approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Winning Session 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Winning Session 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Go No Go decision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RFQ</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>GlobalMajorProjects__c</picklist>
+            <values>
+                <fullName>GMP CAN%3A Candidate Major Project to be evaluated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GMP S%3A Major Project supported by GMP team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GMP%3A Major Project handled by GMP team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regional MP%3A Major Project regionally handled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MainAutomationContractor__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PursuitPhase__c</picklist>
+            <values>
+                <fullName>0-Lead %28pre-funding%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1-Feed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2-EPC Selection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3-EPC Awarded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>MPSI_VR_OCT15SLS01_SingleRecForPrj</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; 
+IF(ISNEW() &amp;&amp; RecordTypeId = &apos;01212000000zskl&apos; &amp;&amp;    MasterProject__r.IndustryPSICount__c&gt;=1,true,false
+)</errorConditionFormula>
+        <errorMessage>You cannot create more than one record under the Master Project.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PSI_VR_MAR16SLS01_AccessToCertainFields</fullName>
+        <active>true</active>
+        <description>Reference from BSI_VR_OCT14SLS01_AccessToCertainFields VR</description>
+        <errorConditionFormula>NOT($User.BypassVR__c)
+&amp;&amp;
+(
+	AND(
+		OR(
+			ISBLANK($User.Permission_sets_assigned__c), 
+			NOT(CONTAINS($User.Permission_sets_assigned__c, &quot;SA - InvensysGlobalMajorProjectsTeam&quot;))
+		), 
+		OR(
+			ISCHANGED(Licensor__c), 
+			ISCHANGED(ProjectManagementContractor__c), 
+			ISCHANGED(PursuitPhase__c), 
+			ISCHANGED(EndUsertoEPCAwardDate__c),
+			ISCHANGED(Comments__c),
+			ISCHANGED(ContractType__c),
+			ISCHANGED(GlobalMajorProjects__c),
+			ISCHANGED(GMPGates__c),
+			ISCHANGED(KeyRisks__c),
+			ISCHANGED(MainAutomationContractor__c),
+			ISCHANGED(NextActions__c),
+			ISCHANGED(StatusRemarks__c),
+			ISCHANGED(MasterProject__c)
+		),
+		NOT(ISPICKVAL(GlobalMajorProjects__c, &apos;Regional MP: Major Project regionally handled&apos;)),
+		NOT(ISPICKVAL(GlobalMajorProjects__c, &apos;&apos;))	
+	) 
+)</errorConditionFormula>
+        <errorMessage>You do not have appropriate permission to modify this Master Project Specific Information.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

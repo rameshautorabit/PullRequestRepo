@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>APRIL RELEASE - Junction object between Account and Partner Program</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <description>APRIL RELEASE - Field to relate an account</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Assigned Programs</relationshipLabel>
+        <relationshipName>PartnerPrograms</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Active?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Eligiblefor__c</fullName>
+        <description>OCT 13 PRM: Program eligibility to set when requirement is expired</description>
+        <externalId>false</externalId>
+        <label>Eligible for</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Promotion</fullName>
+                    <default>true</default>
+                    <label>Promotion</label>
+                </value>
+                <value>
+                    <fullName>Demotion</fullName>
+                    <default>false</default>
+                    <label>Demotion</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PartnerProgramName__c</fullName>
+        <description>September 2012 Release: Formula field to show the Partner Program Name from Partner Program instead of Name field</description>
+        <externalId>false</externalId>
+        <formula>PartnerProgram__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Partner Program Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PartnerProgram__c</fullName>
+        <description>APRIL RELEASE - Field relative to a Partner Program</description>
+        <externalId>false</externalId>
+        <label>Partner Program</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 AND 2</booleanFilter>
+            <filterItems>
+                <field>PartnerProgram__c.ProgramStatus__c</field>
+                <operation>notEqual</operation>
+                <value>Draft, Pending Approval, Rejected</value>
+            </filterItems>
+            <filterItems>
+                <field>PartnerProgram__c.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Country Partner Program, Cluster Partner Program</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>PartnerProgram__c</referenceTo>
+        <relationshipLabel>Account Assigned Programs</relationshipLabel>
+        <relationshipName>PartnerPrograms</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ProgramLevel__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Program Level</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 AND 2</booleanFilter>
+            <errorMessage>Choose a Active Program Level associated with Partner Program</errorMessage>
+            <filterItems>
+                <field>$Source.PartnerProgram__c</field>
+                <operation>equals</operation>
+                <valueField>ProgramLevel__c.PartnerProgram__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>ProgramLevel__c.LevelStatus__c</field>
+                <operation>equals</operation>
+                <value>Active, Inactive</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>ProgramLevel__c</referenceTo>
+        <relationshipLabel>Account Assigned Programs</relationshipLabel>
+        <relationshipName>AccountAssignedPrograms</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TECH_UniqueAssignedId__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__c &amp; PartnerProgram__c &amp; ProgramLevel__c</formula>
+        <label>TECH_UniqueAssignedId</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Account Assigned Program</label>
+    <nameField>
+        <displayFormat>AAP-{00000000}</displayFormat>
+        <label>Partner Program Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Account Assigned Programs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>AAP_VR_APR14PRM01_CheckActivePrgLevel</fullName>
+        <active>true</active>
+        <description>Checking whether the selected Program Level is active</description>
+        <errorConditionFormula>AND(
+NOT( $User.BypassVR__c ),
+Active__c = true,
+OR(ISNEW(), ISCHANGED( ProgramLevel__c )),
+NOT(ISPICKVAL(ProgramLevel__r.LevelStatus__c,&apos;Active&apos;))
+)</errorConditionFormula>
+        <errorDisplayField>ProgramLevel__c</errorDisplayField>
+        <errorMessage>The selected program level is not in active status.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AAP_VR_APR14PRM02_CheckProgram</fullName>
+        <active>true</active>
+        <description>PRM: APR 14 ensure only active programs are chosen while creating a new account assigned program</description>
+        <errorConditionFormula>AND (
+ NOT( $User.BypassVR__c ),
+ OR(ISNEW(), ISCHANGED ( PartnerProgram__c )),
+ Active__c = true,
+ NOT(ISPICKVAL( PartnerProgram__r.ProgramStatus__c , &apos;Active&apos;))
+)</errorConditionFormula>
+        <errorDisplayField>PartnerProgram__c</errorDisplayField>
+        <errorMessage>Only active programs can be assigned to an Account</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AAP_VR_MAY13PRM01_CheckProgramCountry</fullName>
+        <active>true</active>
+        <description>Partner Program should be available to Account Assigned Program&apos;s Account&apos;s country</description>
+        <errorConditionFormula>AND( NOT($User.BypassVR__c),
+IF( PartnerProgram__r.RecordType.DeveloperName == &apos;CountryPartnerProgram&apos;,( Account__r.Country__c &lt;&gt;  PartnerProgram__r.Country__c ) ,
+NOT(CONTAINS( PartnerProgram__r.TECH_CountriesId__c , Account__r.Country__c))
+
+)
+)</errorConditionFormula>
+        <errorMessage>This Program is not available for the selected Account.Please select another Program which belong to selected Account&apos;s Country</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

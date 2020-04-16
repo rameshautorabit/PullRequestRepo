@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>SVMXC__SVMX_LaunchHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This object is used to maintain a log of offline activities performed by ServiceMax offline users. The level of logging required for an organization is configurable by the ServiceMax administrator.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>SVMXC__Activity_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of activity performed by the user</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of activity performed by the user</inlineHelpText>
+        <label>Activity Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Login</fullName>
+                    <default>false</default>
+                    <label>Login</label>
+                </value>
+                <value>
+                    <fullName>Force Config Download</fullName>
+                    <default>false</default>
+                    <label>Force Config Download</label>
+                </value>
+                <value>
+                    <fullName>Auto Config Download</fullName>
+                    <default>false</default>
+                    <label>Auto Config Download</label>
+                </value>
+                <value>
+                    <fullName>Manual Config Download</fullName>
+                    <default>false</default>
+                    <label>Manual Config Download</label>
+                </value>
+                <value>
+                    <fullName>Create Record</fullName>
+                    <default>false</default>
+                    <label>Create Record</label>
+                </value>
+                <value>
+                    <fullName>Update Record</fullName>
+                    <default>false</default>
+                    <label>Update Record</label>
+                </value>
+                <value>
+                    <fullName>Delete Record</fullName>
+                    <default>false</default>
+                    <label>Delete Record</label>
+                </value>
+                <value>
+                    <fullName>Logout</fullName>
+                    <default>false</default>
+                    <label>Logout</label>
+                </value>
+                <value>
+                    <fullName>Start Synch</fullName>
+                    <default>false</default>
+                    <label>Start Synch</label>
+                </value>
+                <value>
+                    <fullName>Cancel Synch</fullName>
+                    <default>false</default>
+                    <label>Cancel Synch</label>
+                </value>
+                <value>
+                    <fullName>Print Report</fullName>
+                    <default>false</default>
+                    <label>Print Report</label>
+                </value>
+                <value>
+                    <fullName>Export Data</fullName>
+                    <default>false</default>
+                    <label>Export Data</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__End_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Timestamp when the user completed the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Timestamp when the user completed the activity</inlineHelpText>
+        <label>End Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Object_Key_Prefix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Object key prefix from Salesforce</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Object key prefix from Salesforce</inlineHelpText>
+        <label>Object Key Prefix</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Object_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the Salesforce object related to the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the Salesforce object related to the activity</inlineHelpText>
+        <label>Object Name</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Object_Record_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Record ID related to the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Record ID related to the activity</inlineHelpText>
+        <label>Object Record ID</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Start_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Timestamp when the user started the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Timestamp when the user started the activity</inlineHelpText>
+        <label>Start Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__User_Profile__c</fullName>
+        <deprecated>false</deprecated>
+        <description>User&apos;s salesforce profile at the time of the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>User&apos;s salesforce profile at the time of the activity</inlineHelpText>
+        <label>User Profile</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Salesforce user that initiated or was responsible for the activity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Salesforce user that initiated or was responsible for the activity</inlineHelpText>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Offline_Log</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Offline Log</label>
+    <nameField>
+        <displayFormat>{00000000}</displayFormat>
+        <label>Record Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Offline Logs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>F_AddAll__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Toggle the &quot;AddAll&quot; button on/off.</inlineHelpText>
+        <label>Display Add-All Button</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>F_BtnLocation__c</fullName>
+        <defaultValue>&quot;both&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Location of the page buttons. Allowed values are &quot;top&quot;, &quot;bottom&quot; and &quot;both&quot;.</inlineHelpText>
+        <label>Buttons Location</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_FieldLike__c</fullName>
+        <defaultValue>&quot;Name&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma-separated field names whose values will be compared to the search input.</inlineHelpText>
+        <label>Search Fields</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_Fieldset__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the segment fieldset, used to generate the columns of the tables.</inlineHelpText>
+        <label>Fieldset</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_HomeURL__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The base URL from salesforce, needed when accessing the manager from a visualforce page</inlineHelpText>
+        <label>Home URL</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_Messages__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Toggle visualforce messages on/off. Note: this will only affect warning/confirm messages.</inlineHelpText>
+        <label>Display Messages</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>F_MsgLocation__c</fullName>
+        <defaultValue>&quot;top&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Location of the page messages. Allowed values are &quot;top&quot;, &quot;bottom&quot; and &quot;both&quot;.</inlineHelpText>
+        <label>Messages Location</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_OrderBy__c</fullName>
+        <defaultValue>&quot;Name&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the field used to order the results of a search query.</inlineHelpText>
+        <label>Order Field</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_PageIndexes__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Display page numbers in addition to the previous/next buttons.</inlineHelpText>
+        <label>Display Page Numbers</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>F_PagerSize__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount of rows to display on a search result.</inlineHelpText>
+        <label>Search Result Length</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Fielo Segment Manager Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

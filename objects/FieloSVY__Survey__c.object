@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Survey_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>PRM_Survey_Compact_LEX</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PRM_Survey_Compact_LEX</fullName>
+        <fields>Name</fields>
+        <fields>FieloSVY__Title__c</fields>
+        <fields>FieloSVY__Menu__c</fields>
+        <fields>FieloSVY__OneAnswerOnly__c</fields>
+        <fields>FieloSVY__RequiresApproval__c</fields>
+        <fields>FieloSVY__Active__c</fields>
+        <label>PRM Survey Compact LEX</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>EventCatalog__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Event Catalog</label>
+        <referenceTo>FieloPRM_EventCatalog__c</referenceTo>
+        <relationshipLabel>Surveys</relationshipLabel>
+        <relationshipName>Surveys</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>F_PRM_CopyDefLangValue__c</fullName>
+        <description>EN (English) field values will be copied over all selected language fields.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>EN (English) field values will be copied over all selected language fields.</inlineHelpText>
+        <label>Copy EN field content to</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>F_PRM_Languages</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__AttachmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Attachment Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <referenceTo>FieloEE__Category__c</referenceTo>
+        <relationshipLabel>Surveys</relationshipLabel>
+        <relationshipName>Surveys</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Menu__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Menu</label>
+        <referenceTo>FieloEE__Menu__c</referenceTo>
+        <relationshipLabel>Surveys</relationshipLabel>
+        <relationshipName>Surveys</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__OneAnswerOnly__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If you want to enforce that a member submit only one time the Survey</inlineHelpText>
+        <label>One Answer Only</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Order__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <precision>4</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__PollsterPoints__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Points to be awarded to the pollster if a transaction is created.</inlineHelpText>
+        <label>Pollster Points</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Pollster__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Pollster</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Transaction</fullName>
+                    <default>false</default>
+                    <label>Transaction</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__RequiresApproval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Requires Approval</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__RespondentPoints__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Points to be awarded to the respondent if a transaction is created.</inlineHelpText>
+        <label>Respondent Points</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Respondent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Respondent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Transaction</fullName>
+                    <default>false</default>
+                    <label>Transaction</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__ShowPointsEarned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Show points earned</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__SurveyDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a description text that will be shown below the title above the survey</inlineHelpText>
+        <label>Survey Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Title__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a title that will be displayed above the description text, on top of the survey</inlineHelpText>
+        <label>Title</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingDescription__c</fullName>
+        <description>Small description of last publication</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Small description of last publication</inlineHelpText>
+        <label>PublishingDescription</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PublishingGoldenId__c</fullName>
+        <description>Track the source Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Track the source Id</inlineHelpText>
+        <label>PublishingGoldenId</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingIsUpdated__c</fullName>
+        <description>Identify if the record has been updated</description>
+        <externalId>false</externalId>
+        <formula>IF( OR(LastModifiedDate  &gt; PublishingTimestamp__c,ISBLANK(PublishingTimestamp__c)),true,false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Identify if the record has been updated</inlineHelpText>
+        <label>PublishingIsUpdated</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PublishingOdasevaId__c</fullName>
+        <externalId>true</externalId>
+        <label>PublishingOdasevaId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingPublisher__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Track who was the last publisher</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Track who was the last publisher</inlineHelpText>
+        <label>PublishingPublisher</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>PublisherFieloSVYSurveyc</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PublishingStatusImage__c</fullName>
+        <description>Identify at first sight that the record is set for publication</description>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(PublishingStatus__c),&quot;Ready for Publication&quot;,IMAGE(&quot;/img/samples/flag_green.gif&quot;,&quot;Ready for Publication&quot;),&quot;Awaiting Publication&quot;,IMAGE(&quot;/img/samples/flag_yellow.gif&quot;,&quot;Awaiting Publication&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Identify at first sight that the record is set for publication</inlineHelpText>
+        <label>PublishingStatusImage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>PublishingStatus</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ready for Publication</fullName>
+                    <default>false</default>
+                    <label>Ready for Publication</label>
+                </value>
+                <value>
+                    <fullName>Awaiting Publication</fullName>
+                    <default>false</default>
+                    <label>Awaiting Publication</label>
+                </value>
+                <value>
+                    <fullName>Published</fullName>
+                    <default>false</default>
+                    <label>Published</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PublishingTimestamp__c</fullName>
+        <description>Date and time of the last publication</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date and time of the last publication</inlineHelpText>
+        <label>PublishingTimestamp</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_BG__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description BG</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_CS__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description CS</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_DA__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description DA</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_DE__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description DE</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_EL__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description EL</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_EN__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description EN</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_ES__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description ES</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_FI__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description FI</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_FR__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description FR</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_HR__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description HR</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_HU__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description HU</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_IN__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description IN</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_IT__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description IT</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_JA__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description JA</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_KO__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description KO</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_NL__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description NL</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_NO__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description NO</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_PL__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description PL</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_PT__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description PT</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_RO__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description RO</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_RU__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description RU</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_SH__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description SH</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_SK__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description SK</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_SV__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description SV</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_TH__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description TH</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_TR__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description TR</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_VI__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description VI</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SurveyDescription_ZH__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Description ZH</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TECH_MigrationUniqueID__c</fullName>
+        <description>Unique ID to be used by ODASEVA for synchronizing the records between environments</description>
+        <externalId>true</externalId>
+        <label>Migration Unique ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_BG__c</fullName>
+        <externalId>false</externalId>
+        <label>Title BG</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_CS__c</fullName>
+        <externalId>false</externalId>
+        <label>Title CS</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_DA__c</fullName>
+        <externalId>false</externalId>
+        <label>Title DA</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_DE__c</fullName>
+        <externalId>false</externalId>
+        <label>Title DE</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_EL__c</fullName>
+        <externalId>false</externalId>
+        <label>Title EL</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_EN__c</fullName>
+        <externalId>false</externalId>
+        <label>Title EN</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_ES__c</fullName>
+        <externalId>false</externalId>
+        <label>Title ES</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_FI__c</fullName>
+        <externalId>false</externalId>
+        <label>Title FI</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_FR__c</fullName>
+        <externalId>false</externalId>
+        <label>Title FR</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_HR__c</fullName>
+        <externalId>false</externalId>
+        <label>Title HR</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_HU__c</fullName>
+        <externalId>false</externalId>
+        <label>Title HU</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_IN__c</fullName>
+        <externalId>false</externalId>
+        <label>Title IN</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_IT__c</fullName>
+        <externalId>false</externalId>
+        <label>Title IT</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_JA__c</fullName>
+        <externalId>false</externalId>
+        <label>Title JA</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_KO__c</fullName>
+        <externalId>false</externalId>
+        <label>Title KO</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_NL__c</fullName>
+        <externalId>false</externalId>
+        <label>Title NL</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_NO__c</fullName>
+        <externalId>false</externalId>
+        <label>Title NO</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_PL__c</fullName>
+        <externalId>false</externalId>
+        <label>Title PL</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_PT__c</fullName>
+        <externalId>false</externalId>
+        <label>Title PT</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_RO__c</fullName>
+        <externalId>false</externalId>
+        <label>Title RO</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_RU__c</fullName>
+        <externalId>false</externalId>
+        <label>Title RU</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_SH__c</fullName>
+        <externalId>false</externalId>
+        <label>Title SH</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_SK__c</fullName>
+        <externalId>false</externalId>
+        <label>Title SK</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_SV__c</fullName>
+        <externalId>false</externalId>
+        <label>Title SV</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_TH__c</fullName>
+        <externalId>false</externalId>
+        <label>Title TH</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_TR__c</fullName>
+        <externalId>false</externalId>
+        <label>Title TR</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_VI__c</fullName>
+        <externalId>false</externalId>
+        <label>Title VI</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_ZH__c</fullName>
+        <externalId>false</externalId>
+        <label>Title ZH</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Survey</label>
+    <listViews>
+        <fullName>AR_Surveys</fullName>
+        <columns>NAME</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.FIRST_NAME</field>
+            <operation>startsWith</operation>
+            <value>agustin</value>
+        </filters>
+        <filters>
+            <field>OWNER.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>gimenez</value>
+        </filters>
+        <label>AR - Surveys</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ARArgentina</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>FieloSVY__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>SE_Surveys</fullName>
+        <columns>NAME</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>FieloSVY__Title__c</field>
+            <operation>contains</operation>
+            <value>eDesign</value>
+        </filters>
+        <label>SE - Surveys</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <label>Survey Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Surveys</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>FieloSVY__Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FieloSVY__Menu__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FieloSVY__OneAnswerOnly__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FieloSVY__RequiresApproval__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FieloSVY__Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>PRM_VR_R217_DoNotAllowSvySvyDescChange</fullName>
+        <active>true</active>
+        <description>Check on SurveyDescription</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; IF($User.AllowAllLanguages__c=false,IF(
+	(ISCHANGED(SurveyDescription_BG__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;bg&apos; ))||
+	(ISCHANGED(SurveyDescription_CS__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;cs&apos; ))||
+	(ISCHANGED(SurveyDescription_DA__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;da&apos; ))||
+	(ISCHANGED(SurveyDescription_DE__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;de&apos; ))||
+	(ISCHANGED(SurveyDescription_EL__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;el&apos; ))||
+	(ISCHANGED(SurveyDescription_EN__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;en&apos; ))||
+	(ISCHANGED(SurveyDescription_ES__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;es&apos; ))||
+	(ISCHANGED(SurveyDescription_FR__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;fr&apos; ))||
+	(ISCHANGED(SurveyDescription_HU__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;hu&apos; ))||
+	(ISCHANGED(SurveyDescription_IN__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;in&apos; ))||
+	(ISCHANGED(SurveyDescription_IT__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;it&apos; ))||
+	(ISCHANGED(SurveyDescription_JA__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;ja&apos; ))||
+	(ISCHANGED(SurveyDescription_KO__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;ko&apos; ))||
+	(ISCHANGED(SurveyDescription_NL__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;nl&apos; ))||
+	(ISCHANGED(SurveyDescription_PL__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;pl&apos; ))||
+	(ISCHANGED(SurveyDescription_PT__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;pt&apos; ))||
+	(ISCHANGED(SurveyDescription_RO__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;ro&apos; ))||
+	(ISCHANGED(SurveyDescription_RU__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;ru&apos; ))||
+	(ISCHANGED(SurveyDescription_SV__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;sv&apos; ))||
+	(ISCHANGED(SurveyDescription_TH__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;th&apos; ))||
+	(ISCHANGED(SurveyDescription_TR__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;tr&apos; ))||
+	(ISCHANGED(SurveyDescription_VI__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;vi&apos; ))||
+    (ISCHANGED(SurveyDescription_NO__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;no&apos; ))||
+	(ISCHANGED(SurveyDescription_FI__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;fi&apos; ))||
+	(ISCHANGED(SurveyDescription_HR__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;hr&apos; ))||
+	(ISCHANGED(SurveyDescription_ZH__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;zh&apos; ))||
+	(ISCHANGED(SurveyDescription_SK__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;sk&apos; ))||
+	(ISCHANGED(SurveyDescription_SH__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;sh&apos; ))
+	,true,false),false)</errorConditionFormula>
+        <errorMessage>You are NOT allowed to change the SurveyDescription.For the list of allowed languages please check your user profile.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRM_VR_R217_DoNotAllowSvyTitleChange</fullName>
+        <active>true</active>
+        <description>check on title</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; IF($User.AllowAllLanguages__c=false,IF( 
+(ISCHANGED(Title_BG__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;bg&apos; ))|| 
+(ISCHANGED(Title_CS__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;cs&apos; ))|| 
+(ISCHANGED(Title_DA__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;da&apos; ))|| 
+(ISCHANGED(Title_DE__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;de&apos; ))|| 
+(ISCHANGED(Title_EL__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;el&apos; ))|| 
+(ISCHANGED(Title_EN__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;en&apos; ))|| 
+(ISCHANGED(Title_ES__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;es&apos; ))|| 
+(ISCHANGED(Title_FR__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;fr&apos; ))|| 
+(ISCHANGED(Title_HU__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;hu&apos; ))|| 
+(ISCHANGED(Title_IN__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;in&apos; ))|| 
+(ISCHANGED(Title_IT__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;it&apos; ))|| 
+(ISCHANGED(Title_JA__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;ja&apos; ))|| 
+(ISCHANGED(Title_KO__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;ko&apos; ))|| 
+(ISCHANGED(Title_NL__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;nl&apos; ))|| 
+(ISCHANGED(Title_PL__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;pl&apos; ))|| 
+(ISCHANGED(Title_PT__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;pt&apos; ))|| 
+(ISCHANGED(Title_RO__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;ro&apos; ))|| 
+(ISCHANGED(Title_RU__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;ru&apos; ))|| 
+(ISCHANGED(Title_SV__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;sv&apos; ))|| 
+(ISCHANGED(Title_TH__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;th&apos; ))|| 
+(ISCHANGED(Title_TR__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;tr&apos; ))|| 
+(ISCHANGED(Title_VI__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;vi&apos; ))||
+(ISCHANGED(Title_NO__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;no&apos; ))||
+(ISCHANGED(Title_FI__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;fi&apos; ))||
+(ISCHANGED(Title_HR__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;hr&apos; ))||
+(ISCHANGED(Title_ZH__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;zh&apos; ))||
+(ISCHANGED(Title_SK__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;sk&apos; ))||
+(ISCHANGED(Title_SH__c)&amp;&amp;!CONTAINS( $User.PRMAllowedLanguage__c, &apos;sh&apos; )) 
+,true,false),false)</errorConditionFormula>
+        <errorDisplayField>FieloSVY__Active__c</errorDisplayField>
+        <errorMessage>You are NOT allowed to change the Title.For the list of allowed languages please check your user profile.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

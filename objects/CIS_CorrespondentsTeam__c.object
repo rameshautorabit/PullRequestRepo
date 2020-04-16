@@ -1,0 +1,3994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>List of correspondents and Queue of Users managing a list of competencies and a scope of countries
+In CIS Program.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>CIS_AddressToSend__c</fullName>
+        <externalId>false</externalId>
+        <label>Address To Send</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CIS_FieldsOfActivity__c</fullName>
+        <externalId>false</externalId>
+        <label>Fields of activity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ED: Low Voltage</fullName>
+                    <default>false</default>
+                    <label>ED: Low Voltage</label>
+                </value>
+                <value>
+                    <fullName>ED: Medium Voltage</fullName>
+                    <default>false</default>
+                    <label>ED: Medium Voltage</label>
+                </value>
+                <value>
+                    <fullName>ED: Photovoltaic Systems</fullName>
+                    <default>false</default>
+                    <label>ED: Photovoltaic Systems</label>
+                </value>
+                <value>
+                    <fullName>Promotion CIS</fullName>
+                    <default>false</default>
+                    <label>Promotion CIS</label>
+                </value>
+                <value>
+                    <fullName>Other : please specify</fullName>
+                    <default>false</default>
+                    <label>Other : please specify</label>
+                </value>
+                <value>
+                    <fullName>ID: Variable Speed Drives</fullName>
+                    <default>false</default>
+                    <label>ID: Variable Speed Drives</label>
+                </value>
+                <value>
+                    <fullName>ID: System Drives (MV / LV)</fullName>
+                    <default>false</default>
+                    <label>ID: System Drives (MV / LV)</label>
+                </value>
+                <value>
+                    <fullName>ID: Operator Interface &amp; Sensores</fullName>
+                    <default>false</default>
+                    <label>ID: Operator Interface &amp; Sensores</label>
+                </value>
+                <value>
+                    <fullName>ID: Process Control</fullName>
+                    <default>false</default>
+                    <label>ID: Process Control</label>
+                </value>
+                <value>
+                    <fullName>ID: Machine Control &amp; Safety</fullName>
+                    <default>false</default>
+                    <label>ID: Machine Control &amp; Safety</label>
+                </value>
+                <value>
+                    <fullName>ID: Servo+Motors+Robotics</fullName>
+                    <default>false</default>
+                    <label>ID: Servo+Motors+Robotics</label>
+                </value>
+                <value>
+                    <fullName>ID: Commercial (HVAC+R)</fullName>
+                    <default>false</default>
+                    <label>ID: Commercial (HVAC+R)</label>
+                </value>
+                <value>
+                    <fullName>ITB: UPS</fullName>
+                    <default>false</default>
+                    <label>ITB: UPS</label>
+                </value>
+                <value>
+                    <fullName>ITB: Cooling</fullName>
+                    <default>false</default>
+                    <label>ITB: Cooling</label>
+                </value>
+                <value>
+                    <fullName>Marine</fullName>
+                    <default>false</default>
+                    <label>Marine</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CIS_HFMCode__c</fullName>
+        <externalId>false</externalId>
+        <label>HFM Code </label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CIS_IBAN__c</fullName>
+        <externalId>false</externalId>
+        <label>IBAN</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CIS_InvoicingAddress__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoicing Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CIS_PublicGroupTechnicalName__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Technical Name (API Name) of Queue and Public Group</inlineHelpText>
+        <label>Public Group Technical Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CIS_SEEntityIDCode__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Entity ID Code</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CIS_ScopeOfCountries__c</fullName>
+        <externalId>false</externalId>
+        <label>Scope of Countries</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>Italy</fullName>
+                    <default>false</default>
+                    <label>Italy</label>
+                </value>
+                <value>
+                    <fullName>Germany</fullName>
+                    <default>false</default>
+                    <label>Germany</label>
+                </value>
+                <value>
+                    <fullName>Afghanistan</fullName>
+                    <default>false</default>
+                    <label>Afghanistan</label>
+                </value>
+                <value>
+                    <fullName>Albania</fullName>
+                    <default>false</default>
+                    <label>Albania</label>
+                </value>
+                <value>
+                    <fullName>Algeria</fullName>
+                    <default>false</default>
+                    <label>Algeria</label>
+                </value>
+                <value>
+                    <fullName>Andorra</fullName>
+                    <default>false</default>
+                    <label>Andorra</label>
+                </value>
+                <value>
+                    <fullName>Angola</fullName>
+                    <default>false</default>
+                    <label>Angola</label>
+                </value>
+                <value>
+                    <fullName>Argentina</fullName>
+                    <default>false</default>
+                    <label>Argentina</label>
+                </value>
+                <value>
+                    <fullName>Armenia</fullName>
+                    <default>false</default>
+                    <label>Armenia</label>
+                </value>
+                <value>
+                    <fullName>Australia</fullName>
+                    <default>false</default>
+                    <label>Australia</label>
+                </value>
+                <value>
+                    <fullName>Austria</fullName>
+                    <default>false</default>
+                    <label>Austria</label>
+                </value>
+                <value>
+                    <fullName>Azerbaijan</fullName>
+                    <default>false</default>
+                    <label>Azerbaijan</label>
+                </value>
+                <value>
+                    <fullName>Bangladesh</fullName>
+                    <default>false</default>
+                    <label>Bangladesh</label>
+                </value>
+                <value>
+                    <fullName>Belarus</fullName>
+                    <default>false</default>
+                    <label>Belarus</label>
+                </value>
+                <value>
+                    <fullName>Belgium</fullName>
+                    <default>false</default>
+                    <label>Belgium</label>
+                </value>
+                <value>
+                    <fullName>Benin</fullName>
+                    <default>false</default>
+                    <label>Benin</label>
+                </value>
+                <value>
+                    <fullName>Bolivia</fullName>
+                    <default>false</default>
+                    <label>Bolivia</label>
+                </value>
+                <value>
+                    <fullName>Bosnia And Herzegovina</fullName>
+                    <default>false</default>
+                    <label>Bosnia And Herzegovina</label>
+                </value>
+                <value>
+                    <fullName>Botswana</fullName>
+                    <default>false</default>
+                    <label>Botswana</label>
+                </value>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>Bulgaria</fullName>
+                    <default>false</default>
+                    <label>Bulgaria</label>
+                </value>
+                <value>
+                    <fullName>Cameroon</fullName>
+                    <default>false</default>
+                    <label>Cameroon</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+                <value>
+                    <fullName>Central African Republic</fullName>
+                    <default>false</default>
+                    <label>Central African Republic</label>
+                </value>
+                <value>
+                    <fullName>Chad</fullName>
+                    <default>false</default>
+                    <label>Chad</label>
+                </value>
+                <value>
+                    <fullName>Chile</fullName>
+                    <default>false</default>
+                    <label>Chile</label>
+                </value>
+                <value>
+                    <fullName>China</fullName>
+                    <default>false</default>
+                    <label>China</label>
+                </value>
+                <value>
+                    <fullName>Colombia</fullName>
+                    <default>false</default>
+                    <label>Colombia</label>
+                </value>
+                <value>
+                    <fullName>Congo</fullName>
+                    <default>false</default>
+                    <label>Congo</label>
+                </value>
+                <value>
+                    <fullName>Costa Rica</fullName>
+                    <default>false</default>
+                    <label>Costa Rica</label>
+                </value>
+                <value>
+                    <fullName>Cote D&apos;Ivoire</fullName>
+                    <default>false</default>
+                    <label>Cote D&apos;Ivoire</label>
+                </value>
+                <value>
+                    <fullName>Croatia</fullName>
+                    <default>false</default>
+                    <label>Croatia</label>
+                </value>
+                <value>
+                    <fullName>Cuba</fullName>
+                    <default>false</default>
+                    <label>Cuba</label>
+                </value>
+                <value>
+                    <fullName>Cyprus</fullName>
+                    <default>false</default>
+                    <label>Cyprus</label>
+                </value>
+                <value>
+                    <fullName>Czech Republic</fullName>
+                    <default>false</default>
+                    <label>Czech Republic</label>
+                </value>
+                <value>
+                    <fullName>Denmark</fullName>
+                    <default>false</default>
+                    <label>Denmark</label>
+                </value>
+                <value>
+                    <fullName>Djibouti</fullName>
+                    <default>false</default>
+                    <label>Djibouti</label>
+                </value>
+                <value>
+                    <fullName>Dominican Rep.</fullName>
+                    <default>false</default>
+                    <label>Dominican Rep.</label>
+                </value>
+                <value>
+                    <fullName>Ecuador</fullName>
+                    <default>false</default>
+                    <label>Ecuador</label>
+                </value>
+                <value>
+                    <fullName>Egypt</fullName>
+                    <default>false</default>
+                    <label>Egypt</label>
+                </value>
+                <value>
+                    <fullName>Equatorial Guinea</fullName>
+                    <default>false</default>
+                    <label>Equatorial Guinea</label>
+                </value>
+                <value>
+                    <fullName>Estonia</fullName>
+                    <default>false</default>
+                    <label>Estonia</label>
+                </value>
+                <value>
+                    <fullName>Ethiopia</fullName>
+                    <default>false</default>
+                    <label>Ethiopia</label>
+                </value>
+                <value>
+                    <fullName>Fiji</fullName>
+                    <default>false</default>
+                    <label>Fiji</label>
+                </value>
+                <value>
+                    <fullName>Finland</fullName>
+                    <default>false</default>
+                    <label>Finland</label>
+                </value>
+                <value>
+                    <fullName>French Guiana</fullName>
+                    <default>false</default>
+                    <label>French Guiana</label>
+                </value>
+                <value>
+                    <fullName>French Polynesia</fullName>
+                    <default>false</default>
+                    <label>French Polynesia</label>
+                </value>
+                <value>
+                    <fullName>Gabon</fullName>
+                    <default>false</default>
+                    <label>Gabon</label>
+                </value>
+                <value>
+                    <fullName>Gambia</fullName>
+                    <default>false</default>
+                    <label>Gambia</label>
+                </value>
+                <value>
+                    <fullName>Georgia</fullName>
+                    <default>false</default>
+                    <label>Georgia</label>
+                </value>
+                <value>
+                    <fullName>Ghana</fullName>
+                    <default>false</default>
+                    <label>Ghana</label>
+                </value>
+                <value>
+                    <fullName>Gibraltar</fullName>
+                    <default>false</default>
+                    <label>Gibraltar</label>
+                </value>
+                <value>
+                    <fullName>Greece</fullName>
+                    <default>false</default>
+                    <label>Greece</label>
+                </value>
+                <value>
+                    <fullName>Guadeloupe</fullName>
+                    <default>false</default>
+                    <label>Guadeloupe</label>
+                </value>
+                <value>
+                    <fullName>Guatemala</fullName>
+                    <default>false</default>
+                    <label>Guatemala</label>
+                </value>
+                <value>
+                    <fullName>Guernsey</fullName>
+                    <default>false</default>
+                    <label>Guernsey</label>
+                </value>
+                <value>
+                    <fullName>Guinea-Bissau</fullName>
+                    <default>false</default>
+                    <label>Guinea-Bissau</label>
+                </value>
+                <value>
+                    <fullName>Guyana</fullName>
+                    <default>false</default>
+                    <label>Guyana</label>
+                </value>
+                <value>
+                    <fullName>Honduras</fullName>
+                    <default>false</default>
+                    <label>Honduras</label>
+                </value>
+                <value>
+                    <fullName>Hong Kong</fullName>
+                    <default>false</default>
+                    <label>Hong Kong</label>
+                </value>
+                <value>
+                    <fullName>Hungary</fullName>
+                    <default>false</default>
+                    <label>Hungary</label>
+                </value>
+                <value>
+                    <fullName>Iceland</fullName>
+                    <default>false</default>
+                    <label>Iceland</label>
+                </value>
+                <value>
+                    <fullName>Indonesia</fullName>
+                    <default>false</default>
+                    <label>Indonesia</label>
+                </value>
+                <value>
+                    <fullName>Iran</fullName>
+                    <default>false</default>
+                    <label>Iran</label>
+                </value>
+                <value>
+                    <fullName>Iraq</fullName>
+                    <default>false</default>
+                    <label>Iraq</label>
+                </value>
+                <value>
+                    <fullName>Ireland</fullName>
+                    <default>false</default>
+                    <label>Ireland</label>
+                </value>
+                <value>
+                    <fullName>Israel</fullName>
+                    <default>false</default>
+                    <label>Israel</label>
+                </value>
+                <value>
+                    <fullName>Jamaica</fullName>
+                    <default>false</default>
+                    <label>Jamaica</label>
+                </value>
+                <value>
+                    <fullName>Japan</fullName>
+                    <default>false</default>
+                    <label>Japan</label>
+                </value>
+                <value>
+                    <fullName>Jordan</fullName>
+                    <default>false</default>
+                    <label>Jordan</label>
+                </value>
+                <value>
+                    <fullName>Kazakhstan</fullName>
+                    <default>false</default>
+                    <label>Kazakhstan</label>
+                </value>
+                <value>
+                    <fullName>Kenya</fullName>
+                    <default>false</default>
+                    <label>Kenya</label>
+                </value>
+                <value>
+                    <fullName>Korea</fullName>
+                    <default>false</default>
+                    <label>Korea</label>
+                </value>
+                <value>
+                    <fullName>Kuwait</fullName>
+                    <default>false</default>
+                    <label>Kuwait</label>
+                </value>
+                <value>
+                    <fullName>Latvia</fullName>
+                    <default>false</default>
+                    <label>Latvia</label>
+                </value>
+                <value>
+                    <fullName>Lebanon</fullName>
+                    <default>false</default>
+                    <label>Lebanon</label>
+                </value>
+                <value>
+                    <fullName>Liberia</fullName>
+                    <default>false</default>
+                    <label>Liberia</label>
+                </value>
+                <value>
+                    <fullName>Libya</fullName>
+                    <default>false</default>
+                    <label>Libya</label>
+                </value>
+                <value>
+                    <fullName>Lithuania</fullName>
+                    <default>false</default>
+                    <label>Lithuania</label>
+                </value>
+                <value>
+                    <fullName>Luxembourg</fullName>
+                    <default>false</default>
+                    <label>Luxembourg</label>
+                </value>
+                <value>
+                    <fullName>Macedonia</fullName>
+                    <default>false</default>
+                    <label>Macedonia</label>
+                </value>
+                <value>
+                    <fullName>Madagascar</fullName>
+                    <default>false</default>
+                    <label>Madagascar</label>
+                </value>
+                <value>
+                    <fullName>Malaysia</fullName>
+                    <default>false</default>
+                    <label>Malaysia</label>
+                </value>
+                <value>
+                    <fullName>Mali</fullName>
+                    <default>false</default>
+                    <label>Mali</label>
+                </value>
+                <value>
+                    <fullName>Malta</fullName>
+                    <default>false</default>
+                    <label>Malta</label>
+                </value>
+                <value>
+                    <fullName>Martinique</fullName>
+                    <default>false</default>
+                    <label>Martinique</label>
+                </value>
+                <value>
+                    <fullName>Mauritania</fullName>
+                    <default>false</default>
+                    <label>Mauritania</label>
+                </value>
+                <value>
+                    <fullName>Mexico</fullName>
+                    <default>false</default>
+                    <label>Mexico</label>
+                </value>
+                <value>
+                    <fullName>Moldova</fullName>
+                    <default>false</default>
+                    <label>Moldova</label>
+                </value>
+                <value>
+                    <fullName>Monaco</fullName>
+                    <default>false</default>
+                    <label>Monaco</label>
+                </value>
+                <value>
+                    <fullName>Morocco</fullName>
+                    <default>false</default>
+                    <label>Morocco</label>
+                </value>
+                <value>
+                    <fullName>Mozambique</fullName>
+                    <default>false</default>
+                    <label>Mozambique</label>
+                </value>
+                <value>
+                    <fullName>Namibia</fullName>
+                    <default>false</default>
+                    <label>Namibia</label>
+                </value>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>New Caledonia</fullName>
+                    <default>false</default>
+                    <label>New Caledonia</label>
+                </value>
+                <value>
+                    <fullName>New Zealand</fullName>
+                    <default>false</default>
+                    <label>New Zealand</label>
+                </value>
+                <value>
+                    <fullName>Niger</fullName>
+                    <default>false</default>
+                    <label>Niger</label>
+                </value>
+                <value>
+                    <fullName>Nigeria</fullName>
+                    <default>false</default>
+                    <label>Nigeria</label>
+                </value>
+                <value>
+                    <fullName>Norway</fullName>
+                    <default>false</default>
+                    <label>Norway</label>
+                </value>
+                <value>
+                    <fullName>Oman</fullName>
+                    <default>false</default>
+                    <label>Oman</label>
+                </value>
+                <value>
+                    <fullName>Pakistan</fullName>
+                    <default>false</default>
+                    <label>Pakistan</label>
+                </value>
+                <value>
+                    <fullName>Panama</fullName>
+                    <default>false</default>
+                    <label>Panama</label>
+                </value>
+                <value>
+                    <fullName>Papua New Guinea</fullName>
+                    <default>false</default>
+                    <label>Papua New Guinea</label>
+                </value>
+                <value>
+                    <fullName>Paraguay</fullName>
+                    <default>false</default>
+                    <label>Paraguay</label>
+                </value>
+                <value>
+                    <fullName>Peru</fullName>
+                    <default>false</default>
+                    <label>Peru</label>
+                </value>
+                <value>
+                    <fullName>Philippines</fullName>
+                    <default>false</default>
+                    <label>Philippines</label>
+                </value>
+                <value>
+                    <fullName>Poland</fullName>
+                    <default>false</default>
+                    <label>Poland</label>
+                </value>
+                <value>
+                    <fullName>Portugal</fullName>
+                    <default>false</default>
+                    <label>Portugal</label>
+                </value>
+                <value>
+                    <fullName>Qatar</fullName>
+                    <default>false</default>
+                    <label>Qatar</label>
+                </value>
+                <value>
+                    <fullName>Reunion</fullName>
+                    <default>false</default>
+                    <label>Reunion</label>
+                </value>
+                <value>
+                    <fullName>Romania</fullName>
+                    <default>false</default>
+                    <label>Romania</label>
+                </value>
+                <value>
+                    <fullName>Russian Federation</fullName>
+                    <default>false</default>
+                    <label>Russian Federation</label>
+                </value>
+                <value>
+                    <fullName>Saudi Arabia</fullName>
+                    <default>false</default>
+                    <label>Saudi Arabia</label>
+                </value>
+                <value>
+                    <fullName>Senegal</fullName>
+                    <default>false</default>
+                    <label>Senegal</label>
+                </value>
+                <value>
+                    <fullName>Serbia</fullName>
+                    <default>false</default>
+                    <label>Serbia</label>
+                </value>
+                <value>
+                    <fullName>Serbia and Montenegro</fullName>
+                    <default>false</default>
+                    <label>Serbia and Montenegro</label>
+                </value>
+                <value>
+                    <fullName>Sierra Leone</fullName>
+                    <default>false</default>
+                    <label>Sierra Leone</label>
+                </value>
+                <value>
+                    <fullName>Singapore</fullName>
+                    <default>false</default>
+                    <label>Singapore</label>
+                </value>
+                <value>
+                    <fullName>Slovakia</fullName>
+                    <default>false</default>
+                    <label>Slovakia</label>
+                </value>
+                <value>
+                    <fullName>Slovenia</fullName>
+                    <default>false</default>
+                    <label>Slovenia</label>
+                </value>
+                <value>
+                    <fullName>South Africa</fullName>
+                    <default>false</default>
+                    <label>South Africa</label>
+                </value>
+                <value>
+                    <fullName>South Korea</fullName>
+                    <default>false</default>
+                    <label>South Korea</label>
+                </value>
+                <value>
+                    <fullName>Spain</fullName>
+                    <default>false</default>
+                    <label>Spain</label>
+                </value>
+                <value>
+                    <fullName>Sri Lanka</fullName>
+                    <default>false</default>
+                    <label>Sri Lanka</label>
+                </value>
+                <value>
+                    <fullName>Sudan</fullName>
+                    <default>false</default>
+                    <label>Sudan</label>
+                </value>
+                <value>
+                    <fullName>Sweden</fullName>
+                    <default>false</default>
+                    <label>Sweden</label>
+                </value>
+                <value>
+                    <fullName>Switzerland</fullName>
+                    <default>false</default>
+                    <label>Switzerland</label>
+                </value>
+                <value>
+                    <fullName>Syria</fullName>
+                    <default>false</default>
+                    <label>Syria</label>
+                </value>
+                <value>
+                    <fullName>Taiwan</fullName>
+                    <default>false</default>
+                    <label>Taiwan</label>
+                </value>
+                <value>
+                    <fullName>Tajikistan</fullName>
+                    <default>false</default>
+                    <label>Tajikistan</label>
+                </value>
+                <value>
+                    <fullName>Tanzania</fullName>
+                    <default>false</default>
+                    <label>Tanzania</label>
+                </value>
+                <value>
+                    <fullName>Thailand</fullName>
+                    <default>false</default>
+                    <label>Thailand</label>
+                </value>
+                <value>
+                    <fullName>Togo</fullName>
+                    <default>false</default>
+                    <label>Togo</label>
+                </value>
+                <value>
+                    <fullName>Tunisia</fullName>
+                    <default>false</default>
+                    <label>Tunisia</label>
+                </value>
+                <value>
+                    <fullName>Turkey</fullName>
+                    <default>false</default>
+                    <label>Turkey</label>
+                </value>
+                <value>
+                    <fullName>Ukraine</fullName>
+                    <default>false</default>
+                    <label>Ukraine</label>
+                </value>
+                <value>
+                    <fullName>United Arab Emirates</fullName>
+                    <default>false</default>
+                    <label>United Arab Emirates</label>
+                </value>
+                <value>
+                    <fullName>United Kingdom</fullName>
+                    <default>false</default>
+                    <label>United Kingdom</label>
+                </value>
+                <value>
+                    <fullName>Uruguay</fullName>
+                    <default>false</default>
+                    <label>Uruguay</label>
+                </value>
+                <value>
+                    <fullName>USA</fullName>
+                    <default>false</default>
+                    <label>USA</label>
+                </value>
+                <value>
+                    <fullName>Uzbekistan</fullName>
+                    <default>false</default>
+                    <label>Uzbekistan</label>
+                </value>
+                <value>
+                    <fullName>Venezuela</fullName>
+                    <default>false</default>
+                    <label>Venezuela</label>
+                </value>
+                <value>
+                    <fullName>Viet Nam</fullName>
+                    <default>false</default>
+                    <label>Viet Nam</label>
+                </value>
+                <value>
+                    <fullName>Yemen</fullName>
+                    <default>false</default>
+                    <label>Yemen</label>
+                </value>
+                <value>
+                    <fullName>Yugoslavia</fullName>
+                    <default>false</default>
+                    <label>Yugoslavia</label>
+                </value>
+                <value>
+                    <fullName>Zambia</fullName>
+                    <default>false</default>
+                    <label>Zambia</label>
+                </value>
+                <value>
+                    <fullName>Zimbabwe</fullName>
+                    <default>false</default>
+                    <label>Zimbabwe</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CIS_VATNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>VAT Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CIS Correspondents Team</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CIS_AddressToSend__c</columns>
+        <columns>CIS_FieldsOfActivity__c</columns>
+        <columns>CIS_ScopeOfCountries__c</columns>
+        <columns>CIS_PublicGroupTechnicalName__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Algeria_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Algeria AUT</label>
+        <queue>CIS_Algeria_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Algeria_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Algeria ED</label>
+        <queue>CIS_Algeria_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Algeria_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Algeria ELAU</label>
+        <queue>CIS_Algeria_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Algeria_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Algeria MARINE</label>
+        <queue>CIS_Algeria_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Argentina_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Argentina AUT</label>
+        <queue>CIS_Argentina_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Argentina_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Argentina ED</label>
+        <queue>CIS_Argentina_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Argentina_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Argentina ELAU</label>
+        <queue>CIS_Argentina_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Argentina_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Argentina MARINE</label>
+        <queue>CIS_Argentina_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Australia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Australia AUT</label>
+        <queue>CIS_Australia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Australia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Australia ED</label>
+        <queue>CIS_Australia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Australia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Australia ELAU</label>
+        <queue>CIS_Australia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Australia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Australia MARINE</label>
+        <queue>CIS_Australia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Austria_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Austria AUT</label>
+        <queue>CIS_Austria_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Austria_DRIVES_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Austria DRIVES</label>
+        <queue>CIS_Austria_DRIVES</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Austria_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Austria ED</label>
+        <queue>CIS_Austria_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Austria_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Austria ELAU</label>
+        <queue>CIS_Austria_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Austria_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Austria MARINE</label>
+        <queue>CIS_Austria_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Belgium_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Belgium AUT</label>
+        <queue>CIS_Belgium_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Belgium_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Belgium ED</label>
+        <queue>CIS_Belgium_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Belgium_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Belgium ELAU</label>
+        <queue>CIS_Belgium_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Belgium_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Belgium MARINE</label>
+        <queue>CIS_Belgium_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Brazil_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Brazil AUT</label>
+        <queue>CIS_Brazil_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Brazil_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Brazil ED</label>
+        <queue>CIS_Brazil_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Brazil_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Brazil ELAU</label>
+        <queue>CIS_Brazil_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Brazil_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Brazil MARINE</label>
+        <queue>CIS_Brazil_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Bulgaria_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Bulgaria AUT</label>
+        <queue>CIS_Bulgaria_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Bulgaria_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Bulgaria ED</label>
+        <queue>CIS_Bulgaria_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Bulgaria_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Bulgaria ELAU</label>
+        <queue>CIS_Bulgaria_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Bulgaria_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Bulgaria MARINE</label>
+        <queue>CIS_Bulgaria_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Cameroon_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Cameroon AUT</label>
+        <queue>CIS_Cameroon_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Cameroon_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Cameroon ED</label>
+        <queue>CIS_Cameroon_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Cameroon_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Cameroon ELAU</label>
+        <queue>CIS_Cameroon_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Cameroon_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Cameroon MARINE</label>
+        <queue>CIS_Cameroon_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Canada_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Canada AUT</label>
+        <queue>CIS_Canada_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Canada_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Canada ED</label>
+        <queue>CIS_Canada_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Canada_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Canada ELAU</label>
+        <queue>CIS_Canada_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Canada_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Canada MARINE</label>
+        <queue>CIS_Canada_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Chile_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Chile AUT</label>
+        <queue>CIS_Chile_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Chile_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Chile ED</label>
+        <queue>CIS_Chile_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Chile_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Chile ELAU</label>
+        <queue>CIS_Chile_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Chile_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Chile MARINE</label>
+        <queue>CIS_Chile_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_China_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS China AUT</label>
+        <queue>CIS_China_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_China_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS China ED</label>
+        <queue>CIS_China_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_China_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS China ELAU</label>
+        <queue>CIS_China_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_China_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS China MARINE</label>
+        <queue>CIS_China_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Colombia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Colombia AUT</label>
+        <queue>CIS_Colombia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Colombia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Colombia ED</label>
+        <queue>CIS_Colombia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Colombia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Colombia ELAU</label>
+        <queue>CIS_Colombia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Colombia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Colombia MARINE</label>
+        <queue>CIS_Colombia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Costa_Rica_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Costa Rica AUT</label>
+        <queue>CIS_Costa_Rica_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Costa_Rica_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Costa Rica ED</label>
+        <queue>CIS_Costa_Rica_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Costa_Rica_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Costa Rica ELAU</label>
+        <queue>CIS_Costa_Rica_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Costa_Rica_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Costa Rica MARINE</label>
+        <queue>CIS_Costa_Rica_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Croatia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Croatia AUT</label>
+        <queue>CIS_Croatia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Croatia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Croatia ED</label>
+        <queue>CIS_Croatia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Croatia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Croatia ELAU</label>
+        <queue>CIS_Croatia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Croatia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Croatia MARINE</label>
+        <queue>CIS_Croatia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Curacao_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Curacao AUT</label>
+        <queue>CIS_Curacao_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Curacao_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Curacao ED</label>
+        <queue>CIS_Curacao_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Curacao_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Curacao ELAU</label>
+        <queue>CIS_Curacao_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Curacao_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Curacao MARINE</label>
+        <queue>CIS_Curacao_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Czech_Republic_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Czech Republic AUT</label>
+        <queue>CIS_Czech_Republic_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Czech_Republic_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Czech Republic ED</label>
+        <queue>CIS_Czech_Republic_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Czech_Republic_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Czech Republic ELAU</label>
+        <queue>CIS_Czech_Republic_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Czech_Republic_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Czech Republic MARINE</label>
+        <queue>CIS_Czech_Republic_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Denmark_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Denmark AUT</label>
+        <queue>CIS_Denmark_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Denmark_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Denmark ED</label>
+        <queue>CIS_Denmark_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Denmark_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Denmark ELAU</label>
+        <queue>CIS_Denmark_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Denmark_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Denmark MARINE</label>
+        <queue>CIS_Denmark_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ecuador_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ecuador AUT</label>
+        <queue>CIS_Ecuador_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ecuador_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ecuador ED</label>
+        <queue>CIS_Ecuador_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ecuador_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ecuador ELAU</label>
+        <queue>CIS_Ecuador_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ecuador_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ecuador MARINE</label>
+        <queue>CIS_Ecuador_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Egypt_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Egypt AUT</label>
+        <queue>CIS_Egypt_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Egypt_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Egypt ED</label>
+        <queue>CIS_Egypt_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Egypt_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Egypt ELAU</label>
+        <queue>CIS_Egypt_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Egypt_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Egypt MARINE</label>
+        <queue>CIS_Egypt_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Estonia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Estonia AUT</label>
+        <queue>CIS_Estonia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Estonia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Estonia ED</label>
+        <queue>CIS_Estonia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Estonia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Estonia ELAU</label>
+        <queue>CIS_Estonia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Estonia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Estonia MARINE</label>
+        <queue>CIS_Estonia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Finland_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Finland AUT</label>
+        <queue>CIS_Finland_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Finland_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Finland ED</label>
+        <queue>CIS_Finland_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Finland_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Finland ELAU</label>
+        <queue>CIS_Finland_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Finland_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Finland MARINE</label>
+        <queue>CIS_Finland_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_France_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS France AUT</label>
+        <queue>CIS_France_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_France_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS France ED</label>
+        <queue>CIS_France_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_France_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS France ELAU</label>
+        <queue>CIS_France_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_France_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS France MARINE</label>
+        <queue>CIS_France_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_France_SMIL_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS France SMIL</label>
+        <queue>CIS_France_SMIL</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Germany_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Germany AUT</label>
+        <queue>CIS_Germany_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Germany_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Germany ED</label>
+        <queue>CIS_Germany_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Germany_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Germany ELAU</label>
+        <queue>CIS_Germany_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Germany_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Germany MARINE</label>
+        <queue>CIS_Germany_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Greece_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Greece AUT</label>
+        <queue>CIS_Greece_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Greece_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Greece ED</label>
+        <queue>CIS_Greece_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Greece_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Greece ELAU</label>
+        <queue>CIS_Greece_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Greece_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Greece MARINE</label>
+        <queue>CIS_Greece_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Grenada_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Grenada AUT</label>
+        <queue>CIS_Grenada_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Grenada_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Grenada ED</label>
+        <queue>CIS_Grenada_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Grenada_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Grenada ELAU</label>
+        <queue>CIS_Grenada_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Grenada_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Grenada MARINE</label>
+        <queue>CIS_Grenada_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Haiti_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Haiti AUT</label>
+        <queue>CIS_Haiti_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Haiti_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Haiti ED</label>
+        <queue>CIS_Haiti_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Haiti_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Haiti ELAU</label>
+        <queue>CIS_Haiti_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Haiti_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Haiti MARINE</label>
+        <queue>CIS_Haiti_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Hong_Kong_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Hong Kong AUT</label>
+        <queue>CIS_Hong_Kong_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Hong_Kong_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Hong Kong ED</label>
+        <queue>CIS_Hong_Kong_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Hong_Kong_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Hong Kong ELAU</label>
+        <queue>CIS_Hong_Kong_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Hong_Kong_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Hong Kong MARINE</label>
+        <queue>CIS_Hong_Kong_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Hungary_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Hungary AUT</label>
+        <queue>CIS_Hungary_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Hungary_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Hungary ED</label>
+        <queue>CIS_Hungary_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Hungary_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Hungary ELAU</label>
+        <queue>CIS_Hungary_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Hungary_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Hungary MARINE</label>
+        <queue>CIS_Hungary_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_India_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS India AUT</label>
+        <queue>CIS_India_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_India_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS India ED</label>
+        <queue>CIS_India_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_India_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS India ELAU</label>
+        <queue>CIS_India_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_India_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS India MARINE</label>
+        <queue>CIS_India_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Indonesia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Indonesia AUT</label>
+        <queue>CIS_Indonesia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Indonesia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Indonesia ED</label>
+        <queue>CIS_Indonesia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Indonesia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Indonesia ELAU</label>
+        <queue>CIS_Indonesia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Indonesia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Indonesia MARINE</label>
+        <queue>CIS_Indonesia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Iran_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Iran AUT</label>
+        <queue>CIS_Iran_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Iran_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Iran ED</label>
+        <queue>CIS_Iran_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Iran_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Iran ELAU</label>
+        <queue>CIS_Iran_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Iran_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Iran MARINE</label>
+        <queue>CIS_Iran_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ireland_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ireland AUT</label>
+        <queue>CIS_Ireland_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ireland_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ireland ED</label>
+        <queue>CIS_Ireland_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ireland_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ireland ELAU</label>
+        <queue>CIS_Ireland_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ireland_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ireland MARINE</label>
+        <queue>CIS_Ireland_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Israel_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Israel AUT</label>
+        <queue>CIS_Israel_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Israel_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Israel ED</label>
+        <queue>CIS_Israel_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Israel_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Israel ELAU</label>
+        <queue>CIS_Israel_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Israel_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Israel MARINE</label>
+        <queue>CIS_Israel_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Italy_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Italy AUT</label>
+        <queue>CIS_Italy_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Italy_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Italy ED</label>
+        <queue>CIS_Italy_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Italy_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Italy ELAU</label>
+        <queue>CIS_Italy_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Italy_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Italy MARINE</label>
+        <queue>CIS_Italy_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ivory_Coast_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ivory Coast AUT</label>
+        <queue>CIS_Ivory_Coast_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ivory_Coast_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ivory Coast ED</label>
+        <queue>CIS_Ivory_Coast_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ivory_Coast_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ivory Coast ELAU</label>
+        <queue>CIS_Ivory_Coast_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ivory_Coast_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ivory Coast MARINE</label>
+        <queue>CIS_Ivory_Coast_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Japan_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Japan AUT</label>
+        <queue>CIS_Japan_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Japan_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Japan ED</label>
+        <queue>CIS_Japan_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Japan_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Japan ELAU</label>
+        <queue>CIS_Japan_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Japan_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Japan MARINE</label>
+        <queue>CIS_Japan_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Kazakhstan_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Kazakhstan AUT</label>
+        <queue>CIS_Kazakhstan_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Kazakhstan_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Kazakhstan ED</label>
+        <queue>CIS_Kazakhstan_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Kazakhstan_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Kazakhstan ELAU</label>
+        <queue>CIS_Kazakhstan_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Kazakhstan_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Kazakhstan MARINE</label>
+        <queue>CIS_Kazakhstan_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Kenya_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Kenya AUT</label>
+        <queue>CIS_Kenya_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Kenya_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Kenya ED</label>
+        <queue>CIS_Kenya_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Kenya_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Kenya ELAU</label>
+        <queue>CIS_Kenya_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Kenya_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Kenya MARINE</label>
+        <queue>CIS_Kenya_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Korea_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Korea AUT</label>
+        <queue>CIS_Korea_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Korea_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Korea ED</label>
+        <queue>CIS_Korea_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Korea_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Korea ELAU</label>
+        <queue>CIS_Korea_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Korea_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Korea MARINE</label>
+        <queue>CIS_Korea_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Latvia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Latvia AUT</label>
+        <queue>CIS_Latvia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Latvia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Latvia ED</label>
+        <queue>CIS_Latvia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Latvia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Latvia ELAU</label>
+        <queue>CIS_Latvia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Latvia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Latvia MARINE</label>
+        <queue>CIS_Latvia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Lebanon_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Lebanon AUT</label>
+        <queue>CIS_Lebanon_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Lebanon_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Lebanon ED</label>
+        <queue>CIS_Lebanon_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Lebanon_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Lebanon ELAU</label>
+        <queue>CIS_Lebanon_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Lebanon_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Lebanon MARINE</label>
+        <queue>CIS_Lebanon_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Libya_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Libya AUT</label>
+        <queue>CIS_Libya_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Libya_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Libya ED</label>
+        <queue>CIS_Libya_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Libya_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Libya ELAU</label>
+        <queue>CIS_Libya_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Libya_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Libya MARINE</label>
+        <queue>CIS_Libya_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Lithuania_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Lithuania AUT</label>
+        <queue>CIS_Lithuania_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Lithuania_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Lithuania ED</label>
+        <queue>CIS_Lithuania_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Lithuania_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Lithuania ELAU</label>
+        <queue>CIS_Lithuania_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Lithuania_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Lithuania MARINE</label>
+        <queue>CIS_Lithuania_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Malaysia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Malaysia AUT</label>
+        <queue>CIS_Malaysia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Malaysia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Malaysia ED</label>
+        <queue>CIS_Malaysia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Malaysia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Malaysia ELAU</label>
+        <queue>CIS_Malaysia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Malaysia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Malaysia MARINE</label>
+        <queue>CIS_Malaysia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Mexico_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Mexico AUT</label>
+        <queue>CIS_Mexico_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Mexico_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Mexico ED</label>
+        <queue>CIS_Mexico_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Mexico_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Mexico ELAU</label>
+        <queue>CIS_Mexico_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Mexico_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Mexico MARINE</label>
+        <queue>CIS_Mexico_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Morocco_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Morocco AUT</label>
+        <queue>CIS_Morocco_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Morocco_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Morocco ED</label>
+        <queue>CIS_Morocco_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Morocco_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Morocco ELAU</label>
+        <queue>CIS_Morocco_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Morocco_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Morocco MARINE</label>
+        <queue>CIS_Morocco_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Netherlands_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Netherlands AUT</label>
+        <queue>CIS_Netherlands_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Netherlands_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Netherlands ED</label>
+        <queue>CIS_Netherlands_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Netherlands_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Netherlands ELAU</label>
+        <queue>CIS_Netherlands_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Netherlands_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Netherlands MARINE</label>
+        <queue>CIS_Netherlands_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_New_Zealand_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS New Zealand AUT</label>
+        <queue>CIS_New_Zealand_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_New_Zealand_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS New Zealand ED</label>
+        <queue>CIS_New_Zealand_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_New_Zealand_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS New Zealand ELAU</label>
+        <queue>CIS_New_Zealand_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_New_Zealand_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS New Zealand MARINE</label>
+        <queue>CIS_New_Zealand_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Nigeria_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Nigeria AUT</label>
+        <queue>CIS_Nigeria_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Nigeria_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Nigeria ED</label>
+        <queue>CIS_Nigeria_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Nigeria_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Nigeria ELAU</label>
+        <queue>CIS_Nigeria_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Nigeria_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Nigeria MARINE</label>
+        <queue>CIS_Nigeria_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Norway_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Norway AUT</label>
+        <queue>CIS_Norway_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Norway_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Norway ED</label>
+        <queue>CIS_Norway_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Norway_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Norway ELAU</label>
+        <queue>CIS_Norway_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Norway_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Norway MARINE</label>
+        <queue>CIS_Norway_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Pakistan_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Pakistan AUT</label>
+        <queue>CIS_Pakistan_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Pakistan_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Pakistan ED</label>
+        <queue>CIS_Pakistan_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Pakistan_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Pakistan ELAU</label>
+        <queue>CIS_Pakistan_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Pakistan_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Pakistan MARINE</label>
+        <queue>CIS_Pakistan_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Peru_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Peru AUT</label>
+        <queue>CIS_Peru_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Peru_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Peru ED</label>
+        <queue>CIS_Peru_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Peru_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Peru ELAU</label>
+        <queue>CIS_Peru_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Peru_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Peru MARINE</label>
+        <queue>CIS_Peru_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Philippines_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Philippines AUT</label>
+        <queue>CIS_Philippines_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Philippines_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Philippines ED</label>
+        <queue>CIS_Philippines_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Philippines_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Philippines ELAU</label>
+        <queue>CIS_Philippines_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Philippines_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Philippines MARINE</label>
+        <queue>CIS_Philippines_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Poland_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Poland AUT</label>
+        <queue>CIS_Poland_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Poland_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Poland ED</label>
+        <queue>CIS_Poland_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Poland_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Poland ELAU</label>
+        <queue>CIS_Poland_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Poland_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Poland MARINE</label>
+        <queue>CIS_Poland_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Portugal_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Portugal AUT</label>
+        <queue>CIS_Portugal_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Portugal_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Portugal ED</label>
+        <queue>CIS_Portugal_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Portugal_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Portugal ELAU</label>
+        <queue>CIS_Portugal_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Portugal_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Portugal MARINE</label>
+        <queue>CIS_Portugal_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Romania_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Romania AUT</label>
+        <queue>CIS_Romania_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Romania_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Romania ED</label>
+        <queue>CIS_Romania_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Romania_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Romania ELAU</label>
+        <queue>CIS_Romania_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Romania_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Romania MARINE</label>
+        <queue>CIS_Romania_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Russia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Russia AUT</label>
+        <queue>CIS_Russia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Russia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Russia ED</label>
+        <queue>CIS_Russia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Russia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Russia ELAU</label>
+        <queue>CIS_Russia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Russia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Russia MARINE</label>
+        <queue>CIS_Russia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Saudi_Arabia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Saudi Arabia AUT</label>
+        <queue>CIS_Saudi_Arabia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Saudi_Arabia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Saudi Arabia ED</label>
+        <queue>CIS_Saudi_Arabia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Saudi_Arabia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Saudi Arabia ELAU</label>
+        <queue>CIS_Saudi_Arabia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Saudi_Arabia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Saudi Arabia MARINE</label>
+        <queue>CIS_Saudi_Arabia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Senegal_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Senegal AUT</label>
+        <queue>CIS_Senegal_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Senegal_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Senegal ED</label>
+        <queue>CIS_Senegal_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Senegal_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Senegal ELAU</label>
+        <queue>CIS_Senegal_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Senegal_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Senegal MARINE</label>
+        <queue>CIS_Senegal_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Serbia_Montenegro_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Serbia &amp; Montenegro AUT</label>
+        <queue>CIS_Serbia_Montenegro_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Serbia_Montenegro_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Serbia &amp; Montenegro ED</label>
+        <queue>CIS_Serbia_Montenegro_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Serbia_Montenegro_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Serbia &amp; Montenegro ELAU</label>
+        <queue>CIS_Serbia_Montenegro_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Serbia_Montenegro_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Serbia &amp; Montenegro MARINE</label>
+        <queue>CIS_Serbia_Montenegro_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Singapore_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Singapore AUT</label>
+        <queue>CIS_Singapore_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Singapore_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Singapore ED</label>
+        <queue>CIS_Singapore_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Singapore_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Singapore ELAU</label>
+        <queue>CIS_Singapore_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Singapore_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Singapore MARINE</label>
+        <queue>CIS_Singapore_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Slovakia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Slovakia AUT</label>
+        <queue>CIS_Slovakia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Slovakia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Slovakia ED</label>
+        <queue>CIS_Slovakia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Slovakia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Slovakia ELAU</label>
+        <queue>CIS_Slovakia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Slovakia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Slovakia MARINE</label>
+        <queue>CIS_Slovakia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Slovenia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Slovenia AUT</label>
+        <queue>CIS_Slovenia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Slovenia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Slovenia ED</label>
+        <queue>CIS_Slovenia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Slovenia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Slovenia ELAU</label>
+        <queue>CIS_Slovenia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Slovenia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Slovenia MARINE</label>
+        <queue>CIS_Slovenia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_South_Africa_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS South Africa AUT</label>
+        <queue>CIS_South_Africa_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_South_Africa_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS South Africa ED</label>
+        <queue>CIS_South_Africa_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_South_Africa_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS South Africa ELAU</label>
+        <queue>CIS_South_Africa_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_South_Africa_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS South Africa MARINE</label>
+        <queue>CIS_South_Africa_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Spain_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Spain AUT</label>
+        <queue>CIS_Spain_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Spain_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Spain ED</label>
+        <queue>CIS_Spain_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Spain_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Spain ELAU</label>
+        <queue>CIS_Spain_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Spain_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Spain MARINE</label>
+        <queue>CIS_Spain_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Sri_Lanka_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Sri Lanka AUT</label>
+        <queue>CIS_Sri_Lanka_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Sri_Lanka_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Sri Lanka ED</label>
+        <queue>CIS_Sri_Lanka_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Sri_Lanka_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Sri Lanka ELAU</label>
+        <queue>CIS_Sri_Lanka_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Sri_Lanka_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Sri Lanka MARINE</label>
+        <queue>CIS_Sri_Lanka_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Sweden_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Sweden AUT</label>
+        <queue>CIS_Sweden_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Sweden_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Sweden ED</label>
+        <queue>CIS_Sweden_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Sweden_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Sweden ELAU</label>
+        <queue>CIS_Sweden_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Sweden_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Sweden MARINE</label>
+        <queue>CIS_Sweden_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Switzerland_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Switzerland AUT</label>
+        <queue>CIS_Switzerland_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Switzerland_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Switzerland ED</label>
+        <queue>CIS_Switzerland_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Switzerland_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Switzerland ELAU</label>
+        <queue>CIS_Switzerland_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Switzerland_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Switzerland MARINE</label>
+        <queue>CIS_Switzerland_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Taiwan_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Taiwan AUT</label>
+        <queue>CIS_Taiwan_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Taiwan_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Taiwan ED</label>
+        <queue>CIS_Taiwan_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Taiwan_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Taiwan ELAU</label>
+        <queue>CIS_Taiwan_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Taiwan_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Taiwan MARINE</label>
+        <queue>CIS_Taiwan_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Thailand_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Thailand AUT</label>
+        <queue>CIS_Thailand_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Thailand_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Thailand ED</label>
+        <queue>CIS_Thailand_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Thailand_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Thailand ELAU</label>
+        <queue>CIS_Thailand_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Thailand_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Thailand MARINE</label>
+        <queue>CIS_Thailand_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Tunisia_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Tunisia AUT</label>
+        <queue>CIS_Tunisia_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Tunisia_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Tunisia ED</label>
+        <queue>CIS_Tunisia_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Tunisia_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Tunisia ELAU</label>
+        <queue>CIS_Tunisia_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Tunisia_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Tunisia MARINE</label>
+        <queue>CIS_Tunisia_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Turkey_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Turkey AUT</label>
+        <queue>CIS_Turkey_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Turkey_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Turkey ED</label>
+        <queue>CIS_Turkey_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Turkey_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Turkey ELAU</label>
+        <queue>CIS_Turkey_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Turkey_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Turkey MARINE</label>
+        <queue>CIS_Turkey_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ukraine_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ukraine AUT</label>
+        <queue>CIS_Ukraine_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ukraine_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ukraine ED</label>
+        <queue>CIS_Ukraine_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ukraine_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ukraine ELAU</label>
+        <queue>CIS_Ukraine_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Ukraine_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Ukraine MARINE</label>
+        <queue>CIS_Ukraine_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_Arab_Emirates_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United Arab Emirates AUT</label>
+        <queue>CIS_United_Arab_Emirates_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_Arab_Emirates_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United Arab Emirates ED</label>
+        <queue>CIS_United_Arab_Emirates_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_Arab_Emirates_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United Arab Emirates ELAU</label>
+        <queue>CIS_United_Arab_Emirates_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_Arab_Emirates_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United Arab Emirates MARINE</label>
+        <queue>CIS_United_Arab_Emirates_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_Kingdom_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United Kingdom AUT</label>
+        <queue>CIS_United_Kingdom_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_Kingdom_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United Kingdom ED</label>
+        <queue>CIS_United_Kingdom_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_Kingdom_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United Kingdom ELAU</label>
+        <queue>CIS_United_Kingdom_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_Kingdom_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United Kingdom MARINE</label>
+        <queue>CIS_United_Kingdom_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_States_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United States AUT</label>
+        <queue>CIS_United_States_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_States_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United States ED</label>
+        <queue>CIS_United_States_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_States_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United States ELAU</label>
+        <queue>CIS_United_States_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_United_States_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS United States MARINE</label>
+        <queue>CIS_United_States_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Venezuela_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Venezuela AUT</label>
+        <queue>CIS_Venezuela_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Venezuela_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Venezuela ED</label>
+        <queue>CIS_Venezuela_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Venezuela_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Venezuela ELAU</label>
+        <queue>CIS_Venezuela_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Venezuela_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Venezuela MARINE</label>
+        <queue>CIS_Venezuela_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Vietnam_AUT_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Vietnam AUT</label>
+        <queue>CIS_Vietnam_AUT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Vietnam_ED_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Vietnam ED</label>
+        <queue>CIS_Vietnam_ED</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Vietnam_ELAU_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Vietnam ELAU</label>
+        <queue>CIS_Vietnam_ELAU</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CIS_Vietnam_MARINE_CIS_CorrespondentsTeam</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CIS Vietnam MARINE</label>
+        <queue>CIS_Vietnam_MARINE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Take_care_of_Cameroon</fullName>
+        <columns>NAME</columns>
+        <columns>CIS_FieldsOfActivity__c</columns>
+        <columns>CIS_ScopeOfCountries__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CIS_ScopeOfCountries__c</field>
+            <operation>includes</operation>
+            <value>Gabon</value>
+        </filters>
+        <label>Take care of Gabon</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>CIS queues Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>CIS Correspondents Team</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CIS_FieldsOfActivity__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CIS_ScopeOfCountries__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CIS_AddressToSend__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CIS_HFMCode__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CIS_IBAN__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CIS_InvoicingAddress__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CIS_SEEntityIDCode__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CIS_VATNumber__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>CIS_FieldsOfActivity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CIS_ScopeOfCountries__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CIS_AddressToSend__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CIS_HFMCode__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CIS_IBAN__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CIS_InvoicingAddress__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CIS_SEEntityIDCode__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CIS_VATNumber__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CIS_FieldsOfActivity__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CIS_ScopeOfCountries__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CIS_AddressToSend__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CIS_HFMCode__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CIS_IBAN__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CIS_InvoicingAddress__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CIS_SEEntityIDCode__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CIS_VATNumber__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>CIS_FieldsOfActivity__c</searchFilterFields>
+        <searchFilterFields>CIS_ScopeOfCountries__c</searchFilterFields>
+        <searchFilterFields>CIS_AddressToSend__c</searchFilterFields>
+        <searchFilterFields>CIS_HFMCode__c</searchFilterFields>
+        <searchFilterFields>CIS_IBAN__c</searchFilterFields>
+        <searchFilterFields>CIS_InvoicingAddress__c</searchFilterFields>
+        <searchFilterFields>CIS_SEEntityIDCode__c</searchFilterFields>
+        <searchFilterFields>CIS_VATNumber__c</searchFilterFields>
+        <searchResultsAdditionalFields>CIS_FieldsOfActivity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CIS_ScopeOfCountries__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CIS_AddressToSend__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CIS_HFMCode__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CIS_IBAN__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CIS_InvoicingAddress__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CIS_SEEntityIDCode__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CIS_VATNumber__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>CIS_VR_FEB15CT01_OwnerModifiableOnlyByDA</fullName>
+        <active>true</active>
+        <description>The Owner of a Correspondent Team can only be changed by CIS Delegated Admin</description>
+        <errorConditionFormula>AND( 
+NOT($User.BypassVR__c),
+ISCHANGED( OwnerId ),
+IF( $Profile.Id &lt;&gt; &apos;00eA0000000J5PJ&apos;,true,false)
+)</errorConditionFormula>
+        <errorMessage>Only Delegated Admin are allowed to change the Owner of Correspondent Team</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

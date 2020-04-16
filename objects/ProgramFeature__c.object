@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Content&quot;),&quot;Content&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Opportunity Registration&quot;),&quot;Opportunity Registration&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Demo&quot;),&quot;Demo&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Support&quot;),&quot;Support&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Loyalty&quot;),&quot;Loyalty&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Marketing Tools &amp; Materials&quot;),&quot;Marketing Tools &amp; Materials&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;MDF Partner Locator&quot;),&quot;MDF Partner Locator&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Program Eligibility&quot;),&quot;Program Eligibility&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Training&quot;),&quot;Training&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Pricing&quot;),&quot;Pricing&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Discounts/Rebates&quot;),&quot;Discounts/Rebates&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Events&quot;),&quot;Events&quot;,NULL)+
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Simple ORF&quot;),&quot;Simple ORF&quot;,NULL) +
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Lead Management&quot;),&quot;Lead Management&quot;,NULL) +
+IF(INCLUDES(FeatureCatalog__r.Category__c, &quot;Passed to Partner Opportunities&quot;),&quot;Passed to Partner Opportunities&quot;,NULL)</formula>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DeactivatedDate__c</fullName>
+        <description>used by Feature assignment batch. updated using workflow</description>
+        <externalId>false</externalId>
+        <label>Deactivated Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>FeatureCatalog__r.Description__c</formula>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Enabled__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( FeatureCatalog__r.Enabled__c )</formula>
+        <label>Enabled</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExternalApplicationId__c</fullName>
+        <description>OCT 13 PRM: External Application Id of a Feature</description>
+        <externalId>false</externalId>
+        <formula>FeatureCatalog__r.ExternalApplicationId__c</formula>
+        <label>External Application Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FeatureCatalog__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Feature/Benefit Catalog</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>FeatureCatalog__c.Retired__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>FeatureCatalog__c</referenceTo>
+        <relationshipLabel>Program Features</relationshipLabel>
+        <relationshipName>ProgramFeatures</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FeatureStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Feature Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloPRM_BadgeFeature__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Badge Feature</label>
+        <referenceTo>FieloPRM_BadgeFeature__c</referenceTo>
+        <relationshipLabel>Program Features</relationshipLabel>
+        <relationshipName>ProgramFeatures</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>GlobalProgramFeature__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Global Program Feature</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>ProgramFeature__c.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Global Feature</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>ProgramFeature__c</referenceTo>
+        <relationshipLabel>Program Features</relationshipLabel>
+        <relationshipName>ProgramFeatures</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ModifiablebyCountry__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( ProgramLevel__r.ModifiablebyCountry__c )</formula>
+        <label>Modifiable by Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PartnerProgram__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Program</label>
+        <lookupFilter>
+            <active>false</active>
+            <filterItems>
+                <field>PartnerProgram__c.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012Z00000008hCz</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>PartnerProgram__c</referenceTo>
+        <relationshipLabel>Program Features</relationshipLabel>
+        <relationshipName>ProgramFeatures</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ProgramLevelName__c</fullName>
+        <externalId>false</externalId>
+        <formula>ProgramLevel__r.Name</formula>
+        <label>Program Level Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProgramLevel__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Program Level</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.PartnerProgram__c</field>
+                <operation>equals</operation>
+                <valueField>ProgramLevel__c.PartnerProgram__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>ProgramLevel__c</referenceTo>
+        <relationshipLabel>Program Features</relationshipLabel>
+        <relationshipName>ProgramFeatures</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProgramType__c</fullName>
+        <description>Describes the type of program.</description>
+        <externalId>false</externalId>
+        <formula>PartnerProgram__r.RecordType.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Program Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_FieloFeatureName__c</fullName>
+        <externalId>false</externalId>
+        <formula>FeatureCatalog__r.FieloPRM_Feature__c</formula>
+        <label>TECH_FieloFeatureName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_InactiveGlobalFeature__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TECH_InactiveGlobalFeature</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TECH_ProgramAdminEmail__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_ProgramAdminEmail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ProgramApproverEmail__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_ProgramApproverEmail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ProgramOwnerEmail__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_ProgramOwnerEmail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL__c</fullName>
+        <description>OCT 13 PRM: Feature URL</description>
+        <externalId>false</externalId>
+        <formula>FeatureCatalog__r.URL__c</formula>
+        <label>URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Visibility__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( FeatureCatalog__r.Visibility__c )</formula>
+        <label>Visibility</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Program Feature</label>
+    <nameField>
+        <displayFormat>PF-{00000000}</displayFormat>
+        <label>Program Feature ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Program Features</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>CountryFeature</fullName>
+        <active>true</active>
+        <description>Features related to Country Parter Program</description>
+        <label>Country Feature</label>
+        <picklistValues>
+            <picklist>FeatureStatus__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>GlobalFeature</fullName>
+        <active>true</active>
+        <description>Features related to Global Parter Program</description>
+        <label>Global Feature</label>
+        <picklistValues>
+            <picklist>FeatureStatus__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PartnerProgram__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ProgramLevel__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>FeatureStatus__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>PRF_VR_MAY13PRM01_CheckGlobalFeatureSts</fullName>
+        <active>true</active>
+        <description>Check if the global feature status is active or not when the child feature is updated to active</description>
+        <errorConditionFormula>AND($User.BypassVR__c=False,(IF(
+AND(
+ GlobalProgramFeature__c  != null ,
+NOT( ISPICKVAL(  GlobalProgramFeature__r.FeatureStatus__c  , &apos;Active&apos;) ),
+ISPICKVAL(FeatureStatus__c,&apos;Active&apos;),NOT( ISCHANGED( TECH_InactiveGlobalFeature__c ))),true,false)))</errorConditionFormula>
+        <errorMessage>Please activate the Parent Feature at Global Level and then try again</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRF_VR_MAY13PRM02_CheckUserAccess</fullName>
+        <active>true</active>
+        <description>To check that only Program Owners can create/edit global program features.</description>
+        <errorConditionFormula>AND($User.BypassVR__c=False,(IF(
+AND(
+(
+NOT
+(OR(
+$User.ProgramAdministrator__c ,
+$User.ProgramApprover__c , 
+$User.ProgramOwner__c
+))),
+RecordType.Id = $Label.CLMAY13PRM06),
+true,
+false)))</errorConditionFormula>
+        <errorMessage>Only Program Owners/Program Administrators can create/edit global program features.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRF_VR_MAY13PRM03_CheckParentLevelSts</fullName>
+        <active>true</active>
+        <description>Feature can be activated only if the parent Level is active.</description>
+        <errorConditionFormula>AND($User.BypassVR__c=False,(IF(
+AND(
+ ProgramLevel__c  != null ,
+NOT( ISPICKVAL(  ProgramLevel__r.LevelStatus__c  , &apos;Active&apos;) ),
+ISPICKVAL( FeatureStatus__c ,&apos;Active&apos;)),true,false)))</errorConditionFormula>
+        <errorMessage>Please activate the Parent Level and then try again</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRF_VR_MAY13PRM04_CantChangeLevelFeature</fullName>
+        <active>true</active>
+        <description>For May 13 PRM release
+Feature Catalog and Program Level cannot be updated</description>
+        <errorConditionFormula>AND($User.BypassVR__c=False,(IF(
+AND(
+OR(
+ISCHANGED( ProgramLevel__c ) ,
+ISCHANGED( FeatureCatalog__c )),
+OR(
+$User.ProgramManager__c ,
+$User.ProgramOwner__c )
+
+
+),
+true,false
+)))</errorConditionFormula>
+        <errorMessage>Feature catalog or program level cannot be edited. Please inactivate this feature and assign a new one with the right Feature and/or Program Level selection</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRF_VR_OCT14PRM01_CheckGlobalProgramOwnr</fullName>
+        <active>true</active>
+        <description>To check whether the user is global program owner.</description>
+        <errorConditionFormula>AND($User.BypassVR__c=False,(IF(
+AND(
+(
+NOT
+(OR(
+$User.ProgramAdministrator__c ,
+$User.ProgramApprover__c , 
+ AND($User.ProgramOwner__c, 
+     $User.Id  =   PartnerProgram__r.OwnerId)
+))),
+RecordType.Id = $Label.CLMAY13PRM06),
+true,
+false)))</errorConditionFormula>
+        <errorMessage>Only Global Program owners can create/edit global program features.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>NewCountryFeature</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Country Feature</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a7G/e?CF00NA0000009yWWG={!ProgramLevel__c.Name}&amp;CF00NA0000009yWWG_lkid={!ProgramLevel__c.Id}&amp;retURL={!PartnerProgram__c.Id}&amp;RecordType=012A0000000nphEIAQ&amp;CF00NA0000009yWGm={!PartnerProgram__c.Name}&amp;CF00NA0000009yWGm_lkid={!ProgramFeature__c.PartnerProgram__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>NewGlobalFeature</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Global Feature/Benefit</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a7G/e?CF00NA0000009yWWG={!ProgramLevel__c.Name}&amp;CF00NA0000009yWWG_lkid={!ProgramLevel__c.Id}&amp;retURL={!PartnerProgram__c.Id}&amp;RecordType=012A0000000nphFIAQ&amp;CF00NA0000009yWGm={!PartnerProgram__c.Name}&amp;CF00NA0000009yWGm_lkid={!ProgramFeature__c.PartnerProgram__c}</url>
+    </webLinks>
+</CustomObject>

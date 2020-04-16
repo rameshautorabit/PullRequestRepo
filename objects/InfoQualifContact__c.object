@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>ACOValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;intérêt du client pour les ACO</description>
+        <externalId>false</externalId>
+        <label>Date Validation Intérêt pour les ACO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ACO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indique l&apos;intérêt pour les ACO du client</description>
+        <externalId>false</externalId>
+        <label>Intérêt pour les ACO</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AccountOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>InfoQualif__r.Account__r.Owner.FirstName &amp; &apos; &apos; &amp;  InfoQualif__r.Account__r.Owner.LastName</formula>
+        <label>Account Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AnimEmail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indique si ce client est capable d&apos;être animé par e-mail</description>
+        <externalId>false</externalId>
+        <label>Capacité à Être Animé par E-mail</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AnimPhone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indique si ce client est capable d’être animé par téléphone</description>
+        <externalId>false</externalId>
+        <label>Capacité à Être Animé par Téléphone</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AnimSMS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indique si ce client est capable d&apos;être animé par SMS</description>
+        <externalId>false</externalId>
+        <label>Capacité à Être Animé par SMS</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AnimValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé la capacité d&apos;animation à distance du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Capacités d&apos;Animation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CanauxCommValidationDate__c</fullName>
+        <description>Date de validation par le vendeur des canaux de démarchage possibles pour ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Canaux de Communication</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CatBTValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;année de remise du guide technique BT</description>
+        <externalId>false</externalId>
+        <label>Date Validation Guide Technique BT</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CatBT__c</fullName>
+        <description>Année de remise au client du guide technique BT</description>
+        <externalId>false</externalId>
+        <label>Année de Remise du Guide Technique BT</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CatDEValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;année de remise du catalogue DE</description>
+        <externalId>false</externalId>
+        <label>Date Validation Catalogue DE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CatDE__c</fullName>
+        <description>Année de remise du catalogue DE au client</description>
+        <externalId>false</externalId>
+        <label>Année de Remise du Catalogue DE</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CatINDValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;année de remise du catalogue Industrie</description>
+        <externalId>false</externalId>
+        <label>Date Validation Catalogue Industrie</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CatIND__c</fullName>
+        <description>Année de remise au client du catalogue Industrie</description>
+        <externalId>false</externalId>
+        <label>Année de Remise du Catalogue Industrie</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CatNSXValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;année de remise du guide de mise en œuvre NSX et Masterpact</description>
+        <externalId>false</externalId>
+        <label>Date Validation Guide Mise en Œuvre NSX</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CatNSX__c</fullName>
+        <description>Année remise guide mise en œuvre NSX et Masterpact</description>
+        <externalId>false</externalId>
+        <label>Année de Remise Guide Mise en Œuvre NSX</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CatPrismaValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;année de remise du guide Prisma</description>
+        <externalId>false</externalId>
+        <label>Date Validation Guide Prisma</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CatPrisma__c</fullName>
+        <description>Année de remise au client du guide Prisma</description>
+        <externalId>false</externalId>
+        <label>Année de Remise du Guide Prisma</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CatUEValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;année de remise du catalogue UE</description>
+        <externalId>false</externalId>
+        <label>Date Validation Catalogue UE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CatUE__c</fullName>
+        <description>Année de remise au client du catalogue UE</description>
+        <externalId>false</externalId>
+        <label>Année de Remise du Catalogue UE</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CollectifsValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de l&apos;intérêt du client pour les commerciaux collectifs</description>
+        <externalId>false</externalId>
+        <label>Date Validation Intérêt Commerciaux Coll</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Collectifs__c</fullName>
+        <description>Intérêt du client pour les commerciaux collectifs</description>
+        <externalId>false</externalId>
+        <label>Intéressé par les Commerciaux Collectifs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oui</fullName>
+                    <default>false</default>
+                    <label>Oui</label>
+                </value>
+                <value>
+                    <fullName>Non</fullName>
+                    <default>false</default>
+                    <label>Non</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Completion2__c</fullName>
+        <externalId>false</externalId>
+        <formula>(IF(ISNULL(FirstnameValidationDate__c), 0, 1) + 
+IF(ISNULL(SalutationValidationDate__c), 0, 1) + 
+IF(ISNULL(ReportsToIdValidationDate__c), 0, 1) + 
+IF(ISNULL(JobTitleValidationDate__c), 0, 1) +
+IF(ISNULL(JobFunctionValidationDate__c), 0, 1) +
+IF(ISNULL(WorkphoneValidationDate__c), 0, 1) + 
+IF(ISNULL(EmailValidationDate__c), 0, 1) + 
+IF(ISNULL(ProfilingValidationDate__c), 0, 1) + 
+IF(ISNULL(CollectifsValidationDate__c), 0, 1) + 
+IF(ISNULL(CanauxCommValidationDate__c), 0, 1))/10</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>*Remplissage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Completion3__c</fullName>
+        <externalId>false</externalId>
+        <label>**Remplissage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>CompletionCount2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISNULL(FirstnameValidationDate__c), 0, 1) + 
+IF(ISNULL(SalutationValidationDate__c), 0, 1) + 
+IF(ISNULL(ReportsToIdValidationDate__c), 0, 1) + 
+IF(ISNULL(JobTitleValidationDate__c), 0, 1) +
+IF(ISNULL(JobFunctionValidationDate__c), 0, 1) +
+IF(ISNULL(WorkphoneValidationDate__c), 0, 1) + 
+IF(ISNULL(EmailValidationDate__c), 0, 1) + 
+IF(ISNULL(ProfilingValidationDate__c), 0, 1) + 
+IF(ISNULL(CollectifsValidationDate__c), 0, 1) + 
+IF(ISNULL(CanauxCommValidationDate__c), 0, 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>*Champs Remplis</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CompletionCount3__c</fullName>
+        <externalId>false</externalId>
+        <label>**Champs Remplis</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CompletionCount__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISNULL(SalutationValidationDate__c), 0, 1) + 
+IF(ISNULL(EmailValidationDate__c), 0, 1) + 
+IF(ISNULL(MobilePhoneValidationDate__c), 0, 1) + 
+IF(ISNULL(FirstnameValidationDate__c), 0, 1) + 
+IF(ISNULL(ProfilingValidationDate__c), 0, 1) + 
+IF(ISNULL(ReportsToIdValidationDate__c), 0, 1) + 
+IF(ISNULL(WorkphoneValidationDate__c), 0, 1) + 
+IF(ISNULL(JobTitleValidationDate__c), 0, 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Champs Remplis</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completion__c</fullName>
+        <externalId>false</externalId>
+        <formula>(IF(ISNULL(SalutationValidationDate__c), 0, 1) + 
+IF(ISNULL(EmailValidationDate__c), 0, 1) + 
+IF(ISNULL(MobilePhoneValidationDate__c), 0, 1) + 
+IF(ISNULL(FirstnameValidationDate__c), 0, 1) + 
+IF(ISNULL(ProfilingValidationDate__c), 0, 1) + 
+IF(ISNULL(ReportsToIdValidationDate__c), 0, 1) + 
+IF(ISNULL(WorkphoneValidationDate__c), 0, 1) + 
+IF(ISNULL(JobTitleValidationDate__c), 0, 1))/8</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Remplissage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Criteres_Contact_Information</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DisChiffreurValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé si ce contact était un chiffreur</description>
+        <externalId>false</externalId>
+        <label>Date Validation Chiffreur</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DisChiffreur__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indique si cette personne est un chiffreur</description>
+        <externalId>false</externalId>
+        <label>Chiffreur</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DisReseauxExpertsValidationDate__c</fullName>
+        <description>Date de validation par le vendeurs des réseaux experts du contact</description>
+        <externalId>false</externalId>
+        <label>Date Validation Réseaux Experts</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DisReseauxExperts__c</fullName>
+        <description>Réseaux experts de ce contact</description>
+        <externalId>false</externalId>
+        <label>Réseaux Experts</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>R3E</fullName>
+                    <default>false</default>
+                    <label>R3E</label>
+                </value>
+                <value>
+                    <fullName>REA</fullName>
+                    <default>false</default>
+                    <label>REA</label>
+                </value>
+                <value>
+                    <fullName>REC</fullName>
+                    <default>false</default>
+                    <label>REC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DisTypesClientsSuivisDateTime__c</fullName>
+        <description>Date de validation par le vendeur des types de clients suivis par ce contact</description>
+        <externalId>false</externalId>
+        <label>Date Validation Types Clients Suivis</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DisTypesClientsSuivis__c</fullName>
+        <description>Types de clients suivis par ce contact</description>
+        <externalId>false</externalId>
+        <label>Types de Clients Suivis</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ENERGY</fullName>
+                    <default>false</default>
+                    <label>ENERGY</label>
+                </value>
+                <value>
+                    <fullName>INDUSTRY</fullName>
+                    <default>false</default>
+                    <label>INDUSTRY</label>
+                </value>
+                <value>
+                    <fullName>PPEB</fullName>
+                    <default>false</default>
+                    <label>PPEB</label>
+                </value>
+                <value>
+                    <fullName>RETAIL</fullName>
+                    <default>false</default>
+                    <label>RETAIL</label>
+                </value>
+                <value>
+                    <fullName>AUTRES</fullName>
+                    <default>false</default>
+                    <label>AUTRES</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EcoXpertCertification__c</fullName>
+        <externalId>false</externalId>
+        <label>EcoXpert Certification</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>ECOXBMS</fullName>
+                    <default>false</default>
+                    <label>ECOXBMS</label>
+                </value>
+                <value>
+                    <fullName>ECOXCNP</fullName>
+                    <default>false</default>
+                    <label>ECOXCNP</label>
+                </value>
+                <value>
+                    <fullName>ECOXCRP</fullName>
+                    <default>false</default>
+                    <label>ECOXCRP</label>
+                </value>
+                <value>
+                    <fullName>ECOXKNX</fullName>
+                    <default>false</default>
+                    <label>ECOXKNX</label>
+                </value>
+                <value>
+                    <fullName>ECOXVDI</fullName>
+                    <default>false</default>
+                    <label>ECOXVDI</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EcoXpertSpecialisation__c</fullName>
+        <externalId>false</externalId>
+        <label>EcoXpert Specialisation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ECOXHOTEL</fullName>
+                    <default>false</default>
+                    <label>ECOXHOTEL</label>
+                </value>
+                <value>
+                    <fullName>ECOXRETAIL</fullName>
+                    <default>false</default>
+                    <label>ECOXRETAIL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EmailValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FirstnameValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Prénom</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>GeekValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;ouverture aux innovations du client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Ouvert aux Innovations</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Geek__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indique si le client est ouvert aux innovations techniques</description>
+        <externalId>false</externalId>
+        <label>Ouvert aux Innovations Techniques</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HeurePrefereeTelephoneValidationDate__c</fullName>
+        <description>Date de validation par le vendeur de l&apos;heure préférée d&apos;appel téléphonique</description>
+        <externalId>false</externalId>
+        <label>Date Validation Heure Préférée Téléphone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>HeurePrefereeTelephone__c</fullName>
+        <description>Heure préférée de contact téléphonique</description>
+        <externalId>false</externalId>
+        <label>Heure préférée de contact téléphonique</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InfoQualif__c</fullName>
+        <description>Lien vers l&apos;objet Info Client France de l&apos;account du contact</description>
+        <externalId>false</externalId>
+        <label>Info Client France</label>
+        <referenceTo>InfoQualif__c</referenceTo>
+        <relationshipLabel>Info Contact France</relationshipLabel>
+        <relationshipName>InfoQualifContact</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>JobDescrValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé le job description</description>
+        <externalId>false</externalId>
+        <label>Date Validation Job Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>JobFunctionValidationDate__c</fullName>
+        <description>Date de validation par le vendeur du job function</description>
+        <externalId>false</externalId>
+        <label>Date Validation Job Function</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>JobTitleValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Job Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastValidationDate__c</fullName>
+        <description>Date de la dernière validation vendeur sur ce contact (toutes validations confondues)</description>
+        <externalId>false</externalId>
+        <label>Date Dernière Validation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MobilePhoneValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Mobile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ProfilingValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Pouvoir de Décision</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Profiling__c</fullName>
+        <externalId>false</externalId>
+        <label>Pouvoir de Décision</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Décideur</fullName>
+                    <default>false</default>
+                    <label>Décideur</label>
+                </value>
+                <value>
+                    <fullName>Influenceur</fullName>
+                    <default>false</default>
+                    <label>Influenceur</label>
+                </value>
+                <value>
+                    <fullName>Aucun pouvoir</fullName>
+                    <default>false</default>
+                    <label>Aucun pouvoir</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ReportsToIdValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Report to</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ReseauxSociauxValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé les réseaux sociaux de ce contact</description>
+        <externalId>false</externalId>
+        <label>Date Validation Réseaux Sociaux</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ReseauxSociaux__c</fullName>
+        <description>Réseaux sociaux sur lesquels ce contact est enregistré</description>
+        <externalId>false</externalId>
+        <label>Réseaux Sociaux</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Facebook</fullName>
+                    <default>false</default>
+                    <label>Facebook</label>
+                </value>
+                <value>
+                    <fullName>Twitter</fullName>
+                    <default>false</default>
+                    <label>Twitter</label>
+                </value>
+                <value>
+                    <fullName>LinkedIn</fullName>
+                    <default>false</default>
+                    <label>LinkedIn</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SMS__c</fullName>
+        <description>Possibilité d&apos;adresser des campagnes SMS à ce client</description>
+        <externalId>false</externalId>
+        <label>Campagne SMS Possible</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oui</fullName>
+                    <default>false</default>
+                    <label>Oui</label>
+                </value>
+                <value>
+                    <fullName>Non</fullName>
+                    <default>false</default>
+                    <label>Non</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SalutationValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Civilité</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SchneiderPromoteurValidationDate__c</fullName>
+        <description>Date à laquelle le vendeur a validé l&apos;information de promoteur Schneider pour ce client</description>
+        <externalId>false</externalId>
+        <label>Date Validation Promoteur de Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SchneiderPromoteur__c</fullName>
+        <description>Indique si ce client est plutôt promoteur de Schneider Electric</description>
+        <externalId>false</externalId>
+        <label>Promoteur de Schneider</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Toujours</fullName>
+                    <default>false</default>
+                    <label>Toujours</label>
+                </value>
+                <value>
+                    <fullName>Souvent</fullName>
+                    <default>false</default>
+                    <label>Souvent</label>
+                </value>
+                <value>
+                    <fullName>Parfois</fullName>
+                    <default>false</default>
+                    <label>Parfois</label>
+                </value>
+                <value>
+                    <fullName>Jamais</fullName>
+                    <default>false</default>
+                    <label>Jamais</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Statut2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Completion2__c = 1, &apos;Validés&apos;, IF(Completion2__c = 0, &apos;Non qualifiés&apos;, IF(Completion2__c &gt; 0, &apos;En cours&apos;, &apos;&apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>*Statut</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Statut3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Completion3__c = 1, &apos;Validés&apos;, IF(Completion3__c = 0, &apos;Non qualifiés&apos;, IF(Completion3__c &gt; 0, &apos;En cours&apos;, &apos;&apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>**Statut</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Statut__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Completion__c = 1, &apos;Validés&apos;, IF(Completion__c = 0, &apos;Non qualifiés&apos;, IF(Completion__c &gt; 0, &apos;En cours&apos;, &apos;&apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Statut</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Synchronize_With_Marketo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Synchronisation Marketo Contact</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WorkphoneValidationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Validation Telephone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <label>Info Contact France</label>
+    <nameField>
+        <displayFormat>Info Qualif Contact-{0000}</displayFormat>
+        <label>Info Qualif - Contact</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Info Contact France</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Service Intervention Report specificities per Country</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Country_del__c</fullName>
+        <description>Country name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Country name</inlineHelpText>
+        <label>Country</label>
+        <length>55</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Intervention_Report_Footer__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Intervention Report Footer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>FS_ServiceInterventionReportCountry</label>
+    <visibility>Public</visibility>
+</CustomObject>

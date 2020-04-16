@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Stores Profiles that are to be assigned to User automatically</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ProfileID__c</fullName>
+        <externalId>false</externalId>
+        <label>ProfileID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProfileName__c</fullName>
+        <externalId>false</externalId>
+        <label>ProfileName</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Profiles</label>
+    <visibility>Public</visibility>
+</CustomObject>

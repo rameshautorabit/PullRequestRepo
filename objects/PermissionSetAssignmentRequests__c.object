@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>PlatUsgMassAssignmentRequestContainer</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>LightningComponent</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>USGAssignmentRequestCompact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>USGAssignmentRequestCompact</fullName>
+        <fields>PermissionSetGroup__c</fields>
+        <fields>Assignee__c</fields>
+        <fields>Status__c</fields>
+        <fields>Permission_Set_Assigned_Date__c</fields>
+        <fields>AutoRemoveOn__c</fields>
+        <label>USG Assignment Request - Compact</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Requests related to the assignment of a Group of Permission Sets to a User.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Actual_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Actual Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Permission_Set_Group_Assignment_Request3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approver_1_name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver 1 name</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Permission_Set_Group_Assignment_Request1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approver_2_name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver 2 name</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Permission_Set_Group_Assignment_Request2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssigneeFormula__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Assignee__c == null, 
+HYPERLINK(&quot;/&quot;+ PendingAssigneeId__c +&quot;?noredirect=1&amp;isUserEntityOverride=1&quot;,  PendingAssigneeName__c), 
+HYPERLINK(&quot;/&quot;+ Assignee__c +&quot;?noredirect=1&amp;isUserEntityOverride=1&quot;, Assignee__r.FirstName+&quot; &quot;+Assignee__r.LastName))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AssigneeFormula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assignee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>User to whom the permission set(s) are requested to be assigned.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>User to whom the permission set is to be assigned</inlineHelpText>
+        <label>Assignee</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>PermissionSetAssignmentRequests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AutoRemoveOn__c</fullName>
+        <description>Date field specifying when the permission set to be removed automatically</description>
+        <externalId>false</externalId>
+        <label>Auto Remove On</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AutoSubmitForApproval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is used to auto submit for approval</description>
+        <externalId>false</externalId>
+        <label>Auto Submit For Approval?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Auto_Remove_Assignment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Auto Remove Assignment</description>
+        <externalId>false</externalId>
+        <label>Auto Remove Assignment</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Duration_Applicable__c</fullName>
+        <description>This is used when the permission set must be assigned to a user only for a certain duration</description>
+        <externalId>false</externalId>
+        <label>Duration Applicable</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0.1</fullName>
+                    <default>false</default>
+                    <label>1 day</label>
+                </value>
+                <value>
+                    <fullName>0.5</fullName>
+                    <default>false</default>
+                    <label>3 days</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1 Week</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2 Weeks</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3 Weeks</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>1 Month</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>2 Months</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>3 Months</label>
+                </value>
+                <value>
+                    <fullName>16</fullName>
+                    <default>false</default>
+                    <label>4 Months</label>
+                </value>
+                <value>
+                    <fullName>20</fullName>
+                    <default>false</default>
+                    <label>5 Months</label>
+                </value>
+                <value>
+                    <fullName>24</fullName>
+                    <default>false</default>
+                    <label>6 Months</label>
+                </value>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>0</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Guidelines__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Status__c, &apos;PendingCPValidation&apos;, IMAGE(&apos;/img/msg_icons/info16.png&apos;, &apos;Info&apos;)+&apos; Please attach the approval document (e.g. Email) from the Country President either through Chatter or in the Notes and Attachments related list then submit the record for approval. The central team approvers will be automatically notified.&apos;, &apos;PendingValidation&apos;, IMAGE(&apos;/img/msg_icons/info16.png&apos;, &apos;Info&apos;)+&apos; Waiting for solution team approval, once approved, corresponding permission sets will be assigned automatically to the user.&apos;, &apos;PendingActivation&apos;, IMAGE(&apos;/img/msg_icons/info16.png&apos;, &apos;Info&apos;)+&apos; Please activate the assignee in order to have the related Permission Sets automatically assigned.&apos;,&apos;&apos;)+ BR() + BR()</formula>
+        <label>&amp;nbsp;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PSAD_Formula__c</fullName>
+        <description>Permission Set / Profile Assigned Date</description>
+        <externalId>false</externalId>
+        <formula>Permission_Set_Assigned_Date__c</formula>
+        <label>Assigned Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PendingAssigneeId__c</fullName>
+        <description>Stores the Id of pending inactive user.</description>
+        <externalId>false</externalId>
+        <label>Pending Assignee Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PendingAssigneeName__c</fullName>
+        <externalId>false</externalId>
+        <label>Pending Assignee Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PermissionSetGroup__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Group of Permission Sets related to the assignment request.</description>
+        <externalId>false</externalId>
+        <label>Users Security Group</label>
+        <referenceTo>PermissionSetGroup__c</referenceTo>
+        <relationshipLabel>User Security Group Assignment Requests</relationshipLabel>
+        <relationshipName>PSAssignmentRequests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Permission_Set_Assigned_Date__c</fullName>
+        <description>Permission Set / Profile Assigned Date</description>
+        <externalId>false</externalId>
+        <label>Date Approved</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Permission_Set_Removal_Date__c</fullName>
+        <description>Permission Set / Profile Removal Date</description>
+        <externalId>false</externalId>
+        <formula>CASE( Duration_Applicable__c , 
+&quot;1&quot;, DATETIMEVALUE(PSAD_Formula__c) + 7,
+&quot;2&quot;, DATETIMEVALUE(PSAD_Formula__c) + 14,
+&quot;3&quot;, DATETIMEVALUE(PSAD_Formula__c) + 21,
+&quot;4&quot;, DATETIMEVALUE(PSAD_Formula__c) + 28,
+&quot;8&quot;, DATETIMEVALUE(PSAD_Formula__c) + 56,
+&quot;12&quot;,DATETIMEVALUE(PSAD_Formula__c) + 84,
+&quot;16&quot;, DATETIMEVALUE(PSAD_Formula__c) + 112,
+&quot;20&quot;, DATETIMEVALUE(PSAD_Formula__c) + 140,
+&quot;24&quot;, DATETIMEVALUE(PSAD_Formula__c) + 168,
+&quot;28&quot;,DATETIMEVALUE(PSAD_Formula__c) + 196
+,DATETIMEVALUE(&quot;&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Removal Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Previous_Profile__c</fullName>
+        <description>Maintains previous profile ID of assignee before changing to new profile</description>
+        <externalId>false</externalId>
+        <label>Previous Profile</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Remove__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Auto Remove Assignment Tech</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Requested_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This Field describes which user is requesting to assign permission sets to whom</description>
+        <externalId>false</externalId>
+        <label>Requested By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Permission_Set_Group_Assignment_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Security_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Security Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Permission Sets</fullName>
+                    <default>false</default>
+                    <label>Permission Sets</label>
+                </value>
+                <value>
+                    <fullName>Profile</fullName>
+                    <default>false</default>
+                    <label>Profile</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Pending Level 1</fullName>
+                    <default>false</default>
+                    <label>Pending Level 1</label>
+                </value>
+                <value>
+                    <fullName>Pending Level 2</fullName>
+                    <default>false</default>
+                    <label>Pending Level 2</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Canceled</fullName>
+                    <default>false</default>
+                    <label>Canceled</label>
+                </value>
+                <value>
+                    <fullName>Revoked</fullName>
+                    <default>false</default>
+                    <label>Revoked</label>
+                </value>
+                <value>
+                    <fullName>AssignLevel1Approver</fullName>
+                    <default>false</default>
+                    <label>Assign Level 1 Approver</label>
+                </value>
+                <value>
+                    <fullName>AssignLevel2Approver</fullName>
+                    <default>false</default>
+                    <label>Assign Level 2 Approver</label>
+                </value>
+                <value>
+                    <fullName>AP</fullName>
+                    <default>false</default>
+                    <label>Assignment - Processed</label>
+                </value>
+                <value>
+                    <fullName>RP</fullName>
+                    <default>false</default>
+                    <label>Revoke - Processed</label>
+                </value>
+                <value>
+                    <fullName>Assigned</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Assigned</label>
+                </value>
+                <value>
+                    <fullName>FS - Service Partner Access Community</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FS - Service Partner Access Community</label>
+                </value>
+                <value>
+                    <fullName>Not Assigned</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Not Assigned</label>
+                </value>
+                <value>
+                    <fullName>PendingActivation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PendingActivation</label>
+                </value>
+                <value>
+                    <fullName>PendingCPValidation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PendingCPValidation</label>
+                </value>
+                <value>
+                    <fullName>PendingLicense</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PendingLicense</label>
+                </value>
+                <value>
+                    <fullName>PendingValidation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PendingValidation</label>
+                </value>
+                <value>
+                    <fullName>Removed</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Removed</label>
+                </value>
+                <value>
+                    <fullName>SEC-ByPassAPIRestriction</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SEC-ByPassAPIRestriction</label>
+                </value>
+                <value>
+                    <fullName>Skill Management</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Skill Management</label>
+                </value>
+                <value>
+                    <fullName>bFO - Dataloader Access</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>bFO - Dataloader Access</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tech_Approval_Queue_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>PermissionSetGroup__r.Tech_Queue_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval Queue 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_Approval_Queue_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>PermissionSetGroup__r.Approval_Queue_2__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval Queue 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tech_Queue_Approval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Tech Queue Approval</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>User Security Group Assignment Request</label>
+    <listViews>
+        <fullName>AR_Permisos_Asignados</fullName>
+        <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5) AND 6</booleanFilter>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>cazon,ruggieri</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>cazon,ruggieri</value>
+        </filters>
+        <filters>
+            <field>AssigneeFormula__c</field>
+            <operation>contains</operation>
+            <value>topelberg,diego pesce,fortunato,mariano perez,agreda,agustín russo</value>
+        </filters>
+        <filters>
+            <field>AssigneeFormula__c</field>
+            <operation>contains</operation>
+            <value>vo balle,mussari,ia morabi,io ferra,vo ramos,er soto,an keme,er monta,la pando</value>
+        </filters>
+        <filters>
+            <field>AssigneeFormula__c</field>
+            <operation>contains</operation>
+            <value>ariel her,nuel pard,ston ante,tian rodri,sto lop,min san,lla capp</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>Gold,Silver,Temp,Export</value>
+        </filters>
+        <label>AR - Permisos Asignados</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ARArgentina</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
+        <columns>NAME</columns>
+        <columns>Requested_By__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>Duration_Applicable__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Request_for_OFM_Classic</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>Requested_By__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>equals</operation>
+            <value>OFM Classic</value>
+        </filters>
+        <label>All Request for OFM Classic</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CentralTeamApprovers_PermissionSetAssignmentRequests</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Central Team Approvers</label>
+        <language>en_US</language>
+        <queue>CentralTeamApprovers</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DZ_Permisos_Asignados</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AssigneeFormula__c</field>
+            <operation>contains</operation>
+            <value>Mokhtar Cherarak</value>
+        </filters>
+        <label>DZ - Permisos Asignados</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ARArgentina</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Digital_Genius1</fullName>
+        <columns>NAME</columns>
+        <columns>Requested_By__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Approver_1_name__c</columns>
+        <columns>Approver_2_name__c</columns>
+        <columns>Status__c</columns>
+        <columns>Duration_Applicable__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>equals</operation>
+            <value>Digital Genius</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>Shamsire Goulamaly</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Assigned</value>
+        </filters>
+        <label>Digital Genius</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Digital_Genius_Approvers_PermissionSetAssignmentRequests</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Digital Genius Approvers</label>
+        <queue>Digital_Genius_Approvers</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>EA_Viewer</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>startsWith</operation>
+            <value>EA Viewer</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Pending Level 1,Pending Level 2</value>
+        </filters>
+        <label>EA Viewer Access requests</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Export</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Assignee__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>PendingValidation,Pending Level 1</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>Export</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>USGAR</value>
+        </filters>
+        <label>_Export</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Export_user</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Export Report and Analytics Download</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Pending Level 1</value>
+        </filters>
+        <label>_Export_user</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>FS_Skill_Management_PermissionSetAssignmentRequests</fullName>
+        <filterScope>Queue</filterScope>
+        <label>FS Skill Management</label>
+        <queue>FS_Skill_Management</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Fed_Search</fullName>
+        <columns>NAME</columns>
+        <columns>Requested_By__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Approver_1_name__c</columns>
+        <columns>Approver_2_name__c</columns>
+        <columns>Status__c</columns>
+        <columns>Duration_Applicable__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>equals</operation>
+            <value>bFO SE - CCC Federated Search</value>
+        </filters>
+        <label>Fed Search</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>LeadGMAP_PermissionSetAssignmentRequests</fullName>
+        <columns>OBJECT_ID</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Requested_By__c</columns>
+        <columns>Security_Type__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Assignee__c</columns>
+        <filterScope>Queue</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Pending Level 1,Pending Level 2</value>
+        </filters>
+        <label>Lead - GMAP</label>
+        <queue>LeadGMAP</queue>
+    </listViews>
+    <listViews>
+        <fullName>MyView</fullName>
+        <columns>NAME</columns>
+        <columns>Assignee__c</columns>
+        <columns>AutoRemoveOn__c</columns>
+        <columns>Permission_Set_Assigned_Date__c</columns>
+        <columns>Permission_Set_Removal_Date__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>Sathish</value>
+        </filters>
+        <label>MyView</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Request_MIP_OFM</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>Muriel Adalian</value>
+        </filters>
+        <label>My Request MIP&amp;OFM</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Requests_USGAR</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>James Renie</value>
+        </filters>
+        <label>My Requests USGAR</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Requests_USGAR_EA_Viewer</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>James Renie</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>EA</value>
+        </filters>
+        <label>My Requests USGAR EA Viewer</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Requests_USGAR_EA_Viewer1</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>Renie,Carey,Morabito</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>EA</value>
+        </filters>
+        <label>My Requests USGAR EA Viewer</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Requests_USGAR_EXPORT</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>James Renie</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>Export</value>
+        </filters>
+        <label>My Requests USGAR EXPORT</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Requests_USGAR_Marketo</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>James Renie</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>Marketo</value>
+        </filters>
+        <label>My Requests USGAR Marketo</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Quote</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Assignee__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>PendingValidation,Pending Level 1</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>Quote</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>USGAR</value>
+        </filters>
+        <label>Quote validation</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Report_Approval_Team_PermissionSetAssignmentRequests</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Report Approval Team</label>
+        <queue>Report_Approval_Team</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SEC_ByPassAPIRestriction_PermissionSetAssignmentRequests</fullName>
+        <filterScope>Queue</filterScope>
+        <label>SEC-ByPassAPIRestriction</label>
+        <queue>SEC_ByPassAPIRestriction</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SEC_DAProfileApproval_PermissionSetAssignmentRequests</fullName>
+        <columns>NAME</columns>
+        <columns>Assignee__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>SEC-DAProfileApproval</label>
+        <language>en_US</language>
+        <queue>SEC_DAProfileApproval</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SEC_HighLevelProfileApproval_PermissionSetAssignmentRequests</fullName>
+        <filterScope>Queue</filterScope>
+        <label>SEC-HighLevelProfileApproval</label>
+        <queue>SEC_HighLevelProfileApproval</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>USA_Requests_USGAR_All</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>Renie,Carey,Morabito</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>EA,Marketo,Gold,Export</value>
+        </filters>
+        <label>USA Requests USGAR All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>USA_Requests_USGAR_All1</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>Renie,Carey,Morabito</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>EA,Marketo,Gold,Export</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>contains</operation>
+            <value>Draft,Pending Level 1,Pending Level 2</value>
+        </filters>
+        <label>USA Requests USGAR All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>USA_Requests_USGAR_EA_Viewer</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>Renie,Carey,Morabito</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>EA</value>
+        </filters>
+        <label>USA Requests USGAR EA Viewer</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>USA_Requests_USGAR_EA_Viewer1</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>Renie,Carey,Morabito</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>EA</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Draft,Pending Level 1,Pending Level 2</value>
+        </filters>
+        <label>USA Requests USGAR EA Viewer</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>USA_Requests_USGAR_EA_Viewer2</fullName>
+        <columns>NAME</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Approver_1_name__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>Renie,Carey-Filer,Morabito</value>
+        </filters>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>contains</operation>
+            <value>EA</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Draft,Pending Level 1,Pending Level 2</value>
+        </filters>
+        <label>USA Requests USGAR EA Viewer</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WW_bFS_CPQ_Failed</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>AssigneeFormula__c</columns>
+        <columns>Assignee__c</columns>
+        <columns>PermissionSetGroup__c</columns>
+        <columns>PendingAssigneeId__c</columns>
+        <columns>PendingAssigneeName__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PermissionSetGroup__c</field>
+            <operation>startsWith</operation>
+            <value>ITB,FS</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>WW - bFS - CPQ - Failed</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>bFOCentralTeamSolutionProcess</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>bFO_DataLoader_Access_PermissionSetAssignmentRequests</fullName>
+        <columns>NAME</columns>
+        <columns>Assignee__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>bFO DataLoader Access</label>
+        <language>en_US</language>
+        <queue>bFO_DataLoader_Access</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>bFS_Partner_Portal_Approvers_PermissionSetAssignmentRequests</fullName>
+        <filterScope>Queue</filterScope>
+        <label>bFS Partner Portal Approvers</label>
+        <queue>bFS_Partner_Portal_Approvers</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>USGAR-{000000}</displayFormat>
+        <label>Request Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>User Security Group Assignment Requests</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>PermissionSetGroup__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Assignee__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Permission_Set_Assigned_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Auto_Remove_Assignment__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AutoRemoveOn__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>PermissionSetGroup__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Assignee__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Permission_Set_Assigned_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Auto_Remove_Assignment__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AutoRemoveOn__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>PLAT_USGAR_VR01_ChampionMandatory</fullName>
+        <active>true</active>
+        <description>Champion field on Assignee cannot be left blank</description>
+        <errorConditionFormula>$User.BypassVR__c = FALSE &amp;&amp;
+$User.TECH_ProfileName__c !=  $Label.CLJUN19PLAT01 &amp;&amp;
+(($User.FirstName &amp; &quot; &quot; &amp; $User.LastName) != &apos;Automated Process&apos;) &amp;&amp;
+(PermissionSetGroup__r.RecordType.DeveloperName = &apos;Profile&apos; ||
+ PermissionSetGroup__r.RecordType.DeveloperName = &apos;NewProfileActivation&apos;) &amp;&amp;
+ISBLANK(Assignee__r.Champion__c)</errorConditionFormula>
+        <errorMessage>Champion field of Assignee cannot be left blank.
+Please assign the champion to the user submitting assignment request</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PSAR_VR01_CannotChangeName</fullName>
+        <active>false</active>
+        <description>The name cannot be changed after the creation of the record.</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; ISCHANGED(Name)</errorConditionFormula>
+        <errorDisplayField>Name</errorDisplayField>
+        <errorMessage>You cannot change the name of a request.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PSAR_VR02_Duration_Mandatory</fullName>
+        <active>true</active>
+        <description>When Auto Remove Assignment is true the Duration selection is manadate</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),(Auto_Remove_Assignment__c =True), TEXT( Duration_Applicable__c) = &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Duration_Applicable__c</errorDisplayField>
+        <errorMessage>When Auto Removal Assignment is &quot;True&quot; then “Duration Applicable” is mandatory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PSAR_VR_Auto_Remove_Assignmen_Mandatory</fullName>
+        <active>true</active>
+        <description>Auto Remove Assignment is Mandatory when Duration Applicable is selected</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),(Auto_Remove_Assignment__c =false), TEXT( Duration_Applicable__c) != &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Auto_Remove_Assignment__c</errorDisplayField>
+        <errorMessage>Auto Remove Assignment is mandatory when Duration Applicable is selected</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>ViewAssignments</fullName>
+        <availability>online</availability>
+        <description>Custom button returning the Permission Set Group Assignment of the related user</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>View Assignments</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/VFP_PermissionSetAssignmentread?Id={!PermissionSetAssignmentRequests__c.AssigneeId__c}</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A set of parameters used for integrating a Oracle CPQ Cloud site to this Salesforce org.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>BigMachines__API_Login__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>API Admin Login</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BigMachines__API_Password__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>API Admin Password</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Connected_App_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the Connected App to be used.</inlineHelpText>
+        <label>Connected App Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Access_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Allow_Quote_Creation__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Access Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FullAccess</fullName>
+                    <default>false</default>
+                    <label>FullAccess</label>
+                </value>
+                <value>
+                    <fullName>SalesAgent</fullName>
+                    <default>false</default>
+                    <label>SalesAgent</label>
+                </value>
+                <value>
+                    <fullName>ChannelAgent</fullName>
+                    <default>false</default>
+                    <label>ChannelAgent</label>
+                </value>
+                <value>
+                    <fullName>BuyAccess</fullName>
+                    <default>false</default>
+                    <label>BuyAccess</label>
+                </value>
+                <value>
+                    <fullName>RestrictedAccess</fullName>
+                    <default>false</default>
+                    <label>RestrictedAccess</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Allow_Quote_Creation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Allow_Quote_Creation__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Allow Quote Creation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Association_to_Organization__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Association_to_Organization__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Association to Organization</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Internal User</fullName>
+                    <default>false</default>
+                    <label>Internal User</label>
+                </value>
+                <value>
+                    <fullName>Partner User</fullName>
+                    <default>false</default>
+                    <label>Partner User</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Bulk_Synchronization__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Bulk_Synchronization__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Suspend Oracle CPQ Cloud Synch</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Currency_Preference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Currency_Preference__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Currency Preference</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>USD</fullName>
+                    <default>false</default>
+                    <label>USD</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Date_Time_Format__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Date_Time_Format__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Date/Time Format</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>MM/dd/yyyy h:mm a</fullName>
+                    <default>false</default>
+                    <label>MM/dd/yyyy h:mm a</label>
+                </value>
+                <value>
+                    <fullName>MM/dd/yyyy HH:mm</fullName>
+                    <default>false</default>
+                    <label>MM/dd/yyyy HH:mm</label>
+                </value>
+                <value>
+                    <fullName>dd/MM/yyyy HH:mm</fullName>
+                    <default>false</default>
+                    <label>dd/MM/yyyy HH:mm</label>
+                </value>
+                <value>
+                    <fullName>dd.MM.yyyy HH:mm</fullName>
+                    <default>false</default>
+                    <label>dd.MM.yyyy HH:mm</label>
+                </value>
+                <value>
+                    <fullName>yyyy/MM/dd HH:mm</fullName>
+                    <default>false</default>
+                    <label>yyyy/MM/dd HH:mm</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Language_Preference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Language_Preference__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Language Preference</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>English</fullName>
+                    <default>false</default>
+                    <label>English</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Number_Format__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Number_Format__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Number Format</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>####.##</fullName>
+                    <default>false</default>
+                    <label>####.##</label>
+                </value>
+                <value>
+                    <fullName>####,##</fullName>
+                    <default>false</default>
+                    <label>####,##</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Provisioned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Provisioned__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Synch with Oracle CPQ Cloud</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Time_Zone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Time_Zone__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Time Zone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>(GMT-11:00 GMT-11:00) Samoa</fullName>
+                    <default>false</default>
+                    <label>(GMT-11:00 GMT-11:00) Samoa</label>
+                </value>
+                <value>
+                    <fullName>(GMT-10:00 GMT-10:00) Hawaii</fullName>
+                    <default>false</default>
+                    <label>(GMT-10:00 GMT-10:00) Hawaii</label>
+                </value>
+                <value>
+                    <fullName>(GMT-10:00 GMT-9:00) Aleutian</fullName>
+                    <default>false</default>
+                    <label>(GMT-10:00 GMT-9:00) Aleutian</label>
+                </value>
+                <value>
+                    <fullName>(GMT-9:30 GMT-9:30) Marquesas</fullName>
+                    <default>false</default>
+                    <label>(GMT-9:30 GMT-9:30) Marquesas</label>
+                </value>
+                <value>
+                    <fullName>(GMT-9:00 GMT-9:00) Gambier</fullName>
+                    <default>false</default>
+                    <label>(GMT-9:00 GMT-9:00) Gambier</label>
+                </value>
+                <value>
+                    <fullName>(GMT-9:00 GMT-8:00) Alaska</fullName>
+                    <default>false</default>
+                    <label>(GMT-9:00 GMT-8:00) Alaska</label>
+                </value>
+                <value>
+                    <fullName>(GMT-8:00 GMT-8:00) Pitcairn</fullName>
+                    <default>false</default>
+                    <label>(GMT-8:00 GMT-8:00) Pitcairn</label>
+                </value>
+                <value>
+                    <fullName>(GMT-8:00 GMT-7:00) US Pacific Time</fullName>
+                    <default>false</default>
+                    <label>(GMT-8:00 GMT-7:00) US Pacific Time</label>
+                </value>
+                <value>
+                    <fullName>(GMT-7:00 GMT-7:00) Arizona</fullName>
+                    <default>false</default>
+                    <label>(GMT-7:00 GMT-7:00) Arizona</label>
+                </value>
+                <value>
+                    <fullName>(GMT-7:00 GMT-6:00) Mountain</fullName>
+                    <default>false</default>
+                    <label>(GMT-7:00 GMT-6:00) Mountain</label>
+                </value>
+                <value>
+                    <fullName>(GMT-6:00 GMT-6:00) Saskatchewan</fullName>
+                    <default>false</default>
+                    <label>(GMT-6:00 GMT-6:00) Saskatchewan</label>
+                </value>
+                <value>
+                    <fullName>(GMT-6:00 GMT-5:00) US Central Time</fullName>
+                    <default>false</default>
+                    <label>(GMT-6:00 GMT-5:00) US Central Time</label>
+                </value>
+                <value>
+                    <fullName>(GMT-5:00 GMT-5:00) Indianapolis</fullName>
+                    <default>false</default>
+                    <label>(GMT-5:00 GMT-5:00) Indianapolis</label>
+                </value>
+                <value>
+                    <fullName>(GMT-5:00 GMT-4:00) US Eastern Time</fullName>
+                    <default>false</default>
+                    <label>(GMT-5:00 GMT-4:00) US Eastern Time</label>
+                </value>
+                <value>
+                    <fullName>(GMT-4:00 GMT-4:00) Puerto Rico</fullName>
+                    <default>false</default>
+                    <label>(GMT-4:00 GMT-4:00) Puerto Rico</label>
+                </value>
+                <value>
+                    <fullName>(GMT-3:00 GMT-4:00) Chile</fullName>
+                    <default>false</default>
+                    <label>(GMT-3:00 GMT-4:00) Chile</label>
+                </value>
+                <value>
+                    <fullName>(GMT-4:00 GMT-3:00) Canada Atlantic Time</fullName>
+                    <default>false</default>
+                    <label>(GMT-4:00 GMT-3:00) Canada Atlantic Time</label>
+                </value>
+                <value>
+                    <fullName>(GMT-3:00 GMT-3:00) Buenos Aires</fullName>
+                    <default>false</default>
+                    <label>(GMT-3:00 GMT-3:00) Buenos Aires</label>
+                </value>
+                <value>
+                    <fullName>(GMT-3:30 GMT-2:30) Newfoundland</fullName>
+                    <default>false</default>
+                    <label>(GMT-3:30 GMT-2:30) Newfoundland</label>
+                </value>
+                <value>
+                    <fullName>(GMT-2:00 GMT-3:00) Sao Paulo</fullName>
+                    <default>false</default>
+                    <label>(GMT-2:00 GMT-3:00) Sao Paulo</label>
+                </value>
+                <value>
+                    <fullName>(GMT-2:00 GMT-2:00) Brazil/DeNoronha</fullName>
+                    <default>false</default>
+                    <label>(GMT-2:00 GMT-2:00) Brazil/DeNoronha</label>
+                </value>
+                <value>
+                    <fullName>(GMT-1:00 GMT-1:00) Cape Verde</fullName>
+                    <default>false</default>
+                    <label>(GMT-1:00 GMT-1:00) Cape Verde</label>
+                </value>
+                <value>
+                    <fullName>(GMT-1:00 GMT+0:00) Azores</fullName>
+                    <default>false</default>
+                    <label>(GMT-1:00 GMT+0:00) Azores</label>
+                </value>
+                <value>
+                    <fullName>(GMT+0:00 GMT+0:00) GMT</fullName>
+                    <default>false</default>
+                    <label>(GMT+0:00 GMT+0:00) GMT</label>
+                </value>
+                <value>
+                    <fullName>(GMT+0:00 GMT+1:00) London</fullName>
+                    <default>false</default>
+                    <label>(GMT+0:00 GMT+1:00) London</label>
+                </value>
+                <value>
+                    <fullName>(GMT+1:00 GMT+1:00) Algiers</fullName>
+                    <default>false</default>
+                    <label>(GMT+1:00 GMT+1:00) Algiers</label>
+                </value>
+                <value>
+                    <fullName>(GMT+2:00 GMT+1:00) Windhoek</fullName>
+                    <default>false</default>
+                    <label>(GMT+2:00 GMT+1:00) Windhoek</label>
+                </value>
+                <value>
+                    <fullName>(GMT+1:00 GMT+2:00) Amsterdam</fullName>
+                    <default>false</default>
+                    <label>(GMT+1:00 GMT+2:00) Amsterdam</label>
+                </value>
+                <value>
+                    <fullName>(GMT+2:00 GMT+2:00) Tripoli</fullName>
+                    <default>false</default>
+                    <label>(GMT+2:00 GMT+2:00) Tripoli</label>
+                </value>
+                <value>
+                    <fullName>(GMT+2:00 GMT+3:00) Israel</fullName>
+                    <default>false</default>
+                    <label>(GMT+2:00 GMT+3:00) Israel</label>
+                </value>
+                <value>
+                    <fullName>(GMT+3:00 GMT+3:00) Nairobi</fullName>
+                    <default>false</default>
+                    <label>(GMT+3:00 GMT+3:00) Nairobi</label>
+                </value>
+                <value>
+                    <fullName>(GMT+3:00 GMT+4:00) Moscow</fullName>
+                    <default>false</default>
+                    <label>(GMT+3:00 GMT+4:00) Moscow</label>
+                </value>
+                <value>
+                    <fullName>(GMT+3:30 GMT+4:30) Tehran</fullName>
+                    <default>false</default>
+                    <label>(GMT+3:30 GMT+4:30) Tehran</label>
+                </value>
+                <value>
+                    <fullName>(GMT+4:00 GMT+4:00) Dubai</fullName>
+                    <default>false</default>
+                    <label>(GMT+4:00 GMT+4:00) Dubai</label>
+                </value>
+                <value>
+                    <fullName>(GMT+4:00 GMT+5:00) Oral</fullName>
+                    <default>false</default>
+                    <label>(GMT+4:00 GMT+5:00) Oral</label>
+                </value>
+                <value>
+                    <fullName>(GMT+4:30 GMT+4:30) Kabul</fullName>
+                    <default>false</default>
+                    <label>(GMT+4:30 GMT+4:30) Kabul</label>
+                </value>
+                <value>
+                    <fullName>(GMT+5:00 GMT+5:00) Karachi</fullName>
+                    <default>false</default>
+                    <label>(GMT+5:00 GMT+5:00) Karachi</label>
+                </value>
+                <value>
+                    <fullName>(GMT+5:00 GMT+6:00) Yekaterinburg</fullName>
+                    <default>false</default>
+                    <label>(GMT+5:00 GMT+6:00) Yekaterinburg</label>
+                </value>
+                <value>
+                    <fullName>(GMT+5:30 GMT+5:30) Calcutta</fullName>
+                    <default>false</default>
+                    <label>(GMT+5:30 GMT+5:30) Calcutta</label>
+                </value>
+                <value>
+                    <fullName>(GMT+5:45 GMT+5:45) Katmandu</fullName>
+                    <default>false</default>
+                    <label>(GMT+5:45 GMT+5:45) Katmandu</label>
+                </value>
+                <value>
+                    <fullName>(GMT+6:00 GMT+6:00) Dhaka</fullName>
+                    <default>false</default>
+                    <label>(GMT+6:00 GMT+6:00) Dhaka</label>
+                </value>
+                <value>
+                    <fullName>(GMT+6:00 GMT+7:00) Novosibirsk</fullName>
+                    <default>false</default>
+                    <label>(GMT+6:00 GMT+7:00) Novosibirsk</label>
+                </value>
+                <value>
+                    <fullName>(GMT+6:30 GMT+6:30) Rangoon</fullName>
+                    <default>false</default>
+                    <label>(GMT+6:30 GMT+6:30) Rangoon</label>
+                </value>
+                <value>
+                    <fullName>(GMT+7:00 GMT+7:00) Bangkok</fullName>
+                    <default>false</default>
+                    <label>(GMT+7:00 GMT+7:00) Bangkok</label>
+                </value>
+                <value>
+                    <fullName>(GMT+7:00 GMT+8:00) Krasnoyarsk</fullName>
+                    <default>false</default>
+                    <label>(GMT+7:00 GMT+8:00) Krasnoyarsk</label>
+                </value>
+                <value>
+                    <fullName>(GMT+8:00 GMT+8:00) Taipei</fullName>
+                    <default>false</default>
+                    <label>(GMT+8:00 GMT+8:00) Taipei</label>
+                </value>
+                <value>
+                    <fullName>(GMT+8:00 GMT+8:00) Perth</fullName>
+                    <default>false</default>
+                    <label>(GMT+8:00 GMT+8:00) Perth</label>
+                </value>
+                <value>
+                    <fullName>(GMT+8:00 GMT+9:00) Irkutsk</fullName>
+                    <default>false</default>
+                    <label>(GMT+8:00 GMT+9:00) Irkutsk</label>
+                </value>
+                <value>
+                    <fullName>(GMT+9:00 GMT+9:00) Seoul</fullName>
+                    <default>false</default>
+                    <label>(GMT+9:00 GMT+9:00) Seoul</label>
+                </value>
+                <value>
+                    <fullName>(GMT+9:00 GMT+10:00) Yakutsk</fullName>
+                    <default>false</default>
+                    <label>(GMT+9:00 GMT+10:00) Yakutsk</label>
+                </value>
+                <value>
+                    <fullName>(GMT+9:30 GMT+9:30) Darwin</fullName>
+                    <default>false</default>
+                    <label>(GMT+9:30 GMT+9:30) Darwin</label>
+                </value>
+                <value>
+                    <fullName>(GMT+10:00 GMT+10:00) Queensland</fullName>
+                    <default>false</default>
+                    <label>(GMT+10:00 GMT+10:00) Queensland</label>
+                </value>
+                <value>
+                    <fullName>(GMT+10:30 GMT+9:30) Adelaide</fullName>
+                    <default>false</default>
+                    <label>(GMT+10:30 GMT+9:30) Adelaide</label>
+                </value>
+                <value>
+                    <fullName>(GMT+11:00 GMT+10:00) Canberra</fullName>
+                    <default>false</default>
+                    <label>(GMT+11:00 GMT+10:00) Canberra</label>
+                </value>
+                <value>
+                    <fullName>&gt;GMT+11:00 GMT+10:00) Melbourne</fullName>
+                    <default>false</default>
+                    <label>&gt;GMT+11:00 GMT+10:00) Melbourne</label>
+                </value>
+                <value>
+                    <fullName>(GMT+11:00 GMT+10:00) Sydney</fullName>
+                    <default>false</default>
+                    <label>(GMT+11:00 GMT+10:00) Sydney</label>
+                </value>
+                <value>
+                    <fullName>(GMT+10:00 GMT+11:00) Vladivostok</fullName>
+                    <default>false</default>
+                    <label>(GMT+10:00 GMT+11:00) Vladivostok</label>
+                </value>
+                <value>
+                    <fullName>(GMT+11:00 GMT+10:30) Lord Howe</fullName>
+                    <default>false</default>
+                    <label>(GMT+11:00 GMT+10:30) Lord Howe</label>
+                </value>
+                <value>
+                    <fullName>(GMT+11:00 GMT+11:00) Ponape</fullName>
+                    <default>false</default>
+                    <label>(GMT+11:00 GMT+11:00) Ponape</label>
+                </value>
+                <value>
+                    <fullName>(GMT+11:00 GMT+12:00) Magadan</fullName>
+                    <default>false</default>
+                    <label>(GMT+11:00 GMT+12:00) Magadan</label>
+                </value>
+                <value>
+                    <fullName>(GMT+11:30 GMT+11:30) Norfolk</fullName>
+                    <default>false</default>
+                    <label>(GMT+11:30 GMT+11:30) Norfolk</label>
+                </value>
+                <value>
+                    <fullName>(GMT+12:00 GMT+12:00) Fiji</fullName>
+                    <default>false</default>
+                    <label>(GMT+12:00 GMT+12:00) Fiji</label>
+                </value>
+                <value>
+                    <fullName>(GMT+13:00 GMT+12:00) Auckland</fullName>
+                    <default>false</default>
+                    <label>(GMT+13:00 GMT+12:00) Auckland</label>
+                </value>
+                <value>
+                    <fullName>(GMT+12:00 GMT+13:00) Kamchatka</fullName>
+                    <default>false</default>
+                    <label>(GMT+12:00 GMT+13:00) Kamchatka</label>
+                </value>
+                <value>
+                    <fullName>(GMT+13:00 GMT+13:00) Enderbury</fullName>
+                    <default>false</default>
+                    <label>(GMT+13:00 GMT+13:00) Enderbury</label>
+                </value>
+                <value>
+                    <fullName>(GMT+13:45 GMT+12:45) Chatham</fullName>
+                    <default>false</default>
+                    <label>(GMT+13:45 GMT+12:45) Chatham</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_Unit_System__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.Unit_System__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default Unit System</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>System Default</fullName>
+                    <default>true</default>
+                    <label>System Default</label>
+                </value>
+                <value>
+                    <fullName>English</fullName>
+                    <default>false</default>
+                    <label>English</label>
+                </value>
+                <value>
+                    <fullName>Metric</fullName>
+                    <default>false</default>
+                    <label>Metric</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Default_User_Groups__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default value for Oracle_User__c.User_Groups__c for new users associated with this CPQ Site.</description>
+        <externalId>false</externalId>
+        <label>Default User Groups</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>false</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>a100kparts</fullName>
+                    <default>false</default>
+                    <label>a100kparts</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is Active?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Is_Primary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is Primary?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Password_Encrypted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checked based on whether or not the password currently stored is encrypted.</description>
+        <externalId>false</externalId>
+        <label>Password Encrypted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Primary_Commerce_Process__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Multiple commerce processes on a CPQ instance can integrated with Salesforce.  Unchecking this field indicates that this CPQ Cloud Site will be used to integrate with a second commerce process.  As commerce processes share users, secondary commerce processes cannot synchronize users.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Leave this field checked unless integrating with a second commerce process.</inlineHelpText>
+        <label>Primary Commerce Process</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Access_Type__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Access Type</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Allow_Quote_Creation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Allow Quote Creation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Association_to_Organization__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Association to Organization</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Bulk_Synchronization__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Suspend Oracle CPQ Synch</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Currency_Preference__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Currency Preference</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Date_Time_Format__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Date/Time Format</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Language_Preference__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Language Preference</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Number_Format__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Number Format</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Provisioned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Synch with Oracle CPQ Cloud</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Time_Zone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Time Zone</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_Unit_System__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default Unit System</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Use_Default_User_Groups__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Use Default User Groups</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__Uses_SSL__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Uses SSL?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BigMachines__action_id_copy__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>action_id_copy</inlineHelpText>
+        <label>Copy Action ID</label>
+        <length>12</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BigMachines__action_id_open__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>action_id_open</inlineHelpText>
+        <label>Open Action ID</label>
+        <length>12</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BigMachines__bm_site__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>bm_site</inlineHelpText>
+        <label>Site Name</label>
+        <length>80</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BigMachines__document_id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>document_id</inlineHelpText>
+        <label>Document ID</label>
+        <length>12</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BigMachines__process__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>process</inlineHelpText>
+        <label>Process Variable Name</label>
+        <length>80</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BigMachines__process_id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>process_id</inlineHelpText>
+        <label>Process ID</label>
+        <length>12</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BigMachines__version_id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>version_id</inlineHelpText>
+        <label>Version ID</label>
+        <length>12</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Oracle CPQ Cloud Site</label>
+    <listViews>
+        <fullName>BigMachines__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>SITE-{000}</displayFormat>
+        <label>Record Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Oracle CPQ Cloud Site Setup</pluralLabel>
+    <recordTypes>
+        <fullName>BigMachines__Standard</fullName>
+        <active>true</active>
+        <label>Standard</label>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>BigMachines__bm_site__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BigMachines__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BigMachines__Is_Primary__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>BigMachines__Description__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

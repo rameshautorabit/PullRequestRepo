@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>Assigned_Tools_Technicians_Field_Set</fullName>
+        <description>Assigned Tools/Technicians Field Set</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>TechnicianEquipment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Completed_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Assigned Tools/Technicians Field Set</label>
+    </fieldSets>
+    <fields>
+        <fullName>AcceptRejectDate__c</fullName>
+        <description>Used to capture when an assignment has been accepted or rejected</description>
+        <externalId>false</externalId>
+        <label>Accept/Reject Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Additional_comments__c</fullName>
+        <description>BR-11554</description>
+        <externalId>false</externalId>
+        <label>Additional comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ChangeOrderATT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Populated through change order linked SFM.</description>
+        <externalId>false</externalId>
+        <label>Change Order ATT</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Clocking_Start_Timestamp__c</fullName>
+        <description>This field captures Clocking Start Timestamp in Offline client. not used in online or in Accept/Reject process</description>
+        <externalId>false</externalId>
+        <label>Clocking Start Timestamp</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Completed_Date__c</fullName>
+        <description>Will be filled thanks to the SFM &quot;Complete Task&quot; by secondaries FSR. Primary technician will use the existing &quot;Complete Work Order&quot;</description>
+        <externalId>false</externalId>
+        <label>Completed Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DrivingTimeHome__c</fullName>
+        <externalId>false</externalId>
+        <label>Driving Time After (min)</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DrivingTime__c</fullName>
+        <externalId>false</externalId>
+        <label>Driving Time Before (min)</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duration__c</fullName>
+        <description>Duration in hours</description>
+        <externalId>false</externalId>
+        <formula>(EndDateTime__c -  StartDateTime__c)*24</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EndDateTime__c</fullName>
+        <externalId>false</externalId>
+        <label>End DateTime</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>EventID__c</fullName>
+        <externalId>false</externalId>
+        <label>Event ID</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSEWOId__c</fullName>
+        <externalId>false</externalId>
+        <formula>WorkOrder__r.FSEWOId__c</formula>
+        <label>Local Tracking Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSR_Response__c</fullName>
+        <description>FSR Reponse that is recorded when the FSR rejects a work order assignment via email.  This is &quot;scrubbed&quot; from the body of the email.</description>
+        <externalId>false</externalId>
+        <label>FSR Response</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSR_Salesforce_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>FSR Salesforce User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Assigned_Tools_Technicians</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FSR_User_Id_via_Tech_Object__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(IF(ISBLANK(TechnicianEquipment__r.SVMXC__Salesforce_User__c),&apos;TechnicianEquipment__r.ThirdPartyContact__c&apos;,&apos;TechnicianEquipment__r.SVMXC__Salesforce_User__c&apos;))</formula>
+        <label>FSR User Id via Tech Object</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>TechnicianEquipment__r.SVMXC__Salesforce_User__r.Id ==  $User.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Owner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Labour_Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Clocking Activity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Travel Start</fullName>
+                    <default>false</default>
+                    <label>Travel Start</label>
+                </value>
+                <value>
+                    <fullName>Travel End</fullName>
+                    <default>false</default>
+                    <label>Travel End</label>
+                </value>
+                <value>
+                    <fullName>Service Start</fullName>
+                    <default>false</default>
+                    <label>Service Start</label>
+                </value>
+                <value>
+                    <fullName>Service End</fullName>
+                    <default>false</default>
+                    <label>Service End</label>
+                </value>
+                <value>
+                    <fullName>Other Activity Start</fullName>
+                    <default>false</default>
+                    <label>Other Activitiy Start</label>
+                </value>
+                <value>
+                    <fullName>Other Activity End</fullName>
+                    <default>false</default>
+                    <label>Other Activity End</label>
+                </value>
+                <value>
+                    <fullName>Client Delay End</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Client Delay End</label>
+                </value>
+                <value>
+                    <fullName>Client Delay Start</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Client Delay Start</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LastCancellationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Cancellation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LatestNotificationDate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Latest Notification (SMS and/or Email) sent to the technician</inlineHelpText>
+        <label>Latest Notification Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LocalTrackingEvent__c</fullName>
+        <defaultValue>&apos;WO.ACKUpd&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>Local Tracking Event</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalTrackingStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Local Tracking Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Success</fullName>
+                    <default>false</default>
+                    <label>Success</label>
+                </value>
+                <value>
+                    <fullName>Failed</fullName>
+                    <default>false</default>
+                    <label>Failed</label>
+                </value>
+                <value>
+                    <fullName>To be processed</fullName>
+                    <default>false</default>
+                    <label>To be processed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Local_Tracking_Sync_Log__c</fullName>
+        <externalId>false</externalId>
+        <label>Local Tracking Sync Log</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <referenceTo>SVMXC__Site__c</referenceTo>
+        <relationshipLabel>Assigned Tools/Technicians</relationshipLabel>
+        <relationshipName>AssignedToolsTechnicians</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MyTeam__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND(!ISBLANK(FSR_Salesforce_User__r.ManagerId),((FSR_Salesforce_User__r.ManagerId == $User.ManagerId) || (FSR_Salesforce_User__r.ManagerId == $User.Id)))</formula>
+        <label>My Team</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PrimaryUser__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Primary</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ReasonforRejection__c</fullName>
+        <description>Reason for Rejection for Technician. Values are from WorkOrder.REason for Rejection</description>
+        <externalId>false</externalId>
+        <label>Reason for Rejection</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Status__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Technician Sick</fullName>
+                    <default>false</default>
+                    <label>Technician Sick</label>
+                </value>
+                <value>
+                    <fullName>Parts/Tools Unavailable</fullName>
+                    <default>false</default>
+                    <label>Parts/Tools Unavailable</label>
+                </value>
+                <value>
+                    <fullName>Weather Related</fullName>
+                    <default>false</default>
+                    <label>Weather Related</label>
+                </value>
+                <value>
+                    <fullName>Personal Time</fullName>
+                    <default>false</default>
+                    <label>Personal Time</label>
+                </value>
+                <value>
+                    <fullName>Exceeded Working Hours</fullName>
+                    <default>false</default>
+                    <label>Exceeded Working Hours</label>
+                </value>
+                <value>
+                    <fullName>Planner Error</fullName>
+                    <default>false</default>
+                    <label>Planner Error</label>
+                </value>
+                <value>
+                    <fullName>Distance</fullName>
+                    <default>false</default>
+                    <label>Distance</label>
+                </value>
+                <value>
+                    <fullName>Exceeded hours</fullName>
+                    <default>false</default>
+                    <label>Exceeded hours</label>
+                </value>
+                <value>
+                    <fullName>Flexing schedule</fullName>
+                    <default>false</default>
+                    <label>Flexing schedule</label>
+                </value>
+                <value>
+                    <fullName>Illness</fullName>
+                    <default>false</default>
+                    <label>Illness</label>
+                </value>
+                <value>
+                    <fullName>Insufficient funds</fullName>
+                    <default>false</default>
+                    <label>Insufficient funds</label>
+                </value>
+                <value>
+                    <fullName>Laptop unavailable</fullName>
+                    <default>false</default>
+                    <label>Laptop unavailable</label>
+                </value>
+                <value>
+                    <fullName>Not qualified</fullName>
+                    <default>false</default>
+                    <label>Not qualified</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Technician Sick</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Parts/Tools Unavailable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Weather Related</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Personal Time</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Exceeded Working Hours</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Planner Error</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Distance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Exceeded hours</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Flexing schedule</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Illness</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Insufficient funds</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Laptop unavailable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Not qualified</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SESAID__c</fullName>
+        <externalId>false</externalId>
+        <formula>TechnicianEquipment__r.SESAID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SESA ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sites_Access_Token__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Token used to access record in SFDC via Sites page for Accept/Reject Work Order functionality</description>
+        <externalId>true</externalId>
+        <label>Sites Access Token</label>
+        <length>38</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>StartDateTime__c</fullName>
+        <externalId>false</externalId>
+        <label>Start DateTime</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Assigned</fullName>
+                    <default>true</default>
+                    <label>Assigned</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TECH_CustomerEndDateTime__c</fullName>
+        <description>Technical field to store calculated FSR work order end time in the customer&apos;s timezone.</description>
+        <externalId>false</externalId>
+        <label>TECH_CustomerEndDateTime</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_CustomerStartDateTime__c</fullName>
+        <description>Technical field to store calculated FSR work order start time in the customer&apos;s timezone.</description>
+        <externalId>false</externalId>
+        <label>TECH_CustomerStartDateTime</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_FSREmail__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_FSREmail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_FSREndDateTime__c</fullName>
+        <description>Technical field to store calculated FSR work order end time in the FSR&apos;s timezone.</description>
+        <externalId>false</externalId>
+        <label>TECH_FSREndDateTime</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_FSRNotification__c</fullName>
+        <description>Notification sent to the FSR at customer confirmed</description>
+        <externalId>false</externalId>
+        <label>TECH_FSRNotification</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TECH_FSRStartDateTime__c</fullName>
+        <description>Technical field to store calculated FSR work order start time in the FSR&apos;s timezone.</description>
+        <externalId>false</externalId>
+        <label>TECH_FSRStartDateTime</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TechnicianEquipment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>FSR/Equipment</label>
+        <referenceTo>SVMXC__Service_Group_Members__c</referenceTo>
+        <relationshipLabel>Assigned Tools/Technicians</relationshipLabel>
+        <relationshipName>AssignedToolsTechnicians</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WOEndDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>WorkOrder__r.maxAssignedDateTime__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>WO End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>WOStartDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>WorkOrder__r.minAssignedDateTime__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>WO Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>WorkOrder__c</fullName>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <referenceTo>SVMXC__Service_Order__c</referenceTo>
+        <relationshipLabel>Assigned Work Orders</relationshipLabel>
+        <relationshipName>Assigned_Tools_Technicians</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>WorkorderPrimaryFSR__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(WorkOrder__r.SVMXC__Group_Member__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>WorkorderPrimaryFSR</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Assigned Tools/Technicians</label>
+    <nameField>
+        <displayFormat>AT-{00000}</displayFormat>
+        <label>Assignment Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Assigned Tools/Technicians</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>ATT_VR_Mar2019_LockSchedule</fullName>
+        <active>true</active>
+        <description>Prevent the WO reschedule when Lock Schedule = true.</description>
+        <errorConditionFormula>AND( 
+NOT($User.BypassVR__c), 
+WorkOrder__r.LockSchedule__c=true, 
+OR(
+AND(ISCHANGED(Status__c),
+ISPICKVAL(Status__c, &quot;Cancelled&quot;)),
+ISCHANGED(StartDateTime__c),
+ISCHANGED(EndDateTime__c),
+ISNEW()
+)
+)</errorConditionFormula>
+        <errorMessage>This Work Order Schedule has been locked and therefore you cannot reschedule.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

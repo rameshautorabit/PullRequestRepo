@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Notes_Database_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Notes_Database_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>PAN_Business_Unit__c</fields>
+        <fields>PAN_Business_Priority__c</fields>
+        <fields>PAN_Zone__c</fields>
+        <fields>PAN_Status__c</fields>
+        <label>Notes Database Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Escape_Notes_ID_External_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Escape Notes ID (External ID)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>PAN_Additional_BRs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Additional BRs</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Administrator__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Administrator</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Notes_Databases</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PAN_App_Logo_Screenshot__c</fullName>
+        <externalId>false</externalId>
+        <label>App Logo Screenshot</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAN_Application_Description_and_Goal__c</fullName>
+        <externalId>false</externalId>
+        <label>Application Description and Goal</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAN_Approximate_numberofusers_to_deploy__c</fullName>
+        <externalId>false</externalId>
+        <label>Approximate number of users to deploy</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PAN_As_Is_Integration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>As-Is Integration with no additional BR</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_BR_Approval_by_Process_Owner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- BR Approval by Process Owner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Box_folder_created__c</fullName>
+        <externalId>false</externalId>
+        <label>- Box folder created</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Business_Priority__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Priority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PAN_Business_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Areva</fullName>
+                    <default>false</default>
+                    <label>Areva</label>
+                </value>
+                <value>
+                    <fullName>Europe</fullName>
+                    <default>false</default>
+                    <label>Europe</label>
+                </value>
+                <value>
+                    <fullName>Invensys</fullName>
+                    <default>false</default>
+                    <label>Invensys</label>
+                </value>
+                <value>
+                    <fullName>ITB</fullName>
+                    <default>false</default>
+                    <label>ITB</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>QuickR</fullName>
+                    <default>false</default>
+                    <label>QuickR</label>
+                </value>
+                <value>
+                    <fullName>Schneider</fullName>
+                    <default>false</default>
+                    <label>Schneider</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PAN_Complexity__c</fullName>
+        <externalId>false</externalId>
+        <label>Complexity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard (Iso Process)</fullName>
+                    <default>false</default>
+                    <label>Standard (Iso Process)</label>
+                </value>
+                <value>
+                    <fullName>Advanced (New BR or New Special Project)</fullName>
+                    <default>false</default>
+                    <label>Advanced (New BR or New Special Project)</label>
+                </value>
+                <value>
+                    <fullName>Integrated (Connector(s))</fullName>
+                    <default>false</default>
+                    <label>Integrated (Connector(s))</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PAN_Confirm_or_Qualify_the_Stream__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Confirm or Qualify the Stream</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Confirm_or_Qualify_the_Target_System__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Confirm or Qualify the Target System</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Connectors__c</fullName>
+        <externalId>false</externalId>
+        <label>Connectors</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAN_Contract_Order_with_Integrator__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Contract /Order with Integrator</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Create_1_BR_for_Delta_Requirements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Create 1 BR for Delta Requirements</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_DB_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>DB Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Notes_Databases1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Data_Migration_Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Migration Delivery Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Data_Migration_Done__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Data Migration Done</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Data_Migration_Needed__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Migration Needed?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PAN_Data_Migration_Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Migration Scope</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAN_Data_Quality_Acceptable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Data Quality Acceptable</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Database_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Database Link</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Delivery_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Delivery_done__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Delivery done</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Demo_scheduled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Demo scheduled</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Deployment_Folder__c</fullName>
+        <externalId>false</externalId>
+        <label>Deployment Folder</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Description_ofthe_Scope_toB_Migrated__c</fullName>
+        <externalId>false</externalId>
+        <label>Description of the Scope to be Migrated</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAN_Detail_Deployment__c</fullName>
+        <externalId>false</externalId>
+        <label>Detail Deployment</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAN_Email_sent_to_App_Contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Email sent to App Contact</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Find_the_database_Administrator__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Find the database Administrator</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Find_the_database_Owner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Find the database Owner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Firm_Release_allocation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Firm Release allocation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Follow_up_Next_step_s__c</fullName>
+        <externalId>false</externalId>
+        <label>Follow-up / Next step(s)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Gap_Analysis_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box once all requirements are tracked, and created one Business Requirement for all features not covered by the Tool - One BR for all</inlineHelpText>
+        <label>- Gap Analysis completed by bFO solution</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_ID_External_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>ID (External ID)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAN_IPO_Region__c</fullName>
+        <externalId>false</externalId>
+        <label>IPO Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>APAC</fullName>
+                    <default>false</default>
+                    <label>APAC</label>
+                </value>
+                <value>
+                    <fullName>China</fullName>
+                    <default>false</default>
+                    <label>China</label>
+                </value>
+                <value>
+                    <fullName>Europe</fullName>
+                    <default>false</default>
+                    <label>Europe</label>
+                </value>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>false</default>
+                    <label>Global</label>
+                </value>
+                <value>
+                    <fullName>ISMA</fullName>
+                    <default>false</default>
+                    <label>ISMA</label>
+                </value>
+                <value>
+                    <fullName>NAM</fullName>
+                    <default>false</default>
+                    <label>NAM</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PAN_Is_App_still_Live__c</fullName>
+        <externalId>false</externalId>
+        <label>Is App still Live ? Data Freshness?</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAN_KT_completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>- Knowledge Transfer about the process to the database Owner</inlineHelpText>
+        <label>- KT completed from DB owner to Sol Team</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Matching_bFO_Objects__c</fullName>
+        <externalId>false</externalId>
+        <label>Matching bFO Objects</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Migration_Project__c</fullName>
+        <externalId>false</externalId>
+        <label>Migration Project</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAN_Migration_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Migration Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Global - New</fullName>
+                    <default>false</default>
+                    <label>Global - New</label>
+                </value>
+                <value>
+                    <fullName>Global - Existing</fullName>
+                    <default>false</default>
+                    <label>Global - Existing</label>
+                </value>
+                <value>
+                    <fullName>Local - New</fullName>
+                    <default>false</default>
+                    <label>Local - New</label>
+                </value>
+                <value>
+                    <fullName>Local - Existing</fullName>
+                    <default>false</default>
+                    <label>Local - Existing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PAN_Parent_Notes_Database__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent Notes Database</label>
+        <referenceTo>PAN_Notes_Database__c</referenceTo>
+        <relationshipLabel>Children Databases</relationshipLabel>
+        <relationshipName>Notes_Databases</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Planification_in_Release__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Planification in Release</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Pre_study__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Pre-study</label>
+        <referenceTo>Pre_study__c</referenceTo>
+        <relationshipLabel>Notes Databases</relationshipLabel>
+        <relationshipName>Notes_Databases</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Pre_study_completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Pre-study completed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Process_Stream__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Process Stream</label>
+        <referenceTo>Process_Stream__c</referenceTo>
+        <relationshipLabel>Notes Databases</relationshipLabel>
+        <relationshipName>Notes_Databases</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <referenceTo>Project__c</referenceTo>
+        <relationshipLabel>Notes Databases</relationshipLabel>
+        <relationshipName>Notes_Databases</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Reason_for_Closure__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for Closure</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Release</label>
+        <referenceTo>Release__c</referenceTo>
+        <relationshipLabel>Notes Databases</relationshipLabel>
+        <relationshipName>Notes_Databases</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Replica_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Replica ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>PAN_Screenshots_or_User_Manual_loaded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>-Screenshots or UserManual loaded in Box</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Send_an_email_to_Solution_Owner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Send an email to Solution Owner to warn the Database has been assigned to him/her</inlineHelpText>
+        <label>- Send an email to Solution Owner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Server_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Server Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAN_Short_description__c</fullName>
+        <externalId>false</externalId>
+        <label>Short description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAN_Solution_owner_has_access_to_DB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Solution owner has access to DB</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not yet Reviewed</fullName>
+                    <default>true</default>
+                    <label>Not yet Reviewed</label>
+                </value>
+                <value>
+                    <fullName>Analysis</fullName>
+                    <default>false</default>
+                    <label>Analysis</label>
+                </value>
+                <value>
+                    <fullName>Gap Analysis Achieved</fullName>
+                    <default>false</default>
+                    <label>Gap Analysis Achieved</label>
+                </value>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Closed - Migrated in bFO</fullName>
+                    <default>false</default>
+                    <label>Closed - Migrated in bFO</label>
+                </value>
+                <value>
+                    <fullName>Closed - Not migrated in bFO</fullName>
+                    <default>false</default>
+                    <label>Closed - Not migrated in bFO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PAN_SubZone__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Zone/Country</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAN_Target_Systems__c</fullName>
+        <externalId>false</externalId>
+        <label>Target System(s)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Box</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>.NET</fullName>
+                    <default>false</default>
+                    <label>.NET</label>
+                </value>
+                <value>
+                    <fullName>bFO CCC</fullName>
+                    <default>false</default>
+                    <label>bFO CCC</label>
+                </value>
+                <value>
+                    <fullName>bFO I2P</fullName>
+                    <default>false</default>
+                    <label>bFO I2P</label>
+                </value>
+                <value>
+                    <fullName>bFO Others</fullName>
+                    <default>false</default>
+                    <label>bFO Others</label>
+                </value>
+                <value>
+                    <fullName>bFO Sales</fullName>
+                    <default>false</default>
+                    <label>bFO Sales</label>
+                </value>
+                <value>
+                    <fullName>bFS</fullName>
+                    <default>false</default>
+                    <label>bFS</label>
+                </value>
+                <value>
+                    <fullName>CKM</fullName>
+                    <default>false</default>
+                    <label>CKM</label>
+                </value>
+                <value>
+                    <fullName>Collaboration Sites</fullName>
+                    <default>false</default>
+                    <label>Collaboration Sites</label>
+                </value>
+                <value>
+                    <fullName>CPQ</fullName>
+                    <default>false</default>
+                    <label>CPQ</label>
+                </value>
+                <value>
+                    <fullName>DigiQ</fullName>
+                    <default>false</default>
+                    <label>DigiQ</label>
+                </value>
+                <value>
+                    <fullName>ERP</fullName>
+                    <default>false</default>
+                    <label>ERP</label>
+                </value>
+                <value>
+                    <fullName>FAX2ERP</fullName>
+                    <default>false</default>
+                    <label>FAX2ERP</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>One Offer</fullName>
+                    <default>false</default>
+                    <label>One Offer</label>
+                </value>
+                <value>
+                    <fullName>PRM</fullName>
+                    <default>false</default>
+                    <label>PRM</label>
+                </value>
+                <value>
+                    <fullName>SDH</fullName>
+                    <default>false</default>
+                    <label>SDH</label>
+                </value>
+                <value>
+                    <fullName>SDL</fullName>
+                    <default>false</default>
+                    <label>SDL</label>
+                </value>
+                <value>
+                    <fullName>SEK Homepage</fullName>
+                    <default>false</default>
+                    <label>SEK Homepage</label>
+                </value>
+                <value>
+                    <fullName>SKELTA</fullName>
+                    <default>false</default>
+                    <label>SKELTA</label>
+                </value>
+                <value>
+                    <fullName>Skelta ITB P1</fullName>
+                    <default>false</default>
+                    <label>Skelta ITB P1</label>
+                </value>
+                <value>
+                    <fullName>SKM</fullName>
+                    <default>false</default>
+                    <label>SKM</label>
+                </value>
+                <value>
+                    <fullName>Spice</fullName>
+                    <default>false</default>
+                    <label>Spice</label>
+                </value>
+                <value>
+                    <fullName>Spice Intranet</fullName>
+                    <default>false</default>
+                    <label>Spice Intranet</label>
+                </value>
+                <value>
+                    <fullName>Spice/Jive</fullName>
+                    <default>false</default>
+                    <label>Spice/Jive</label>
+                </value>
+                <value>
+                    <fullName>Workfront</fullName>
+                    <default>false</default>
+                    <label>Workfront</label>
+                </value>
+                <value>
+                    <fullName>New Project Needed</fullName>
+                    <default>false</default>
+                    <label>New Project Needed</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>TBD</fullName>
+                    <default>true</default>
+                    <label>TBD</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PAN_Training_Done__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Training Done</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_UsingPopulations_WithNumberOfUsers__c</fullName>
+        <externalId>false</externalId>
+        <label>Using Populations with Number of Users</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Workload_assessment_and_Integrator__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- Workload assessment and Integrator</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAN_Zone__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(PAN_Business_Unit__c) &amp; &quot;_&quot; &amp; TEXT(PAN_IPO_Region__c)  &amp; IF  (NOT(ISBLANK(PAN_SubZone__c)), &quot;_&quot; &amp;PAN_SubZone__c,&quot;&quot;)</formula>
+        <label>Zone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAN_with_Stream_Target_Det_Solowner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>- with Stream&amp;Target Determine SOL owner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Notes Database</label>
+    <listViews>
+        <fullName>All_Notes_Databases</fullName>
+        <columns>NAME</columns>
+        <columns>PAN_Short_description__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>PAN_Status__c</columns>
+        <columns>PAN_Parent_Notes_Database__c</columns>
+        <columns>PAN_Business_Priority__c</columns>
+        <columns>PAN_Process_Stream__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Notes Databases</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>I2P_Notes_Databases</fullName>
+        <columns>NAME</columns>
+        <columns>PAN_ID_External_ID__c</columns>
+        <columns>PAN_Short_description__c</columns>
+        <columns>PAN_DB_Owner__c</columns>
+        <columns>PAN_Status__c</columns>
+        <columns>PAN_Complexity__c</columns>
+        <columns>PAN_Database_Link__c</columns>
+        <columns>PAN_Migration_Type__c</columns>
+        <columns>PAN_Matching_bFO_Objects__c</columns>
+        <columns>PAN_Planification_in_Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.FIRST_NAME</field>
+            <operation>equals</operation>
+            <value>Anne-Cassandre</value>
+        </filters>
+        <label>I2P Notes Databases</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>bFO_CCC</fullName>
+        <columns>PAN_SubZone__c</columns>
+        <columns>PAN_Parent_Notes_Database__c</columns>
+        <columns>NAME</columns>
+        <columns>PAN_Status__c</columns>
+        <columns>PAN_Short_description__c</columns>
+        <columns>PAN_ID_External_ID__c</columns>
+        <columns>PAN_Replica_ID__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>PAN_Description_ofthe_Scope_toB_Migrated__c</columns>
+        <columns>PAN_Business_Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PAN_Process_Stream__c</field>
+            <operation>equals</operation>
+            <value>CCC</value>
+        </filters>
+        <label>bFO CCC</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Notes Database Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Notes Databases</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>PAN_Short_description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PAN_Administrator__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PAN_App_Logo_Screenshot__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PAN_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PAN_Zone__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PAN_Database_Link__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PAN_Box_folder_created__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>PAN_ReasonforClosure_filled_when_Closed</fullName>
+        <active>true</active>
+        <description>Reason for Closure needs to filled when Status is Closed</description>
+        <errorConditionFormula>ISBLANK( PAN_Reason_for_Closure__c )
+&amp;&amp;
+(LEFT(TEXT(PAN_Status__c),6)=&quot;Closed&quot;) &amp;&amp;  NOT( $User.BypassVR__c )</errorConditionFormula>
+        <errorDisplayField>PAN_Reason_for_Closure__c</errorDisplayField>
+        <errorMessage>Reason for Closure needs to filled when Status is Closed</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

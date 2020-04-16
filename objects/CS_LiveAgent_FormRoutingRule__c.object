@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AreProductFieldsVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Product Fields Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ChatButtonID__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>You can set an agent&apos;s ID or a chat button ID.
+In case your first option is not available, you can define a fallback to another button, by using the format depending on your first option :
+&lt;Agent-ID&gt;_&lt;Button-ID&gt;
+OR
+&lt;Button-ID&gt;,&lt;Button-ID&gt;</inlineHelpText>
+        <label>Chat Button ID</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Group Label</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsOrderNumberMandatory__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Order Number Mandatory</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsOrderNumberVisible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Order Number Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RoutingLabel__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If Advanced Routing Menu is turned on, the Group Label is used as the description of the button.</inlineHelpText>
+        <label>Routing Label</label>
+        <length>150</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_LiveAgent_FormRoutingRule</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Group__c</columns>
+        <columns>RoutingLabel__c</columns>
+        <columns>ChatButtonID__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Search</fullName>
+        <columns>NAME</columns>
+        <columns>ChatButtonID__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ChatButtonID__c</field>
+            <operation>contains</operation>
+            <value>573120000008Ssm</value>
+        </filters>
+        <label>Search</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Protected</visibility>
+</CustomObject>

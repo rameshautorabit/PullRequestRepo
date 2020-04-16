@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>2012R04 - Reference Table for administering the default Shipping Address on RMA</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>AddChangeProduct__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/apex/VFP_AddRPDTProduct?ID=&apos; + Id  +&apos;&amp;Mode=chp&apos; , &apos;[Change Product]&apos; ,&apos;_top&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&lt;AddChangeProduct&gt;</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AdditionalAddress__c</fullName>
+        <description>2012R04 – Shipping Address: Additional Information</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Further precision for the address like Building, Floor etc.</inlineHelpText>
+        <label>Additional Information</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BusinessUnit__c</fullName>
+        <description>I2P - RR :  Oct 2014 Release</description>
+        <externalId>false</externalId>
+        <label>TECH_BusinessUnit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CCCountry__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>2012R04 – CCC Country for the Shipping Address</description>
+        <externalId>false</externalId>
+        <label>CCC Country</label>
+        <referenceTo>Country__c</referenceTo>
+        <relationshipName>RMA_Shipping_To_Admin</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Capability__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Capability determines the Customer Resolution
+R2 2018 release : New values added</inlineHelpText>
+        <label>Capability</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Receive defective product</fullName>
+                    <default>false</default>
+                    <label>Receive defective product</label>
+                </value>
+                <value>
+                    <fullName>Repair defective product</fullName>
+                    <default>false</default>
+                    <label>Repair defective product</label>
+                </value>
+                <value>
+                    <fullName>Restock unused product</fullName>
+                    <default>false</default>
+                    <label>Restock unused product</label>
+                </value>
+                <value>
+                    <fullName>Technical Expert Assessment - In-House</fullName>
+                    <default>false</default>
+                    <label>Technical Expert Assessment - In-House</label>
+                </value>
+                <value>
+                    <fullName>Technical Expert Assessment - On-Site</fullName>
+                    <default>false</default>
+                    <label>Technical Expert Assessment - On-Site</label>
+                </value>
+                <value>
+                    <fullName>Technical Expert Assessment-InHouse+Rep</fullName>
+                    <default>false</default>
+                    <label>Technical Expert Assessment-InHouse+Rep</label>
+                </value>
+                <value>
+                    <fullName>Defective</fullName>
+                    <default>false</default>
+                    <label>Defective</label>
+                </value>
+                <value>
+                    <fullName>Not Used</fullName>
+                    <default>false</default>
+                    <label>Not Used</label>
+                </value>
+                <value>
+                    <fullName>Request Analysis</fullName>
+                    <default>false</default>
+                    <label>Request Analysis</label>
+                </value>
+                <value>
+                    <fullName>Dead on Arrival</fullName>
+                    <default>false</default>
+                    <label>Dead on Arrival</label>
+                </value>
+                <value>
+                    <fullName>Replace Proactively</fullName>
+                    <default>false</default>
+                    <label>Replace Proactively</label>
+                </value>
+                <value>
+                    <fullName>Used, Not Defective</fullName>
+                    <default>false</default>
+                    <label>Used, Not Defective</label>
+                </value>
+                <value>
+                    <fullName>TEX</fullName>
+                    <default>false</default>
+                    <label>TEX</label>
+                </value>
+                <value>
+                    <fullName>EPP Equipment Protection Policy</fullName>
+                    <default>false</default>
+                    <label>EPP Equipment Protection Policy</label>
+                </value>
+                <value>
+                    <fullName>Request For Analysis Direct Shipment</fullName>
+                    <default>false</default>
+                    <label>Request For Analysis Direct Shipment</label>
+                </value>
+                <value>
+                    <fullName>Request For Analysis Safety Critical</fullName>
+                    <default>false</default>
+                    <label>Request For Analysis Safety Critical</label>
+                </value>
+                <value>
+                    <fullName>New Product launch</fullName>
+                    <default>false</default>
+                    <label>New Product launch</label>
+                </value>
+                <value>
+                    <fullName>Transport Damage</fullName>
+                    <default>false</default>
+                    <label>Transport Damage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <description>2012R04 – Shipping Address: City</description>
+        <externalId>false</externalId>
+        <label>City</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommercialReference__c</fullName>
+        <externalId>false</externalId>
+        <label>Commercial Reference</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactEmail__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.ContactEmail__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CountryCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>CCCountry__r.CountryCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>2012R04 – Shipping Address: Country</description>
+        <externalId>false</externalId>
+        <label>End User Country</label>
+        <referenceTo>Country__c</referenceTo>
+        <relationshipLabel>Receiving Point Determination Rules (Country)</relationshipLabel>
+        <relationshipName>RMA_Shipping_To_Admin1</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>County__c</fullName>
+        <description>2012R04 – Shipping Address: County</description>
+        <externalId>false</externalId>
+        <label>County</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Family__c</fullName>
+        <description>I2P - RR :  Oct 2014 Release</description>
+        <externalId>false</externalId>
+        <label>Family</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalAdditionalAddress__c</fullName>
+        <description>2012R04 – Shipping Address: Additional Information (Local Language)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Further local precision for the address like Building, Floor etc.</inlineHelpText>
+        <label>Additional Information (Local Language)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalCity__c</fullName>
+        <description>2012R04 – Shipping Address: Local City</description>
+        <externalId>false</externalId>
+        <label>Local City</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalCounty__c</fullName>
+        <description>2012R04 – Shipping Address: Local County</description>
+        <externalId>false</externalId>
+        <label>Local County</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalRCShippingAddress__c</fullName>
+        <externalId>false</externalId>
+        <formula>RCStreetLocalLang__c&amp; BR() &amp; 
+RCLocalAdditionalAddress__c&amp; BR() &amp; 
+RCZipCode__c&amp; &apos; &apos; &amp; RCLocalCity__c&amp; BR() &amp; 
+RCPOBox__c&amp; &apos; &apos; &amp; RCPOBoxZip__c&amp; BR() &amp; 
+RCLocalCounty__c&amp; BR() &amp; 
+RCStateProvince__c&amp; BR() &amp; 
+RCCountry__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Return Center Address  (Local Language)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalShippingAddress__c</fullName>
+        <description>2012R04 - Local Shipping Address</description>
+        <externalId>false</externalId>
+        <formula>StreetLocalLang__c &amp; BR() &amp; 
+LocalAdditionalAddress__c &amp; BR() &amp; 
+ZipCode__c &amp; &apos; &apos; &amp; LocalCity__c &amp; BR() &amp; 
+POBox__c &amp; &apos; &apos; &amp; POBoxZip__c &amp; BR() &amp; 
+LocalCounty__c &amp; BR() &amp; 
+StateProvince__r.Name &amp; BR() &amp; 
+Country__r.Name</formula>
+        <label>Shipping Address (Local Language)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>POBoxZip__c</fullName>
+        <description>2012R04 – Shipping Address: PO Box Zip Code</description>
+        <externalId>false</externalId>
+        <label>PO Box Zip Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>POBox__c</fullName>
+        <description>2012R04 – Shipping Address: PO Box</description>
+        <externalId>false</externalId>
+        <label>PO Box</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductDescription__c</fullName>
+        <description>I2P - RR :  Oct 2014 Release</description>
+        <externalId>false</externalId>
+        <label>TECH_ProductDescription</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductFamily__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>2012R04 - Product Family for the Shipping Address</description>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR 3</booleanFilter>
+            <filterItems>
+                <field>OPP_Product__c.Name</field>
+                <operation>equals</operation>
+                <valueField>OPP_Product__c.ProductFamily__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>OPP_Product__c.IsActive__c</field>
+                <operation>equals</operation>
+                <value>true</value>
+            </filterItems>
+            <filterItems>
+                <field>$User.BypassVR__c</field>
+                <operation>equals</operation>
+                <value>true</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>OPP_Product__c</referenceTo>
+        <relationshipName>RMA_Shipping_To_Admin</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductGroup__c</fullName>
+        <description>I2P - RR :  Oct 2014 Release</description>
+        <externalId>false</externalId>
+        <label>TECH_ProductGroup</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductLine__c</fullName>
+        <description>I2P - RR :  Oct 2014 Release</description>
+        <externalId>false</externalId>
+        <label>Product Line</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductSuccession__c</fullName>
+        <description>I2P - RR :  Oct 2014 Release</description>
+        <externalId>false</externalId>
+        <label>TECH_ProductSuccession</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCAdditionalAddress__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCAdditionalInformation__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Additional Information</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCCity__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCCity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>City</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCContactName__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCContactName__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCCountry__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/&apos; &amp; ReturnCenter__r.RCCountry__c , ReturnCenter__r.RCCountry__r.Name, &apos;_self&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCCounty__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCCounty__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>County</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCFax__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCFax__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fax</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCLocalAdditionalAddress__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCAdditionalInformationLocal_Language__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Additional Information (Local Language)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCLocalCity__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCLocalCity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Local City</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCLocalCounty__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCLocalCounty__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Local County</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCPOBoxZip__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCPOBoxZipCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PO Box Zip Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCPOBox__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCPOBox__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PO Box</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCPhone__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCPhone__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCShippingAddress__c</fullName>
+        <externalId>false</externalId>
+        <formula>RCStreet__c &amp; BR() &amp; 
+RCAdditionalAddress__c &amp; BR() &amp; 
+RCZipCode__c &amp; &apos; &apos; &amp; RCCity__c &amp; BR() &amp; 
+RCPOBox__c &amp; &apos; &apos; &amp; RCPOBoxZip__c &amp; BR() &amp; 
+RCCounty__c &amp; BR() &amp; 
+RCStateProvince__c &amp; BR() &amp; 
+RCCountry__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Return Center Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCStateProvince__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/&apos; &amp; ReturnCenter__r.RCStateProvince__c, ReturnCenter__r.RCStateProvince__r.Name, &apos;_parent&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>State/Province</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCStreetLocalLang__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCStreetLocalLanguage__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Street (Local Language)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCStreet__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.Street__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Street</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RCZipCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>ReturnCenter__r.RCZipCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Zip Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ReturnCenter__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Return Center / Expert Center</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>((1 OR 2) AND 3) OR ((1 OR 2) AND 4 AND 5) OR 6</booleanFilter>
+            <errorMessage>Return Center does not exists.</errorMessage>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>equals</operation>
+                <value>Return Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Location_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Customer Care Center</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>To be deactivated</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>notEqual</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>BusinessRiskEscalationEntity__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Inactive</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BusinessRiskEscalationEntity__c</referenceTo>
+        <relationshipLabel>Receiving Point Determination Rules</relationshipLabel>
+        <relationshipName>Receiving_Point_Determination_table</relationshipName>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReturnType__c</fullName>
+        <description>2012R04 - Return Type - Same values as RMA.Return Type Picklist</description>
+        <externalId>false</externalId>
+        <label>Return Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Commercial</fullName>
+                    <default>false</default>
+                    <label>Commercial</label>
+                </value>
+                <value>
+                    <fullName>Technical</fullName>
+                    <default>false</default>
+                    <label>Technical</label>
+                </value>
+                <value>
+                    <fullName>Logistic</fullName>
+                    <default>false</default>
+                    <label>Logistic</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ruleactive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rule Active</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress__c</fullName>
+        <externalId>false</externalId>
+        <formula>Street__c &amp; BR() &amp; 
+AdditionalAddress__c &amp; BR() &amp; 
+ZipCode__c &amp; &apos; &apos; &amp; City__c &amp; BR() &amp; 
+POBox__c &amp; &apos; &apos; &amp; POBoxZip__c &amp; BR() &amp; 
+County__c &amp; BR() &amp; 
+StateProvince__r.Name &amp; BR() &amp; 
+Country__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StateProvince__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>2012R04 – Shipping Address: State/Province</description>
+        <externalId>false</externalId>
+        <label>State/Province</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <filterItems>
+                <field>StateProvince__c.Country__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Country__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$User.BypassVR__c</field>
+                <operation>equals</operation>
+                <value>true</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>StateProvince__c</referenceTo>
+        <relationshipName>RMA_Shipping_To_Admin</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StreetLocalLang__c</fullName>
+        <description>2012R04 – Shipping Address: Street (Local Language)</description>
+        <externalId>false</externalId>
+        <label>Street (Local Language)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Street__c</fullName>
+        <description>2012R04 – Shipping Address: Street</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the address where the product needs to be sent back.</inlineHelpText>
+        <label>Street</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SubFamily__c</fullName>
+        <description>I2P - RR :  Oct 2014 Release</description>
+        <externalId>false</externalId>
+        <label>TECH_SubFamily</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_Capability__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_Capability</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_GMRCode__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_GMRCode</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ProductFamilyGMRCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(LEFT(TECH_GMRCode__c, VALUE($Label.CLOCT14I2P03)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TECH_ProductFamilyGMRCode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_ProductFamily__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_Uniqueness__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>2012R04 - CCC Country Code + _ + Return Type + _ + Product Family Name (3 + 1 + 30 + 1 + 80)</description>
+        <externalId>false</externalId>
+        <label>TECH_Uniqueness</label>
+        <length>115</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>ZipCode__c</fullName>
+        <description>2012R04 – Shipping Address: Zip Code</description>
+        <externalId>false</externalId>
+        <label>Zip Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Receiving Point Determination Rule</label>
+    <listViews>
+        <fullName>Active_Rules2</fullName>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>CommercialReference__c</columns>
+        <columns>TECH_ProductFamily__c</columns>
+        <columns>Capability__c</columns>
+        <columns>ReturnCenter__c</columns>
+        <columns>Comments__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Ruleactive__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Active Rules</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>BE_Active_Rules</fullName>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>CommercialReference__c</columns>
+        <columns>TECH_ProductFamily__c</columns>
+        <columns>Capability__c</columns>
+        <columns>ReturnCenter__c</columns>
+        <columns>Comments__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>belgium</value>
+        </filters>
+        <label>BE Active Rules</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>BE_ALL_USERS</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ISMA_Return_rules_for_R_R_RMA</fullName>
+        <columns>Ruleactive__c</columns>
+        <columns>Country__c</columns>
+        <columns>NAME</columns>
+        <columns>ReturnCenter__c</columns>
+        <columns>RCShippingAddress__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Capability__c</columns>
+        <columns>CCCountry__c</columns>
+        <columns>City__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Colombia,Ecuador,Venezuela,Peru</value>
+        </filters>
+        <label>ISMA SAM Return rules (for R&amp;R-RMA,...)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>ISMAAdoption</group>
+            <group>ISMADeployment1CoreTeam</group>
+            <group>ISMADeployment2EntityProjectMgrsleaders</group>
+            <group>ISMA_Deployment_3_Other_IT_Telvent_etc</group>
+            <group>ISMA_Deployment_4_PM_BPA_Spon_Etc</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>InactiveRules</fullName>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>CommercialReference__c</columns>
+        <columns>TECH_ProductFamily__c</columns>
+        <columns>Capability__c</columns>
+        <columns>ReturnCenter__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Ruleactive__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Inactive Rules</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Inactive_Rules</fullName>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>CommercialReference__c</columns>
+        <columns>TECH_ProductFamily__c</columns>
+        <columns>Capability__c</columns>
+        <columns>ReturnCenter__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Ruleactive__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>ReturnCenter__c</field>
+            <operation>contains</operation>
+            <value>Zlin</value>
+        </filters>
+        <filters>
+            <field>CommercialReference__c</field>
+            <operation>contains</operation>
+            <value>R</value>
+        </filters>
+        <label>EC Zlin</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>LVP_Grenoble</fullName>
+        <columns>NAME</columns>
+        <columns>Country__c</columns>
+        <columns>CommercialReference__c</columns>
+        <columns>TECH_ProductFamily__c</columns>
+        <columns>Capability__c</columns>
+        <columns>ReturnCenter__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ReturnCenter__c</field>
+            <operation>contains</operation>
+            <value>Grenoble</value>
+        </filters>
+        <label>LVP Grenoble</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>RPDR_Carros</fullName>
+        <booleanFilter>1</booleanFilter>
+        <columns>NAME</columns>
+        <columns>ReturnCenter__c</columns>
+        <columns>CommercialReference__c</columns>
+        <columns>ProductFamily__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CommercialReference__c</field>
+            <operation>contains</operation>
+            <value>*LV8*</value>
+        </filters>
+        <label>Ref</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>RPDT-{000000}</displayFormat>
+        <label>Receiving Point ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Receiving Point Determination Rules</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Country__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CommercialReference__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Family__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Capability__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RCShippingAddress__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LocalRCShippingAddress__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Country__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CommercialReference__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Family__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Capability__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>RCShippingAddress__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LocalRCShippingAddress__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Country__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CommercialReference__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Family__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Capability__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RCShippingAddress__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LocalRCShippingAddress__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Country__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CommercialReference__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Family__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Capability__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RCShippingAddress__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LocalRCShippingAddress__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Ruleactive__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>RPDT_VR_DEC12RR01_CountryAndPFAndCRReqd</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND 
+(
+NOT($User.BypassVR__c) ,
+Ruleactive__c=True,
+OR(ISBLANK(Country__c),ISNULL(Country__c)),
+OR(ISBLANK(CommercialReference__c),ISNULL(CommercialReference__c)),
+OR(ISBLANK(Family__c),ISNULL(Family__c))
+)</errorConditionFormula>
+        <errorMessage>Country and Commercial Reference / Family can&apos;t be blank at same time.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RPDT_VR_DEC12RR02_TechGMRCodeRequired</fullName>
+        <active>true</active>
+        <description>TechGMRCode can&apos;t be null when Commercial Ref / Product Family field is filled.</description>
+        <errorConditionFormula>AND (
+NOT($User.BypassVR__c) ,
+Ruleactive__c=True,
+OR(
+NOT(ISBLANK(CommercialReference__c)),
+NOT(ISBLANK(TECH_ProductFamily__c))
+),
+ISBLANK(TECH_GMRCode__c)
+)</errorConditionFormula>
+        <errorMessage>GMRCode is requried.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

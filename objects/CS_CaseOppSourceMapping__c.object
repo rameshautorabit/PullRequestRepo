@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This Custom setting is to prepopulate the Opportunity Source from Case object to Opportunity Screen.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>OpportunitySource__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Source</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_CaseOpportunitySourceMapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

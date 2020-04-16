@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>SearchInMDMAccess__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checking this field will give access for searching in the MDM for duplicate records</description>
+        <externalId>false</externalId>
+        <label>SearchInMDMAccess</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>CS_SearchInMDM</label>
+    <visibility>Public</visibility>
+</CustomObject>

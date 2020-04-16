@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Settings for the On Demand Component - Org levels are default, and can be overridden.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>dgAI2__Auto_Predict__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Auto Predict on Load</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Auto Predict on Load</inlineHelpText>
+        <label>Auto Predict</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dgAI2__Confidence__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Show Confidence Level</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Show Confidence Level</inlineHelpText>
+        <label>Confidence</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dgAI2__Display_Checkbox_as_Yes_No__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Display Checkbox as Yes/No</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dgAI2__Enforce_Picklist_Dependencies__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Enforce Picklist Dependencies</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dgAI2__Response__c</fullName>
+        <defaultValue>&quot;None&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Pre-Selected Response. &quot;None&quot;,  &quot;Most Confident&quot;, &quot;Most Confident Above Threshold&quot;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>&quot;None&quot;,  &quot;Most Confident&quot;, &quot;Most Confident Above Threshold&quot;</inlineHelpText>
+        <label>Response</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dgAI2__View__c</fullName>
+        <defaultValue>&quot;Radio Buttons&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>View of the Repsonse. &quot;Radio Buttons&quot;, &quot;Single Select Picklist&quot;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>&quot;Radio Buttons&quot;, &quot;Single Select Picklist&quot;</inlineHelpText>
+        <label>View</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>DG On Demand Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

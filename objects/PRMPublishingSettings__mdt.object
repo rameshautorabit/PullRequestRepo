@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This setting hold the objects to be included in the Publishing scope for PRM.</description>
+    <fields>
+        <fullName>ObjectAPIName__c</fullName>
+        <description>Specifies a comma separated list of Object names to be included in the PRM Publishing scope.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Object API Name</label>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ObjectLabel__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Object Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ObjectType__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Object Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CMS</fullName>
+                    <default>true</default>
+                    <label>CMS</label>
+                </value>
+                <value>
+                    <fullName>Channel Management</fullName>
+                    <default>false</default>
+                    <label>Channel Management</label>
+                </value>
+                <value>
+                    <fullName>Program Management</fullName>
+                    <default>false</default>
+                    <label>Program Management</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>PRM Publishing Setting</label>
+    <listViews>
+        <fullName>CMS</fullName>
+        <columns>DeveloperName</columns>
+        <columns>ObjectAPIName__c</columns>
+        <columns>ObjectLabel__c</columns>
+        <columns>ObjectType__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>CMS</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>PRM Publishing Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

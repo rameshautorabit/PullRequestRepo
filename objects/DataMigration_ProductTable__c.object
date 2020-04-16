@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This setting is created purely for data migration, please don&apos;t reference it in your code.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ConcatenatedText__c</fullName>
+        <description>ConcatenatedText in the fashion BusinessUnit+ProductLine+ProductFamily+Family and the hierarchy code in gmr and the product Id.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is created only for data migration purpose, and should be deleted after october 2013.</inlineHelpText>
+        <label>ConcatenatedText</label>
+        <length>130</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>DataMigration ProductTable</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>ConcatenatedText__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

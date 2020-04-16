@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AlertMessage__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Alert Message</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Alert_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Alert Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New Product Launch</fullName>
+                    <default>false</default>
+                    <label>New Product Launch</label>
+                </value>
+                <value>
+                    <fullName>Request For Analysis</fullName>
+                    <default>false</default>
+                    <label>Request For Analysis</label>
+                </value>
+                <value>
+                    <fullName>Account Level Alert</fullName>
+                    <default>false</default>
+                    <label>Account Level Alert</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Attention_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>BR-10157</description>
+        <externalId>false</externalId>
+        <label>Attention To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Product_Quality_Alerts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CoveredOrganizationNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Covered Organization Number</label>
+        <summaryForeignKey>CoveredOrganization__c.Product_Quality_Alert__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Covered_Country_Number__c</fullName>
+        <description>BR - 10157</description>
+        <externalId>false</externalId>
+        <label>Covered Country Number</label>
+        <summaryForeignKey>Covered_Country__c.Product_Quality_Alert__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Created_by__c</fullName>
+        <externalId>false</externalId>
+        <label>Created by</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ReturnReason__c</fullName>
+        <description>2 new picklist values added as part of July 2018 R&amp;R release</description>
+        <externalId>false</externalId>
+        <label>Return Reason</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Request For Analysis Direct Shipment</fullName>
+                    <default>false</default>
+                    <label>Request For Analysis Direct Shipment</label>
+                </value>
+                <value>
+                    <fullName>Request For Analysis Safety Critical</fullName>
+                    <default>false</default>
+                    <label>Request For Analysis Safety Critical</label>
+                </value>
+                <value>
+                    <fullName>Request Analysis</fullName>
+                    <default>false</default>
+                    <label>Request Analysis</label>
+                </value>
+                <value>
+                    <fullName>New Product Launch</fullName>
+                    <default>false</default>
+                    <label>New Product Launch</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Return_Plant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>BR-10157</description>
+        <externalId>false</externalId>
+        <label>Return Plant</label>
+        <referenceTo>Plant__c</referenceTo>
+        <relationshipLabel>Product Quality Alerts</relationshipLabel>
+        <relationshipName>Product_Quality_Alerts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SerialNumberEndRange__c</fullName>
+        <externalId>false</externalId>
+        <label>Serial Number End Range</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SerialNumberStartRange__c</fullName>
+        <externalId>false</externalId>
+        <label>Serial Number Start Range</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+And
+(DATEVALUE(Start_Date__c) &lt;= Today(),
+OR(DATEVALUE(End_Date__c) &gt; Today(),ISBLANK(End_Date__c)), 
+NOT(TargetProductsNumber__c=0),
+NOT(Covered_Country_Number__c =0)
+),
+
+&apos;Active&apos;,
+
+&apos;Inactive&apos;)</formula>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TargetProductsNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Products Number</label>
+        <summaryForeignKey>Target_Products__c.Product_Quality_Alert__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Product Quality Alert</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Alert_Type__c</columns>
+        <columns>AlertMessage__c</columns>
+        <columns>Attention_To__c</columns>
+        <columns>Created_by__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>TargetProductsNumber__c</columns>
+        <columns>Return_Plant__c</columns>
+        <columns>ReturnReason__c</columns>
+        <columns>SerialNumberStartRange__c</columns>
+        <columns>SerialNumberEndRange__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>PQA-{000000}</displayFormat>
+        <label>Product Quality Alert Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Product Quality Alerts</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>VR_FS_MAR2019_EndDate</fullName>
+        <active>true</active>
+        <description>“End Date” cannot be more than 18 months after “Start Date”</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),
+DATE(YEAR(DATEVALUE (End_Date__c)), MONTH((DATEVALUE(End_Date__c))), DAY((DATEVALUE(End_Date__c)))) &gt;
+DATE (  /*YEAR*/  YEAR( DATEVALUE (Start_Date__c )) + 1 + FLOOR((MONTH( DATEVALUE (Start_Date__c )) + 6 - 1)/12),  /*MONTH*/  CASE(MOD(MONTH( DATEVALUE (Start_Date__c )) + 6, 12 ), 0, 12, MOD(MONTH( DATEVALUE (Start_Date__c ))+ 6, 12 )),  /*DAY*/  MIN(DAY( DATEVALUE (Start_Date__c )),  CASE(MOD(MONTH( DATEVALUE (Start_Date__c )) + 6,12), 9, 30, 4, 30, 6, 30, 11, 30, 2,  /* return max days for February dependent on if end date is leap year */  IF(MOD(YEAR( DATEVALUE (Start_Date__c )) + FLOOR((MONTH( DATEVALUE (Start_Date__c )) + 6)/12), 400) = 0 || (MOD(YEAR( DATEVALUE (Start_Date__c )) + FLOOR((MONTH( DATEVALUE (Start_Date__c )) + 6)/12), 4) = 0 &amp;&amp; MOD(YEAR( DATEVALUE (Start_Date__c )) + FLOOR((MONTH( DATEVALUE (Start_Date__c )) + 6)/12), 100) &lt;&gt; 0  ), 29,28), 31))  )
+	)</errorConditionFormula>
+        <errorMessage>“End Date” cannot be more than 18 months after “Start Date”.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR_Q216_startDateBeforeEndDate</fullName>
+        <active>true</active>
+        <description>This checks that the start date is always before the end date.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), Start_Date__c&gt;End_Date__c)</errorConditionFormula>
+        <errorMessage>End date cannot be a date before the start date.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,1785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>PRM_Business_Request_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>PRM_Business_Request_Compact_LEX</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PRM_Business_Request_Compact_LEX</fullName>
+        <fields>Name</fields>
+        <fields>PRM_PAN_Country__c</fields>
+        <fields>PRM_PAN_Category__c</fields>
+        <fields>PRM_PAN_Customer_Classification__c</fields>
+        <fields>PRM_PAN_Customer_Classification_Level_2__c</fields>
+        <fields>PRM_PAN_Status__c</fields>
+        <fields>PRM_PAN_Wished_Deadline__c</fields>
+        <label>PRM Business Request Compact LEX</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>PRM Business Request</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Application__c</fullName>
+        <externalId>false</externalId>
+        <label>Application</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PRM Portal</fullName>
+                    <default>false</default>
+                    <label>PRM Portal</label>
+                </value>
+                <value>
+                    <fullName>Usermind</fullName>
+                    <default>false</default>
+                    <label>Usermind</label>
+                </value>
+                <value>
+                    <fullName>MySchneider App</fullName>
+                    <default>false</default>
+                    <label>MySchneider App</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned to</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>PAN_PRM_Requests_Approver</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Box_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Box Link</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PRM Channel</fullName>
+                    <default>false</default>
+                    <label>PRM Channel</label>
+                </value>
+                <value>
+                    <fullName>PRM Program</fullName>
+                    <default>false</default>
+                    <label>PRM Program</label>
+                </value>
+                <value>
+                    <fullName>PRM Content</fullName>
+                    <default>false</default>
+                    <label>PRM Content</label>
+                </value>
+                <value>
+                    <fullName>PRM Features</fullName>
+                    <default>false</default>
+                    <label>PRM Features</label>
+                </value>
+                <value>
+                    <fullName>PRM Locator</fullName>
+                    <default>false</default>
+                    <label>PRM Locator</label>
+                </value>
+                <value>
+                    <fullName>PRM Account Data</fullName>
+                    <default>false</default>
+                    <label>PRM Account Data</label>
+                </value>
+                <value>
+                    <fullName>PRM Reporting</fullName>
+                    <default>false</default>
+                    <label>PRM Reporting</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Champion__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>PRM Champion</description>
+        <externalId>false</externalId>
+        <label>PRM Champion</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.UserType</field>
+                <operation>equals</operation>
+                <value>Standard</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>PRM_Business_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Country__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <referenceTo>Country__c</referenceTo>
+        <relationshipName>PAN_PRM_Requests_Country</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Customer_Classification_Level_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Classification Level 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>PRM_PAN_Customer_Classification__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>All Channels</fullName>
+                    <default>false</default>
+                    <label>All Channels</label>
+                </value>
+                <value>
+                    <fullName>Application and Analytics Developer</fullName>
+                    <default>false</default>
+                    <label>Application and Analytics Developer</label>
+                </value>
+                <value>
+                    <fullName>Architectural Firm</fullName>
+                    <default>false</default>
+                    <label>Architectural Firm</label>
+                </value>
+                <value>
+                    <fullName>Audio Visual Retailer</fullName>
+                    <default>false</default>
+                    <label>Audio Visual Retailer</label>
+                </value>
+                <value>
+                    <fullName>Building Automation SI</fullName>
+                    <default>false</default>
+                    <label>Building Automation SI</label>
+                </value>
+                <value>
+                    <fullName>Building Automation VAR</fullName>
+                    <default>false</default>
+                    <label>Building Automation VAR</label>
+                </value>
+                <value>
+                    <fullName>Building Materials Reseller</fullName>
+                    <default>false</default>
+                    <label>Building Materials Reseller</label>
+                </value>
+                <value>
+                    <fullName>Catalog Retailer</fullName>
+                    <default>false</default>
+                    <label>Catalog Retailer</label>
+                </value>
+                <value>
+                    <fullName>Certification and Inspection Service Provider</fullName>
+                    <default>false</default>
+                    <label>Certification and Inspection Service Provider</label>
+                </value>
+                <value>
+                    <fullName>Computer Power Equipment</fullName>
+                    <default>false</default>
+                    <label>Computer Power Equipment</label>
+                </value>
+                <value>
+                    <fullName>Consulting Engineer Firm</fullName>
+                    <default>false</default>
+                    <label>Consulting Engineer Firm</label>
+                </value>
+                <value>
+                    <fullName>Developer and Operator</fullName>
+                    <default>false</default>
+                    <label>Developer and Operator</label>
+                </value>
+                <value>
+                    <fullName>Direct Market Reseller (DMR)</fullName>
+                    <default>false</default>
+                    <label>Direct Market Reseller (DMR)</label>
+                </value>
+                <value>
+                    <fullName>Distribution Network Contractor</fullName>
+                    <default>false</default>
+                    <label>Distribution Network Contractor</label>
+                </value>
+                <value>
+                    <fullName>DIY Warehouse</fullName>
+                    <default>false</default>
+                    <label>DIY Warehouse</label>
+                </value>
+                <value>
+                    <fullName>E-commerce distributor</fullName>
+                    <default>false</default>
+                    <label>E-commerce distributor</label>
+                </value>
+                <value>
+                    <fullName>eCommerce Retailer</fullName>
+                    <default>false</default>
+                    <label>eCommerce Retailer</label>
+                </value>
+                <value>
+                    <fullName>Electrical Consulting Engineering Firm</fullName>
+                    <default>false</default>
+                    <label>Electrical Consulting Engineering Firm</label>
+                </value>
+                <value>
+                    <fullName>Electrical Material Store</fullName>
+                    <default>false</default>
+                    <label>Electrical Material Store</label>
+                </value>
+                <value>
+                    <fullName>Electrical SI</fullName>
+                    <default>false</default>
+                    <label>Electrical SI</label>
+                </value>
+                <value>
+                    <fullName>Electrical Supply Retailer</fullName>
+                    <default>false</default>
+                    <label>Electrical Supply Retailer</label>
+                </value>
+                <value>
+                    <fullName>Electrical Wholesaler</fullName>
+                    <default>false</default>
+                    <label>Electrical Wholesaler</label>
+                </value>
+                <value>
+                    <fullName>Electronics Wholesaler</fullName>
+                    <default>false</default>
+                    <label>Electronics Wholesaler</label>
+                </value>
+                <value>
+                    <fullName>Energy &amp; Power Solution SI</fullName>
+                    <default>false</default>
+                    <label>Energy &amp; Power Solution SI</label>
+                </value>
+                <value>
+                    <fullName>Energy consultant</fullName>
+                    <default>false</default>
+                    <label>Energy consultant</label>
+                </value>
+                <value>
+                    <fullName>Engineering, Procurement, Construction (EPC) Firm</fullName>
+                    <default>false</default>
+                    <label>Engineering, Procurement, Construction (EPC) Firm</label>
+                </value>
+                <value>
+                    <fullName>Facility Management/Maintenance</fullName>
+                    <default>false</default>
+                    <label>Facility Management/Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Facility Management / Maintenance</fullName>
+                    <default>false</default>
+                    <label>Facility Management / Maintenance</label>
+                </value>
+                <value>
+                    <fullName>General Contractor</fullName>
+                    <default>false</default>
+                    <label>General Contractor</label>
+                </value>
+                <value>
+                    <fullName>General Distributor</fullName>
+                    <default>false</default>
+                    <label>General Distributor</label>
+                </value>
+                <value>
+                    <fullName>Generalist SI</fullName>
+                    <default>false</default>
+                    <label>Generalist SI</label>
+                </value>
+                <value>
+                    <fullName>Global Electrical Manufacturer Panelbuilder (&quot;majors&quot;)</fullName>
+                    <default>false</default>
+                    <label>Global Electrical Manufacturer Panelbuilder (&quot;majors&quot;)</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Home and Appliance Retailer</fullName>
+                    <default>false</default>
+                    <label>Home and Appliance Retailer</label>
+                </value>
+                <value>
+                    <fullName>Independent Software Vendor</fullName>
+                    <default>false</default>
+                    <label>Independent Software Vendor</label>
+                </value>
+                <value>
+                    <fullName>Industrial Distributor</fullName>
+                    <default>false</default>
+                    <label>Industrial Distributor</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>Installers (only provides labor)</fullName>
+                    <default>false</default>
+                    <label>Installers (only provides labor)</label>
+                </value>
+                <value>
+                    <fullName>Interior Designers</fullName>
+                    <default>false</default>
+                    <label>Interior Designers</label>
+                </value>
+                <value>
+                    <fullName>IT Distributor</fullName>
+                    <default>false</default>
+                    <label>IT Distributor</label>
+                </value>
+                <value>
+                    <fullName>IT Power Specialist</fullName>
+                    <default>false</default>
+                    <label>IT Power Specialist</label>
+                </value>
+                <value>
+                    <fullName>IT VAR - IT Systems Integrator</fullName>
+                    <default>false</default>
+                    <label>IT VAR - IT Systems Integrator</label>
+                </value>
+                <value>
+                    <fullName>Large Electrical &amp; Mechanical Contractor</fullName>
+                    <default>false</default>
+                    <label>Large Electrical &amp; Mechanical Contractor</label>
+                </value>
+                <value>
+                    <fullName>Local Panelbuilder</fullName>
+                    <default>false</default>
+                    <label>Local Panelbuilder</label>
+                </value>
+                <value>
+                    <fullName>Manufacturer&apos;s Rep</fullName>
+                    <default>false</default>
+                    <label>Manufacturer&apos;s Rep</label>
+                </value>
+                <value>
+                    <fullName>Market Segments Specialist Panelbuilders</fullName>
+                    <default>false</default>
+                    <label>Market Segments Specialist Panelbuilders</label>
+                </value>
+                <value>
+                    <fullName>Mass Merchandiser</fullName>
+                    <default>false</default>
+                    <label>Mass Merchandiser</label>
+                </value>
+                <value>
+                    <fullName>Mechanical, HVAC and Other technologies Contractors</fullName>
+                    <default>false</default>
+                    <label>Mechanical, HVAC and Other technologies Contractors</label>
+                </value>
+                <value>
+                    <fullName>Mechanical &amp; Industrial</fullName>
+                    <default>false</default>
+                    <label>Mechanical &amp; Industrial</label>
+                </value>
+                <value>
+                    <fullName>Mechanical Consulting Engineering Firm</fullName>
+                    <default>false</default>
+                    <label>Mechanical Consulting Engineering Firm</label>
+                </value>
+                <value>
+                    <fullName>Mechanical Service Provider</fullName>
+                    <default>false</default>
+                    <label>Mechanical Service Provider</label>
+                </value>
+                <value>
+                    <fullName>National Panelbuilder (&quot;national champions&quot;)</fullName>
+                    <default>false</default>
+                    <label>National Panelbuilder (&quot;national champions&quot;)</label>
+                </value>
+                <value>
+                    <fullName>OEM - Industrial Machines</fullName>
+                    <default>false</default>
+                    <label>OEM - Industrial Machines</label>
+                </value>
+                <value>
+                    <fullName>OEM - IT Equipment</fullName>
+                    <default>false</default>
+                    <label>OEM - IT Equipment</label>
+                </value>
+                <value>
+                    <fullName>OEM Machine Integrators</fullName>
+                    <default>false</default>
+                    <label>OEM Machine Integrators</label>
+                </value>
+                <value>
+                    <fullName>OEM - Panelbuilder</fullName>
+                    <default>false</default>
+                    <label>OEM - Panelbuilder</label>
+                </value>
+                <value>
+                    <fullName>OEM - Power Equipment</fullName>
+                    <default>false</default>
+                    <label>OEM - Power Equipment</label>
+                </value>
+                <value>
+                    <fullName>OEM - Process Equipment</fullName>
+                    <default>false</default>
+                    <label>OEM - Process Equipment</label>
+                </value>
+                <value>
+                    <fullName>Office Supply Stores</fullName>
+                    <default>false</default>
+                    <label>Office Supply Stores</label>
+                </value>
+                <value>
+                    <fullName>Process Automation SI</fullName>
+                    <default>false</default>
+                    <label>Process Automation SI</label>
+                </value>
+                <value>
+                    <fullName>Professional Association</fullName>
+                    <default>false</default>
+                    <label>Professional Association</label>
+                </value>
+                <value>
+                    <fullName>Property Management</fullName>
+                    <default>false</default>
+                    <label>Property Management</label>
+                </value>
+                <value>
+                    <fullName>Public Specifiers</fullName>
+                    <default>false</default>
+                    <label>Public Specifiers</label>
+                </value>
+                <value>
+                    <fullName>Purchaser</fullName>
+                    <default>false</default>
+                    <label>Purchaser</label>
+                </value>
+                <value>
+                    <fullName>Regional Electrical Contractor</fullName>
+                    <default>false</default>
+                    <label>Regional Electrical Contractor</label>
+                </value>
+                <value>
+                    <fullName>Security SI</fullName>
+                    <default>false</default>
+                    <label>Security SI</label>
+                </value>
+                <value>
+                    <fullName>Service Business Providers</fullName>
+                    <default>false</default>
+                    <label>Service Business Providers</label>
+                </value>
+                <value>
+                    <fullName>Specialized Electrical Distributor</fullName>
+                    <default>false</default>
+                    <label>Specialized Electrical Distributor</label>
+                </value>
+                <value>
+                    <fullName>Technology Provider</fullName>
+                    <default>false</default>
+                    <label>Technology Provider</label>
+                </value>
+                <value>
+                    <fullName>Utility Smart Grid SI</fullName>
+                    <default>false</default>
+                    <label>Utility Smart Grid SI</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>All Channels</controllingFieldValue>
+                <valueName>All Channels</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Providers</controllingFieldValue>
+                <valueName>Technology Provider</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consumer Retailer</controllingFieldValue>
+                <valueName>Electrical Material Store</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>End User/Customer</controllingFieldValue>
+                <valueName>Developer and Operator</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Wholesale Distributor</controllingFieldValue>
+                <valueName>Electrical Wholesaler</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Wholesale Distributor</controllingFieldValue>
+                <valueName>Electronics Wholesaler</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Wholesale Distributor</controllingFieldValue>
+                <valueName>Mechanical &amp; Industrial</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Wholesale Distributor</controllingFieldValue>
+                <valueName>General Distributor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Wholesale Distributor</controllingFieldValue>
+                <valueName>Industrial Distributor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Wholesale Distributor</controllingFieldValue>
+                <valueName>IT Distributor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Wholesale Distributor</controllingFieldValue>
+                <valueName>Specialized Electrical Distributor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Reseller</controllingFieldValue>
+                <valueName>Building Automation VAR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Reseller</controllingFieldValue>
+                <valueName>Building Materials Reseller</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Reseller</controllingFieldValue>
+                <valueName>Direct Market Reseller (DMR)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Reseller</controllingFieldValue>
+                <valueName>IT Power Specialist</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Reseller</controllingFieldValue>
+                <valueName>IT VAR - IT Systems Integrator</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Reseller</controllingFieldValue>
+                <valueName>Manufacturer&apos;s Rep</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retailer</controllingFieldValue>
+                <valueName>Audio Visual Retailer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retailer</controllingFieldValue>
+                <valueName>Catalog Retailer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retailer</controllingFieldValue>
+                <valueName>DIY Warehouse</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retailer</controllingFieldValue>
+                <valueName>eCommerce Retailer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retailer</controllingFieldValue>
+                <valueName>Electrical Supply Retailer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retailer</controllingFieldValue>
+                <valueName>Home and Appliance Retailer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retailer</controllingFieldValue>
+                <valueName>Mass Merchandiser</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retailer</controllingFieldValue>
+                <valueName>Office Supply Stores</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Panel Builder</controllingFieldValue>
+                <valueName>Computer Power Equipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Panel Builder</controllingFieldValue>
+                <valueName>Global Electrical Manufacturer Panelbuilder (&quot;majors&quot;)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Panel Builder</controllingFieldValue>
+                <valueName>Local Panelbuilder</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Panel Builder</controllingFieldValue>
+                <valueName>Market Segments Specialist Panelbuilders</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Panel Builder</controllingFieldValue>
+                <valueName>National Panelbuilder (&quot;national champions&quot;)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Panel Builder</controllingFieldValue>
+                <valueName>OEM - IT Equipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Specifier - Influencer</controllingFieldValue>
+                <valueName>Architectural Firm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Specifier - Influencer</controllingFieldValue>
+                <valueName>Certification and Inspection Service Provider</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Specifier - Influencer</controllingFieldValue>
+                <valueName>Consulting Engineer Firm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Specifier - Influencer</controllingFieldValue>
+                <valueName>Electrical Consulting Engineering Firm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Specifier - Influencer</controllingFieldValue>
+                <valueName>Interior Designers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Specifier - Influencer</controllingFieldValue>
+                <valueName>Mechanical Consulting Engineering Firm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Specifier - Influencer</controllingFieldValue>
+                <valueName>Professional Association</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Specifier - Influencer</controllingFieldValue>
+                <valueName>Public Specifiers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Original Equipment Manufacturer</controllingFieldValue>
+                <valueName>OEM - Industrial Machines</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Original Equipment Manufacturer</controllingFieldValue>
+                <valueName>OEM Machine Integrators</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Original Equipment Manufacturer</controllingFieldValue>
+                <valueName>OEM - Panelbuilder</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Original Equipment Manufacturer</controllingFieldValue>
+                <valueName>OEM - Power Equipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Original Equipment Manufacturer</controllingFieldValue>
+                <valueName>OEM - Process Equipment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>System Integrator</controllingFieldValue>
+                <valueName>Building Automation SI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>System Integrator</controllingFieldValue>
+                <valueName>Electrical SI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>System Integrator</controllingFieldValue>
+                <valueName>Energy &amp; Power Solution SI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>System Integrator</controllingFieldValue>
+                <valueName>Generalist SI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>System Integrator</controllingFieldValue>
+                <valueName>Process Automation SI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>System Integrator</controllingFieldValue>
+                <valueName>Security SI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>System Integrator</controllingFieldValue>
+                <valueName>Utility Smart Grid SI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contractors</controllingFieldValue>
+                <valueName>Distribution Network Contractor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contractors</controllingFieldValue>
+                <valueName>Engineering, Procurement, Construction (EPC) Firm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contractors</controllingFieldValue>
+                <valueName>Facility Management/Maintenance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contractors</controllingFieldValue>
+                <valueName>General Contractor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contractors</controllingFieldValue>
+                <valueName>Large Electrical &amp; Mechanical Contractor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contractors</controllingFieldValue>
+                <valueName>Mechanical, HVAC and Other technologies Contractors</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contractors</controllingFieldValue>
+                <valueName>Regional Electrical Contractor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electricians</controllingFieldValue>
+                <valueName>Influencer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electricians</controllingFieldValue>
+                <valueName>Installers (only provides labor)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electricians</controllingFieldValue>
+                <valueName>Purchaser</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Customer_Classification__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Classification Level 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Wholesale Distributor</fullName>
+                    <default>false</default>
+                    <label>Wholesale Distributor</label>
+                </value>
+                <value>
+                    <fullName>Business Reseller</fullName>
+                    <default>false</default>
+                    <label>Business Reseller</label>
+                </value>
+                <value>
+                    <fullName>Retailer</fullName>
+                    <default>false</default>
+                    <label>Retailer</label>
+                </value>
+                <value>
+                    <fullName>Panel Builder</fullName>
+                    <default>false</default>
+                    <label>Panel Builder</label>
+                </value>
+                <value>
+                    <fullName>Specifier - Influencer</fullName>
+                    <default>false</default>
+                    <label>Specifier - Influencer</label>
+                </value>
+                <value>
+                    <fullName>Original Equipment Manufacturer</fullName>
+                    <default>false</default>
+                    <label>Original Equipment Manufacturer</label>
+                </value>
+                <value>
+                    <fullName>System Integrator</fullName>
+                    <default>false</default>
+                    <label>System Integrator</label>
+                </value>
+                <value>
+                    <fullName>Contractors</fullName>
+                    <default>false</default>
+                    <label>Contractors</label>
+                </value>
+                <value>
+                    <fullName>Electricians</fullName>
+                    <default>false</default>
+                    <label>Electricians</label>
+                </value>
+                <value>
+                    <fullName>Financier</fullName>
+                    <default>false</default>
+                    <label>Financier</label>
+                </value>
+                <value>
+                    <fullName>All Channels</fullName>
+                    <default>false</default>
+                    <label>All Channels</label>
+                </value>
+                <value>
+                    <fullName>Service Providers</fullName>
+                    <default>false</default>
+                    <label>Service Providers</label>
+                </value>
+                <value>
+                    <fullName>Consumer Retailer</fullName>
+                    <default>false</default>
+                    <label>Consumer Retailer</label>
+                </value>
+                <value>
+                    <fullName>End User/Customer</fullName>
+                    <default>false</default>
+                    <label>End User/Customer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_GoLiveDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Go Live Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_One_Tool_Remedy_Reference__c</fullName>
+        <externalId>false</externalId>
+        <label>One Tool Remedy Reference</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_One_Tool_Weblink__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;http://support.schneider-electric.com/arsys/forms/itsmprd/SHR%3ALandingConsole/Default+Administrator+View/?mode=search&amp;F304255500=WOI%3AWorkOrder&amp;F1000000076=FormOpenNoAppList&amp;F303647600=SearchTicketWithQual&amp;F304255610=%271000000182%27%3D%22&quot;
+&amp;PRM_PAN_One_Tool_Remedy_Reference__c
+&amp;&quot;%22&quot;,IMAGE(&quot;/img/samples/flag_green.gif&quot;, &quot;One Tool Remedy&quot;, 20, 20), &quot;_blank&quot;)</formula>
+        <inlineHelpText>Work order</inlineHelpText>
+        <label>One Tool Weblink</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Original_Requester__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Original Requester</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>PAN_PRM_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Planned_Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Field not to be used anymore - Replaced by &quot;DATE&quot; field</description>
+        <externalId>false</externalId>
+        <label>Planned Release (Deprecated)</label>
+        <referenceTo>Release__c</referenceTo>
+        <relationshipLabel>PRM Business Requests</relationshipLabel>
+        <relationshipName>PRM_Requests_Release</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Resolution_Description__c</fullName>
+        <description>Renamed from &quot;Resolution Description&quot; to &quot;Weekly Update&quot;</description>
+        <externalId>false</externalId>
+        <label>Weekly Update</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Scope_of_countries__c</fullName>
+        <externalId>false</externalId>
+        <label>Scope of countries</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Approved – Pending Specs Delivery</fullName>
+                    <default>false</default>
+                    <label>Approved – Pending Specs Delivery</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Configured – Pending IPO Approval</fullName>
+                    <default>false</default>
+                    <label>Configured – Pending IPO Approval</label>
+                </value>
+                <value>
+                    <fullName>IPO Configuration Approved – In LQT</fullName>
+                    <default>false</default>
+                    <label>IPO Configuration Approved – In LQT</label>
+                </value>
+                <value>
+                    <fullName>Live – In Hypercare</fullName>
+                    <default>false</default>
+                    <label>Live – In Hypercare</label>
+                </value>
+                <value>
+                    <fullName>LQT Approved - Push to Prod</fullName>
+                    <default>false</default>
+                    <label>LQT Approved - Push to Prod</label>
+                </value>
+                <value>
+                    <fullName>New – Under Review</fullName>
+                    <default>false</default>
+                    <label>New – Under Review</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Specs Delivered - Under IPO Specs Review</fullName>
+                    <default>false</default>
+                    <label>Specs Delivered - Under IPO Specs Review</label>
+                </value>
+                <value>
+                    <fullName>Specs Validated – In configuration</fullName>
+                    <default>false</default>
+                    <label>Specs Validated – In configuration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Sub_category__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>PRM_PAN_Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New country channel deployment</fullName>
+                    <default>false</default>
+                    <label>New country channel deployment</label>
+                </value>
+                <value>
+                    <fullName>Change to existing country channel configuration</fullName>
+                    <default>false</default>
+                    <label>Change to existing country channel configuration</label>
+                </value>
+                <value>
+                    <fullName>New channel extranet integration (SSO)</fullName>
+                    <default>false</default>
+                    <label>New channel extranet integration (SSO)</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>New program creation / deployment</fullName>
+                    <default>false</default>
+                    <label>New program creation / deployment</label>
+                </value>
+                <value>
+                    <fullName>Change to existing program configuration</fullName>
+                    <default>false</default>
+                    <label>Change to existing program configuration</label>
+                </value>
+                <value>
+                    <fullName>New program extranet integration (SSO)</fullName>
+                    <default>false</default>
+                    <label>New program extranet integration (SSO)</label>
+                </value>
+                <value>
+                    <fullName>New page template</fullName>
+                    <default>false</default>
+                    <label>New page template</label>
+                </value>
+                <value>
+                    <fullName>New page creation</fullName>
+                    <default>false</default>
+                    <label>New page creation</label>
+                </value>
+                <value>
+                    <fullName>Existing page modification</fullName>
+                    <default>false</default>
+                    <label>Existing page modification</label>
+                </value>
+                <value>
+                    <fullName>New PRM content - general</fullName>
+                    <default>false</default>
+                    <label>New PRM content - general</label>
+                </value>
+                <value>
+                    <fullName>Modification to existing PRM content - general</fullName>
+                    <default>false</default>
+                    <label>Modification to existing PRM content - general</label>
+                </value>
+                <value>
+                    <fullName>New LMS deployment</fullName>
+                    <default>false</default>
+                    <label>New LMS deployment</label>
+                </value>
+                <value>
+                    <fullName>New Opportunity Management deployment</fullName>
+                    <default>false</default>
+                    <label>New Opportunity Management deployment</label>
+                </value>
+                <value>
+                    <fullName>New PRM Locator deployment</fullName>
+                    <default>false</default>
+                    <label>New PRM Locator deployment</label>
+                </value>
+                <value>
+                    <fullName>New Tools &amp; Documents deployment</fullName>
+                    <default>false</default>
+                    <label>New Tools &amp; Documents deployment</label>
+                </value>
+                <value>
+                    <fullName>Updates to Locator Configuration</fullName>
+                    <default>false</default>
+                    <label>Updates to Locator Configuration</label>
+                </value>
+                <value>
+                    <fullName>Updates to Search Filter Criteria</fullName>
+                    <default>false</default>
+                    <label>Updates to Search Filter Criteria</label>
+                </value>
+                <value>
+                    <fullName>New User Migration</fullName>
+                    <default>false</default>
+                    <label>New User Migration</label>
+                </value>
+                <value>
+                    <fullName>Account / Contact deletion</fullName>
+                    <default>false</default>
+                    <label>Account / Contact deletion</label>
+                </value>
+                <value>
+                    <fullName>New PRM Report / Dashboard</fullName>
+                    <default>false</default>
+                    <label>New PRM Report / Dashboard</label>
+                </value>
+                <value>
+                    <fullName>Modification to existing Report / Dashboard</fullName>
+                    <default>false</default>
+                    <label>Modification to existing Report / Dashboard</label>
+                </value>
+                <value>
+                    <fullName>New PRM Chat deployment</fullName>
+                    <default>false</default>
+                    <label>New PRM Chat deployment</label>
+                </value>
+                <value>
+                    <fullName>Rewards Deployment</fullName>
+                    <default>false</default>
+                    <label>Rewards Deployment</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>PRM Channel</controllingFieldValue>
+                <valueName>New country channel deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Channel</controllingFieldValue>
+                <valueName>Change to existing country channel configuration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Channel</controllingFieldValue>
+                <valueName>New channel extranet integration (SSO)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Channel</controllingFieldValue>
+                <controllingFieldValue>PRM Program</controllingFieldValue>
+                <controllingFieldValue>PRM Content</controllingFieldValue>
+                <controllingFieldValue>PRM Features</controllingFieldValue>
+                <controllingFieldValue>PRM Locator</controllingFieldValue>
+                <controllingFieldValue>PRM Account Data</controllingFieldValue>
+                <controllingFieldValue>PRM Reporting</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Program</controllingFieldValue>
+                <valueName>New program creation / deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Program</controllingFieldValue>
+                <valueName>Change to existing program configuration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Program</controllingFieldValue>
+                <valueName>New program extranet integration (SSO)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Program</controllingFieldValue>
+                <valueName>New page template</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Content</controllingFieldValue>
+                <valueName>New page creation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Content</controllingFieldValue>
+                <valueName>Existing page modification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Content</controllingFieldValue>
+                <valueName>New PRM content - general</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Content</controllingFieldValue>
+                <valueName>Modification to existing PRM content - general</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Features</controllingFieldValue>
+                <valueName>New LMS deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Features</controllingFieldValue>
+                <valueName>New Opportunity Management deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Features</controllingFieldValue>
+                <valueName>New PRM Locator deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Features</controllingFieldValue>
+                <valueName>New Tools &amp; Documents deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Features</controllingFieldValue>
+                <valueName>New PRM Chat deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Features</controllingFieldValue>
+                <valueName>Rewards Deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Locator</controllingFieldValue>
+                <valueName>Updates to Locator Configuration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Locator</controllingFieldValue>
+                <valueName>Updates to Search Filter Criteria</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Account Data</controllingFieldValue>
+                <valueName>New User Migration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Account Data</controllingFieldValue>
+                <valueName>Account / Contact deletion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Reporting</controllingFieldValue>
+                <valueName>New PRM Report / Dashboard</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PRM Reporting</controllingFieldValue>
+                <valueName>Modification to existing Report / Dashboard</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Summary</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PRM_PAN_Wished_Deadline__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Used for prioritization</inlineHelpText>
+        <label>Target Deployment Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PRM_Super_Champion__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>PRM Super Champion</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Value does not exist or does not match filter criteria: User Type must be Standard</errorMessage>
+            <filterItems>
+                <field>User.UserType</field>
+                <operation>equals</operation>
+                <value>Standard</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>PRM_Business_Requests1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>PRM Business Request</label>
+    <listViews>
+        <fullName>Global_PRM_Request</fullName>
+        <columns>NAME</columns>
+        <columns>PRM_PAN_Country__c</columns>
+        <columns>PRM_PAN_Category__c</columns>
+        <columns>PRM_PAN_Customer_Classification__c</columns>
+        <columns>PRM_PAN_Customer_Classification_Level_2__c</columns>
+        <columns>PRM_PAN_Status__c</columns>
+        <columns>PRM_PAN_Summary__c</columns>
+        <columns>PRM_PAN_Approver__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>PRM_PAN_Wished_Deadline__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRM_PAN_Category__c</field>
+            <operation>notEqual</operation>
+            <value>PRM Content</value>
+        </filters>
+        <label>Global PRM Request</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Guillaume_Requests</fullName>
+        <columns>NAME</columns>
+        <columns>Application__c</columns>
+        <columns>PRM_PAN_Country__c</columns>
+        <columns>PRM_PAN_Category__c</columns>
+        <columns>PRM_PAN_Sub_category__c</columns>
+        <columns>PRM_PAN_Customer_Classification__c</columns>
+        <columns>PRM_PAN_Summary__c</columns>
+        <columns>PRM_PAN_Description__c</columns>
+        <columns>PRM_PAN_Status__c</columns>
+        <columns>PRM_PAN_Wished_Deadline__c</columns>
+        <columns>PRM_PAN_Approver__c</columns>
+        <columns>PRM_PAN_Original_Requester__c</columns>
+        <columns>PRM_PAN_Customer_Classification_Level_2__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRM_PAN_Category__c</field>
+            <operation>equals</operation>
+            <value>PRM Features</value>
+        </filters>
+        <filters>
+            <field>PRM_PAN_Sub_category__c</field>
+            <operation>equals</operation>
+            <value>Rewards Deployment</value>
+        </filters>
+        <label>Rewards PRM Business Requests - All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>OPEN_Global_PRM_Requests</fullName>
+        <columns>NAME</columns>
+        <columns>PRM_PAN_Category__c</columns>
+        <columns>PRM_PAN_Country__c</columns>
+        <columns>PRM_PAN_Customer_Classification__c</columns>
+        <columns>PRM_PAN_Customer_Classification_Level_2__c</columns>
+        <columns>PRM_PAN_Description__c</columns>
+        <columns>PRM_PAN_Status__c</columns>
+        <columns>PRM_PAN_Sub_category__c</columns>
+        <columns>PRM_PAN_Wished_Deadline__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>PRM_PAN_Approver__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRM_PAN_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Live – In Hypercare,Closed</value>
+        </filters>
+        <label>OPEN Global PRM Requests</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Business_Requests_Rewards</fullName>
+        <columns>NAME</columns>
+        <columns>PRM_PAN_Sub_category__c</columns>
+        <columns>Application__c</columns>
+        <columns>PRM_PAN_Country__c</columns>
+        <columns>PRM_PAN_Customer_Classification__c</columns>
+        <columns>PRM_PAN_Wished_Deadline__c</columns>
+        <columns>PRM_PAN_Status__c</columns>
+        <columns>PRM_Super_Champion__c</columns>
+        <columns>PRM_PAN_Champion__c</columns>
+        <columns>PRM_PAN_Approver__c</columns>
+        <columns>PRM_PAN_Original_Requester__c</columns>
+        <columns>PRM_PAN_Summary__c</columns>
+        <columns>PRM_PAN_Description__c</columns>
+        <columns>PRM_PAN_Customer_Classification_Level_2__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRM_PAN_Sub_category__c</field>
+            <operation>equals</operation>
+            <value>Rewards Deployment</value>
+        </filters>
+        <label>PRM Business Requests - Rewards</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_PAN_All_PRM_Requests</fullName>
+        <columns>NAME</columns>
+        <columns>Application__c</columns>
+        <columns>PRM_PAN_Country__c</columns>
+        <columns>PRM_PAN_Category__c</columns>
+        <columns>PRM_PAN_Sub_category__c</columns>
+        <columns>PRM_PAN_Customer_Classification__c</columns>
+        <columns>PRM_PAN_Summary__c</columns>
+        <columns>PRM_PAN_Description__c</columns>
+        <columns>PRM_PAN_Status__c</columns>
+        <columns>PRM_PAN_Wished_Deadline__c</columns>
+        <columns>PRM_PAN_Approver__c</columns>
+        <columns>PRM_PAN_Original_Requester__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>PRM_PAN_Customer_Classification_Level_2__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All PRM Requests</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>RDT_PRM_Chat_Request</fullName>
+        <columns>NAME</columns>
+        <columns>PRM_PAN_Country__c</columns>
+        <columns>PRM_PAN_Summary__c</columns>
+        <columns>PRM_PAN_Status__c</columns>
+        <columns>PRM_PAN_Customer_Classification__c</columns>
+        <columns>PRM_PAN_Customer_Classification_Level_2__c</columns>
+        <columns>PRM_PAN_Category__c</columns>
+        <columns>PRM_PAN_Wished_Deadline__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>PRM_PAN_Approver__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>PRM_PAN_Original_Requester__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRM_PAN_Summary__c</field>
+            <operation>notContain</operation>
+            <value>test</value>
+        </filters>
+        <filters>
+            <field>PRM_PAN_Summary__c</field>
+            <operation>contains</operation>
+            <value>chat</value>
+        </filters>
+        <label>RDT PRM Chat Request</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Rewards_PRM_Business_Requests_All_Clon</fullName>
+        <columns>NAME</columns>
+        <columns>Application__c</columns>
+        <columns>PRM_PAN_Country__c</columns>
+        <columns>PRM_PAN_Category__c</columns>
+        <columns>PRM_PAN_Sub_category__c</columns>
+        <columns>PRM_PAN_Customer_Classification__c</columns>
+        <columns>PRM_PAN_Summary__c</columns>
+        <columns>PRM_PAN_Description__c</columns>
+        <columns>PRM_PAN_Status__c</columns>
+        <columns>PRM_PAN_Wished_Deadline__c</columns>
+        <columns>PRM_PAN_Approver__c</columns>
+        <columns>PRM_PAN_Original_Requester__c</columns>
+        <columns>PRM_PAN_Customer_Classification_Level_2__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRM_PAN_Country__c</field>
+            <operation>equals</operation>
+            <value>USA</value>
+        </filters>
+        <label>USA PRM Business Requests</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Rewards_PRM_Business_Requests_Open</fullName>
+        <columns>NAME</columns>
+        <columns>Application__c</columns>
+        <columns>PRM_PAN_Country__c</columns>
+        <columns>PRM_PAN_Category__c</columns>
+        <columns>PRM_PAN_Sub_category__c</columns>
+        <columns>PRM_PAN_Customer_Classification__c</columns>
+        <columns>PRM_PAN_Summary__c</columns>
+        <columns>PRM_PAN_Description__c</columns>
+        <columns>PRM_PAN_Status__c</columns>
+        <columns>PRM_PAN_Wished_Deadline__c</columns>
+        <columns>PRM_PAN_Approver__c</columns>
+        <columns>PRM_PAN_Original_Requester__c</columns>
+        <columns>PRM_PAN_Customer_Classification_Level_2__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRM_PAN_Category__c</field>
+            <operation>equals</operation>
+            <value>PRM Features</value>
+        </filters>
+        <filters>
+            <field>PRM_PAN_Sub_category__c</field>
+            <operation>equals</operation>
+            <value>Rewards Deployment</value>
+        </filters>
+        <filters>
+            <field>PRM_PAN_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Closed,Cancelled,On Hold</value>
+        </filters>
+        <label>Rewards PRM Business Requests - Open</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>test</fullName>
+        <booleanFilter>(((1 OR 3) OR 4) AND 2)</booleanFilter>
+        <columns>NAME</columns>
+        <columns>PRM_PAN_Status__c</columns>
+        <columns>PRM_PAN_Wished_Deadline__c</columns>
+        <columns>PRM_PAN_Approver__c</columns>
+        <columns>PRM_PAN_Sub_category__c</columns>
+        <columns>PRM_PAN_Summary__c</columns>
+        <columns>PRM_PAN_Description__c</columns>
+        <columns>PRM_PAN_Country__c</columns>
+        <columns>PRM_PAN_Original_Requester__c</columns>
+        <columns>PRM_PAN_Category__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRM_PAN_Status__c</field>
+            <operation>contains</operation>
+            <value>03 - Specs Delivered - Under IPO Specs Review,05 - Configured – Pending IPO App</value>
+        </filters>
+        <filters>
+            <field>PRM_PAN_Status__c</field>
+            <operation>notContain</operation>
+            <value>02 - Rejected,09 - Closed</value>
+        </filters>
+        <filters>
+            <field>PRM_PAN_Approver__c</field>
+            <operation>contains</operation>
+            <value>Van de Casteele</value>
+        </filters>
+        <filters>
+            <field>PRM_PAN_Approver__c</field>
+            <operation>contains</operation>
+            <value>Thakur</value>
+        </filters>
+        <label>Solution Deploy Other Channels</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>PRM-{000000000}</displayFormat>
+        <label>PRM Business Request Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>PRM Business Requests</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>PRM_PAN_Summary__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRM_PAN_Customer_Classification__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRM_PAN_Customer_Classification_Level_2__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRM_PAN_Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRM_PAN_Sub_category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRM_PAN_Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRM_PAN_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRM_PAN_Approver__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>PRM_PAN_Country__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRM_PAN_Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRM_PAN_Customer_Classification__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRM_PAN_Customer_Classification_Level_2__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRM_PAN_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRM_PAN_Wished_Deadline__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>PRM_PAN_VR_PRMMAY19_GoLiveDate</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+NOT($User.BypassVR__c),
+OR(ISPICKVAL(PRM_PAN_Status__c, &apos;Closed&apos;),ISPICKVAL(PRM_PAN_Status__c, &apos;Live – In Hypercare&apos;)),
+ISBLANK(PRM_PAN_GoLiveDate__c))</errorConditionFormula>
+        <errorMessage>Go Live Date is required</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

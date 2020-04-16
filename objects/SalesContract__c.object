@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>LCMP_SalesContractCreationPage</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>LightningComponent</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SalesContractCompactlayout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>SalesContractCompactlayout</fullName>
+        <fields>Name</fields>
+        <fields>OwnerId</fields>
+        <fields>AccountName__c</fields>
+        <fields>ContractStartdate__c</fields>
+        <fields>ContractEnddate__c</fields>
+        <fields>ContractType__c</fields>
+        <fields>CurrentStatus__c</fields>
+        <label>Sales Contract Compact layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object stores the sales contract records.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountCountry1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field looks for the country record.</description>
+        <externalId>false</externalId>
+        <label>Account Country</label>
+        <referenceTo>Country__c</referenceTo>
+        <relationshipLabel>Sales Contracts</relationshipLabel>
+        <relationshipName>Sales_Contracts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AccountCountry__c</fullName>
+        <externalId>false</externalId>
+        <formula>AccountName__r.Country__r.Name</formula>
+        <label>Account Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountIcons__c</fullName>
+        <externalId>false</externalId>
+        <formula>AccountName__r.Account_VIPIcon__c</formula>
+        <label>Account Icons</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountName__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>This field looks for the account record.</description>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Sales Contracts</relationshipLabel>
+        <relationshipName>SalesContracts</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedBy__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Activated By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>SalesContracts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Activated Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ContractEnddate__c</fullName>
+        <description>If actual start &amp; end are not known, enter estimated dates. Actual Contract Start &amp; End dates will be finalized upon activation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If actual start &amp; end are not known, enter estimated dates. Actual Contract Start &amp; End dates will be finalized upon activation.</inlineHelpText>
+        <label>Contract End date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ContractName__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The contract name should contain some indication of the coverage period and the type of contract - for example &quot;Q1 Rebate Agreement 2019&quot;</inlineHelpText>
+        <label>Contract Name</label>
+        <length>80</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContractStartdate__c</fullName>
+        <description>If actual start &amp; end are not known, enter estimated dates. Actual Contract Start &amp; End dates will be finalized upon activation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If actual start &amp; end are not known, enter estimated dates. Actual Contract Start &amp; End dates will be finalized upon activation.</inlineHelpText>
+        <label>Contract Start date</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ContractTemplateLink__c</fullName>
+        <description>Use this link to download the standard Schneider Electric template selected.</description>
+        <externalId>false</externalId>
+        <formula>IF(ContractTemplate__r.ContractTemplateLink__c !=null,HYPERLINK(ContractTemplate__r.ContractTemplateLink__c, &quot;Contract Template link&quot; ,&quot;_blank&quot;),&apos;&apos;)</formula>
+        <inlineHelpText>Use this link to download the standard Schneider Electric template selected.</inlineHelpText>
+        <label>Contract Template link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContractTemplate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Search using the Contract Type to see the full list of available templates. If no Schneider Electric template is available to select, contact the Legal team.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Search using the Contract Type selected above to see the full list of available templates for that type. If no Schneider Electric template is available to select, contact the Legal team.</inlineHelpText>
+        <label>Contract Template</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 AND 2 AND 3</booleanFilter>
+            <filterItems>
+                <field>$Source.ContractType__c</field>
+                <operation>equals</operation>
+                <valueField>SalesContractTemplate__c.ContractType__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.AccountCountry1__c</field>
+                <operation>equals</operation>
+                <valueField>SalesContractTemplate__c.Country__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.LeadingBusinessUnitBU__c</field>
+                <operation>equals</operation>
+                <valueField>SalesContractTemplate__c.LeadingBusinessUnitBU__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SalesContractTemplate__c</referenceTo>
+        <relationshipLabel>Sales Contracts</relationshipLabel>
+        <relationshipName>SalesContracts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContractType__c</fullName>
+        <description>Ensure you are selecting the correct Contract type. This will determine the template available for selection.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Ensure you are selecting the correct Contract type. This will determine the template available for selection.</inlineHelpText>
+        <label>Contract Type</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>APC Reference for Vendor</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>APC Reference for Vendor</label>
+                </value>
+                <value>
+                    <fullName>Certified Partner Agreement</fullName>
+                    <default>false</default>
+                    <label>Certified Partner Agreement</label>
+                </value>
+                <value>
+                    <fullName>Contractor Sales</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Contractor Sales</label>
+                </value>
+                <value>
+                    <fullName>Corporate Guaranty</fullName>
+                    <default>false</default>
+                    <label>Corporate Guaranty</label>
+                </value>
+                <value>
+                    <fullName>Demo Center Agreement</fullName>
+                    <default>false</default>
+                    <label>Demo Center Agreement</label>
+                </value>
+                <value>
+                    <fullName>Direct Master / Reseller</fullName>
+                    <default>false</default>
+                    <label>Direct Master / Reseller</label>
+                </value>
+                <value>
+                    <fullName>Direct Master Purchase</fullName>
+                    <default>false</default>
+                    <label>Direct Master Purchase</label>
+                </value>
+                <value>
+                    <fullName>Distribution Agreement</fullName>
+                    <default>false</default>
+                    <label>Distribution Agreement</label>
+                </value>
+                <value>
+                    <fullName>Funded Head Agreement</fullName>
+                    <default>false</default>
+                    <label>Funded Head Agreement</label>
+                </value>
+                <value>
+                    <fullName>MDF Agreement</fullName>
+                    <default>false</default>
+                    <label>MDF Agreement</label>
+                </value>
+                <value>
+                    <fullName>Migrated</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Migrated</label>
+                </value>
+                <value>
+                    <fullName>Migrated Agreement</fullName>
+                    <default>false</default>
+                    <label>Migrated Agreement</label>
+                </value>
+                <value>
+                    <fullName>Product Evaluation</fullName>
+                    <default>false</default>
+                    <label>Product Evaluation</label>
+                </value>
+                <value>
+                    <fullName>Program Agreement</fullName>
+                    <default>false</default>
+                    <label>Program Agreement</label>
+                </value>
+                <value>
+                    <fullName>Purchase Requisition T&amp;C</fullName>
+                    <default>false</default>
+                    <label>Purchase Requisition T&amp;C</label>
+                </value>
+                <value>
+                    <fullName>Rebate Agreement</fullName>
+                    <default>false</default>
+                    <label>Rebate Agreement</label>
+                </value>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>Retail Agreement</fullName>
+                    <default>false</default>
+                    <label>Retail Agreement</label>
+                </value>
+                <value>
+                    <fullName>Service Partner Agreement</fullName>
+                    <default>false</default>
+                    <label>Service Partner Agreement</label>
+                </value>
+                <value>
+                    <fullName>Services Agreement</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Services Agreement</label>
+                </value>
+                <value>
+                    <fullName>VIR Co Op Marketing</fullName>
+                    <default>false</default>
+                    <label>VIR Co Op Marketing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CurrentStatus__c</fullName>
+        <description>Concatenation of the status and sub-status values.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Status__c)+IF(NOT(ISBLANK(TEXT(Substatus__c))),&apos; - &apos;,&apos;&apos;)+TEXT(Substatus__c)</formula>
+        <label>Current Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DaysInInprogressStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Substatus__c) = &apos;In Progress&apos; , TODAY()-TECH_DraftStatusDate__c,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DaysInInprogressStatus</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EstimatedImpact__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated cost to SE amount</inlineHelpText>
+        <label>Estimated Impact</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>EstimatedValue__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated revenue amount</inlineHelpText>
+        <label>Estimated Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Evergreen__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Evergreen</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsRenewed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>True if Contract is Renewed from the current Record</description>
+        <externalId>false</externalId>
+        <label>Is Renewed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LeadingBusinessUnitBU__c</fullName>
+        <externalId>false</externalId>
+        <label>Leading Business Unit (BU)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BD</fullName>
+                    <default>false</default>
+                    <label>BD</label>
+                </value>
+                <value>
+                    <fullName>BI</fullName>
+                    <default>false</default>
+                    <label>BI</label>
+                </value>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>false</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>GW</fullName>
+                    <default>false</default>
+                    <label>GW</label>
+                </value>
+                <value>
+                    <fullName>IA</fullName>
+                    <default>false</default>
+                    <label>IA</label>
+                </value>
+                <value>
+                    <fullName>IB</fullName>
+                    <default>false</default>
+                    <label>IB</label>
+                </value>
+                <value>
+                    <fullName>ID</fullName>
+                    <default>false</default>
+                    <label>ID</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>PP</fullName>
+                    <default>false</default>
+                    <label>PP</label>
+                </value>
+                <value>
+                    <fullName>PR</fullName>
+                    <default>false</default>
+                    <label>PR</label>
+                </value>
+                <value>
+                    <fullName>PS</fullName>
+                    <default>false</default>
+                    <label>PS</label>
+                </value>
+                <value>
+                    <fullName>SO</fullName>
+                    <default>false</default>
+                    <label>SO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LegacyContractID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Legacy Contract ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>LegacyContractType__c</fullName>
+        <externalId>false</externalId>
+        <label>Legacy Contract Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OwnerExpirationNotice__c</fullName>
+        <description>This field is to send notifications to the users.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Owner will be notified at 30 days before expiration automatically. If you wish an additional notification, select a period for notification.</inlineHelpText>
+        <label>Owner Expiration Notice</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>15 Days</fullName>
+                    <default>false</default>
+                    <label>15 Days</label>
+                </value>
+                <value>
+                    <fullName>30 Days</fullName>
+                    <default>false</default>
+                    <label>30 Days</label>
+                </value>
+                <value>
+                    <fullName>45 Days</fullName>
+                    <default>false</default>
+                    <label>45 Days</label>
+                </value>
+                <value>
+                    <fullName>60 Days</fullName>
+                    <default>false</default>
+                    <label>60 Days</label>
+                </value>
+                <value>
+                    <fullName>90 Days</fullName>
+                    <default>false</default>
+                    <label>90 Days</label>
+                </value>
+                <value>
+                    <fullName>120 Days</fullName>
+                    <default>false</default>
+                    <label>120 Days</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PrimaryContact__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the primary account contact for correspondence regarding this contract.</inlineHelpText>
+        <label>Primary Contact</label>
+        <lookupFilter>
+            <active>false</active>
+            <filterItems>
+                <field>Contact.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.AccountName__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Sales Contracts</relationshipLabel>
+        <relationshipName>SalesContracts</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Renewedfrom__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Renewed from</label>
+        <referenceTo>SalesContract__c</referenceTo>
+        <relationshipLabel>Sales Contract Renewals</relationshipLabel>
+        <relationshipName>SalesContracts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SignatureDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Signature Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SignatureName__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If applicable, this is the name of the internal SE signatory for this contract.</inlineHelpText>
+        <label>Signature Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SpecialTerms__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The negotiated T&amp;C&apos;s of this Contract</inlineHelpText>
+        <label>Special Terms</label>
+        <length>4000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>StandardForm__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If you are not using a standard Schneider Electric template, uncheck this field.</inlineHelpText>
+        <label>Standard Form</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>A contract may only be set to &quot;Abandoned&quot; when in Draft status and may only be set to &quot;Terminated&quot; when in Active status.</inlineHelpText>
+        <label>Status</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+                <value>
+                    <fullName>Terminated</fullName>
+                    <default>false</default>
+                    <label>Terminated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Substatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Status__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Awaiting Customer Review</fullName>
+                    <default>false</default>
+                    <label>Awaiting Customer Review</label>
+                </value>
+                <value>
+                    <fullName>Awaiting Review/Activation</fullName>
+                    <default>false</default>
+                    <label>Awaiting Review/Activation</label>
+                </value>
+                <value>
+                    <fullName>Abandoned</fullName>
+                    <default>false</default>
+                    <label>Abandoned</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Draft</controllingFieldValue>
+                <valueName>In Progress</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Draft</controllingFieldValue>
+                <valueName>Awaiting Customer Review</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Draft</controllingFieldValue>
+                <valueName>Awaiting Review/Activation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Draft</controllingFieldValue>
+                <valueName>Abandoned</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Summarynotes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter any additional information that should be included in the Contract Summary.</inlineHelpText>
+        <label>Summary notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TECH_AccountCountryId__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_AccountCountryId</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_DraftStatusDate__c</fullName>
+        <externalId>false</externalId>
+        <label>TECH_DraftStatusDate</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TerminatedReasonOther__c</fullName>
+        <externalId>false</externalId>
+        <label>Terminated Reason - Other</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TerminatedReason__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Required if an active contract is terminated</inlineHelpText>
+        <label>Terminated Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Partner Out of Business</fullName>
+                    <default>false</default>
+                    <label>Partner Out of Business</label>
+                </value>
+                <value>
+                    <fullName>Partner Cancelled</fullName>
+                    <default>false</default>
+                    <label>Partner Cancelled</label>
+                </value>
+                <value>
+                    <fullName>SE Internal: Duplicate </fullName>
+                    <default>false</default>
+                    <label>SE Internal: Duplicate </label>
+                </value>
+                <value>
+                    <fullName>Mutual Termination: Project cancelled</fullName>
+                    <default>false</default>
+                    <label>Mutual Termination: Project cancelled</label>
+                </value>
+                <value>
+                    <fullName>SE Terminated: Project delayed</fullName>
+                    <default>false</default>
+                    <label>SE Terminated: Project delayed</label>
+                </value>
+                <value>
+                    <fullName>Mutual Termination: Partner Budget / Resources</fullName>
+                    <default>false</default>
+                    <label>Mutual Termination: Partner Budget / Resources</label>
+                </value>
+                <value>
+                    <fullName>SE Terminated: Funded Head Position Not Filled in / Replaced</fullName>
+                    <default>false</default>
+                    <label>SE Terminated: Funded Head Position Not Filled in / Replaced</label>
+                </value>
+                <value>
+                    <fullName>SE Terminated: Partner Budget / Resources</fullName>
+                    <default>false</default>
+                    <label>SE Terminated: Partner Budget / Resources</label>
+                </value>
+                <value>
+                    <fullName>SE Terminated: Channel Partner Capabilities</fullName>
+                    <default>false</default>
+                    <label>SE Terminated: Channel Partner Capabilities</label>
+                </value>
+                <value>
+                    <fullName>SE Terminated: Partner in Breach of Contract</fullName>
+                    <default>false</default>
+                    <label>SE Terminated: Partner in Breach of Contract</label>
+                </value>
+                <value>
+                    <fullName>No reason given</fullName>
+                    <default>false</default>
+                    <label>No reason given</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Sales Contract</label>
+    <nameField>
+        <displayFormat>SC-{00000}</displayFormat>
+        <label>Sales Contract Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Sales Contracts</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ContractName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CurrentStatus__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ContractStartdate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ContractEnddate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ContractType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.FIRST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.LAST_NAME</customTabListAdditionalFields>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <listViewButtons>New_Sales_Contract</listViewButtons>
+        <lookupDialogsAdditionalFields>ContractName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CurrentStatus__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ContractStartdate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ContractEnddate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ContractType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.FIRST_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.LAST_NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ContractName__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CurrentStatus__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ContractStartdate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ContractEnddate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ContractType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OWNER.FIRST_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OWNER.LAST_NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ContractName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CurrentStatus__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ContractStartdate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ContractEnddate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ContractType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.LAST_NAME</searchResultsAdditionalFields>
+        <searchResultsCustomButtons>New_Sales_Contract</searchResultsCustomButtons>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <sharingReasons>
+        <fullName>GrantAccessToSLSConTeam__c</fullName>
+        <label>GrantAccessToSLSConTeam</label>
+    </sharingReasons>
+    <validationRules>
+        <fullName>Abandoned_SubStatus_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+ISCHANGED(Substatus__c), 
+TEXT(PRIORVALUE(Substatus__c)) = &apos;Abandoned&apos;,OR(ISPICKVAL( Substatus__c ,&apos;Awaiting Customer Review&apos;),ISPICKVAL( Substatus__c ,&apos;Awaiting Review/Activation&apos;)))</errorConditionFormula>
+        <errorMessage>You can set the status to only In progress.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Active_Status_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),ISCHANGED(Status__c),ISPICKVAL( Status__c ,&apos;Active&apos;),
+NOT(OR(TEXT(PRIORVALUE(Status__c))=&apos;Expired&apos;,AND(TEXT(PRIORVALUE(Status__c))=&apos;Draft&apos;,OR(TEXT(PRIORVALUE(Substatus__c))=&apos;In Progress&apos; , TEXT(PRIORVALUE(Substatus__c))=&apos;Awaiting Review/Activation&apos;) ))))</errorConditionFormula>
+        <errorMessage>The Status can be set to Active only from Draft- Awaiting Review/Activation or from In Progress</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Draft_Status_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),
+ISCHANGED(Status__c), 
+TEXT(PRIORVALUE(Status__c)) = &apos;Draft&apos;,OR(ISPICKVAL( Status__c ,&apos;Terminated&apos;),ISPICKVAL( Status__c ,&apos;Expired&apos;)))</errorConditionFormula>
+        <errorMessage>Status cannot be changed from Draft to Expired or Terminated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>End_Date_Check_with_Active_status</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),ISPICKVAL( Status__c ,&apos;Active&apos;),ISBLANK( ContractEnddate__c ))</errorConditionFormula>
+        <errorDisplayField>ContractEnddate__c</errorDisplayField>
+        <errorMessage>The contract End date is mandatory for Active contracts.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>End_Date_Check_with_Start_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),ContractStartdate__c &gt; ContractEnddate__c)</errorConditionFormula>
+        <errorDisplayField>ContractEnddate__c</errorDisplayField>
+        <errorMessage>The contract End date cannot be less than the Contract Start Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Expired_Status_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+ISCHANGED(Status__c), 
+TEXT(PRIORVALUE(Status__c)) = &apos;Expired&apos;,OR(ISPICKVAL( Status__c ,&apos;Terminated&apos;),ISPICKVAL( Status__c ,&apos;Draft&apos;)))</errorConditionFormula>
+        <errorMessage>Status cannot be changed from Expired to Draft or Terminated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>InProgress_SubStatus_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+ISCHANGED(Substatus__c), 
+OR(TEXT(PRIORVALUE(Substatus__c)) = &apos;Awaiting Customer Review&apos;,TEXT(PRIORVALUE(Substatus__c)) = &apos;Awaiting Review/Activation&apos;),ISPICKVAL( Substatus__c ,&apos;In Progress&apos;))</errorConditionFormula>
+        <errorMessage>You cannot go back to In progress.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Terminated_Other_Reason_must_be_filled</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),ISPICKVAL(TerminatedReason__c,&apos;Other&apos;),ISBLANK(TerminatedReasonOther__c))</errorConditionFormula>
+        <errorDisplayField>TerminatedReasonOther__c</errorDisplayField>
+        <errorMessage>Please specify the reason for selecting &quot;Other&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Terminated_Status_Check</fullName>
+        <active>true</active>
+        <description>This Validation rule is to check the Terminated reason is filled or not upon the termination of the contract.</description>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c),ISCHANGED(Status__c),ISPICKVAL( Status__c ,&apos;Terminated&apos;),ISBLANK(TEXT(TerminatedReason__c )))</errorConditionFormula>
+        <errorDisplayField>TerminatedReason__c</errorDisplayField>
+        <errorMessage>Please fill in the Terminated Reason for the selected status.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TerminatedtoDraftAndExpired_Status_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT($User.BypassVR__c), 
+ISCHANGED(Status__c), 
+TEXT(PRIORVALUE(Status__c)) = &apos;Terminated&apos;,OR(ISPICKVAL( Status__c ,&apos;Draft&apos;),ISPICKVAL( Status__c ,&apos;Expired&apos;)))</errorConditionFormula>
+        <errorMessage>Status cannot be changed from Terminated to Draft or Expired.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>GenerateDocument</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Generate Summary</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/loop__looplus?eid={! SalesContract__c.Id }&amp;sessionId={!$Api.Session_ID}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Sales_Contract</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>New</masterLabel>
+        <openType>sidebar</openType>
+        <page>VFP_NewSalesContract</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

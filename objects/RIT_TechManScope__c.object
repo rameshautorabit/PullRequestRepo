@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>VFP_TechManfScope</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>VFP_TechManfScope</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>VFP_TechManfScopeDetail</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Quote Approval – Technical - Manufacturing - Scope for Bid Approval</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AnyEquipmentSpecificallyDesigned__c</fullName>
+        <description>Quote Approval – Any Equipment Specifically Designed?  for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is there any equipment/software specifically designed to fit the Customer&apos;s needs and/or not previously tested?
+
+Customisation, new development, tests to be passed, homologation, certification.</inlineHelpText>
+        <label>Any specific custom design (hard/soft) ?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BriefDescriptionOfTheEquipment__c</fullName>
+        <description>Quote Approval – Brief Description Of The Equipment for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>OG equipment/software/system, IG equipment/software/system, design, site works, installation, supervision, spare parts, services, etc. in our CAPEX contract</inlineHelpText>
+        <label>Brief description of the solution</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentsOnScopeOfWork__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Feasibility study, impact on delivery schedule, tests to be passed, homologation, certification, need the support of a external consultant, etc.</inlineHelpText>
+        <label>Comments on Scope of Work</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsOnServiceActivities__c</fullName>
+        <description>Quote Approval – Comments On Service Activities for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <label>Comments On Service Activities</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsOnSiteActivities__c</fullName>
+        <description>Quote Approval – Comments On Site Activities for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <label>Comments On Site Activities</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsOnTechnicalPerformance__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Comment on technical performance , back-to-back from the OG suppliers on technical performance, etc.</inlineHelpText>
+        <label>Comments on Technical Performances</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CommentsOnTimeSchedule__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments on Time schedule</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DoWeTakeAnyPerformanceCommitment__c</fullName>
+        <description>Quote Approval – Do we take any performance commitment with this project?  for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is our offer required to comply with technical performance guarantees and/or Service Level Agreement (SLA)?
+
+eg: Solar plant efficiency, Energy savings, Data savings, Transmission rates, % uptime, % savings, energy losses ….</inlineHelpText>
+        <label>Technical performance commitment or SLA?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FinalUseOfOurSolution__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the final use of our solution for the End-User application?
+
+e.g. BMS for hospital,  Drives for motors, etc.
+Life support ( e.g. Hospital) , Nuclear equipment, Data centers, Mine extraction or upstream O&amp;G onshore/offshore are critical segments</inlineHelpText>
+        <label>Use of our solution for the End-User?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfNoPleaseCommentOnDeviation__c</fullName>
+        <description>Quote Approval –If No Please Comment On Deviation for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. No major deviations are done, or the deviations will be acceptable to the Client and will make our offer more competitive, etc.</inlineHelpText>
+        <label>Comments on Technical Compliance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfNoPleaseComment__c</fullName>
+        <description>Quote Approval –If No Please Comment on Scope defined, accepted &amp; mastered by SE for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <label>If No, Please Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfYesPleaseCommentAndGiveDetailsNew__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please comment and give details on the nature of the technical performance guarantees / SLA</inlineHelpText>
+        <label>Please describe Perf. Commitment / SLA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>IfYesPleaseCommentAndGiveDetails__c</fullName>
+        <description>Quote Approval – If yes please comment and give details for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Yes, Please Comment And Give Details On The Nature Of The Commitment, The Max. Exposure etc</inlineHelpText>
+        <label>If Yes, Please Comment And Give Details</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IfYesPleaseComment__c</fullName>
+        <description>Quote Approval –If Yes Please Comment on SE already performed this type of project for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Examples of projects (name, value, year of completion) and associated lessons learned</inlineHelpText>
+        <label>Comments on Know-How and Experience</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NewTimeScheduleInMonths__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>From coming into force until completion of the Scope of Work, excl. Warranty period</inlineHelpText>
+        <label>SE Time schedule in months_TEXT</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PlsExplainHowRisksWillBeMitigated__c</fullName>
+        <description>Quote Approval – Please Explain How Risks Will Be Mitigated for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Has a detailed list of comments, deviations, exclusions and limitations been included in our offer?</inlineHelpText>
+        <label>List of deviations included in our offer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ProjectReviewedValidatedbySolArch__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Has the project been reviewed and validated by a Solution Architect?
+
+It is recommended that the Solution Architect put his/her comments as a SME</inlineHelpText>
+        <label>Validation by a Solution Architect?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Not needed</fullName>
+                    <default>false</default>
+                    <label>Not needed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProjectValBySolArchitect__c</fullName>
+        <defaultValue>&apos;It is recommended that the Solution Architect put his/her comments as a SME in the QLK&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QualifyManufacturingWorkloadNew__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Has the workload of the concerned entities (subcontractors, OG, IG) been validated and meets the requirements of our delivery schedule?
+
+Manufacturing , installation, site services, etc.</inlineHelpText>
+        <label>Workload of suppliers OK with schedule?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>QualifyManufacturingWorkload__c</fullName>
+        <description>Quote Approval – Qualify Manufacturing Workload? for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify The Manufacturing Workload For The Concerned Entity(ies)?</inlineHelpText>
+        <label>Qualify Manufacturing Workload?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Normal</fullName>
+                    <default>false</default>
+                    <label>Normal</label>
+                </value>
+                <value>
+                    <fullName>Stretch</fullName>
+                    <default>false</default>
+                    <label>Stretch</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QualifyTechnicalEnvironmentRisks__c</fullName>
+        <description>Quote Approval – Qualify Technical Environment Risks for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify The Risks Concerning The Technical Environment And Scope Of Supply?</inlineHelpText>
+        <label>Qualify Technical Environment Risks</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QualifyTheDeliverySchedule__c</fullName>
+        <description>Quote Approval –Qualify The Delivery Schedule  for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How Would You Qualify The Delivery Schedule?</inlineHelpText>
+        <label>Qualify The Delivery Schedule</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Comfortable</fullName>
+                    <default>false</default>
+                    <label>Comfortable</label>
+                </value>
+                <value>
+                    <fullName>Tight</fullName>
+                    <default>false</default>
+                    <label>Tight</label>
+                </value>
+                <value>
+                    <fullName>Very Tight</fullName>
+                    <default>false</default>
+                    <label>Very Tight</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuoteLink__c</fullName>
+        <description>Quote Approval - Master-detail relationship between Technical - Manufacturing - Scope of Supply and Quote Link</description>
+        <externalId>false</externalId>
+        <label>Quote Link</label>
+        <referenceTo>OPP_QuoteLink__c</referenceTo>
+        <relationshipName>RIT_TechManScope</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SEAlreadyPerformedThisTypeOfProj__c</fullName>
+        <description>Quote Approval – SE Already Performed This Type Of Project ?  for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does the local Front-Office / Solution Centre have previous experience with this type of project?</inlineHelpText>
+        <label>SE prev. performed this type of project?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No - New type of projects</fullName>
+                    <default>false</default>
+                    <label>No - New type of projects</label>
+                </value>
+                <value>
+                    <fullName>Limited experience</fullName>
+                    <default>false</default>
+                    <label>Limited experience</label>
+                </value>
+                <value>
+                    <fullName>Yes but with a smaller scope</fullName>
+                    <default>false</default>
+                    <label>Yes but with a smaller scope</label>
+                </value>
+                <value>
+                    <fullName>Yes - similar projects</fullName>
+                    <default>false</default>
+                    <label>Yes - similar projects</label>
+                </value>
+                <value>
+                    <fullName>Yes - bigger projects</fullName>
+                    <default>false</default>
+                    <label>Yes - bigger projects</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SEOwnSufficientSkillsToPerform__c</fullName>
+        <description>Quote Approval – SE Own Sufficient Skills To Perform? for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does SE Own Sufficient Skills To Perform This Contract?</inlineHelpText>
+        <label>SE Own Sufficient Skills To Perform?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SETechnOfferTotallyComplyWithSOW__c</fullName>
+        <description>Quote Approval – SE Technical Offer Totally Comply With SOW for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does our technical Offer comply totally with the scope of work and meet all the Client&apos;s technical specifications?</inlineHelpText>
+        <label>SE Tech. offer fully complies with SOW?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SEsTechProdsSolsImposedByClient__c</fullName>
+        <description>Quote Approval – SE’s Tech/Prods/Sols Imposed By Client? for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does SE have an existing installed base at the Client&apos;s sites?</inlineHelpText>
+        <label>SE has existing installed base at site?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No - new Client</fullName>
+                    <default>false</default>
+                    <label>No - new Client</label>
+                </value>
+                <value>
+                    <fullName>No - new technology is promoted</fullName>
+                    <default>false</default>
+                    <label>No - new technology is promoted</label>
+                </value>
+                <value>
+                    <fullName>No - competitors are promoted</fullName>
+                    <default>false</default>
+                    <label>No - competitors are promoted</label>
+                </value>
+                <value>
+                    <fullName>Yes but limited</fullName>
+                    <default>false</default>
+                    <label>Yes but limited</label>
+                </value>
+                <value>
+                    <fullName>Yes - several sites</fullName>
+                    <default>false</default>
+                    <label>Yes - several sites</label>
+                </value>
+                <value>
+                    <fullName>Yes - SE is promoted by the Client</fullName>
+                    <default>false</default>
+                    <label>Yes - SE is promoted by the Client</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ScopeDefinedAcceptedMasteredBySE__c</fullName>
+        <description>Quote Approval – Scope Defined, Accepted &amp; Mastered By SE for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is The Scope Of Work Clearly Defined, Acceptable And Mastered By SE?</inlineHelpText>
+        <label>Scope Defined, Accepted &amp; Mastered By SE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ScopeOfContractTypeOffer__c</fullName>
+        <description>Quote Approval – Formula to display the Scope of the related Opportunity.</description>
+        <externalId>false</externalId>
+        <formula>Text( QuoteLink__r.OpportunityName__r.OpportunityScope__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Scope Of Contract – Type Offer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ScopeofSupplyPartOfEUProcess__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Will our scope of supply become part of the End-User&apos;s core process?</inlineHelpText>
+        <label>Is our scope part of End-User&apos;s process?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ServiceActivities__c</fullName>
+        <description>Quote Approval – Service Activities for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <label>Service Activities</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Spare Parts</fullName>
+                    <default>false</default>
+                    <label>Spare Parts</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>On Site Maintenance</fullName>
+                    <default>false</default>
+                    <label>On Site Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SiteActivities__c</fullName>
+        <description>Quote Approval – Site Activities for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <label>Site Activities</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Supervision</fullName>
+                    <default>false</default>
+                    <label>Supervision</label>
+                </value>
+                <value>
+                    <fullName>Commissioning</fullName>
+                    <default>false</default>
+                    <label>Commissioning</label>
+                </value>
+                <value>
+                    <fullName>Civil work</fullName>
+                    <default>false</default>
+                    <label>Civil work</label>
+                </value>
+                <value>
+                    <fullName>Turnkey</fullName>
+                    <default>false</default>
+                    <label>Turnkey</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TechPerfValBySolArch__c</fullName>
+        <defaultValue>&apos;It is recommended that the Solution Architect put his/her comments as a SME in the QLKTechPerfValBySolArch&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>-</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TechnicalPerfCommOGSuppliers__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are our technical performance commitments dependent on the OG suppliers?</inlineHelpText>
+        <label>Our performance depends on OG suppliers?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TechnicalPerformanceCommitments__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Have the technical performance commitments been validated by a Solution Architect?
+
+It is recommended that the Solution Architect put his/her comments as a SME</inlineHelpText>
+        <label>Performance validated by Sol. Architect?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TimeScheduleInMonths__c</fullName>
+        <description>Quote Approval – Time Schedule In Months for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>From coming into force until completion of the Scope of Work, excl. Warranty period</inlineHelpText>
+        <label>SE Time schedule in months</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TimeScheduleTotallyMasteredBySE__c</fullName>
+        <description>Quote Approval – Time Schedule Totally Mastered By SE? for Technical - Manufacturing - Scope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the time schedule of SE supply totally mastered By SE?
+
+Taking into drawing approval, FAT, installation at site, SAT, PAC, etc.</inlineHelpText>
+        <label>Time Schedule totally mastered by SE?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Technical &amp; Scope</label>
+    <nameField>
+        <displayFormat>RIT-TMS-{0000}</displayFormat>
+        <label>Technical - Manufacturing - Scope</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Technical &amp; Scopes</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>TMS_VR08_CheckQuoteStatus</fullName>
+        <active>true</active>
+        <description>Quote Approval - To ensure that information is not edited after Quote Approval</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(Text(QuoteLink__r.QuoteStatus__c) = &apos;Approved&apos;)</errorConditionFormula>
+        <errorMessage>RITE Information cannot be modified now, as the Quote is Approved</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>RIT_TMS_RITEForm</fullName>
+        <availability>online</availability>
+        <description>Quote Approval – A button to go back to the RITE Form Executive Summary Page.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Back to RITE Form</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/VFP13_RITEForm?id={!RIT_TechManScope__c.QuoteLinkId__c}</url>
+    </webLinks>
+</CustomObject>

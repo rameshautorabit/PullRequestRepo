@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Standard</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Challenge_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>PRM_Challenge_Compact_LEX</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PRM_Challenge_Compact_LEX</fullName>
+        <fields>Name</fields>
+        <fields>F_PRM_ProgramCode__c</fields>
+        <fields>F_PRM_Country__c</fields>
+        <fields>FieloCH__InitialDate__c</fields>
+        <fields>FieloCH__Mode__c</fields>
+        <fields>GroupAccountChallenge__c</fields>
+        <fields>FieloCH__IsActive__c</fields>
+        <label>PRM Challenge Compact LEX</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fieldSets>
+        <fullName>FieloCH__ChallengeTab</fullName>
+        <availableFields>
+            <field>FieloCH__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__CompetitionType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__DaysLeft__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__FinalDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__InitialDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__Processed__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__RecurrenceType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__Repeatable__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__SubscribeAutomatically__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__SubscribeFrom__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__SubscribeTo__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__Subscription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__TableType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>FieloCH__Visible__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Used on the Challenge Landing Page component with the recent records</description>
+        <displayedFields>
+            <field>FieloCH__IsActive__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>F_PRM_ProgramCode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>F_PRM_Country__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>F_PRM_ChallengeFilter__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>FieloCH__Mode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Challenge Tab</label>
+    </fieldSets>
+    <fields>
+        <fullName>AutorabitExtId__c</fullName>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CountryCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>F_PRM_Country__r.CountryCode__c</formula>
+        <label>Country Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExternalProgramName__c</fullName>
+        <externalId>false</externalId>
+        <label>External Program Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_PRM_ChallengeFilter__c</fullName>
+        <externalId>true</externalId>
+        <label>Challenge Filter</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_PRM_CountryCodeInjectQuery__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(F_PRM_Country__r.CountryCode__c=&apos;WW&apos;  || F_PRM_Country__r.F_PRM_IsRegion__c=TRUE,
+&quot;&quot;, 
+F_PRM_Country__r.CountryCode__c)</formula>
+        <label>Country Code (Inject Query)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>F_PRM_Country__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <referenceTo>PRMCountry__c</referenceTo>
+        <relationshipLabel>Challenges</relationshipLabel>
+        <relationshipName>Challenges</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>F_PRM_MenuOverview__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Menu describing the Program/Challenge accessible to the partner from &quot;Recommended programs&quot;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If selected, the eligible partner programs/challenges will be displayed on the My Program/My Recommended Program page.</inlineHelpText>
+        <label>&quot;Recommended Program&quot; Menu</label>
+        <referenceTo>FieloEE__Menu__c</referenceTo>
+        <relationshipLabel>Challenges (Menu Overview)</relationshipLabel>
+        <relationshipName>Challenges</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>F_PRM_MenuProgram__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Menu describing the Program/Challenge accessible to the partner from &quot;My programs&quot;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If selected, the eligible partner programs/challenges will be displayed on the My Program/My Recommended Program page.</inlineHelpText>
+        <label>&quot;My Program&quot; Menu</label>
+        <referenceTo>FieloEE__Menu__c</referenceTo>
+        <relationshipLabel>Challenges (Menu Program)</relationshipLabel>
+        <relationshipName>Challenges1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>F_PRM_NumberOfLevels__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Levels</label>
+        <summaryFilterItems>
+            <field>FieloCH__ChallengeReward__c.F_TypeReward__c</field>
+            <operation>equals</operation>
+            <value>Level</value>
+        </summaryFilterItems>
+        <summaryForeignKey>FieloCH__ChallengeReward__c.FieloCH__Challenge__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>F_PRM_ProgramCode__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>false</externalId>
+        <label>Program code</label>
+        <length>9</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>F_PRM_Program_Description_content_feed__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Content feed to give a quick overview of the program - will be  displayed on the My Program/My Recommended Program page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Content feed to give a quick overview of the program - will be  displayed on the My Program/My Recommended Program page.</inlineHelpText>
+        <label>Program Description content feed</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Selected content feed must be a &quot;Program Description&quot; (Record Type)</errorMessage>
+            <filterItems>
+                <field>FieloEE__News__c.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Program Description</value>
+            </filterItems>
+            <infoMessage>Selected content feed must be a &quot;Program Description&quot; (Record Type)</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>FieloEE__News__c</referenceTo>
+        <relationshipLabel>Related Challenge</relationshipLabel>
+        <relationshipName>Challenges</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__AcomplishAction__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Accomplish Action</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>FieloCH__CompetitionType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Finish</fullName>
+                    <default>false</default>
+                    <label>Finish</label>
+                </value>
+                <value>
+                    <fullName>Repeat</fullName>
+                    <default>false</default>
+                    <label>Repeat</label>
+                </value>
+                <value>
+                    <fullName>Continue</fullName>
+                    <default>true</default>
+                    <label>Continue</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Objective</controllingFieldValue>
+                <valueName>Continue</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCH__AttachmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Id of the attach record</description>
+        <externalId>false</externalId>
+        <label>PictureId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>true</default>
+                    <label>Default</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Challenge__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the &quot;father&quot; on a series.</description>
+        <externalId>false</externalId>
+        <label>Challenge</label>
+        <referenceTo>FieloCH__Challenge__c</referenceTo>
+        <relationshipLabel>Challenges</relationshipLabel>
+        <relationshipName>Challenges</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__CompetitionType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If Challenge is competition type, Defines if is by performance, by time or by objective that completes challenge</description>
+        <externalId>false</externalId>
+        <inlineHelpText>-Objective:  Each member that accomplishes the challenge wins
+-Time: Its a race time, wins the first member that completes the challenge
+-Performance: It�s a competition by value, the member with best performance  wins challenge</inlineHelpText>
+        <label>Competition Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>FieloCH__Mode__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Objective</fullName>
+                    <default>true</default>
+                    <label>Objective</label>
+                </value>
+                <value>
+                    <fullName>Performance</fullName>
+                    <default>false</default>
+                    <label>Performance</label>
+                </value>
+                <value>
+                    <fullName>Time</fullName>
+                    <default>false</default>
+                    <label>Time</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Competition</controllingFieldValue>
+                <controllingFieldValue>Teams</controllingFieldValue>
+                <valueName>Objective</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCH__DaysLeft__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>FieloCH__FinalDate__c -  TODAY()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Left</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FieloCH__FinalDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Day until the challenge is valid</description>
+        <externalId>false</externalId>
+        <label>Final Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__InitialDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Day since the challenge is valid</description>
+        <externalId>false</externalId>
+        <label>Initial Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__InjectBadgeIds__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inject BadgeIds</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FieloCH__IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__MissionsCounter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Mission Counter</label>
+        <summaryForeignKey>FieloCH__MissionChallenge__c.FieloCH__Challenge__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Mode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The mode define if the missions are  a competition between members or a collaborative mission between all the challenge community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select Competition if you want to create a challenge to each member or Collaborative if you want to create a single mission that will be accomplish by the hole challenge community.</inlineHelpText>
+        <label>Mode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Competition</fullName>
+                    <default>true</default>
+                    <label>Competition</label>
+                </value>
+                <value>
+                    <fullName>Teams</fullName>
+                    <default>false</default>
+                    <label>Teams</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Objects__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Objects</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FieloEE__Event__c</fullName>
+                    <default>false</default>
+                    <label>FieloEE__Event__c</label>
+                </value>
+                <value>
+                    <fullName>FieloEE__Transaction__c</fullName>
+                    <default>false</default>
+                    <label>FieloEE__Transaction__c</label>
+                </value>
+                <value>
+                    <fullName>FieloEE__BadgeMember__c</fullName>
+                    <default>false</default>
+                    <label>FieloEE__BadgeMember__c</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Picture__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( NOT( ISBLANK(FieloCH__AttachmentId__c) ), IMAGE(&apos;/servlet/servlet.FileDownload?file=&apos;+FieloCH__AttachmentId__c, Name, 60, 60),  Name )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Picture</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Processed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Processed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Program__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Program</label>
+        <referenceTo>FieloEE__Program__c</referenceTo>
+        <relationshipLabel>Challenges</relationshipLabel>
+        <relationshipName>Challenges</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__RecurrenceAutoSubscribe__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Copy subscription list from previous</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__RecurrenceDayOfMonth__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RecurrenceDayOfMonth</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCH__RecurrenceInstance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RecurrenceInstance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1st</fullName>
+                    <default>true</default>
+                    <label>1st</label>
+                </value>
+                <value>
+                    <fullName>2nd</fullName>
+                    <default>false</default>
+                    <label>2nd</label>
+                </value>
+                <value>
+                    <fullName>3rd</fullName>
+                    <default>false</default>
+                    <label>3rd</label>
+                </value>
+                <value>
+                    <fullName>4th</fullName>
+                    <default>false</default>
+                    <label>4th</label>
+                </value>
+                <value>
+                    <fullName>last</fullName>
+                    <default>false</default>
+                    <label>last</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCH__RecurrenceInterval__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurrence Interval</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCH__RecurrenceType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RecurrenceType</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>RecursDaily</fullName>
+                    <default>false</default>
+                    <label>RecursDaily</label>
+                </value>
+                <value>
+                    <fullName>RecursEveryWeekday</fullName>
+                    <default>false</default>
+                    <label>RecursEveryWeekday</label>
+                </value>
+                <value>
+                    <fullName>RecursWeekly</fullName>
+                    <default>false</default>
+                    <label>RecursWeekly</label>
+                </value>
+                <value>
+                    <fullName>RecursMonthly</fullName>
+                    <default>false</default>
+                    <label>RecursMonthly</label>
+                </value>
+                <value>
+                    <fullName>RecursMonthlyNth</fullName>
+                    <default>false</default>
+                    <label>RecursMonthlyNth</label>
+                </value>
+                <value>
+                    <fullName>RecursYearly</fullName>
+                    <default>false</default>
+                    <label>RecursYearly</label>
+                </value>
+                <value>
+                    <fullName>RecursYearlyNth</fullName>
+                    <default>false</default>
+                    <label>RecursYearlyNth</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Repeatable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Checks if the members can participate again although it has won the challenge.</inlineHelpText>
+        <label>Repeatable</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__RewardCounter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reward Counter</label>
+        <summaryForeignKey>FieloCH__ChallengeReward__c.FieloCH__Challenge__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(  ! FieloCH__IsActive__c, &quot;Inactive&quot;,
+  IF ( FieloCH__FinalDate__c &lt; TODAY() || (ISPICKVAL(FieloCH__CompetitionType__c,&apos;Performance&apos;) &amp;&amp; FieloCH__Processed__c)
+            || (ISPICKVAL(FieloCH__Mode__c,&apos;Collaborative&apos;) &amp;&amp; FieloCH__Processed__c), &quot;Finished&quot;,
+    IF (FieloCH__InitialDate__c &lt;= TODAY() &amp;&amp; FieloCH__FinalDate__c &gt;= TODAY() , &quot;Active&quot;, &quot;Future&quot; ) ) )</formula>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieloCH__SubscribeAutomatically__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Subscribe Automatically</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__SubscribeFrom__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>From</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__SubscribeTo__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>To</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Subscription__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>- Open: By subscription, any member can subscribe. 
+- Closed: Without subscription, Administrator subscribes the members</inlineHelpText>
+        <label>Subscription Mode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>FieloCH__Mode__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>true</default>
+                    <label>Global</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Competition</controllingFieldValue>
+                <valueName>Global</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Teams</controllingFieldValue>
+                <valueName>Closed</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCH__TableType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Position Table Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>FieloCH__CompetitionType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>true</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>Position Ranking</fullName>
+                    <default>false</default>
+                    <label>Position Ranking</label>
+                </value>
+                <value>
+                    <fullName>Value Ranking</fullName>
+                    <default>false</default>
+                    <label>Value Ranking</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Objective</controllingFieldValue>
+                <controllingFieldValue>Performance</controllingFieldValue>
+                <controllingFieldValue>Time</controllingFieldValue>
+                <valueName>Standard</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Performance</controllingFieldValue>
+                <controllingFieldValue>Time</controllingFieldValue>
+                <valueName>Position Ranking</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Performance</controllingFieldValue>
+                <valueName>Value Ranking</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieloCH__Visible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If is mark as not visible the members of challenge do not know that are in the challenge until win.</inlineHelpText>
+        <label>Is Visible</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__onFriday__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Friday</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__onMonday__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Monday</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__onSaturday__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Saturday</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__onSunday__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sunday</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__onThursday__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Thursday</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__onTuesday__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tuesday</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieloCH__onWednesday__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Wednesday</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GroupAccountChallenge__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Applicable only for Challenges with Mode = Teams</inlineHelpText>
+        <label>Group Account Challenge</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsChallengeAutoEnrollmented__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Applicable only for Challenges with Mode = Teams</inlineHelpText>
+        <label>Challenge Enabled for Auto Enrollment?</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PartnerProgCountries__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Prog Countries</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PartnerProgramCountries__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Program Countries</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PartnerProgram__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Partner Program</label>
+        <referenceTo>PartnerProgram__c</referenceTo>
+        <relationshipLabel>Challenges</relationshipLabel>
+        <relationshipName>Challenges</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PublishingDescription__c</fullName>
+        <description>Small description of last publication</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Small description of last publication</inlineHelpText>
+        <label>PublishingDescription</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PublishingGoldenId__c</fullName>
+        <description>Track the source Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Track the source Id</inlineHelpText>
+        <label>PublishingGoldenId</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingIsUpdated__c</fullName>
+        <description>Identify if the record has been updated</description>
+        <externalId>false</externalId>
+        <formula>IF( OR(LastModifiedDate  &gt; PublishingTimestamp__c,ISBLANK(PublishingTimestamp__c)),true,false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Identify if the record has been updated</inlineHelpText>
+        <label>PublishingIsUpdated</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PublishingOdasevaId__c</fullName>
+        <externalId>true</externalId>
+        <label>PublishingOdasevaId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingPublisher__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Track who was the last publisher</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Track who was the last publisher</inlineHelpText>
+        <label>PublishingPublisher</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>PublisherFieloCHChallengec</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PublishingStatusImage__c</fullName>
+        <description>Identify at first sight that the record is set for publication</description>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(PublishingStatus__c),&quot;Ready for Publication&quot;,IMAGE(&quot;/img/samples/flag_green.gif&quot;,&quot;Ready for Publication&quot;),&quot;Awaiting Publication&quot;,IMAGE(&quot;/img/samples/flag_yellow.gif&quot;,&quot;Awaiting Publication&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Identify at first sight that the record is set for publication</inlineHelpText>
+        <label>PublishingStatusImage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublishingStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>PublishingStatus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ready for Publication</fullName>
+                    <default>false</default>
+                    <label>Ready for Publication</label>
+                </value>
+                <value>
+                    <fullName>Awaiting Publication</fullName>
+                    <default>false</default>
+                    <label>Awaiting Publication</label>
+                </value>
+                <value>
+                    <fullName>Published</fullName>
+                    <default>false</default>
+                    <label>Published</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PublishingTimestamp__c</fullName>
+        <description>Date and time of the last publication</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date and time of the last publication</inlineHelpText>
+        <label>PublishingTimestamp</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TECH_MigrationUniqueID__c</fullName>
+        <description>Unique ID to be used by ODASEVA for synchronizing the records between environments</description>
+        <externalId>true</externalId>
+        <label>Migration Unique ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TransferLocatorProgramName__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Transfer Program Name to Locator</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Challenge</label>
+    <listViews>
+        <fullName>AU_Challenges</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__AcomplishAction__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CountryCode__c</field>
+            <operation>equals</operation>
+            <value>AU</value>
+        </filters>
+        <label>AU Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Electrician_Challenges1</fullName>
+        <columns>NAME</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>PartnerProgram__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>electrician</value>
+        </filters>
+        <label>All Electrician Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Electrician_Challenges_clone</fullName>
+        <columns>NAME</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>PartnerProgram__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>IAD,FR - DIS - REA</value>
+        </filters>
+        <label>All IAD (Distributor) Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Team_Challenges</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>FieloCH__Mode__c</field>
+            <operation>equals</operation>
+            <value>Teams</value>
+        </filters>
+        <label>All Team Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Alliance_Challenges</fullName>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>NAME</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>PartnerProgram__c</columns>
+        <columns>F_PRM_MenuProgram__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__AcomplishAction__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <columns>FieloCH__Category__c</columns>
+        <columns>F_PRM_ChallengeFilter__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>FieloCH__Challenge__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Alliance</value>
+        </filters>
+        <label>Alliance Challenges</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PRM_LV_MV</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>EcoXpert_Challenges1</fullName>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>NAME</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>PartnerProgram__c</columns>
+        <columns>F_PRM_MenuProgram__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__AcomplishAction__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <columns>FieloCH__Category__c</columns>
+        <columns>F_PRM_ChallengeFilter__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>FieloCH__Challenge__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>EcoX</value>
+        </filters>
+        <label>EcoXpert Challenges</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PRMAdministrators</group>
+            <group>PRM_LV_MV</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>FR_Challenges</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__AcomplishAction__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CountryCode__c</field>
+            <operation>equals</operation>
+            <value>FR</value>
+        </filters>
+        <label>FR Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>FieloCH__Active_Challenges</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__Challenge__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>FieloCH__SubscribeFrom__c</columns>
+        <columns>FieloCH__MissionsCounter__c</columns>
+        <columns>FieloCH__Status__c</columns>
+        <columns>FieloCH__Program__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>FieloCH__IsActive__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Active Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>FieloCH__All</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__Program__c</columns>
+        <columns>F_PRM_ProgramCode__c</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>FieloCH__FinalDate__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>F_PRM_ChallengeFilter__c</columns>
+        <columns>F_PRM_MenuOverview__c</columns>
+        <columns>F_PRM_MenuProgram__c</columns>
+        <columns>PartnerProgramCountries__c</columns>
+        <columns>PartnerProgCountries__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>ITD_Challenges</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>ITD</value>
+        </filters>
+        <label>ITD Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Italy_Challenges_paco</fullName>
+        <booleanFilter>1</booleanFilter>
+        <columns>NAME</columns>
+        <columns>FieloCH__Challenge__c</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>PartnerProgram__c</columns>
+        <columns>F_PRM_ChallengeFilter__c</columns>
+        <columns>F_PRM_MenuProgram__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__Category__c</columns>
+        <columns>FieloCH__AcomplishAction__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>F_PRM_Country__c</field>
+            <operation>equals</operation>
+            <value>Italy</value>
+        </filters>
+        <label>Italy Challenges (paco)</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PRM_LV_MV</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NL_Challenfes</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__AcomplishAction__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CountryCode__c</field>
+            <operation>equals</operation>
+            <value>NL</value>
+        </filters>
+        <label>NL Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>SE_Challenges</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__AcomplishAction__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CountryCode__c</field>
+            <operation>equals</operation>
+            <value>SE</value>
+        </filters>
+        <label>SE Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>US_Challenges</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__AcomplishAction__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CountryCode__c</field>
+            <operation>equals</operation>
+            <value>US</value>
+        </filters>
+        <label>US Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>US_Challenges1</fullName>
+        <booleanFilter>1 or 2 or 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>FieloCH__Challenge__c</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>PartnerProgram__c</columns>
+        <columns>F_PRM_ChallengeFilter__c</columns>
+        <columns>F_PRM_MenuProgram__c</columns>
+        <columns>FieloCH__Subscription__c</columns>
+        <columns>FieloCH__Mode__c</columns>
+        <columns>FieloCH__Category__c</columns>
+        <columns>FieloCH__AcomplishAction__c</columns>
+        <columns>FieloCH__CompetitionType__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>FieloCH__InitialDate__c</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>OKKEN,BLOKSET,SYSTEM</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>NEX,SM6,MCSET,MOTORPACT,BIOSCO,RM6,PREMSET,PIX</value>
+        </filters>
+        <filters>
+            <field>PartnerProgram__c</field>
+            <operation>contains</operation>
+            <value>mv license,lv license,my place,myplace</value>
+        </filters>
+        <label>LV&amp;MV Challenges</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PRM_LV_MV</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>US_Challenges2</fullName>
+        <columns>NAME</columns>
+        <columns>FieloCH__IsActive__c</columns>
+        <columns>F_PRM_Country__c</columns>
+        <columns>FieloCH__Description__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>FieloCH__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CountryCode__c</field>
+            <operation>equals</operation>
+            <value>US</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Rewards</value>
+        </filters>
+        <label>US Rewards Challenges</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Challenges</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>FieloCH__Series</fullName>
+        <active>false</active>
+        <label>Series</label>
+        <picklistValues>
+            <picklist>FieloCH__Category__c</picklist>
+            <values>
+                <fullName>Default</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__CompetitionType__c</picklist>
+            <values>
+                <fullName>Objective</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Time</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__Mode__c</picklist>
+            <values>
+                <fullName>Competition</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Teams</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__Objects__c</picklist>
+            <values>
+                <fullName>FieloEE%5F%5FBadgeMember%5F%5Fc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FieloEE%5F%5FEvent%5F%5Fc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FieloEE%5F%5FTransaction%5F%5Fc</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__RecurrenceInstance__c</picklist>
+            <values>
+                <fullName>1st</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>2nd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3rd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4th</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>last</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__RecurrenceType__c</picklist>
+            <values>
+                <fullName>RecursDaily</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursEveryWeekday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursMonthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursMonthlyNth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursWeekly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursYearly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursYearlyNth</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__Subscription__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__TableType__c</picklist>
+            <values>
+                <fullName>Position Ranking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standard</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Value Ranking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>FieloCH__Single</fullName>
+        <active>true</active>
+        <label>Single</label>
+        <picklistValues>
+            <picklist>FieloCH__AcomplishAction__c</picklist>
+            <values>
+                <fullName>Continue</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__Category__c</picklist>
+            <values>
+                <fullName>Default</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__CompetitionType__c</picklist>
+            <values>
+                <fullName>Objective</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__Mode__c</picklist>
+            <values>
+                <fullName>Competition</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Teams</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__Objects__c</picklist>
+            <values>
+                <fullName>FieloEE%5F%5FBadgeMember%5F%5Fc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FieloEE%5F%5FEvent%5F%5Fc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FieloEE%5F%5FTransaction%5F%5Fc</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__RecurrenceInstance__c</picklist>
+            <values>
+                <fullName>1st</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>2nd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3rd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4th</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>last</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__RecurrenceType__c</picklist>
+            <values>
+                <fullName>RecursDaily</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursEveryWeekday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursMonthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursMonthlyNth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursWeekly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursYearly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RecursYearlyNth</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__Subscription__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FieloCH__TableType__c</picklist>
+            <values>
+                <fullName>Position Ranking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standard</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Value Ranking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>FieloCH__IsActive__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>F_PRM_ChallengeFilter__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>F_PRM_Country__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>F_PRM_ProgramCode__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FieloCH__Program__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>F_PRM_MenuOverview__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>F_PRM_MenuProgram__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>F_PRM_ProgramCode__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>F_PRM_Country__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FieloCH__InitialDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FieloCH__Mode__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>GroupAccountChallenge__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FieloCH__IsActive__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <sharingReasons>
+        <fullName>PRMCountrySharing__c</fullName>
+        <label>PRMCountrySharing</label>
+    </sharingReasons>
+    <validationRules>
+        <fullName>F_PRM_CantActivateEmptyChallenge</fullName>
+        <active>true</active>
+        <description>Can&apos;t activate a Challenge without having a Mission and a Challenge Reward configured</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+&amp;&amp; 
+(
+FieloCH__IsActive__c &amp;&amp; (FieloCH__MissionsCounter__c == 0 || FieloCH__RewardCounter__c == 0)
+)</errorConditionFormula>
+        <errorMessage>Can&apos;t activate a Challenge without having a Mission and a Challenge Reward configured</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>F_PRM_ChalleFilterFilledWithPCountryCode</fullName>
+        <active>true</active>
+        <description>Challenge Filter must begin with P-{countrycode}</description>
+        <errorConditionFormula>NOT($User.BypassVR__c) 
+
+&amp;&amp; 
+
+NOT(BEGINS(F_PRM_ChallengeFilter__c , &quot;TMPL-&quot; )) 
+
+&amp;&amp; 
+
+(ISNEW() || ISCHANGED(F_PRM_ChallengeFilter__c ) || ISCHANGED(F_PRM_Country__c )) 
+
+&amp;&amp; 
+
+IF(F_PRM_Country__r.CountryCode__c=&quot;AE&quot;, 
+NOT(BEGINS(F_PRM_ChallengeFilter__c , &quot;R-AE-Rewards&quot; )) &amp;&amp; NOT(BEGINS(F_PRM_ChallengeFilter__c , &quot;P-&quot;+F_PRM_Country__r.CountryCode__c )), 
+NOT(BEGINS(F_PRM_ChallengeFilter__c , &quot;P-&quot;+F_PRM_Country__r.CountryCode__c )) 
+)</errorConditionFormula>
+        <errorDisplayField>F_PRM_ChallengeFilter__c</errorDisplayField>
+        <errorMessage>Challenge Filter must begin with P-{countrycode}</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Active_Challenge</fullName>
+        <active>false</active>
+        <errorConditionFormula>FieloCH__IsActive__c &amp;&amp;  (FieloCH__MissionsCounter__c == 0 || FieloCH__RewardCounter__c == 0)</errorConditionFormula>
+        <errorMessage>Can&apos;t Activate a Challenge without a mission or reward</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Competition_Type_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( FieloCH__CompetitionType__c , &quot;&quot;)</errorConditionFormula>
+        <errorDisplayField>FieloCH__CompetitionType__c</errorDisplayField>
+        <errorMessage>Competition Type is Required when Mode is selected</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Edit_Challenge_Competition</fullName>
+        <active>true</active>
+        <description>If the competition type is modified, check that is has no missions associated.</description>
+        <errorConditionFormula>IF( AND(FieloCH__MissionsCounter__c &gt; 0,   ISCHANGED(FieloCH__CompetitionType__c) ), true, false)</errorConditionFormula>
+        <errorDisplayField>FieloCH__CompetitionType__c</errorDisplayField>
+        <errorMessage>Cannot change Competition Type if already have missions.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Edit_Challenge_Mode</fullName>
+        <active>true</active>
+        <description>Check if it has missions or members associated in order to let the user modify the challenge.</description>
+        <errorConditionFormula>IF( AND( FieloCH__MissionsCounter__c &gt; 0, ISCHANGED( FieloCH__Mode__c ) ), true, false)</errorConditionFormula>
+        <errorDisplayField>FieloCH__Mode__c</errorDisplayField>
+        <errorMessage>Cannot change Mode if already have missions or community associated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Edit_Competition_Type</fullName>
+        <active>true</active>
+        <description>Check if it has rewards associated.</description>
+        <errorConditionFormula>AND(If( FieloCH__RewardCounter__c &gt; 0, true, false ) , ISCHANGED(FieloCH__CompetitionType__c))</errorConditionFormula>
+        <errorDisplayField>FieloCH__CompetitionType__c</errorDisplayField>
+        <errorMessage>Cannot modified Competition Type if you had associated rewards. Go to &quot;Manage Rewards&quot;  and delete them first.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Final_Date_After_Initial_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>FieloCH__InitialDate__c &gt;  FieloCH__FinalDate__c</errorConditionFormula>
+        <errorMessage>Initial Date must be before Final Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Mode_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL(FieloCH__Mode__c, &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>FieloCH__Mode__c</errorDisplayField>
+        <errorMessage>Mode must be selected</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Program_Required</fullName>
+        <active>true</active>
+        <description>Checks that the challenge has a program when is edited.</description>
+        <errorConditionFormula>AND(NOT( ISNEW() ), OR(ISNULL( FieloCH__Program__c ), ISBLANK(FieloCH__Program__c) ) )</errorConditionFormula>
+        <errorDisplayField>FieloCH__Program__c</errorDisplayField>
+        <errorMessage>The Challenge must belong to a Program.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Recurrence_Type_Valid</fullName>
+        <active>true</active>
+        <description>Check that the Recurrence Type choosen is valid for the Mode and for the Competition Type</description>
+        <errorConditionFormula>AND(
+    OR( ISPICKVAL( FieloCH__CompetitionType__c , &quot;Performance&quot;), ISPICKVAL(  FieloCH__CompetitionType__c , &quot;Time&quot;)),
+    FieloCH__Repeatable__c = TRUE
+)</errorConditionFormula>
+        <errorMessage>Repeatable is valid only for Objective Competition Type</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Subscription_Mode_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL(FieloCH__Subscription__c, &quot;&quot;)</errorConditionFormula>
+        <errorDisplayField>FieloCH__Subscription__c</errorDisplayField>
+        <errorMessage>Subscription Mode is Required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Subscription_Period</fullName>
+        <active>true</active>
+        <description>Check that the period define for subscription is not greater than the duration of the Challenge</description>
+        <errorConditionFormula>FieloCH__SubscribeTo__c &gt; FieloCH__FinalDate__c</errorConditionFormula>
+        <errorDisplayField>FieloCH__SubscribeTo__c</errorDisplayField>
+        <errorMessage>Subscription period Final Date cannot be greater than Challenge Final Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Subscription_Period_Valid_Date</fullName>
+        <active>true</active>
+        <description>Check that the period is the same or before from the Active period of the Challenge.</description>
+        <errorConditionFormula>AND( NOT( OR( ISBLANK(FieloCH__SubscribeFrom__c), ISNULL(FieloCH__SubscribeFrom__c) )),
+OR( FieloCH__InitialDate__c &lt;  FieloCH__SubscribeFrom__c, FieloCH__SubscribeFrom__c &gt;  FieloCH__SubscribeTo__c ))</errorConditionFormula>
+        <errorDisplayField>FieloCH__SubscribeFrom__c</errorDisplayField>
+        <errorMessage>The Subscription Initial Date cannot be greater than Subscription Final Date or greater than Challenge Initial Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FieloCH__Visibility_False_for_Subscription_Close</fullName>
+        <active>true</active>
+        <description>When the subscription is closed, the visibility must be false so it wont be shown.</description>
+        <errorConditionFormula>AND( ISPICKVAL( FieloCH__Subscription__c  , &apos;Open&apos;),  NOT(FieloCH__Visible__c)  )</errorConditionFormula>
+        <errorDisplayField>FieloCH__Visible__c</errorDisplayField>
+        <errorMessage>If Subscription Mode is Open then visibility must be checked.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>GrupAccChallenge_Mode_VR</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(NOT($User.BypassVR__c) &amp;&amp; GroupAccountChallenge__c,IF(ISPICKVAL(FieloCH__Mode__c,&apos;Teams&apos;),False,True),False)</errorConditionFormula>
+        <errorMessage>As Challenge is of Group Account Challenge, Mode must be Teams.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRM_VR_R217_ChallengeAutoEnrollment</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT($User.BypassVR__c) &amp;&amp; IF(ISCHANGED  (IsChallengeAutoEnrollmented__c) &amp;&amp;   ISPICKVAL( FieloCH__Mode__c , &apos;Team&apos;)  ,true,false)</errorConditionFormula>
+        <errorDisplayField>FieloCH__AcomplishAction__c</errorDisplayField>
+        <errorMessage>Picklist field Mode value isn&apos;t equal to Team</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>ChangeStatus</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Change Status</masterLabel>
+        <openType>noSidebar</openType>
+        <page>FieloPRM_VFP_ChallengeChangeStatus</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>FieloCH__Active</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Change Status</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT (&quot;/soap/ajax/23.0/connection.js&quot;)}
+
+var missionsChallenge = sforce.connection.query(&quot;SELECT Id, Name, {!$Setup.FieloEE__PublicSettings__c.FieloEE__ChallengesPrefix__c}Mission__r.RecordType.DeveloperName FROM {!$Setup.FieloEE__PublicSettings__c.FieloEE__ChallengesPrefix__c}MissionChallenge__c WHERE {!$Setup.FieloEE__PublicSettings__c.FieloEE__ChallengesPrefix__c}Challenge__c = \&apos;{!FieloCH__Challenge__c.Id}\&apos; &quot;);
+
+var records = missionsChallenge.getArray(&quot;records&quot;);
+var withObjective = new Array();
+var withoutObjective = new Array();
+
+for (var i = 0; i &lt; records.length; i++) {
+    var record = records[i];
+    if(record.{!$Setup.FieloEE__PublicSettings__c.FieloEE__ChallengesPrefix__c}Mission__r.RecordType.DeveloperName == &apos;WithObjective&apos;){
+        withObjective.push(record);
+    }else{
+        withoutObjective.push(record);
+    }
+}
+
+if(&quot;{!FieloCH__Challenge__c.FieloCH__CompetitionType__c}&quot; == &quot;Performance&quot; &amp;&amp; withoutObjective == &apos;&apos;){
+    alert(&apos;{!$Label.fieloch__cantactivateperformancewithoutobjective}&apos;);
+}else{
+    //create challenge and update list
+    var newChallenge = new sforce.SObject(&quot;{!$Setup.FieloEE__PublicSettings__c.FieloEE__ChallengesPrefix__c}Challenge__c&quot;);
+    var challengesToUpdate = [];
+
+    //set challenge with current challenge&apos;s ID
+    newChallenge.Id = &apos;{!FieloCH__Challenge__c.Id}&apos;;
+
+    // logically invert &apos;isActive&apos;
+    newChallenge.{!$Setup.FieloEE__PublicSettings__c.FieloEE__ChallengesPrefix__c}IsActive__c = ! {!FieloCH__Challenge__c.FieloCH__IsActive__c};
+
+    //adds challenge to update to update list
+    challengesToUpdate.push(newChallenge);
+
+    //updates list
+    result = sforce.connection.update(challengesToUpdate);
+
+    if ( !result[0].getBoolean(&quot;success&quot;) ) {
+        alert(result[0].getArray(&quot;errors&quot;)[0].message );
+    } else {
+        if(withObjective == &apos;&apos; &amp;&amp; {!FieloCH__Challenge__c.FieloCH__IsActive__c} == 0){
+            alert(&apos;There are no missions with objective, so there is the chance that some members could win a reward without making any action.&apos;);
+        }
+        //refreshes window
+        window.location.reload();
+    }
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>FieloCH__CreateSeries</fullName>
+        <availability>online</availability>
+        <description>Choose diferents options to create a series of the Challenge</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Series</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT (&quot;/soap/ajax/23.0/connection.js&quot;)}
+
+if({!FieloCH__Challenge__c.FieloCH__IsActive__c} == 0){
+    alert(&apos;{!$Label.fieloch__challengemustbeactivated}&apos;);
+}else if( {!ISNULL(FieloCH__Challenge__c.FieloCH__FinalDate__c) } ){
+    alert(&apos;This Challenge Cannot be serialize.&apos;);
+}else {
+    var url = &apos;/apex/&apos;+&apos;{!$Setup.FieloEE__PublicSettings__c.FieloEE__ChallengesPrefix__c}&apos;+&apos;ChallengeSeriesBackend?id=&apos;+&apos;{!FieloCH__Challenge__c.Id}&apos;;
+
+    window.location.href = url;
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>FieloPRM_ManageMembers</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Manage Members</masterLabel>
+        <openType>sidebar</openType>
+        <page>FieloPRM_VFP_ChallengeMembersView</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>FieloPRM_ManageMenu</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Manage Menu</masterLabel>
+        <openType>replace</openType>
+        <page>FieloPRM_VFP_ChallengeCreateMenu</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>
