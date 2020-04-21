@@ -1910,6 +1910,18 @@ CASE( MONTH(TODAY()),
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>testField__c</fullName>
+        <description>tst</description>
+        <externalId>false</externalId>
+        <inlineHelpText>fsgsg</inlineHelpText>
+        <label>testField</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AT_My_Planned_Events</fullName>
         <columns>TASK.SUBJECT</columns>
@@ -2741,7 +2753,7 @@ CASE( MONTH(TODAY()),
             <operation>notEqual</operation>
             <value>Closed,Cancelled</value>
         </filters>
-        <label>FI Minun avoimet käynnit</label>
+        <label>FI Minun avoimet kÃ¤ynnit</label>
         <language>en_US</language>
         <sharedTo>
             <group>FI_All</group>
@@ -2867,7 +2879,7 @@ CASE( MONTH(TODAY()),
             <operation>equals</operation>
             <value>LAST_N_YEARS:1</value>
         </filters>
-        <label>FR_4 Visites à faire (année N-1)</label>
+        <label>FR_4 Visites Ã  faire (annÃ©e N-1)</label>
         <language>en_US</language>
         <sharedTo>
             <group>FR_OP_GLOBAL_SALES</group>
@@ -3027,7 +3039,7 @@ CASE( MONTH(TODAY()),
             <operation>equals</operation>
             <value>LAST_N_YEARS:1</value>
         </filters>
-        <label>FR_5 Visites réalisées (N-1)</label>
+        <label>FR_5 Visites rÃ©alisÃ©es (N-1)</label>
         <language>en_US</language>
         <sharedTo>
             <group>FR_OP_GLOBAL_SALES</group>
@@ -3067,7 +3079,7 @@ CASE( MONTH(TODAY()),
             <operation>equals</operation>
             <value>THIS_YEAR</value>
         </filters>
-        <label>FR_2 Visites réalisées (année en cours)</label>
+        <label>FR_2 Visites rÃ©alisÃ©es (annÃ©e en cours)</label>
         <language>en_US</language>
         <sharedTo>
             <group>FR_ITD_FS_SALES_FRANCE</group>
@@ -3108,7 +3120,7 @@ CASE( MONTH(TODAY()),
             <operation>equals</operation>
             <value>THIS_YEAR</value>
         </filters>
-        <label>FR_1 Visites à faire (année en cours)</label>
+        <label>FR_1 Visites Ã  faire (annÃ©e en cours)</label>
         <language>en_US</language>
         <sharedTo>
             <group>FR_ITD_FS_SALES_FRANCE</group>
@@ -3746,9 +3758,9 @@ CASE( MONTH(TODAY()),
         <filters>
             <field>TASK.SUBJECT</field>
             <operation>startsWith</operation>
-            <value>[MIP] PRB–208846 A1</value>
+            <value>[MIP] PRBâ€“208846 A1</value>
         </filters>
-        <label>MIP all Tasks [MIP] PRB–208846 A1</label>
+        <label>MIP all Tasks [MIP] PRBâ€“208846 A1</label>
         <language>en_US</language>
         <sharedTo>
             <role>SUPPORT_FUNCTIONS</role>
@@ -4083,9 +4095,9 @@ CASE( MONTH(TODAY()),
         <filters>
             <field>TASK.SUBJECT</field>
             <operation>equals</operation>
-            <value>Test - Resi9 Protection - Conquête</value>
+            <value>Test - Resi9 Protection - ConquÃªte</value>
         </filters>
-        <label>Resi9 Protection - Clients ciblés</label>
+        <label>Resi9 Protection - Clients ciblÃ©s</label>
         <language>en_US</language>
         <sharedTo>
             <role>FR</role>
