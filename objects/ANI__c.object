@@ -6,7 +6,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Accept</actionName>
-        <formFactor>Large</formFactor>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -130,6 +130,10 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+     <actionOverrides>
+        <actionName>ViewAdded</actionName>
+        <type>Default</type>
+    </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
         <formFactor>Large</formFactor>
@@ -152,7 +156,7 @@
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
-    <enableSharing>true</enableSharing>
+    <enableSharing>false</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
@@ -276,7 +280,7 @@
     <startsWith>Vowel</startsWith>
     <validationRules>
         <fullName>ANI_VR01_MustHaveAccountOrContact</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>An ANI number must always be related to a contact or an account</description>
         <errorConditionFormula>AND(NOT($User.BypassVR__c),
 OR(AND(NOT(ISBLANK( Account__c )), NOT(ISBLANK( Contact__c ))),
