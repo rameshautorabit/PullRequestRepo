@@ -15,8 +15,8 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>CancelEdit</actionName>
-        <type>Default</type>
+        <actionName>EDIT</actionName>
+        <type>Default1</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>CancelEdit</actionName>
@@ -41,6 +41,11 @@
         <actionName>Clone</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
+    </actionOverrides>
+     <actionOverrides>
+        <actionName>Clone1</actionName>
+        <formFactor>Small1</formFactor>
+        <type>Default1</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Delete</actionName>
@@ -139,12 +144,7 @@
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
+    <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>ACC - Custom object to store ANI number</description>
