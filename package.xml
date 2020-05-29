@@ -6,6 +6,7 @@
         <members>A009</members>
         <members>A0233</members>
         <members>A028</members>
+        <members>A29</members>
         <members>CommunitiesLoginController</members>
         <name>ApexClass</name>
     </types>
