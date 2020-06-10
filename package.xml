@@ -204,9 +204,8 @@
         <members>ACC_PartnerProgram__c.PartnerProgram__c</members>
         <members>ACC_PartnerProgram__c.ProgramLevel__c</members>
         <members>ACC_PartnerProgram__c.TECH_UniqueAssignedId__c</members>
-        <members>ALMsample__c.Testfield1__c</members>
         <members>ALMsample__c.WorkItemNum__c</members>
-        <members>ALMsample__c.may08F1__c</members>
+        <members>ALMsample__c.newFiled__c</members>
         <members>ANI__c.ANINumber__c</members>
         <members>ANI__c.Account__c</members>
         <members>ANI__c.Contact__c</members>

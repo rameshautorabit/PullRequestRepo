@@ -2631,18 +2631,8 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
-        <field>ALMsample__c.Testfield1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>ALMsample__c.WorkItemNum__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>ALMsample__c.may08F1__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>

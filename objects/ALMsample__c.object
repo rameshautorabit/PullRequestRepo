@@ -10,10 +10,6 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Accept</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Accept</actionName>
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -151,7 +147,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>June04 Changing the desc</description>
+    <description>DelCheck on Jun10</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -162,17 +158,8 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Testfield1__c</fullName>
-        <description>test</description>
-        <externalId>false</externalId>
-        <label>Testfield1</label>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
         <fullName>WorkItemNum__c</fullName>
-        <description>chnagedescription</description>
+        <description>Changing only desc</description>
         <externalId>false</externalId>
         <label>WorkItemNum</label>
         <trackHistory>false</trackHistory>
@@ -180,13 +167,16 @@
         <type>AutoNumber</type>
     </fields>
     <fields>
-        <fullName>may08F1__c</fullName>
-        <description>Demo1</description>
+        <fullName>newFiled__c</fullName>
+        <description>dasd</description>
         <externalId>false</externalId>
-        <label>may08F1</label>
+        <label>newFiled</label>
+        <length>100</length>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <label>ALMsample</label>
     <nameField>
