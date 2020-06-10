@@ -89,10 +89,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>A028</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>A029</apexClass>
         <enabled>true</enabled>
     </classAccesses>
