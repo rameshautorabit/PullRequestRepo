@@ -5,7 +5,6 @@
         <members>A0</members>
         <members>A009</members>
         <members>A0233</members>
-        <members>A28</members>
         <members>A29</members>
         <members>CommunitiesLoginController</members>
         <name>ApexClass</name>
@@ -205,7 +204,6 @@
         <members>ACC_PartnerProgram__c.ProgramLevel__c</members>
         <members>ACC_PartnerProgram__c.TECH_UniqueAssignedId__c</members>
         <members>ALMsample__c.WorkItemNum__c</members>
-        <members>ALMsample__c.newFiled__c</members>
         <members>ANI__c.ANINumber__c</members>
         <members>ANI__c.Account__c</members>
         <members>ANI__c.Contact__c</members>

@@ -147,7 +147,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>DelCheck on Jun10</description>
+    <description>DelCheck on Jun10dsadsadsad</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -159,24 +159,12 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>WorkItemNum__c</fullName>
-        <description>Changing only desc</description>
+        <description>Changing only descttttt</description>
         <externalId>false</externalId>
         <label>WorkItemNum</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>AutoNumber</type>
-    </fields>
-    <fields>
-        <fullName>newFiled__c</fullName>
-        <description>dasd</description>
-        <externalId>false</externalId>
-        <label>newFiled</label>
-        <length>100</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <label>ALMsample</label>
     <nameField>
