@@ -5,6 +5,7 @@
         <members>A0</members>
         <members>A009</members>
         <members>A0233</members>
+        <members>A030</members>
         <members>A29</members>
         <members>CommunitiesLoginController</members>
         <name>ApexClass</name>
@@ -203,7 +204,7 @@
         <members>ACC_PartnerProgram__c.PartnerProgram__c</members>
         <members>ACC_PartnerProgram__c.ProgramLevel__c</members>
         <members>ACC_PartnerProgram__c.TECH_UniqueAssignedId__c</members>
-        <members>ALMsample__c.WorkItemNum__c</members>
+        <members>ALMsample__c.Jun11Filed1__c</members>
         <members>ANI__c.ANINumber__c</members>
         <members>ANI__c.Account__c</members>
         <members>ANI__c.Contact__c</members>
@@ -40778,7 +40779,6 @@
         <members>Assessment Profile</members>
         <members>Authenticated Website</members>
         <members>CCCFollowupResponse Profile</members>
-        <members>CPQ Profile</members>
         <members>Case Tracker Profile</members>
         <members>Cassini Profile1466910799067</members>
         <members>Chatter External User</members>
@@ -40792,7 +40792,6 @@
         <members>Customer Community Plus User</members>
         <members>Customer Community User</members>
         <members>Customer Portal Manager Custom</members>
-        <members>ELLA Profile</members>
         <members>EasyCVR Profile</members>
         <members>External Identity User</members>
         <members>Extranet I2P Profile</members>

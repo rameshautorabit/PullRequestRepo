@@ -158,13 +158,17 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>WorkItemNum__c</fullName>
-        <description>Changing only descttttt</description>
+        <fullName>Jun11Filed1__c</fullName>
+        <description>Jun11Filed1</description>
         <externalId>false</externalId>
-        <label>WorkItemNum</label>
+        <label>Jun11Filed1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <label>ALMsample</label>
     <nameField>
