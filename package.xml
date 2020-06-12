@@ -3,8 +3,8 @@
     <version>48.0</version>
     <types>
         <members>A0</members>
-        <members>A009</members>
         <members>A0233</members>
+        <members>A029</members>
         <members>A030</members>
         <members>A29</members>
         <members>CommunitiesLoginController</members>
@@ -205,6 +205,7 @@
         <members>ACC_PartnerProgram__c.ProgramLevel__c</members>
         <members>ACC_PartnerProgram__c.TECH_UniqueAssignedId__c</members>
         <members>ALMsample__c.Jun11Filed1__c</members>
+        <members>ALMsample__c.Jun12F1__c</members>
         <members>ANI__c.ANINumber__c</members>
         <members>ANI__c.Account__c</members>
         <members>ANI__c.Contact__c</members>
