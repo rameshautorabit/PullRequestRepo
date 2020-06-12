@@ -24672,6 +24672,11 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>RamsCLabel</members>
+        <members>RamsClabel1</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
         <members>ACC_Channel__c</members>
         <members>ACC_LocalAttribute__c</members>
         <members>ACC_PartnerProgram__c</members>
