@@ -9,6 +9,8 @@
         <members>A1</members>
         <members>A10</members>
         <members>A12</members>
+        <members>AS1</members>
+        <members>AS2</members>
         <members>PREVALIDATION</members>
         <members>Prevalidation1</members>
         <name>ApexClass</name>
@@ -22,6 +24,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Jun19Profile</members>
         <members>RamsFirstProfile1</members>
         <name>Profile</name>
     </types>
