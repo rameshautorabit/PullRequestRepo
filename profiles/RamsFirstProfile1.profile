@@ -48,7 +48,16 @@
         <apexClass>A603</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>PREVALIDATION</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Prevalidation1</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>true</custom>
+    <description>added Desc</description>
     <userLicense>Force.com - Free</userLicense>
     <userPermissions>
         <enabled>true</enabled>

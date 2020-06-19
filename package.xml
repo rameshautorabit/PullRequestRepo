@@ -8,6 +8,8 @@
         <members>A030</members>
         <members>A29</members>
         <members>CommunitiesLoginController</members>
+        <members>PREVALIDATION</members>
+        <members>Prevalidation1</members>
         <name>ApexClass</name>
     </types>
     <types>
