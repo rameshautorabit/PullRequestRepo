@@ -93,10 +93,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>A030</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>A031</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -430,10 +426,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>Oct08test1</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>PREVALIDATION</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>

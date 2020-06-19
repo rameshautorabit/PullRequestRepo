@@ -61,15 +61,16 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>PREVALIDATION</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>Prevalidation1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
     <description>added Desc</description>
+    <loginIpRanges>
+        <description>Test</description>
+        <endAddress>183.82.43.255</endAddress>
+        <startAddress>183.82.43.210</startAddress>
+    </loginIpRanges>
     <userLicense>Force.com - Free</userLicense>
     <userPermissions>
         <enabled>true</enabled>
