@@ -9,6 +9,20 @@
         <members>A1</members>
         <members>A10</members>
         <members>A12</members>
+        <members>PREVALIDATION</members>
+        <members>Prevalidation1</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ALMsample__c.WorkItemNum__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>ALMsample__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>RamsFirstProfile1</members>
+        <name>Profile</name>
     </types>
 </Package>
