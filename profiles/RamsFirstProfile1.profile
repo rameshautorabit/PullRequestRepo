@@ -60,10 +60,6 @@
         <apexClass>ALMBuild3</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>Prevalidation1</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <custom>true</custom>
     <description>added Desc</description>
     <loginIpRanges>

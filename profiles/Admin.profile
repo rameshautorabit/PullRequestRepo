@@ -441,10 +441,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>Prevalidation1</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>Prevalidation2</apexClass>
         <enabled>true</enabled>
     </classAccesses>

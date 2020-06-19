@@ -10,7 +10,6 @@
         <members>ALMBuild2</members>
         <members>ALMBuild3</members>
         <members>CommunitiesLoginController</members>
-        <members>Prevalidation1</members>
         <name>ApexClass</name>
     </types>
     <types>
