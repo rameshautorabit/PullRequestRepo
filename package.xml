@@ -4,12 +4,15 @@
     <types>
         <members>A0</members>
         <members>A0233</members>
+        <members>A023311</members>
         <members>A29</members>
         <members>ALMBuild1</members>
         <members>ALMBuild2</members>
-        <members>ALMBuild3</members>
         <members>CommunitiesLoginController</members>
         <members>Jul01Cls1</members>
+        <members>Jul07Add1</members>
+        <members>Jul07Add2</members>
+        <members>Jul07Add3</members>
         <name>ApexClass</name>
     </types>
     <types>
